@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"\nimport xml.etree.ElementTree as ET\n# Remove entity declarations that block parsing\nwith open\\('/home/shikha/Main/Coding/Prototype 7/ESR-102001.xml', 'r'\\) as f:\n    content = f.read\\(\\)\n\n# Strip DOCTYPE/entity declarations\nimport re\ncontent_clean = re.sub\\(r'<!DOCTYPE[^>]*\\\\[.*?\\\\]>', '', content, flags=re.DOTALL\\)\ncontent_clean = re.sub\\(r'<!DOCTYPE[^>]*>', '', content_clean\\)\n\nroot = ET.fromstring\\(content_clean\\)\n\ndef show_tree\\(el, depth=0, max_depth=4\\):\n    tag = el.tag.split\\('}'\\)[-1] if '}' in el.tag else el.tag\n    attrs = dict\\(el.attrib\\)\n    print\\('  ' * depth + f'<{tag}> {attrs}'\\)\n    if depth < max_depth:\n        for child in list\\(el\\)[:5]:\n            show_tree\\(child, depth+1, max_depth\\)\n        if len\\(list\\(el\\)\\) > 5:\n            print\\('  ' * \\(depth+1\\) + f'... \\({len\\(list\\(el\\)\\)} children total\\)'\\)\n\nshow_tree\\(root, max_depth=3\\)\n\")",
+      "Bash(python3 -c \"\nfrom lxml import etree\nimport re\n\nwith open\\('/home/shikha/Main/Coding/Prototype 7/ESR-102001.xml', 'rb'\\) as f:\n    content = f.read\\(\\)\n\n# Remove DOCTYPE/entity declarations to avoid external entity issues\ncontent_clean = re.sub\\(rb'<!DOCTYPE[^[]*\\\\[.*?\\\\]>', b'', content, flags=re.DOTALL\\)\ncontent_clean = re.sub\\(rb'<!DOCTYPE[^>]*>', b'', content_clean\\)\n\n# Add namespace declarations if needed\n# Try parsing with recover=True\nparser = etree.XMLParser\\(recover=True, resolve_entities=False\\)\nroot = etree.fromstring\\(content_clean, parser=parser\\)\n\ndef show_tree\\(el, depth=0, max_depth=3\\):\n    tag = etree.QName\\(el.tag\\).localname if el.tag else el.tag\n    attrs = {etree.QName\\(k\\).localname: v for k, v in el.attrib.items\\(\\)}\n    print\\('  ' * depth + f'<{tag}> {attrs}'\\)\n    if depth < max_depth:\n        children = list\\(el\\)\n        for child in children[:6]:\n            show_tree\\(child, depth+1, max_depth\\)\n        if len\\(children\\) > 6:\n            print\\('  ' * \\(depth+1\\) + f'... \\({len\\(children\\)} total children\\)'\\)\n\nshow_tree\\(root, max_depth=3\\)\n\")",
+      "Bash(cd \"/home/shikha/Main/Coding/Prototype 7\" && python3 << 'EOF'\n# Simulate what HTML scraping produces from the same articles\n# vs what clean XML extraction gives\n# by degrading the raw XML text to mimic HTML scrape output\n\nfrom pipeline import load_xml, extract_metadata, extract_section_chunks, extract_floats\nimport re\n\nroot = load_xml\\(\"ESR-102001.xml\"\\)\nmeta = extract_metadata\\(root\\)\nchunks = extract_section_chunks\\(root, meta\\)\nfloats = extract_floats\\(root, meta\\)\n\n# Show what an HTML scrape would look like for the same content\nprint\\(\"=== WHAT HTML SCRAPING GIVES \\(simulated\\) ===\\\\n\"\\)\nprint\\(\"No section labels. No metadata. Navigation noise mixed in.\"\\)\nprint\\(\"Figures are just image tags — completely invisible.\\\\n\"\\)\n\n# Simulate: strip structure, mix in noise, no section identity\nhtml_scrape_sim = \"\"\nnoise = [\"Subscribe | Sign In | Access Options\", \"Download PDF\", \"CrossRef citations: 14\"]\nfor i, chunk in enumerate\\(chunks[:2]\\):\n    # Add noise at random points, strip section identity\n    text = chunk[\"chunk_text\"][:300]\n    text = re.sub\\(r'###.*?\\\\n', '', text\\)  # remove subsection headers\n    html_scrape_sim += noise[i % len\\(noise\\)] + \"\\\\n\" + text + \"\\\\n...\\\\n\\\\n\"\n\nprint\\(html_scrape_sim\\)\n\nprint\\(\"=== WHAT CLEAN XML EXTRACTION GIVES ===\\\\n\"\\)\nc = chunks[0]\nprint\\(f\"Section : {c['section_type']} — {c['section_title']}\"\\)\nprint\\(f\"Article : {meta['title'][:60]}\"\\)\nprint\\(f\"Text    : {c['chunk_text'][:200]}...\\\\n\"\\)\n\nprint\\(\"=== WHAT ENRICHED XML GIVES ===\\\\n\"\\)\nprint\\(f\"[AI prefix] This introduction section from Xinyi Mu's 2025 article\"\\)\nprint\\(f\"discusses how collective heating decisions stall due to coordination\"\\)\nprint\\(f\"failures among homeowners, motivating an agent-based model.\"\\)\nprint\\(f\"\\\\n{c['chunk_text'][:200]}...\"\\)\n\nprint\\(\"\\\\n=== FOR FIGURES ===\"\\)\nprint\\(f\"\\\\nHTML scrape  : <img src='gr1.jpg' alt=''>  ← completely unsearchable\"\\)\nprint\\(f\"Raw XML      : Fig. 1 — caption: 'Integrated theoretical framework...'\"\\)\nprint\\(f\"Enriched     : Fig. 1 — AI summary: 'Figure 1 presents an integrated\"\\)\nprint\\(f\"               theoretical framework connecting bounded confidence,\"\\)\nprint\\(f\"               social influence, and dual-process theory to explain\"\\)\nprint\\(f\"               how agents update opinions in the heating transition model.'\"\\)\nEOF)",
+      "Bash(bash /home/shikha/.claude/statusline-command.sh)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -c \"from governance.license_service import check_license, get_institution_summary; print\\(get_institution_summary\\(''uni_edinburgh''\\)\\); print\\(check_license\\(''uni_edinburgh'', {''source'': ''BJ_100828.xml'', ''doi'': ''10.1016/j.bj.2025.100828''}\\)\\); print\\(check_license\\(''tu_berlin'', {''source'': ''BJ_100828.xml''}\\)\\); print\\(check_license\\(''guest'', {''source'': ''ESR-102001.xml''}\\)\\)\")",
+      "Bash(streamlit run:*)",
+      "WebFetch(domain:uxdesign.cc)",
+      "WebSearch",
+      "Bash(python3 -c \"import fastapi, uvicorn; print\\(''fastapi ok''\\)\")",
+      "Bash(npm --version)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(curl -s -X POST http://localhost:8001/search -H \"Content-Type: application/json\" -d '{\"\"\"\"query\"\"\"\":\"\"\"\"PAI-1 in leukemia\"\"\"\",\"\"\"\"institution_id\"\"\"\":\"\"\"\"uni_edinburgh\"\"\"\",\"\"\"\"top_k\"\"\"\":3}')",
+      "Bash(rm -f chat_app.py beacon_demo.py)",
+      "Bash(rm -rf .tmp)",
+      "Bash(find . -type d -name __pycache__ -not -path \"*/node_modules/*\" -exec rm -rf {} +)",
+      "Bash(mv mermaid-diagram.png media/)",
+      "Bash(mv beacon-wireframe.excalidraw \"Beacon-docs/\")",
+      "Bash(python -c \"from api.services.citation_service import get_context, get_foundational_for_sources; ctx = get_context\\(''BJ_100828.xml''\\); print\\(''related:'', len\\(ctx[''related_corpus'']\\), ''same_author:'', len\\(ctx[''by_same_author'']\\), ''foundational:'', len\\(ctx[''foundational'']\\)\\); f = get_foundational_for_sources\\([''BJ_100828.xml'', ''BJ_100885.xml'']\\); print\\(''foundational for 2 sources:'', len\\(f\\)\\)\")",
+      "Bash(curl -s http://localhost:8001/health)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(npx tsc:*)",
+      "Bash(python3 pipeline.py articles/BJ_100833.xml --dry-run --output /tmp/test_BJ_100833.json)",
+      "Bash(python3 pipeline.py articles/ESR-102126.xml --dry-run --output /tmp/test_ESR_102126.json)",
+      "Bash(python3 pipeline.py articles/BJ_100854.xml --dry-run --output /tmp/test_BJ_100854.json)",
+      "Bash(python3 -c \"import rank_bm25; print\\(rank_bm25.__file__\\)\")",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m pip install rank_bm25)",
+      "Bash(python3 experiment.py --top-k 3)",
+      "Bash(python3 tools/demo_comparison.py)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(identify '/home/shikha/Main/Coding/Prototype 7/beacon-ui/public/beacon-logo.png')"
+    ]
+  }
+}

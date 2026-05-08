@@ -1,0 +1,97 @@
+{
+  "institutions": {
+    "uni_edinburgh": {
+      "name": "University of Edinburgh",
+      "avatar": "🏛️",
+      "description": "Full biomedical research access",
+      "collections": {
+        "BJ": "RAG_READ_RAG_SOURCE",
+        "REDOX": "RAG_READ_RAG_SOURCE",
+        "CELREP": "RAG_READ_RAG_SOURCE",
+        "BIOPHA": "RAG_READ_RAG_SOURCE",
+        "GENDIS": "RAG_READ_RAG_SOURCE",
+        "CLNVES": "RAG_READ_RAG_SOURCE",
+        "AJPS": "RAG_READ_RAG_SOURCE",
+        "CTARC": "RAG_READ_RAG_SOURCE"
+      }
+    },
+    "tu_berlin": {
+      "name": "TU Berlin",
+      "avatar": "⚡",
+      "description": "Engineering & energy systems access",
+      "collections": {
+        "ESR": "RAG"
+      }
+    },
+    "global_policy": {
+      "name": "Global Policy Institute",
+      "avatar": "🌍",
+      "description": "Social science and energy policy access",
+      "collections": {
+        "PLAS": "RAG_READ_RAG_SOURCE",
+        "ESR": "RAG"
+      }
+    },
+    "guest": {
+      "name": "Guest",
+      "avatar": "👤",
+      "description": "Open access content only",
+      "collections": {
+        "OA": "OPEN_ACCESS"
+      }
+    }
+  },
+  "open_access_sources": ["BJ_100885.xml", "BJ_100950.xml"],
+  "journals": {
+    "BJ": {
+      "name": "Biochemical Journal",
+      "publisher": "Portland Press",
+      "color": "#7c3aed"
+    },
+    "REDOX": {
+      "name": "Redox Biology",
+      "publisher": "Elsevier",
+      "color": "#dc2626"
+    },
+    "ESR": {
+      "name": "Energy Systems Research",
+      "publisher": "Pleiades Publishing",
+      "color": "#d97706"
+    },
+    "PLAS": {
+      "name": "Project Leadership & Society",
+      "publisher": "Elsevier",
+      "color": "#0891b2"
+    },
+    "CELREP": {
+      "name": "Cell Reports",
+      "publisher": "Elsevier",
+      "color": "#2563eb"
+    },
+    "BIOPHA": {
+      "name": "Biomedicine & Pharmacotherapy",
+      "publisher": "Elsevier",
+      "color": "#059669"
+    },
+    "GENDIS": {
+      "name": "Genes & Diseases",
+      "publisher": "Elsevier",
+      "color": "#db2777"
+    },
+    "CLNVES": {
+      "name": "Clinical and Experimental Medicine",
+      "publisher": "Elsevier",
+      "color": "#78350f"
+    },
+    "AJPS": {
+      "name": "Asian Journal of Pharmaceutical Sciences",
+      "publisher": "Elsevier",
+      "color": "#4f46e5"
+    },
+    "CTARC": {
+      "name": "Clinical and Translational Radiation Oncology",
+      "publisher": "Elsevier",
+      "color": "#ea580c"
+    }
+  }
+}

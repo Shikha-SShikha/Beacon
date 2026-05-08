@@ -1,0 +1,3253 @@
+{
+  "How does social network structure affect collective energy transition decisions?": {
+    "standard": [
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec2-p19",
+        "distance": 0.7555,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "Xinyi Mu",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "2025",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "energy technology",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "bounded confidence rule",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social topology",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social impact theory",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "minority influence theory",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "This design enables the reproduction of observed lags, cascades, and heterogeneous rollout speeds in energy technology adoption without assuming universal information access. In this model, each theor"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec1-p11",
+        "distance": 0.7986,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "district heating",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agent-based model",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Xinyi Mu",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "The policy guidance derived is therefore strategic and heuristic, aimed at identifying key sensitivities and leverage points, rather than providing a prescriptive blueprint. While the specific paramet"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec2-p4",
+        "distance": 0.8137,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "Xinyi Mu",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agent-based model",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "energy behavior",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social topology",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "decision styles",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "micro-level cognition",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "collective outcomes",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "integrative framework",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "These data justify modeling (i) detailed social topology and (ii) heterogeneous decision styles, because both shape who persuades whom and how fast agreement forms. By embedding all these elements in "
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.esr.2025.102001::fig2",
+        "distance": 0.8018,
+        "section": "",
+        "type": "figure",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "three-layer decision-making architecture",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "bounded confidence",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social pressure",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "information diffusion",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "30%",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[CONCEPT: three-layer decision-making architecture] [CONCEPT: bounded confidence] [CONCEPT: social pressure] [CONCEPT: information diffusion] [METRIC: 30%]  Fig. 2: The three-layer decision-making arc"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec1-p2",
+        "distance": 0.8557,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "energy transition projects",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "super-majority vote",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "community persuasion",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social influence",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "technology adoption rates",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[CONCEPT: energy transition projects] [METRIC: super-majority vote] [CONCEPT: community persuasion] [CONCEPT: social influence] [METRIC: technology adoption rates]  This introduction section from the "
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec2-p4",
+        "distance": 0.8561,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "Xinyi Mu",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agent-based model",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "energy behavior",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social topology",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "decision styles",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "micro-level cognition",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "collective outcomes",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "integrative framework",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[CONCEPT: Xinyi Mu] [METHOD: agent-based model] [CONCEPT: energy behavior] [CONCEPT: social topology] [CONCEPT: decision styles] [CONCEPT: micro-level cognition] [CONCEPT: collective outcomes] [CONCEP"
+      }
+    ]
+  },
+  "Hybrid renewable energy system optimization for EV charging stations": {
+    "standard": [
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec1-p16",
+        "distance": 0.5692,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "Solar-Wind Hybrid Energy System",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Ebola Optimization Search Algorithm",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "India",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Electric Vehicle Charging Station",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Levelized Power Supply Price",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "5 kg/h",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "$0.8 per unit of energy",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "15%",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "The method focuses on reducing energy costs and CO 2 emissions, achieving 5 kg/h of CO 2 emissions and a cost of $0.8 per unit of energy, outperforming other existing optimization methods. This paper "
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec1-p14",
+        "distance": 0.5889,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "MATLAB",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Opal-RT",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Energy Management Algorithm",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Malaysia",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "HOMER-Pro",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "hybrid renewable energy system",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "electric vehicle charging",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "BESS",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Simulations in MATLAB and Opal-RT are conducted to evaluate the system, with an Energy Management Algorithm developed to ensure an efficient distribution of power between the PV system, electric vehic"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec3-p0",
+        "distance": 0.6008,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "solar",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "wind",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "EV charging stations",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "photovoltaic systems",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "WTs",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "renewable energy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "resource availability",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "climatic data",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "It is important to carefully examine the accessible power sources that can adequately satisfy the energy requirements of the electric vehicles when establishing an EV charging station. This study cons"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec1-p10",
+        "distance": 0.6251,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "hybrid renewable energy systems",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "EV charging",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "PV-ES infrastructure",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "uncoordinated charging methods",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "standard-rate systems",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "time-of-use strategies",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "two-layer decentralized charging approaches",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "grid conditions",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: hybrid renewable energy systems] [METHOD: EV charging] [CONCEPT: PV-ES infrastructure] [METHOD: uncoordinated charging methods] [METHOD: standard-rate systems] [METHOD: time-of-use strate"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec1-p9",
+        "distance": 0.6388,
+        "section": "introduction",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "hybrid renewable energy systems",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "EV charging",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "microgrid systems",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "India",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "BESS",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Andra Pradesh",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "hydrogen production",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "LCOE",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: hybrid renewable energy systems] [CONCEPT: EV charging] [TECHNOLOGY: microgrid systems] [LOCATION: India] [TECHNOLOGY: BESS] [LOCATION: Andra Pradesh] [METHOD: hydrogen production] [METRI"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec3-p0",
+        "distance": 0.6462,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "solar",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "wind",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "EV charging stations",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "photovoltaic systems",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "WTs",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "renewable energy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "resource availability",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "climatic data",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: solar] [TECHNOLOGY: wind] [LOCATION: EV charging stations] [METHOD: photovoltaic systems] [METHOD: WTs] [CONCEPT: renewable energy] [CONCEPT: resource availability] [CONCEPT: climatic dat"
+      }
+    ]
+  },
+  "TM5614 clinical trial results in chronic myeloid leukemia": {
+    "standard": [
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec7-p1",
+        "distance": 0.5473,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "chronic myeloid leukemia",
+            "type": "DISEASE",
+            "id": "DOID:8552",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "DMR",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TFR",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Based on the pharmacokinetics simulation, it was estimated that the trough value of the blood concentration of TM5614 would reach a steady state after seven days of administration. Thus, we conducted "
+      },
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec9-p1",
+        "distance": 0.5696,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Therefore, we planned a phase III investigator-initiated clinical trial, a multicenter, double-blind, group-comparative study, as a pivotal study for new drug applications. The primary endpoint was to"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec8-p0",
+        "distance": 0.5816,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "BCR::ABL1",
+            "type": "GENE",
+            "id": "25",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "This study enrolled 33 patients with chronic-phase CML treated with a stable daily dose of the first- or second-generation TKIs for at least one year and yielding MMR but not achieving MR4.5. After in"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec8-p0",
+        "distance": 0.5611,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "BCR::ABL1",
+            "type": "GENE",
+            "id": "25",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[DRUG: TM5614] [DISEASE: CML | Disease Ontology:DOID:1036] [DRUG: TKI] [GENE: BCR::ABL1 | NCBI Gene:25]  This TM5614 phase 2 study section from the BJ journal details the outcomes of 33 chronic-phase "
+      },
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec7-p1",
+        "distance": 0.5703,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "chronic myeloid leukemia",
+            "type": "DISEASE",
+            "id": "DOID:8552",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "DMR",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TFR",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[DRUG: TM5614] [DRUG: TKI] [DISEASE: chronic myeloid leukemia | Disease Ontology:DOID:8552] [DISEASE: CML | Disease Ontology:DOID:1036] [DISEASE: DMR] [DISEASE: TFR]  This TM5614 phase II study sectio"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100854::article-10-1016-j-bj-2025-100854-sec9-p1",
+        "distance": 0.6294,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100854.xml",
+        "entities": [
+          {
+            "text": "TM5614",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TKI",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[DRUG: TM5614] [DRUG: TKI] [DISEASE: CML | Disease Ontology:DOID:1036]  This TM5614 phase 3 section from Naoto Takahashi's article outlines a planned clinical trial comparing the efficacy of TKI + TM5"
+      }
+    ]
+  },
+  "PAI-1 inhibition as a therapeutic target in leukemia": {
+    "standard": [
+      {
+        "id": "10.1016-j.bj.2026.100950::article-10-1016-j-bj-2026-100950-sec2-p1",
+        "distance": 0.5773,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100950.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "chronic myeloid leukemia",
+            "type": "DISEASE",
+            "id": "DOID:8552",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "tyrosine kinase inhibitors",
+            "type": "DRUG",
+            "id": "D000092004",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "TKIs",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "These findings support the potential of PAI-1 inhibitors not only in thrombolysis-related conditions but also in oncology and aging-associated pathologies [ 21 ]. ### \u2026 In chronic myeloid leukemia  Ch"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100850::article-10-1016-j-bj-2025-100850-sec3-p0",
+        "distance": 0.6495,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100850.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "melanoma",
+            "type": "DISEASE",
+            "id": "D008545",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "As described above, PAI-1 could serve as a therapeutic target for several cancers, including melanoma. In fact, two clinical trials have already been conducted [ 45 , 46 ], and two additional trials a"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100850::article-10-1016-j-bj-2025-100850-sec1-p1",
+        "distance": 0.737,
+        "section": "introduction",
+        "type": "text",
+        "source": "BJ_100850.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "PD-L1",
+            "type": "PROTEIN",
+            "id": "29126",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "skin cancer",
+            "type": "DISEASE",
+            "id": "DOID:4159",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "JAK/STAT",
+            "type": "SIGNALING_PATHWAY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "TAMs",
+            "type": "CELL_LINE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "cancer-associated fibroblasts",
+            "type": "CELL_LINE",
+            "id": "CVCL_A6UW",
+            "ontology": "Cellosaurus",
+            "source": "gpt"
+          },
+          {
+            "text": "tumor microenvironment",
+            "type": "CELL_LINE",
+            "id": "CVCL_VU37",
+            "ontology": "Cellosaurus",
+            "source": "gpt"
+          },
+          {
+            "text": "angiogenesis",
+            "type": "DISEASE",
+            "id": "D000096482",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Additionally, PAI-1 modulates PD-L1 expression through the JAK/STAT signaling pathway in various tumor cells and stromal cells, such as TAMs and cancer-associated fibroblasts (CAFs) [ 7 , 8 ]. Interes"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.bj.2026.100950::article-10-1016-j-bj-2026-100950-sec2-p1",
+        "distance": 0.6355,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100950.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "chronic myeloid leukemia",
+            "type": "DISEASE",
+            "id": "DOID:8552",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "tyrosine kinase inhibitors",
+            "type": "DRUG",
+            "id": "D000092004",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "CML",
+            "type": "DISEASE",
+            "id": "DOID:1036",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "TKIs",
+            "type": "DRUG",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[PROTEIN: PAI-1 | NCBI Gene:5054] [DISEASE: chronic myeloid leukemia | Disease Ontology:DOID:8552] [DRUG: tyrosine kinase inhibitors | MeSH:D000092004] [DISEASE: CML | Disease Ontology:DOID:1036] [DRU"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100850::tbl1",
+        "distance": 0.7121,
+        "section": "",
+        "type": "table",
+        "source": "BJ_100850.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "Nivolumab",
+            "type": "DRUG",
+            "id": "D000077594",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "melanoma",
+            "type": "DISEASE",
+            "id": "D008545",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "cutaneous angiosarcoma",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "non-small cell lung cancer",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "chronic myeloid leukemia",
+            "type": "DISEASE",
+            "id": "DOID:8552",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "jRCT2021210029",
+            "type": "CELL_LINE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "jRCT2021240049",
+            "type": "CELL_LINE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[PROTEIN: PAI-1 | NCBI Gene:5054] [DRUG: Nivolumab | MeSH:D000077594] [DISEASE: melanoma | MeSH:D008545] [DISEASE: cutaneous angiosarcoma] [DISEASE: non-small cell lung cancer | Disease Ontology:DOID:"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100850::article-10-1016-j-bj-2025-100850-sec3-p0",
+        "distance": 0.7696,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100850.xml",
+        "entities": [
+          {
+            "text": "PAI-1",
+            "type": "PROTEIN",
+            "id": "5054",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "melanoma",
+            "type": "DISEASE",
+            "id": "D008545",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[PROTEIN: PAI-1 | NCBI Gene:5054] [DISEASE: melanoma | MeSH:D008545]  This significance of PAI-1 as a therapeutic target for skin cancers section from Taku Fujimura's article discusses PAI-1's potenti"
+      }
+    ]
+  },
+  "YY1 and ANXA3 nitration in diabetic cardiomyopathy": {
+    "standard": [
+      {
+        "id": "10.1016-j.redox.2026.104085::article-10-1016-j-redox-2026-104085-sec14-p8",
+        "distance": 0.5007,
+        "section": "discussion",
+        "type": "text",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "ANXA3",
+            "type": "PROTEIN",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "T2DM",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "DbCM",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "nitrative stress",
+            "type": "CHEMICAL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Future investigations employing proteomic and transcriptomic sequencing are planned to delineate the molecular mechanisms by which ANXA3 modulates cardiomyocyte autophagy, which holds significant pote"
+      },
+      {
+        "id": "10.1016-j.redox.2026.104085::article-10-1016-j-redox-2026-104085-sec2-p13",
+        "distance": 0.5037,
+        "section": "results",
+        "type": "text",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "YY1",
+            "type": "PROTEIN",
+            "id": "7528",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ANXA3",
+            "type": "GENE",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "diabetic cardiomyopathy",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "ONOO \u2212",
+            "type": "CHEMICAL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "ONOO \u2212 -mediated signaling pathways, potentially involving protein nitration, play a critical role in impairing YY1 protein nuclear translocation and promoting LDs accumulation in diabetic cardiomyopa"
+      },
+      {
+        "id": "10.1016-j.redox.2026.104085::article-10-1016-j-redox-2026-104085-sec2-p12",
+        "distance": 0.5196,
+        "section": "results",
+        "type": "text",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "T2DM",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "YY1",
+            "type": "PROTEIN",
+            "id": "7528",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ANXA3",
+            "type": "GENE",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "HGPA",
+            "type": "CHEMICAL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "AC16",
+            "type": "CELL_LINE",
+            "id": "CVCL_LJ81",
+            "ontology": "Cellosaurus",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "These results suggested that YY1 positively regulated the expression of ANXA3 at the transcriptional level. ### T2DM attenuated the function of YY1 by promoting nitrosative stress  To further investig"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.redox.2026.104085::article-10-1016-j-redox-2026-104085-sec2-p13",
+        "distance": 0.4456,
+        "section": "results",
+        "type": "text",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "YY1",
+            "type": "PROTEIN",
+            "id": "7528",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ANXA3",
+            "type": "GENE",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "diabetic cardiomyopathy",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "ONOO \u2212",
+            "type": "CHEMICAL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[PROTEIN: YY1 | NCBI Gene:7528] [GENE: ANXA3 | NCBI Gene:306] [DISEASE: diabetic cardiomyopathy] [CHEMICAL: ONOO \u2212]  This results section from the study discusses the critical role of nitrated Y 185 r"
+      },
+      {
+        "id": "10.1016-j.redox.2026.104085::article-10-1016-j-redox-2026-104085-sec2-p14",
+        "distance": 0.4747,
+        "section": "results",
+        "type": "text",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "YY1",
+            "type": "GENE",
+            "id": "7528",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ANXA3",
+            "type": "PROTEIN",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "heart failure",
+            "type": "DISEASE",
+            "id": "D006333",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "type 2 diabetes mellitus",
+            "type": "DISEASE",
+            "id": "DOID:9352",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "T2DM",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[GENE: YY1 | NCBI Gene:7528] [PROTEIN: ANXA3 | NCBI Gene:306] [DISEASE: heart failure | MeSH:D006333] [DISEASE: type 2 diabetes mellitus | Disease Ontology:DOID:9352] [DISEASE: T2DM]  This results sec"
+      },
+      {
+        "id": "10.1016-j.redox.2026.104085::fig10",
+        "distance": 0.5235,
+        "section": "",
+        "type": "figure",
+        "source": "REDOX-104085.xml",
+        "entities": [
+          {
+            "text": "YY1",
+            "type": "PROTEIN",
+            "id": "7528",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ANXA3",
+            "type": "GENE",
+            "id": "306",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "AC16",
+            "type": "CELL_LINE",
+            "id": "CVCL_LJ81",
+            "ontology": "Cellosaurus",
+            "source": "gpt"
+          },
+          {
+            "text": "HEK293",
+            "type": "CELL_LINE",
+            "id": "CVCL_0045",
+            "ontology": "Cellosaurus",
+            "source": "gpt"
+          },
+          {
+            "text": "DbCM",
+            "type": "DISEASE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[PROTEIN: YY1 | NCBI Gene:7528] [GENE: ANXA3 | NCBI Gene:306] [CELL_LINE: AC16 | Cellosaurus:CVCL_LJ81] [CELL_LINE: HEK293 | Cellosaurus:CVCL_0045] [DISEASE: DbCM]  Fig. 10: Nitrated YY1 inhibits the "
+      }
+    ]
+  },
+  "ALK translocation FISH detection in non-small cell lung cancer": {
+    "standard": [
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec2-p1",
+        "distance": 0.7272,
+        "section": "introduction",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "EML4-ALK",
+            "type": "GENE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitor",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Therefore, reliable EML4-ALK fusion gene detection is essential to the stratification of patients for ALK inhibitor targeted therapy. Fluorescence in situ hybridization (FISH) is a commonly employed t"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec5-p0",
+        "distance": 0.7543,
+        "section": "discussion",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitors",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "collagen",
+            "type": "CHEMICAL",
+            "id": "D003094",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "ALK inhibitors can effectively treat NSCLC patients with ALK translocations [17\u201319] . Although traditional FISH pretreatment protocols have been applied in ALK translocation tests, autofluorescence of"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec1-p0",
+        "distance": 0.7636,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "non-small cell lung cancer",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitors",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "Fluorescence in situ hybridization",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "extracellular matrix proteins",
+            "type": "CHEMICAL",
+            "id": "D016326",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "elastin",
+            "type": "CHEMICAL",
+            "id": "D004549",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "collagen",
+            "type": "CHEMICAL",
+            "id": "D003094",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "### Scientific background on the subject  Anaplastic lymphoma kinase (ALK) translocations are present in approximately 5% of non-small cell lung cancer (NSCLC) cases and are critical for patient strat"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec1-p0",
+        "distance": 0.767,
+        "section": "other",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "non-small cell lung cancer",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitors",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "Fluorescence in situ hybridization",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "extracellular matrix proteins",
+            "type": "CHEMICAL",
+            "id": "D016326",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "elastin",
+            "type": "CHEMICAL",
+            "id": "D004549",
+            "ontology": "MeSH",
+            "source": "gpt"
+          },
+          {
+            "text": "collagen",
+            "type": "CHEMICAL",
+            "id": "D003094",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[GENE: ALK | NCBI Gene:238] [DISEASE: non-small cell lung cancer | Disease Ontology:DOID:3908] [DISEASE: NSCLC | Disease Ontology:DOID:3908] [DRUG: ALK inhibitors | ChEBI:CHEBI:62434] [METHOD: Fluores"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec2-p1",
+        "distance": 0.8027,
+        "section": "introduction",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "EML4-ALK",
+            "type": "GENE",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitor",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[GENE: EML4-ALK] [GENE: ALK | NCBI Gene:238] [DRUG: ALK inhibitor | ChEBI:CHEBI:62434] [DISEASE: NSCLC | Disease Ontology:DOID:3908]  This introduction section from the article discusses the importanc"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100840::article-10-1016-j-bj-2025-100840-sec5-p0",
+        "distance": 0.8492,
+        "section": "discussion",
+        "type": "text",
+        "source": "BJ_100840.xml",
+        "entities": [
+          {
+            "text": "ALK",
+            "type": "GENE",
+            "id": "238",
+            "ontology": "NCBI Gene",
+            "source": "gpt"
+          },
+          {
+            "text": "NSCLC",
+            "type": "DISEASE",
+            "id": "DOID:3908",
+            "ontology": "Disease Ontology",
+            "source": "gpt"
+          },
+          {
+            "text": "ALK inhibitors",
+            "type": "DRUG",
+            "id": "CHEBI:62434",
+            "ontology": "ChEBI",
+            "source": "gpt"
+          },
+          {
+            "text": "collagen",
+            "type": "CHEMICAL",
+            "id": "D003094",
+            "ontology": "MeSH",
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[GENE: ALK | NCBI Gene:238] [DISEASE: NSCLC | Disease Ontology:DOID:3908] [DRUG: ALK inhibitors | ChEBI:CHEBI:62434] [CHEMICAL: collagen | MeSH:D003094]  This discussion section from the BJ article by"
+      }
+    ]
+  },
+  "How do dark personality traits affect project outcomes?": {
+    "standard": [
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec27-p3",
+        "distance": 0.3364,
+        "section": "conclusion",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [],
+        "snippet": "These characteristics, often defined by negative, deviant, or harmful inclinations, offer a significant psychological perspective for analysing the behaviours of project management professionals. The "
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec21-p16",
+        "distance": 0.3588,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "dark personality traits",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "organizational culture",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "leadership context",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "team composition",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "project complexity",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "cultural context",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "A comprehensive understanding of dark personality in project management requires attention to both the potentially harmful and the strategically advantageous aspects of these traits, particularly in r"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec27-p4",
+        "distance": 0.4037,
+        "section": "conclusion",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "dark personality traits",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "project outcomes",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "project networks",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "PMDP traits",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "In sum, dark personality traits have a profound impact on project results, influencing not only the actions of individual project professionals but also reverberating through the intricate social netw"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec27-p3",
+        "distance": 0.3775,
+        "section": "conclusion",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [],
+        "snippet": "This conclusion section from the article discusses the impact of dark personality traits on decision-making and behaviors in project management professionals, highlighting their psychological implicat"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec2-p6",
+        "distance": 0.4548,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "Dark Triad",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Project manager dark personality (PMDP)",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Rogoza et al., 2022",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Davis and Pinto, 2022",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Henle et al., 2005",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Berry et al., 2007",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[CONCEPT: Dark Triad] [CONCEPT: Project manager dark personality (PMDP)] [METHOD: Rogoza et al., 2022] [METHOD: Davis and Pinto, 2022] [METHOD: Henle et al., 2005] [METHOD: Berry et al., 2007]  This b"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec2-p1",
+        "distance": 0.459,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "Baumeister et al., 2001",
+            "type": "THEORY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Rozin and Royzman, 2001",
+            "type": "THEORY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[THEORY: Baumeister et al., 2001] [THEORY: Rozin and Royzman, 2001]  This background section from the article discusses how dark personality traits in project management negatively impact project succ"
+      }
+    ]
+  },
+  "Paradox of autonomy and control in agile teams": {
+    "standard": [
+      {
+        "id": "10.1016-j.plas.2026.100213::article-10-1016-j-plas-2026-100213-sec1-p1",
+        "distance": 0.4183,
+        "section": "introduction",
+        "type": "text",
+        "source": "PLAS-100213.xml",
+        "entities": [
+          {
+            "text": "Armbruster and Huemann",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Hodgson and Briand",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agile project management",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "self-managed teams",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "autonomy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "control",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agile frameworks",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "individual experiences of autonomy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "This presents a paradox that is difficult to navigate and is not fully addressed in current agile frameworks. In recent years, a growing body of research has examined these dynamics of autonomy and co"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100213::article-10-1016-j-plas-2026-100213-sec8-p2",
+        "distance": 0.4727,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100213.xml",
+        "entities": [
+          {
+            "text": "agile methodologies",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "individual autonomy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "personal preferences",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "empowerment",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "motivation",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agile method",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Tessem, 2014",
+            "type": "TOOL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Delving into the data highlights three main areas of this paradox, which we will present here: individual autonomy and personal preferences, control issues, and roles and tools. ### Individual autonom"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100213::article-10-1016-j-plas-2026-100213-sec28-p0",
+        "distance": 0.5135,
+        "section": "conclusion",
+        "type": "text",
+        "source": "PLAS-100213.xml",
+        "entities": [
+          {
+            "text": "Bjerre",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "2026",
+            "type": "YEAR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agile self-managing teams",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "autonomy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "control",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "multilevel perspective",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "paradoxes",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "organizational levels",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "In analyzing existing literature in the interdisciplinary research area of autonomy and control in agile self-managing teams, this study highlights the complexity of this phenomenon by identifying thr"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.plas.2026.100213::article-10-1016-j-plas-2026-100213-sec2-p5",
+        "distance": 0.4882,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100213.xml",
+        "entities": [],
+        "snippet": "This subsection from the article explores the paradox of autonomy and control in agile projects, focusing on the tensions faced by self-managing teams when taking on responsibilities typically held by"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100213::fig4",
+        "distance": 0.538,
+        "section": "",
+        "type": "figure",
+        "source": "PLAS-100213.xml",
+        "entities": [
+          {
+            "text": "agile projects",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "self-managing teams",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "autonomy versus control",
+            "type": "PARADOX",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "task focus versus social focus",
+            "type": "PARADOX",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "self-management versus oversight",
+            "type": "PARADOX",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[FRAMEWORK: agile projects] [CONCEPT: self-managing teams] [PARADOX: autonomy versus control] [PARADOX: task focus versus social focus] [PARADOX: self-management versus oversight]  Fig. 4: The analysi"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100213::article-10-1016-j-plas-2026-100213-sec27-p5",
+        "distance": 0.5658,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100213.xml",
+        "entities": [
+          {
+            "text": "paradox theory",
+            "type": "THEORY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "self-managing teams",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "autonomy",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "control",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agile",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "project-based contexts",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "theoretical coherence",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "practical relevance",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[THEORY: paradox theory] [CONCEPT: self-managing teams] [CONCEPT: autonomy] [CONCEPT: control] [FRAMEWORK: agile] [FRAMEWORK: project-based contexts] [CONCEPT: theoretical coherence] [CONCEPT: practic"
+      }
+    ]
+  },
+  "What methodology was used to collect and analyse data?": {
+    "standard": [
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec11-p23",
+        "distance": 0.9372,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "Udechukwu Ojiako",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "dark personality traits",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "content analysis",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "reliability",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "validity",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Saunders et al., 2007",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "methodology",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "theoretical approach",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "### Methodical processes adopted in the identified articles  This section examines the methodical processes employed in the 80 identified articles. The methodical process is critical for evaluating th"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec7-p5",
+        "distance": 1.0742,
+        "section": "methods",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "VOSviewer",
+            "type": "TOOL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "van Eck and Waltman",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Appendix A",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "descriptive overview",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "mapping exercise",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "relevant topics",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "interrelationships",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "review and analysis",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "After two rounds of this process, 80 articles were identified as relevant ( Appendix A ). ### Review and analysis  We conducted our analysis in two stages: first, a descriptive overview of the selecte"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec11-p24",
+        "distance": 1.0752,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "Udechukwu Ojiako",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Bendoly et al. (2010)",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Rungtusanatham et al. (2003)",
+            "type": "AUTHOR",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "behavioral theory",
+            "type": "THEORY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "empirical methods",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "project management research",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "PMDP traits",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "field surveys",
+            "type": "TOOL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Notes were taken on each article's methodology and theoretical approach, followed by a group discussion. Table 8  Table 9  The findings suggest that research on PMDP traits predominantly employs empir"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.plas.2026.100214::tbl8",
+        "distance": 1.0067,
+        "section": "",
+        "type": "table",
+        "source": "PLAS-100214.xml",
+        "entities": [],
+        "snippet": "Table 8: Quantitative methods, specifically questionnaire surveys, are employed in 51.90% of the identified articles on dark personality traits in project management, while qualitative methods are use"
+      },
+      {
+        "id": "10.1016-j.bj.2025.100828::article-10-1016-j-bj-2025-100828-sec2-p10",
+        "distance": 1.0233,
+        "section": "methods",
+        "type": "text",
+        "source": "BJ_100828.xml",
+        "entities": [],
+        "snippet": "This Materials and Methods section from the study outlines the data availability and statistical analysis methods employed, including the accession numbers for raw sequencing datasets and the statisti"
+      },
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec7-p5",
+        "distance": 1.092,
+        "section": "methods",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "VOSviewer",
+            "type": "TOOL",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "van Eck and Waltman",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Appendix A",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "descriptive overview",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "mapping exercise",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "relevant topics",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "interrelationships",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "review and analysis",
+            "type": "FRAMEWORK",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TOOL: VOSviewer] [METHOD: van Eck and Waltman] [FRAMEWORK: Appendix A] [CONCEPT: descriptive overview] [METHOD: mapping exercise] [CONCEPT: relevant topics] [CONCEPT: interrelationships] [FRAMEWORK: "
+      }
+    ]
+  },
+  "What are the main conclusions of the study?": {
+    "standard": [
+      {
+        "id": "10.1016-j.ctarc.2025.100913::article-10-1016-j-ctarc-2025-100913-sec0039-p0",
+        "distance": 1.0968,
+        "section": "other",
+        "type": "text",
+        "source": "S2468294225000504.xml",
+        "entities": [],
+        "snippet": "All authors contributed to the study's conception and design. All authors read and approved the final manuscript."
+      },
+      {
+        "id": "10.1016-j.ccc.2026.02.001::article-10-1016-j-ccc-2026-02-001-sec6-p0",
+        "distance": 1.1173,
+        "section": "other",
+        "type": "text",
+        "source": "Proof .xml",
+        "entities": [],
+        "snippet": "L.C. designed the research study. M.G. performed the research. L.C. provided help and advice. L.C. analyzed the data. L.C., M.G. wrote the manuscript. L.C., M.G. reviewed and edited the manuscript. Al"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec4-p2",
+        "distance": 1.1633,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [],
+        "snippet": "Together, these outcomes indicate that the model reproduces key social-influence mechanisms, convergence, bandwagoning, and local segregation, without generating unrealistically high polarization. Rob"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.plas.2026.100214::article-10-1016-j-plas-2026-100214-sec11-p10",
+        "distance": 1.2317,
+        "section": "other",
+        "type": "text",
+        "source": "PLAS-100214.xml",
+        "entities": [
+          {
+            "text": "Dark Triad",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Henrich et al., 2010",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Dini\u0107 et al., 2025",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[CONCEPT: Dark Triad] [METHOD: Henrich et al., 2010] [METHOD: Dini\u0107 et al., 2025]  This findings section from the article analyzes the geographical distribution of contributing countries in research o"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec4-p1",
+        "distance": 1.2626,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "Xinyi Mu",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "2025",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social patterns",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "opinion stability",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "simulated neighborhoods",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "herding behaviors",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "three-layer architecture",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "community energy transition",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[LOCATION: Xinyi Mu] [METRIC: 2025] [CONCEPT: social patterns] [CONCEPT: opinion stability] [LOCATION: simulated neighborhoods] [CONCEPT: herding behaviors] [TECHNOLOGY: three-layer architecture] [CON"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec5-p12",
+        "distance": 1.2673,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [],
+        "snippet": "This results section from the study examines scenario analysis findings, highlighting how positive framing influences adoption rates and opinion movement in collective heat-transition voting, particul"
+      }
+    ]
+  },
+  "What does Figure 1 show in the agent-based model?": {
+    "standard": [
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec2-p4",
+        "distance": 0.8141,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "Xinyi Mu",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "agent-based model",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "energy behavior",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "social topology",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "decision styles",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "micro-level cognition",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "collective outcomes",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "integrative framework",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "These data justify modeling (i) detailed social topology and (ii) heterogeneous decision styles, because both shape who persuades whom and how fast agreement forms. By embedding all these elements in "
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec3-p0",
+        "distance": 0.8343,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "agent-based model",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "bounded confidence principles",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "three-layer opinion formation process",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Building on the above theoretical foundations, an agent-based model (ABM) is developed. A three-layer opinion formation process connects individual-level dynamics to voting intentions, which in turn a"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec3-p10",
+        "distance": 0.8498,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [
+          {
+            "text": "agent-based model",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "small-world network",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Dutch VvE",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "homeowners association",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "Each agent N has (see i Table 2  Each style modulates the relative weights ( ) in Layer 1 and the step size \u03b1 , \u03b2 , \u03b3 in Layer 2, as \u0394 V I Table 3 ### Network topology  The agent population is fixed a"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec3-p9",
+        "distance": 0.7695,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [],
+        "snippet": "This model structure section from the article discusses the attributes of agents in the agent-based model, detailing their distribution in neighborhoods and the modulation of weights and step sizes ac"
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec3-p19",
+        "distance": 0.8396,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [],
+        "snippet": "This model structure section from the article details the simulation flow, outlining the discrete steps of interaction, similarity checking, opinion updating, and adjustments to trust and uncertainty "
+      },
+      {
+        "id": "10.1016-j.esr.2025.102001::article-10-1016-j-esr-2025-102001-sec2-p2",
+        "distance": 0.8571,
+        "section": "other",
+        "type": "text",
+        "source": "ESR-102001.xml",
+        "entities": [],
+        "snippet": "This theoretical framework section from Xinyi Mu's article outlines key theories and model components for the agent-based model, highlighting bounded confidence, social pressure, and information diffu"
+      }
+    ]
+  },
+  "What performance metrics are shown in the EV charging station results tables?": {
+    "standard": [
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p37",
+        "distance": 0.505,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "electric vehicle charging sessions",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "charging patterns",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "efficiencies",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "hybrid renewable energy systems",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Bangladesh",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "### EV charging session analysis  Table 15"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p43",
+        "distance": 0.7515,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "EV charging station",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Cox's Bazar",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "session management",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "grid demand",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "18.4 kW",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "56.7%",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "14-15 kW",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "6:00 a.m. to 8:00",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "The station manages 45.4 sessions per day, with a peak power demand of 18.4 kW, and has a utilization factor of 56.7%. The daily EV load profile scenario of the station is presented in Fig. 27  Fig. 2"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p51",
+        "distance": 0.7795,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "electric vehicle",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "kWh",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Session no. 48",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "January 2nd",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "12:00 a.m.",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "6 h",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "easy bike",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "BS1",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "The steady increase in kWh supplied indicates a gradual and controlled charging process. Similarly, Fig. 32  Fig. 32 (b) and (c) present the EV charging profile for a single session (Session no. 48) o"
+      }
+    ],
+    "beacon": [
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p43",
+        "distance": 0.7455,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "EV charging station",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Cox's Bazar",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "session management",
+            "type": "METHOD",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "grid demand",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "18.4 kW",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "56.7%",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "14-15 kW",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "6:00 a.m. to 8:00",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: EV charging station] [LOCATION: Cox's Bazar] [METHOD: session management] [CONCEPT: grid demand] [METRIC: 18.4 kW] [METRIC: 56.7%] [METRIC: 14-15 kW] [METRIC: 6:00 a.m. to 8:00]  This res"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p42",
+        "distance": 0.7562,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "EV charging station",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Cox's Bazar",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "annual sessions",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "energy output",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "utilization factor",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "peak power",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CS1",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "CS2",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: EV charging station] [LOCATION: Cox's Bazar] [METRIC: annual sessions] [METRIC: energy output] [METRIC: utilization factor] [METRIC: peak power] [CONCEPT: CS1] [CONCEPT: CS2]  This result"
+      },
+      {
+        "id": "10.1016-j.esr.2026.102126::article-10-1016-j-esr-2026-102126-sec4-p37",
+        "distance": 0.7594,
+        "section": "results",
+        "type": "text",
+        "source": "ESR-102126.xml",
+        "entities": [
+          {
+            "text": "electric vehicle charging sessions",
+            "type": "TECHNOLOGY",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "charging patterns",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "efficiencies",
+            "type": "METRIC",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "hybrid renewable energy systems",
+            "type": "CONCEPT",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          },
+          {
+            "text": "Bangladesh",
+            "type": "LOCATION",
+            "id": null,
+            "ontology": null,
+            "source": "gpt"
+          }
+        ],
+        "snippet": "[TECHNOLOGY: electric vehicle charging sessions] [CONCEPT: charging patterns] [METRIC: efficiencies] [CONCEPT: hybrid renewable energy systems] [LOCATION: Bangladesh]  This results section from the ar"
+      }
+    ]
+  }
+}

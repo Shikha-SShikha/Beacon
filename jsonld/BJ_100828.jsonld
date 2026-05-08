@@ -1,0 +1,3392 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "beacon": "https://beacon-enrichment.io/vocab#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "ncbigene": "https://www.ncbi.nlm.nih.gov/gene/",
+    "mesh": "https://id.nlm.nih.gov/mesh/",
+    "doid": "http://purl.obolibrary.org/obo/DOID_",
+    "chebi": "http://purl.obolibrary.org/obo/CHEBI_",
+    "taxon": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=",
+    "cvcl": "https://www.cellosaurus.org/"
+  },
+  "@type": "schema:ScholarlyArticle",
+  "schema:name": "Defining epitranscriptomic hallmarks at the host-parasite interface and their roles in virulence and disease progression in Theileria annulata -infected leukocytes.",
+  "schema:datePublished": "2025-01-02",
+  "schema:isPartOf": {
+    "@type": "schema:Periodical",
+    "schema:name": "BJ"
+  },
+  "beacon:sourceFile": "BJ_100828.xml",
+  "beacon:totalRelations": 120,
+  "beacon:enrichedBy": "Beacon Enrichment Pipeline",
+  "@id": "https://doi.org/10.1016/j.bj.2025.100828",
+  "schema:identifier": "10.1016/j.bj.2025.100828",
+  "schema:author": [
+    {
+      "@type": "schema:Person",
+      "schema:name": "Malak Haidar"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Tobias Mourier"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Rahul Salunke"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Abhinav Kaushik"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Fathia Ben-Rached"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Sara Mfarrej"
+    },
+    {
+      "@type": "schema:Person",
+      "schema:name": "Arnab Pain"
+    }
+  ],
+  "schema:abstract": "Theileria parasites are known to induce the transformation of host bovine leukocytes, involved in rapid proliferation, evasion from apoptotic mechanisms, and increased dissemination. In this study, we reveal the involvement of m 6 A RNA modification in T. annulata infection-induced transformation of bovine leukocytes. We conducted m 6 A sequencing and bioinformatics analysis to map the mRNA methylation patterns of T. annulata -infected host leukocytes. We observe specific mRNA modifications for T. annulata -infected leukocytes and a strong correlation between the proliferation rate of the infected Leukocytes with m 6 A modifications We observe that the increased amounts of m 6 A seem to impact some cell cycle dynamics, potentially via modifications of E2F4 mRNA. Moreover, we further identify HIF-1α as a possible driver of these m 6 A RNA modifications that have clear relevance to cellular proliferation dynamics. Overall, our results provide insights into the role of m6A mRNA methylation in the molecular crosstalk between Theileria and their host leukocytes, emphasizing the critical role of mRNA methylation in host-parasite interaction.",
+  "schema:keywords": [
+    "Theileri a",
+    "m 6 A",
+    "HIF1α",
+    "proliferation"
+  ],
+  "schema:mentions": [
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Theileria annulata",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "tropical theileriosis",
+      "beacon:entityType": "DISEASE",
+      "@id": "http://purl.obolibrary.org/obo/DOID_3733"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Apicomplexa",
+      "beacon:entityType": "GENE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "leukoproliferative diseases",
+      "beacon:entityType": "DISEASE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "N 6 -methyladenosine",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_17196"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "m 6 A",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_33423"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "epitranscriptome",
+      "beacon:entityType": "GENE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "parasitic protists",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "mammals",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "m6A",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "DNA damage response",
+      "beacon:entityType": "BIOLOGICAL_PROCESS"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "cell fate determination",
+      "beacon:entityType": "BIOLOGICAL_PROCESS"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "innate immunity",
+      "beacon:entityType": "BIOLOGICAL_PROCESS"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "tumorigenesis",
+      "beacon:entityType": "BIOLOGICAL_PROCESS"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "METTL3",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "METTL14",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/57721"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "WTAP",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/9589"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "RBM15",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/64783"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "YTH domain family proteins",
+      "beacon:entityType": "PROTEIN"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "mRNA",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "leukocytes",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_M029"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "BL20",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_L859"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "TBL20",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_2G83"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Ode",
+      "beacon:entityType": "CELL_LINE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "RPMI 1640",
+      "beacon:entityType": "CHEMICAL"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "l-glutamine",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18050"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Hepes",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "https://id.nlm.nih.gov/mesh/D006531"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "FBS",
+      "beacon:entityType": "CHEMICAL"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "b-mercaptoethanol",
+      "beacon:entityType": "CHEMICAL"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "HIF-1α",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Theileria",
+      "beacon:entityType": "ORGANISM",
+      "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "PX478",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "BioRad",
+      "beacon:entityType": "CELL_LINE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "trypan blue",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "https://id.nlm.nih.gov/mesh/D014343"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "NaCl",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_26710"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "EDTA",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_64755"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Nonidet P40",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_78708"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "SDS",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_8984"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Sodium deoxycholate",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_9177"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Complete mini EDTA free",
+      "beacon:entityType": "DRUG",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_4735"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "PhosSTOP",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "actin",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/31521"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Nucleofector",
+      "beacon:entityType": "CELL_LINE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Nucleofector V",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_16414"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CRISPR",
+      "beacon:entityType": "DRUG",
+      "@id": "https://id.nlm.nih.gov/mesh/D000076987"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "PureLink RNA Mini Kit",
+      "beacon:entityType": "DRUG",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Bioanalyzer 2100",
+      "beacon:entityType": "DEVICE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Qubit",
+      "beacon:entityType": "DEVICE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Life Technologies",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Invitrogen",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "GAPDH",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/2597"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "High-Capacity cDNA Reverse Transcription Kit",
+      "beacon:entityType": "CHEMICAL"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Fast SYBR Green Master Mix",
+      "beacon:entityType": "CHEMICAL"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "7500 HT Fast Real-Time PCR System",
+      "beacon:entityType": "EQUIPMENT"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Applied Biosystems",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "METTL3",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "PI",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "https://id.nlm.nih.gov/mesh/D051549"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "EpiQuik™ m6A RNA Methylation Quantification Kit",
+      "beacon:entityType": "DRUG",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "BD FACSDiva™ Software",
+      "beacon:entityType": "CELL_LINE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "EpiQuik CUT&RUN m6A RNA Enrichment",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "EpiGentek",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "T. annulata",
+      "beacon:entityType": "ORGANISM"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "macrophages",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "B-cells",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Vm",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_0B29"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "genes",
+      "beacon:entityType": "GENE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "V",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/145402217"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Vm",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/32026"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "A",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/553113"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "merozoites",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_KR63"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "TBL3",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_2G82"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "V",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_E1HI"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CRISPRa",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CRISPR CAS9",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "B20",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_B0MC"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "adenosine triphosphate",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "https://id.nlm.nih.gov/mesh/D000255"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CDC2",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/983"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CDK1",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/983"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CCNB1",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/891"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "CCNB2",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/9133"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "BUB1",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/699"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "E2F4",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/1874"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "YTHDF1",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/54915"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "hepatocellular carcinoma",
+      "beacon:entityType": "DISEASE",
+      "@id": "http://purl.obolibrary.org/obo/DOID_684"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "merozoite-producing macrophages",
+      "beacon:entityType": "CELL_LINE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "virulent macrophages",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_E7C1"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "PX-478",
+      "beacon:entityType": "DRUG"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ADAMs",
+      "beacon:entityType": "PROTEIN"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ADAM19",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/8728"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ADA",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/100"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "Theileria",
+      "beacon:entityType": "GENE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "apoptosis",
+      "beacon:entityType": "DISEASE",
+      "@id": "https://id.nlm.nih.gov/mesh/D017209"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "B cells",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ELISA",
+      "beacon:entityType": "METHOD"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "MeRIP-seq",
+      "beacon:entityType": "METHOD"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "A",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_6479"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "YTHDF1",
+      "beacon:entityType": "PROTEIN",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/54915"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ADAM19",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/8728"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "bovine macrophages",
+      "beacon:entityType": "CELL_LINE",
+      "@id": "https://www.cellosaurus.org/CVCL_B6PF"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "m6A RNA methylation",
+      "beacon:entityType": "CHEMICAL",
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "T. annulata infections",
+      "beacon:entityType": "DISEASE"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "wtap",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/9589"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "rbm15",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/64783"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "alkbh5",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/54890"
+    },
+    {
+      "@type": "schema:Thing",
+      "schema:name": "ythdf3",
+      "beacon:entityType": "GENE",
+      "@id": "https://www.ncbi.nlm.nih.gov/gene/253943"
+    }
+  ],
+  "schema:hasPart": [
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p0",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from the article discusses Theileria annulata, its classification as an intracellular protozoan, its role as a tick-borne hemoparasite causing tropical theileriosis in cattle, and its ability to transform host cells by hijacking signaling pathways.\n\nTheileria annulata is an intracellular protozoan and a member of the phylum Apicomplexa . T. annulata, a tick-borne hemoparasite [1] , causes leukoproliferative diseases [2] in cattle, commonly known as tropical theileriosis. Theileria parasites have significant impacts on both animal and human welfare. Uniquely, they can transform their host cells by profoundly hijacking their signaling cascades [3] , leading to cancer-like phenotype characterized by immortalization, hyper-proliferation, and aggressive dissemination. However, dissemination can be attenuated by multiple in vitro passages [4] . Theileria parasites are recognized as master manipulators of their host cells, as reviewed in [5] . They modify host gene expression through both post-transcriptional and post-translational mechanisms to support their development [6] .",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "tropical theileriosis",
+          "beacon:entityType": "DISEASE",
+          "@id": "http://purl.obolibrary.org/obo/DOID_3733"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Apicomplexa",
+          "beacon:entityType": "GENE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukoproliferative diseases",
+          "beacon:entityType": "DISEASE"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "causes",
+          "beacon:object": "tropical theileriosis",
+          "beacon:evidence": "T. annulata...causes leukoproliferative diseases in cattle, commonly known as tropical theileriosis."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "is",
+          "beacon:object": "an intracellular protozoan",
+          "beacon:evidence": "Theileria annulata is an intracellular protozoan and a member of the phylum Apicomplexa."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "is",
+          "beacon:object": "a tick-borne hemoparasite",
+          "beacon:evidence": "T. annulata, a tick-borne hemoparasite."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria parasites",
+          "beacon:predicate": "can",
+          "beacon:object": "transform their host cells",
+          "beacon:evidence": "they can transform their host cells by profoundly hijacking their signaling cascades."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p1",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from the article outlines the mechanisms by which epitranscriptomic modifications impact host gene expression and their significance in regulating cellular processes relevant to Theileria annulata infection.\n\nThey modify host gene expression through both post-transcriptional and post-translational mechanisms to support their development [6] . Epigenetic regulation, which encompasses histone modifications, DNA modifications, and non-coding RNAs, plays pivotal roles in gene expression control [7] — influencing cell homeostasis, differentiation, and development [8] . Additionally, an emerging epigenetic perspective suggests similar chemical modification processes on both mRNA and other RNA types [9] . While epigenetic alterations of DNA and chromatin are studied across a spectrum of organisms, including parasitic protists and mammals, the 'epitranscriptome,' notably reversible RNA modifications [10] , remains relatively unexplored except in select mammalian species and some model organisms [8] .",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p2",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from Malak Haidar's 2025 article discusses the limited exploration of the 'epitranscriptome,' particularly focusing on reversible RNA modifications like N 6 -methyladenosine (m 6 A) in various organisms, including parasitic protists.\n\nWhile epigenetic alterations of DNA and chromatin are studied across a spectrum of organisms, including parasitic protists and mammals, the 'epitranscriptome,' notably reversible RNA modifications [10] , remains relatively unexplored except in select mammalian species and some model organisms [8] . N 6 -methyladenosine (m 6 A) stands out as a predominant, reversible modification found on eukaryotic mRNA [11] . The relative abundance of m 6 A in mRNA transcripts impacts RNA processes such as splicing [12] , nuclear export [13] , RNA degradation [14] and translation [15] . Furthermore, m 6 A plays a crucial role in several biological operations, including the DNA damage response [16] , determination of cell fate [17] , innate immunity [18] and tumorigenesis , as reviewed in [19] .",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "N 6 -methyladenosine",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_17196"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m 6 A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_33423"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "epitranscriptome",
+          "beacon:entityType": "GENE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "parasitic protists",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mammals",
+          "beacon:entityType": "ORGANISM"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "N 6 -methyladenosine",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "eukaryotic mRNA",
+          "beacon:evidence": "N 6 -methyladenosine (m 6 A) stands out as a predominant, reversible modification found on eukaryotic mRNA."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m 6 A",
+          "beacon:predicate": "impacts",
+          "beacon:object": "RNA processes",
+          "beacon:evidence": "The relative abundance of m 6 A in mRNA transcripts impacts RNA processes such as splicing."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m 6 A",
+          "beacon:predicate": "plays",
+          "beacon:object": "a crucial role",
+          "beacon:evidence": "m 6 A plays a crucial role in several biological."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p3",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from Malak Haidar's 2025 article discusses the significance of m6A RNA modifications in biological processes such as DNA damage response, cell fate determination, innate immunity, and tumorigenesis, highlighting their role in cellular functions.\n\nFurthermore, m 6 A plays a crucial role in several biological operations, including the DNA damage response [16] , determination of cell fate [17] , innate immunity [18] and tumorigenesis , as reviewed in [19] . m 6 A RNA modifications are essential in numerous biological activities [20-24] . The presence and extent of RNA methylation vary across cell types, affecting specific mRNA targets, methylation intensity, and site selection. Intriguingly, m 6 A peaks can aggregate in distinct regions, serving various biological functions [25] .",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "DNA damage response",
+          "beacon:entityType": "BIOLOGICAL_PROCESS"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "cell fate determination",
+          "beacon:entityType": "BIOLOGICAL_PROCESS"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "innate immunity",
+          "beacon:entityType": "BIOLOGICAL_PROCESS"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "tumorigenesis",
+          "beacon:entityType": "BIOLOGICAL_PROCESS"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "regulates",
+          "beacon:object": "DNA damage response",
+          "beacon:evidence": "m6A plays a crucial role in several biological operations, including the DNA damage response"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p4",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from a study on Theileria annulata discusses the role of m6A methyltransferase complexes, highlighting the functions of METTL3, METTL14, and WTAP in m6A mRNA modifications relevant to host-parasite interactions.\n\nIntriguingly, m 6 A peaks can aggregate in distinct regions, serving various biological functions [25] . m 6 A methyltransferase complexes oversee all m 6 A mRNA modifications. Central to the complex is a heterodimer comprising two writer-proteins: METTL3 and METTL14. METTL3 is the catalytic core, while METTL14 provides structural support. WTAP (Wilms' Tumor 1-Associating Protein) stabilizes this core. RNA-Binding Motif protein 15 (RBM15) assists in guiding the complex to its targets. Conversely, \"erasers\" such as the fat mass and obesity-associated protein (FTO) and alkB homolog 5 (ALKBH5) function as demethylases, removing m 6 A marks. Several m6A-binding proteins, including YTHDF1–3 and YTHDC1, are identified as m 6 A \"readers\" [26-29] . YTH domain family proteins might interact with unique subsets of m6A sites, leading to diverse gene expression outcomes [30] .",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL14",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/57721"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "WTAP",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/9589"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "RBM15",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/64783"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "interacts_with",
+          "beacon:object": "METTL14",
+          "beacon:evidence": "Central to the complex is a heterodimer comprising two writer-proteins: METTL3 and METTL14."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "stabilizes",
+          "beacon:object": "METTL14",
+          "beacon:evidence": "METTL14 provides structural support."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "WTAP",
+          "beacon:predicate": "stabilizes",
+          "beacon:object": "METTL3",
+          "beacon:evidence": "WTAP (Wilms' Tumor 1-Associating Protein) stabilizes this core."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "RBM15",
+          "beacon:predicate": "interacts_with",
+          "beacon:object": "METTL3",
+          "beacon:evidence": "RBM15 assists in guiding the complex to its targets."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec1-p5",
+      "beacon:sectionType": "introduction",
+      "schema:text": "This introduction section from Malak Haidar's 2025 BJ article explores the role of YTH domain family proteins in m6A modifications of host cell mRNA in the context of Theileria annulata infection, highlighting implications for gene expression and host-parasite dynamics.\n\nYTH domain family proteins might interact with unique subsets of m6A sites, leading to diverse gene expression outcomes [30] . Our study seeks to discern the influence of parasite infection on host cell mRNA m 6 A modifications using T. annulata -infected leukocytes. We also aim to understand the biological significance of m 6 A modifications in the parasite-host interaction dynamics. By employing transcriptome-wide high-throughput deep m 6 A-seq and the MACS2 algorithm (Model-Based Analysis of ChIP-Seq), we identified various mRNA methylation patterns. Additionally, we highlighted the unique characteristics of specific and shared methylations in the virulent phenotype induced by Theileria infection, modulating m 6 A levels through CRISPR-CAS9-mediated activation technologies.",
+      "schema:name": "Introduction:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "YTH domain family proteins",
+          "beacon:entityType": "PROTEIN"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "YTH domain family proteins",
+          "beacon:predicate": "interacts_with",
+          "beacon:object": "m6A sites",
+          "beacon:evidence": "YTH domain family proteins might interact with unique subsets of m6A sites"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "infects",
+          "beacon:object": "leukocytes",
+          "beacon:evidence": "using T. annulata -infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A modifications",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "gene expression",
+          "beacon:evidence": "highlighting implications for gene expression and host-parasite dynamics"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p0",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the article details the cell culture conditions for BL20, TBL20 B lymphocytes, and Ode macrophages, including the specific media components and supplements used for optimal growth.\n\nCell Culture: BL20 [31] , TBL20 B lymphocytes, and Ode macrophages [32] were cultured in RPMI 1640 medium supplemented with 2 mM l-glutamine (Lonza, cat. no. 12-702F), 10 mM Hepes (Lonza, cat. no. 17-737E), 10% heat-inactivated FBS (Gibco, cat. no. 10082147), 100 units/mL of Penicillin, 100 μg/mL of streptomycin (Lonza, cat. no. 17-602E), and 10 mM b-mercaptoethanol (Sigma-Aldrich, cat. no. M6250) BL20/TBL20. The virulent (V) hyper-disseminating Ode cell line was utilized at passages 53–71, while its attenuated (A) counterpart was at passages 309–317. Vm pertains to virulent macroschizont-infected macrophages cultivated at 41°C (instead of 37°C) for 4-6 days, inducing macroschizonts to develop into merozoites (Mero). During this period, host cell proliferation stops. For pharmacological inhibition of HIF-1α, Theileria -infected cells were treated with 100 μM of PX478 (MedKoo Biosciences) for up to 16 h.",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Ode",
+          "beacon:entityType": "CELL_LINE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "RPMI 1640",
+          "beacon:entityType": "CHEMICAL"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "l-glutamine",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_18050"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Hepes",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "https://id.nlm.nih.gov/mesh/D006531"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "FBS",
+          "beacon:entityType": "CHEMICAL"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "b-mercaptoethanol",
+          "beacon:entityType": "CHEMICAL"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p1",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from Malak Haidar's 2025 study details the pharmacological inhibition of HIF-1α in Theileria-infected cells and outlines the procedures for cell counting and ATP assay to ensure consistent cell concentration.\n\nFor pharmacological inhibition of HIF-1α, Theileria -infected cells were treated with 100 μM of PX478 (MedKoo Biosciences) for up to 16 h. Cell Counting and ATP Assay: To count the number of cells, we employed the TC20 automated cell counter from BioRad. We ensured the cell concentration remained consistent at approximately 1 to 2 × 10ˆ5 cells/mL. The TC20 cell counter quickly provides a comprehensive cell count (with or without the aid of trypan blue staining) and evaluates cell viability using the trypan blue exclusion method. For assessing cell viability, we utilized the ATPlite Luminescence Assay (PerkinElmer). This assay offers a uniform method to determine the number of viable cells in a culture by measuring the ATP content, indicative of metabolically active cells. We conducted all experiments three times independently, each in duplicate. Error bars depict the standard error of the mean (SEM) across the three biological replicates.",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "PX478",
+          "beacon:entityType": "DRUG"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BioRad",
+          "beacon:entityType": "CELL_LINE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "trypan blue",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "https://id.nlm.nih.gov/mesh/D014343"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "inhibits",
+          "beacon:object": "Theileria-infected cells",
+          "beacon:evidence": "pharmacological inhibition of HIF-1α in Theileria-infected cells"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "PX478",
+          "beacon:predicate": "treats",
+          "beacon:object": "Theileria-infected cells",
+          "beacon:evidence": "Theileria -infected cells were treated with 100 μM of PX478"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "TC20 automated cell counter",
+          "beacon:predicate": "produces",
+          "beacon:object": "comprehensive cell count",
+          "beacon:evidence": "TC20 cell counter quickly provides a comprehensive cell count"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "trypan blue",
+          "beacon:predicate": "evaluates",
+          "beacon:object": "cell viability",
+          "beacon:evidence": "evaluates cell viability using the trypan blue exclusion method"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "ATPlite Luminescence Assay",
+          "beacon:predicate": "utilizes",
+          "beacon:object": "cell viability",
+          "beacon:evidence": "we utilized the ATPlite Luminescence Assay (PerkinElmer) for assessing cell viability"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p2",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study by Malak Haidar details the Western Blot Analysis procedure, including cell harvesting and lysis using specific buffers and protease inhibitors for evaluating epitranscriptomic hallmarks in leukocytes.\n\nError bars depict the standard error of the mean (SEM) across the three biological replicates. Western Blot Analysis: After specific treatments, cells were harvested and lysed using a buffer containing Hepes 20 mM (pH 8), NaCl 150 mM, EDTA 2 mM, Nonidet P40 1%, SDS 0.1%, Sodium deoxycholate 0.5% with protease inhibitors (Complete mini EDTA free, Roche) and phosphatase (PhosSTOP, Roche). Lysates were centrifuged at 13,000 rpm for 15 min at 4°C, collecting the supernatants. Proteins were separated using SDS-PAGE, transferred to a nitrocellulose membrane (Protran, Whatman) at 30V overnight at 4°C, and blocked with 4% skim milk for 1 h. The antibodies used were anti-HIF-1α (Abcam, ab2185), anti-METTL3 (SAB2104747, Sigma Aldrich ) and anti-actin (I-19, Santa Cruz Biotechnology).",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Hepes",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "https://id.nlm.nih.gov/mesh/D006531"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "NaCl",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_26710"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "EDTA",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_64755"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Nonidet P40",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_78708"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "SDS",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_8984"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Sodium deoxycholate",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_9177"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Complete mini EDTA free",
+          "beacon:entityType": "DRUG",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_4735"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "PhosSTOP",
+          "beacon:entityType": "DRUG"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Hepes",
+          "beacon:predicate": "binds",
+          "beacon:object": "buffer",
+          "beacon:evidence": "buffer containing Hepes 20 mM (pH 8)"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p3",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study details the antibodies used and the transient transfection process for macrophages, including the specific electroporation technique and reagents involved.\n\nThe antibodies used were anti-HIF-1α (Abcam, ab2185), anti-METTL3 (SAB2104747, Sigma Aldrich ) and anti-actin (I-19, Santa Cruz Biotechnology). Transient Transfection: Macrophages underwent electroporation using the Nucleofector system (Amaxa Biosystems). Approximately 5 x 105 cells were suspended in 100 μL of Nucleofector V solution mix (Lonza, cat. no. VCA-1003) with 2 μg of METTL3 (Santa Cruz Biotechnologies, cat. no. sc-437359-ACT). Alternatively, a negative control CRISPR activation plasmid (sc-437275) was used for nucleofection using the T-O17 program. Post-transfection, cells were reintroduced into fresh complete medium and incubated at 37°C with 5% CO 2 .",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "actin",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/31521"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Nucleofector",
+          "beacon:entityType": "CELL_LINE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Nucleofector V",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_16414"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CRISPR",
+          "beacon:entityType": "DRUG",
+          "@id": "https://id.nlm.nih.gov/mesh/D000076987"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "produces",
+          "beacon:object": "2 μg of METTL3",
+          "beacon:evidence": "2 μg of METTL3 (Santa Cruz Biotechnologies, cat. no. sc-437359-ACT)"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p4",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study details the procedures followed for cell post-transfection and the evaluation of macrophage dissemination capacity using a matrigel migration assay.\n\nPost-transfection, cells were reintroduced into fresh complete medium and incubated at 37°C with 5% CO 2 . Matrigel Chamber Assay: Ode macrophage dissemination capacity was evaluated in vitro using matrigel migration chambers. The assay was executed as per the Culturex instructions (Trevigen, cat. no. 3482-096-K). Following 24 h of incubation at 37°C, each top chamber well was rinsed once. Afterward, the top chamber was returned to the receiver plate, and 100 μL of cell dissociation solution AM was added to the lower chamber. This was followed by a 37°C incubation for 1 h with fluorescently labeled cells for dissociation from the membrane, before reading at wavelengths of 485 nm excitation and 520 nm emission.",
+      "schema:name": "Materials and Methods"
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p5",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from Malak Haidar's study details the incubation procedure for fluorescently labeled cells and outlines the RNA extraction process using the PureLink RNA Mini Kit.\n\nThis was followed by a 37°C incubation for 1 h with fluorescently labeled cells for dissociation from the membrane, before reading at wavelengths of 485 nm excitation and 520 nm emission. RNA Extraction: Cells were cultivated in triplicate at a density of 2.5 x 105 cells/ml. RNA was extracted using the PureLink RNA Mini Kit (Life Technologies, cat. no. 12183018A) as per the manufacturer's guidelines. The RNA's quality was assessed using a Bioanalyzer 2100, and quantified with Qubit (Invitrogen, cat. no. Q10210).",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "PureLink RNA Mini Kit",
+          "beacon:entityType": "DRUG",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Bioanalyzer 2100",
+          "beacon:entityType": "DEVICE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Qubit",
+          "beacon:entityType": "DEVICE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Life Technologies",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Invitrogen",
+          "beacon:entityType": "ORGANISM"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "RNA",
+          "beacon:predicate": "extracted_using",
+          "beacon:object": "PureLink RNA Mini Kit",
+          "beacon:evidence": "RNA was extracted using the PureLink RNA Mini Kit (Life Technologies, cat. no. 12183018A)"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p6",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from Malak Haidar's 2025 article details the qRT-PCR procedure used for analyzing RNA from Theileria annulata-infected leukocytes, including reagents and equipment employed for the transcription and amplification processes.\n\nQ10210). qRT-PCR: Total RNA was reverse transcribed with the High-Capacity cDNA Reverse Transcription Kit (Applied Biosystems, cat. no. 4368814). Real-time PCR involved a cDNA template, Fast SYBR Green Master Mix, and forward and reverse primers. The PCR was executed on the 7500 HT Fast Real-Time PCR System (Applied Biosystems). GAPDH served as a reference gene, and results were evaluated via the 2 −ΔΔCT method with three biological replicates.",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "GAPDH",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/2597"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "High-Capacity cDNA Reverse Transcription Kit",
+          "beacon:entityType": "CHEMICAL"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Fast SYBR Green Master Mix",
+          "beacon:entityType": "CHEMICAL"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "7500 HT Fast Real-Time PCR System",
+          "beacon:entityType": "EQUIPMENT"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Applied Biosystems",
+          "beacon:entityType": "ORGANISM"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "GAPDH",
+          "beacon:predicate": "serves",
+          "beacon:object": "reference gene",
+          "beacon:evidence": "GAPDH served as a reference gene"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p7",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study describes the use of GAPDH as a reference gene and outlines the cell cycle analysis of Theileria-infected macrophages, detailing the transfection process and cell preparation for flow cytometry.\n\nGAPDH served as a reference gene, and results were evaluated via the 2 −ΔΔCT method with three biological replicates. Cell Cycle Analysis using Flow Cytometry: Theileria -infected macrophages, transfected with METTL3 CRISPR activation or a negative control plasmid, were seeded into 6-well plates and cultured for 48 h. Subsequently, cells were centrifuged and rinsed twice with cold PBS before being fixed in 70% pre-chilled ethanol overnight at -20°C. After fixation, cells were washed again with cold PBS, then stained with a solution containing PI (50 μg/mL) and RNase A (100 μg/mL), for 30 min at 4°C, protected from light. The stained cells were then analyzed using a flow cytometer (BD LSR Fortessa). Cell populations in the sub-G1 (G0), G1, S, and G2/M phases were categorized and analyzed based on their DNA content using the BD FACSDiva™ Software (BD Biosciences).",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "GAPDH",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/2597"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "PI",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "https://id.nlm.nih.gov/mesh/D051549"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "GAPDH",
+          "beacon:predicate": "serves",
+          "beacon:object": "reference gene",
+          "beacon:evidence": "GAPDH served as a reference gene"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p8",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study by Malak Haidar describes the analysis of cell population phases and the quantification of m6A modifications in RNA from Theileria-infected leukocytes using specific software and a methylation quantification kit.\n\nCell populations in the sub-G1 (G0), G1, S, and G2/M phases were categorized and analyzed based on their DNA content using the BD FACSDiva™ Software (BD Biosciences). Quantitation of m6A Levels: m6A modifications in RNA samples from Theileria -infected leukocytes were quantified using the EpiQuik™ m6A RNA Methylation Quantification Kit (EpiGentek, P-9005-96). In this procedure, total RNA is immobilized onto strip wells using an RNA high-binding solution. The presence of m6A is identified using a specific N6-methyladenosine capture antibody followed by a detection antibody. The resulting signal is amplified and subsequently quantified colorimetrically by measuring the absorbance at a wavelength of 450 nm using a microplate spectrophotometer.",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "EpiQuik™ m6A RNA Methylation Quantification Kit",
+          "beacon:entityType": "DRUG",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BD FACSDiva™ Software",
+          "beacon:entityType": "CELL_LINE"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "m6A modifications",
+          "beacon:evidence": "m6A modifications in RNA samples from Theileria-infected leukocytes"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p9",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the article outlines the colorimetric quantification of signals and describes the MeRIPseq process for isolating and enriching mRNA from Theileria-infected leukocytes.\n\nThe resulting signal is amplified and subsequently quantified colorimetrically by measuring the absorbance at a wavelength of 450 nm using a microplate spectrophotometer. MeRIPseq and Data Analysis: Total RNA was isolated from Theileria -infected leukocytes and assessed for quality. mRNA was enriched using EpiQuik CUT&RUN m6A RNA Enrichment (MeRIP) Kit (EpiGentek, P-9018) as per the manufacturer’s instructions. Briefly, RNA sequences in both ends of the target m6A-containing regions are cleaved/removed, and the target m6A-containing fragments are pulled down using a beads-bound m6A capture antibody. The enriched RNA is then released, purified, and eluted. RNAseq libraries were constructed with Truseq stranded RNA LT kit (Illumina) as per the manufacturer and sequencing was performed on an Illumina HiSeq 4000 system. RNA-Seq read were trimmed with trimmomatic [33] and first mapped against the human genome (hg38) [34] using bowtie2 [35] . With the samtools and bedtools suites (PMID: 19505943; PMID: 20110278), unmapped reads were retrieved and subsequently mapped against the cow genome (Btau_4.6.1) [36] . Methylated regions were predicted with the callpeak function in macs2 ( https://github.com/macs3-project/MACS ) [37] using the immunoprecipitated and control data. Differentially expressed genes were determined from the control data using Deseq2 [38] . The raw sequencing datasets generated in this study are available in the European Nucleotide Archive (ENA) with the following accession numbers: PRJEB72277.",
+      "schema:name": "Materials and Methods",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "EpiQuik CUT&RUN m6A RNA Enrichment",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "EpiGentek",
+          "beacon:entityType": "DRUG"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "EpiQuik CUT&RUN m6A RNA Enrichment",
+          "beacon:predicate": "uses",
+          "beacon:object": "EpiGentek",
+          "beacon:evidence": "EpiQuik CUT&RUN m6A RNA Enrichment (MeRIP) Kit (EpiGentek, P-9018)"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec2-p10",
+      "beacon:sectionType": "methods",
+      "schema:text": "This Materials and Methods section from the study details the availability of sequencing datasets and outlines the statistical analyses employed for data representation and comparisons among groups.\n\nThe raw sequencing datasets generated in this study are available in the European Nucleotide Archive (ENA) with the following accession numbers: PRJEB72277. Statistical analysis: Data are represented as mean values with their standard error of the mean (SEM). For comparisons involving two groups, an unpaired Student t-test was utilized. When comparing three or more groups, a one-way ANOVA was employed. A significance level of P<0.05 was established for all statistical assessments. The software used for these analyses was GraphPad Prism 9.",
+      "schema:name": "Materials and Methods"
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p0",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study outlines how T. annulata infection impacts mRNA methylation patterns in bovine host leukocytes, contributing to changes in cellular behavior such as proliferation and apoptosis resistance.\n\n### T. annulata infection alters bovine mRNA methylation in host leukocytes\n\nTheileria parasites are recognized for altering the phenotype of host leukocytes, leading to uncontrolled proliferation, apoptosis resistance, and heightened invasiveness/dissemination [39 ] . While we, along with others, have pinpointed components of the disrupted transcriptomes in Theileria -infected macrophages and B-cells [40, 41] , the capacity of the parasite to alter the mRNA methylome of its transformed host leukocyte remains unexplored.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "T. annulata infection alters bovine mRNA methylation in host leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "B-cells",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "alters",
+          "beacon:object": "bovine mRNA methylation",
+          "beacon:evidence": "T. annulata infection alters bovine mRNA methylation in host leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "impacts",
+          "beacon:object": "mRNA methylation patterns",
+          "beacon:evidence": "T. annulata infection impacts mRNA methylation patterns in bovine host leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "leads to",
+          "beacon:object": "uncontrolled proliferation",
+          "beacon:evidence": "altering the phenotype of host leukocytes, leading to uncontrolled proliferation."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "leads to",
+          "beacon:object": "apoptosis resistance",
+          "beacon:evidence": "altering the phenotype of host leukocytes, leading to apoptosis resistance."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p1",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study by Malak Haidar explores how T. annulata infection influences mRNA methylation in bovine leukocytes, highlighting a gap in understanding the parasite’s impact on host transcriptomes.\n\nWhile we, along with others, have pinpointed components of the disrupted transcriptomes in Theileria -infected macrophages and B-cells [40, 41] , the capacity of the parasite to alter the mRNA methylome of its transformed host leukocyte remains unexplored. To gain a comprehensive insight into m 6 A mRNA methylation patterns across various T. annulata -infected cell lines, we used the ELISA assay to measure m 6 A RNA methylation levels. We extracted total RNA from virulent (V) and attenuated (A) macrophages, merozoite-producing macrophages (Vm), and infected B-cells (TBL20), as well as their non-infected counterparts (BL20) for this assay. Intriguingly, merozoite-producing macrophages (Vm and Am) exhibited higher m6A percentages than both virulent and attenuated macrophages ( Figure. 1 Theileria -infected B cells (TBL20) had a reduced m 6 A percentage compared to their uninfected BL20 counterparts ( Figure. 1 A, right).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "T. annulata infection alters bovine mRNA methylation in host leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m 6 A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_33423"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "B-cells",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "influences",
+          "beacon:object": "mRNA methylation",
+          "beacon:evidence": "T. annulata infection influences mRNA methylation in bovine leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "alter",
+          "beacon:object": "mRNA methylome",
+          "beacon:evidence": "capacity of the parasite to alter the mRNA methylome of its transformed host leukocyte remains unexplored."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m 6 A",
+          "beacon:predicate": "methylation patterns",
+          "beacon:object": "T. annulata -infected cell lines",
+          "beacon:evidence": "m 6 A mRNA methylation patterns across various T. annulata -infected cell lines."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "macrophages",
+          "beacon:predicate": "disrupted transcriptomes",
+          "beacon:object": "Theileria -infected",
+          "beacon:evidence": "components of the disrupted transcriptomes in Theileria -infected macrophages and B-cells."
+        }
+      ],
+      "beacon:figureRefs": [
+        "fig1"
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p2",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study explores how T. annulata infection impacts m6A methylation patterns in bovine host leukocytes, utilizing m6A-seq analyses to assess changes in mRNA expression levels.\n\n1 A, right). To further understand the role of m6A methylation as an epigenetic marker in T. annulata -infected leukocytes, we conducted transcriptome-wide m6A-seq (MeRIP-seq) analyses. This method detects methylated regions as peaks in transcript coverage by comparing immunoprecipitated RNA to input RNA. Our assessment of the influence of m6A methylation' on mRNA expression found no difference in expression levels between methylated and non-methylated mRNAs ( Figure.1B ). Notably, while ELISA assays showed increased m6A percentages in merozoite-producing macrophages (Vm) compared to virulent (V) and attenuated (A) macrophages, the MeRIP-seq analyses indicated higher m6A peaks in proliferating V and A macrophages than in proliferation arresting Vm. However, this high level is not statistically significant. It's important to highlight that ELISA offers a bulk measurement of m6A modification, representing an average m6A level across an entire RNA sample. In comparison, MeRIP-seq delivers a detailed, transcriptome-wide view of m6A sites, ensuring precise detection and quantification of m6A at specific sites throughout the transcriptome. This distinction could account for the observed discrepancy in our results. However, both techniques identified clear differences in m6A levels between proliferating V/A macrophages and proliferation-arresting Vm. For further validation, we analyzed the expression profiles of methyltransferases, writers, demethylases, and readers, specifically mettl3 , wtap , alkbh5 , ythdc1 , ythdf1 , and ythdf3 . This was executed between BL20 and TBL20 and solely in virulent versus Vm, as there was no discernible difference in m6A percentages between virulent and attenuated macrophages. Remarkably, mRNA expression levels of methyltransferases, demethylases, and readers were elevated in merozoites relative to virulent macrophages ( Figure 2 Theileria -infected B cells (TBL20) when compared to the non-infected BL20 ( Figure. 2 B).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "T. annulata infection alters bovine mRNA methylation in host leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Vm",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_0B29"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "impacts",
+          "beacon:object": "m6A methylation patterns",
+          "beacon:evidence": "T. annulata infection impacts m6A methylation patterns in bovine host leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "shows",
+          "beacon:object": "increased percentages in merozoite-producing macrophages (Vm)",
+          "beacon:evidence": "ELISA assays showed increased m6A percentages in merozoite-producing macrophages (Vm) compared to virulent (V) and attenuated (A) macrophages."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "indicates",
+          "beacon:object": "higher m6A peaks",
+          "beacon:evidence": "the MeRIP-seq analyses indicated higher m6A peaks in prolife."
+        }
+      ],
+      "beacon:figureRefs": [
+        "fig2"
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p3",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study investigates the relationship between m6A methylation and differential gene expression, revealing that 232 out of 4161 evaluated genes display significant differential expression in Theileria annulata-infected leukocytes.\n\n2 B). ### Association Between m6A Methylation and Differential Gene Expression\n\nTo explore the potential relationships between m6A methylation and differential gene expression (DE), our analysis began by comparing different gene sets. In the V vs. A comparison, of the 4161 genes evaluated, 232 were found to be differentially expressed in either direction, representing approximately 10.8% of the total. However, when narrowing our focus to just those genes with m6A marks, 314 out of the 2785 genes showed differential expression, translating to approximately 11.3%. Utilizing a binomial distribution test to ascertain the probability of observing 314 DE genes out of 2785 (given a baseline DE probability of 0.108 derived from the entire gene set), we arrived at a p-value of 0.2252. This result indicates that the frequency of differential expression in genes with m6A modifications does not significantly deviate from what would be expected based on the overall gene set.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "genes",
+          "beacon:entityType": "GENE"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "differential gene expression",
+          "beacon:evidence": "the relationship between m6A methylation and differential gene expression"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p4",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from Malak Haidar's study discusses the association of m6A methylation with differential gene expression in Theileria annulata-infected leukocytes, highlighting significant findings from specific gene comparisons.\n\nThis result indicates that the frequency of differential expression in genes with m6A modifications does not significantly deviate from what would be expected based on the overall gene set. In stark contrast, the comparison of V vs. Vm and V vs. A returned p-values of 0.0222 and 0.00414, respectively. These Figures suggest that, in these comparisons, genes exhibiting m6A peaks are differentially expressed more often than one would expect by chance or based on the probabilities inherent to the entire gene set ( Figure 3",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "V",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/145402217"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Vm",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/32026"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "A",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/553113"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "differential gene expression",
+          "beacon:evidence": "association of m6A methylation with differential gene expression in Theileria annulata-infected leukocytes"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p5",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from the study explores the association between m6A methylation and differential gene expression in Theileria annulata-infected leukocytes, highlighting a correlation between m6A peaks and gene up-regulation.\n\nThese Figures suggest that, in these comparisons, genes exhibiting m6A peaks are differentially expressed more often than one would expect by chance or based on the probabilities inherent to the entire gene set ( Figure 3 Diving deeper, we sought to uncover any potential links between the presence of m6A in one sample and the up-regulation of genes in another, guided by the notion that methylation might suppress mRNA abundance. For the V vs A comparison, 218 out of the 4161 genes were found to be up-regulated in the A sample, which corresponds to roughly 5.24%. Among the 531 genes that were exclusively methylated in V, 29 (or about 5.46%) were up-regulated in A. The probability of witnessing 29 DE genes (those up-regulated specifically in V) out of 531, with an inherent up-regulation chance of 5.24%, yields a p-value of 0.436, suggesting no significant association. An analogous test, focusing on genes uniquely methylated in A that were up-regulated in V, produced a p-value of 0.744. The V vs Vm comparison ( Figure. 3 A, middle panel) revealed no significant enrichment for genes uniquely marked with m6A in V that were up-regulated in Vm (p-value: 0.513). However, the reverse comparison, Vm vs V, highlighted an enrichment for genes marked exclusively with m6A in Vm that were up-regulated in V (p-value: 0.0163). Moreover, a marked enrichment was observed for genes uniquely bearing m6A marks in Vm and up-regulated in A (p-value: 0.0382) ( Figure. 3 A, bottom panel).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "gene up-regulation",
+          "beacon:evidence": "highlighting a correlation between m6A peaks and gene up-regulation."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "suppresses",
+          "beacon:object": "mRNA abundance",
+          "beacon:evidence": "guided by the notion that methylation might suppress mRNA abundance."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "infects",
+          "beacon:object": "leukocytes",
+          "beacon:evidence": "Theileria annulata-infected leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "genes",
+          "beacon:predicate": "exhibiting",
+          "beacon:object": "m6A peaks",
+          "beacon:evidence": "genes exhibiting m6A peaks are differentially expressed."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "genes",
+          "beacon:predicate": "up-regulated",
+          "beacon:object": "A sample",
+          "beacon:evidence": "218 out of the 4161 genes were found to be up-regulated in the A sample."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p6",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from Malak Haidar's study explores the potential link between m6A methylation of mRNA and the down-regulation of genes in proliferation-arresting macrophages related to Theileria annulata infection.\n\n3 A, bottom panel). While the data might not present a conclusive picture, there's a suggestion that m6A methylation of mRNA by genes expressed in proliferation-arresting macrophages induced to produce merozoites might be associated with their down-regulation.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "merozoites",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_KR63"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "methylates",
+          "beacon:object": "mRNA",
+          "beacon:evidence": "m6A methylation of mRNA"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p7",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from the study investigates the correlation between m6A methylation and gene expression in BL20 and TBL20 samples, highlighting a significant overlap in genes modified by m6A in both parasite-infected leukocyte types.\n\nIn our analysis, for both BL20 and TBL20 samples, we focused on the top 5% of genes showcasing the highest ratio of m6A modification relative to reference samples, postulating that this subset represents genes that undergo m6A methylation. Remarkably, considerable overlap was observed between these gene subsets, indicating that genes modified by m6A in BL20 are frequently modified similarly in TBL20. This observation aligns well with our previous approach.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modifies",
+          "beacon:object": "genes in BL20",
+          "beacon:evidence": "genes modified by m6A in BL20 are frequently modified similarly in TBL20."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modifies",
+          "beacon:object": "genes in TBL20",
+          "beacon:evidence": "genes modified by m6A in BL20 are frequently modified similarly in TBL20."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p8",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from the study explores the association between m6A methylation and differential gene expression in Theileria annulata-infected leukocytes, highlighting the identification of genes uniquely modified by m6A in different sample groups.\n\nThis observation aligns well with our previous approach. Subsequently, we identified genes exclusively modified by m6A in either BL20 or TBL20, but not in both. For these distinct gene sets, we plotted the ratios of expression levels between TBL20 and BL20 reference samples. As visualized in the upper left section of ( Figure. 3 B&C, genes exclusively modified by m6A in TBL20/TBL3 (depicted by the orange curve and labeled 'high m6A in TBL20/TBL3 only') manifest a noticeable skewness towards reduced TBL20/BL20 expression ratios. This has been annotated as ‘DOWN in TBL20/TBL3’ beneath the graph. However, an alternate interpretation could be an up-regulation in BL20/BL3. Conversely, genes solely modified by m6A in BL20 (represented by the blue curve) exhibited the opposing pattern. Intriguingly, this pattern suggests that genes undergoing m6A modification in TBL20/TBL3 tend to be down-regulated in TBL20/TBL3, while those modified in BL20/ BL3 mirror this down-regulation in BL20/ BL3. To quantitatively assess the differences in medians between the two distributions, we employed the Mann-Whitney U test, and the corresponding p-values have been provided on the plots for clarity. It's paramount to note that this is a broad observation, and individual genes might exhibit distinct behaviors.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "Association Between m6A Methylation and Differential Gene Expression",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL3",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G82"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "differential gene expression",
+          "beacon:evidence": "association between m6A methylation and differential gene expression in Theileria annulata-infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modifies",
+          "beacon:object": "genes",
+          "beacon:evidence": "genes uniquely modified by m6A in different sample groups"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modifies",
+          "beacon:object": "genes",
+          "beacon:evidence": "genes exclusively modified by m6A in either BL20 or TBL20, but not in both"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "genes",
+          "beacon:predicate": "produces",
+          "beacon:object": "reduced TBL20/BL20 expression ratios",
+          "beacon:evidence": "manifest a noticeable skewness towards reduced TBL20/BL20 expression ratios"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p9",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study on Theileria annulata details how m6A modification promotes the proliferation of infected leukocytes, highlighting the impact of T. annulata on host B cell dynamics.\n\nIt's paramount to note that this is a broad observation, and individual genes might exhibit distinct behaviors. ### m6A modification enhances the proliferation of Theileria -infected leukocytes\n\nTheileria can transform host leukocytes and induce their uncontrolled proliferation. Infection of BL20 B cells by T. annulata to give TBL20 increases B cell proliferation, whereas when T. annulata -infected macrophages (V) are induced to produce merozoites macrophages (Vm) proliferation arrests [42] . Observing that m6A levels rise in the more proliferative TBL20 B cells and decline in the arrested Vm macrophages, we postulated a correlation between m 6 A levels and host cell proliferative activity.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m6A modification enhances the proliferation of Theileria -infected leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "merozoites",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_KR63"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "V",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_E1HI"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "promotes",
+          "beacon:object": "the proliferation of infected leukocytes",
+          "beacon:evidence": "m6A modification promotes the proliferation of infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "increases",
+          "beacon:object": "B cell proliferation",
+          "beacon:evidence": "T. annulata to give TBL20 increases B cell proliferation"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata -infected macrophages (V)",
+          "beacon:predicate": "arrests",
+          "beacon:object": "macrophages (Vm) proliferation",
+          "beacon:evidence": "T. annulata -infected macrophages (V) are induced to produce merozoites macrophages (Vm) proliferation arrests"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A levels",
+          "beacon:predicate": "rise",
+          "beacon:object": "the more proliferative TBL20 B cells",
+          "beacon:evidence": "m6A levels rise in the more proliferative TBL20 B cells"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A levels",
+          "beacon:predicate": "decline",
+          "beacon:object": "the arrested Vm macrophages",
+          "beacon:evidence": "m6A levels ... decline in the arrested Vm macrophages"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p10",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the 2025 BJ article details the correlation between m6A modification levels and the proliferation of Theileria-infected leukocytes, emphasizing experimental approaches to enhance METTL3 expression through CRISPRa in virulent macrophages and TBL20 B cells.\n\nObserving that m6A levels rise in the more proliferative TBL20 B cells and decline in the arrested Vm macrophages, we postulated a correlation between m 6 A levels and host cell proliferative activity. To test this hypothesis, we overexpressed METTL3 in virulent macrophages and in infected TBL20 B cells using a CRISPR CAS9 activation (CRISPRa) system [43] . Using qRT-PCR and western blot analysis, we confirmed that transfection of Theileria -infected leukocytes with a METTL3-specific CRISPRa plasmid led to increased METTL3 expression ( Figure 4 6 A in virulent macrophages ( Figure. 4 A, right).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m6A modification enhances the proliferation of Theileria -infected leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Vm",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_0B29"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CRISPRa",
+          "beacon:entityType": "DRUG"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CRISPR CAS9",
+          "beacon:entityType": "DRUG"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "proliferation of Theileria-infected leukocytes",
+          "beacon:evidence": "correlation between m6A modification levels and the proliferation of Theileria-infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "produces",
+          "beacon:object": "increased METTL3 expression",
+          "beacon:evidence": "transfection of Theileria-infected leukocytes with a METTL3-specific CRISPRa plasmid led to increased METTL3 expression"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "CRISPRa",
+          "beacon:predicate": "activates",
+          "beacon:object": "METTL3",
+          "beacon:evidence": "overexpressed METTL3 in virulent macrophages and in infected TBL20 B cells using a CRISPR CAS9 activation (CRISPRa) system"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "TBL20",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "more proliferative B cells",
+          "beacon:evidence": "m6A levels rise in the more proliferative TBL20 B cells"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Vm",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "arrested macrophages",
+          "beacon:evidence": "m6A levels decline in the arrested Vm macrophages"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p11",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study investigates the effects of m6A modification on the proliferation of Theileria annulata-infected leukocytes, revealing that METTL3 overexpression significantly decreases their proliferation rates.\n\n4 A, right). Subsequently, we assessed the consequences of increased m 6 A modification on host cell proliferation. Proliferation rates were determined through cell counting and viability using an adenosine triphosphate (ATP) bioluminescence assay. Importantly, METTL3 overexpression resulted in a significant decrease in proliferation of both T. annulata -infected macrophages and B20 cells (TBL20) ( Figure. 4 B, left). In contrast, cells transfected with an empty CRISPRa plasmid showed no such change, highlighting the importance of m 6 A methylation in promoting host cell proliferation. The ATP bioluminescence results indicated that T. annulata -infected leukocytes, upon transfection with the METTL3 CRISPRa plasmid, displayed the same vitality compared to those transfected with the empty CRISPRa plasmid ( Figure. 5 Figure. 4 C, left & Fig. S1)).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m6A modification enhances the proliferation of Theileria -infected leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "B20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B0MC"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "adenosine triphosphate",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "https://id.nlm.nih.gov/mesh/D000255"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "regulates",
+          "beacon:object": "proliferation of Theileria annulata-infected leukocytes",
+          "beacon:evidence": "METTL3 overexpression significantly decreases their proliferation rates."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "promotes",
+          "beacon:object": "host cell proliferation",
+          "beacon:evidence": "highlighting the importance of m 6 A methylation in promoting host cell proliferation."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "produces",
+          "beacon:object": "m6A",
+          "beacon:evidence": "the effects of m6A modification on the proliferation of Theileria annulata-infected leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "infects",
+          "beacon:object": "macrophages",
+          "beacon:evidence": "significant decrease in proliferation of both T. annulata -infected macrophages."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "B20",
+          "beacon:predicate": "is associated_with",
+          "beacon:object": "TBL20",
+          "beacon:evidence": "B20 cells (TBL20)"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p12",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from Malak Haidar's study highlights the role of m6A modification in enhancing the proliferation of Theileria-infected leukocytes, focusing on specific bovine mRNAs related to cell cycle regulation.\n\nS1)). Acknowledging that host cell proliferation is pivotal in Theileria -mediated pathogenesis [44] , we sifted through our Me-RIP dataset to identify m6A-modified bovine mRNAs transcribed by genes integral to G2 and G2/M phase modulation such as CDC2, CDK1, CCNB1, CCNB2, BUB1, BUB1B, and CDC25B,Cyclin B1,E2F4 [45, 46] . Among these, only the E2F transcription factor family member (E2F4) bore m6A modifications. Earlier research affirmed that E2F4 partly functions as a transcriptional catalyst, regulating the expression of cell cycle-associated genes [47] . Notably, our meRIP-seq dataset revealed heightened levels of methylated E2F4 mRNA relative to its non-methylated counterpart. To validate the hypothesis that m6A modification modulates E2F4 expression, we quantified E2F4 mRNA levels post METTL3 overexpression in virulent macrophages. E2F4 expression heightens in conjunction with rising m6A levels ( Figure.4C , right). For more confirmation, we looked for genes known to be regulated by E2F4 in bovine cells [48, 49] , but we could only identify four genes: SIRT5, mTOR, SREBP‐1c (gene is SREBF1), and Cyclin D1 (gene is CCND1). We indicated SIRT5, mTOR, and SREBP‐1c on a volcano plot (Fig. S2). None of these genes show significant differential gene expression (DGE), but they are all downregulated in Vm compared to V. We then examined a ChIP-Seq study from humans [50] . This study identified 16,246 peaks (putative E2F4 binding sites) in the hg18 genome. Using this annotation, we found that 4,739 human genes have peaks within their 250 bp upstream region. Of these, we identified 3,960 corresponding bovine genes in our RNA DEseq output. Upon examining these bovine genes, where the human version has an upstream putative E2F4 binding site, we observed that 43 are upregulated and 114 are downregulated. Over 72% of these DGE genes are downregulated (corresponding to the repressor activity of E2F4) compared to the rest of the DGE genes, of which only approximately 35% are downregulated. This finding is highly significant (attached, bottom plot) and suggests that genes potentially regulated by E2F4 are downregulated in Vm (Fig. S2). Collectively, these findings reinforce the notion that m6A modulates cell cycle dynamics via E2F4 mRNA modifications.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m6A modification enhances the proliferation of Theileria -infected leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CDC2",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/983"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CDK1",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/983"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CCNB1",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "CCNB2",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/9133"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BUB1",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/699"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "E2F4",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/1874"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "E2F4",
+          "beacon:predicate": "regulates",
+          "beacon:object": "the expression of cell cycle-associated genes",
+          "beacon:evidence": "E2F4 partly functions as a transcriptional catalyst, regulating the expression of cell cycle-associated genes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "enhances",
+          "beacon:object": "the proliferation of Theileria-infected leukocytes",
+          "beacon:evidence": "the role of m6A modification in enhancing the proliferation of Theileria-infected leukocytes."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "E2F4",
+          "beacon:predicate": "bears",
+          "beacon:object": "m6A modifications",
+          "beacon:evidence": "only the E2F transcription factor family member (E2F4) bore m6A modifications."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "E2F4",
+          "beacon:predicate": "produces",
+          "beacon:object": "methylated E2F4 mRNA",
+          "beacon:evidence": "our meRIP-seq dataset revealed heightened levels of methylated E2F4 mRNA."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p13",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the study by Malak Haidar discusses how HIF-1α influences the proliferation of Theileria-infected leukocytes through m6A-RNA methylation, highlighting higher levels in attenuated macrophages compared to virulent forms.\n\nCollectively, these findings reinforce the notion that m6A modulates cell cycle dynamics via E2F4 mRNA modifications. ### HIF-1α-promotes proliferation of Theileria -infected leukocytes by inducing m6A-RNA methylation\n\nHIF-1α levels are significantly higher in attenuated macrophages than in their virulent counterparts, even after losing their tumorigenic phenotype [51] . Pharmacological inhibition of HIF-1α is found to prevent the proliferation of Theileria -infected macrophages [51] . Additionally, HIF-1α inhibition in T. annulata -infected B cells abolishes their ability to form colonies in soft agar, most likely due to growth arrest [52] . Importantly, HIF-1α has been shown to enhance the expression of WTAP leading to a change in m 6 A distribution and boosting cell proliferation in acute myeloid leukemia [53] . HIF-1α also directly binds to the promoter region of YTHDF1, regulating its transcription under hypoxic conditions in hepatocellular carcinoma [54] .",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "HIF-1α-promotes proliferation of Theileria -infected leukocytes by inducing m6A-RNA methylation",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "E2F4",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/1874"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "promotes",
+          "beacon:object": "proliferation of Theileria-infected leukocytes",
+          "beacon:evidence": "HIF-1α-promotes proliferation of Theileria -infected leukocytes by inducing m6A-RNA methylation"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "inhibits",
+          "beacon:object": "proliferation of Theileria-infected macrophages",
+          "beacon:evidence": "Pharmacological inhibition of HIF-1α is found to prevent the proliferation of Theileria -infected macrophages"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "inhibits",
+          "beacon:object": "ability to form colonies in soft agar",
+          "beacon:evidence": "HIF-1α inhibition in T. annulata -infected B cells abolishes their ability to form colonies in soft agar"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p14",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from the article discusses how HIF-1α regulates m6A-RNA methylation, highlighting its role in the proliferation of Theileria-infected leukocytes under hypoxic conditions.\n\nHIF-1α also directly binds to the promoter region of YTHDF1, regulating its transcription under hypoxic conditions in hepatocellular carcinoma [54] . Considering our observations about the correlation of m 6 A RNA modification, as well as the function of HIF-1α in the proliferation of Theileria -infected leukocytes, we assumed that HIF-1α regulates the process of m 6 A RNA modification. To test this hypothesis, we first analyzed the HIF-1α levels in merozoite-producing macrophages (Vm) as well as virulent (V). We observed increased HIF-1α protein expression in Vm compared to virulent macrophages ( Figure 5 A, left).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "HIF-1α-promotes proliferation of Theileria -infected leukocytes by inducing m6A-RNA methylation",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "YTHDF1",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/54915"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "hepatocellular carcinoma",
+          "beacon:entityType": "DISEASE",
+          "@id": "http://purl.obolibrary.org/obo/DOID_684"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "merozoite-producing macrophages",
+          "beacon:entityType": "CELL_LINE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "virulent macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_E7C1"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "regulates",
+          "beacon:object": "m6A-RNA methylation",
+          "beacon:evidence": "HIF-1α regulates m6A-RNA methylation"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "binds",
+          "beacon:object": "YTHDF1",
+          "beacon:evidence": "HIF-1α also directly binds to the promoter region of YTHDF1"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "regulates",
+          "beacon:object": "transcription of YTHDF1",
+          "beacon:evidence": "regulating its transcription under hypoxic conditions in hepatocellular carcinoma"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "regulates",
+          "beacon:object": "m6 A RNA modification",
+          "beacon:evidence": "HIF-1α regulates the process of m 6 A RNA modification"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "produces",
+          "beacon:object": "increased HIF-1α protein expression",
+          "beacon:evidence": "We observed increased HIF-1α protein expression in Vm compared to virulent macrophages"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p15",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from Malak Haidar's study examines the role of HIF-1α in promoting the proliferation of Theileria-infected leukocytes through m6A-RNA methylation, highlighting protein expression differences and experimental methods to analyze methylation levels.\n\nWe observed increased HIF-1α protein expression in Vm compared to virulent macrophages ( Figure 5 A, left). Subsequently, we used PX-478 to inhibit the HIF-1α signaling pathway in virulent macrophages and infected B cells (TBL20) and study its effect on the m 6 A RNA methylation state. The values of percent m6A in each sample were determined by ELISA assay and mRNA expression levels of writers and readers of the m 6 A complex were tested by qPCR. When HIF-1α is suppressed, the m 6 A percentage shown in infected macrophages as well as TBL20 is found to be upregulated. ( Figure 5 A, right) Furthermore, this increase is in line with the WTAP, YTDHF1, and YTHDF3 up-regulation in both virulent macrophages and infected- BL20 ( Figure. 6 6 A complex expression and thereby drives proliferative effects in Theileria -infected cells.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "HIF-1α-promotes proliferation of Theileria -infected leukocytes by inducing m6A-RNA methylation",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "PX-478",
+          "beacon:entityType": "DRUG"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "promotes",
+          "beacon:object": "proliferation of Theileria-infected leukocytes",
+          "beacon:evidence": "HIF-1α in promoting the proliferation of Theileria-infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "PX-478",
+          "beacon:predicate": "inhibits",
+          "beacon:object": "HIF-1α signaling pathway",
+          "beacon:evidence": "we used PX-478 to inhibit the HIF-1α signaling pathway"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "suppressed",
+          "beacon:object": "m 6 A percentage in infected macrophages and TBL20",
+          "beacon:evidence": "When HIF-1α is suppressed, the m 6 A percentage shown in infected macrophages as well as TBL20 is found to be upregulated"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p16",
+      "beacon:sectionType": "results",
+      "schema:text": "This results section from the article discusses how m6A contributes to the proliferation and dissemination of Theileria-infected leukocytes through the modulation of membrane-anchored proteins like ADAMs involved in cellular interactions.\n\n6 6 A complex expression and thereby drives proliferative effects in Theileria -infected cells. ### m 6 A Modulates Dissemination in Theileria -Transformed Leukocytes\n\nADAMs (A Disintegrin And Metalloproteinase) are membrane-anchored proteins bearing structural similarities to snake venom disintegrins that play crucial roles in migration, adhesion, and both cell-cell and cell-matrix interactions (reviewed in [55] ). In our m6A-seq dataset, ADAM19 is found to be m6A-modified and overexpression of METTL3 in T. annulata -infected macrophages leads to its upregulation ( Figure 6 A).",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m 6 A Modulates Dissemination in Theileria -Transformed Leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ADAMs",
+          "beacon:entityType": "PROTEIN"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ADAM19",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/8728"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "ADAM19",
+          "beacon:predicate": "is found to be",
+          "beacon:object": "m6A-modified",
+          "beacon:evidence": "ADAM19 is found to be m6A-modified"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "overexpression of METTL3",
+          "beacon:predicate": "leads to",
+          "beacon:object": "upregulation of ADAM19",
+          "beacon:evidence": "overexpression of METTL3 in T. annulata -infected macrophages leads to its upregulation"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec3-p17",
+      "beacon:sectionType": "results",
+      "schema:text": "This Results section from a study on Theileria annulata explores how m6A RNA methylation impacts the migration abilities of infected macrophages, highlighting findings from Matrigel chamber assays regarding METTL3 overexpression.\n\nannulata -infected macrophages leads to its upregulation ( Figure 6 A). Based on these findings, we proposed that m6A RNA methylation might influence the dissemination potential of infected macrophages. We employed Matrigel chamber assays, which revealed that METTL3 overexpression reinforces the ability of infected macrophages to migrate through a synthetic matrix ( Figure. 6 B). Collectively, these results suggest that m6A modifications may enhance the dissemination ability of T. annulata -infected macrophages, potentially through the increased expression of ADAM19 mRNA.",
+      "schema:name": "Results:",
+      "beacon:subsectionTitle": "m 6 A Modulates Dissemination in Theileria -Transformed Leukocytes",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ADA",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/100"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "promotes",
+          "beacon:object": "the ability of infected macrophages to migrate through a synthetic matrix",
+          "beacon:evidence": "METTL3 overexpression reinforces the ability of infected macrophages to migrate through a synthetic matrix"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p0",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from Malak Haidar's 2025 article examines how Theileria annulata influences host epigenetics, highlighting its role in cellular behavior changes and contributing to disease progression.\n\nThe impact of pathogens on host epigenetics offers invaluable insights into the complex interactions that underlie infection and disease progression. Among these, Theileria parasites, specifically transforming species such as T. annulata , excel at altering host cellular behavior. This capability is evident in pathological outcomes such as unchecked cellular proliferation and an increased resistance to apoptosis. Recent research has enriched our comprehension of the ways Theileria parasites reshape the transcriptomes of infected cells. Yet, the exploration of the epigenetic dimension — particularly T. annulata 's impact on mRNA methylation — remains a yet-to-be-unfolded area of study.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "GENE"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "apoptosis",
+          "beacon:entityType": "DISEASE",
+          "@id": "https://id.nlm.nih.gov/mesh/D017209"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "influences",
+          "beacon:object": "host epigenetics",
+          "beacon:evidence": "Theileria annulata influences host epigenetics"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria annulata",
+          "beacon:predicate": "contributing",
+          "beacon:object": "disease progression",
+          "beacon:evidence": "contributing to disease progression"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria",
+          "beacon:predicate": "excel",
+          "beacon:object": "altering host cellular behavior",
+          "beacon:evidence": "Theileria parasites, specifically transforming species such as T. annulata, excel at altering host cellular behavior"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria",
+          "beacon:predicate": "reshape",
+          "beacon:object": "the transcriptomes of infected cells",
+          "beacon:evidence": "Theileria parasites reshape the transcriptomes of infected cells"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "impact",
+          "beacon:object": "mRNA methylation",
+          "beacon:evidence": "T. annulata's impact on mRNA methylation"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p1",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from Malak Haidar's 2025 article explores mRNA methylation variations in Theileria annulata-infected leukocytes, highlighting unique m6A patterns in different macrophage types and their potential implications for virulence and disease progression.\n\nannulata 's impact on mRNA methylation — remains a yet-to-be-unfolded area of study. Utilizing ELISA assays revealed varying m6A levels across different T. annulata -infected cell lines. It's noteworthy that proliferation-arresting merozoite-producing macrophages exhibited unique methylation patterns compared to both proliferating virulent and attenuated macrophages. Additionally, m6A levels differ between the more proliferative Theileria -infected B cells (TBL20) and their uninfected counterparts, BL20.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "T. annulata",
+          "beacon:predicate": "produces",
+          "beacon:object": "m6A",
+          "beacon:evidence": "varying m6A levels across different T. annulata -infected cell lines."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "TBL20",
+          "beacon:predicate": "is_different_from",
+          "beacon:object": "BL20",
+          "beacon:evidence": "m6A levels differ between the more proliferative Theileria -infected B cells (TBL20) and their uninfected counterparts, BL20."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "merozoite-producing macrophages",
+          "beacon:predicate": "exhibits",
+          "beacon:object": "unique methylation patterns",
+          "beacon:evidence": "proliferation-arresting merozoite-producing macrophages exhibited unique methylation patterns."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p2",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the article examines the differences in m6A methylation levels between Theileria-infected B cells and uninfected cells, highlighting findings from MeRIP-seq analyses and the lack of correlation with mRNA expression levels.\n\nAdditionally, m6A levels differ between the more proliferative Theileria -infected B cells (TBL20) and their uninfected counterparts, BL20. In tandem with these findings, MeRIP-seq analyses shed light on detailed m6A methylation patterns across the transcriptome. While m6A peaks within genes displayed consistency, there was no clear correlation with mRNA expression levels. Interestingly, ELISA indicated a rise in m6A levels in merozoite-producing macrophages, a trend contradicted by the MeRIP-seq analysis. This disparity accentuates the distinct strengths of the two techniques: the overarching perspective of ELISA versus the nuanced detail of MeRIP-seq. These differences underscore the importance of employing a range of methodologies in epigenetics research to achieve a comprehensive understanding.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "B cells",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mRNA",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/118229251"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ELISA",
+          "beacon:entityType": "METHOD"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "MeRIP-seq",
+          "beacon:entityType": "METHOD"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Theileria-infected B cells",
+          "beacon:predicate": "differ",
+          "beacon:object": "uninfected cells",
+          "beacon:evidence": "m6A levels differ between the more proliferative Theileria -infected B cells (TBL20) and their uninfected counterparts, BL20."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "indicates",
+          "beacon:object": "a rise in m6A levels in merozoite-producing macrophages",
+          "beacon:evidence": "ELISA indicated a rise in m6A levels in merozoite-producing macrophages."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "MeRIP-seq analysis",
+          "beacon:predicate": "contradicts",
+          "beacon:object": "the trend indicated by ELISA",
+          "beacon:evidence": "a trend contradicted by the MeRIP-seq analysis."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p3",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the study by Malak Haidar emphasizes the significance of diverse methodologies in epitranscriptomics and highlights patterns in m6A methylation's relationship with gene expression variability in Theileria annulata-infected leukocytes.\n\nThese differences underscore the importance of employing a range of methodologies in epigenetics research to achieve a comprehensive understanding. A closer examination of the relationship between m6A methylation and gene expression variability revealed compelling patterns. While comparisons between V and A infected macrophages showed no significant gene expression changes, the analyses of V vs. Vm and V vs. A presented a contrasting narrative. This data suggests a scenario where m6A modifications could influence gene expression in a context-specific manner.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "V",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_E1HI"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "A",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_6479"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Vm",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_0B29"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "gene expression variability",
+          "beacon:evidence": "m6A methylation's relationship with gene expression variability"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p4",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the article explores the implications of m6A modifications on gene expression in Theileria annulata-infected leukocytes, highlighting inconclusive results regarding correlations between m6A presence and upregulated gene expression.\n\nThis data suggests a scenario where m6A modifications could influence gene expression in a context-specific manner. Subsequent, the analysis aiming at associate m6A presence with upregulated gene expression yielded promising but inconclusive results. When examining genes enriched with m6A only in V and up-regulated in Vm, no correlation was detected. However, there was a correlation between genes that are m6A-enriched in Vm, and up-regulated in V, suggesting that methylation of genes in merozoites could result in their downregulation.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "leukocytes",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_M029"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "merozoites",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_KR63"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "influences",
+          "beacon:object": "gene expression",
+          "beacon:evidence": "m6A modifications could influence gene expression in a context-specific manner."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "upregulated gene expression",
+          "beacon:evidence": "analysis aiming at associate m6A presence with upregulated gene expression yielded promising but inconclusive results."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "genes",
+          "beacon:predicate": "methylates",
+          "beacon:object": "merozoites",
+          "beacon:evidence": "methylation of genes in merozoites could result in their downregulation."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "genes",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "up-regulated in V",
+          "beacon:evidence": "correlation between genes that are m6A-enriched in Vm, and up-regulated in V."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p5",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the study examines the correlation between m6A enrichment and gene expression in Theileria annulata-infected leukocytes, highlighting significant overlaps in gene methylation patterns across different infection states.\n\nHowever, there was a correlation between genes that are m6A-enriched in Vm, and up-regulated in V, suggesting that methylation of genes in merozoites could result in their downregulation. Comparisons between BL20 and TBL20 highlighted a significant overlap in genes undergoing m6A methylation. This implies a consistent gene set that may be subject to such modifications, regardless of infection status. Delving deeper, some genes showed exclusive methylation in specific categories, pointing towards a potential role for m6A in downregulation of gene expression.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Vm",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/32026"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "V",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/145402217"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "BL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_L859"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "TBL20",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_2G83"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "Vm",
+          "beacon:predicate": "regulates",
+          "beacon:object": "genes that are m6A-enriched",
+          "beacon:evidence": "there was a correlation between genes that are m6A-enriched in Vm"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "V",
+          "beacon:predicate": "up-regulated",
+          "beacon:object": "genes that are m6A-enriched",
+          "beacon:evidence": "up-regulated in V, suggesting that methylation of genes in merozoites could result in their downregulation"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "BL20",
+          "beacon:predicate": "interacts_with",
+          "beacon:object": "TBL20",
+          "beacon:evidence": "Comparisons between BL20 and TBL20 highlighted a significant overlap in genes undergoing m6A methylation"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p6",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the article examines the role of m6A methylation in downregulating gene expression and its significance in modulating host cell proliferation during T. annulata infection.\n\nDelving deeper, some genes showed exclusive methylation in specific categories, pointing towards a potential role for m6A in downregulation of gene expression. Furthermore, this research emphasizes the role of m6A methylation in modulating host cell proliferation during T. annulata infection. Often paralleled with DNA methylation regarding its regulatory significance, m6A might be a key factor driving the persistent proliferation of T. annulata -infected leukocytes. The observed reduction in proliferation in METTL3-overexpressing T. annulata -infected leukocytes accentuates the critical role of m6A in this setting. It also raises questions regarding the potential regulatory influence of m6A on E2F4 expression, a crucial component of the cell cycle, suggesting a layered control mechanism.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "regulates",
+          "beacon:object": "gene expression",
+          "beacon:evidence": "m6A methylation in downregulating gene expression"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modulates",
+          "beacon:object": "host cell proliferation",
+          "beacon:evidence": "m6A methylation in modulating host cell proliferation during T. annulata infection"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "drives",
+          "beacon:object": "proliferation of T. annulata -infected leukocytes",
+          "beacon:evidence": "m6A might be a key factor driving the persistent proliferation of T. annulata -infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "METTL3",
+          "beacon:predicate": "overexpressing",
+          "beacon:object": "T. annulata -infected leukocytes",
+          "beacon:evidence": "reduction in proliferation in METTL3-overexpressing T. annulata -infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "raises",
+          "beacon:object": "questions regarding regulatory influence",
+          "beacon:evidence": "raises questions regarding the potential regulatory influence of m6A"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p7",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from Malak Haidar's article examines the regulatory role of m6A on E2F4 expression and its connection with HIF-1α in Theileria annulata-infected leukocytes, highlighting novel pathogen strategies.\n\nIt also raises questions regarding the potential regulatory influence of m6A on E2F4 expression, a crucial component of the cell cycle, suggesting a layered control mechanism. The proposed link between HIF-1α and m6A RNA methylation is indeed striking. With HIF-1α known to regulate m6A modulators, especially WTAP and YTHDF1, it introduces a novel perspective on the potential strategies’ pathogens might employ to manipulate host cells to favor growth. The convergence of epigenetic changes with hypoxic responses offers an integrated view of host-pathogen interactions, hinting at potential avenues for innovative treatments.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "E2F4",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/1874"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "HIF-1α",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/3091"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "WTAP",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/9589"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "YTHDF1",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/54915"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "regulates",
+          "beacon:object": "E2F4",
+          "beacon:evidence": "the regulatory role of m6A on E2F4 expression"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "regulates",
+          "beacon:object": "WTAP",
+          "beacon:evidence": "HIF-1α known to regulate m6A modulators, especially WTAP"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "HIF-1α",
+          "beacon:predicate": "regulates",
+          "beacon:object": "YTHDF1",
+          "beacon:evidence": "HIF-1α known to regulate m6A modulators, especially YTHDF1"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p8",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from Malak Haidar's 2025 article explores the implications of epitranscriptomic modifications, particularly m6A on ADAM19, in relation to host-parasite interactions and potential therapeutic strategies against Theileria annulata infection.\n\nThe convergence of epigenetic changes with hypoxic responses offers an integrated view of host-pathogen interactions, hinting at potential avenues for innovative treatments. Identifying ADAM19 as m6A-modified is particularly captivating, given its critical role in cell migration and adhesion. If m6A does indeed influence ADAM19 expression, as the METTL3 overexpression suggests, then m6A could potentially shape the spread of Theileria -transformed leukocytes, thereby affecting disease progression and intensity.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ADAM19",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/8728"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "METTL3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "modifies",
+          "beacon:object": "ADAM19",
+          "beacon:evidence": "Identifying ADAM19 as m6A-modified is particularly captivating."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "influences",
+          "beacon:object": "ADAM19 expression",
+          "beacon:evidence": "If m6A does indeed influence ADAM19 expression, as the METTL3 overexpression suggests."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "could shape",
+          "beacon:object": "the spread of Theileria -transformed leukocytes",
+          "beacon:evidence": "m6A could potentially shape the spread of Theileria -transformed leukocytes."
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p9",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from the article examines the potential role of m6A in regulating ADAM19 expression in Theileria-infected leukocytes and its implications for disease progression, while acknowledging the limitations in understanding the underlying molecular mechanisms.\n\nIf m6A does indeed influence ADAM19 expression, as the METTL3 overexpression suggests, then m6A could potentially shape the spread of Theileria -transformed leukocytes, thereby affecting disease progression and intensity. However, it's important to recognize the study's constraints, as the molecular mechanisms responsible for the observed effects aren't fully understood. While the relationship between m6A levels and cellular activities is intriguing, a more profound understanding of the underlying mechanics is needed. Furthermore, translating these findings to real-world, in vivo scenarios — especially given the complexities associated with the host immune response and the parasite's life cycle — is yet to be fully established.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ADAM19",
+          "beacon:entityType": "PROTEIN",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/8728"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria",
+          "beacon:entityType": "ORGANISM",
+          "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5873"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "regulates",
+          "beacon:object": "ADAM19",
+          "beacon:evidence": "m6A in regulating ADAM19 expression in Theileria-infected leukocytes"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "influences",
+          "beacon:object": "ADAM19 expression",
+          "beacon:evidence": "if m6A does indeed influence ADAM19 expression"
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "shapes",
+          "beacon:object": "spread of Theileria-transformed leukocytes",
+          "beacon:evidence": "m6A could potentially shape the spread of Theileria-transformed leukocytes"
+        }
+      ]
+    },
+    {
+      "@type": "schema:WebPageElement",
+      "beacon:chunkId": "article-10-1016-j-bj-2025-100828-sec4-p10",
+      "beacon:sectionType": "discussion",
+      "schema:text": "This discussion section from Malak Haidar's 2025 BJ article examines the complexities of translating research findings to in vivo scenarios, highlighting the role of m6A modifications in the host-parasite interaction during Theileria annulata infection.\n\nFurthermore, translating these findings to real-world, in vivo scenarios — especially given the complexities associated with the host immune response and the parasite's life cycle — is yet to be fully established. In summary, this study illuminates the multifaceted role of m6A modifications in the dynamic between host and parasite during T. annulata infection. Beyond the direct implications for tropical theileriosis, the involvement of m6A methylation as a significant factor in host-pathogen dynamics has been showcased in various studies [56, 57] . For instance, Baumgarten et al described a dynamic and extensive m6A mRNA methylation program that fine-tunes the transcriptional cascade during blood-stage development of Plasmodium falciparum [56] . Additionally, Farhat et al. highlighted m6A's function in creating transcriptional barriers in Toxoplasma gondii , especially for closely located, stage-specific genes [57] . When considered alongside these discoveries, there seems to be a possible evolutionary strategy among parasites, like T. gondii and T. annulata , in shaping the m6A landscape of host cells. This underlines the critical role of m6A in the regulation of gene expression, be it aiding parasite adaptation or shaping host-pathogen interactions. Combining insights from both T. gondii and T. annulata provides a comprehensive perspective on the function of m6A in host-pathogen dynamics, promoting a well-rounded approach for deciphering these interactions. Such an understanding could pave the way for innovative m6A-centric therapeutic solutions against various intracellular pathogens.",
+      "schema:name": "Discussion:",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "tropical theileriosis",
+          "beacon:entityType": "DISEASE",
+          "@id": "http://purl.obolibrary.org/obo/DOID_3733"
+        }
+      ],
+      "beacon:relations": [
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "Theileria annulata",
+          "beacon:evidence": "the role of m6A modifications in the host-parasite interaction during Theileria annulata infection."
+        },
+        {
+          "@type": "beacon:Relation",
+          "beacon:subject": "m6A",
+          "beacon:predicate": "associated_with",
+          "beacon:object": "tropical theileriosis",
+          "beacon:evidence": "the direct implications for tropical theileriosis, the involvement of m6A methylation as a significant factor."
+        }
+      ]
+    }
+  ],
+  "schema:image": [
+    {
+      "@type": "schema:ImageObject",
+      "beacon:chunkId": "fig1",
+      "schema:name": "Figure 1",
+      "schema:caption": "Variation in m6A RNA methylation levels across T. annulata -infected leukocytes. A. Left and Right: RNA, extracted and treated with DNAse, was isolated from T. annulata -infected bovine macrophages (V), merozoite-producing bovine macrophages (Vm), infected bovine B cells (TBL20), and non-infected bovine B cells (BL20). m6A levels were assessed using an ELISA-like assay. B. Left and Right The proportion of m6A peaks in genes was determined from Me-RIP-seq data across various T. annulata -infected cell lines. *p value <0.05, **p value <0.005.",
+      "schema:text": "Figure 1: m6A RNA methylation levels are significantly elevated in T. annulata-infected bovine macrophages and B cells compared to non-infected bovine B cells, with p-values indicating high statistical significance (p < 0.005). The study finds a variation in the proportion of m6A peaks across different T. annulata-infected cell lines, suggesting that these modifications may play a critical role in virulence and disease progression at the host-parasite interface. This indicates that alterations in m6A methylation could be a key epitranscriptomic hallmark influencing the pathobiology of T. annulata infections.\n\nCaption: Variation in m6A RNA methylation levels across T. annulata -infected leukocytes. A. Left and Right: RNA, extracted and treated with DNAse, was isolated from T. annulata -infected bovine macrophages (V), merozoite-producing bovine macrophages (Vm), infected bovine B cells (TBL20), and non-infected bovine B cells (BL20). m6A levels were assessed using an ELISA-like assay. B. Left and Right The proportion of m6A peaks in genes was determined from Me-RIP-seq data across various T. annulata -infected cell lines. *p value <0.05, **p value <0.005.",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "bovine macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B6PF"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "B cells",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_B3QD"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_21891"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "m6A RNA methylation",
+          "beacon:entityType": "CHEMICAL",
+          "@id": "http://purl.obolibrary.org/obo/CHEBI_18273"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "T. annulata infections",
+          "beacon:entityType": "DISEASE"
+        }
+      ],
+      "beacon:citedInChunks": [
+        "article-10-1016-j-bj-2025-100828-sec3-p1"
+      ]
+    },
+    {
+      "@type": "schema:ImageObject",
+      "beacon:chunkId": "fig2",
+      "schema:name": "Figure 2",
+      "schema:caption": "Alteration in expression of m6A writers, readers, and erasers in T. annulata infected leukocytes. A. mRNA levels of m6A writers ( mettl3 , wtap , rbm15 ), readers ( ythdf1 & 3 , hnrnpa2b1 ), and erasers ( alkbh5 ) were measured by qPCR in Theileria -infected macrophages (A) and TBL20 and BL20 (B). *p value <0.05, **p value <0.005, ***p value <0.001.",
+      "schema:text": "Figure 2: m6A writer genes mettl3, wtap, and rbm15 are upregulated in Theileria annulata-infected leukocytes with p-values <0.05, while the m6A eraser gene alkbh5 is downregulated (p < 0.005). The expression levels of m6A readers ythdf1 and ythdf3 are significantly altered in infected macrophages compared to uninfected controls. This indicates that m6A modifications are critically involved in the regulation of gene expression during Theileria infection, contributing to the parasite's virulence and the host's immune response.\n\nCaption: Alteration in expression of m6A writers, readers, and erasers in T. annulata infected leukocytes. A. mRNA levels of m6A writers ( mettl3 , wtap , rbm15 ), readers ( ythdf1 & 3 , hnrnpa2b1 ), and erasers ( alkbh5 ) were measured by qPCR in Theileria -infected macrophages (A) and TBL20 and BL20 (B). *p value <0.05, **p value <0.005, ***p value <0.001.",
+      "schema:mentions": [
+        {
+          "@type": "schema:Thing",
+          "schema:name": "mettl3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/56339"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "wtap",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/9589"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "rbm15",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/64783"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "alkbh5",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/54890"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ythdf1",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/54915"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "ythdf3",
+          "beacon:entityType": "GENE",
+          "@id": "https://www.ncbi.nlm.nih.gov/gene/253943"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "Theileria annulata",
+          "beacon:entityType": "ORGANISM"
+        },
+        {
+          "@type": "schema:Thing",
+          "schema:name": "macrophages",
+          "beacon:entityType": "CELL_LINE",
+          "@id": "https://www.cellosaurus.org/CVCL_A8VR"
+        }
+      ],
+      "beacon:citedInChunks": [
+        "article-10-1016-j-bj-2025-100828-sec3-p2"
+      ]
+    }
+  ]
+}

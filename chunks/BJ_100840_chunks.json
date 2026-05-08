@@ -1,0 +1,2207 @@
+{
+  "source_file": "BJ_100840.xml",
+  "article_doi": "10.1016/j.bj.2025.100840",
+  "total_chunks": 28,
+  "text_chunks": 22,
+  "visual_chunks": 6,
+  "total_entities": 118,
+  "entities_with_ontology_id": 91,
+  "total_relations": 49,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec1-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "At a glance of commentary",
+      "subsection_title": "Scientific background on the subject",
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This commentary section from the article discusses the significance of ALK translocations in non-small cell lung cancer and the challenges posed by background autofluorescence in fluorescence in situ hybridization assays for accurate detection.\n\n### Scientific background on the subject\n\nAnaplastic lymphoma kinase (ALK) translocations are present in approximately 5% of non-small cell lung cancer (NSCLC) cases and are critical for patient stratification in targeted therapy using ALK inhibitors. Fluorescence in situ hybridization (FISH) is the gold standard for detecting ALK rearrangements in NSCLC; however, the presence of high background autofluorescence in lung tissues poses a significant challenge. Autofluorescence, derived from extracellular matrix proteins such as elastin and collagen, obscures probe signals, leading to false results or inconclusive diagnostics. Existing protease pretreatments, such as pepsin digestion, often fail to reduce autofluorescence without compromising tissue integrity, necessitating the development of alternative methods to ensure accurate molecular diagnosis.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK inhibitors",
+          "type": "DRUG",
+          "id": "CHEBI:62434",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Fluorescence in situ hybridization",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "extracellular matrix proteins",
+          "type": "CHEMICAL",
+          "id": "D016326",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "elastin",
+          "type": "CHEMICAL",
+          "id": "D004549",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "collagen",
+          "type": "CHEMICAL",
+          "id": "D003094",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ALK translocations",
+          "predicate": "are present in",
+          "object": "non-small cell lung cancer (NSCLC)",
+          "evidence": "ALK translocations are present in approximately 5% of non-small cell lung cancer (NSCLC) cases."
+        },
+        {
+          "subject": "ALK translocations",
+          "predicate": "are critical for",
+          "object": "patient stratification in targeted therapy using ALK inhibitors",
+          "evidence": "ALK translocations ... are critical for patient stratification in targeted therapy using ALK inhibitors."
+        },
+        {
+          "subject": "Fluorescence in situ hybridization (FISH)",
+          "predicate": "is the gold standard for",
+          "object": "detecting ALK rearrangements in NSCLC",
+          "evidence": "Fluorescence in situ hybridization (FISH) is the gold standard for detecting ALK rearrangements in NSCLC."
+        },
+        {
+          "subject": "Autofluorescence",
+          "predicate": "is derived from",
+          "object": "extracellular matrix proteins such as elastin and collagen",
+          "evidence": "Autofluorescence, derived from extracellular matrix proteins such as elastin and collagen."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec1-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "At a glance of commentary",
+      "subsection_title": "What this study adds to the field",
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This commentary section from the article discusses a novel elastase-based pretreatment protocol for lung cancer tissue that effectively reduces background autofluorescence, addressing limitations of existing protease methods in enhancing molecular diagnostic accuracy.\n\nExisting protease pretreatments, such as pepsin digestion, often fail to reduce autofluorescence without compromising tissue integrity, necessitating the development of alternative methods to ensure accurate molecular diagnosis. ### What this study adds to the field\n\nThis study introduces a novel elastase-based pretreatment protocol for NSCLC tissue that effectively reduces background autofluorescence while preserving nuclear morphology in ALK FISH assays. By optimizing elastase concentration, we achieved clearer FISH signal detection, reducing the retest rate from 86.7% to 0%. Additionally, the enhanced sensitivity of our method enabled the identification of previously undetected ALK translocations, demonstrating its potential for improving diagnostic accuracy. This study provides a significant advancement in the field of molecular diagnostics for lung cancer, offering a refined protocol that can be applied in clinical settings to facilitate more reliable FISH-based assays for targeted therapy decisions.",
+      "entities": [
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "FISH",
+          "type": "PROTEIN",
+          "id": "9644",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "treats",
+          "object": "lung cancer tissue",
+          "evidence": "novel elastase-based pretreatment protocol for lung cancer tissue"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "background autofluorescence",
+          "evidence": "effectively reduces background autofluorescence"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "preserves",
+          "object": "nuclear morphology",
+          "evidence": "while preserving nuclear morphology in ALK FISH assays"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "achieves",
+          "object": "clearer FISH signal detection",
+          "evidence": "we achieved clearer FISH signal detection"
+        },
+        {
+          "subject": "retreat rate",
+          "predicate": "reduces",
+          "object": "0%",
+          "evidence": "reducing the retest rate from 86.7% to 0%"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec2-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This introduction section from a 2025 BJ article discusses the prevalence and survival rates of lung cancer, particularly non-small cell lung cancer, and introduces the impact of epidermal growth factor receptor tyrosine kinase inhibitors.\n\nLung cancer has become the leading cause of cancer death worldwide [ 1 ]. Non-small cell lung cancer comprises the major proportion of lung cancers [ 2 ]. The overall 5-year survival rate of NSCLC cases is merely 15% [ 3 ]. In the last decade, the great success of epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors (TKI) in efficiently controlling lung adenocarcinoma launched personalized medical treatments for NSCLC [ 4 ]. In addition to EGFR mutations, several signaling pathway molecules were found to be abnormally activated in NSCLC [ 5 ]. The echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase ( EML4-ALK ) fusion gene is one of the examples and has been identified in about 5% of NSCLC [ 6 , 7 ]. ALK inhibitors have also been used to treat NSCLC patients harboring the EML4-ALK fusion gene with effective response [ 8 ]. Therefore, reliable EML4-ALK fusion gene detection is essential to the stratification of patients for ALK inhibitor targeted therapy.",
+      "entities": [
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "epidermal growth factor receptor",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "EGFR",
+          "type": "GENE",
+          "id": "1956",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "tyrosine kinase inhibitors",
+          "type": "DRUG",
+          "id": "D000092004",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lung adenocarcinoma",
+          "type": "DISEASE",
+          "id": "DOID:3910",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "non-small cell lung cancer",
+          "predicate": "comprises",
+          "object": "the major proportion of lung cancers",
+          "evidence": "Non-small cell lung cancer comprises the major proportion of lung cancers [ 2 ]."
+        },
+        {
+          "subject": "epidermal growth factor receptor",
+          "predicate": "interacts_with",
+          "object": "tyrosine kinase inhibitors",
+          "evidence": "the great success of epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors (TKI) in efficiently controlling lung adenocarcinoma [ 4 ]."
+        },
+        {
+          "subject": "tyrosine kinase inhibitors",
+          "predicate": "treats",
+          "object": "lung adenocarcinoma",
+          "evidence": "the great success of epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors (TKI) in efficiently controlling lung adenocarcinoma [ 4 ]."
+        },
+        {
+          "subject": "EGFR mutations",
+          "predicate": "associated_with",
+          "object": "abnormally activated signaling pathway molecules",
+          "evidence": "In addition to EGFR mutations, several signaling pathway molecules were found to be abnormally activated in NSCLC [ 5 ]."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec2-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This introduction section from the article discusses the importance of detecting the EML4-ALK fusion gene in patients for targeted therapy and highlights the challenges posed by tissue autofluorescence in fluorescence in situ hybridization (FISH) assays.\n\nTherefore, reliable EML4-ALK fusion gene detection is essential to the stratification of patients for ALK inhibitor targeted therapy. Fluorescence in situ hybridization (FISH) is a commonly employed technique to detect ALK translocation [ 9 ]. However, tissue matrix substances can generate a high autofluorescence background and thereby interfere with fluorescence signal detection of DNA probes and affect clinical interpretations. Autofluorescence interference remains a significant challenge in NSCLC FISH assays, necessitating improved protocols to enhance diagnostic reliability. Other studies have also indicated that the ALK FISH failure rate is about 5–25% [ 10–12 ]. Therefore, a refined method that can overcome the autofluorescence issue is needed.",
+      "entities": [
+        {
+          "text": "EML4-ALK",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK inhibitor",
+          "type": "DRUG",
+          "id": "CHEBI:62434",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "EML4-ALK",
+          "predicate": "associated_with",
+          "object": "ALK inhibitor",
+          "evidence": "reliable EML4-ALK fusion gene detection is essential to the stratification of patients for ALK inhibitor targeted therapy."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec2-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This introduction section from the article discusses the need for a refined method to address autofluorescence interference in FISH assays, highlighting the limitations of pepsin in hydrolyzing key extracellular matrix proteins in lung tissues.\n\nTherefore, a refined method that can overcome the autofluorescence issue is needed. Pepsin is the standard enzyme employed in the protease pretreatment of samples in FISH assays. However, it cannot hydrolyze proteins such as native elastin and collagen, which are major components of human lung extracellular matrix and sources of autofluorescence, which can interfere with FISH assay results [ 13 , 14 ]. A previous study indicated that pepsin pretreatment cannot significantly reduce tissue autofluorescence, resulting in unclear probe signal readings that can affect diagnostic interpretation [ 15 ]. This study aimed to develop a novel enzyme-based pretreatment to address autofluorescence challenges in lung tissue, improving ALK FISH assay performance.",
+      "entities": [
+        {
+          "text": "pepsin",
+          "type": "PROTEIN",
+          "id": "104929130",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "elastin",
+          "type": "PROTEIN",
+          "id": "103535844",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "collagen",
+          "type": "PROTEIN",
+          "id": "396340",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "human lung",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "pepsin",
+          "predicate": "cannot hydrolyze",
+          "object": "native elastin",
+          "evidence": "it cannot hydrolyze proteins such as native elastin and collagen"
+        },
+        {
+          "subject": "pepsin",
+          "predicate": "cannot hydrolyze",
+          "object": "collagen",
+          "evidence": "it cannot hydrolyze proteins such as native elastin and collagen"
+        },
+        {
+          "subject": "native elastin",
+          "predicate": "associated_with",
+          "object": "human lung extracellular matrix",
+          "evidence": "major components of human lung extracellular matrix and sources of autofluorescence"
+        },
+        {
+          "subject": "collagen",
+          "predicate": "associated_with",
+          "object": "human lung extracellular matrix",
+          "evidence": "major components of human lung extracellular matrix and sources of autofluorescence"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec3-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Material and methods",
+      "subsection_title": "Tissue specimens",
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This material and methods section from the study details the collection and characterization of 120 paraffin-embedded NSCLC samples from surgical patients, outlining key clinical and pathological features relevant for ALK break-apart FISH analysis.\n\n### Tissue specimens\n\nA total of 120 paraffin-embedded NSCLC samples were obtained from patients who underwent surgery at Chang Gung Memorial Hospital, Lin-Kou. The clinical and pathological characteristics of these patients, including age, sex, tumor grade, stage, and EGFR mutation status, are summarized in [ Supplementary Table 1 ]. The NSCLC specimens were utilized in ALK break-apart FISH analysis for ALK translocation status detection. ALK break-apart FISH positive samples were also assessed by ALK immunohistochemical staining and by reverse transcription-polymerase chain reaction analysis for EML4-ALK fusion gene. The study was approved by our Institutional Review Board.",
+      "entities": [
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "EGFR",
+          "type": "GENE",
+          "id": "1956",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Chang Gung Memorial Hospital",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "NSCLC",
+          "predicate": "associated_with",
+          "object": "ALK",
+          "evidence": "NSCLC specimens were utilized in ALK break-apart FISH analysis for ALK translocation status detection."
+        },
+        {
+          "subject": "NSCLC",
+          "predicate": "associated_with",
+          "object": "EGFR",
+          "evidence": "the clinical and pathological characteristics of these patients... and EGFR mutation status."
+        },
+        {
+          "subject": "ALK",
+          "predicate": "interacts_with",
+          "object": "EML4-ALK",
+          "evidence": "assessed by ALK immunohistochemical staining and by reverse transcription-polymerase chain reaction analysis for EML4-ALK fusion gene."
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec3-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Material and methods",
+      "subsection_title": "Fluorescence in situ hybridization",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This materials and methods section from the study details the approval process and outlines the design of a novel break-apart fluorescence in situ hybridization assay for assessing ALK locus rearrangements in lung cancer.\n\nThe study was approved by our Institutional Review Board. ### Fluorescence in situ hybridization\n\nTo assess the rearrangements of ALK loci, a novel break-apart (BAP) FISH assay was designed. For the 3′- ALK probe, BAC clones were SpectrumGreen-dUTP (Abbott Molecular/Vysis, Des Plaines, IL, USA) labeled RP11-993C21. For the 5′- ALK probe, BAC clones were SpectrumOrange-dUTP (Abbott Molecular/Vysis, Des Plaines, IL, USA) labeled RP11-984I21. Tissue sections of 4-μm thick were placed onto coated slides, air dried, and baked overnight at 56 °C. Sections were deparaffinized in xylene and treated in 1 M Sodium thiocyanate (NaSCN) (Sigma, MO, USA) for paraffin pretreatment. To evaluate the efficiency of different proteases in reducing autofluorescence, NSCLC tissue sections were treated with various extracellular matrix enzymes, including collagenase type I (10 mg/ml, Sigma, MO, USA), collagenase type II (10 mg/ml, Sigma, MO, USA), collagenase type IV (10 mg/ml, Sigma, MO, USA), and elastase (2 mg/ml, Sigma, MO, USA). Tissue sections were incubated with the respective enzymes at 37 °C for 30 min, followed by a brief wash in phosphate-buffered saline (PBS). After enzyme treatment, the slides were treated with 0.0025% pepsin (Sigma, MO, USA) for 5–10 min at 37 °C. The slides were then dehydrated, and 10 μl of the probe mixture was applied to the selected tumor region (approximately 4-cm 2 area). Slides were denatured for 5 min at 80 °C and hybridized for 16 h at 37 °C in a ThermoBrite hybridizer (Abbott Molecular, Des Plaines, IL, USA). Excess probe was washed away using 2 × saline sodium citrate buffer (SSC)/0.3% NP-40 at 72 °C for 2 min, and nuclei were counterstained with 4′,6′-diamidino-2-phenylindole dihydrochloride (DAPI)/Vectashield (Vector Labs, Burlingame, CA). Slides were subsequently analyzed using a multi-filtered fluorescence microscope (Olympus BX61, Southall, Middlesex, UK) following standard procedures. A minimum of 100 cells were scored for the presence of signals. A probe was considered to be split when a distance greater than the size of two hybridization signals separated the orange and green signals. When 15% or more single nuclei were found to harbor both a fusion and split (break-apart) signal, the cases were classified as positive, and when less than 15% of cells had fusion and split signals, they were scored as negative.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "BAC clones",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SpectrumGreen-dUTP",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SpectrumOrange-dUTP",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Abbott Molecular/Vysis",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ALK",
+          "predicate": "associated_with",
+          "object": "lung cancer",
+          "evidence": "assessing ALK locus rearrangements in lung cancer."
+        },
+        {
+          "subject": "BAC clones",
+          "predicate": "produces",
+          "object": "SpectrumGreen-dUTP",
+          "evidence": "BAC clones were SpectrumGreen-dUTP labeled RP11-993C21."
+        },
+        {
+          "subject": "BAC clones",
+          "predicate": "produces",
+          "object": "SpectrumOrange-dUTP",
+          "evidence": "BAC clones were SpectrumOrange-dUTP labeled RP11-984I21."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec3-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Material and methods",
+      "subsection_title": "RNA extraction and reverse Transcription-PCR analysis",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This material and methods section from the study details the classification criteria for positive and negative cases based on nuclear signals, followed by the process of RNA extraction from FFPE tissues using TRIZOL reagent.\n\nWhen 15% or more single nuclei were found to harbor both a fusion and split (break-apart) signal, the cases were classified as positive, and when less than 15% of cells had fusion and split signals, they were scored as negative. ### RNA extraction and reverse Transcription-PCR analysis\n\nTotal RNA was extracted from formalin-fixed, paraffin-embedded (FFPE) tissues using RNA isolation TRIZOL reagent (Invitrogen, Carlsbad, CA, USA) according to the manufacturer's instructions. RNA concentration was determined using a spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA). Two micrograms of total RNA were used for reverse transcriptase (RT) reaction using the High Capacity cDNA Reverse Transcription Kit (Applied Biosystems, Foster City, CA, USA) following the manufacturer's protocol. One microliter of RT-product was used for the PCR reaction, which was performed using the GoTaq master mix (Promega, Madison, WI, USA) following the manufacturer's protocol in TProfessional/Standard Thermocyclers (Biometra GmbH, Göttingen, Germany). The previously described PCR reaction and program were used in this study [ 16 ]. The following are the forward and reverse primer sequences for the EML4-ALK fusion transcript variants: variant 1, 5′-GACTCAGGTGGAGTCATGC-3′; variant 2, 5′-CAGATATGGAAGGTGCACTG-3′; variant 3, 5′-CTGCAGACAAGCATAAAGATG-3′; variant 4, 5′-AAGCTCATGATGGCAGTGTG-3′; variant 5, 5′-AGGTGGTTTGTTCTGGATGC-3′; and ALK : 5′-AGCTTGCTCAGCTTGTACTC-3′ [ 16 ].](16) [ We also used the glyceraldehyde phosphate dehydrogenase (GAPDH) primers 5′-TGCACCACCAACTGCTTAGC-3′ and 5′-GGCATGGACTGTGGTCATGAG-3′ as an internal control.",
+      "entities": [
+        {
+          "text": "TRIZOL",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA",
+          "type": "GENE",
+          "id": "308202567",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Invitrogen",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Thermo Fisher Scientific",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "RNA",
+          "predicate": "extracted_from",
+          "object": "FFPE tissues",
+          "evidence": "Total RNA was extracted from formalin-fixed, paraffin-embedded (FFPE) tissues using RNA isolation TRIZOL reagent"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec3-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Material and methods",
+      "subsection_title": "Immunohistochemical studies",
+      "paragraph_index": 3,
+      "parent_section_id": "sec3",
+      "text": "This material and methods section from the study by Sheng-Chi Hsu details the primer sequences used for detecting EML4-ALK fusion transcript variants in immunohistochemical studies related to lung cancers.\n\nThe following are the forward and reverse primer sequences for the EML4-ALK fusion transcript variants: variant 1, 5′-GACTCAGGTGGAGTCATGC-3′; variant 2, 5′-CAGATATGGAAGGTGCACTG-3′; variant 3, 5′-CTGCAGACAAGCATAAAGATG-3′; variant 4, 5′-AAGCTCATGATGGCAGTGTG-3′; variant 5, 5′-AGGTGGTTTGTTCTGGATGC-3′; and ALK : 5′-AGCTTGCTCAGCTTGTACTC-3′ [ 16 ].](16) [ We also used the glyceraldehyde phosphate dehydrogenase (GAPDH) primers 5′-TGCACCACCAACTGCTTAGC-3′ and 5′-GGCATGGACTGTGGTCATGAG-3′ as an internal control. ### Immunohistochemical studies\n\nParaffin sections from ALK translocated NSCLC specimen were stained on a Leica Bondmax stainer (Leica Biosystems, Wetzlar, Germany) with anti -ALK antibodies (Clone D5F3, Cell Signaling, Danvers, MA, USA) combining with the Bond Polymer Refine Detection/polymeric horseradish peroxidase (HRP)-linker antibody conjugate system (Leica Biosystems, UK).",
+      "entities": [
+        {
+          "text": "EML4-ALK",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GAPDH",
+          "type": "PROTEIN",
+          "id": "2597",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "EML4-ALK",
+          "predicate": "produces",
+          "object": "fusion transcript variants",
+          "evidence": "for detecting EML4-ALK fusion transcript variants"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec3-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Material and methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 4,
+      "parent_section_id": "sec3",
+      "text": "This methods section from the study discusses the statistical analysis conducted using SPSS software to compare categorical and continuous variables related to autofluorescence and signal intensity in ALK FISH assays for lung cancer.\n\n### Statistical analysis\n\nAll data were analyzed using SPSS software (version 20, IBM Corp, Armonk, NY, USA). The chi-square test or Fisher's exact test was used to compare categorical variables, such as the frequency of autofluorescence in different pretreatment groups. Continuous variables, including signal intensity and retest rates, were compared using the Student's t-test or Mann-Whitney U test for non-parametric data. The significance of differences in autofluorescence rates and FISH detection success rates between the elastase pretreatment and standard pretreatment methods was assessed using analysis of variance (ANOVA) followed by post hoc Tukey's test for multiple comparisons. p -values less than 0.05 were considered statistically significant.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "SPSS",
+          "type": "SOFTWARE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Patient characteristics",
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This results section from the article presents the clinical and pathological characteristics of lung cancer patients, including median age, gender distribution, and tumor grade classifications.\n\n### Patient characteristics\n\nThe clinical and pathological characteristics of these patients are summarized in [ Supplementary Table 1 ]. The median age of the cohort was 64 years (range: 25–91), with a nearly equal distribution of male (51.7%) and female (48.3%) patients. In terms of tumor grade, 26.1% of cases were classified as grade I, 51.3% as grade II, and 22.6% as grade III. Disease staging indicated that 31.6% of patients were diagnosed with early-stage (I–II) NSCLC, while the majority (68.4%) presented with advanced-stage (III–IV) disease. Additionally, EGFR mutation status was available for 99 patients, with 71.7% harboring an EGFR mutation. These characteristics provide a comprehensive overview of the study population and ensure the generalizability of our findings.",
+      "entities": [
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "EGFR",
+          "type": "GENE",
+          "id": "1956",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "NSCLC",
+          "predicate": "associated_with",
+          "object": "early-stage (I–II)",
+          "evidence": "31.6% of patients were diagnosed with early-stage (I–II) NSCLC"
+        },
+        {
+          "subject": "NSCLC",
+          "predicate": "associated_with",
+          "object": "advanced-stage (III–IV)",
+          "evidence": "68.4% presented with advanced-stage (III–IV) disease"
+        },
+        {
+          "subject": "EGFR",
+          "predicate": "harbors",
+          "object": "EGFR mutation",
+          "evidence": "71.7% harboring an EGFR mutation"
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Elastase significantly reduced autofluorescence in lung tissue",
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This Results section from the study by Sheng-Chi Hsu discusses the effectiveness of elastase in significantly reducing autofluorescence in lung tissue during ALK fluorescence in situ hybridization assays for lung cancers.\n\nThese characteristics provide a comprehensive overview of the study population and ensure the generalizability of our findings. ### Elastase significantly reduced autofluorescence in lung tissue\n\nUsing the standard FISH pretreatment protocol, about 90% (116/120) of lung specimens showed a strong autofluorescence background in ALK break-apart FISH analyses. Pepsin pretreatment did not effectively reduce tissue autofluorescence, and the autofluorescence background masked probe fluorescence detection (data not shown). Weak and unclear probe signal capture could lead to inconclusive test results.",
+      "entities": [
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "autofluorescence",
+          "evidence": "Elastase significantly reduced autofluorescence in lung tissue"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Elastase significantly reduced autofluorescence in lung tissue",
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This results section from the study explores the hypothesis that elastase digestion of the extracellular matrix significantly reduces autofluorescence in lung tissue, improving the clarity of fluorescence in situ hybridization probe signals in lung cancer assays.\n\nWeak and unclear probe signal capture could lead to inconclusive test results. Autofluorescence in FISH studies is usually derived from the extracellular matrix. Therefore, we hypothesized that digestion of the extracellular matrix may reduce the autofluorescence background noise but not eliminate target DNA sequence detection. We evaluated the digestion efficiency of different proteases combined with pepsin in various FISH pretreatment conditions. Our results indicate that elastase is significantly more effective in reducing autofluorescence in lung tissue samples compared to collagenase type I, II, and IV [ Fig. 1 ] Fig. 1 D]. According to this finding, we developed a novel elastase-based pretreatment method. Initially, we tested different elastase pre-treatment concentrations at 2 mg/ml [ Fig. 2 Fig. 2 B], 0.5 mg/ml [ Fig. 2 C], 0.2 mg/ml [ Fig. 2 D], on lung tissue samples. Autofluorescence signaling was significantly reduced in a dose-dependent manner. However, there was a change in nuclear shape and fusion between adjacent cells at 2 mg/ml elastase concentration [ Fig. 2 D]. At 1 mg/ml elastase, the autofluorescence background was significantly reduced, and cell nuclear morphology remained intact [ Fig. 2 B]. Therefore, we defined the optimal concentration of elastase pretreatment for autofluorescence reduction and nuclear integrity in lung cancerous tissue to be 1 mg/ml.",
+      "entities": [
+        {
+          "text": "elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "extracellular matrix",
+          "type": "CELL_LINE",
+          "id": "CVCL_A8T2",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "autofluorescence",
+          "evidence": "elastase digestion of the extracellular matrix significantly reduces autofluorescence in lung tissue"
+        }
+      ],
+      "figure_refs": [
+        "fig1",
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p3",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Application of elastase to ALK FISH",
+      "paragraph_index": 3,
+      "parent_section_id": "sec4",
+      "text": "This Results section from the study by Hsu et al. discusses the optimal concentration of elastase for reducing autofluorescence and ensuring nuclear integrity in lung cancerous tissue, specifically in the context of ALK FISH analysis.\n\nTherefore, we defined the optimal concentration of elastase pretreatment for autofluorescence reduction and nuclear integrity in lung cancerous tissue to be 1 mg/ml. ### Application of elastase to ALK FISH\n\nSince ALK inhibitors have been proven effective in the treatment of ALK translocated NSCLC in recent years, we attempted to employ our novel FISH pretreatment protocol in ALK FISH analysis. As shown in [ Fig. 3 ALK break-apart assay to identify ALK translocation in NSCLC patients. In this assay, the green fluorescence and red fluorescence probes were located at ALK 5′- and 3′-regions. In [ Fig. 3 B], pepsin short-time digestion without elastase treatment had strong autofluorescence without visible FISH signals, and the case with pepsin long-time digestion without elastase treatment showed transformed nucleus pattern and less clear probe signals [ Fig. 3 C]. In a comparison of ALK FISH with and without elastase pretreatment, samples that had been elastase-pretreated exhibited precise probe signal detection and lower autofluorescence without a transformed nucleus [ Fig. 3 D]. This improvement made a percentage of hitherto uncountable signals easily discernible. Compared to the standard pepsin pretreatment, elastase pretreatment improved sensitivity from 85.0% to 95.8% and specificity from 78.2% to 91.7% [ Table 2 ]. This indicates the elastase-based protocol significantly enhances detection accuracy. Furthermore, two additional cases of ALK translocation were detected by FISH following elastase pretreatment [ Table 1 ] ALK break-apart positive NSCLC cases with RT-PCR and ALK immunohistochemistry. RT-PCR detected two EML4-ALK variant 1 [ Fig. 4 Fig. 4 B] and one variant 3a/3 b isoforms [ Fig. 4 C] and strong ALK expression levels in ALK translocated NSCLC cases [ Fig. 4 D].",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK inhibitors",
+          "type": "DRUG",
+          "id": "CHEBI:62434",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ALK inhibitors",
+          "predicate": "treats",
+          "object": "ALK translocated NSCLC",
+          "evidence": "ALK inhibitors have been proven effective in the treatment of ALK translocated NSCLC"
+        }
+      ],
+      "figure_refs": [
+        "fig3",
+        "tbl2",
+        "tbl1",
+        "fig4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p4",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Application of elastase to ALK FISH",
+      "paragraph_index": 4,
+      "parent_section_id": "sec4",
+      "text": "This results section from the study compares the effectiveness of various pretreatment conditions for ALK FISH assays, highlighting the impact of elastase on reducing autofluorescence in lung cancer samples.\n\n4 D]. We further compared FISH results across different pretreatment conditions [ 1 ]: pepsin short-time digestion combined with elastase treatment [ 2 ], standard FISH pretreatment with pepsin short-time digestion without elastase treatment, and [ 3 ] pepsin long-time digestion without elastase treatment. The strong autofluorescence occurrence rate in the standard pretreatment method (condition 2) was 96.7% (116/120) [ Table 1 ]. The strong autofluorescence interference rate of pepsin short-time digestion combined with elastase treatment and pepsin long-time digestion without elastase treatment was significantly reduced to 0% (0/120, p < 0.001) and 25% (30/120, p < 0.001) in this study [ Table 1 ]. Even the pepsin's long-time digestion without elastase treatment was able to reduce autofluorescence interference in FISH, but nuclei displayed transformed shapes in 70.8% (85/120) samples [ Table 1 ]. However, in the pepsin short-time digestion combined with elastase treatment, the appearance of transformed nuclear shapes decreased to 11.7% (14/120, p < 0.001) of samples [ Table 1 ]. In comparison to standard FISH pretreatment with pepsin short-time digestion and pepsin long-time digestion without elastase treatment, pepsin short-time digestion combined with elastase pretreatment successfully improved the retest rate from 86.7% (104/120) and 17.5% (21/120) to 0% (0/120, p < 0.001) in this study [ Table 1 ].",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "autofluorescence",
+          "evidence": "the impact of elastase on reducing autofluorescence in lung cancer samples."
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec4-p5",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Application of elastase to ALK FISH",
+      "paragraph_index": 5,
+      "parent_section_id": "sec4",
+      "text": "This Results section from Sheng-Chi Hsu's study reports on the improved retest rates for ALK FISH assays when using elastase pretreatment compared to standard pepsin digestion methods, highlighting significant statistical differences in outcomes.\n\nIn comparison to standard FISH pretreatment with pepsin short-time digestion and pepsin long-time digestion without elastase treatment, pepsin short-time digestion combined with elastase pretreatment successfully improved the retest rate from 86.7% (104/120) and 17.5% (21/120) to 0% (0/120, p < 0.001) in this study [ Table 1 ]. According to the results of parallel experiments, the previously strong autofluorescence emitted by specimens processed with the newly invented pretreatment step was significantly decreased. Compared to the pepsin pretreatment, positive probe signals were easily discernible following the novel approach.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase pretreatment",
+          "predicate": "improved",
+          "object": "retest rates for ALK FISH assays",
+          "evidence": "improved retest rates for ALK FISH assays when using elastase pretreatment"
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec5-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This discussion section from the BJ article by Sheng-Chi Hsu addresses the challenges of autofluorescence in ALK FISH assays for lung cancers and suggests modifications to pretreatment protocols to enhance probe signal detection.\n\nALK inhibitors can effectively treat NSCLC patients with ALK translocations [17–19] . Although traditional FISH pretreatment protocols have been applied in ALK translocation tests, autofluorescence often occurs in lung tissues, a common obstacle in FISH-based testing that can interfere with probe signal detection. FISH pretreatment protocol modification is a feasible way to improve FISH signal detection [ 20 ]. Our solution of reducing autofluorescence levels is based on the utilization of extracellular matrix enzymes. Therefore, we focused on the use of collagenase and elastase in our FISH pretreatment modification protocol. According to our results, elastase reduced autofluorescence more efficiently than collagenase in lung cancer tissue.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK inhibitors",
+          "type": "DRUG",
+          "id": "CHEBI:62434",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "collagen",
+          "type": "CHEMICAL",
+          "id": "D003094",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ALK inhibitors",
+          "predicate": "treat",
+          "object": "NSCLC patients with ALK translocations",
+          "evidence": "ALK inhibitors can effectively treat NSCLC patients with ALK translocations"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec5-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec5",
+      "text": "This discussion section from the article explores the comparative effectiveness of elastase and collagenase in reducing autofluorescence for ALK translocation detection in non-small cell lung cancer (NSCLC) samples using fluorescence in situ hybridization (FISH).\n\nAccording to our results, elastase reduced autofluorescence more efficiently than collagenase in lung cancer tissue. To examine the feasibility of pretreating samples with specific proteases for ALK translocation detection, we compared the efficiency of collagenase and elastase combined with pepsin in ALK FISH in NSCLC samples. We found that samples co-treated with elastase and pepsin significantly reduced autofluorescence in NSCLC samples. The significant reduction in retest rate highlights the efficiency of elastase pretreatment in overcoming autofluorescence, facilitating accurate molecular diagnostics. This protocol enabled the detection of additional ALK translocation cases, underscoring its diagnostic sensitivity. This novel pretreatment approach could efficiently rescue cases with high autofluorescence and provide accurate, molecular pathologic information. Furthermore, we believe that this protocol can be applied to other tissue types besides the lung.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "collagenase",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pepsin",
+          "type": "PROTEIN",
+          "id": "104929130",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "autofluorescence",
+          "evidence": "elastase reduced autofluorescence more efficiently than collagenase in lung cancer tissue."
+        },
+        {
+          "subject": "collagenase",
+          "predicate": "combined_with",
+          "object": "pepsin",
+          "evidence": "we compared the efficiency of collagenase and elastase combined with pepsin in ALK FISH in NSCLC samples."
+        },
+        {
+          "subject": "elastase",
+          "predicate": "co-treated_with",
+          "object": "pepsin",
+          "evidence": "samples co-treated with elastase and pepsin significantly reduced autofluorescence in NSCLC samples."
+        },
+        {
+          "subject": "elastase",
+          "predicate": "facilitates",
+          "object": "accurate molecular diagnostics",
+          "evidence": "efficiency of elastase pretreatment in overcoming autofluorescence, facilitating accurate molecular diagnostics."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec5-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec5",
+      "text": "This discussion section from the article explores the potential application of the elastase protocol beyond lung tissue, examining the composition and interactions of elastic fibers in relation to tumor cells.\n\nFurthermore, we believe that this protocol can be applied to other tissue types besides the lung. Elastic tissue consists of fibers with elastic properties [ 21 ]. Elastic fibers contain microfibrillar-associated glycoproteins, fibrillin, fibulin, elastin receptor, and amorphous elastin [ 21 ]. Several studies have focused on elastin and tumor cell interactions [ 22 ]. Elastin expression levels were correlated to mesenchymal-epithelial transition in NSCLC patients [ 23 ]. Furthermore, many cancer cells expressed elastin receptor and interacted with elastin [ 24 ]. This evidence might explain the abundance of elastin in lung cancer. Our finding also indirectly confirms the abundant expression of elastin in lung cancer tissue.",
+      "entities": [
+        {
+          "text": "elastin",
+          "type": "PROTEIN",
+          "id": "103535844",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastin receptor",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastin",
+          "predicate": "associated_with",
+          "object": "mesenchymal-epithelial transition in NSCLC patients",
+          "evidence": "Elastin expression levels were correlated to mesenchymal-epithelial transition in NSCLC patients."
+        },
+        {
+          "subject": "cancer cells",
+          "predicate": "interacts_with",
+          "object": "elastin",
+          "evidence": "many cancer cells expressed elastin receptor and interacted with elastin."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec5-p3",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec5",
+      "text": "This discussion section from the article examines the role of elastin expression and the importance of optimizing enzymatic digestion in FISH protocols to mitigate issues with nuclear morphology and autofluorescence in lung cancer tissue samples.\n\nOur finding also indirectly confirms the abundant expression of elastin in lung cancer tissue. Enzymatic digestion is a crucial step in FISH experimental protocols. Protease over-digestion, on the other hand, can result in compromised nuclear morphology and target gene signal loss in specimens. Conversely, protease under-digestion usually leads to excessive background or autofluorescence, which can interfere with target gene signal detection [ 25 , 26 ]. In this study, elastase employment improved the under-digestion issue without compromising the nuclear morphology of NSCLC samples. Utilizing the optimized FISH pretreatment method, reliable clinical results can be achieved, leading to accurate molecular diagnoses and tailoring targeted therapies for patients.",
+      "entities": [
+        {
+          "text": "elastin",
+          "type": "PROTEIN",
+          "id": "103535844",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "ENZYME",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastin",
+          "predicate": "associated_with",
+          "object": "lung cancer",
+          "evidence": "confirms the abundant expression of elastin in lung cancer tissue."
+        },
+        {
+          "subject": "elastase",
+          "predicate": "improves",
+          "object": "under-digestion issue",
+          "evidence": "elastase employment improved the under-digestion issue."
+        },
+        {
+          "subject": "elastase",
+          "predicate": "compromises",
+          "object": "nuclear morphology",
+          "evidence": "without compromising the nuclear morphology of NSCLC samples."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec6-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This conclusion section from the study discusses the benefits of an elastase-based pretreatment protocol in reducing autofluorescence in NSCLC tissue, thereby improving the accuracy and reliability of ALK fluorescence in situ hybridization assays.\n\nIn this study, we developed a novel elastase-based pretreatment protocol that significantly reduces autofluorescence in non-small cell lung cancer (NSCLC) tissue, thereby improving the accuracy of ALK fluorescence in situ hybridization (FISH) assays. Our results demonstrated that elastase pretreatment enhances signal clarity, reduces the retest rate to 0%, and enables the detection of additional ALK translocations that were indiscernible using standard pepsin pretreatment. This optimized method not only overcomes a key technical barrier in molecular diagnostics but also offers potential for application across a broader range of tissue types. These findings provide a valuable tool for improving the accuracy of ALK translocation detection in clinical practice, ultimately contributing to better patient stratification and targeted therapy decisions.",
+      "entities": [
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "elastase",
+          "predicate": "reduces",
+          "object": "autofluorescence",
+          "evidence": "elastase-based pretreatment protocol that significantly reduces autofluorescence in non-small cell lung cancer (NSCLC) tissue"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "improves",
+          "object": "accuracy of ALK fluorescence in situ hybridization assays",
+          "evidence": "thereby improving the accuracy of ALK fluorescence in situ hybridization (FISH) assays"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "enhances",
+          "object": "signal clarity",
+          "evidence": "elastase pretreatment enhances signal clarity"
+        },
+        {
+          "subject": "elastase",
+          "predicate": "enables",
+          "object": "detection of additional ALK translocations",
+          "evidence": "enables the detection of additional ALK translocations that were indiscernible using standard pepsin pretreatment"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100840-sec11-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding sources",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec11",
+      "text": "This funding sources section from the article highlights financial support received from various organizations, including the Ministry of Health and Welfare, National Science and Technology Council, and Chang Gung Memorial Hospital for the research conducted.\n\nThis work was supported by grants from Ministry of Health and Welfare ( MOHW 111-TDU-B-221-11-114,009) and National Science and Technology Council (111-2320-B-182A-007-MY3) and the Chang Gung Memorial Hospital (CMRPG3M1062 and CMRPG3M1541).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Ministry of Health and Welfare",
+          "predicate": "supports",
+          "object": "research",
+          "evidence": "This work was supported by grants from Ministry of Health and Welfare"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: Elastase pretreatment (1 mg/ml) significantly reduces autofluorescence in lung cancerous tissue compared to the control (NaSCN), while preserving nuclear integrity. The specific reduction in autofluorescence enhances the clarity of ALK fluorescence in situ hybridization assays. This finding supports the argument that elastase is an effective agent to reduce background autofluorescence in lung cancer diagnostics.\n\nCaption: Autofluorescence reduction in lung cancerous tissue with different pretreatment protocolsThe autofluorescence of lung cancerous tissue was significantly different under a variety of pretreatment conditions with (A) NaSCN (control), (B) 10 mg/ml Collagenase Ⅰ, (C) 10 mg/ml Collagenase Ⅱ, and (D) 10 mg/ml Collagenase IV, (E) 1 mg/ml Elastase, (F) 2 mg/ml Elastase (original magnification × 100). Elastase pretreatment (1 mg/ml) significantly reduced autofluorescence while preserving nuclear integrity.",
+      "label": "Fig. 1",
+      "caption": "Autofluorescence reduction in lung cancerous tissue with different pretreatment protocolsThe autofluorescence of lung cancerous tissue was significantly different under a variety of pretreatment conditions with (A) NaSCN (control), (B) 10 mg/ml Collagenase Ⅰ, (C) 10 mg/ml Collagenase Ⅱ, and (D) 10 mg/ml Collagenase IV, (E) 1 mg/ml Elastase, (F) 2 mg/ml Elastase (original magnification × 100). Elastase pretreatment (1 mg/ml) significantly reduced autofluorescence while preserving nuclear integrity.",
+      "entities": [
+        {
+          "text": "Elastase",
+          "type": "DRUG",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "NaSCN",
+          "type": "CHEMICAL",
+          "id": "CHEBI:30952",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Collagenase Ⅰ",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Collagenase Ⅱ",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Collagenase IV",
+          "type": "CHEMICAL",
+          "id": "CHEBI:74327",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec4-p2"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: 1 mg/ml elastase reduces autofluorescence in lung cancerous tissue compared to lower concentrations (0.2 mg/ml, 0.5 mg/ml) and pepsin alone, demonstrating optimal conditions for minimizing background autofluorescence while maintaining intact nuclear morphology. This finding supports the efficacy of elastase in improving ALK fluorescence in situ hybridization assays for lung cancers.\n\nCaption: Optimization of elastase concentration for reducing autofluorescence in lung cancerous tissue The effects of different elastase concentrations on autofluorescence background and nuclear morphology were compared: (A) 2 mg/ml elastase, (B) 1 mg/ml elastase, (C) 0.5 mg/ml elastase, (D) 0.2 mg/ml elastase, (E) Pepsin only, (F) Pepsin +1 mg/ml elastase, (G) Pepsin +0.5 mg/ml elastase, (H) Pepsin +0.2 mg/ml elastase, (I) Control (no treatment), (J) Pepsin + long-time digestion (original magnification × 600). The optimal concentration was 1 mg/ml elastase, which resulted in minimal autofluorescence and intact nuclear morphology.",
+      "label": "Fig. 2",
+      "caption": "Optimization of elastase concentration for reducing autofluorescence in lung cancerous tissue The effects of different elastase concentrations on autofluorescence background and nuclear morphology were compared: (A) 2 mg/ml elastase, (B) 1 mg/ml elastase, (C) 0.5 mg/ml elastase, (D) 0.2 mg/ml elastase, (E) Pepsin only, (F) Pepsin +1 mg/ml elastase, (G) Pepsin +0.5 mg/ml elastase, (H) Pepsin +0.2 mg/ml elastase, (I) Control (no treatment), (J) Pepsin + long-time digestion (original magnification × 600). The optimal concentration was 1 mg/ml elastase, which resulted in minimal autofluorescence and intact nuclear morphology.",
+      "entities": [
+        {
+          "text": "elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "pepsin",
+          "type": "PROTEIN",
+          "id": "104929130",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec4-p2"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 3: Elastase pretreatment reduces background autofluorescence and enhances the quality of ALK FISH detection in lung adenocarcinoma samples. Compared to pepsin short-time digestion, elastase long-time digestion results in clearer probe signals and diminished autofluorescence without causing nuclear transformation. This finding supports the article's argument that elastase improves the reliability of ALK FISH assays for detecting lung cancer.\n\nCaption: Elastase pretreatment significantly improved the quality of ALK FISH detection in a lung adenocarcinoma (A) Scheme of ALK break-apart probe construction. (B–D) ALK break-apart FISH was pretreatment with pepsin short time digestion (B), elastase long-time digestion (C), and pepsin and elastase digestion (D). The sample with elastase pretreatment exhibited clear probe signals and lower autofluorescence without a transformed nucleus (original magnification X1000).",
+      "label": "Fig. 3",
+      "caption": "Elastase pretreatment significantly improved the quality of ALK FISH detection in a lung adenocarcinoma (A) Scheme of ALK break-apart probe construction. (B–D) ALK break-apart FISH was pretreatment with pepsin short time digestion (B), elastase long-time digestion (C), and pepsin and elastase digestion (D). The sample with elastase pretreatment exhibited clear probe signals and lower autofluorescence without a transformed nucleus (original magnification X1000).",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung adenocarcinoma",
+          "type": "DISEASE",
+          "id": "DOID:3910",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "pepsin",
+          "type": "CHEMICAL",
+          "id": "D010434",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK FISH",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:1324",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec4-p3"
+      ]
+    },
+    {
+      "id": "fig4",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 4: The sequencing analysis confirmed the presence of EML4-ALK variants in positive ALK BAP clinical samples, specifically revealing EML4-ALK variant 1, variant 3a, and variant 3a/3b. ALK immunohistochemical staining in NSCLC with EML4-ALK 3a/3b confirmed their expression. This confirmation supports the argument that elastase can enhance the specificity and sensitivity of ALK detection in lung cancer diagnostic assays.\n\nCaption: Confirmation of positive ALK BAP clinical sample by reverse transcription-polymerase chain reaction and ALK immunohistochemical stain (A-C) Sequencing analysis of the FISH positive cases revealed EML4-ALK variant 1 (A), variant 3a (B), and variant 3a/3 b (C). (D–E) ALK immunohistochemical analysis of NSCLC with EML4-ALK 3a/3 b were shown in panel D (original magnification X200).",
+      "label": "Fig. 4",
+      "caption": "Confirmation of positive ALK BAP clinical sample by reverse transcription-polymerase chain reaction and ALK immunohistochemical stain (A-C) Sequencing analysis of the FISH positive cases revealed EML4-ALK variant 1 (A), variant 3a (B), and variant 3a/3 b (C). (D–E) ALK immunohistochemical analysis of NSCLC with EML4-ALK 3a/3 b were shown in panel D (original magnification X200).",
+      "entities": [
+        {
+          "text": "EML4-ALK",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ALK BAP",
+          "type": "DRUG",
+          "id": "CHEBI:29022",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "EML4-ALK variant 1",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "EML4-ALK variant 3a",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "EML4-ALK variant 3a/3b",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec4-p3"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: Elastase plus pepsin short time digestion treatment reduces autofluorescence background to 0 strong and 74 weak signals compared to 116 strong and 61 weak signals with pepsin short time digestion according to standard FISH protocol, with a p-value of <0.001. The method also results in uncountable signals (none or weak) at 0, in contrast to 104 under the standard protocol, demonstrating its superior efficacy in enhancing ALK FISH assay results for lung cancers. This finding supports the argument that elastase reduces background autofluorescence, improving the clarity and accuracy of FISH assays.\n\nCaption: Comparison of different pretreatment methods in ALK FISH assay.\n\n| ALK BAP FISH |  | Elastase plus pepsin short time digestion treatment | Pepsin short time digestion according to standard FISH protocol | p | Pepsin long time digestion | p |\n| --- | --- | --- | --- | --- | --- | --- |\n| Autofluorescence background | Strong | 0 | 116 | <0.001 | 30 | <0.001 |\n| Moderate | 46 | 4 |  | 29 |  |\n| Weak | 74 | 0 |  | 61 |  |\n| Nuclear morphology | Intact | 106 | 118 | 0.07 | 35 | <0.001 |\n| Transformed | 14 | 2 |  | 85 |  |\n| Uncountable signal (none or weak) |  | 0 | 104 | <0.001 | 21 | <0.05 |\n| FISH result | Positive | 4 | 0 |  | 2 |  |\n| Negative | 116 | 16 |  | 97 |  |\n| FISH failure rate |  | 0% | 86.7% |  | 17.5% |  |",
+      "label": "Table 1",
+      "caption": "Comparison of different pretreatment methods in ALK FISH assay.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "elastase",
+          "type": "CHEMICAL",
+          "id": "D019272",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "pepsin",
+          "type": "CHEMICAL",
+          "id": "D010434",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec3-p0",
+        "article-10-1016-j-bj-2025-100840-sec4-p0",
+        "article-10-1016-j-bj-2025-100840-sec4-p3",
+        "article-10-1016-j-bj-2025-100840-sec4-p4",
+        "article-10-1016-j-bj-2025-100840-sec4-p5"
+      ]
+    },
+    {
+      "id": "tbl2",
+      "type": "table",
+      "section": null,
+      "text": "Table 2: Elastase (1 mg/ml) increases the sensitivity of ALK FISH assays to 95.8% and specificity to 91.7%, while producing a 0.0% retest rate. In comparison, the sensitivity and specificity of pepsin (short-time) are 85.0% and 78.2%, respectively, and for pepsin (long-time), they are 90.3% and 85.0%. This finding supports the argument that elastase effectively reduces background autofluorescence, leading to improved assay performance in lung cancers.\n\nCaption: Comparison of sensitivity, specificity, and retest rates between different pretreatment methods in ALK FISH assays.\n\n| Pretreatment Method | Sensitivity (%) | Specificity (%) | Retest Rate (%) |\n| --- | --- | --- | --- |\n| Pepsin (short-time) | 85.0 | 78.2 | 86.7 |\n| Pepsin (long-time) | 90.3 | 85.0 | 17.5 |\n| Elastase (1 mg/ml) | 95.8 | 91.7 | 0.0 |",
+      "label": "Table 2",
+      "caption": "Comparison of sensitivity, specificity, and retest rates between different pretreatment methods in ALK FISH assays.",
+      "entities": [
+        {
+          "text": "ALK",
+          "type": "GENE",
+          "id": "238",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Elastase",
+          "type": "PROTEIN",
+          "id": "100135144",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Pepsin",
+          "type": "PROTEIN",
+          "id": "104929130",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "lung cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100840",
+        "pii": "S2319-4170(25)00014-9",
+        "doi": "10.1016/j.bj.2025.100840",
+        "title": "Elastase reduces background autofluorescence in ALK fluorescence in situ hybridization assays for lung cancers",
+        "authors": [
+          "Sheng-Chi Hsu",
+          "Tsai-Hsien Hung",
+          "Hsiao-Chun Wu",
+          "Kwai-Fong Ng",
+          "Tse-Ching Chen"
+        ],
+        "publication_date": "2025-03-01",
+        "abstract": "Anaplastic lymphoma kinase (ALK) inhibitors have been effective in treating non-small cell lung cancers (NSCLC) with ALK translocation. However, high background autofluorescence in lung tissues interferes with fluorescence in situ hybridization (FISH) assays, masking molecular probe signals and hindering data interpretation. To reduce autofluorescence, NSCLC tissue sections were treated with various proteases, including collagenase types I, II, IV, and elastase, to determine the most effective enzyme. We then conducted ALK break-apart FISH assays on 120 NSCLC samples, comparing standard and novel pretreatment protocols. Elastase was identified as the most effective enzyme for reducing autofluorescence while preserving nuclear integrity. The elastase-based pretreatment enabled clear FISH signal detection in all cases, reducing the retest rate from 86.7% to 0%. Furthermore, two additional ALK translocated cases were detected with elastase pretreatment, which were indeterminable with pepsin treatment alone. This novel elastase pretreatment protocol addresses autofluorescence interference in lung tissues and can significantly improve the reliability of FISH assays for targeted therapy decisions.",
+        "keywords": [
+          "Fluorescence in situ hybridization (FISH)",
+          "Elastase",
+          "ALK translocation",
+          "Non-small cell lung cancer (NSCLC)",
+          "Molecular diagnosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100840-sec4-p3"
+      ]
+    }
+  ]
+}

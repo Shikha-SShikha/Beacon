@@ -1,0 +1,133 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.wrap{padding:16px 0 24px;font-family:var(--font-sans)}
+.stage{display:flex;gap:14px;margin-bottom:6px;align-items:flex-start}
+.connector{width:2px;background:var(--color-border-secondary);margin:0 0 0 19px;height:18px}
+.num{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;flex-shrink:0;margin-top:1px}
+.body{flex:1;border-radius:10px;border:0.5px solid var(--color-border-tertiary);padding:12px 14px;background:var(--color-background-secondary)}
+.stage-title{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.stage-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.tag{display:inline-block;font-size:11px;font-weight:500;padding:1px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
+.sub{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:11px;padding:3px 9px;border-radius:20px;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary)}
+
+.n-teal{background:#E1F5EE;color:#085041}
+.n-purple{background:#EEEDFE;color:#3C3489}
+.n-coral{background:#FAECE7;color:#712B13}
+.n-amber{background:#FAEEDA;color:#633806}
+.n-blue{background:#E6F1FB;color:#0C447C}
+.n-green{background:#EAF3DE;color:#27500A}
+.n-pink{background:#FBEAF0;color:#72243E}
+
+@media(prefers-color-scheme:dark){
+  .n-teal{background:#085041;color:#9FE1CB}
+  .n-purple{background:#3C3489;color:#CECBF6}
+  .n-coral{background:#712B13;color:#F5C4B3}
+  .n-amber{background:#633806;color:#FAC775}
+  .n-blue{background:#0C447C;color:#B5D4F4}
+  .n-green{background:#27500A;color:#C0DD97}
+  .n-pink{background:#72243E;color:#F4C0D1}
+}
+</style>
+
+<div class="wrap">
+
+<div class="stage">
+  <div class="num n-teal">1</div>
+  <div class="body">
+    <div class="stage-title">Query understanding <span class="tag n-teal">before any search</span></div>
+    <div class="stage-desc">The query is parsed for intent, entities, and constraints. "What inhibits STAT3 in colorectal cancer?" gets decomposed into: target entity (STAT3), relationship type (inhibition), disease context (colorectal cancer), and implicit task (find mechanisms or drugs). This shapes everything downstream.</div>
+    <div class="sub">
+      <span class="pill">entity extraction</span>
+      <span class="pill">intent classification</span>
+      <span class="pill">query expansion</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-purple">2</div>
+  <div class="body">
+    <div class="stage-title">Query rewriting / expansion <span class="tag n-purple">often invisible to you</span></div>
+    <div class="stage-desc">Your original query is rarely sent as-is. The system rewrites it into multiple variants — synonyms substituted, abbreviations expanded, related terms added. "STAT3 inhibitors colorectal" might become 3–5 parallel queries covering aliases and related concepts simultaneously.</div>
+    <div class="sub">
+      <span class="pill">synonym injection</span>
+      <span class="pill">HyDE (hypothetical doc embedding)</span>
+      <span class="pill">multi-query fan-out</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-coral">3</div>
+  <div class="body">
+    <div class="stage-title">Dual retrieval <span class="tag n-coral">two parallel searches</span></div>
+    <div class="stage-desc">Two retrieval methods run in parallel and their results are merged. Dense retrieval uses vector similarity (embedding your query and finding nearby document chunks). Sparse retrieval uses keyword matching (BM25 — classic search). Neither alone is sufficient; dense catches semantically related content, sparse catches exact terminology.</div>
+    <div class="sub">
+      <span class="pill">dense: vector similarity</span>
+      <span class="pill">sparse: BM25 keyword</span>
+      <span class="pill">hybrid merge</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-amber">4</div>
+  <div class="body">
+    <div class="stage-title">Reranking <span class="tag n-amber">the critical filter</span></div>
+    <div class="stage-desc">The initial retrieval returns ~50–200 candidate chunks. A separate, more expensive model then re-scores each one specifically for relevance to your query. This is where many failure modes from the taxonomy are introduced — negation, confidence, discourse role are all lost here because most rerankers score relevance, not epistemic quality.</div>
+    <div class="sub">
+      <span class="pill">cross-encoder reranker</span>
+      <span class="pill">top-k selection (e.g. top 10)</span>
+      <span class="pill">MMR diversity filter</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-blue">5</div>
+  <div class="body">
+    <div class="stage-title">Context assembly <span class="tag n-blue">what the LLM actually sees</span></div>
+    <div class="stage-desc">The top-ranked chunks are assembled into a prompt with your original query. The LLM never sees the full document corpus — only these retrieved fragments, typically 5–20 chunks totalling a few thousand words. The quality of everything before this step directly determines the quality of the answer.</div>
+    <div class="sub">
+      <span class="pill">chunk deduplication</span>
+      <span class="pill">source metadata attached</span>
+      <span class="pill">context window budget</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-green">6</div>
+  <div class="body">
+    <div class="stage-title">Generation <span class="tag n-green">where your answer is written</span></div>
+    <div class="stage-desc">The LLM reads the assembled context and generates an answer grounded in those chunks. It is instructed to cite sources and not hallucinate beyond what's provided. But if the retrieval steps surfaced the wrong chunks — or missed the right ones — the LLM has no way to know. It answers faithfully from bad inputs.</div>
+    <div class="sub">
+      <span class="pill">grounded generation</span>
+      <span class="pill">citation attachment</span>
+      <span class="pill">hallucination guardrails</span>
+    </div>
+  </div>
+</div>
+<div class="connector"></div>
+
+<div class="stage">
+  <div class="num n-pink">7</div>
+  <div class="body">
+    <div class="stage-title">Post-processing <span class="tag n-pink">in more advanced tools</span></div>
+    <div class="stage-desc">Sophisticated systems add a verification pass: fact-checking claims against retrieved sources, checking if the answer is actually supported by the cited chunk, flagging low-confidence statements, or triggering a second retrieval round if the answer looks incomplete. Most basic tools skip this entirely.</div>
+    <div class="sub">
+      <span class="pill">faithfulness check</span>
+      <span class="pill">iterative retrieval</span>
+      <span class="pill">confidence scoring</span>
+    </div>
+  </div>
+</div>
+
+</div>

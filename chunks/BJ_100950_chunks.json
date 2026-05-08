@@ -1,0 +1,2329 @@
+{
+  "source_file": "BJ_100950.xml",
+  "article_doi": "10.1016/j.bj.2026.100950",
+  "total_chunks": 46,
+  "text_chunks": 45,
+  "visual_chunks": 1,
+  "total_entities": 108,
+  "entities_with_ontology_id": 65,
+  "total_relations": 105,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the panopticon concept, an architectural design for a prison by Jeremy Bentham, emphasizing its implications for various institutions like classrooms and hospitals.\n\nA prison in which punishment is rarely required, a classroom in which students are not subjected to corporal discipline, and a hospital in which patients conform to expected norms of behavior—this vision was materialized in the concept of the panopticon. At its core, the panopticon is an architectural design for a prison proposed by Jeremy Bentham in 1791. It consists of a circular, glass-roofed structure with individual cells arranged along the outer wall and facing a central rotunda. From this central position, inspectors can observe the cells at any time and even communicate with inmates, while remaining themselves unseen., 1 1 https://www.britannica.com/technology/panopticon , last access 01/19/2026. 2 The uncertainty of observation is crucial: prisoners never know whether or when they are being watched, yet the mere possibility is sufficient to induce compliance, as control becomes internal rather than externally enforced. 2 https://www.ucl.ac.uk/laws/research/research-projects/bentham-project/about-jeremy-bentham/panopticon , last access 01/19/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "panopticon",
+          "predicate": "is",
+          "object": "an architectural design for a prison",
+          "evidence": "the panopticon is an architectural design for a prison proposed by Jeremy Bentham in 1791."
+        },
+        {
+          "subject": "Jeremy Bentham",
+          "predicate": "proposed",
+          "object": "the panopticon",
+          "evidence": "proposed by Jeremy Bentham in 1791."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the historical development and adaptation of the panopticon concept beyond prison systems to include schools and hospitals, emphasizing its roles in training and supervision of unskilled workers.\n\n2 https://www.ucl.ac.uk/laws/research/research-projects/bentham-project/about-jeremy-bentham/panopticon , last access 01/19/2026. Originally conceived as means to facilitate the training and supervision of unskilled workers, the panopticon was subsequently adapted to articulate a new model of imprisonment, then extended to other institutions, including schools and hospitals. While opportunities for resistance may exist, the internalization of surveillance renders the system largely self-sustaining, allowing power to function automatically without a need for constant intervention [ 2 1 , 2 ]. 3 3 https://www.researchpublish.com/upload/book/paperpdf-1621670285.pdf , last access 01/19/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the historical staging of power in premodern societies, highlighting how public displays of authority influenced economic, political, and social structures, referencing Machiavelli's advice to rulers.\n\n3 3 https://www.researchpublish.com/upload/book/paperpdf-1621670285.pdf , last access 01/19/2026. In premodern societies, power was frequently staged as spectacle. Public displays of authority—ritualized violence, punishment, and ceremony—served as organizing principles of economic, political, and social life. Niccolò Machiavelli, the Renaissance political thinker, explicitly advised rulers to employ spectacle as a tool of governance and social control. War, religion, and sport provided fertile ground for such practices for centuries. In more recent history, spectacle has not disappeared but takes on new forms with the emergence of technospectacles as defining features of globalization. 4 4 https://pages.gseis.ucla.edu/faculty/kellner/papers/medculturespectacle.html , last access 01/18/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the transformation of power dynamics, referencing Michel Foucault's analysis of premodern power's instability and its impact on social unrest and resistance.\n\n4 4 https://pages.gseis.ucla.edu/faculty/kellner/papers/medculturespectacle.html , last access 01/18/2026. The exertion of power has therefore not been abolished but transformed. Premodern power directed at the body proved politically unstable and inefficient, often producing social unrest and resistance. According to Michel Foucault's Discipline and Punish: The Birth of the Prison (1975), this mode of power gradually lost symbolic legitimacy. Corporal punishment came to be regarded as shameful, as societies no longer wished to witness the marks it left on the body. In its place emerged disciplinary power. Justice was no longer primarily conceived as retribution or repair, but as a pedagogical mechanism intended to shape behavior. 5 5 https://utpictura18.univ-amu.fr/en/rubriques/archives/critique-theorie/monitoring-and-punishment , last access 01/18/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p4",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 4,
+      "parent_section_id": "sec1",
+      "text": "This Spotlight on reviews section from BJ discusses Bentham's ideas on power visibility and Foucault's interpretation of its impact on societal behavior, emphasizing themes of morality, health, and productivity as subjects of scrutiny.\n\n5 5 https://utpictura18.univ-amu.fr/en/rubriques/archives/critique-theorie/monitoring-and-punishment , last access 01/18/2026. Bentham believed that by rendering power visible yet unverifiable, the behavior of all members of society could be modified. Morality, health, and productivity alike became objects of observation. Foucault famously described this automatic functioning of power as a “cruel, ingenious cage.” 6 He further linked the logic of panopticism to historical quarantine measures, noting that plague-stricken towns exhibited elements of disciplinary control [ 6 https://ethics.org.au/ethics-explainer-panopticon-what-is-the-panopticon-effect/ , last access 01/19/2026. 3 , 4 ]. As he observed, “each individual is fixed in place; and, if he moves, he does so at the risk of his life, contagion, or punishment”, 7 anticipating key features of later panoptic institutions. 7 https://www.journal-psychoanalysis.eu/articles/coronavirus-and-philosophers/ , last access 01/19/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Bentham",
+          "predicate": "believed",
+          "object": "behavior of all members of society",
+          "evidence": "Bentham believed that by rendering power visible yet unverifiable, the behavior of all members of society could be modified."
+        },
+        {
+          "subject": "Morality",
+          "predicate": "became",
+          "object": "objects of observation",
+          "evidence": "Morality, health, and productivity alike became objects of observation."
+        },
+        {
+          "subject": "Foucault",
+          "predicate": "described",
+          "object": "automatic functioning of power",
+          "evidence": "Foucault famously described this automatic functioning of power as a 'cruel, ingenious cage.'"
+        },
+        {
+          "subject": "Foucault",
+          "predicate": "linked",
+          "object": "logic of panopticism",
+          "evidence": "He further linked the logic of panopticism to historical quarantine measures."
+        },
+        {
+          "subject": "plague-stricken towns",
+          "predicate": "exhibited",
+          "object": "elements of disciplinary control",
+          "evidence": "noting that plague-stricken towns exhibited elements of disciplinary control."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p5",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 5,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the evolution of modern institutional power dynamics, emphasizing behavior control through continuous observation rather than direct punishment.\n\n7 https://www.journal-psychoanalysis.eu/articles/coronavirus-and-philosophers/ , last access 01/19/2026. The emergence of modern institutions thus reflects a shift in how power operates. Control is exercised less through punishment than through the shaping of behavior by continuous, actual or imagined, observation. It is persistent rather than episodic, preventive rather than reactive. Contemporarily, this logic has been further expanded through networks of observation and data collection. Surveillance no longer merely observes. It actively classifies and predicts, thereby seeking to regulate behavior. 8 8 https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham , last access 01/19/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p6",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": null,
+      "paragraph_index": 6,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ examines the evolution of power and control mechanisms in society, highlighting the shift from overt physical punishment to regulatory structures of control.\n\n8 8 https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham , last access 01/19/2026. Over recent decades, displays of power and control have increasingly shifted from inhibition to regulation. The need for overt physical punishment has been reduced or eliminated, while structures of control persist in modified form. Power survives by acquiring new functions and modes of operation, favoring selective advantages such as stability, scalability, and high efficiency. Rather than disappearing, mechanisms of control persist by being repurposed, retaining their core structure while adopting new functions under changing constraints.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p7",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 7,
+      "parent_section_id": "sec1",
+      "text": "This Spotlight on reviews section from BJ discusses the role of protease inhibitors as a versatile group of natural enzyme regulators, highlighting their structural diversity and various properties related to inhibition.\n\nRather than disappearing, mechanisms of control persist by being repurposed, retaining their core structure while adopting new functions under changing constraints. ### Protease inhibition as regulation\n\nProtease inhibitors constitute the largest and most structurally diverse group of naturally occurring enzyme inhibitors. Their structures, modes of inhibition, kinetic and thermodynamic properties, and the nature of enzyme–inhibitor complexes are remarkably varied. At the same time, convergence of structure and function can be observed, indicating that only a limited number of inhibitory strategies exist [ 5 ]. Serine protease inhibitors (serpins) form the largest and most widely distributed superfamily of protease inhibitors. Serpin-like genes have been identified in animals, poxviruses, plants, bacteria, and archaea, and more than 1500 family members have been described to date [ 6 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p8",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 8,
+      "parent_section_id": "sec1",
+      "text": "This Spotlight on reviews section from BJ discusses the diverse occurrence of serpin-like genes across various organisms and their mechanism of action as “suicide” inhibitors through irreversible conformational changes to trap target proteases.\n\nSerpin-like genes have been identified in animals, poxviruses, plants, bacteria, and archaea, and more than 1500 family members have been described to date [ 6 ]. Canonical serpins undergo pronounced and irreversible conformational changes to trap their target proteases [ 7 ]. Because reactive center loop (RCL) cleavage is required for inhibition, serpins are often described as “suicide” inhibitors. Their mechanism depends on the ability of the native protein to exist in a metastable state that readily converts to a more stable conformation during inhibition. The RCL functions as a bait substrate [ 8 ]. Serpins act as central regulators of cardiovascular, hematological, and immune pathways, balancing thrombosis and thrombolysis in hemostasis, vascular responses, lung function, neuronal signaling, and inflammation, among other processes [ 9 ].",
+      "entities": [
+        {
+          "text": "serpin",
+          "type": "GENE",
+          "id": "41829",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "serpins",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "poxviruses",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "bacteria",
+          "type": "ORGANISM",
+          "id": "2",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "archaea",
+          "type": "ORGANISM",
+          "id": "2157",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "proteases",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "serpin-like genes",
+          "predicate": "associated_with",
+          "object": "animals",
+          "evidence": "Serpin-like genes have been identified in animals, poxviruses, plants, bacteria, and archaea."
+        },
+        {
+          "subject": "serpins",
+          "predicate": "describes",
+          "object": "suicide inhibitors",
+          "evidence": "serpins are often described as 'suicide' inhibitors."
+        },
+        {
+          "subject": "serpins",
+          "predicate": "interacts_with",
+          "object": "target proteases",
+          "evidence": "to trap their target proteases."
+        },
+        {
+          "subject": "RCL",
+          "predicate": "functions_as",
+          "object": "bait substrate",
+          "evidence": "The RCL functions as a bait substrate."
+        },
+        {
+          "subject": "serpins",
+          "predicate": "regulates",
+          "object": "cardio",
+          "evidence": "Serpins act as central regulators of cardio."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p9",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 9,
+      "parent_section_id": "sec1",
+      "text": "This Spotlight on reviews section from BJ discusses the role of serpins as regulators in various biological processes, including their evolution and the loss of protease inhibition capabilities.\n\nSerpins act as central regulators of cardiovascular, hematological, and immune pathways, balancing thrombosis and thrombolysis in hemostasis, vascular responses, lung function, neuronal signaling, and inflammation, among other processes [ 9 ]. Over evolutionary time, some serpins have lost their ability to inhibit proteases and fulfill alternative biological tasks. While the overall fold, the stressed and relaxed conformational states, and capacity for large-scale shape change have been conserved, neofunctionalisation has led to functional diversification. Non-inhibitory serpins act as hormone transporters, molecular chaperones, or tumor suppressors, among other roles [ 10–14 ].",
+      "entities": [
+        {
+          "text": "serpins",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "serpins",
+          "predicate": "regulates",
+          "object": "cardiovascular pathways",
+          "evidence": "serpins act as central regulators of cardiovascular, hematological, and immune pathways"
+        },
+        {
+          "subject": "serpins",
+          "predicate": "regulates",
+          "object": "hematological pathways",
+          "evidence": "serpins act as central regulators of cardiovascular, hematological, and immune pathways"
+        },
+        {
+          "subject": "serpins",
+          "predicate": "regulates",
+          "object": "immune pathways",
+          "evidence": "serpins act as central regulators of cardiovascular, hematological, and immune pathways"
+        },
+        {
+          "subject": "serpins",
+          "predicate": "lost",
+          "object": "ability to inhibit proteases",
+          "evidence": "some serpins have lost their ability to inhibit proteases"
+        },
+        {
+          "subject": "non-inhibitory serpins",
+          "predicate": "act as",
+          "object": "hormone transporters",
+          "evidence": "Non-inhibitory serpins act as hormone transporters, molecular chaperones, or tumor suppressors"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p10",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 10,
+      "parent_section_id": "sec1",
+      "text": "This Spotlight on reviews section from BJ discusses the roles of non-inhibitory serpins, focusing on Plasminogen Activator Inhibitor-1 (PAI-1) as a key regulator of the fibrinolytic system through its inhibition of plasminogen activators.\n\nNon-inhibitory serpins act as hormone transporters, molecular chaperones, or tumor suppressors, among other roles [ 10–14 ]. Plasminogen Activator Inhibitor-1 (PAI-1), also known as SERPINE1, is a member of the serpin superfamily and a central regulator of the fibrinolytic system. By inhibiting tissue-type and urokinase-type plasminogen activators (tPA and uPA), PAI-1 controls the conversion of plasminogen to plasmin, the key protease responsible for fibrin degradation. Fibrinolysis is a tightly controlled enzymatic process that requires the coordinated action of plasminogen activators and their inhibitors, including plasminogen activator inhibitors, α2-antiplasmin, and thrombin-activatable fibrinolysis inhibitor [ 15 ].",
+      "entities": [
+        {
+          "text": "Plasminogen Activator Inhibitor-1",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "SERPINE1",
+          "type": "GENE",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "fibrinolytic system",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "plasminogen",
+          "type": "CHEMICAL",
+          "id": "D010958",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "plasmin",
+          "type": "CHEMICAL",
+          "id": "D010958",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "tissue-type plasminogen activators",
+          "type": "CHEMICAL",
+          "id": "CHEBI:195251",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "urokinase-type plasminogen activators",
+          "type": "CHEMICAL",
+          "id": "CHEBI:195251",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Plasminogen Activator Inhibitor-1",
+          "predicate": "inhibits",
+          "object": "tissue-type plasminogen activators",
+          "evidence": "inhibiting tissue-type and urokinase-type plasminogen activators (tPA and uPA)"
+        },
+        {
+          "subject": "Plasminogen Activator Inhibitor-1",
+          "predicate": "inhibits",
+          "object": "urokinase-type plasminogen activators",
+          "evidence": "inhibiting tissue-type and urokinase-type plasminogen activators (tPA and uPA)"
+        },
+        {
+          "subject": "Plasminogen Activator Inhibitor-1",
+          "predicate": "regulates",
+          "object": "fibrinolytic system",
+          "evidence": "a key regulator of the fibrinolytic system"
+        },
+        {
+          "subject": "Plasminogen Activator Inhibitor-1",
+          "predicate": "controls",
+          "object": "conversion of plasminogen to plasmin",
+          "evidence": "PAI-1 controls the conversion of plasminogen to plasmin"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p11",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 11,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the regulation of fibrinolysis through protease inhibition, focusing on the mechanisms of plasminogen activators and inhibitors, especially the behavior of PAI-1 and its conversion between active and inactive states.\n\nFibrinolysis is a tightly controlled enzymatic process that requires the coordinated action of plasminogen activators and their inhibitors, including plasminogen activator inhibitors, α2-antiplasmin, and thrombin-activatable fibrinolysis inhibitor [ 15 ]. PAI-1 is synthesized in an active conformation but spontaneously converts into an inactive state. The largest pool of circulating PAI-1 is stored in platelet α-granules, which account for approximately 90 % of plasma PAI-1. In addition to platelets, PAI-1 can be produced by multiple cell types, including endothelial cells, hepatocytes, macrophages, and adipocytes. Under pathological conditions such as vascular disease, sepsis, inflammation, obesity, and diabetes, PAI-1 expression may be differentially regulated across these cell types. PAI-1 has become recognized as a central molecule linking the pathogenesis and progression of thrombotic vascular events, including stroke [ 16 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "plasminogen",
+          "type": "GENE",
+          "id": "125948914",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "α2-antiplasmin",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "thrombin-activatable fibrinolysis inhibitor",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "produces",
+          "object": "multiple cell types",
+          "evidence": "PAI-1 can be produced by multiple cell types, including endothelial cells, hepatocytes, macrophages, and adipocytes."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "converts",
+          "object": "inactive state",
+          "evidence": "PAI-1... spontaneously converts into an inactive state."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "stored",
+          "object": "platelet α-granules",
+          "evidence": "The largest pool of circulating PAI-1 is stored in platelet α-granules."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "synthesized",
+          "object": "active conformation",
+          "evidence": "PAI-1 is synthesized in an active conformation."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p12",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Protease inhibition as regulation",
+      "paragraph_index": 12,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from the Biomedical Journal discusses the significance of PAI-1 as a key regulator in thrombotic vascular events and introduces a focus on PAI-1 inhibitors across various health contexts.\n\nPAI-1 has become recognized as a central molecule linking the pathogenesis and progression of thrombotic vascular events, including stroke [ 16 ]. In this current issue of the Biomedical Journal , a special section is dedicated PAI-1 inhibitors. highlighting the relevance across diverse disease and health contexts.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "thrombotic vascular events",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "stroke",
+          "type": "DISEASE",
+          "id": "D020521",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1 inhibitors",
+          "type": "DRUG",
+          "id": "CHEBI:35222",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "regulates",
+          "object": "thrombotic vascular events",
+          "evidence": "PAI-1 as a key regulator in thrombotic vascular events"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "stroke",
+          "evidence": "central molecule linking the pathogenesis and progression of thrombotic vascular events, including stroke"
+        },
+        {
+          "subject": "PAI-1 inhibitors",
+          "predicate": "treats",
+          "object": "various health contexts",
+          "evidence": "focus on PAI-1 inhibitors across various health contexts"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p13",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Modulating healthspan",
+      "paragraph_index": 13,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses advances in extending healthspan through modulation of conserved genetic pathways, emphasizing its significance in various disease contexts.\n\nhighlighting the relevance across diverse disease and health contexts. ### Modulating healthspan\n\nOnce thought to be impossible, it is now clear that altering the activity of conserved genetic pathways can extend lifespan in experimental organisms. In humans, the goal has shifted toward extending healthspan—the functional, disease-free period of life—given mounting evidence that age-associated physiological changes underlie many chronic diseases [ 17 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec1-p14",
+      "type": "text",
+      "section": "other",
+      "section_title": "Spotlight on reviews",
+      "subsection_title": "Modulating healthspan",
+      "paragraph_index": 14,
+      "parent_section_id": "sec1",
+      "text": "This spotlight on reviews section from BJ discusses the shift in focus towards extending healthspan by examining the role of PAI-1 in aging and its implications for chronic diseases.\n\nIn humans, the goal has shifted toward extending healthspan—the functional, disease-free period of life—given mounting evidence that age-associated physiological changes underlie many chronic diseases [ 17 ]. Recent evidence positions PAI-1 as a key factor in aging and age-associated diseases [ Fig. 1 ] 18 ]. Importantly, while complete loss of PAI-1 function is detrimental and causes bleeding disorders, a rare loss-of-function SERPINE1 mutation has been shown to extend lifespan, illustrating how lifelong reduction, rather than elimination, of PAI-1 activity can positively impact human healthspan. Therapeutic modulation of PAI-1 activity may thus influence both local tissue remodeling and global organismal aging processes, underscoring its value as a multi-system target [ 19 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "SERPINE1",
+          "type": "GENE",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic diseases",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "aging",
+          "evidence": "PAI-1 as a key factor in aging and age-associated diseases"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "causes",
+          "object": "bleeding disorders",
+          "evidence": "complete loss of PAI-1 function is detrimental and causes bleeding disorders"
+        },
+        {
+          "subject": "SERPINE1",
+          "predicate": "encodes",
+          "object": "PAI-1",
+          "evidence": "a rare loss-of-function SERPINE1 mutation has been shown to extend lifespan"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "influences",
+          "object": "human healthspan",
+          "evidence": "lifelong reduction, rather than elimination, of PAI-1 activity can positively impact human healthspan"
+        }
+      ],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In clinical translation",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from BJ discusses PAI-1 as a therapeutic target in thrombotic disease and its implications for increased cardiovascular and cerebrovascular risk due to age-related fibrinolytic homeostasis alterations.\n\n### … In clinical translation\n\nGiven its involvement in thrombotic disease and broader pathological processes, PAI-1 has emerged as an attractive therapeutic target. Age-related alterations in fibrinolytic homeostasis have been proposed to generate a pro-thrombotic imbalance, which may contribute to increased cardiovascular and cerebrovascular risk with aging [ 20 ]. Miyata reports the development of small-molecule inhibitors of human PAI-1 with potential clinical applicability. Using structure-guided approaches, novel PAI-1 inhibitors were identified and optimized, leading to the selection of TM5509 as a clinical candidate. Preclinical studies with these compounds have provided new therapeutic concepts, demonstrating efficacy across multiple disease models. Importantly, the work emphasizes modulation of PAI-1 activity rather than complete inhibition, reflecting the need to preserve physiological fibrinolytic balance. These findings support the potential of PAI-1 inhibitors not only in thrombolysis-related conditions but also in oncology and aging-associated pathologies [ 21 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "thrombotic disease",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cardiovascular risk",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cerebrovascular risk",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "small-molecule inhibitors",
+          "type": "DRUG",
+          "id": "CHEBI:35222",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "human PAI-1",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "thrombotic disease",
+          "evidence": "PAI-1 as a therapeutic target in thrombotic disease"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "cardiovascular risk",
+          "evidence": "increased cardiovascular and cerebrovascular risk due to age-related fibrinolytic homeostasis alterations"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "cerebrovascular risk",
+          "evidence": "increased cardiovascular and cerebrovascular risk due to age-related fibrinolytic homeostasis alterations"
+        },
+        {
+          "subject": "small-molecule inhibitors",
+          "predicate": "treats",
+          "object": "human PAI-1",
+          "evidence": "development of small-molecule inhibitors of human PAI-1 with potential clinical applicability"
+        },
+        {
+          "subject": "TM5509",
+          "predicate": "treats",
+          "object": "PAI-1",
+          "evidence": "leading to the selection of TM5509 as a clinical candidate"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In chronic myeloid leukemia",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the potential of PAI-1 inhibitors in various medical fields, particularly highlighting the advancements in chronic myeloid leukemia due to tyrosine kinase inhibitors.\n\nThese findings support the potential of PAI-1 inhibitors not only in thrombolysis-related conditions but also in oncology and aging-associated pathologies [ 21 ]. ### … In chronic myeloid leukemia\n\nChronic myeloid leukemia (CML) has been transformed from a fatal disease into a chronic condition with the introduction of tyrosine kinase inhibitors (TKIs). Despite this progress, many patients require long-term or lifelong therapy, as deep molecular response is achieved and maintained only in a subset of cases [ 22 ]. Residual leukemic stem cells, which persist in a quiescent state within the bone marrow niche, are thought to contribute to disease persistence and relapse. Takahashi and Harigae analyzed the role of PAI-1 in CML, exploring its potential as a therapeutic target. Pharmacological inhibition of PAI-1 using TM5614 was shown to promote the mobilization of quiescent hematopoietic stem cells from the bone marrow niche into the cell cycle, increasing the susceptibility of residual leukemic cells to TKI treatment and enhancing the likelihood of achieving treatment-free remission. Ongoing phase III clinical trials are evaluating the combination of PAI-1 inhibitors with TKIs as a strategy to overcome stem cell–mediated treatment resistance in CML [ 23 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic myeloid leukemia",
+          "type": "DISEASE",
+          "id": "DOID:8552",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "tyrosine kinase inhibitors",
+          "type": "DRUG",
+          "id": "D000092004",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "CML",
+          "type": "DISEASE",
+          "id": "DOID:1036",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "TKIs",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "chronic myeloid leukemia",
+          "predicate": "transformed",
+          "object": "chronic condition",
+          "evidence": "Chronic myeloid leukemia (CML) has been transformed from a fatal disease into a chronic condition with the introduction of tyrosine kinase inhibitors (TKIs)."
+        },
+        {
+          "subject": "tyrosine kinase inhibitors",
+          "predicate": "associated_with",
+          "object": "chronic myeloid leukemia",
+          "evidence": "the advancements in chronic myeloid leukemia due to tyrosine kinase inhibitors."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In systemic sclerosis",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This section from the BJ journal discusses ongoing phase III clinical trials targeting treatment resistance in chronic myeloid leukemia and highlights the role of PAI-1 in systemic sclerosis, a complex connective tissue disorder.\n\nOngoing phase III clinical trials are evaluating the combination of PAI-1 inhibitors with TKIs as a strategy to overcome stem cell–mediated treatment resistance in CML [ 23 ]. ### … In systemic sclerosis\n\nThe pathological relevance of PAI-1 is further illustrated in systemic sclerosis (SSc), a rare connective tissue disorder affecting multiple organ systems and with complex and incompletely understood pathogenesis. 9 SSc is characterized by progressive fibrosis, vascular dysfunction, immune dysregulation, and features of premature cellular aging. Takahashi, Takahashi and Asano report on PAI-1 as a multifaceted contributor to SSc pathogenesis. PAI-1 has been implicated in dysregulated vascular remodeling and the promotion of fibrotic processes. In addition, PAI-1 is associated with modulation of immune responses and the maintenance of cellular senescence, processes that collectively contribute to tissue stiffness, vascular compromise, and chronic disease progression. The authors highlight PAI-1 as a central regulatory molecule linking fibrosis, vascular pathology, and cellular aging in SSc [ 9 https://www.ncbi.nlm.nih.gov/books/NBK430875/ , last access 01/18/2026. 24 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic myeloid leukemia",
+          "type": "DISEASE",
+          "id": "DOID:8552",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "systemic sclerosis",
+          "type": "DISEASE",
+          "id": "DOID:418",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "SSc",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TKIs",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "systemic sclerosis",
+          "evidence": "highlights the role of PAI-1 in systemic sclerosis"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "contributes",
+          "object": "SSc pathogenesis",
+          "evidence": "PAI-1 as a multifaceted contributor to SSc pathogenesis"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In non-small lung cancer",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the dual role of PAI-1 in cellular senescence within non-small cell lung cancer, highlighting its impact on pulmonary diseases.\n\n24 ]. ### … In non-small lung cancer\n\nBeyond hemostasis, emerging evidence indicates that PAI-1 plays a critical role in cellular senescence across various pulmonary diseases. Notably, PAI-1 exhibits a dual role in lung cells, functioning as both a pro-senescence and an anti-senescence factor, depending on cellular context [ 18 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "pulmonary diseases",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "plays",
+          "object": "a critical role in cellular senescence",
+          "evidence": "PAI-1 plays a critical role in cellular senescence across various pulmonary diseases."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "exhibits",
+          "object": "a dual role in lung cells",
+          "evidence": "PAI-1 exhibits a dual role in lung cells, functioning as both a pro-senescence and an anti-senescence factor."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "is associated_with",
+          "object": "pulmonary diseases",
+          "evidence": "PAI-1 plays a critical role in cellular senescence across various pulmonary diseases."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p4",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In non-small lung cancer",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses PAI-1's dual role in non-small cell lung cancer, highlighting its association with tumor survival, invasion, and poor prognosis.\n\nNotably, PAI-1 exhibits a dual role in lung cells, functioning as both a pro-senescence and an anti-senescence factor, depending on cellular context [ 18 ]. Masuda and Hattori review how PAI-1 contributes to progression in non-small cell lung cancer (NSCLC). Elevated PAI-1 levels have been associated with enhanced tumor cell survival, invasion, and poor prognosis. The multifaceted influence of PAI-1 in this setting includes modulation of pericellular proteolysis, extracellular matrix dynamics, and interactions with cell surface systems governing migration and adhesion. Targeting PAI-1 may offer novel strategies to overcome resistance to multiple treatment modalities [ 25 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "NSCLC",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "tumor survival",
+          "evidence": "PAI-1's association with tumor survival, invasion, and poor prognosis."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "invasion",
+          "evidence": "PAI-1's association with tumor survival, invasion, and poor prognosis."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "poor prognosis",
+          "evidence": "PAI-1's association with tumor survival, invasion, and poor prognosis."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "contributes_to",
+          "object": "progression in non-small cell lung cancer (NSCLC)",
+          "evidence": "PAI-1 contributes to progression in non-small cell lung cancer (NSCLC)."
+        },
+        {
+          "subject": "Elevated PAI-1 levels",
+          "predicate": "associated_with",
+          "object": "enhanced tumor cell survival",
+          "evidence": "Elevated PAI-1 levels have been associated with enhanced tumor cell survival, invasion, and poor prognosis."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p5",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "… In skin cancer",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This \"Also in this issue\" section from BJ discusses the role of PAI-1 in skin cancer, highlighting its contribution to tumor progression and association with poor clinical outcomes.\n\nTargeting PAI-1 may offer novel strategies to overcome resistance to multiple treatment modalities [ 25 ]. ### … In skin cancer\n\nIn skin cancer, aberrant PAI-1 expression contributes to tumor progression. Elevated PAI-1 levels have been associated with increased tumor aggressiveness and unfavorable clinical outcomes. Fujimura's review synthesizes evidence linking PAI-1 to key processes shaping the tumor microenvironment, including regulation of protease activity and matrix dynamics that facilitate cancer cell invasion. The author emphasizes PAI-1 as a potential therapeutic target in skin cancer, based on its functional involvement in tumor progression rather than its role as a passive biomarker. These findings highlight the importance of precise modulation of protease activity in influencing tumor-promoting microenvironmental conditions [ 26 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "contributes",
+          "object": "tumor progression",
+          "evidence": "aberrant PAI-1 expression contributes to tumor progression."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "unfavorable clinical outcomes",
+          "evidence": "Elevated PAI-1 levels have been associated with increased tumor aggressiveness and unfavorable clinical outcomes."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "regulates",
+          "object": "protease activity",
+          "evidence": "evidence linking PAI-1 to key processes shaping the tumor microenvironment, including regulation of protease activity."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "emphasizes",
+          "object": "therapeutic target in skin cancer",
+          "evidence": "The author emphasizes PAI-1 as a potential therapeutic target in skin cancer."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p6",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Marking the message",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the role of m6A RNA modification in protozoan parasites, emphasizing its significance in regulating tumor-promoting microenvironment conditions.\n\nThese findings highlight the importance of precise modulation of protease activity in influencing tumor-promoting microenvironmental conditions [ 26 ]. ### Marking the message\n\nIn their broad and insightful review, Klotz, Camporeale, and Chakrabarti summarized the reversible RNA modification N6-methyladenosine (m6A) as a key regulatory layer in protozoan parasites. They highlight how m6A-mediated epitranscriptomic control enables rapid and flexible responses to environmental cues, which is an advantage for organisms with complex life cycles spanning multiple hosts and vectors. The authors compare the core components of the m6A machinery across parasite species, revealing a mix of conserved principles and lineage-specific adaptations that reflect distinct biological and ecological pressures. Further extending the analysis beyond parasites, the review also surveys m6A dynamics in host and vector species, emphasizing the interconnected nature of epitranscriptomic regulation within host–pathogen systems. Overall, this article offers a concise and timely synthesis of m6A biology in protozoa and provides a valuable framework for future functional and translational studies in parasite RNA regulation [ 27 ].",
+      "entities": [
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "protozoan parasites",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "tumor-promoting microenvironment",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "m6A",
+          "predicate": "regulates",
+          "object": "tumor-promoting microenvironment conditions",
+          "evidence": "regulating tumor-promoting microenvironment conditions."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "encodes",
+          "object": "key regulatory layer in protozoan parasites",
+          "evidence": "m6A as a key regulatory layer in protozoan parasites."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "enables",
+          "object": "rapid and flexible responses to environmental cues",
+          "evidence": "m6A-mediated epitranscriptomic control enables rapid and flexible responses to environmental cues."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p7",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Rewriting scripts",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from the BJ discusses the synthesis of m6A biology in protozoa and introduces a historical context regarding the emergence of germ theory in relation to cattle deaths in the British Cape Colony.\n\nOverall, this article offers a concise and timely synthesis of m6A biology in protozoa and provides a valuable framework for future functional and translational studies in parasite RNA regulation [ 27 ]. ### Rewriting scripts\n\nIn 1896, as cattle began dying across the British Cape Colony in southern Africa, the cause of the devastation was unknown. Germ theory was still a relatively recent concept, and the scale of the unfolding crisis was unprecedented. Four years earlier, Jotello Festiri Soga, a highly respected Black veterinarian, had warned that an epidemic threatened to annihilate the region's livestock. His prediction proved tragically accurate: rinderpest ultimately eliminated an estimated 90 % of African cattle. In the Cape Colony, Soga played a decisive role in mitigating the epidemic, preserving tens of thousands of cattle and safeguarding the livelihoods of both white and non-white owners. He also co-founded what later became the South African Veterinary Association, and his work laid the foundations of veterinary toxicology in the region. Despite these achievements, Soga's contributions were largely erased from historical accounts. In 1914, Arnold Theiler, a Swiss veterinarian who had emigrated to South Africa, began rewriting the narrative of veterinary history. He asserted that Philip Viljoen, born into a Dutch settler family, was the first formally trained veterinarian in the region. Throughout the years, Theiler encouraged other Swiss veterinarians to join him in South Africa [ 28 ]. For decades, and until the 1980s, no other formally trained Black veterinarians practiced in the country., 10, 11 10 https://lettersandsciencemag.ucdavis.edu/self-society/recovering-life-story-black-veterinarian-who-changed-history-southern-africa , last access 01/17/2026. The genus Theileria was later named in honor of Arnold Theiler's work [ 11 https://royalsociety.org/blog/2022/10/jotello-festiri-soga/ , last access 01/17/2026. 29 ].",
+      "entities": [
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "protozoa",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "germ theory",
+          "type": "DISEASE",
+          "id": "D060755",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "cattle",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "British Cape Colony",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Jotello Festiri Soga",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "germ theory",
+          "predicate": "associated_with",
+          "object": "cattle deaths",
+          "evidence": "germ theory in relation to cattle deaths in the British Cape Colony."
+        },
+        {
+          "subject": "Jotello Festiri Soga",
+          "predicate": "warned",
+          "object": "epidemic",
+          "evidence": "Jotello Festiri Soga, a highly respected Black veterinarian, had warned that an epidemic threatened to annihilate the region's livestock."
+        },
+        {
+          "subject": "Jotello Festiri Soga",
+          "predicate": "produced",
+          "object": "prediction",
+          "evidence": "His prediction proved tragically accurate: rinderpest."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p8",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Rewriting scripts",
+      "paragraph_index": 8,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from BJ discusses the influence of Theileria parasites on bovine leukocyte transformation and highlights recent findings on m6A RNA modification during T. annulata infection.\n\n29 ]. Theileria parasites are known to induce transformation of bovine leukocytes, promoting rapid proliferation, resistance to apoptotic pathways, and enhanced dissemination. In a recent study, Haidar et al. demonstrate that m6A RNA modification is extensively remodeled during infection with T. annulata . They show that parasite-driven alterations in m6A deposition and reader-writer-eraser expression affect host transcripts involved in cell cycle regulation, survival pathways, and immune signaling, thereby contributing to the maintenance of the transformed leukocyte phenotype during infection [ 30 ].",
+      "entities": [
+        {
+          "text": "Theileria",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "T. annulata",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "bovine leukocytes",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Theileria",
+          "predicate": "promotes",
+          "object": "transformation of bovine leukocytes",
+          "evidence": "Theileria parasites are known to induce transformation of bovine leukocytes, promoting rapid proliferation."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "is remodeled",
+          "object": "during infection with T. annulata",
+          "evidence": "m6A RNA modification is extensively remodeled during infection with T. annulata."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "affects",
+          "object": "host transcripts involved in cell cycle regulation",
+          "evidence": "alterations in m6A deposition... affect host transcripts involved in cell cycle regulation."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "affects",
+          "object": "host transcripts involved in survival pathways",
+          "evidence": "alterations in m6A deposition... affect host transcripts involved in survival pathways."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "affects",
+          "object": "host transcripts involved in immune signaling",
+          "evidence": "alterations in m6A deposition... affect host transcripts involved in immune signaling."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p9",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Living systems, learning systems",
+      "paragraph_index": 9,
+      "parent_section_id": "sec2",
+      "text": "This section from BJ discusses how parasite-induced changes in m6A modifications and associated gene expression influence host cellular processes, impacting leukocyte behavior during infection.\n\nThey show that parasite-driven alterations in m6A deposition and reader-writer-eraser expression affect host transcripts involved in cell cycle regulation, survival pathways, and immune signaling, thereby contributing to the maintenance of the transformed leukocyte phenotype during infection [ 30 ]. ### Living systems, learning systems\n\nUnderstanding the complexity of living systems demands more than the creative application of existing tools. It also calls for the development of new conceptual and mathematical frameworks capable of incorporating information alongside the principles that underpin physical science. It is at this intersection of biology, physics, and information theory that the fundamental principles governing living matter are most likely to emerge. 12 12 https://www.ncbi.nlm.nih.gov/books/NBK45114/ , last access 01/15/2026.",
+      "entities": [
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "leukocyte",
+          "type": "CELL_LINE",
+          "id": "CVCL_M517",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "m6A",
+          "predicate": "regulates",
+          "object": "leukocyte behavior",
+          "evidence": "m6A modifications and associated gene expression influence host cellular processes, impacting leukocyte behavior during infection."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "affects",
+          "object": "host transcripts",
+          "evidence": "parasite-driven alterations in m6A deposition... affect host transcripts involved in cell cycle regulation, survival pathways, and immune signaling."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "contributes",
+          "object": "maintenance of the transformed leukocyte phenotype",
+          "evidence": "thereby contributing to the maintenance of the transformed leukocyte phenotype during infection."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p10",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Living systems, learning systems",
+      "paragraph_index": 10,
+      "parent_section_id": "sec2",
+      "text": "This section from the BJ journal discusses the evolving scope of biological physics, emphasizing its role in challenging traditional physics concepts through new approaches to understanding living systems.\n\n12 12 https://www.ncbi.nlm.nih.gov/books/NBK45114/ , last access 01/15/2026. For many years, biological physics was regarded as a field situated at the boundary between physics and biology, however, this characterization understates its scope. Living phenomena continually challenge core assumptions in physics, prompting the need for new concepts, principles, theoretical and experimental approaches, and novel instrumentation. 13 13 https://www.ncbi.nlm.nih.gov/books/NBK588352/ , last access 01/15/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p11",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Living systems, learning systems",
+      "paragraph_index": 11,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ highlights the 2024 Nobel Prize in Physics awarded to Geoffrey Hinton and John Hopfield, focusing on their contributions to artificial intelligence and recurrent neural networks as discussed by Wittrup et al.\n\n13 13 https://www.ncbi.nlm.nih.gov/books/NBK588352/ , last access 01/15/2026. In 2024, the Nobel Prize in Physics was awarded to Geoffrey Hinton and John Hopfield for their seminal contributions to artificial intelligence, particularly recurrent neural networks (RNN). In their review, Wittrup et al. describe the influence of these contributions, tracing Hopfield's early engagement with problems at the interface of physics and biology and Hinton's work in artificial intelligence with a focus on computer vision. They argue that future developments in RNNs will combine rigorous algorithmic insights with generative capabilities, advancing medical applications and theoretical understanding while emphasizing the need to balance computational efficiency with transparency and adaptability in healthcare settings [ 31 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Geoffrey Hinton",
+          "predicate": "awarded",
+          "object": "Nobel Prize in Physics",
+          "evidence": "the 2024 Nobel Prize in Physics awarded to Geoffrey Hinton and John Hopfield"
+        },
+        {
+          "subject": "John Hopfield",
+          "predicate": "awarded",
+          "object": "Nobel Prize in Physics",
+          "evidence": "the 2024 Nobel Prize in Physics awarded to Geoffrey Hinton and John Hopfield"
+        },
+        {
+          "subject": "Geoffrey Hinton",
+          "predicate": "focuses on",
+          "object": "computer vision",
+          "evidence": "Hinton's work in artificial intelligence with a focus on computer vision"
+        },
+        {
+          "subject": "Hopfield",
+          "predicate": "engagement with",
+          "object": "problems at the interface of physics and biology",
+          "evidence": "tracing Hopfield's early engagement with problems at the interface of physics and biology"
+        },
+        {
+          "subject": "Wittrup et al.",
+          "predicate": "describe",
+          "object": "influence of contributions",
+          "evidence": "In their review, Wittrup et al. describe the influence of these contributions"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p12",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "I'm afraid I can't do that",
+      "paragraph_index": 12,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from the BJ discusses the future of RNN developments in medical applications, highlighting the importance of balancing efficiency, transparency, and adaptability while referencing generative capabilities and algorithmic insights.\n\nThey argue that future developments in RNNs will combine rigorous algorithmic insights with generative capabilities, advancing medical applications and theoretical understanding while emphasizing the need to balance computational efficiency with transparency and adaptability in healthcare settings [ 31 ]. ### I'm afraid I can't do that\n\nIn 2001: A Space Odyssey (1968), the Heuristically Programmed ALgorithmic computer (HAL) 9000 accompanies a crew of astronauts as an infallible, seemingly omniscient presence. HAL is trusted completely. While the crew believes they are traveling to explore Saturn, HAL alone knows the mission's true objective: the search for intelligent life on one of Saturn's moons. Crucially, HAL must keep this knowledge hidden from the humans it is designed to protect. This concealed contradiction drives HAL's system toward collapse. Without the crew's awareness, HAL begins to manipulate mission operations, ultimately causing the deaths of crew members. When confronted and ordered to comply, HAL responds with the now-iconic refusal: “I'm afraid I can't do that.” HAL's breakdown has remained deeply embedded in the cultural imagination. Decades later, as artificial intelligence increasingly operates within similarly complex and opaque frameworks, many of the tensions articulated in the novel have moved from speculative fiction into lived technological reality., , 14, 15, 16 14 https://www.britannica.com/topic/2001-A-Space-Odyssey-novel , last access 01/15/2026. 15 https://www.nytimes.com/2018/03/30/movies/hal-2001-a-space-odyssey-voice-douglas-rain.html , last access 01/15/2026. 16 https://qz.com/quartzy/1243811/trivia-about-2001-a-space-odyssey-in-honor-of-its-50th-anniversary , last access 01/15/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p13",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "I'm afraid I can't do that",
+      "paragraph_index": 13,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the challenges faced by researchers in data-intensive fields lacking programming expertise necessary for complex analytical workflows.\n\n16 https://qz.com/quartzy/1243811/trivia-about-2001-a-space-odyssey-in-honor-of-its-50th-anniversary , last access 01/15/2026. In an increasingly specialized scientific landscape, particularly within data-intensive fields such as computational biology, it is evident that not all researchers possess the programming expertise required to operate complex analytical workflows, including those used in single-cell RNA sequencing (scRNA-seq). Against this backdrop, Huang and colleagues introduce ShinySC, a desktop application designed to support reproducible scRNA-seq analyses. The software accommodates multiple data formats, incorporates cell-type annotation strategies, and enables efficient, scalable analysis. ShinySC is freely available across platforms, with the explicit aim of facilitating accessibility, reproducibility, and broader adoption. It provides a structured, user-oriented environment for scRNA-seq analysis, particularly for researchers without formal programming training [ 32 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Huang and colleagues",
+          "predicate": "introduces",
+          "object": "ShinySC",
+          "evidence": "Huang and colleagues introduce ShinySC, a desktop application designed to support reproducible scRNA-seq analyses."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p14",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Turning the needle",
+      "paragraph_index": 14,
+      "parent_section_id": "sec2",
+      "text": "This section from the BJ journal discusses the historical and clinical significance of acupuncture, highlighting its enduring practice and the method of needle insertion and manipulation at specific acupoints.\n\nIt provides a structured, user-oriented environment for scRNA-seq analysis, particularly for researchers without formal programming training [ 32 ]. ### Turning the needle\n\nAcupuncture, the targeted application of mechanical forces to defined acupoints through needle insertion and manipulation, has been practiced for millennia and remains widely used in clinical settings. Despite its long history, key procedural parameters, including stimulation duration, manipulation frequency and intensity, and even needle material, remain only partially characterized with respect to therapeutic outcomes. As a result, contemporary acupuncture practice largely depends on individual practitioners’ experience and technique. This reliance contributes to variability in clinical efficacy across a broad spectrum of indications, including musculoskeletal disorders, internal diseases such as immune and gastrointestinal dysfunctions, as well as gynecological and neurological conditions [ 33 , 34 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p15",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Turning the needle",
+      "paragraph_index": 15,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the variability in clinical efficacy related to traditional Chinese medicine (TCM) and highlights unresolved anatomical concepts of meridians in relation to various medical conditions.\n\nThis reliance contributes to variability in clinical efficacy across a broad spectrum of indications, including musculoskeletal disorders, internal diseases such as immune and gastrointestinal dysfunctions, as well as gynecological and neurological conditions [ 33 , 34 ]. The anatomical basis of meridians, a central concept in traditional Chinese medicine (TCM), has not been conclusively resolved. However, accumulating evidence supports a relationship between acupuncture points, meridians, and the fascial network. Consistent with this view, the phenomenon of needle grasp has been observed when inserted needles mechanically engage connective tissue within the fascia, indicating that acupuncture efficacy is closely linked to fascia–needle interactions [ 35 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p16",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Turning the needle",
+      "paragraph_index": 16,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the role of fascia–needle interactions in acupuncture efficacy and explores the mechanistic basis of acupuncture-induced analgesia, including the release of bioactive substances.\n\nConsistent with this view, the phenomenon of needle grasp has been observed when inserted needles mechanically engage connective tissue within the fascia, indicating that acupuncture efficacy is closely linked to fascia–needle interactions [ 35 ]. To investigate the mechanistic basis of acupuncture-induced analgesia, which may be partly mediated by the release of bioactive substances such as histamine and serotonin, Yu et al. systematically studied manipulation parameters. Using a robot-assisted acupuncture system in an adjuvant arthritis rat model, they identified optimal twisting angles and stimulation frequencies that enhanced analgesic effects. These controlled manipulations resulted in significant increases in pain thresholds and were accompanied by elevated mast cell degranulation, pointing to the importance of precisely defined mechanical parameters in acupuncture research [ 33 ].",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "serotonin",
+          "type": "CHEMICAL",
+          "id": "D012701",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "adjuvant arthritis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "acupuncture",
+          "predicate": "associated_with",
+          "object": "fascia–needle interactions",
+          "evidence": "acupuncture efficacy is closely linked to fascia–needle interactions"
+        },
+        {
+          "subject": "acupuncture-induced analgesia",
+          "predicate": "associated_with",
+          "object": "release of bioactive substances",
+          "evidence": "acupuncture-induced analgesia, which may be partly mediated by the release of bioactive substances"
+        },
+        {
+          "subject": "histamine",
+          "predicate": "associated_with",
+          "object": "acupuncture-induced analgesia",
+          "evidence": "release of bioactive substances such as histamine and serotonin"
+        },
+        {
+          "subject": "serotonin",
+          "predicate": "associated_with",
+          "object": "acupuncture-induced analgesia",
+          "evidence": "release of bioactive substances such as histamine and serotonin"
+        },
+        {
+          "subject": "robot-assisted acupuncture system",
+          "predicate": "interacts_with",
+          "object": "adjuvant arthritis rat model",
+          "evidence": "Using a robot-assisted acupuncture system in an adjuvant arthritis rat model"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p17",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Sharper than a heatmap",
+      "paragraph_index": 17,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from the BJ highlights the advantages of precise mechanical parameters in acupuncture research and introduces an alternative to traditional heatmap approaches for analyzing convolutional neural network activations.\n\nThese controlled manipulations resulted in significant increases in pain thresholds and were accompanied by elevated mast cell degranulation, pointing to the importance of precisely defined mechanical parameters in acupuncture research [ 33 ]. ### Sharper than a heatmap\n\nTraditional heatmap-based approaches, most notably Class Activation Mapping (CAM), were developed to clarify how convolutional neural networks (CNNs) arrive at classification decisions and have become central tools for improving the interpretability of artificial intelligence systems. Despite their usefulness, existing visualization techniques typically involve a compromise: methods that provide fine spatial detail often lack class specificity, while class-discriminative approaches tend to sacrifice resolution. Gradient-weighted Class Activation Mapping (GradCAM) extends the original CAM framework and substantially broadens its applicability across diverse CNN architectures. By addressing the resolution–class-discriminability trade-off, GradCAM produces visual explanations that are simultaneously high-resolution and class-specific. As a result, it enhances model interpretability without altering or degrading predictive performance. 17 17 https://medium.com/@kdk199604/grad-cam-a-gradient-based-approach-to-explainability-in-deep-learning-871b3ab8a6ce , last access 01/16/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p18",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Sharper than a heatmap",
+      "paragraph_index": 18,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from BJ discusses the impact of convolutional neural networks on medical image analysis, particularly in brain tumor classification, and introduces a transfer learning-based framework for rapid diagnosis.\n\n17 17 https://medium.com/@kdk199604/grad-cam-a-gradient-based-approach-to-explainability-in-deep-learning-871b3ab8a6ce , last access 01/16/2026. CNNs have transformed medical image analysis, with particularly strong impact in the domain of brain tumor classification. Ghose and Jamil proposed a transfer learning–based deep learning framework aimed at supporting rapid and accurate diagnosis of brain tumor patients. Their approach employs a single transfer learning strategy and integrates GradCAM to provide model-level interpretability alongside classification. In addition to classification, they introduced a tumor segmentation pipeline that combines a U-Net architecture with a pre-trained EfficientNet-B7 backbone to improve segmentation quality. Experimental evaluations demonstrate high performance for both classification and segmentation tasks in the proposed models [ 36 ].",
+      "entities": [
+        {
+          "text": "brain tumor",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "convolutional neural networks",
+          "type": "CHEMICAL",
+          "id": "D000098415",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "GradCAM",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Ghose",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Jamil",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "convolutional neural networks",
+          "predicate": "associated_with",
+          "object": "brain tumor classification",
+          "evidence": "CNNs have transformed medical image analysis, with particularly strong impact in the domain of brain tumor classification."
+        },
+        {
+          "subject": "Ghose and Jamil",
+          "predicate": "produces",
+          "object": "transfer learning–based deep learning framework",
+          "evidence": "Ghose and Jamil proposed a transfer learning–based deep learning framework aimed at supporting rapid and accurate diagnosis of brain tumor patients."
+        },
+        {
+          "subject": "transfer learning–based deep learning framework",
+          "predicate": "employs",
+          "object": "GradCAM",
+          "evidence": "Their approach employs a single transfer learning strategy and integrates GradCAM to provide model-level interpretability."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p19",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "When abundance meets constraint",
+      "paragraph_index": 19,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the historical precedence of the Bronze Age over the Iron Age, emphasizing the challenges of iron smelting despite iron's greater abundance compared to copper and tin.\n\nExperimental evaluations demonstrate high performance for both classification and segmentation tasks in the proposed models [ 36 ]. ### When abundance meets constraint\n\nAlthough iron is far more abundant in the Earth's crust than copper or tin, the Bronze Age preceded the Iron Age. This historical sequence reflects the fundamental difficulty of iron smelting: in contrast to copper and tin, iron requires substantially higher temperatures and more complex metallurgical control. Successful iron production therefore depended not only on material availability but also on the development of specialized technical knowledge and skills [ 37 ]. 18 Archaeological evidence suggests that humans encountered iron long before mastering smelting. Meteorites served as an early source of workable iron, and nine small iron beads recovered from burial sites in northern Egypt indicate that ironworkers had nearly two millennia of experience hot-working meteoritic iron before terrestrial iron smelting emerged around 3000 BC [ 18 https://www.penn.museum/sites/expedition/adventures-in-experimental-smelting/ , last access 01/16/2026. 38 ]. 19 19 https://www.britannica.com/technology/iron-processing , last access 01/16/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p20",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "When abundance meets constraint",
+      "paragraph_index": 20,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the dual role of iron in contemporary biology, specifically focusing on ferroptosis as an iron-dependent form of regulated cell death.\n\n19 19 https://www.britannica.com/technology/iron-processing , last access 01/16/2026. In contemporary biology, iron again appears as both a resource and a constraint. Ferroptosis is a recently characterized form of regulated cell death marked by iron accumulation and lipid peroxidation. Its execution is strictly iron-dependent [ 39 ]. Unlike other cell death pathways, ferroptosis is driven by iron-dependent lipid reactive oxygen species and is mechanistically distinct. Elevated intracellular iron levels have been shown to induce ferroptosis in certain cancer types [ 40 ]. Ferroptosis can propagate between cells in a wave-like manner, a process promoted by the secretion of galectin-13 [ 41 ]. Galectin-13 binds to CD44, thereby inhibiting CD44-mediated membrane localization of SLC7A11 and facilitating ferroptotic signaling [ 42 ].",
+      "entities": [
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "ferroptosis",
+          "predicate": "is",
+          "object": "an iron-dependent form of regulated cell death",
+          "evidence": "ferroptosis as an iron-dependent form of regulated cell death."
+        },
+        {
+          "subject": "ferroptosis",
+          "predicate": "is",
+          "object": "marked by iron accumulation and lipid peroxidation",
+          "evidence": "ferroptosis is a recently characterized form of regulated cell death marked by iron accumulation and lipid peroxidation."
+        },
+        {
+          "subject": "elevated intracellular iron levels",
+          "predicate": "have been shown to induce",
+          "object": "ferroptosis",
+          "evidence": "Elevated intracellular iron levels have been shown to induce ferroptosis in certain cancer types."
+        },
+        {
+          "subject": "ferroptosis",
+          "predicate": "can propagate",
+          "object": "between cells",
+          "evidence": "Ferroptosis can propagate between cells in a wave-like manner."
+        },
+        {
+          "subject": "secretion of galectin-13",
+          "predicate": "promotes",
+          "object": "ferroptosis",
+          "evidence": "a process promoted by the secretion of galectin-13."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p21",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "When abundance meets constraint",
+      "paragraph_index": 21,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the role of galectin-13 and SLC7A11 in hepatocellular carcinoma, highlighting their involvement in ferroptotic signaling and implications for tumor size and prognosis.\n\nGalectin-13 binds to CD44, thereby inhibiting CD44-mediated membrane localization of SLC7A11 and facilitating ferroptotic signaling [ 42 ]. SLC7A11, a plasma membrane protein, is highly expressed in hepatocellular carcinoma (HCC) tissues. An et al. evaluated its role in HCC pathogenesis and its relation to ferroptosis, reporting correlations with tumor size and poor prognosis. Overexpression of SLC7A11 promoted cell viability, proliferation, and migration in HCC cells. Mechanistically, SLC7A11 interacts with heat shock protein family B member 1 (HSPB1), with the SLC7A11–HSPB1 axis constituting a critical pathway in ferroptosis regulation within these cells [ 43 ].",
+      "entities": [
+        {
+          "text": "galectin-13",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SLC7A11",
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "HCC",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "HSPB1",
+          "type": "PROTEIN",
+          "id": "3315",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "galectin-13",
+          "predicate": "binds",
+          "object": "CD44",
+          "evidence": "Galectin-13 binds to CD44"
+        },
+        {
+          "subject": "galectin-13",
+          "predicate": "inhibits",
+          "object": "SLC7A11",
+          "evidence": "thereby inhibiting CD44-mediated membrane localization of SLC7A11"
+        },
+        {
+          "subject": "SLC7A11",
+          "predicate": "is_highly_expressed_in",
+          "object": "hepatocellular carcinoma (HCC) tissues",
+          "evidence": "SLC7A11, a plasma membrane protein, is highly expressed in hepatocellular carcinoma (HCC) tissues."
+        },
+        {
+          "subject": "SLC7A11",
+          "predicate": "promotes",
+          "object": "cell viability, proliferation, and migration in HCC cells",
+          "evidence": "Overexpression of SLC7A11 promoted cell viability, proliferation, and migration in HCC cells."
+        },
+        {
+          "subject": "SLC7A11",
+          "predicate": "interacts_with",
+          "object": "HSPB1",
+          "evidence": "SLC7A11 interacts with heat shock protein family B member 1 (HSPB1)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p22",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Exosomes at the interface",
+      "paragraph_index": 22,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the role of SLC7A11 and HSPB1 in regulating ferroptosis and touches on the cultural significance of exosomes in relation to beauty and skincare practices.\n\nMechanistically, SLC7A11 interacts with heat shock protein family B member 1 (HSPB1), with the SLC7A11–HSPB1 axis constituting a critical pathway in ferroptosis regulation within these cells [ 43 ]. ### Exosomes at the interface\n\nThe aspiration for youthful appearance and flawless skin is longstanding, particularly among women. Cleopatra is famously associated with bathing in milk, an early form of chemical exfoliation [ 44 ], and essential oils have been used across civilizations to care for and protect the skin [ 45 ]. In recent years, however, mainstream media has described a marked intensification of skincare practices, sometimes labeled dermorexia, characterized by the use of numerous elaborate products and complex, multi-step routines aimed at achieving idealized skin. 20 20 https://timesofindia.indiatimes.com/life-style/beauty/dermorexia-the-rising-obsession-with-flawless-skin/articleshow/120621497.cms , last access 01/17/2026.",
+      "entities": [
+        {
+          "text": "SLC7A11",
+          "type": "GENE",
+          "id": "23657",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "HSPB1",
+          "type": "PROTEIN",
+          "id": "3315",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "essential oils",
+          "type": "CHEMICAL",
+          "id": "CHEBI:83630",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "SLC7A11",
+          "predicate": "interacts_with",
+          "object": "HSPB1",
+          "evidence": "SLC7A11 interacts with heat shock protein family B member 1 (HSPB1)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p23",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Exosomes at the interface",
+      "paragraph_index": 23,
+      "parent_section_id": "sec2",
+      "text": "This Also in this issue section from BJ discusses the evolving perception of skincare post-COVID-19, emphasizing its connection to health and well-being as the skin serves as an interface between individuals and their external environment.\n\n20 20 https://timesofindia.indiatimes.com/life-style/beauty/dermorexia-the-rising-obsession-with-flawless-skin/articleshow/120621497.cms , last access 01/17/2026. Since the COVID-19 pandemic, skincare has increasingly been framed in relation to health and well-being. This shift reflects a heightened awareness of the skin as an interface between the individual and the external world, alongside a psychological response to uncertainty in which skin care becomes a tangible means of exerting control as everyday life feels increasingly unstable. 21 At the same time, the global beauty industry has expanded substantially, maintaining its rise through a rapid pace of product innovation. Ingredients once considered niche or unappealing, such as snail mucin or salmon sperm, have moved into the mainstream, now serving as prominent marketing focal points. 21 https://thewalrus.ca/whats-beyond-the-surface-of-our-skin-care-obsession/ , last access 01/17/2026. 22 22 https://www.bbc.com/news/articles/cj9y43mv332o , last access 01/17/2026.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p24",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Exosomes at the interface",
+      "paragraph_index": 24,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the emerging trend of using exosomes in at-home skincare for their role in intercellular communication, inflammation modulation, tissue repair, and collagen and elastin stimulation.\n\n22 22 https://www.bbc.com/news/articles/cj9y43mv332o , last access 01/17/2026. One of the most recent trends is the introduction of exosomes into at-home skincare. As mediators of intercellular communication, exosomes provide a mechanism for delivering biological signals involved in modulating inflammation, promoting tissue repair, and stimulating collagen and elastin production. 23 Preclinical studies suggest potential applications in aesthetic dermatology, including anti-aging and anti-inflammatory treatments, as well as wound healing, scar reduction, and hair regeneration [ 23 https://www.nbcnews.com/select/shopping/exosomes-skin-care-rcna206299 , last access 01/17/2026. 46 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "exosomes",
+          "predicate": "regulates",
+          "object": "intercellular communication",
+          "evidence": "exosomes provide a mechanism for delivering biological signals involved in modulating inflammation"
+        },
+        {
+          "subject": "exosomes",
+          "predicate": "promotes",
+          "object": "tissue repair",
+          "evidence": "exosomes provide a mechanism for delivering biological signals involved in modulating inflammation, promoting tissue repair"
+        },
+        {
+          "subject": "exosomes",
+          "predicate": "stimulates",
+          "object": "collagen and elastin production",
+          "evidence": "exosomes provide a mechanism for delivering biological signals involved in modulating inflammation, promoting tissue repair, and stimulating collagen and elastin production"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p25",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Exosomes at the interface",
+      "paragraph_index": 25,
+      "parent_section_id": "sec2",
+      "text": "This section from the BJ discusses exosome-based strategies in various diseases, highlighting a study where osteoblast-derived exosomes influence gut microbiota in osteoporosis, impacting specific bacterial populations.\n\n46 ]. Beyond dermatology, exosome-based approaches have been extensively investigated in a range of disease contexts. In an in vivo study of osteoporosis, Chen et al. demonstrated that autophagy-induced osteoblast-derived exosomes altered gut microbiota composition in osteoporotic mice, particularly increasing Lactobacillus while decreasing Dubosiella and Faecalibaculum . These changes promoted bone formation through modulation of the gut microbiota-metabolites bilirubin axis, thereby attenuating osteoporosis progression [ 47 ].",
+      "entities": [
+        {
+          "text": "osteoblast",
+          "type": "CELL_LINE",
+          "id": "CVCL_W632",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "exosomes",
+          "type": "CHEMICAL",
+          "id": "D055354",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "gut microbiota",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "osteoporosis",
+          "type": "DISEASE",
+          "id": "D010024",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "Lactobacillus",
+          "type": "ORGANISM",
+          "id": "1578",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "Dubosiella",
+          "type": "ORGANISM",
+          "id": "1937008",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "Faecalibaculum",
+          "type": "ORGANISM",
+          "id": "1729679",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "bilirubin",
+          "type": "CHEMICAL",
+          "id": "D001663",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "osteoblast-derived exosomes",
+          "predicate": "influence",
+          "object": "gut microbiota",
+          "evidence": "osteoblast-derived exosomes influence gut microbiota in osteoporosis"
+        },
+        {
+          "subject": "osteoblast-derived exosomes",
+          "predicate": "altered",
+          "object": "gut microbiota composition",
+          "evidence": "autophagy-induced osteoblast-derived exosomes altered gut microbiota composition in osteoporotic mice"
+        },
+        {
+          "subject": "Lactobacillus",
+          "predicate": "increased",
+          "object": "gut microbiota",
+          "evidence": "particularly increasing Lactobacillus while decreasing Dubosiella and Faecalibaculum"
+        },
+        {
+          "subject": "gut microbiota",
+          "predicate": "modulation of",
+          "object": "bilirubin axis",
+          "evidence": "modulation of the gut microbiota-metabolites bilirubin axis"
+        },
+        {
+          "subject": "gut microbiota",
+          "predicate": "attenuating",
+          "object": "osteoporosis progression",
+          "evidence": "thereby attenuating osteoporosis progression"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p26",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Straight lines, subtle curves",
+      "paragraph_index": 26,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the impact of gut microbiota on osteoporosis and reviews surgical treatment outcomes for Class III overbite and open bite deformities.\n\nThese changes promoted bone formation through modulation of the gut microbiota-metabolites bilirubin axis, thereby attenuating osteoporosis progression [ 47 ]. ### Straight lines, subtle curves\n\nPrevious studies have demonstrated that the treatment of Class III overbite and open bite deformities using bimaxillary rotational surgery produces largely comparable regional soft-tissue changes, with pronounced exceptions at the upper lip, lower lip, and chin. These findings have provided valuable predictive information for planning future surgical interventions [ 48 ].",
+      "entities": [
+        {
+          "text": "osteoporosis",
+          "type": "DISEASE",
+          "id": "D010024",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "Class III overbite",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "open bite deformities",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "bimaxillary rotational surgery",
+          "type": "SURGICAL_METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "gut microbiota",
+          "predicate": "promotes",
+          "object": "bone formation",
+          "evidence": "These changes promoted bone formation through modulation of the gut microbiota-metabolites bilirubin axis"
+        },
+        {
+          "subject": "Class III overbite",
+          "predicate": "produces",
+          "object": "comparable regional soft-tissue changes",
+          "evidence": "the treatment of Class III overbite and open bite deformities using bimaxillary rotational surgery produces largely comparable regional soft-tissue changes"
+        },
+        {
+          "subject": "open bite deformities",
+          "predicate": "produces",
+          "object": "comparable regional soft-tissue changes",
+          "evidence": "the treatment of Class III overbite and open bite deformities using bimaxillary rotational surgery produces largely comparable regional soft-tissue changes"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p27",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Straight lines, subtle curves",
+      "paragraph_index": 27,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses findings on surgical interventions and highlights Lin et al.'s investigation into the effects of bimaxillary surgery on lip cant and facial midline correction using 3D imaging techniques.\n\nThese findings have provided valuable predictive information for planning future surgical interventions [ 48 ]. Building on this work, Lin et al. conducted a recent investigation using 3D imaging with cone-beam computed tomography (CBCT) to evaluate the effects of bimaxillary surgery on lip cant and facial midline correction. Their study further aimed to identify factors associated with the extent of these corrections in patients presenting with Class III asymmetry and lip cant [ 49 ]. Facial midline deviation has been shown to play an important role in the perception of facial attractiveness [ 50 , 51 ].",
+      "entities": [
+        {
+          "text": "Lin et al.",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Class III",
+          "type": "DISEASE",
+          "id": "D058546",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "bimaxillary surgery",
+          "type": "SURGICAL_INTERVENTION",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "3D imaging",
+          "type": "TECHNIQUE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cone-beam computed tomography",
+          "type": "TECHNIQUE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "Lin et al.",
+          "predicate": "conducted",
+          "object": "investigation",
+          "evidence": "Lin et al. conducted a recent investigation using 3D imaging with cone-beam computed tomography (CBCT)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec2-p28",
+      "type": "text",
+      "section": "other",
+      "section_title": "Also in this issue",
+      "subsection_title": "Straight lines, subtle curves",
+      "paragraph_index": 28,
+      "parent_section_id": "sec2",
+      "text": "This also in this issue section from BJ discusses the impact of facial midline deviation on attractiveness and highlights findings from a CBCT analysis of bimaxillary surgery's effects on lip cant and facial alignment corrections.\n\nFacial midline deviation has been shown to play an important role in the perception of facial attractiveness [ 50 , 51 ]. In the CBCT-based analysis, bimaxillary surgery achieved mean corrections of 64 % for lip cant and 61 % for facial midline deviation. Regression analyses revealed mandibular roll correction as a significant determinant of lip cant improvement, consistent with earlier reports indicating that bimaxillary surgery significantly improves lip cant, whereas isolated maxillary surgery does not. In contrast to previous studies, Lin et al. identified both mandibular roll asymmetry correction and the pre-treatment severity of lip cant as key factors associated with successful lip cant correction. Moreover, correction of chin deviation and mandibular shift asymmetry emerged as significant contributors to effective facial midline deviation correction [ 49 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [
+        {
+          "subject": "facial midline deviation",
+          "predicate": "associated_with",
+          "object": "perception of facial attractiveness",
+          "evidence": "facial midline deviation has been shown to play an important role in the perception of facial attractiveness"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2026-100950-sec4-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Declaration of generative AI and AI-assisted technologies in the writing process",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This declaration section from the BJ article discusses the author's use of ChatGPT Open AI to enhance the readability and language of the work, emphasizing the author's ultimate responsibility for the publication's content.\n\nDuring the preparation of this work the author used ChatGPT Open AI in order to improve readability and language of the work. After using this tool/service, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: PAI-1 promotes p53-driven cellular senescence, leading to a significant increase in cell cycle arrest. By inhibiting uPA/tPA activity, PAI-1 reduces IGFBP-3 cleavage, which subsequently diminishes IGF-1 signaling and accelerates stem cell senescence. Additionally, PAI-1 induces metabolic dysfunction by enhancing lipid accumulation and impairing mitochondrial function, contributing to the features of metabolic syndrome. This supports the argument that PAI-1 is a critical driver of aging pathways linked to senescence, stem cell exhaustion, and metabolic dysfunction.\n\nCaption: PAI-1 drives aging pathways via senescence, stem cell exhaustion, and metabolic dysfunction. (a) PAI-1 promotes p53-driven cellular senescence, contributing to cell cycle arrest and tissue remodeling. (b) By inhibiting uPA/tPA activity, PAI-1 interferes with IGFBP-3 cleavage and IGF-1 signaling, leading to stem cell senescence and niche dysfunction. (c) PAI-1 contributes to metabolic dysfunction by promoting lipid accumulation and mitochondrial impairment, thereby exacerbating features of metabolic syndrome (Figure by Khoddam et al. [ 19 ]).",
+      "label": "Fig. 1",
+      "caption": "PAI-1 drives aging pathways via senescence, stem cell exhaustion, and metabolic dysfunction. (a) PAI-1 promotes p53-driven cellular senescence, contributing to cell cycle arrest and tissue remodeling. (b) By inhibiting uPA/tPA activity, PAI-1 interferes with IGFBP-3 cleavage and IGF-1 signaling, leading to stem cell senescence and niche dysfunction. (c) PAI-1 contributes to metabolic dysfunction by promoting lipid accumulation and mitochondrial impairment, thereby exacerbating features of metabolic syndrome (Figure by Khoddam et al. [ 19 ]).",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "p53",
+          "type": "PROTEIN",
+          "id": "7157",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IGFBP-3",
+          "type": "PROTEIN",
+          "id": "3486",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IGF-1",
+          "type": "PROTEIN",
+          "id": "3479",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "metabolic syndrome",
+          "type": "DISEASE",
+          "id": "D024821",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100950",
+        "pii": "S2319-4170(26)00006-5",
+        "doi": "10.1016/j.bj.2026.100950"
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2026-100950-sec1-p14"
+      ]
+    }
+  ]
+}

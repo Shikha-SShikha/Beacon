@@ -1,0 +1,1411 @@
+{
+  "source_file": "S2319417024000064.xml",
+  "article_doi": "10.1016/j.bj.2024.100703",
+  "total_chunks": 18,
+  "text_chunks": 13,
+  "visual_chunks": 5,
+  "total_entities": 75,
+  "entities_with_ontology_id": 41,
+  "total_relations": 39,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the challenges of eradicating Plasmodium falciparum, a lethal malaria parasite, and highlights its adaptability and evolution in response to various environmental conditions.\n\nPlasmodium falciparum is one of the deadliest malaria parasites perpetuating malaria in the top killer diseases in tropical landscapes [ 1 ]. Despite well advanced current medical and research system, eradicating an olden disease is still challenging [ 2 ]. The adaptability and evolution of parasites could also justify it, as they reform in any environmental conditions by dynamically modulating their gene regulatory system [ 3 , 4 ]. As per the report of 2022 b y WHO, in 2021 around 247 million malaria cases with 0.61 million deaths were recorded, strikingly this count is higher than the 2021 record [ 5 ]. Severe malaria infection leads to cerebral malaria, multiorgan failure, severe anemia, and serious kidney damage [ 6 , 7 ]. In pregnancy malaria, infection leads to abortion and premature birth. The genetic, and phenotypic plasticity, and immunogenic complexity of the malaria parasite could drive the development of the drug-resistant parasite, which could be the rationale for the disease's existence forever [ 8 , 9 ]. In addition to the diverse characteristics of Plasmodium spp, emerging reports have indicated that epigenetic players are the key to controlling chromatin plasticity and gene regulation in various developmental stages of parasite [ 10 ].",
+      "entities": [
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "malaria",
+          "type": "DISEASE",
+          "id": "D008288",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "WHO",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "Plasmodium falciparum",
+          "predicate": "causes",
+          "object": "malaria",
+          "evidence": "Plasmodium falciparum, a lethal malaria parasite, and highlights its adaptability and evolution"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "Plasmodium falciparum and epigenetics",
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the role of epigenetic factors in regulating gene expression and chromatin dynamics in the malaria parasite Plasmodium falciparum, highlighting its unique characteristics and developmental stages.\n\nIn addition to the diverse characteristics of Plasmodium spp, emerging reports have indicated that epigenetic players are the key to controlling chromatin plasticity and gene regulation in various developmental stages of parasite [ 10 ]. ### Plasmodium falciparum and epigenetics\n\nThe P. falciparum possesses anomalous traits such as RBC rosetting, sequestration, expeditious propagation, and blood gametogenesis [ 11 , 12 ]. Most malaria fatality cases are due to P. falciparum [ 13 ], as the parasite causes cerebral malaria, placental impairment, and multiple organ failure by modifying the host erythrocyte morphology [ 14–16 ]. The parasite establishes chronic infection in the host by antigenic variation process [ 17 ], which is apparently aided by various epigenetic mechanisms [ 18 ]. The epigenetic machinery, particularly histone modifications, are conserved among the apicomplexan group of parasites [ 18 ]. Plasmodium species lacks predominant eukaryotic gene transcription factors [ 19 ], suggesting that the epigenetic modifications are the prime regulators of gene expression in the parasites [ 20 ]. The swift phenotypic changes in the parasite's blood stage are one of the classical examples of epigenetic modifications mediated control in gene expression [ 21 ]. Nucleic acid methylation has been under the spotlight, which is identified as a distinct and additional layer of gene regulation in P. falciparum [ 22 ]. So, these modified nucleic acids might tightly control the transcription and translation plasticity in the parasite [ 23 ]. A detailed investigation is essential to understand the interplay between nucleic acid methylation and post transcriptional regulation that alters translation patterns in the parasite's intraerythrocytic development (IDC).",
+      "entities": [
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "cerebral malaria",
+          "type": "DISEASE",
+          "id": "DOID:14069",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "placental impairment",
+          "type": "DISEASE",
+          "id": "DOID:2024",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "Plasmodium falciparum",
+          "predicate": "causes",
+          "object": "cerebral malaria",
+          "evidence": "the parasite causes cerebral malaria, placental impairment, and multiple organ failure"
+        },
+        {
+          "subject": "Plasmodium falciparum",
+          "predicate": "causes",
+          "object": "placental impairment",
+          "evidence": "the parasite causes cerebral malaria, placental impairment, and multiple organ failure"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "Nucleic acid methylome of P. Falciparum",
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the importance of investigating nucleic acid methylation and its effects on post-transcriptional regulation during the intraerythrocytic development of the malaria parasite, P. falciparum.\n\nA detailed investigation is essential to understand the interplay between nucleic acid methylation and post transcriptional regulation that alters translation patterns in the parasite's intraerythrocytic development (IDC). ### Nucleic acid methylome of P. Falciparum\n\nThe malaria parasites are unique in various aspects including metabolic activity, unusual genome content i. e AT rich content, and differential gene activity [ 24 ]. Recent reports have confirmed that the P. falciparum nucleic acids are rich in modifications, primarily methylation at adenine and cytosine nucleotides [ 23 , 25–27 ]. DNA methylation is the key epigenetic modification in higher eukaryotic organisms that regulates gene expression [ 28 ]. However, in apicomplexan parasites, RNA methylation (Epitranscriptomic modifications) has emerged as an essential modification involved in regulating the gene expression by modulating the translation process [ 23 , 29 , 30 ] ( Fig. 1",
+      "entities": [
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig1"
+      ],
+      "relations": [
+        {
+          "subject": "P. falciparum",
+          "predicate": "is associated_with",
+          "object": "nucleic acid methylation",
+          "evidence": "importance of investigating nucleic acid methylation and its effects on post-transcriptional regulation"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p3",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "RNA methylation: a salient epi mark in P. falciparum",
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the significance of RNA methylation as a critical epitranscriptomic mark in Plasmodium falciparum, highlighting the role of RNA in various biological functions within the malaria parasite.\n\n1 ### RNA methylation: a salient epi mark in P. falciparum\n\nThe ribonucleic acid (RNA) is an essential biomolecule in the central dogma of cell. RNA is unique, indispensable, and capable of acting as a replicator and catalyst [ 31 ]. Apart from rRNA, tRNA, and mRNA, which are extensively engaged in protein translation, the P. falciparum genome also encodes for other regulatory RNAs like small nuclear and nucleolar RNA, micro RNA, and long non-coding RNA [ 32 ]. The structure and functions of RNA are regulated through multiple post-transcriptional modifications [ 33 ]. More than 100 chemical modifications are identified in eukaryotic RNA, with methylation being the most prominent one [ 34 ]. RNA methylation is the key to regulating gene expression, cellular activities, and drug resistance in prokaryotes and eukaryotes [ 35 , 36 ]. The specific and dynamic incorporation of a methyl group to adenine and cytosine bases of RNA is essential for all living cells [ 35 , 37 ]. It has been reported that RNA modifications are essential to regulate diverse habitats of organisms [ 35 , 38–40 ]. Since P. falciparum multiplies and rapidly differentiates in two different hosts, RNA methylation could play a key role in the dynamic growth of the parasite. The recent studies on RNA modifications of P. falciparum are in the limelight, which reported its role in the parasite's translational plasticity during the human blood-stage [ 23 , 27 , 29 ]. There is a consistent observation of just-in-time translation, prolonged mRNA half-life, and lengthened ring stage of artemisinin-resistant parasites in the IDC of P. falciparum [ 41–44 ]. The post-transcriptional modifications on the RNA, particularly epitranscriptomic modifications, might act as a regulatory switch for a felicitous translational pattern of the parasite [ 8 , 26 ]( Fig. 1 ).",
+      "entities": [
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "RNA",
+          "type": "CHEMICAL",
+          "id": "D012313",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "rRNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "tRNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mRNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "small nuclear RNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nucleolar RNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "micro RNA",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig1"
+      ],
+      "relations": [
+        {
+          "subject": "P. falciparum",
+          "predicate": "encodes",
+          "object": "small nuclear RNA",
+          "evidence": "the P. falciparum genome also encodes for other regulatory RNAs like small nuclear and nucleolar RNA"
+        },
+        {
+          "subject": "P. falciparum",
+          "predicate": "encodes",
+          "object": "nucleolar RNA",
+          "evidence": "the P. falciparum genome also encodes for other regulatory RNAs like small nuclear and nucleolar RNA"
+        },
+        {
+          "subject": "P. falciparum",
+          "predicate": "encodes",
+          "object": "micro RNA",
+          "evidence": "the P. falciparum genome also encodes for other regulatory RNAs like micro RNA"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p4",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "The m6A mark: an old modification with new function in P. Falciparum",
+      "paragraph_index": 4,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the significance of the N6-adenine methylation (m6A) mark as an important epitranscriptomic modification in Plasmodium falciparum, highlighting its historical discovery and recent understanding of its biological functions.\n\n1 ). ### The m6A mark: an old modification with new function in P. Falciparum\n\nThe N6-adenine methylation (m6A) in mRNA was identified four decades before, but the keen discerning of its biological function began recently [ 45 , 46 ]. The m6A modification emerged as a critical epitranscriptomic modification in various organisms [ 47 ]. Almost every eukaryotic organism contains the m6A on the mRNA as a prominent post-transcriptional modification [ 48 ]. Recently, reports have shown the dynamics of the m6A mark on the mRNA of P. falciparum during its IDC stages [ 27 ]. Notably, P. falciparum contains excessive m6A modifications than other eukaryotes [ 49 ]. In addition, it is documented that m6A modification on the mRNA has a massive effect on the regulation of translational plasticity [ 27 , 29 ]( Fig. 1 ). The transcriptome and proteome studies with various stages of P. falciparum have revealed a unique trend of translational burst “Just in time” translation [ 50 ]. Such changes are not expected to all the genes. However, nearly 30% of the genes display the translational shift which is a discrepancy between the transcription of mRNA and translation of its associated protein in each stage of its development [ 50–52 ]. Reports have shown that the parasite shows a unique mRNA decay mechanism. The mRNA decay machinery is functioning throughout the IDC with an evident fluctuation in the rate of mRNA turnover [ 41 ]. All these studies indicated that the m6A mark regulates translational plasticity of mRNA in the P. falciparum . Like other higher eukaryotic organisms, the mRNA of P. falciparum is regulated through two prime post-transcriptional modifications, such as 5′ capping and 3’ poly-A tail, which converts into matured form mRNA that can perform in the protein production unit of the cell [ 53 ]. Despite these significant modifications, the mRNA dynamics cannot be negotiated. Hence, such networking of mRNA dynamics between the various developmental stages of P. falciparum could be coordinated by epitranscriptomic modifications on the mRNA.",
+      "entities": [
+        {
+          "text": "N6-adenine methylation",
+          "type": "CHEMICAL",
+          "id": "CHEBI:17660",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig1"
+      ],
+      "relations": [
+        {
+          "subject": "N6-adenine methylation",
+          "predicate": "associated_with",
+          "object": "Plasmodium falciparum",
+          "evidence": "the significance of the N6-adenine methylation (m6A) mark as an important epitranscriptomic modification in Plasmodium falciparum"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p5",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "The m6A writer complexes in P. Falciparum",
+      "paragraph_index": 5,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the role of m6A writer complexes, specifically METTL proteins, in adding methyl marks to N6 adenosines in mRNA of the malaria parasite P. falciparum.\n\nfalciparum could be coordinated by epitranscriptomic modifications on the mRNA. ### The m6A writer complexes in P. Falciparum\n\nThe addition of methyl mark to N6 adenosines in mRNA is catalyzed by the N6 methyltransferase, called METTL proteins. The METTL3 protein requires two more proteins, METTL14 and WTAP, for successful methyltransferase activity [ 54 ]. The presence of conserved N6 adenine mRNA methyltransferase and its associated proteins are reported in the IDC stages of P. falciparum [ 27 , 29 ]. The homologous for METTL3, METTL14, and WTAP proteins in P. falciparum are named PfMT-A, Pf MTA-70.2, Pf WTAP proteins. The gene silencing of PfMT-A70 using CRISPR interference in P. falciparum led to a decrease in m6A content on the mRNAs. The m6A methylation fine-tuned the specific transcripts for the well-timed program in the parasite [ 27 ]. Besides, the impact of PfMTA-70-mediated adenine methylation on mRNA is well demonstrated. In PfMT-A70 knock-down, the parasites exhibited a high transcript abundance with significantly reduced m6A modification on the mRNA, which is well correlated with the transcripts being less stable with lower translational efficiency [ 27 , 29 ].",
+      "entities": [
+        {
+          "text": "METTL",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "METTL14",
+          "type": "PROTEIN",
+          "id": "57721",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "WTAP",
+          "type": "PROTEIN",
+          "id": "9589",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "METTL3",
+          "predicate": "requires",
+          "object": "METTL14",
+          "evidence": "The METTL3 protein requires two more proteins, METTL14 and WTAP, for successful methyltransferase activity."
+        },
+        {
+          "subject": "METTL3",
+          "predicate": "requires",
+          "object": "WTAP",
+          "evidence": "The METTL3 protein requires two more proteins, METTL14 and WTAP, for successful methyltransferase activity."
+        },
+        {
+          "subject": "METTL proteins",
+          "predicate": "catalyzes",
+          "object": "addition of methyl mark to N6 adenosines in mRNA",
+          "evidence": "The addition of methyl mark to N6 adenosines in mRNA is catalyzed by the N6 methyltransferase, called METTL proteins."
+        },
+        {
+          "subject": "PfMT-A",
+          "predicate": "homologous for",
+          "object": "METTL3",
+          "evidence": "The homologous for METTL3, METTL14, and WTAP proteins in P. falciparum are named PfMT-A."
+        },
+        {
+          "subject": "PfMT-A70",
+          "predicate": "using",
+          "object": "CRISPR interference",
+          "evidence": "The gene silencing of PfMT-A70 using CRISPR interference in P. falc."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p6",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "YTH family proteins: regulators of central dogma",
+      "paragraph_index": 6,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the impact of PfMT-A70 knock-down on m6A modifications in malaria parasite mRNA and highlights the role of YTH family proteins as regulators of central dogma in epitranscriptomic regulation.\n\nIn PfMT-A70 knock-down, the parasites exhibited a high transcript abundance with significantly reduced m6A modification on the mRNA, which is well correlated with the transcripts being less stable with lower translational efficiency [ 27 , 29 ]. ### YTH family proteins: regulators of central dogma\n\nIdentification and characterization of m6A-specific binding proteins, such as the YTH family, have advanced knowledge of post-transcriptional gene regulation in eukaryotes [ 55 ]. YTH proteins are subdivided into two major families based on their phylogeny and localization in cells, which are YTH domain-containing proteins (YTHDC) and YTH domain family proteins (YTHDF) [ 56 , 57 ]. There are three proteins in YTHDF1-3, also called DF1-3, and two in YTHDC1-2, also called DC1-2 [ 56 , 58 ]. YTHDF1, YTHDF2, YTHDF3 and YTHDC2 proteins are mainly localized in the cytoplasm of the cell, and are primarily involved in regulation of mRNA translation and RNA metabolism [ 59–61 ]. YTHDC1 is localized to the nucleus and regulates RNA splicing and export of mRNA from the nucleus to the cytoplasm [ 62 ] ( Fig. 2 63 ]. However, YTHDF2 binds to m6A-containing mRNA and promotes its degradation by recruiting the CCR-NOT complex [ 60 ]. Although YTHDF3 binds to m6A preferentially, its function is based on its complex associations. YTHDF3 promotes translation by interacting with YTHDF1, whereas it guides mRNA to decay in complex with YTHDF2 [ 64 ]. Compared to DF family proteins, YTHDC1 is a nuclear protein and participates in RNA splicing [ 65 ]. YTHDC2 is the last member of the YTH family, which functions as translational repressor.",
+      "entities": [
+        {
+          "text": "PfMT-A70",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "YTH family proteins",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "malaria",
+          "type": "DISEASE",
+          "id": "D008288",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig2"
+      ],
+      "relations": [
+        {
+          "subject": "PfMT-A70",
+          "predicate": "regulates",
+          "object": "m6A modifications",
+          "evidence": "impact of PfMT-A70 knock-down on m6A modifications in malaria parasite mRNA"
+        },
+        {
+          "subject": "YTH family proteins",
+          "predicate": "regulates",
+          "object": "central dogma",
+          "evidence": "role of YTH family proteins as regulators of central dogma in epitranscriptomic regulation"
+        },
+        {
+          "subject": "m6A",
+          "predicate": "associated_with",
+          "object": "transcripts being less stable",
+          "evidence": "transcripts being less stable with lower translational efficiency"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p7",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "YTH family proteins: regulators of central dogma",
+      "paragraph_index": 7,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the YTHDC2 protein, its role as a translational repressor, and the structural features of YTH family proteins, including their conserved domains and similarities to RNA recognition motifs.\n\nYTHDC2 is the last member of the YTH family, which functions as translational repressor. YTH family proteins contain the YTH domain, spanning around 140 amino acids of which 19 are highly conserved across eukaryotic organisms. YTH domains typically form the hydrophobic methyl-binding core of aromatic amino acids, which are homologous to RNA recognition motifs (RRM) [ 66 , 67 ]. Despite conserved aromatic cage in the YTH family of proteins, it exhibits the diverse affinities and differential selectivity for m6A containing mRNA. Structural studies of YTHDC1 has revealed that it prefers GG nucleotides at −1 and −2 positions relative to methylated adenine [ 68 ]. The YTH family of proteins have emerged as master regulator controlling the central dogma through interaction with m6A modifications on RNA.",
+      "entities": [
+        {
+          "text": "YTHDC2",
+          "type": "PROTEIN",
+          "id": "64848",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTH family",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTH domain",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "RNA recognition motifs",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "YTHDC2",
+          "predicate": "associated_with",
+          "object": "YTH family",
+          "evidence": "YTHDC2 is the last member of the YTH family."
+        },
+        {
+          "subject": "YTH family proteins",
+          "predicate": "contains",
+          "object": "YTH domain",
+          "evidence": "YTH family proteins contain the YTH domain."
+        },
+        {
+          "subject": "YTH domain",
+          "predicate": "spans",
+          "object": "140 amino acids",
+          "evidence": "YTH domain, spanning around 140 amino acids."
+        },
+        {
+          "subject": "YTH domains",
+          "predicate": "form",
+          "object": "methyl-binding core",
+          "evidence": "YTH domains typically form the hydrophobic methyl-binding core."
+        },
+        {
+          "subject": "YTH family of proteins",
+          "predicate": "exhibits",
+          "object": "diverse affinities",
+          "evidence": "it exhibits the diverse affinities and differential selectivity for m6A containing mRNA."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p8",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "The m6A reader complexes in apicomplexan parasites",
+      "paragraph_index": 8,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the role of YTH family proteins as m6A reader complexes that regulate mRNA fate in apicomplexan parasites.\n\nThe YTH family of proteins have emerged as master regulator controlling the central dogma through interaction with m6A modifications on RNA. ### The m6A reader complexes in apicomplexan parasites\n\nYTH family proteins dictates the fate of m6A modified mRNA in eukaryotes, specifically binding to m6A modified mRNA [ 69 ]. The functional roles of YTH family proteins in apicomplexan parasites such as P. falciparum and T. gondii have been recently studied. Both parasites encode two members of the YTH family, e.g., YTH1 and YTH2 [ 23 , 29 , 70 , 71 ]. The protein architecture of YTH2 proteins is conserved between P. falciparum and T. gondii , however they differ significantly in their localization [ 23 , 70 ] ( Fig. 3 P. falciparum YTH2 localizes to the cytoplasm [ 23 ], whereas in T. gondii YTH2 localizes to the nucleus [ 70 ], which suggests that YTH2 have diverse functions in these two parasites. It has been reported that both TgYTH1 and TgYTH2 members are localized to the nucleus in T. gondii [ 70 ], and TgYTH1 plays an essential role in RNA cleavage and regulation of polyadenylation processes in T. gondii [ 70 , 71 ]. The exact functions of TgYTH2 yet to be identified, however, TgYTH2 may function as translational repressor as in P. falciparum [ 29 , 72 ]. In the case of P. falciparum , the functions of PfYTH1 remain unknown. Structurally, PfYTH1 is similar to YTHDC1 or CPCSF30 as it contains a zinc finder domain at the N terminus and a conserved YTH domain at the C -terminus, which proposes that PfYTH1 may function like YTHDC1, which is known to localize to the nucleus and play a key role in regulating splicing and RNA export in mammals [ 62 ]. PfYTH2 contains a conserved methyl-binding domain nested with the aromatic amino acids [ 23 , 29 ]. A detailed biochemical investigation for PfYTH2 had identified that the protein specifically binds to m6A-containing mRNA using its methyl-binding domain [ 23 ]. Further, it was reported that Phenylalanine 98 (F98) is crucial for the PfYTH2 protein to interact with m6A containing mRNAs in P. falciparum ( Fig. 4 Fig. 4 ).",
+      "entities": [
+        {
+          "text": "YTH family proteins",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "T. gondii",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTH1",
+          "type": "PROTEIN",
+          "id": "856222",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTH2",
+          "type": "PROTEIN",
+          "id": "393220",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig3",
+        "fig4"
+      ],
+      "relations": [
+        {
+          "subject": "YTH family proteins",
+          "predicate": "regulates",
+          "object": "mRNA fate",
+          "evidence": "YTH family proteins as m6A reader complexes that regulate mRNA fate in apicomplexan parasites."
+        },
+        {
+          "subject": "YTH family proteins",
+          "predicate": "binds",
+          "object": "m6A modified mRNA",
+          "evidence": "YTH family proteins dictates the fate of m6A modified mRNA... binding to m6A modified mRNA."
+        },
+        {
+          "subject": "P. falciparum",
+          "predicate": "encodes",
+          "object": "YTH1",
+          "evidence": "Both parasites encode two members of the YTH family, e.g., YTH1 and YTH2."
+        },
+        {
+          "subject": "P. falciparum",
+          "predicate": "encodes",
+          "object": "YTH2",
+          "evidence": "Both parasites encode two members of the YTH family, e.g., YTH1 and YTH2."
+        },
+        {
+          "subject": "YTH2",
+          "predicate": "is conserved between",
+          "object": "P. falciparum and T. gondii",
+          "evidence": "The protein architecture of YTH2 proteins is conserved between P. falciparum and T. gondii."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p9",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "PfYTH2 regulating translation of functionally essential proteins in P. Falciparum",
+      "paragraph_index": 9,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses how PfYTH2, an essential m6A reader protein in P. falciparum, regulates the translation of functionally vital proteins by preferentially binding to the 3′UTR region of many genes.\n\n4 ). ### PfYTH2 regulating translation of functionally essential proteins in P. Falciparum\n\nPfYTH2 is an essential m6A reader protein, as the parasite fails to grow upon deletion of YTH2 in P. falciparum . The modified MeRIP assay using PfYTH2 proteins identified that PfYTH2 preferentially binds to the 3′UTR region of most genes [ 23 ]. This implies that m6A is enriched in 3′UTR region [ 23 ]. It is reported that enrichment of m6A in the 3′UTR region of mRNA is crucial for the 3′ end processing of mRNA transcripts and promotes the polyadenylation in the T. gondii [ 70 ]. Also, it is predicted that YTH2 may play a role in guiding the m6A mRNA for translation [ 70 ]. In P. falciparum , the propensity of the polyadenylation process is to guide the mRNA for effective protein synthesis [ 43 ]. So, the enrichment of methyl adenines in the 3′UTR region of P. falciparum mRNA could also stimulate the active translation with the assistance of YTH2 protein [ 23 ]. In addition, methylated adenines in the 5′UTR region in P. falciparum is observed [ 27 ]. In eukaryotes, m6A modification in the 5′UTR region stimulates the active translation during the cellular stress condition in the cap-independent manner [ 73 ]. Strikingly in P. falciparum Pfmdr 1 mRNA and mRNAs with lengthy and multiple uORFs are translated by cap-independent mechanisms [ 74 ]. It is suspected that the post-transcriptional modifications in 5′UTR of PfmRNA and cap-independent translation components would assist the selective production of the proteins during the various stress conditions [ 26 , 74 ]. However, the master regulator of the cap-independent translation in the parasite is unknown [ 43 , 74 ]. So, during stress conditions or when the parasite is in demand of some specific proteins, m6A residues in the 5′UTR could regulate translation of those proteins. Thus, PfYTH2 could bind m6A-modified UTR regions within mRNA and promote translation ( Fig. 5",
+      "entities": [
+        {
+          "text": "PfYTH2",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "T. gon",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [
+        "fig5"
+      ],
+      "relations": [
+        {
+          "subject": "PfYTH2",
+          "predicate": "regulates",
+          "object": "translation of functionally vital proteins",
+          "evidence": "PfYTH2, an essential m6A reader protein in P. falciparum, regulates the translation of functionally vital proteins"
+        },
+        {
+          "subject": "PfYTH2",
+          "predicate": "binds",
+          "object": "3′UTR region of many genes",
+          "evidence": "PfYTH2 preferentially binds to the 3′UTR region of many genes"
+        },
+        {
+          "subject": "m6A",
+          "predicate": "associated_with",
+          "object": "3′UTR region",
+          "evidence": "m6A is enriched in 3′UTR region"
+        },
+        {
+          "subject": "m6A",
+          "predicate": "promotes",
+          "object": "polyadenylation in the T. gondii",
+          "evidence": "enrichment of m6A in the 3′UTR region of mRNA is crucial for the 3′ end processing of mRNA transcripts and promotes the polyadenylation in the T. gondii"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p10",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "The multifaceted role of PfYTH2 in the parasite",
+      "paragraph_index": 10,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the regulatory role of the PfYTH2 protein in the translation of m6A-modified RNA in P. falciparum and its interaction with translational factors to manage transcript abundance.\n\n5 ### The multifaceted role of PfYTH2 in the parasite\n\nPfYTH2 is reported as a repressor protein that regulates the translation of m6A-modified RNA in P. falciparum [ 29 ]. PfYTH2 selectively suppresses the translation of overabundant transcripts by interacting with the translational factors. So the tight translational regulation of the parasite could be equilibrated [ 29 ]. Studies in other eukaryotic organisms have shown that the same YTH family reader protein can perform a dual function that can guide the m6A-modified mRNA for translation and degradation [ 64 , 75 ]. Also, it is evident that YTH2 can effectuate the translational repression in the P. falciparum and is predicted to be a versatile reader protein. The motif analysis has revealed that the PfYTH2 has relaxed binding specificity to bind with m6a-containing mRNA. This permissive sequence-specific binding is unique to the P. falciparum as other eukaryotic YTH reader proteins are stringent in m6A interaction [ 23 , 76 ]. This can be justified by the high abundance of adenine composition in the parasite genome and the presence of only two methyl adenosine reader proteins, unlike other organisms [ 27 , 77 ]. Notably, there are no m6A-specific demethylases in the parasite genome, suggesting that the m6A methylation and its reader proteins are the keys to regulating the parasite's mRNA turnover in the parasite [ 23 ]. Importantly, it is reported that mRNA half-life gradually increases during the intraerythrocytic cycle of P. falciparum , so the RNA degradation is minimal in later stages [ 41 ]. The mRNA degradation is one of the essential post-transcriptional regulations in the parasite, and the reports on dynamics of m6A on the mRNA of P. falciparum well corroborate it [ 77 ]. PfYTH2 might also mediate the mRNA degradation in an m6A-dependent manner, which could maintain the mRNA homeostasis [ 29 ]. It is possible that the binding of PfYTH2 protein to m6A modified mRNA may drive to either RNA decay machinery or mRNA processing for translation, which depends on the parasite requirement, due to the binding of PfYTH2 with m6A in mRNA 3′UTR regions also with the 5′UTR regions [ 23 , 74 ]. In addition, the RNA binding proteins are one of the potential regulators of translational timing in the parasite [ 78 ], where the m6A marked mRNA's might be sequestered or modified when the specific stage shift occurs the PfYTH2 reader protein would fetch mRNA for just in time translation [ 29 ]. Thus, the PfYTH2 might play a multifaceted role in maintaining the equilibrium of m6A-modified mRNAs in P. falciparum.",
+      "entities": [
+        {
+          "text": "PfYTH2",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "PfYTH2",
+          "predicate": "regulates",
+          "object": "m6A-modified RNA",
+          "evidence": "PfYTH2 is reported as a repressor protein that regulates the translation of m6A-modified RNA in P. falciparum"
+        },
+        {
+          "subject": "PfYTH2",
+          "predicate": "suppresses",
+          "object": "the translation of overabundant transcripts",
+          "evidence": "PfYTH2 selectively suppresses the translation of overabundant transcripts by interacting with the translational factors."
+        },
+        {
+          "subject": "PfYTH2",
+          "predicate": "interacts_with",
+          "object": "translational factors",
+          "evidence": "PfYTH2 selectively suppresses the translation of overabundant transcripts by interacting with the translational factors."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec1-p11",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": "The multifaceted role of PfYTH2 in the parasite",
+      "paragraph_index": 11,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the significance of epitranscriptomic modifications, particularly m6A on mRNA, and highlights the crucial role of PfYTH2 in regulating mRNA fate during various developmental stages of the malaria parasite.\n\nfalciparum. The epitranscriptomic modifications m6A on mRNA have emerged as the potential regulators that eminently govern the post-transcriptional regulations [ 79 ]. In particular, it enacts a crucial function in the various developmental stages of the parasite. However, a detailed study is essential to understand the complex process of PfYTH2-mediated regulation of mRNA fate in the malaria parasite. So, further excavating on that section in P. falciparum would divulge the unresolved post-transcriptional mechanisms in the parasite. Further experimental results on PfYTH2, as it holds the ideal m6A binding socket, would make it one of the hopeful molecules to understand the underlying pathways of mRNA biology in malarial pathogenesis.",
+      "entities": [
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "PfYTH2",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "malaria parasite",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "PfYTH2",
+          "predicate": "regulates",
+          "object": "mRNA fate",
+          "evidence": "the crucial role of PfYTH2 in regulating mRNA fate during various developmental stages of the malaria parasite."
+        },
+        {
+          "subject": "m6A",
+          "predicate": "regulates",
+          "object": "post-transcriptional regulations",
+          "evidence": "The epitranscriptomic modifications m6A on mRNA have emerged as the potential regulators that eminently govern the post-transcriptional regulations."
+        },
+        {
+          "subject": "PfYTH2",
+          "predicate": "binds",
+          "object": "m6A",
+          "evidence": "PfYTH2, as it holds the ideal m6A binding socket."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2024-100703-sec2-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This conclusion section from the article discusses the role of epigenetic modifications, particularly RNA methylation, in maintaining the pathogenicity and complex phenotypic traits of the malaria parasite P. falciparum.\n\nRemarkably, epigenetic modifications maintain the phenotypic complexity and pathogenicity of P. falciparum. Beyond the bounds of accustomed epigenetic regulations, RNA methylation leads to the crucial translational systemization in P. falciparum . RNA methylation is a potential and indispensable post-transcriptional epi mark regulating the parasite's highly synchronized transcription and translational activities. The tRNA Asp cytosine methylation and other tRNA modifications substantially influence the translational efficiency of subsets of proteins in P. falciparum. Besides identifying of N6 adenosine mRNA methylation and characterizing one of its reader proteins such as PfYTH1 and PfYTH2, which controls the stage-specific alterations, it has advanced the RNA biology in the parasite research. Consequently, exploring RNA methylation in P. falciparum is a guaranteed track to perceive parasite pervasiveness's dynamic and complex gene regulation. It is also recognized as an essential layer of the timeous post-transcriptional system in the parasite for translational plasticity. Henceforth, RNA methylation and its network in P. falciparum would emerge as suitable drug targets to curb the emergence of drug-resistant parasites.",
+      "entities": [
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA methylation",
+          "type": "CHEMICAL",
+          "id": "D000097906",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "tRNA Asp cytosine methylation",
+          "type": "CHEMICAL",
+          "id": "CHEBI:81009",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "RNA methylation",
+          "predicate": "regulates",
+          "object": "P. falciparum",
+          "evidence": "RNA methylation leads to the crucial translational systemization in P. falciparum."
+        },
+        {
+          "subject": "tRNA Asp cytosine methylation",
+          "predicate": "influences",
+          "object": "translational efficiency of subsets of proteins in P. falciparum",
+          "evidence": "tRNA Asp cytosine methylation and other tRNA modifications substantially influence the translational efficiency of subsets of proteins in P. falciparum."
+        },
+        {
+          "subject": "epigenetic modifications",
+          "predicate": "maintain",
+          "object": "phenotypic complexity and pathogenicity of P. falciparum",
+          "evidence": "epigenetic modifications maintain the phenotypic complexity and pathogenicity of P. falciparum."
+        }
+      ]
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: N6-adenine methylation (m6A) plays a critical role in the post-transcriptional regulation of Plasmodium falciparum during its intraerythrocytic development, influencing translational dynamics. The figure illustrates that methylation modifications contribute to the translational plasticity necessary for the differential phenotypes of the malaria parasite. Understanding these dynamics is essential for elucidating the relationship between nucleic acid methylation and translation patterns in P. falciparum.\n\nCaption: Schematic representation of intraerythrocytic developmental stages of Plasmodium falciparum in RBCs. The translational dynamics linked to the differential phenotypes of P. falciparum. The arrow indicates a potential contribution of epi transcriptome modifications in the translational plasticity during P. falciparum development in RBC.",
+      "label": "Fig. 1",
+      "caption": "Schematic representation of intraerythrocytic developmental stages of Plasmodium falciparum in RBCs. The translational dynamics linked to the differential phenotypes of P. falciparum. The arrow indicates a potential contribution of epi transcriptome modifications in the translational plasticity during P. falciparum development in RBC.",
+      "entities": [
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "N6-adenine methylation",
+          "type": "CHEMICAL",
+          "id": "CHEBI:17660",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "malaria",
+          "type": "DISEASE",
+          "id": "D008288",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2024-100703-sec1-p2",
+        "article-10-1016-j-bj-2024-100703-sec1-p3",
+        "article-10-1016-j-bj-2024-100703-sec1-p4"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: Knock-down of PfMT-A70 results in significantly reduced m6A modifications on mRNA, leading to increased transcript abundance and decreased translational efficiency. The decreased m6A modification correlates with less stable transcripts. This finding underscores the role of YTH family proteins in regulating the stability and translation of mRNA in the context of the malaria parasite's epitranscriptomic regulation.\n\nCaption: Schematic representation of Central dogma of molecular biology of the cell, depicting the flow of genetic information from DNA to protein. The YTH family of proteins emerged as significant contributors to these processes. YTHDC1 plays a key role in transcription by regulating RNA splicing, whereas other YTH family members such as YTHDF1-3 and YTHDC2 regulate protein translation at various contexts.",
+      "label": "Fig. 2",
+      "caption": "Schematic representation of Central dogma of molecular biology of the cell, depicting the flow of genetic information from DNA to protein. The YTH family of proteins emerged as significant contributors to these processes. YTHDC1 plays a key role in transcription by regulating RNA splicing, whereas other YTH family members such as YTHDF1-3 and YTHDC2 regulate protein translation at various contexts.",
+      "entities": [
+        {
+          "text": "PfMT-A70",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDC1",
+          "type": "PROTEIN",
+          "id": "91746",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF1",
+          "type": "PROTEIN",
+          "id": "54915",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF2",
+          "type": "PROTEIN",
+          "id": "51441",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF3",
+          "type": "PROTEIN",
+          "id": "253943",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDC2",
+          "type": "PROTEIN",
+          "id": "64848",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "malaria",
+          "type": "DISEASE",
+          "id": "D008288",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2024-100703-sec1-p6"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 3: YTH family proteins in Plasmodium falciparum and Toxoplasma gondii contain conserved zinc finger modules and YTH domains, which function as m6A reader complexes that regulate mRNA fate. The presence of these conserved structural features across apicomplexan parasites indicates their essential role in mRNA modification recognition and regulation. This underscores the importance of YTH family proteins as master regulators of mRNA dynamics influenced by m6A modifications in these organisms.\n\nCaption: Schematic representation of structural features of YTH members from P. falciparum and T. gondii. YTH1 members in both parasites contain zinc finger modules. YTH domains are conserved across the apicomplexan parasites.",
+      "label": "Fig. 3",
+      "caption": "Schematic representation of structural features of YTH members from P. falciparum and T. gondii. YTH1 members in both parasites contain zinc finger modules. YTH domains are conserved across the apicomplexan parasites.",
+      "entities": [
+        {
+          "text": "YTH family proteins",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Plasmodium falciparum",
+          "type": "ORGANISM",
+          "id": "5833",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "type": "ORGANISM",
+          "id": "5811",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2024-100703-sec1-p8"
+      ]
+    },
+    {
+      "id": "fig4",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 4: The critical residue phenylalanine (F98) in the YTH2 protein mediates the m6A interaction on mRNA and is conserved across Apicomplexan parasites, indicating a significant role of the m6A binding pocket in YTH domain proteins. This conservation suggests that YTH proteins are essential for regulating mRNA fate through their interaction with m6A modifications in these eukaryotic pathogens. The figure underscores the importance of YTH family proteins as m6A reader complexes in the regulatory mechanisms of apicomplexan parasites.\n\nCaption: Multiple sequence alignment of YTH domain-containing proteins from Apicomplexan parasites. The critical residue phenylalanine (F98) YTH2 mediates the m6A interaction on the mRNA and is conserved across the Apicomplexan parasites, suggesting the significant function of the m6A binding pocket in the YTH domain proteins.",
+      "label": "Fig. 4",
+      "caption": "Multiple sequence alignment of YTH domain-containing proteins from Apicomplexan parasites. The critical residue phenylalanine (F98) YTH2 mediates the m6A interaction on the mRNA and is conserved across the Apicomplexan parasites, suggesting the significant function of the m6A binding pocket in the YTH domain proteins.",
+      "entities": [
+        {
+          "text": "YTH2",
+          "type": "PROTEIN",
+          "id": "393220",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Apicomplexan",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTH",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2024-100703-sec1-p8"
+      ]
+    },
+    {
+      "id": "fig5",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 5: PfYTH2 is essential for the growth of P. falciparum, as deletion of YTH2 results in the failure of parasite growth. PfYTH2 binds to m6A-modified mRNAs, leading to the suppression of protein translations for functionally vital proteins. This finding demonstrates the critical role of PfYTH2 in regulating mRNA translation and highlights its importance in the parasite's survival.\n\nCaption: Schematic depiction of m6A mark binding protein YTH2 functions in P. falciparum. The PfYTH2 binds to m6A-modified mRNAs and suppresses the protein translations in the parasite. Its role in mRNA sequestration and its degradation are yet to be identified. PfYTH1 may also contribute these processes, which needs to be investigated.",
+      "label": "Fig. 5",
+      "caption": "Schematic depiction of m6A mark binding protein YTH2 functions in P. falciparum. The PfYTH2 binds to m6A-modified mRNAs and suppresses the protein translations in the parasite. Its role in mRNA sequestration and its degradation are yet to be identified. PfYTH1 may also contribute these processes, which needs to be investigated.",
+      "entities": [
+        {
+          "text": "PfYTH2",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "P. falciparum",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "PfYTH1",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100703",
+        "pii": "S2319-4170(24)00006-4",
+        "doi": "10.1016/j.bj.2024.100703",
+        "title": "Reading the epitranscriptome of the human malaria parasite",
+        "authors": [
+          "Gayathri Govindaraju",
+          "Arumugam Rajavelu"
+        ],
+        "publication_date": "2024-02-01",
+        "abstract": "Epigenetic machinery has emerged as a central player in gene regulation and chromatin organization in Plasmodium spp. Epigenetic modifications on histones and their role in antigenic variation in P. falciparum are widely studied. Recent discoveries on nucleic acid methylome are exciting and provide a new dimension to the apicomplexan protozoan parasite's gene regulatory process. Reports have confirmed that N6-methyl adenosine (m6A) methylation plays a crucial role in the translational plasticity of the human malaria parasite during its development in RBC. The YTH domain (YT521-B Homology) protein in P. falciparum binds to m6A epitranscriptome modifications on the mRNA and regulates protein translation. The binding of the PfYTH domain protein to the m6A-modified mRNA is mediated through a binding pocket formed by aromatic amino acids. The P. falciparum genome encodes two members of YTH domain proteins, i.e., YTH1 and YTH2, and both have distinct roles in dictating the epitranscriptome in human malaria parasites. This review highlights recent advancements in the functions and mechanisms of YTH domain protein's role in translational plasticity in the various developmental stages of the parasite.",
+        "keywords": [
+          "Epitranscriptome",
+          "RNA methylation",
+          "YTH domain protein",
+          "Malaria",
+          "Plasmodium"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2024-100703-sec1-p9"
+      ]
+    }
+  ]
+}

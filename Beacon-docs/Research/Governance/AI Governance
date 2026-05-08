@@ -1,0 +1,16 @@
+the core function of this module is to act as a license-aware AI search gateway that allows AI agents to discover and retrieve a publisher's content in a structured, governed manner at inference time.
+It is built specifically for how large language models (LLMs) actually retrieve information, rather than being retrofitted from traditional web search intended for humans.
+This core function breaks down into several key operational steps:
+
+Ingestion and Formatting: A publisher connects their content catalog to Beacon, which then ingests and converts the content into an AI-ready format(conversion to AI format done) before indexing it for retrieval.
+Real-Time License Enforcement: When an AI platform queries Beacon, the system actively checks permissions and enforces licensing rules in real time, on every single request, before any content is served.
+Controlled Delivery: Once a request is authorized, the content is delivered at web-scale speeds. Publishers can choose to have Beacon fully manage the delivery from its own infrastructure, or they can have Beacon route the authorized requests directly to their own servers.(For now we will access the content from the local db)
+Tracking and Monetization: As content is delivered, Beacon tracks usage so that publishers can monetize their content, whether that means adding AI capabilities to existing subscriber plans or selling specific AI licenses to institutional customers.
+
+Here the important thing is to implement BYOS feature in which subscribers of publishers can carry the license to the AI tools site and use it.
+There will be 2 types of rights
+Right	        Allows Use in RAG Workflow	                            Allows Viewing Full Source	User Experience Without the Right
+RAG	            Yes	                                                        No	Snippet only;           landing page; redirect to publisher
+READ_RAG_SOURCE	Not required for basic RAG, but enables richer workflows	Yes	Without this: limited preview + timed link + controlled redirect
+Both	        Full RAG integration	                                    Full context viewing	Best experience for advanced AI use cases
+

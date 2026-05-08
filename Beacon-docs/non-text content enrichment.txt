@@ -1,0 +1,120 @@
+Why Figures & Tables Are the Hidden Goldmine
+In academic STM papers, figures and tables carry 40–60% of the core findings. A researcher looking for "what was the efficacy of drug X in the clinical trial?" is almost certainly looking for data that lives in a table or chart, not in a paragraph. If your ingestion pipeline treats these as images to skip or placeholders, you lose a massive chunk of retrievable knowledge.
+
+Traditional text-only RAG systems either skip images entirely or convert them to [IMAGE] placeholder tokens. Tables become mangled rows of text that lose their structure. This is the single biggest quality gap in most RAG implementations.
+
+The 4 Types of Non-Text Content in STM Articles
+Each requires a different enrichment strategy:
+
+1. Data Tables (Results, Comparisons, Measurements)
+The problem: Tables have spatial structure (rows, columns, headers, merged cells, hierarchical headers) that gets destroyed in plain text extraction.
+
+What to do:
+
+Serialize to structured formats — Convert tables to both Markdown (for semantic search) and JSON (for precise data retrieval). Research shows you need both representations: Markdown for natural language queries, JSON for structured lookups.
+
+Prepend contextual metadata — Table title, caption, article section it belongs to, what the table measures. Research on table serialization shows that including metadata alongside table content significantly improves retrieval performance — in some benchmarks it's the single biggest factor.
+​
+
+Keep a reference to the original image — For complex tables with merged cells or visual formatting, keep the original table image alongside the structured extraction as a fallback.
+​
+
+Example enriched table chunk:
+
+json
+{
+  "type": "table",
+  "article_doi": "10.1234/example",
+  "section": "Results",
+  "table_id": "Table 3",
+  "caption": "Comparison of drug efficacy across treatment groups",
+  "serialized_markdown": "| Group | Efficacy (%) | p-value |\n|...",
+  "serialized_json": [{"Group": "Treatment A", "Efficacy": 78.3, "p_value": 0.002}...],
+  "keywords": ["drug efficacy", "treatment comparison", "clinical trial"],
+  "image_ref": "table_3.png"
+}
+2. Scientific Figures (Charts, Graphs, Plots)
+The problem: A bar chart showing survival curves or a scatter plot of gene expression contains data that no text paragraph captures. LLMs can't "see" these unless you describe them.
+
+What to do:
+
+Generate semantic descriptions using a vision-language model (GPT-4o, Gemini, LLaVA). The description should capture: what the figure shows, key trends, axis labels, data ranges, and the main takeaway.
+
+Extract data points where possible — bar heights, curve trends, key values. The SciEx framework demonstrates that converting figures into structured JSON with axis labels, legends, and data points enables joint reasoning over text and visual content.
+​
+
+Pair caption + description + data — The original author caption plus the AI-generated semantic description together create a much richer retrieval target than either alone. Research shows semantic indexing of figure captions alone improved retrieval by 55% over keyword-based search.
+​
+
+Store the original image — Keep it available for multimodal LLMs that can reason over images directly during generation.
+
+3. Chemical Structures, Diagrams, Flowcharts
+The problem: Domain-specific visual elements (molecular diagrams, reaction pathways, circuit diagrams, anatomical illustrations) carry meaning that generic image captioning misses.
+
+What to do:
+
+Classify figure type first — Use a VLM to distinguish scientific figures (plots, diagrams, molecular structures) from decorative images (logos, author photos). Only enrich scientific figures.
+​
+
+Use domain-specific extraction — For chemistry: extract SMILES/InChI strings from molecular diagrams. For biology: extract pathway components. For engineering: extract component relationships.
+
+Generate structured representation — Convert flowcharts to step sequences, reaction diagrams to reactant→product chains, circuit diagrams to component lists.
+
+Fallback: rich text description — When domain-specific extraction isn't feasible, a detailed VLM description is still far better than nothing.
+
+4. Equations and Mathematical Expressions
+The problem: LaTeX equations embedded in articles are critical in STEM fields but get garbled or stripped in most text pipelines.
+
+What to do:
+
+Preserve LaTeX source — Keep the original LaTeX representation (TNQ already has this from )
+
+Generate natural language description — "
+E=mc^2
+E=mc^2
+ " becomes "Einstein's mass-energy equivalence equation relating energy to mass times the speed of light squared"
+
+Tag with context — Which equation number, what section, what it describes, what variables mean
+
+The Enrichment Stack: How It All Fits Together
+Content Type	Extraction	Enrichment	Storage for Retrieval
+Text paragraphs	Section-aware chunking from 	Contextual metadata prepending (Anthropic-style)	Text embedding + metadata
+Tables	Structured extraction from  <table-wrap>	Dual serialization (Markdown + JSON) + caption + metadata	Text embedding of Markdown version + structured JSON
+Figures (charts/plots)	Image extraction + caption from  <fig>	VLM-generated semantic description + data point extraction	Text embedding of description + original image reference
+Diagrams (domain-specific)	Image extraction + classification	Domain-specific extraction (SMILES, pathways) or VLM description	Text embedding + structured representation
+Equations	LaTeX from  <mml:math> or <tex-math>	Natural language description + variable definitions	Text embedding of description + LaTeX source
+Supplementary data	File reference from  <supplementary-material>	Type classification + summary description	Metadata + link
+
+TNQ's Advantage:  Already Has the Hooks
+This is where your structuring engine pays off massively.  XML already tags:
+
+<table-wrap> with <label>, <caption>, and structured <table> elements — you get clean table data without OCR or layout detection
+
+<fig> with <label>, <caption>, and <graphic> references — you know exactly where every figure is and what its caption says
+
+<disp-formula> and <inline-formula> with MathML or LaTeX — equations are already machine-readable
+
+<supplementary-material> with type and description metadata
+
+Most companies building multimodal RAG start from PDFs and spend enormous effort on layout detection, table extraction, and figure identification. TNQ skips all of that because the structuring engine has already done the hard work. Your enrichment layer only needs to:
+
+Read what  already gives you (structured tables, tagged figures, parsed equations)
+
+Add the AI-generated semantic layer on top (VLM descriptions, natural language table summaries, equation explanations)
+
+Store both the structured original and the enriched semantic version
+
+What This Means for the PoC
+For the March 5 demo, I'd recommend a tiered approach:
+
+Must have: Tables extracted as Markdown from  <table-wrap> with captions and metadata attached to each chunk. This is low effort and high impact.
+
+Must have: Figure captions from  <fig> stored as searchable text chunks with article context.
+
+Nice to have: VLM-generated descriptions for top 50–100 figures in the pilot corpus to demonstrate the enrichment concept.
+
+Demo script: Include one question that can only be answered from a table ("What was the p-value for treatment group B?") and one that benefits from figure understanding ("What trend does Figure 3 show?") to prove the multimodal enrichment value.
+
+This turns your PoC from "we can search text" to "we can search the full knowledge in a paper" — which is a fundamentally stronger pitch.
+
+

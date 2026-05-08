@@ -1,0 +1,3201 @@
+{
+  "source_file": "S0753332224001124.xml",
+  "article_doi": "10.1016/j.biopha.2024.116231",
+  "total_chunks": 33,
+  "text_chunks": 28,
+  "visual_chunks": 5,
+  "total_entities": 186,
+  "entities_with_ontology_id": 13,
+  "total_relations": 103,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0005-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0005",
+      "text": "This introduction section from the article discusses the ongoing public health impact of COVID-19, caused by SARS-CoV-2, highlighting infection statistics and mortality as of June 2023.\n\nCorona Virus Disease 2019 (COVID-19), which is caused by the infection with Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2), has remained a global public health threat since December 2019. As of June 2023, the pandemic has resulted in over 771 million individuals being infected, leading to a distressing loss of life nearly 7 million people ( https://covid19.who.int/data ). Although a great deal of money and resources have been spent on vaccine research, the existing vaccines does not completely protect against the novel coronavirus as the virus continues to mutate. Till today, SARS-CoV-2 infection keeps attacking many countries and regions, and causing a great number of deaths, even though vaccination and antiviral agents against SARS-CoV-2 are popularized. Therefore, novel effective prevention and treatment of SARS-CoV-2 infection are urgently required.",
+      "entities": [
+        {
+          "text": "COVID-19",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Severe Acute Respiratory Syndrome Coronavirus Type 2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "June 2023",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "771 million",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "7 million",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "vaccine research",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "novel coronavirus",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "COVID-19",
+          "predicate": "causes",
+          "object": "SARS-CoV-2",
+          "evidence": "COVID-19, which is caused by the infection with Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "causes",
+          "object": "7 million people",
+          "evidence": "the pandemic has resulted in over 771 million individuals being infected, leading to a distressing loss of life nearly 7 million people"
+        },
+        {
+          "subject": "vaccine research",
+          "predicate": "supports",
+          "object": "existing vaccines",
+          "evidence": "a great deal of money and resources have been spent on vaccine research, the existing vaccines does not completely protect against the novel coronavirus"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "relates_to",
+          "object": "novel coronavirus",
+          "evidence": "the existing vaccines does not completely protect against the novel coronavirus as the virus continues to mutate"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0005-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec0005",
+      "text": "This introduction section from the article discusses the urgent need for effective SARS-CoV-2 treatments and highlights the role of N6-methyladenosine RNA modification in viral life cycle and host antiviral responses.\n\nTherefore, novel effective prevention and treatment of SARS-CoV-2 infection are urgently required. N6 -methyladenosine (m6A) represents a form of RNA modification with crucial biological roles in the viral life cycle and the modulation of host cell antiviral responses. Notably, the presence of m6A modification in SARS-CoV-2 has been unveiled. This review discusses the evolving significance of m6A modification in regulating SARS-CoV-2 pathogenicity and virus-host interactions, with a specific emphasis on its potential impact on the severity and prognosis of COVID-19.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "N6-methyladenosine",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "requires",
+          "object": "effective treatments",
+          "evidence": "the urgent need for effective SARS-CoV-2 treatments"
+        },
+        {
+          "subject": "N6-methyladenosine",
+          "predicate": "supports",
+          "object": "viral life cycle",
+          "evidence": "the role of N6-methyladenosine RNA modification in viral life cycle"
+        },
+        {
+          "subject": "N6-methyladenosine",
+          "predicate": "supports",
+          "object": "host antiviral responses",
+          "evidence": "the role of N6-methyladenosine RNA modification in ... host antiviral responses"
+        },
+        {
+          "subject": "N6-methyladenosine",
+          "predicate": "associated_with",
+          "object": "SARS-CoV-2",
+          "evidence": "the presence of m6A modification in SARS-CoV-2 has been unveiled"
+        },
+        {
+          "subject": "N6-methyladenosine",
+          "predicate": "associated_with",
+          "object": "COVID-19",
+          "evidence": "its potential impact on the severity and prognosis of COVID-19"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0010-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification in mammalian and viruses",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0010",
+      "text": "This section from the article discusses the concept of epigenetic transcriptomics, focusing on RNA post-transcriptional modifications and their role in regulating RNA metabolism, gene expression, and their association with human diseases.\n\nEpigenetic transcriptomics (also known as \"RNA epigenetics\") refers to RNA post-transcriptional modifications. These modifications are involved in regulating various aspects of RNA metabolism, thus affecting gene expression and multiple biological processes. The association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers [1,2] , nerve damage [3] , metabolic diseases, etc.",
+      "entities": [
+        {
+          "text": "epigenetic transcriptomics",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA post-transcriptional modifications",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "gene expression",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "human diseases",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancers",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nerve damage",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "metabolic diseases",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "epigenetic transcriptomics",
+          "predicate": "relates_to",
+          "object": "RNA post-transcriptional modifications",
+          "evidence": "epigenetic transcriptomics (also known as 'RNA epigenetics') refers to RNA post-transcriptional modifications."
+        },
+        {
+          "subject": "RNA post-transcriptional modifications",
+          "predicate": "supports",
+          "object": "gene expression",
+          "evidence": "These modifications are involved in regulating various aspects of RNA metabolism, thus affecting gene expression."
+        },
+        {
+          "subject": "RNA post-transcriptional modifications",
+          "predicate": "associated_with",
+          "object": "human diseases",
+          "evidence": "The association between RNA modifications and a variety of human diseases has been scientifically verified."
+        },
+        {
+          "subject": "RNA post-transcriptional modifications",
+          "predicate": "associated_with",
+          "object": "cancers",
+          "evidence": "The association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers."
+        },
+        {
+          "subject": "RNA post-transcriptional modifications",
+          "predicate": "associated_with",
+          "object": "nerve damage",
+          "evidence": "The association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to nerve damage."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0010-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification in mammalian and viruses",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec0010",
+      "text": "This section from the article discusses the significance of RNA modifications in human diseases, focusing on the m6A modification, characterized by methylation at the sixth nitrogen atom of adenine, and its implications in various health conditions.\n\nThe association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers [1,2] , nerve damage [3] , metabolic diseases, etc. The m6A modification is a result of methylation occurring at the sixth nitrogen atom ( N ) of adenine. This specific alteration was first documented in 1974 and is widely observed in mRNA of eukaryotes, composing more than 80% of all methylation modifications found in RNA [4] . In 2012, Dominissini and Meyer developed a novel technique to map the whole m6A to a large number of mammalian transcriptomes, and they found that regions exhibiting elevated levels of m6A are located in close proximity to the termination codon and within the 3′ untranslated regions (3′ UTRs) [5,6] . At the same time, other researchers identified that m6A is mainly present in DRACH motif and GGACU motif [7] . In the 1970s, influenza A virus and adenovirus were found to have m6A modification sites [8,9] . During the past years, the involvement of m6A in viral life cycle and its impact on antiviral responses have been verified. The regulation of m6A modification on the life cycle of various viruses can be different, or even opposite. The knockdown of methyltransferase-like protein (METTL3) and methyltransferase-like protein 14 (METTL14) increases the production of Endogenous retroviruses [10] and Zika virus [11] , but it inhibits the replication of human respiratory syncytial virus [12] . Similarly, m6A modification can upregulate the expression of human immunodeficiency virus 1 in HEK293T cells, while negatively affecting its expression in CD4 + T lymphocytes [13,14] .",
+      "entities": [
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "adenine",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancers",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nerve damage",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "metabolic diseases",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Dominissini",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Meyer",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "eukaryotes",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "cancers",
+          "evidence": "association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "nerve damage",
+          "evidence": "association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to nerve damage"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "metabolic diseases",
+          "evidence": "association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to metabolic diseases"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "produces",
+          "object": "methylation",
+          "evidence": "m6A modification is a result of methylation occurring at the sixth nitrogen atom ( N ) of adenine"
+        },
+        {
+          "subject": "Dominissini and Meyer",
+          "predicate": "produces",
+          "object": "novel technique",
+          "evidence": "Dominissini and Meyer developed a novel technique to map the whole m6A to a large number of mammalian transcriptomes"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0010-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification in mammalian and viruses",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec0010",
+      "text": "This article section from BIOPHA discusses the impact of m6A RNA modification on the expression of viruses, including its confirmed presence in the SARS-CoV-2 genome and its regulation by various m6A enzymes within host cells.\n\nSimilarly, m6A modification can upregulate the expression of human immunodeficiency virus 1 in HEK293T cells, while negatively affecting its expression in CD4 + T lymphocytes [13,14] . Recently, the presence of m6A modification has been confirmed in the SARS-CoV-2 genome. m6A modification is regulated by various m6A enzymes within host cells [15] . Specifically, the m6A modification has been found to be associated with the clinical conditions of COVID-19 patients [16] . This connection has prompted researchers to focus closely on its potential role as a promising and innovative therapeutic target for COVID-19.",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A enzymes",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "human immunodeficiency virus 1",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HEK293T",
+          "type": "CELL_LINE",
+          "id": "CVCL_0063",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CD4 + T lymphocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6CT",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "relates_to",
+          "object": "SARS-CoV-2",
+          "evidence": "its confirmed presence in the SARS-CoV-2 genome"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "upregulates",
+          "object": "human immunodeficiency virus 1",
+          "evidence": "m6A modification can upregulate the expression of human immunodeficiency virus 1 in HEK293T cells"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "negatively affects",
+          "object": "human immunodeficiency virus 1",
+          "evidence": "negatively affecting its expression in CD4 + T lymphocytes"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "is associated_with",
+          "object": "COVID-19",
+          "evidence": "m6A modification has been found to be associated with the clinical conditions of COVID-19 patients"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "is regulated by",
+          "object": "m6A enzymes",
+          "evidence": "m6A modification is regulated by various m6A enzymes within host cells"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0015-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A enzyme system",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0015",
+      "text": "This section from the article discusses the regulatory roles of writers, erasers, and readers in the dynamic balance of m6A RNA modification.\n\nThe dynamic balance of m6A modification in RNA is regulated by the methylation modification of \"writers\", the demethylation of \"erasers\", and the recognition of \"readers\".",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "writers",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "erasers",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "readers",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "writers",
+          "predicate": "supports",
+          "object": "m6A RNA modification",
+          "evidence": "the methylation modification of 'writers'"
+        },
+        {
+          "subject": "erasers",
+          "predicate": "supports",
+          "object": "m6A RNA modification",
+          "evidence": "the demethylation of 'erasers'"
+        },
+        {
+          "subject": "readers",
+          "predicate": "supports",
+          "object": "m6A RNA modification",
+          "evidence": "the recognition of 'readers'"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0015-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A enzyme system",
+      "subsection_title": "RNA methyltransferases (Writers)",
+      "paragraph_index": 1,
+      "parent_section_id": "sec0015",
+      "text": "This section from the article discusses the m6A RNA methyltransferases, specifically highlighting the roles and interactions of METTL3 and METTL14 as pivotal components of methyltransferase complexes.\n\n### RNA methyltransferases (Writers)\n\nThe writers of m6A refer to multiple methyltransferases that work as complexes. METTL3 and METTL14 are the first stable heteronuclear dimers found in methyltransferase complexes [17] . METTL3 acts as S-adenosine binding protein, which has the capacity of methyltransferase, and METTL14 can promote the binding of RNA and complex. They collaborate to play a crucial role in RNA m6A modification. Subsequently, Wilms Tumor 1 associated protein (WTAP) binds METTL3 to METTL14, and induces METTL3-METTL14 complex localization, thereby promoting complex activity [18] . RNA binding motif protein 15/15B (RBM15/15B) acts as part of the complexes that promote the binding to specific RNA sites [19] . Besides, VIRMA (KIAA1429), ZC3H13, CBLL1 (HAKAI), and METTL16 [20–23] have also been observed to interact with components of methyltransferase complex.",
+      "entities": [
+        {
+          "text": "m6A RNA methyltransferases",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL14",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Wilms Tumor 1 associated protein",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "METTL3",
+          "predicate": "produces",
+          "object": "S-adenosine binding protein",
+          "evidence": "METTL3 acts as S-adenosine binding protein"
+        },
+        {
+          "subject": "METTL14",
+          "predicate": "supports",
+          "object": "binding of RNA",
+          "evidence": "METTL14 can promote the binding of RNA"
+        },
+        {
+          "subject": "METTL3",
+          "predicate": "relates_to",
+          "object": "METTL14",
+          "evidence": "They collaborate to play a crucial role in RNA m6A modification"
+        },
+        {
+          "subject": "Wilms Tumor 1 associated protein",
+          "predicate": "binds",
+          "object": "METTL3",
+          "evidence": "Wilms Tumor 1 associated protein (WTAP) binds METTL3 to METTL14"
+        },
+        {
+          "subject": "Wilms Tumor 1 associated protein",
+          "predicate": "induces",
+          "object": "METTL3-METTL14 complex localization",
+          "evidence": "induces METTL3-METTL14 complex localization"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0015-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A enzyme system",
+      "subsection_title": "RNA demethylases (Erasers)",
+      "paragraph_index": 2,
+      "parent_section_id": "sec0015",
+      "text": "This section from the article discusses the role of RNA demethylases, specifically highlighting their function in the dynamic and reversible removal of m6A modifications from RNA and mentions key eraser proteins such as FTO and AlkB homolog.\n\nBesides, VIRMA (KIAA1429), ZC3H13, CBLL1 (HAKAI), and METTL16 [20–23] have also been observed to interact with components of methyltransferase complex. ### RNA demethylases (Erasers)\n\nErasers of m6A can remove methyl groups from RNA, resulting in a modification of the m6A surface that undergoes dynamic and reversible changes. Eraser mainly includes obesity-associated protein (FTO) and AlkB homolog 5 (ALKHB5) [24,25] . FTO has been recognized as the first m6A eraser that is connected with obesity and can regulate cellular energy homeostasis [24] . The identification of ALKBH5 confirms the existence of another demethylase responsible for m6A modification [25] . FTO and ALKBH5 exhibit distinct expression patterns across various tissues and cell types.",
+      "entities": [
+        {
+          "text": "RNA demethylases",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "FTO",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "AlkB homolog",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "VIRMA",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "KIAA1429",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ZC3H13",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL16",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "RNA demethylases",
+          "predicate": "produces",
+          "object": "m6A modifications",
+          "evidence": "function in the dynamic and reversible removal of m6A modifications from RNA"
+        },
+        {
+          "subject": "FTO",
+          "predicate": "associated_with",
+          "object": "obesity",
+          "evidence": "FTO has been recognized as the first m6A eraser that is connected with obesity"
+        },
+        {
+          "subject": "FTO",
+          "predicate": "supports",
+          "object": "cellular energy homeostasis",
+          "evidence": "can regulate cellular energy homeostasis"
+        },
+        {
+          "subject": "AlkB homolog",
+          "predicate": "produces",
+          "object": "m6A modifications",
+          "evidence": "Eraser mainly includes obesity-associated protein (FTO) and AlkB homolog 5 (ALKHB5)"
+        },
+        {
+          "subject": "ZC3H13",
+          "predicate": "relates_to",
+          "object": "methyltransferase complex",
+          "evidence": "have also been observed to interact with components of methyltransferase complex"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0015-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A enzyme system",
+      "subsection_title": "RNA methylation-modified binding proteins (Readers)",
+      "paragraph_index": 3,
+      "parent_section_id": "sec0015",
+      "text": "This subsection from the article discusses the expression patterns of m6A RNA methylation-modified binding proteins, specifically focusing on FTO and ALKBH5, and their roles as readers that influence RNA processing, translation, and degradation.\n\nFTO and ALKBH5 exhibit distinct expression patterns across various tissues and cell types. ### RNA methylation-modified binding proteins (Readers)\n\nThe m6A readers refer to the proteins that demonstrate specific affinity for RNA and are involved in regulating the processing, translation, and degradation of RNA sequences containing m6A modifications. Readers can be categorized into three distinct groups: readers containing YTH domain, hnRNP family and readers containing the same RNA binding domain. Readers containing YTH domain mainly including YTHDF1–3 and YTHDC1–2 [26–28] . These readers exert different regulatory effects in regulating RNA translation, degradation, splicing and translocation [29] . Besides, hnRNP family contains hnRNPC, hnRNPG and hnRNPA2B1, and readers containing the same RNA binding domain include FMR1 and IGF2BP1–3 [30] .",
+      "entities": [
+        {
+          "text": "FTO",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALKBH5",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTH domain",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "hnRNP family",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "FTO",
+          "predicate": "relates_to",
+          "object": "ALKBH5",
+          "evidence": "specifically focusing on FTO and ALKBH5, and their roles as readers"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0035-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Methods for detecting m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0035",
+      "text": "This methods section from Jiayi Liu's article outlines various techniques, including MeRIP and LC-MS/MS, for detecting RNA m6A modification, highlighting advancements that facilitate understanding of m6A levels in human and mouse tissues.\n\nCurrently, there are many applicable methods to detect RNA m6A modification. In 2012, a novel high-throughput technology named as m6A-methylated RNA immunoprecipitation (MeRIP) was developed to measure m6A levels in both humans and mice 5,6 . Additionally, liquid chromatography tandem mass spectrometry (LC-MS/MS) and colorimetric m6A RNA methylation assay offer alternative ways to obtain the overall m6A methylation level on RNA. In order to study the specific RNA region with m6A methylation modification, MeRIP-sequencing is utilized based on the principle of m6A specific antibody recognition and binding to m6A sites on mRNA, RNA immunoprecipitation method to enrich m6A-modified fragments, and integrates with RNA sequencing technology [5] . Although MeRIP-sequencing allows the identification of m6A hypermethylation regions, it cannot achieve single-base resolution. Subsequently, m6A individual-nucleotide-resolution cross-linking and immunoprecipitation sequencing (miCLIP-seq) detects single-base methylation levels by cross-linking the RNA-m6A antibody binding sites. Direct RNA sequencing (DRS) based on nanopore technology is a technology that directly measure natural RNA without reverse transcription. It can obtain base modification information while reading the RNA base sequence [31] . Moreover, due to the significance of m6A modification in SARS-CoV-2 infection, accessible software packages have been developed and can be used to predict m6A modification sites in viral genome based on sequence features, such as SRAMP and RFAthM6A [32,33] . Recently, Liu and colleagues created a machine-learning model to accurately predict m6A modification sites in SARS-CoV-2 genome via using DRS raw data [34] .",
+      "entities": [
+        {
+          "text": "MeRIP",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "LC-MS/MS",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A-methylated RNA immunoprecipitation",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "liquid chromatography tandem mass spectrometry",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "colorimetric m6A RNA methylation assay",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "MeRIP-sequencing",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "human tissues",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mouse tissues",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A-methylated RNA immunoprecipitation",
+          "predicate": "produces",
+          "object": "m6A levels in both humans and mice",
+          "evidence": "to measure m6A levels in both humans and mice"
+        },
+        {
+          "subject": "liquid chromatography tandem mass spectrometry",
+          "predicate": "offers",
+          "object": "alternative ways to obtain the overall m6A methylation level on RNA",
+          "evidence": "offer alternative ways to obtain the overall m6A methylation level on RNA"
+        },
+        {
+          "subject": "MeRIP-sequencing",
+          "predicate": "utilized",
+          "object": "m6A specific antibody recognition and binding to m6A sites on mRNA",
+          "evidence": "is utilized based on the principle of m6A specific antibody recognition and binding to m6A sites on mRNA"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "SARS-CoV-2 genome",
+      "paragraph_index": 0,
+      "parent_section_id": "sec0040",
+      "text": "This section from the article discusses the genomic structure of SARS-CoV-2, detailing its single-stranded RNA composition, replication process, and the categorization of its encoded proteins.\n\n### SARS-CoV-2 genome\n\nAs a member of the Coronaviridae family, SARS-CoV-2 is an enveloped virus featuring a positive single-stranded RNA genome, which is approximately 30 kilobases long. After infecting host cells, SARS-CoV-2 uses its own genomic RNA as a template for replication and translation in cytoplasm [35] . It encodes proteins that can be divided into three major categories, namely structural proteins, nonstructural proteins, and accessory proteins [36] . The mature SARS-CoV-2 virus is composed of viral genome and structural proteins, while non-structural proteins and accessory proteins exert the functions that facilitate viral replication and combat the host immune response to virus infection.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Coronaviridae",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "structural proteins",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nonstructural proteins",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "accessory proteins",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cytoplasm",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "genomic RNA",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "relates_to",
+          "object": "Coronaviridae",
+          "evidence": "As a member of the Coronaviridae family, SARS-CoV-2 is an enveloped virus"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "genomic RNA",
+          "evidence": "SARS-CoV-2 uses its own genomic RNA as a template for replication and translation in cytoplasm"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "encodes",
+          "object": "structural proteins",
+          "evidence": "It encodes proteins that can be divided into three major categories, namely structural proteins, nonstructural proteins, and accessory proteins"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "nonstructural proteins",
+          "evidence": "non-structural proteins and accessory proteins exert the functions that facilitate viral replication"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "accessory proteins",
+          "evidence": "non-structural proteins and accessory proteins exert the functions that facilitate viral replication"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "Dynamic changes of m6A modification in SARS-CoV-2 genome",
+      "paragraph_index": 1,
+      "parent_section_id": "sec0040",
+      "text": "This subsection from the article discusses the distribution and dynamic changes of m6A RNA modification in the SARS-CoV-2 genome and its implications for viral replication and host immune response.\n\nThe mature SARS-CoV-2 virus is composed of viral genome and structural proteins, while non-structural proteins and accessory proteins exert the functions that facilitate viral replication and combat the host immune response to virus infection. ### Dynamic changes of m6A modification in SARS-CoV-2 genome\n\nAbundant literatures show that RNA m6A modification is widely distributed in SARS-CoV-2 genome. Li and colleagues purified SARS-CoV-2 from Vero E6 cells and detected a series of m6A modification sites in viral RNA using LC-MS/MS [37] . They discovered that m6A modification constituted approximately 0.096% of the adenosine residues in the viral RNA, with an estimated eight m6A modification sites identified within the virus. These m6A peaks were notably located in the 3′ end of ORF1ab and the genomic RNA, with a specific concentration in the N region. In another research, Liu et al. simultaneously used MeRIP-seq and miCLIP to analyze the SARS-CoV-2 genome, and they observed eight overlapping m6A peaks identified in the two tests [38] . Three m6A peaks were found in ORF1ab, three in the N region, one in ORF 7a, and one in ORF 10. Among them, five m6A peaks have been verified in SARS-CoV-2 RNA by other researchers, which are located at ORF1ab, N region and ORF10 39 . Burgess et al. also reported 14 stable and reproducible peaks on SARS-CoV-2 genome, which overlapped with the m6A peaks reported in previous studies [40] . These findings confirm the presence of m6A modification in the SARS-CoV-2 genome, mainly distributed in ORF1ab and the 3′ end of viral RNA.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Vero E6",
+          "type": "CELL_LINE",
+          "id": "CVCL_XD71",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "LC-MS/MS",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "relates_to",
+          "object": "SARS-CoV-2",
+          "evidence": "RNA m6A modification is widely distributed in SARS-CoV-2 genome."
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "m6A modification",
+          "evidence": "m6A modification constituted approximately 0.096% of the adenosine residues in the viral RNA."
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "requires",
+          "object": "Vero E6",
+          "evidence": "Li and colleagues purified SARS-CoV-2 from Vero E6 cells."
+        },
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "supports",
+          "object": "viral replication",
+          "evidence": "functions that facilitate viral replication and combat the host immune response."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "Dynamic changes of m6A modification in SARS-CoV-2 genome",
+      "paragraph_index": 2,
+      "parent_section_id": "sec0040",
+      "text": "This RNA m6A modification section from the article discusses the dynamic changes of m6A modification observed in the SARS-CoV-2 genome, highlighting its presence and distribution during the infection process.\n\nThese findings confirm the presence of m6A modification in the SARS-CoV-2 genome, mainly distributed in ORF1ab and the 3′ end of viral RNA. RNA m6A modification undergoes dynamic and reversible changes during the pathogenesis of SARS-CoV-2 infection. Liu and colleagues observed four m6A peaks on SARS-CoV-2 RNA at 24 h post-infection and an additional nine m6A peaks at 56 h post-infection [38] . In Vero E6 cells, measurements of SARS-CoV-2 RNA m6A levels at various time points (1, 2, 4, and 6 h post-infection) revealed a significant elevation in m6A levels at 2 h post-infection compared to the levels at other time points [41] . Therefore, dynamic methylation controlled by m6A regulators during host cell infection could explain the observed variations in m6A levels and the number of m6A peaks across different experimental analyses conducted on the SARS-CoV-2 genome.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ORF1ab",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Vero E6",
+          "type": "CELL_LINE",
+          "id": "CVCL_XD71",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "associated_with",
+          "object": "m6A modification",
+          "evidence": "m6A modification observed in the SARS-CoV-2 genome"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "ORF1ab",
+          "evidence": "mainly distributed in ORF1ab and the 3′ end of viral RNA"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "causes",
+          "object": "dynamic and reversible changes",
+          "evidence": "RNA m6A modification undergoes dynamic and reversible changes during the pathogenesis of SARS-CoV-2 infection"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "m6A peaks",
+          "evidence": "Liu and colleagues observed four m6A peaks on SARS-CoV-2 RNA at 24 h post-infection"
+        },
+        {
+          "subject": "Vero E6",
+          "predicate": "supports",
+          "object": "measurements of SARS-CoV-2 RNA m6A levels",
+          "evidence": "In Vero E6 cells, measurements of SARS-CoV-2 RNA m6A levels at various time points"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "Influences of RNA m6A modification on SARS-CoV-2 replication and pathogenicity",
+      "paragraph_index": 3,
+      "parent_section_id": "sec0040",
+      "text": "This subsection from the article discusses how dynamic RNA m6A modification by regulators during SARS-CoV-2 infection impacts the virus’s replication and pathogenicity, highlighting variations in m6A levels and peaks observed in experimental analyses.\n\nTherefore, dynamic methylation controlled by m6A regulators during host cell infection could explain the observed variations in m6A levels and the number of m6A peaks across different experimental analyses conducted on the SARS-CoV-2 genome. ### Influences of RNA m6A modification on SARS-CoV-2 replication and pathogenicity\n\nRNA m6A modification and m6A enzymes exert significant functions in SRAS-COV-2 infection. In a recent study, diverse m6A modification sites were observed in the genomic RNA of various SARS-CoV-2 lineages, encompassing Alpha, Beta, Gamma, Delta, Lambda, and Omicron, each exhibiting distinct pathogenicity. Significantly, researchers found a correlation between the number of m6A modification sites in the N region and specific m6A sites with the severity of COVID-19 [42] . Notably, substantial variations in global m6A levels were identified in nasopharyngeal samples from Mexican patients infected with different SARS-CoV-2 variants. This consistent evidence supports the association of RNA m6A modification with SARS-CoV-2 pathogenicity, displaying variability across viral lineages [43] .",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A regulators",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A enzymes",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "genomic RNA",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Alp",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "SARS-CoV-2 replication",
+          "evidence": "dynamic RNA m6A modification by regulators during SARS-CoV-2 infection impacts the virus’s replication"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "SARS-CoV-2 pathogenicity",
+          "evidence": "dynamic RNA m6A modification by regulators during SARS-CoV-2 infection impacts the virus’s pathogenicity"
+        },
+        {
+          "subject": "m6A regulators",
+          "predicate": "produces",
+          "object": "variations in m6A levels",
+          "evidence": "dynamic methylation controlled by m6A regulators during host cell infection could explain the observed variations in m6A levels"
+        },
+        {
+          "subject": "m6A regulators",
+          "predicate": "produces",
+          "object": "number of m6A peaks",
+          "evidence": "dynamic methylation controlled by m6A regulators during host cell infection could explain the observed ... number of m6A peaks"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "SARS-CoV-2 lineages",
+          "evidence": "diverse m6A modification sites were observed in the genomic RNA of various SARS-CoV-2 lineages"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p4",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "Influences of RNA m6A modification on SARS-CoV-2 replication and pathogenicity",
+      "paragraph_index": 4,
+      "parent_section_id": "sec0040",
+      "text": "This subsections from the article discusses the impact of RNA m6A modification on the replication and pathogenicity of SARS-CoV-2, highlighting how m6A enzyme inhibition alters viral infectivity and demonstrates variability among different viral lineages.\n\nThis consistent evidence supports the association of RNA m6A modification with SARS-CoV-2 pathogenicity, displaying variability across viral lineages [43] . Pharmacological inhibition or knockdown of m6A enzymes in host cells affects the replication and pathogenicity of SARS-CoV-2. Selective inhibition of FTO by rhein causes a prominent decrease of SARS-CoV-2 infectivity [44] . The administration of DZNep, a methyltransferase inhibitor, reduced the m6A level on SARS-CoV-2 RNA, leading to the decrease of RNA replication in Vero cells. Subsequently, decreased synthesis of 5′ cap of viral mRNA impeding its interaction with eIF4E, a key regulator of mRNA translation, thus inhibiting viral protein synthesis [41] . In Caco-2 cells, Li et al. observed that the m6A level in N region of the viral genome decreased after knocking down METTL3 by small hairpin RNA, and the viral load also decreased after the knockdown of METTL3 or METTL14 [37] . Consistently, another study showed that knocking out METTL3 significantly reduced SARS-CoV-2 viral titer and N protein expression in Vero cells; on the contrary, knocking out FTO increased the viral titer [39] . Burgess et al. reported that m6A enzymes affected SARS-CoV-2 amplification through regulating viral RNA replication and nucleocapsid synthesis. Silence of METTL3 by small interfering RNA reduced the proportion of SARS-CoV-2-infected host cells by approximately 80%; meanwhile, silencing YTHDF2 and YTHDF3 led to the decrease of infected cells by 42%− 66% and 75%− 76%, respectively [40] . Researchers further reported that METTL3 interacted with SARS-CoV-2 RNA in Vero E6 cells using formalin-crosslinked RNA immunoprecipitation, which increased the expression of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp); elevated level of RdRp upregulated the expression of METTL3, and vice versa 39 . Based on the knowledge that RdRp is responsible for viral RNA replication, METTL3 could be a crucial regulator that affect viral replication and titers through SARS-CoV-2 RdRp. However, another study showed that knockdown of METTL3, METTL14 or YTHDF2 markedly promoted viral replication and increased the presence of SARS-CoV-2-infected cells, in contrast to knockdown of ALKBH5, which reduced viral replication [38] . These intriguing findings illustrate that various elements of the m6A modification system collaborate intricately to perform diverse functions in the pathogenesis of COVID-19.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "FTO",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "rhein",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "DZNep",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Vero cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0059",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A",
+          "predicate": "supports",
+          "object": "SARS-CoV-2 pathogenicity",
+          "evidence": "supports the association of RNA m6A modification with SARS-CoV-2 pathogenicity"
+        },
+        {
+          "subject": "m6A enzymes",
+          "predicate": "affects",
+          "object": "replication and pathogenicity of SARS-CoV-2",
+          "evidence": "Pharmacological inhibition or knockdown of m6A enzymes in host cells affects the replication and pathogenicity of SARS-CoV-2"
+        },
+        {
+          "subject": "rhein",
+          "predicate": "causes",
+          "object": "decrease of SARS-CoV-2 infectivity",
+          "evidence": "Selective inhibition of FTO by rhein causes a prominent decrease of SARS-CoV-2 infectivity"
+        },
+        {
+          "subject": "DZNep",
+          "predicate": "reduces",
+          "object": "m6A level on SARS-CoV-2 RNA",
+          "evidence": "The administration of DZNep... reduced the m6A level on SARS-CoV-2 RNA"
+        },
+        {
+          "subject": "decreased synthesis of 5′ cap of viral mRNA",
+          "predicate": "impeding",
+          "object": "interaction with eIF4E",
+          "evidence": "decreased synthesis of 5′ cap of viral mRNA impeding its interaction with eIF4E"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0040-p5",
+      "type": "text",
+      "section": "other",
+      "section_title": "RNA m6A modification of SARS-CoV-2",
+      "subsection_title": "Influences of RNA m6A modification on SARS-CoV-2 replication and pathogenicity",
+      "paragraph_index": 5,
+      "parent_section_id": "sec0040",
+      "text": "This subsection from the article discusses the role of m6A RNA modification in the influence of SARS-CoV-2 replication and pathogenicity, highlighting collaborative interactions within the m6A modification system in COVID-19 pathogenesis.\n\nThese intriguing findings illustrate that various elements of the m6A modification system collaborate intricately to perform diverse functions in the pathogenesis of COVID-19. A series of research data on RNA m6A modification of SARS-CoV-2 genome are summarized in Table 1 . As shown in Fig. 1 , these studies support that m6A enzymes are significantly involved in regulating SARS-CoV-2 replication and infection capacity through a variety of mechanisms. Recently, an updated database named as RMDisease V2.0 and containing numerous genetic variants that affect m6A modification of SARS-CoV-2 genomic RNA has been developed [45] . By utilizing this database, researchers have easy access to further explore the correlation between COVID-19 and m6A modification-associated variants.",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RMDisease V2.0",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "supports",
+          "object": "SARS-CoV-2 replication",
+          "evidence": "m6A enzymes are significantly involved in regulating SARS-CoV-2 replication and infection capacity"
+        },
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "supports",
+          "object": "COVID-19 pathogenesis",
+          "evidence": "collaborate intricately to perform diverse functions in the pathogenesis of COVID-19"
+        },
+        {
+          "subject": "RMDisease V2.0",
+          "predicate": "contains",
+          "object": "genetic variants that affect m6A modification of SARS-CoV-2 genomic RNA",
+          "evidence": "an updated database named as RMDisease V2.0 and containing numerous genetic variants that affect m6A modification"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0060-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Regulation of virus-host interactions by RNA m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0060",
+      "text": "This regulation section from the article discusses the role of RNA m6A modification in mediating interactions between SARS-CoV-2 and host cells, highlighting its impact on immune responses and subsequent pathophysiological changes.\n\nThe connection between RNA m6A modification and virus-host interactions has garnered growing support from numerous studies. Upon the binding of the SARS-CoV-2 spike protein to angiotensin-converting enzyme 2 (ACE2) or transmembrane protein 106B (TMEM106B) in human airway epithelial cells, it initiates host immune responses, consequently leading to pathophysiological changes [46] . A crucial initial stage in the host innate immune response to SARS-CoV-2 infection involves the production of type I and type III interferons (IFN-I and IFN-III, respectively), along with the production of proinflammatory cytokines and chemokines [47] . The adaptive immune response encompasses CD4 + T cells, CD8 + T cells, and specific antibodies. Studies indicate a more prominent response of CD4 + T cells to SARS-CoV-2, particularly in the rapid clearance of the virus during acute infection [48] . In contrast, the presence of CD8 + T cells is correlated with a favorable prognosis in COVID-19 [49] . Following infection, the majority of COVID-19 patients rapidly generate neutralizing antibodies that confer protective effects against SARS-CoV-2, offering valuable insights for vaccine development [50] .",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "angiotensin-converting enzyme 2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ACE2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "transmembrane protein 106B",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TMEM106B",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "type I interferons",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "type III interferons",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "RNA m6A modification",
+          "predicate": "relates_to",
+          "object": "SARS-CoV-2",
+          "evidence": "the role of RNA m6A modification in mediating interactions between SARS-CoV-2 and host cells"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "causes",
+          "object": "host immune responses",
+          "evidence": "it initiates host immune responses"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "produces",
+          "object": "type I and type III interferons",
+          "evidence": "involves the production of type I and type III interferons (IFN-I and IFN-III, respectively)"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0060-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "Regulation of virus-host interactions by RNA m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec0060",
+      "text": "This regulation of virus-host interactions section from Liu et al. (2024) discusses the role of m6A RNA modification in immune response modulation and its implications for protective antibodies against SARS-CoV-2, informing vaccine development.\n\nFollowing infection, the majority of COVID-19 patients rapidly generate neutralizing antibodies that confer protective effects against SARS-CoV-2, offering valuable insights for vaccine development [50] . It is well acknowledged that m6A modification and its downstream signaling pathways are heavily involved in modulation of immune responses, such as the activation and infiltration of immune cells and the production of interferon-γ [51] . The epitranscriptomic m6A profile of human lung cells undergoes significant changes following infection with SARS-CoV-2, and these changes may have a profound impact on the host cell's RNA [52] . The abundance of methylation sites in host cell RNA also undergoes alterations upon SARS-CoV-2 infection, potentially leading to increased RNA instability [53] . This instability in host RNA could have implications for the host's innate immunity response to the virus.",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "interferon-γ",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Liu et al.",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "human lung cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_G005",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "neutralizing antibodies",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "vaccine development",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "supports",
+          "object": "immune response modulation",
+          "evidence": "the role of m6A RNA modification in immune response modulation"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "involved in",
+          "object": "modulation of immune responses",
+          "evidence": "m6A modification and its downstream signaling pathways are heavily involved in modulation of immune responses"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "produces",
+          "object": "interferon-γ",
+          "evidence": "the production of interferon-γ"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "causes",
+          "object": "changes in the m6A profile of human lung cells",
+          "evidence": "The epitranscriptomic m6A profile of human lung cells undergoes significant changes following infection with SARS-CoV-2"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0060-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "Regulation of virus-host interactions by RNA m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec0060",
+      "text": "This regulation of virus-host interactions section from the article discusses the role of m6A modification in affecting host RNA stability and its implications for innate immunity responses to SARS-CoV-2 infection.\n\nThis instability in host RNA could have implications for the host's innate immunity response to the virus. The m6A modification plays a crucial role in regulating interactions between SARS-CoV-2 and host cells. Specifically, it targets the interferon-mediated immune response and various other pathways [54] . The detailed understanding of these regulatory mechanisms is essential for unraveling the complexities of the host-virus interaction and may provide valuable insights for developing targeted therapeutic interventions against SARS-CoV-2. In METTL3-depleted Caco-2 cells, gene expression levels of ACE2 , TMPRSS2 (encoding Transmembrane Serine Protease) and CTSL (encoding Cathepsin L), which are required for facilitating SARS-CoV-2 entry into host cells, were significantly downregulated [37] . This could contribute to the decreased viral load caused by METTL3 depletion after SARS-CoV-2 infection. The study by Meng et al. demonstrated that the m6A level in peripheral blood mononuclear cells (PBMCs) of COVID-19 patients is significantly higher than in healthy controls. The subsequent m6A epitranscriptomic microarray revealed that aberrant methylation triggered by SARS-CoV-2 infection regulates multiple target genes associated with immune response and cell death pathways in PBMCs [55] . Similarly, in BEAS-2B cells after SARS-CoV-2 infection, m6A modification was reported to regulate various pathways, including type I interferon signaling, cilium organization and assembly, etc [56] . Notably, Li et al. discovered that increased m6A modification in SARS-CoV-2 RNA hinders its binding to retinoic acid-inducible gene I (RIG-I), a crucial pattern recognition receptor. This inhibition leads to enhanced phosphorylation of IRF3 and IκBα, consequently impeding the host's immune responses against virus infection. This includes the suppression of type I interferon signaling and the production of proinflammatory cytokines and chemokines [37] . In SARS-CoV-2-infected Huh7 cells, METTL14 and ALKBH5 were translocated into the cytoplasm from the nucleus, increasing m6A levels in the coding sequence region and decreasing m6A levels in the 3′ UTR region. This led to alterations in interferon-stimulated genes, membrane trafficking, and apoptosis signaling in host cells [38] . In human lung A549 epithelial cells, SARS-CoV-2 infection induced distinct m6A modifications in various mRNA and noncoding RNA species, associated with pathways related to protein processing in the endoplasmic reticulum, cell apoptosis, and proliferation [52] . These differentially methylated mRNAs were regulated by upstream regulators involved in the cellular response to type I interferon, inflammatory response, and cytokine signaling. Furthermore, m6A modification has also been observed in transcripts involved in mRNA translation into protein, peptide and amine metabolism following SARS-CoV-2 infection in both Vero cells and Calu-3 cells [57] .",
+      "entities": [
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "innate immunity",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "interferon-mediated immune response",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Caco-2",
+          "type": "CELL_LINE",
+          "id": "CVCL_0025",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "innate immunity response",
+          "evidence": "m6A modification in affecting host RNA stability and its implications for innate immunity responses to SARS-CoV-2 infection."
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "targets",
+          "object": "interferon-mediated immune response",
+          "evidence": "it targets the interferon-mediated immune response and various other pathways."
+        },
+        {
+          "subject": "METTL3",
+          "predicate": "depleted",
+          "object": "Caco-2 cells",
+          "evidence": "In METTL3-depleted Caco-2 cells, gene expression levels of ACE2, TMPRSS2 and CTSL."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0060-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "Regulation of virus-host interactions by RNA m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec0060",
+      "text": "This regulation of virus-host interactions section from the article discusses the role of m6A modification in mRNA translation and type I interferon signaling during SARS-CoV-2 infection in various cell lines.\n\nFurthermore, m6A modification has also been observed in transcripts involved in mRNA translation into protein, peptide and amine metabolism following SARS-CoV-2 infection in both Vero cells and Calu-3 cells [57] . Type I interferon signaling regulated by m6A modification has also been observed in other viral infections. According to a recent study, m6A modification facilitated by METTL3 is required for enhancing mRNA stability and increasing protein translation of host cells, which consequently ensures the efficacy of antiviral immunity. Furthermore, METTL3 deficiency leads to severely impaired induction of type I interferon signaling, a crucial signal pathway for antiviral immune responses and combating viral infections, in influenza virus-infected macrophages and mice [58] . In patients with condyloma acuminata, WTAP is found to be a key regulator for upregulating the expression of IFN-ε (an important component of type I interferon signaling) by promoting its m6A modification, and consequently enhance antiviral response to HPV infection [59] . Based on the knowledge that type I interferon plays a critical protective role against SARS-CoV-2 infection [60] , these findings strongly support the notion that the type I interferon signaling pathway is a crucial link through which m6A modification affects SARS-CoV-2 infection.",
+      "entities": [
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Vero cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0059",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Calu-3 cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0609",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "type I interferon signaling",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "type I interferon signaling",
+          "evidence": "Type I interferon signaling regulated by m6A modification has also been observed in other viral infections."
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "requires",
+          "object": "METTL3",
+          "evidence": "m6A modification facilitated by METTL3 is required for enhancing mRNA stability and increasing protein translation."
+        },
+        {
+          "subject": "METTL3 deficiency",
+          "predicate": "causes",
+          "object": "impaired induction of type I interferon signaling",
+          "evidence": "METTL3 deficiency leads to severely impaired induction of type I interferon signaling."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0060-p4",
+      "type": "text",
+      "section": "other",
+      "section_title": "Regulation of virus-host interactions by RNA m6A modification",
+      "subsection_title": null,
+      "paragraph_index": 4,
+      "parent_section_id": "sec0060",
+      "text": "This regulation of virus-host interactions section from the article discusses the critical role of type I interferon signaling and m6A modification in mediating host responses to SARS-CoV-2 infection.\n\nBased on the knowledge that type I interferon plays a critical protective role against SARS-CoV-2 infection [60] , these findings strongly support the notion that the type I interferon signaling pathway is a crucial link through which m6A modification affects SARS-CoV-2 infection. How the m6A modification regulates host cell responses to SARS-CoV-2 infection is depicted in Fig. 2 . Detailed research data on RNA m6A modification of host cell genome following SARS-CoV-2 infection are listed in Table 2 . Overall, findings in recent studies suggest that m6A modification regulates virus-host interaction through variable mechanisms, mainly through immune signaling pathways. It is difficult to conclude whether alterations in host immune responses caused by m6A modification are beneficial to COVID-19 patients or not. In most cases, the production of cytokines and chemokines controls viral replication and enhance the host defense. However, the formation of cytokine storm, referring to an uncontrolled over-production of proinflammatory mediators, will lead to a poor prognosis of COVID-19.",
+      "entities": [
+        {
+          "text": "type I interferon",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RNA m6A modification",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "type I interferon",
+          "predicate": "supports",
+          "object": "m6A modification",
+          "evidence": "type I interferon signaling pathway is a crucial link through which m6A modification affects SARS-CoV-2 infection."
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "regulates",
+          "object": "SARS-CoV-2 infection",
+          "evidence": "m6A modification regulates virus-host interaction through variable mechanisms."
+        },
+        {
+          "subject": "type I interferon",
+          "predicate": "causes",
+          "object": "host responses to SARS-CoV-2 infection",
+          "evidence": "type I interferon plays a critical protective role against SARS-CoV-2 infection."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0065-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A modification as a Therapeutic Target and Predictive Factor for COVID-19",
+      "subsection_title": "Pharmacological interventions in the m6A modification",
+      "paragraph_index": 0,
+      "parent_section_id": "sec0065",
+      "text": "This section from a scientific article discusses pharmacological interventions targeting the m6A modification, highlighting the effects of the METTL3 inhibitor STM2457 on reducing virus-infected cells in the context of COVID-19 treatment.\n\n### Pharmacological interventions in the m6A modification\n\nThe m6A modification has emerged as a potential therapeutic target for COVID-19. In vitro, Burgess et al. reported that METTL3 inhibitor STM2457 reduced the percentage of virus-infected cells, and the effect was enhanced with increasing doses and was not caused by the toxicity of STM2457 itself [40] . In previous studies, the primary focus of research on STM2457 has been directed towards inhibiting cancer growth. There have been reports indicating promising applications of STM2457 in various cancers such as acute myeloid leukemia, small cell lung cancer, hepatocellular carcinoma, osteosarcoma, among others [61–64] . Additionally, researchers conducted in vivo experiments using mice and found that STM2457 can effectively target leukemia cells without compromising the functionality of normal hematopoietic stem cells and other normal cells, demonstrating a high level of safety [61] . DZNep, an S-adenosylmethionine dependent methyltransferase inhibitor, has shown promise in reducing SARS-CoV-2 replication and protein synthesis in a dose-dependent manner [41] . In previous studies, DZNep has been explored for its potential in combating tumors by inhibiting the histone methyltransferase (EZH2). However, DZNeP, characterized by hydrophilicity and rapid renal metabolism, has limited clinical utility [65] . Additionally, a series of FTO inhibitors have been synthetized and display anticancer effects in vitro, but most of them are still at the stage of preclinical study. Repressing the catalytic function of FTO by rhein leads to a significant reduction in the infectivity of different coronaviruses, including SARS-CoV-2, without causing any rise in cytotoxicity within Vero cells [44] . However, FTO inhibitors such as rhein, meclofenamate sodium, and MO-I-500 face limitations in their clinical prospects due to their mild functionality, low sensitivity and specificity [66] . Current research on small molecules such as methyltransferase inhibitors and FTO inhibitors is largely confined to in vitro experiments and animal studies. Further investigation is needed to assess the potential toxicity of these small molecules in human applications. Ensuring specificity to viral RNA without adversely affecting essential cellular processes is a critical challenge. As of now, there are no approved pharmaceuticals or compounds specifically designed to inhibit or activate m6A enzymes for administration in the human body. Clinical application of m6A-targeting interventions is still in its early stages. The transition from preclinical studies to human trials requires thorough validation of safety, efficacy, and specificity. With the growing knowledge of m6A's involvement in COVID-19, there is a hopeful prospect for the development of therapeutic agents specifically targeting m6A.",
+      "entities": [
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "STM2457",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Burgess et al.",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "relates_to",
+          "object": "COVID-19",
+          "evidence": "The m6A modification has emerged as a potential therapeutic target for COVID-19."
+        },
+        {
+          "subject": "METTL3 inhibitor STM2457",
+          "predicate": "produces",
+          "object": "reduced percentage of virus-infected cells",
+          "evidence": "METTL3 inhibitor STM2457 reduced the percentage of virus-infected cells."
+        },
+        {
+          "subject": "STM2457",
+          "predicate": "supports",
+          "object": "promising applications in various cancers",
+          "evidence": "There have been reports indicating promising applications of STM2457 in various cancers."
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0065-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A modification as a Therapeutic Target and Predictive Factor for COVID-19",
+      "subsection_title": "Correlation between the m6A modification and COVID-19 severity/prognosis",
+      "paragraph_index": 1,
+      "parent_section_id": "sec0065",
+      "text": "This subsection from Jiayi Liu's article discusses the active research on the correlation between m6A RNA modification and the severity and prognosis of COVID-19, highlighting its potential as a therapeutic target.\n\nWith the growing knowledge of m6A's involvement in COVID-19, there is a hopeful prospect for the development of therapeutic agents specifically targeting m6A. ### Correlation between the m6A modification and COVID-19 severity/prognosis\n\nCurrently, the correlation between m6A modification and COVID-19 severity and prognosis is an area of active research. Analysis on blood samples of hospitalized COVID-19 patients showed a higher level of m6A modification than non-COVID-19 ones [67] . Li et al. conducted an analysis of lung samples from deceased COVID-19 patients and healthy lung biopsy samples to explore gene expression patterns associated with the disease. The study noted increased expression levels of inflammatory genes and interferon-stimulated genes in COVID-19 patients, and there was a significant decrease in the expression of METTL3 and METTL14 genes [37] . Lu et al. utilized RNA-sequencing data from blood samples, comparing healthy controls with COVID-19 patients. Noteworthy differences in gene expression levels were identified among 11 m6A regulators, including WTAP, RBM15 /15B, YTHDC1, etc. But no difference was observed in METTL3 and METTL14 genes. Subsequently, the researchers developed a nomogram model using seven m6A regulators to predict the risk of COVID-19, which could facilitate the identification of individuals with high risk and enables early intervention [68] . Additionally, expression levels of IFN-stimulated genes and IL-8 in the alveolar epithelium of severe COVID-19 patients were significantly higher and METTL3 expression was significantly lower than healthy controls and moderate COVID-19 patients. Compared with healthy controls, there were 1953 mRNAs showing significant hypermethylation and 1191 mRNAs showing significant hypomethylation in COVID-19 patients, and more methylation was upregulated in severe COVID-19 [55] . The variations in observations regarding m6A modification and COVID-19 could stem from several factors, including dynamic changes of m6A modification, differences in sample sources, and insufficient sample size etc. There may be variations and challenges in the current observations, but it is clear that m6A modification plays a role in the development of COVID-19. Further research, especially in larger and more diverse populations, is essential to clarify the specific mechanisms and correlations between m6A modification and COVID-19 severity, as well as its potential as a therapeutic target or diagnostic tool.",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Jiayi Liu",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Li et al.",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "relates_to",
+          "object": "COVID-19",
+          "evidence": "the correlation between m6A RNA modification and the severity and prognosis of COVID-19"
+        },
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "supports",
+          "object": "therapeutic target",
+          "evidence": "highlighting its potential as a therapeutic target"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "associated_with",
+          "object": "COVID-19 severity and prognosis",
+          "evidence": "the correlation between m6A modification and COVID-19 severity and prognosis"
+        },
+        {
+          "subject": "Li et al.",
+          "predicate": "produces",
+          "object": "analysis of lung samples",
+          "evidence": "Li et al. conducted an analysis of lung samples from deceased COVID-19 patients"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0065-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "The m6A modification as a Therapeutic Target and Predictive Factor for COVID-19",
+      "subsection_title": "Correlation between the m6A modification and COVID-19 severity/prognosis",
+      "paragraph_index": 2,
+      "parent_section_id": "sec0065",
+      "text": "This other section from the article discusses the need for further research on m6A modification's correlation with COVID-19 severity and its potential as a therapeutic target or diagnostic tool.\n\nFurther research, especially in larger and more diverse populations, is essential to clarify the specific mechanisms and correlations between m6A modification and COVID-19 severity, as well as its potential as a therapeutic target or diagnostic tool. Besides, based on differentially expressed genes data between COVID-19 and non-COVID-19 patients, Qiu and colleagues developed an outcome prediction model using nine selected genes associated with m6A modification; the calculated m6A signature score was significantly correlated with important clinical indicators, such as SOFA score, APACHE-II score and ventilator-free days [69] . The findings reported by Qing et al., highlighting a significantly higher level of m6A modification in COVID-19 patients compared to non-COVID-19 patients using transcriptional data from the Gene Expression Omnibus (GEO) database, present an intriguing aspect of m6A modification in the context of the disease [67] . The m6A subtypes are used to distinguish COVID-19 and non-COVID-19 cases, which offers a novel approach for evaluating the severity and prognosis of COVID-19. These models introduce innovative methods to predict the severity and outcomes of SARS-CoV-2 infection by measuring m6A modification-related factors. In a summary, the role of m6A modification as a potential therapeutic target and predictive factor for COVID-19 is shown in Fig. 3 .",
+      "entities": [
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SOFA score",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "APACHE-II score",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Qiu",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A modification",
+          "predicate": "correlates_with",
+          "object": "COVID-19 severity",
+          "evidence": "m6A modification's correlation with COVID-19 severity"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "potential_as",
+          "object": "therapeutic target",
+          "evidence": "its potential as a therapeutic target"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "potential_as",
+          "object": "diagnostic tool",
+          "evidence": "its potential as a diagnostic tool"
+        },
+        {
+          "subject": "Qiu and colleagues",
+          "predicate": "developed",
+          "object": "outcome prediction model",
+          "evidence": "Qiu and colleagues developed an outcome prediction model"
+        },
+        {
+          "subject": "m6A signature score",
+          "predicate": "correlated_with",
+          "object": "SOFA score",
+          "evidence": "m6A signature score was significantly correlated with important clinical indicators, such as SOFA score"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0080-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusions and perspectives",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0080",
+      "text": "This conclusions section from the article discusses the crucial role of m6A RNA modification in COVID-19 pathogenesis, viral replication, and the host immune response, along with its correlation to disease severity and prognosis.\n\nIn summary, m6A modification demonstrates a multifaceted involvement in COVID-19 pathogenesis. Extensive research underscores its pivotal role in regulating viral replication and the host immune response to the infection. Moreover, the correlation between m6A levels and the severity and prognosis of COVID-19 is becoming increasingly apparent. Identifying comprehensive m6A modification signatures in SARS-CoV-2 could significantly aid in novel vaccine development. Targeting the reduction of virus replication and infection capability through specific small molecule inhibitors offers a promising avenue in antiviral therapy. While investigations into therapeutic drugs targeting m6A are still in their nascent stages, the ongoing dedication to designing and refining m6A-based approaches as potential alternative vaccines and therapies for COVID-19 holds substantial clinical significance.",
+      "entities": [
+        {
+          "text": "m6A RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "small molecule",
+          "type": "TECHNOLOGY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "m6A RNA modification",
+          "predicate": "relates_to",
+          "object": "COVID-19",
+          "evidence": "m6A RNA modification in COVID-19 pathogenesis"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "viral replication",
+          "evidence": "pivotal role in regulating viral replication"
+        },
+        {
+          "subject": "m6A modification",
+          "predicate": "supports",
+          "object": "host immune response",
+          "evidence": "pivotal role in regulating ... host immune response to the infection"
+        },
+        {
+          "subject": "m6A levels",
+          "predicate": "associated_with",
+          "object": "severity and prognosis of COVID-19",
+          "evidence": "correlation between m6A levels and the severity and prognosis of COVID-19"
+        },
+        {
+          "subject": "SARS-CoV-2",
+          "predicate": "supports",
+          "object": "novel vaccine development",
+          "evidence": "comprehensive m6A modification signatures in SARS-CoV-2 could significantly aid in novel vaccine development"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0085-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Declaration of generative AI in scientific writing",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0085",
+      "text": "This declaration section from the article specifies that the authors did not employ any generative AI or AI-assisted technologies during the preparation of their work.\n\nDuring the preparation of this work, the authors did not use any generative AI and AI-assisted technologies.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": []
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0090-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0090",
+      "text": "This funding section from the article details the financial support received from the National Natural Science Foundation of China and the Natural Science Foundation of Hunan Province for the research on N6-methyladenosine RNA modification related to SARS-CoV-2.\n\nThis work was supported by grants from the National Natural Science Foundation of China (grant number 82100099 ); and Natural Science Foundation of Hunan Province (grant number 2022JJ40792 ).",
+      "entities": [
+        {
+          "text": "National Natural Science Foundation of China",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Natural Science Foundation of Hunan Province",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "N6-methyladenosine RNA modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "grant number 82100099",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "grant number 2022JJ40792",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": [
+        {
+          "subject": "National Natural Science Foundation of China",
+          "predicate": "supports",
+          "object": "N6-methyladenosine RNA modification",
+          "evidence": "financial support received from the National Natural Science Foundation of China for the research on N6-methyladenosine RNA modification"
+        },
+        {
+          "subject": "Natural Science Foundation of Hunan Province",
+          "predicate": "supports",
+          "object": "N6-methyladenosine RNA modification",
+          "evidence": "financial support received from the Natural Science Foundation of Hunan Province for the research on N6-methyladenosine RNA modification"
+        }
+      ]
+    },
+    {
+      "id": "article-10-1016-j-biopha-2024-116231-sec0095-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "CRediT authorship contribution statement",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec0095",
+      "text": "This CRediT authorship contribution statement section from the article outlines the specific roles and contributions of each author involved in the research on N6-methyladenosine RNA modification in SARS-CoV-2 interactions.\n\nZhao Bingrong: Writing – review & editing, Supervision, Conceptualization. Guo Xiongmin: Methodology, Investigation. Jiang Juan: Writing – review & editing, Supervision, Project administration, Investigation, Funding acquisition, Conceptualization. Liu Jiayi: Writing – original draft, Software, Methodology, Investigation, Conceptualization. Chen Lingli: Writing – original draft, Methodology, Conceptualization.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "figure_refs": [],
+      "relations": []
+    },
+    {
+      "id": "fig0005",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: SARS-CoV-2 exhibits m6A modifications predominantly located in the ORF1ab region and the 3′ end of the viral RNA, with significant differences in m6A modifications observed among various viral lineages, suggesting a correlation between these modifications and viral pathogenicity. The dynamic changes in m6A levels throughout the viral life cycle indicate a regulatory role of m6A/hnRNAP1 that facilitates the transition from viral protein translation to RNA transcription. This finding underscores the importance of m6A RNA modification in SARS-CoV-2 infection and its potential impact on virus-host interactions.\n\nCaption: RNA m6A modification in the SARS-CoV-2 genome. The genome of SARS-CoV-2 exhibits m6A modifications, predominantly located in the ORF1ab region and the 3′ end of the viral RNA. The viral life cycle encompasses several crucial stages: the release of genetic material, translation of viral proteins mediated by eIF4E, replication of the viral RNA genome driven by RdRp, and assembly of new viral particles. Throughout its lifecycle, the level of m6A undergoes dynamic changes. The regulatory role of m6A/hnRNAP1 facilitates the switch of the virus from protein translation to RNA transcription. Significant differences in m6A modifications are observed among different lineages of the SARS-CoV-2, which may be associated with the viral pathogenicity.",
+      "label": "Fig. 1",
+      "caption": "RNA m6A modification in the SARS-CoV-2 genome. The genome of SARS-CoV-2 exhibits m6A modifications, predominantly located in the ORF1ab region and the 3′ end of the viral RNA. The viral life cycle encompasses several crucial stages: the release of genetic material, translation of viral proteins mediated by eIF4E, replication of the viral RNA genome driven by RdRp, and assembly of new viral particles. Throughout its lifecycle, the level of m6A undergoes dynamic changes. The regulatory role of m6A/hnRNAP1 facilitates the switch of the virus from protein translation to RNA transcription. Significant differences in m6A modifications are observed among different lineages of the SARS-CoV-2, which may be associated with the viral pathogenicity.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ORF1ab",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "hnRNAP1",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "relations": [],
+      "cited_in": []
+    },
+    {
+      "id": "fig0010",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: SARS-CoV-2 infection increases the m6A modification level of host RNA, leading to enhanced expression of pro-viral genes such as ACE2, TMPRSS2, and CTSL. The m6A modification of the viral genome by METTL3 inhibits the binding of viral RNA to RIG-I, blocking NF-κB and IRF3 activation, which reduces inflammatory cytokine and interferon production. This highlights the role of m6A modification in regulating virus-host interactions and the immune response during SARS-CoV-2 infection.\n\nCaption: Role of m6A modification in virus-host interactions. SARS-CoV-2 enters host cells through either the ACE2 or the transmembrane protein 106B (TMEM106B). In the first scenario (indicated as ①), the virus enters host cells through endocytosis when the cell surface protease TMPRSS2 is insufficient. Alternatively, in the second scenario (indicated as ②), the virus fuses with the cell membrane when the cell surface TMPRSS2 is activated, gaining entry into host cells. Following the invasion of host cells by SARS-CoV-2, there is an increase in the m6A modification level of host RNA, which in turn affects cell death, apoptosis, and metabolic processes in the host. Additionally, the virus alters the distribution of METTL3 within the nucleus and cytoplasm and enhances the expression of pro-viral genes mediated by METTL3, such as ACE2, TMPRSS2, and CTSL. After m6A modification of the viral genome by METTL3, the binding of viral RNA to RIG-I is inhibited, thereby blocking the activation of NF-κB and IRF3 pathways and reducing the production of inflammatory cytokines and interferons. Furthermore, the interaction between the viral polymerase RdRp and METTL3 suppresses the sumoylation and ubiquitination processes of METTL3.",
+      "label": "Fig. 2",
+      "caption": "Role of m6A modification in virus-host interactions. SARS-CoV-2 enters host cells through either the ACE2 or the transmembrane protein 106B (TMEM106B). In the first scenario (indicated as ①), the virus enters host cells through endocytosis when the cell surface protease TMPRSS2 is insufficient. Alternatively, in the second scenario (indicated as ②), the virus fuses with the cell membrane when the cell surface TMPRSS2 is activated, gaining entry into host cells. Following the invasion of host cells by SARS-CoV-2, there is an increase in the m6A modification level of host RNA, which in turn affects cell death, apoptosis, and metabolic processes in the host. Additionally, the virus alters the distribution of METTL3 within the nucleus and cytoplasm and enhances the expression of pro-viral genes mediated by METTL3, such as ACE2, TMPRSS2, and CTSL. After m6A modification of the viral genome by METTL3, the binding of viral RNA to RIG-I is inhibited, thereby blocking the activation of NF-κB and IRF3 pathways and reducing the production of inflammatory cytokines and interferons. Furthermore, the interaction between the viral polymerase RdRp and METTL3 suppresses the sumoylation and ubiquitination processes of METTL3.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ACE2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TMPRSS2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CTSL",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RIG-I",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "NF-κB",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "relations": [],
+      "cited_in": []
+    },
+    {
+      "id": "fig0015",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 3: In patients with COVID-19, the level of m6A modification in lung tissues and blood samples significantly increases compared to healthy individuals. This finding supports the emerging role of m6A modification as a crucial regulatory mechanism in SARS-CoV-2 infection and highlights potential avenues for targeted pharmacological interventions in COVID-19 patients.\n\nCaption: Potential Applications of m6A Modification in COVID-19 Patients. In patients with COVID-19, a significant increase in the level of m6A modification has been observed in lung tissues and blood samples. To date, three types of predictive models and pharmacological interventions have been developed. Some of these drugs have already been validated at the cellular level (indicated in bold).",
+      "label": "Fig. 3",
+      "caption": "Potential Applications of m6A Modification in COVID-19 Patients. In patients with COVID-19, a significant increase in the level of m6A modification has been observed in lung tissues and blood samples. To date, three types of predictive models and pharmacological interventions have been developed. Some of these drugs have already been validated at the cellular level (indicated in bold).",
+      "entities": [
+        {
+          "text": "COVID-19",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A modification",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "lung tissues",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "blood samples",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pharmacological interventions",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "predictive models",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "relations": [],
+      "cited_in": []
+    },
+    {
+      "id": "tbl0005",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: Inhibition of METTL3 decreases viral load in Caco-2 cells, as indicated by decreased viral RNA binding to RIG-I. In Huh7 cells, the combined knockdown of METTL3, METTL14, and ALKBH5 results in increased viral load, while the knockdown of YTHDF2 decreases viral load. The table demonstrates that m6A modification plays a crucial role in SARS-CoV-2 infection regulation and highlights the impact of m6A regulators on viral replication.\n\nCaption: Summary of the studies on RNA m6A modification of SARS-CoV-2 genome.\n\n| Reference | Cell lines | Detection techniques of m6A | Number of m6A sites or regions | KD or inhibition of m6A regulators | Effect on viral load by KD or inhibition of m6A regulators | Possible mechanisms |\n| --- | --- | --- | --- | --- | --- | --- |\n| Li et al. [37] | Caco-2 | MeRIP-seq | 13 regions | METTL3 | Decrease | Viral RNA binding to RIG-I |\n| Li et al. [37] | Vero E6 | LC-MS/MS & MeRIP-seq | 27 regions 8 sites | NR | NR | NR |\n| Liu et al. [38] | Huh7 | MeRIP-seq | 7 regions | METTL3 METTL14 ALKBH5 YTHDF2 | Increase Increase Decrease Increase | Viral RNA replication |\n| Liu et al. [38] | Vero E6 | MeRIP-seq & miCLIP | 4 regions (24 h), 13 regions (56 h), 8 sites (56 h) | NR | NR | NR |\n| Zhang et al. [39] | Vero E6 | MeRIP-seq & DRS | 14 sites | METTL3 FTO | Decrease Increase | Viral RNA replication |\n| Burgess et al. [40] | A549-ACE2 | MeRIP-seq & DRS | 14 regions | METTL3 YTHDF2 YTHDF3 | Decrease Decrease Decrease | Viral RNA replication and nucleocapsid protein synthesis |\n| Kumar et al. [41] | Vero E6 | m6A RNA methylation assay kit | NR | Methyltransferase inhibitor DZNep METTL3 hnRNPA1 | Decrease Decrease Decrease | Viral RNA and protein synthesis |\n| Zannella et al. [44] | Vero E6 | m6A RNA methylation assay kit | NR | Inhibition of FTO by rhein | Decrease | NR |",
+      "label": "Table 1",
+      "caption": "Summary of the studies on RNA m6A modification of SARS-CoV-2 genome.",
+      "entities": [
+        {
+          "text": "Caco-2",
+          "type": "CELL_LINE",
+          "id": "CVCL_0025",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Huh7",
+          "type": "CELL_LINE",
+          "id": "CVCL_U443",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "METTL14",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALKBH5",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "relations": [],
+      "cited_in": []
+    },
+    {
+      "id": "tbl0010",
+      "type": "table",
+      "section": null,
+      "text": "Table 2: SARS-CoV-2 infection in Huh7 cells increases m6A modification levels in global transcripts. Elevated m6A levels are associated with the regulation of interferon-stimulated genes, membrane trafficking, and apoptotic signaling pathways. This data demonstrates the crucial role of m6A modification in modulating host responses during SARS-CoV-2 infection.\n\nCaption: Summary of the studies on RNA m6A modification of host cell genome after SARS-CoV-2 infection.\n\n| Reference | Cell types | Detection technique | m6A sites or regions of host cells | m6A modification after SARS-CoV-2 infection | Cellular pathways regulated by m6A |\n| --- | --- | --- | --- | --- | --- |\n| Li et al. [37] | Caco-2 | MeRIP-seq | NR | NR | Production of inflammatory cytokines, chemokines, and expression of proviral genes |\n| Liu et al. [38] | Huh7 | MeRIP-seq & miCLIP | Global transcripts | Elevated m6A level | Interferon-stimulated genes, membrane trafficking categories and apoptotic signaling |\n| Phillips et al. [48] | A549-hACE2 | MeRIP-seq | Coding and noncoding RNAs | Differential m6A modification patterns | Type-I interferon response, inflammation, and cytokine signaling |\n| Meng et al. [51] | Human PBMC | miCLIP-seq & MeRIP-seq | Global transcripts | Elevated m6A level | Inflammatory response, programmed cell death and apoptosis |\n| Vaid et al. [52] | BEAS-2B | MeRIP-seq | Multiple sites | Reduced m6A level | Defense response to viruses, type I interferon signaling pathways, cilium organization and assembly |\n| Campos et al. [53] | Vero E6 | DRS | Multiple sites | Elevated m6A level | Translation, peptide and amine metabolism |",
+      "label": "Table 2",
+      "caption": "Summary of the studies on RNA m6A modification of host cell genome after SARS-CoV-2 infection.",
+      "entities": [
+        {
+          "text": "SARS-CoV-2",
+          "type": "ENTITY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Huh7",
+          "type": "CELL_LINE",
+          "id": "CVCL_U443",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "interferon-stimulated genes",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "membrane trafficking",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "apoptotic signaling pathways",
+          "type": "CONCEPT",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Caco-2",
+          "type": "CELL_LINE",
+          "id": "CVCL_0025",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "MeRIP-seq",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BIOPHA",
+        "article_id": "116231",
+        "pii": "S0753-3322(24)00112-4",
+        "doi": "10.1016/j.biopha.2024.116231",
+        "title": "Emerging role of N6 -methyladenosine RNA modification in regulation of SARS-CoV-2 infection and virus-host interactions",
+        "authors": [
+          "Jiayi Liu",
+          "Lingli Chen",
+          "Xiongmin Guo",
+          "Bingrong Zhao",
+          "Juan Jiang"
+        ],
+        "publication_date": "2024-01-29",
+        "abstract": "ga1",
+        "keywords": [
+          "Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2)",
+          "COVID-19",
+          "N6 -methyladenosine (m6A)",
+          "Epigenetic transcriptomics",
+          "RNA modification",
+          "Host cells"
+        ]
+      },
+      "relations": [],
+      "cited_in": []
+    }
+  ]
+}

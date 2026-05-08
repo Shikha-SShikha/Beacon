@@ -1,0 +1,2949 @@
+{
+  "source_file": "BJ_100876.xml",
+  "article_doi": "10.1016/j.bj.2025.100876",
+  "total_chunks": 50,
+  "text_chunks": 43,
+  "visual_chunks": 7,
+  "total_entities": 103,
+  "entities_with_ontology_id": 69,
+  "total_relations": 44,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the role of acupuncture in traditional Chinese medicine, highlighting its mechanical application and its recognized analgesic effects in clinical pain management.\n\nAs a fundamental component of traditional Chinese medicine, acupuncture involves applying controlled mechanical forces to specific acupoints through precise needle manipulations [1] . These forces alter the local tissue environment, initiating a series of physiological and biochemical responses. Widely recognized for its analgesic effects, acupuncture is frequently used in clinical pain management [2,3] . However, the specific impact of acupuncture parameters, such as duration, frequency, and intensity, on therapeutic outcomes remains partially understood [4-6] . Current acupuncture practices rely heavily on practitioners' individual experience and techniques, often leading to variability in therapeutic effects. This reliance, coupled with insufficient mechanistic studies, has contributed to ongoing debates about acupuncture’s clinical efficacy. Clarifying the quantitative influence of specific parameters on therapeutic outcomes and elucidating the mechanisms of acupuncture analgesia are crucial steps toward validating its efficacy and facilitating greater consistency in clinical applications.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the significance of understanding the quantitative effects of acupuncture parameters on analgesic outcomes and highlights recent studies on how these variations influence therapeutic efficacy.\n\nClarifying the quantitative influence of specific parameters on therapeutic outcomes and elucidating the mechanisms of acupuncture analgesia are crucial steps toward validating its efficacy and facilitating greater consistency in clinical applications. Recent clinical and animal studies have progressively uncovered how variations in acupuncture parameters affect therapeutic outcomes, particularly through modifications in twisting angle and frequency, which can significantly alter biological responses and analgesic effects [7-10] . For example, Zhang et al. demonstrated that a twisting-rotating acupuncture session at Neiguan (PC6) in a middle cerebral artery occlusion rat model significantly improved cerebral blood flow and neurological recovery compared to other sessions [11] . Similarly, Song et al. observed that a twisting frequency of 4 Hz produced superior analgesic effects compared to 2 Hz in an acute adjuvant arthritis (AA) rat model [12] . Extending these findings, Min et al. reported that twisting frequency, angle and duration each had significant impacts on acupuncture efficacy, identifying optimal parameters in a kidney yang deficiency rat model as a 90° angle, 180 twists per minute, and a duration of 120 seconds [13] . Despite these advances, research on acupuncture parameters remains limited, often focusing on isolated variables, with many studies relying on manual operations where parameter control is affected by operator variability. This variability can reduce the stability and precision of parameter application, limiting result consistency and hindering broader application. The robot-assisted system used in this study offers the greater potential for precision and reproducibility in acupuncture practices, addressing these limitations and advancing the standardization of therapeutic protocols.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec1-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the advantages of a robot-assisted acupuncture system in enhancing precision and standardization, while also highlighting the role of immune responses in acupuncture analgesia.\n\nThe robot-assisted system used in this study offers the greater potential for precision and reproducibility in acupuncture practices, addressing these limitations and advancing the standardization of therapeutic protocols. Research on the biological mechanisms of acupuncture analgesia suggests that its effects are closely related to local immune responses, particularly through the activation of mast cells [14-15] . Studies have shown that acupuncture induces mast cell degranulation, releasing bioactive substances such as histamine (HIS) and serotonin, which play essential roles in anti-inflammatory and analgesic processes [16-21] . Histamine, by binding to local receptors, not only reduces inflammation but can also enhance pain relief by influencing nerve conduction [22,23] . For example, Huang et al. found that acupuncture-induced histamine release significantly alleviated inflammation and enhanced analgesic effects via H1 receptor activation [24] . However, few studies have examined the role of local H1 receptor antagonists, leaving the specific function of histamine in acupuncture mechanisms not fully understood. Additionally, research by Huang et al. demonstrated that local application of lidocaine could weaken acupuncture-induced analgesia, highlighting the critical role of local nerve conduction in pain relief [25] . Therefore, further investigation is warranted into the interactions between nerve conduction and histamine signaling, and their combined effects on acupuncture-induced analgesic mechanisms.",
+      "entities": [
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "serotonin",
+          "type": "CHEMICAL",
+          "id": "D012701",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec1-p3",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article by Yi Yu discusses the need to explore the relationship between nerve conduction and histamine signaling in acupuncture analgesia, detailing the robotic system's parameter variations for enhanced stimulus control.\n\nTherefore, further investigation is warranted into the interactions between nerve conduction and histamine signaling, and their combined effects on acupuncture-induced analgesic mechanisms. Using a robot-assisted twisting acupuncture system, we varied stimulus parameters, including rotation angle (60°-360°) and frequency (0.5-2.5 Hz), to achieve precise control over the applied stimuli. Pain thresholds were measured at multiple time points pre- and post-treatment to assess therapeutic effects, and mast cell degranulation rates (MCdR) were measured to evaluate cellular responses. Additionally, local histamine injections, H1 receptor antagonists, and lidocaine treatments were applied to further explore the potential biological mechanisms underlying acupuncture-induced analgesia.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Manual and robot-assisted acupuncture",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study compares the analgesic efficacy of manual acupuncture and robot-assisted acupuncture using specific stimulus parameters, detailing the experimental setup and conditions for evaluation.\n\n### Manual and robot-assisted acupuncture\n\nThe efficacy of robot-assisted acupuncture (RA) was evaluated by comparing it with manual acupuncture (MA) under similar stimulus parameters: a 5-minute duration, a 180° rotation angle, and a 1.0 Hz frequency, as used in a specific RA subgroup. Figure 1 Figure 1 A shows the setup where the needle is connected to a stepper motor, which is mounted on a 6-DOF (six degrees of freedom) robot arm. By adjusting the position of the robot arm, the needle can be safely inserted into the ST36 acupoint (on the left behind limb) of the animal. The stepper motor performs rotational movements to simulate the twisting acupuncture technique, with the angle and frequency controlled by a custom Python program. Figure 1B1-B9 further demonstrates the angular motion of the needle, showing that the actual movement of the robot-assisted needle manipulation closely matches the designed parameters for angle and frequency. Figure 1 C presents needle movement during MA, measured using a similar image recognition technique.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Manual and robot-assisted acupuncture",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This Results section from the study by Yi Yu examines the impact of manual and robot-assisted acupuncture on pain thresholds in AA rat models, highlighting significant changes in paw withdrawal latency post-treatment.\n\nFigure 1 C presents needle movement during MA, measured using a similar image recognition technique. Figure 2 Figure 2 A presents the pain thresholds of the animals at four time points. In both groups, paw withdrawal latency (PWL) significantly decreased following AA model establishment and partially recovered post-treatment, indicating that both manual and robot-assisted acupuncture effectively alleviate pain. A comparison of the pain threshold recovery ratio (PTRR) between the two groups is shown in Figure 2 B, with values of 0.73 ± 0.10 for the MA group and 0.76 ± 0.06 for the RA subgroup, showing no statistically significant difference. Figure 2 C further demonstrates that the MCdR were also comparable between the groups (0.78 ± 0.09 for MA and 0.76 ± 0.03 for RA).",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Yi Yu",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig1",
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Effects of different acupuncture parameters on pain threshold",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This Results section from the study by Yi Yu examines the influence of various acupuncture parameters, such as stimulus rotation angle and frequency, on pain thresholds in AA rat models through comparative analysis illustrated in figures.\n\nFigure 2 C further demonstrates that the MCdR were also comparable between the groups (0.78 ± 0.09 for MA and 0.76 ± 0.03 for RA). ### Effects of different acupuncture parameters on pain threshold\n\nThe effects of acupuncture parameters, specifically stimulus rotation angle and frequency, on analgesic outcomes are illustrated in Fig. 3 Fig. 3 A, comparing five angles (60°, 90°, 180°, 270°, and 360°). The post-treatment pain threshold ( ) was angle-dependent, with optimal recovery observed at approximately 180°.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig2",
+        "fig3"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p3",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Effects of different acupuncture parameters on pain threshold",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study examines the impact of different acupuncture twisting parameters, specifically angle and rotation frequency, on the pain threshold recovery in AA rat models.\n\nThe post-treatment pain threshold ( ) was angle-dependent, with optimal recovery observed at approximately 180°. Similarly, the influence of rotation frequency on analgesic outcomes was assessed by comparing five values (0.5, 1.0, 1.5, 2.0, and 2.5 Hz), as shown in Fig. 3 B. Post-treatment pain threshold ( ) varied with frequency, with the most effective recovery occurring at around 1.0 Hz.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Hz",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig3"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p4",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Influence of mechanical stimulation on analgesia and mast cell degranulation",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study by Yi Yu explores the effects of different mechanical stimulation parameters, particularly frequency and rotation angle, on analgesia and mast cell degranulation in AA rat models.\n\nPost-treatment pain threshold ( ) varied with frequency, with the most effective recovery occurring at around 1.0 Hz. ### Influence of mechanical stimulation on analgesia and mast cell degranulation\n\nFigure 4 Fig. 4A1, 4B1 ) indicate that the optimal analgesic effect was achieved with a combination of 5-minute duration, a 180° rotation angle, and a 1.0 Hz frequency (0.76 ± 0.06). At other angles and frequencies, the PTRR showed no significant improvement.",
+      "entities": [
+        {
+          "text": "AA rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mast cell",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y654",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "analgesia",
+          "type": "DISEASE",
+          "id": "D000698",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "1.0 Hz",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "5-minute duration",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "180° rotation angle",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "1.0 Hz",
+          "predicate": "causes",
+          "object": "optimal analgesic effect",
+          "evidence": "the optimal analgesic effect was achieved with a combination of 5-minute duration, a 180° rotation angle, and a 1.0 Hz frequency"
+        }
+      ],
+      "figure_refs": [
+        "fig4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p5",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Influence of mechanical stimulation on analgesia and mast cell degranulation",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This results section from the article discusses the impact of different acupuncture angles and frequencies on mast cell degranulation ratios, highlighting the optimal parameters for analgesia in AA rat models.\n\nAt other angles and frequencies, the PTRR showed no significant improvement. The baseline MCdR without any stimulus (Model group) was measured at 0.29 ± 0.05, indicating that approximately one-third of mast cell were activated under resting conditions. The MCdR was also found to be dependent on acupuncture angle and frequency, reaching its peak with a 5-minutes duration, 180° rotation, and 1.0 Hz frequency ( Fig. 4A2, 4B2 ). Statistical analysis showed no significant differences in the total mast cell numbers across groups.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "ORGANISM",
+          "id": "152839",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cell",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y654",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "MCdR",
+          "type": "PROTEIN",
+          "id": "11601194",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "PTRR",
+          "type": "PROTEIN",
+          "id": "308949133",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "MCdR",
+          "predicate": "dependent_on",
+          "object": "acupuncture angle and frequency",
+          "evidence": "The MCdR was also found to be dependent on acupuncture angle and frequency."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p6",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Influence of mechanical stimulation on analgesia and mast cell degranulation",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study examines the correlation between PTRR and MCdR in relation to mast cell response across acupuncture parameter groups, indicating a significant relationship despite no differences in total mast cell numbers.\n\nStatistical analysis showed no significant differences in the total mast cell numbers across groups. A correlation analysis between PTRR and MCdR was conducted, and the relevant data from all acupuncture parameter groups (N = 72) are plotted in Fig. 4A3 and 4B3 . The PTRR and MCdR demonstrated a strong positive correlation, with very low P-values. These results suggest an intrinsic relationship between acupuncture-induced analgesia and mast cell degranulation.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PTRR",
+          "predicate": "associated_with",
+          "object": "MCdR",
+          "evidence": "The PTRR and MCdR demonstrated a strong positive correlation"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p7",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Effect of mast cells",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study by Yi Yu discusses the influence of mast cells in acupuncture-induced analgesia, highlighting the use of sodium cromoglycate to investigate their role.\n\nThese results suggest an intrinsic relationship between acupuncture-induced analgesia and mast cell degranulation. ### Effect of mast cells\n\nIn this study, sodium cromoglycate, a mast cell membrane stabilizer, was employed to investigate the role of mast cells in acupuncture-induced analgesia. The effects of sodium cromoglycate on PTRR and MCdR are presented in Fig. 5",
+      "entities": [
+        {
+          "text": "sodium cromoglycate",
+          "type": "DRUG",
+          "id": "CHEBI:128458",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture-induced analgesia",
+          "type": "DISEASE",
+          "id": "DOID:0060145",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "PTRR",
+          "type": "GENE",
+          "id": "308949133",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "MCdR",
+          "type": "GENE",
+          "id": "11601194",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "sodium cromoglycate",
+          "predicate": "investigates",
+          "object": "mast cells",
+          "evidence": "sodium cromoglycate to investigate their role."
+        },
+        {
+          "subject": "acupuncture-induced analgesia",
+          "predicate": "associated_with",
+          "object": "mast cell degranulation",
+          "evidence": "an intrinsic relationship between acupuncture-induced analgesia and mast cell degranulation."
+        },
+        {
+          "subject": "sodium cromoglycate",
+          "predicate": "effects_on",
+          "object": "PTRR",
+          "evidence": "The effects of sodium cromoglycate on PTRR and MCdR are presented in Fig. 5"
+        },
+        {
+          "subject": "sodium cromoglycate",
+          "predicate": "effects_on",
+          "object": "MCdR",
+          "evidence": "The effects of sodium cromoglycate on PTRR and MCdR are presented in Fig. 5"
+        }
+      ],
+      "figure_refs": [
+        "fig5"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p8",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Effect of histamine",
+      "paragraph_index": 8,
+      "parent_section_id": "sec2",
+      "text": "This results section from the study explores the impact of histamine on the analgesic effects of acupuncture, highlighting how saline injection did not influence pain relief while clemastine fumarate significantly hindered it.\n\n5 ### Effect of histamine\n\nFigure 6 Fig. 6 A and 6B, the injection of saline into the acupoint prior to treatment did not affect pain relief. In contrast, administration of clemastine fumarate significantly obstructs the analgesic effect, resulting in a PTRR close to zero for the Cle + Acu group, with no notable differences in MCdR across the groups. Additionally, direct injection of histamine into the acupoint produced analgesic effects comparable to those of acupuncture, with a significant increase in MCdR compared to the saline group. These findings further emphasize the crucial role of histamine in mediating acupuncture-induced analgesic.",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "clemastine fumarate",
+          "type": "DRUG",
+          "id": "CHEBI:3739",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "clemastine fumarate",
+          "predicate": "inhibits",
+          "object": "analgesic effect",
+          "evidence": "administration of clemastine fumarate significantly obstructs the analgesic effect"
+        },
+        {
+          "subject": "histamine",
+          "predicate": "produces",
+          "object": "analgesic effects",
+          "evidence": "direct injection of histamine into the acupoint produced analgesic effects comparable to those of acupuncture"
+        }
+      ],
+      "figure_refs": [
+        "fig6"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec2-p9",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Effect of nerve distribution",
+      "paragraph_index": 9,
+      "parent_section_id": "sec2",
+      "text": "This results section from the article discusses the significant influence of nerve distribution on the analgesic effects of acupuncture, highlighting the important role of histamine in this process.\n\nThese findings further emphasize the crucial role of histamine in mediating acupuncture-induced analgesic. ### Effect of nerve distribution\n\nFigure 7",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "histamine",
+          "predicate": "associated_with",
+          "object": "acupuncture-induced analgesic",
+          "evidence": "the crucial role of histamine in mediating acupuncture-induced analgesic"
+        }
+      ],
+      "figure_refs": [
+        "fig7"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "Influence of acupuncture parameters on analgesic effects",
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article by Yi Yu examines how various acupuncture parameters impact analgesic effects, emphasizing the importance of these factors in clinical practice and ongoing biomechanical research.\n\n### Influence of acupuncture parameters on analgesic effects\n\nUnderstanding the relationship between acupuncture parameters, such as duration, intensity, manipulation techniques, and acupoint selection, and therapeutic outcomes is crucial for clinical practice and has garnered significant attention from researchers [26] . However, biomechanical studies on the effects of quantitative mechanical parameters remain limited. This study systematically investigates the effects of different acupuncture twisting parameters on analgesic outcomes, emphasizing the roles of mast cell activation, histamine (HIS) release, and neural conduction. Using an acute adjuvant-induced arthritis (AA) rat model, robot-assisted acupuncture twisting was performed with varying rotation angles (60°-360°) and frequencies (0.5-2.5 Hz). Multiple measurements of pain thresholds revealed that a combination of 180° rotation angle and a 1.0 Hz frequency produced the optimal analgesic effect ( Fig.3 and Fig.4 ), as quantified by the normalized PTRR (Eq. (1) ). Moreover, this optimal analgesic effect was associated with higher MCdR values ( Fig.4 ).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig3",
+        "fig4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "Influence of acupuncture parameters on analgesic effects",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article by Yi Yu examines the relationship between acupuncture parameters, specifically needling duration, and their impact on analgesic effects mediated by mast cells in rat models.\n\nMoreover, this optimal analgesic effect was associated with higher MCdR values ( Fig.4 ). The existence of optimal parameters is further supported by several other studies. Li et al. demonstrated that longer durations of manual acupuncture led to more significant effects on the central nervous system, highlighting the importance of needling time in therapeutic outcomes [27] . Liu et al. reported that manual acupuncture at 2 Hz was most effective for improving gastric motility in rats with atropine-induced gastric hypomotility, while lower (1 Hz) or higher frequencies (3 Hz and 4 Hz) were less effective [28] . Given that most experiments utilize manual acupuncture, accurately controlling various acupuncture parameters remains challenging for practitioners. Fortunately, this challenge is mitigated with robot-assisted acupuncture, which has been shown to be as effective as manual treatment ( Fig. 1 and Fig. 2 ). The use of a robotic arm in this study not only reduces labor but also ensures that acupuncture frequency and amplitude are highly controllable, quantitatively precise, and consistently reliable.",
+      "entities": [
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "MCdR",
+          "type": "PROTEIN",
+          "id": "11601194",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "atropine",
+          "type": "CHEMICAL",
+          "id": "D001285",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "gastric hypomotility",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture",
+          "type": "DRUG",
+          "id": "D026881",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "central nervous system",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "gastric motility",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acupuncture",
+          "predicate": "associated_with",
+          "object": "optimal analgesic effect",
+          "evidence": "this optimal analgesic effect was associated with higher MCdR values"
+        },
+        {
+          "subject": "manual acupuncture",
+          "predicate": "improves",
+          "object": "gastric motility",
+          "evidence": "manual acupuncture at 2 Hz was most effective for improving gastric motility in rats with atropine-induced gastric hypomotility"
+        }
+      ],
+      "figure_refs": [
+        "fig4",
+        "fig1",
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of mast cell degranulation",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the study examines the significance of mast cell degranulation in the analgesic effects of acupuncture, highlighting the role of a robotic arm for precise and reliable acupuncture application.\n\nThe use of a robotic arm in this study not only reduces labor but also ensures that acupuncture frequency and amplitude are highly controllable, quantitatively precise, and consistently reliable. ### The role of mast cell degranulation\n\nThe significance of mast cell degranulation in initiating the effects of acupuncture at local acupoints has been extensively documented [29-32] . This study found that acupuncture effects are closely related to mast cell degranulation, as demonstrated by the injection of a mast cell membrane stabilizer at the acupuncture point ( Fig.5 ). Furthermore, the strong correlation between the PTRR and MCdR observed in this study not only aligns with existing literature but also provides new insights into the mechanisms underlying acupuncture-induced analgesia. These findings suggest that the analgesic effects of acupuncture manipulation, particularly concerning rotation angle and frequency, may be closely linked to mast cell activation, potentially driven by variations in the degree of this activation.",
+      "entities": [
+        {
+          "text": "mast cell degranulation",
+          "type": "PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mast cell membrane stabilizer",
+          "type": "CHEMICAL",
+          "id": "CHEBI:77966",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acupuncture",
+          "predicate": "associated_with",
+          "object": "mast cell degranulation",
+          "evidence": "acupuncture effects are closely related to mast cell degranulation"
+        },
+        {
+          "subject": "mast cell membrane stabilizer",
+          "predicate": "inhibits",
+          "object": "mast cell degranulation",
+          "evidence": "injection of a mast cell membrane stabilizer at the acupuncture point"
+        }
+      ],
+      "figure_refs": [
+        "fig5"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p3",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of mast cell degranulation",
+      "paragraph_index": 3,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article by Yi Yu explores how acupuncture twisting parameters influence mast cell degranulation and their consequent analgesic effects in AA rat models.\n\nThese findings suggest that the analgesic effects of acupuncture manipulation, particularly concerning rotation angle and frequency, may be closely linked to mast cell activation, potentially driven by variations in the degree of this activation. The observed changes in mast cell degranulation under different acupuncture parameters imply that mast cells play a crucial role in mediating acupuncture-induced analgesia ( Fig.4 ). Specifically, the extent of mast cell activation appears to influence the degree of pain relief, underscoring their pivotal role in the body’s response to acupuncture stimulation. Moreover, mast cells are known to functions as amplifiers in neuroimmune signaling networks by releasing various bioactive mediators such as histamine, tryptase, and cytokines [33] . These mediators can sensitize peripheral nociceptors or recruit additional immune cells, thereby amplifying either analgesic or pro-inflammatory response depending on the local context [34] . This underscores the importance of selecting optimal acupuncture parameters to maximize therapeutic outcomes, as fine-tuning the intensity of stimulation may enhance mast cell activation and amplify analgesic effects. Together, these findings highlight future research directions, suggesting that deeper exploration of mast cell dynamics could refine acupuncture techniques and enhance our understanding of the biological mechanisms underlying acupuncture-induced analgesia.",
+      "entities": [
+        {
+          "text": "AA rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mast cell",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y654",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture",
+          "type": "CHEMICAL",
+          "id": "D026881",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "analgesia",
+          "type": "DISEASE",
+          "id": "D000698",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acupuncture",
+          "predicate": "treats",
+          "object": "analgesia",
+          "evidence": "the analgesic effects of acupuncture manipulation"
+        },
+        {
+          "subject": "mast cell",
+          "predicate": "activates",
+          "object": "analgesia",
+          "evidence": "mast cells play a crucial role in mediating acupuncture-induced analgesia"
+        },
+        {
+          "subject": "mast cell",
+          "predicate": "influences",
+          "object": "pain relief",
+          "evidence": "the extent of mast cell activation appears to influence the degree of pain relief"
+        },
+        {
+          "subject": "mast cell",
+          "predicate": "functions",
+          "object": "amplifiers in neuroimmune signaling networks",
+          "evidence": "mast cells are known to functions as amplifiers in neuroimmune signaling networks"
+        }
+      ],
+      "figure_refs": [
+        "fig4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p4",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of mast cell degranulation",
+      "paragraph_index": 4,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article explores future research implications regarding mast cell dynamics and acupuncture techniques, emphasizing the need to clarify how varying frequencies and amplitudes affect mast cell degranulation and analgesic mechanisms.\n\nTogether, these findings highlight future research directions, suggesting that deeper exploration of mast cell dynamics could refine acupuncture techniques and enhance our understanding of the biological mechanisms underlying acupuncture-induced analgesia. However, the mechanisms by which different acupuncture frequencies and amplitudes alter mast cell degranulation remain unclear. One possible explanation lies in the biomechanics of needle-tissue interaction during acupuncture. Langevin et al. proposed that effective needle coupling with connective tissue is essential for therapeutic outcomes [35-37] . From a mechanotransduction perspective, the interaction between the acupuncture needle and connective tissue may lead to cytoskeletal deformation or integrin-mediated signaling in mast cells, thereby promoting intracellular calcium influx and subsequent degranulation [38] . Such biomechanical cues are increasingly recognized as critical initiators of cellular responses within the tissue microenvironment. Some researchers argue that this mechanical coupling is essential for transmitting external forces to the acupoint, generating local strain and stress that directly stimulate mast cells and trigger degranulation [17] . Therefore, needle-tissue interactions may be influenced by acupuncture parameters such as duration, angle, and frequency, as well as by additional factors including the mechanical properties of the acupoint, needle insertion depth, and manipulation techniques (e.g., lifting-thrusting or rotating). Different combinations of acupuncture frequency, angle, and amplitude may differentially affect the strength and pattern of mechanical coupling with the extracellular matrix, thereby altering the mechanical forces transmitted to mast cells and modulating their activation thresholds.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p5",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of histamine release",
+      "paragraph_index": 5,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article examines how varying acupuncture parameters influence mechanical interactions with mast cells and highlights the role of histamine release in mast cell degranulation.\n\nDifferent combinations of acupuncture frequency, angle, and amplitude may differentially affect the strength and pattern of mechanical coupling with the extracellular matrix, thereby altering the mechanical forces transmitted to mast cells and modulating their activation thresholds. ### The role of histamine release\n\nHistamine, a key substance released during mast cell degranulation [39] , plays a significant role in acupuncture-induced analgesia. This biogenic amine is crucial for modulating both neurotransmission and immune responses by binding to various histamine receptors, such as H1 and H2 receptors. These interactions are involved in pain perception and contribute to the analgesic effects observed in acupuncture. Beyond its role in pain regulation, histamine also influences inflammatory responses and vascular permeability, which can further modulate pain transmission. Specifically, during acupuncture, histamine release can lead to local vasodilation and tissue inflammation [40] , thereby affecting surrounding tissues and pain pathways, and potentially reducing pain perception by altering signal transmission [41] .",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "histamine",
+          "predicate": "plays",
+          "object": "a significant role in acupuncture-induced analgesia",
+          "evidence": "Histamine, a key substance released during mast cell degranulation... plays a significant role in acupuncture-induced analgesia."
+        },
+        {
+          "subject": "histamine",
+          "predicate": "binds",
+          "object": "various histamine receptors",
+          "evidence": "This biogenic amine is crucial for modulating both neurotransmission and immune responses by binding to various histamine receptors."
+        },
+        {
+          "subject": "histamine",
+          "predicate": "is involved in",
+          "object": "pain perception",
+          "evidence": "These interactions are involved in pain perception and contribute to the anal"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p6",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of histamine release",
+      "paragraph_index": 6,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article examines the role of histamine release during acupuncture and its impact on pain perception, highlighting the effect of antihistamines on the analgesic outcomes of the treatment.\n\nSpecifically, during acupuncture, histamine release can lead to local vasodilation and tissue inflammation [40] , thereby affecting surrounding tissues and pain pathways, and potentially reducing pain perception by altering signal transmission [41] . Our findings demonstrate that pre-injection of antihistamines significantly blocks the analgesic effects of acupuncture ( Fig.6 ). In the Cle + Acu group, although mast cells underwent extensive degranulation, the expected analgesic outcome was not achieved. These results suggest that mast cell degranulation alone may not be sufficient for acupuncture-induced pain relief if histamine signaling is inhibited. This observation underscores the importance of histamine as a mediator in the acupuncture process, as its inhibition by antihistamines negates the analgesic benefits, even in the presence of significant mast cell activity. Similar findings were reported by Huang et al., further reinforcing the critical role of histamine in mediating acupuncture-induced analgesia [42] .",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "antihistamines",
+          "type": "DRUG",
+          "id": "CHEBI:37956",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "antihistamines",
+          "predicate": "blocks",
+          "object": "analgesic effects of acupuncture",
+          "evidence": "pre-injection of antihistamines significantly blocks the analgesic effects of acupuncture"
+        }
+      ],
+      "figure_refs": [
+        "fig6"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p7",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of histamine release",
+      "paragraph_index": 7,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article examines the critical role of histamine in acupuncture-induced analgesia, emphasizing its influence on local and systemic inflammation relevant to the analgesic effects mediated by mast cells.\n\nSimilar findings were reported by Huang et al., further reinforcing the critical role of histamine in mediating acupuncture-induced analgesia [42] . Moreover, the ability of histamine to influence both local and systemic inflammation highlights its dual role in facilitating and modulating the body's response to acupuncture. The local release of histamine not only promotes vasodilation, improving blood flow and tissue oxygenation, but also triggers a cascade of immune responses that may contribute to the therapeutic effects of acupuncture. However, when histamine receptors are blocked, these beneficial effects are diminished, indicating that histamine signaling is integral to the full spectrum of acupuncture's physiological impacts. Therefore, our study emphasizes the necessity of histamine in effectively initiating analgesia during acupuncture and suggests that further investigation into histamine's broader role could provide new insights for optimizing acupuncture techniques to enhance pain relief.",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture",
+          "type": "DRUG",
+          "id": "D026881",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "histamine",
+          "predicate": "promotes",
+          "object": "vasodilation",
+          "evidence": "the local release of histamine not only promotes vasodilation, improving blood flow and tissue oxygenation"
+        },
+        {
+          "subject": "histamine",
+          "predicate": "triggers",
+          "object": "a cascade of immune responses",
+          "evidence": "triggers a cascade of immune responses that may contribute to the therapeutic effects of acupuncture"
+        },
+        {
+          "subject": "histamine",
+          "predicate": "influences",
+          "object": "local and systemic inflammation",
+          "evidence": "the ability of histamine to influence both local and systemic inflammation highlights its dual role"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p8",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of neurotransmission",
+      "paragraph_index": 8,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article examines the significance of histamine in analgesia during acupuncture and highlights the need to explore its role in improving acupuncture techniques for better pain relief.\n\nTherefore, our study emphasizes the necessity of histamine in effectively initiating analgesia during acupuncture and suggests that further investigation into histamine's broader role could provide new insights for optimizing acupuncture techniques to enhance pain relief. ### The role of neurotransmission\n\nThe analgesic effects of acupuncture are closely related not only to mast cell degranulation but also to local neural transmission mechanisms. Our study shows that local anesthetics, such as lidocaine, can significantly reduce the analgesic effects of acupuncture, further confirming the critical role of neural transmission in pain modulation during acupuncture ( Fig.7 ). Mechanical stimulation from acupuncture may activate local sensory nerve fibers, particularly C-fibers and Aδ-fibers, thereby altering pain signaling pathways and reducing pain perception at the level of the central nervous system [43,44] .",
+      "entities": [
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lidocaine",
+          "type": "DRUG",
+          "id": "D008012",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "histamine",
+          "predicate": "associated_with",
+          "object": "analgesia",
+          "evidence": "the necessity of histamine in effectively initiating analgesia during acupuncture"
+        },
+        {
+          "subject": "lidocaine",
+          "predicate": "inhibits",
+          "object": "analgesic effects of acupuncture",
+          "evidence": "local anesthetics, such as lidocaine, can significantly reduce the analgesic effects of acupuncture"
+        }
+      ],
+      "figure_refs": [
+        "fig7"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p9",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "The role of neurotransmission",
+      "paragraph_index": 9,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article explores how mechanical stimulation from acupuncture activates sensory nerve fibers, alters pain signaling pathways, and influences the release of biochemical factors involved in pain perception.\n\nMechanical stimulation from acupuncture may activate local sensory nerve fibers, particularly C-fibers and Aδ-fibers, thereby altering pain signaling pathways and reducing pain perception at the level of the central nervous system [43,44] . Specifically, acupuncture stimulation triggers the release of biochemical factors, such as histamine and neuropeptides, while also activating neural pathways that regulate nociceptor sensitivity. The mechanical stress generated by acupuncture can depolarize local neurons, initiating neural reflex arcs that transmit signals to the spinal cord and brain. This cascade ultimately modulates pain perception through a complex network of neural circuits. Thus, acupuncture-induced analgesia is not solely the result of chemical reactions but rather arises from a sophisticated interplay among the neural, immune, and endocrine systems [45-48] .",
+      "entities": [
+        {
+          "text": "C-fibers",
+          "type": "CELL_LINE",
+          "id": "CVCL_D581",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Aδ-fibers",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "neuropeptides",
+          "type": "CHEMICAL",
+          "id": "D009479",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "mechanical stimulation from acupuncture",
+          "predicate": "activates",
+          "object": "C-fibers",
+          "evidence": "acupuncture activates sensory nerve fibers, particularly C-fibers and Aδ-fibers"
+        },
+        {
+          "subject": "mechanical stimulation from acupuncture",
+          "predicate": "activates",
+          "object": "Aδ-fibers",
+          "evidence": "acupuncture activates sensory nerve fibers, particularly C-fibers and Aδ-fibers"
+        },
+        {
+          "subject": "acupuncture stimulation",
+          "predicate": "triggers",
+          "object": "histamine",
+          "evidence": "acupuncture stimulation triggers the release of biochemical factors, such as histamine and neuropeptides"
+        },
+        {
+          "subject": "acupuncture stimulation",
+          "predicate": "triggers",
+          "object": "neuropeptides",
+          "evidence": "acupuncture stimulation triggers the release of biochemical factors, such as histamine and neuropeptides"
+        },
+        {
+          "subject": "mechanical stress generated by acupuncture",
+          "predicate": "modulates",
+          "object": "pain perception",
+          "evidence": "This cascade ultimately modulates pain perception through a comple"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec3-p10",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "Limitations and prospects",
+      "paragraph_index": 10,
+      "parent_section_id": "sec3",
+      "text": "This discussion section from the article examines the complexities of acupuncture-induced analgesia and addresses the limitations of extrapolating the study's findings on acupuncture parameters to clinical applications.\n\nThus, acupuncture-induced analgesia is not solely the result of chemical reactions but rather arises from a sophisticated interplay among the neural, immune, and endocrine systems [45-48] . ### Limitations and prospects\n\nAlthough this study provides quantitative data on the optimal angle and frequency for acupuncture rotation manipulation, these results cannot be directly extrapolated to clinical practice due to the inherent differences between animal models and humans, as well as variability in efficacy based on disease type, symptomatology, and acupoint selection. The primary contribution of this study lies in confirming the significance of acupuncture stimulation parameters on analgesic effects and in preliminarily elucidating the critical roles of mast cell degranulation and histamine signaling in acupuncture-induced analgesia. Future research should further investigate the relationship among acupuncture parameters, tissue biomechanics, and mast cell responses to enhance the clinical applicability of findings.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Animals",
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article describes the housing and specifications of the 114 male Sprague Dawley rats used in the study.\n\n### Animals\n\nThis study utilized 114 healthy adult male Sprague Dawley (SD) rats (SPF grade, weighing 200 ± 20 g). The rats were housed in the Animal Experiment Center of Shanghai University of Traditional Chinese Medicine under controlled conditions (22-25°C, 50%-60% humidity, and a 12-hour light/dark cycle).",
+      "entities": [
+        {
+          "text": "Sprague Dawley",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Animals",
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from a study describes the housing conditions and group assignments of rats used in an experiment to investigate acupuncture's analgesic effects.\n\nThe rats were housed in the Animal Experiment Center of Shanghai University of Traditional Chinese Medicine under controlled conditions (22-25°C, 50%-60% humidity, and a 12-hour light/dark cycle). The animals were randomly divided into the following groups: the model group (Model), the needle-retaining group (NR), the manual acupuncture group (MA), the robot-assisted acupuncture group (RA, further subdivided into 9 subgroups), the Cromolyn Sodium (a mast cell membrane stabilizer) combined with acupuncture group (CS + Acu), the Clemastine fumarate combined with acupuncture group (Cle + Acu), the Histamine group (HIS), the Lidocaine hydrochloride combined with acupuncture group (Lido + Acu), the Lidocaine hydrochloride group (Lido), the saline combined with acupuncture group (Saline + Acu), and the saline group (Saline). Each group or subgroup consisted of six rats.",
+      "entities": [
+        {
+          "text": "Cromolyn Sodium",
+          "type": "CHEMICAL",
+          "id": "D004205",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "Clemastine fumarate",
+          "type": "CHEMICAL",
+          "id": "CHEBI:3739",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Acute adjuvant arthritis model (AA model)",
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article discusses the establishment of the acute adjuvant arthritis model in rats using complete Freund’s adjuvant to analyze the effects of acupuncture on analgesia.\n\nEach group or subgroup consisted of six rats. ### Acute adjuvant arthritis model (AA model)\n\nThe current study employed the widely used acute adjuvant arthritis (AA) rat model for acupuncture research [21] . The model was established by injecting 200 μL of complete Freund’s adjuvant (CFA) into the left ankle joint cavity of the animal. Local ankle swelling, characterized by noticeable redness and increased volume, was observed 48 hours after CFA injection. Additionally, significant behavioral changes, such as altered gait and reduced activity, were evident.",
+      "entities": [
+        {
+          "text": "acute adjuvant arthritis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "complete Freund’s adjuvant",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CFA",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "rats",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acute adjuvant arthritis",
+          "predicate": "associated_with",
+          "object": "complete Freund’s adjuvant",
+          "evidence": "establishment of the acute adjuvant arthritis model in rats using complete Freund’s adjuvant"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Behavioral tests of pain threshold",
+      "paragraph_index": 3,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the study by Yi Yu outlines the behavioral tests conducted to evaluate pain thresholds in AA rat models, detailing acclimatization procedures and observations of behavioral changes related to pain sensitivity.\n\nAdditionally, significant behavioral changes, such as altered gait and reduced activity, were evident. ### Behavioral tests of pain threshold\n\nThermal pain threshold measurements were utilized to assess the animal’s pain sensitivity. Each animal was acclimated to the testing environment by being placed in the testing cage for approximately 30 minutes daily over three consecutive days prior to the experiment. During the test, a radiant heat beam (IITC336G, IITC Life Science, USA) was directed at the left paw, and the latency time (in seconds) before paw withdrawal was measured to estimate the thermal pain threshold, defined as the paw withdrawal latency (PWL). To prevent potential tissue damage, the maximum heating time was limited to 20 seconds. Each test was repeated three times at 5-minute intervals, and the average value was recorded as the final pain threshold.",
+      "entities": [
+        {
+          "text": "AA rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "IITC336G",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Behavioral tests of pain threshold",
+      "paragraph_index": 4,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article details the behavioral tests conducted to assess pain threshold in AA rat models, including test timing and procedures for averaging results.\n\nEach test was repeated three times at 5-minute intervals, and the average value was recorded as the final pain threshold. Each animal underwent four behavioral tests at different time points throughout the experiment: two tests during the acclimation period (Day -1 and Day 0, with the averaged results noted as ), one test after the establishment of the AA model (Day 2, denoted as ), and one test after treatment (Day 2, post-treatment, denoted as ). To eliminate individual differences in baseline pain threshold, a dimensionless index termed the pain threshold recovery ratio (PTRR) was calculated as follows: where (1) represents the drop in pain threshold after modeling, indicating increased sensitivity to heat stimulus, and estimates the recovery of the pain threshold after treatment. PTRR is defined as the ratio of recovery to drop, serving as an evaluation metric for analgesic effect. A PTRR close to 0 indicates ineffective treatment, while a PTRR approaching 1 signifies recovery of the pain threshold to baseline levels, indicating effective treatment.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Day -1",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Day 0",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Day 2",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PTRR",
+          "type": "GENE",
+          "id": "308949133",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p5",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Treatment interventions",
+      "paragraph_index": 5,
+      "parent_section_id": "sec4",
+      "text": "This materials and methods section from the study details the treatment interventions applied across groups, including specific acupuncture parameters used on RA model animals at the ST36 acupoint.\n\nA PTRR close to 0 indicates ineffective treatment, while a PTRR approaching 1 signifies recovery of the pain threshold to baseline levels, indicating effective treatment. ### Treatment interventions\n\nTable S1 provides an overview of the different treatment interventions applied across all groups and subgroups in this study. Animals in the RA groups were treated at the ST36 acupoint, utilizing a stepper motor mounted on a robot-arm (RM65, Realman, China) to precisely control various combinations of stimulus parameters (angle and frequency) for each subgroup ( Fig. 1 A).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p6",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Treatment interventions",
+      "paragraph_index": 6,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article details the specific acupuncture techniques and treatment interventions applied to various groups in the study, including the MA, Model, NR, and CS + Acu groups.\n\n1 A). The MA group received twirling-rotating acupuncture with a duration of 5 minutes, an angle of approximately 180°, and a frequency of about 1.0 Hz. No interventions were applied to the Model group. In the NR group, an acupuncture needle was inserted into the acupoint without subsequent manipulation. In the CS + Acu group, an intramuscular injection of Cromolyn Sodium (100 μL, 2 mg per rat) was administered into the ST36 acupoint 20 minutes prior to the acupuncture treatment. Similarly, the Cle + Acu group received an injection of Clemastine fumarate (100 μL, 0.18 mg). The His group was administered Histamine (100 μL, 1 mg) 25 minutes before pain threshold measurement. Lidocaine hydrochloride (100 μL, 0.8%) was administered to both the Lido + Acu and Lido groups, 20 and 25 minutes prior to acupuncture or measurement, respectively. The Saline + Acu and Saline groups received 100 μL of saline under similar conditions.",
+      "entities": [
+        {
+          "text": "Cromolyn Sodium",
+          "type": "CHEMICAL",
+          "id": "D004205",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "Clemastine fumarate",
+          "type": "DRUG",
+          "id": "CHEBI:3739",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Cromolyn Sodium",
+          "predicate": "administered",
+          "object": "ST36 acupoint",
+          "evidence": "an intramuscular injection of Cromolyn Sodium (100 μL, 2 mg per rat) was administered into the ST36 acupoint 20 minutes prior to the acupuncture treatment."
+        },
+        {
+          "subject": "Clemastine fumarate",
+          "predicate": "received",
+          "object": "injection",
+          "evidence": "the Cle + Acu group received an injection of Clemastine fumarate (100 μL, 0.18 mg)."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p7",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Treatment interventions",
+      "paragraph_index": 7,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article outlines the treatment interventions, detailing saline administration and acupuncture techniques employed in the study involving AA rat models.\n\nThe Saline + Acu and Saline groups received 100 μL of saline under similar conditions. Both manual and robot-assisted acupuncture were performed at the ST36 point (approximately 5 mm below the fibula head, on the lateral side behind the knee joint) [49] . Fine and sharp steel needles (diameter 0.3 mm, length 25 mm, Huatuo, China) were utilized for acupuncture stimulation. To minimize inter-animal variability and motion artifacts, each rat was fitted with a light-shielding hood during treatment to reduce stress-induced activity. Animals were placed in the prone position, with the left hind limb gently extended and fixed using adhesive tape, ensuring reproducible limb positioning and minimizing movement during needling. To further standardize the procedure, needle insertion depth was controlled: acupuncture needles (25 mm body length) were inserted to a depth of 7 mm (leaving 18 mm exposed), and the insertion angle was maintained as perpendicular as possible to the skin surface. Minor angular deviations were unavoidable but were minimized through consistent positioning.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "ORGANISM",
+          "id": "152839",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "saline",
+          "type": "CHEMICAL",
+          "id": "D000077330",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture",
+          "type": "DRUG",
+          "id": "D026881",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ST36",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Saline + Acu",
+          "predicate": "treats",
+          "object": "AA rat models",
+          "evidence": "the study involving AA rat models."
+        },
+        {
+          "subject": "Saline",
+          "predicate": "treats",
+          "object": "AA rat models",
+          "evidence": "the study involving AA rat models."
+        },
+        {
+          "subject": "acupuncture",
+          "predicate": "activates",
+          "object": "ST36",
+          "evidence": "performed at the ST36 point."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p8",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Treatment interventions",
+      "paragraph_index": 8,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article details the measures taken to minimize angular deviations and ensure blinding during pain threshold assessments and mast cell degranulation analyses in acupuncture studies on AA rat models.\n\nMinor angular deviations were unavoidable but were minimized through consistent positioning. To ensure blinding and data consistency, both the pain threshold assessments and mast cell degranulation analyses were performed by the same trained experimenter, who was blinded to group allocation throughout the procedures.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p9",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Verification of robot-assisted acupuncture",
+      "paragraph_index": 9,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the study by Yi Yu describes the verification of robot-assisted acupuncture using an image recognition method to assess the precision of needle movement and control parameters.\n\n### Verification of robot-assisted acupuncture\n\nTo verify the precise control of the robot arm, an image recognition method was employed to measure the angular displacement of the needle movement driven by the robotic system. The results demonstrated that both rotation angle and frequency could be effectively controlled, with a relative error of less than 5% for both parameters ( Fig. 1 B). To further ensure that the programmed rotation in free space accurately reflects rotation within biological tissue, both technical feasibility and motor capacity were carefully considered. Real-time angle monitoring under biological loading was technically challenging due to tissue occlusion and restricted viewing angles during rotation. Therefore, angular assessments were conducted under no-load conditions using image recognition. In addition, the stepper motor (Model: 42CM08, Leadshine, China, holding torque 0.8 N·m, operational torque >0.6 N·m at 500 rpm) used in our system provides a torque output much greater than the load typically encountered during acupuncture in rats (∼10–15 mN·mm, as reported by Zhang et al., [50] ). Given this margin, the angular output measured under unloaded conditions is considered functionally equivalent to that under biological load, thereby supporting the validity of free-space angle measurements for in vivo applications. Moreover, needle displacement under manual control was measured using the same method, providing a quantitative estimation of stimulus angle and frequency for the MA group ( Fig. 1 C).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p10",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Estimation of mast cell degranulation rate (MCdR)",
+      "paragraph_index": 10,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the article describes the process of estimating mast cell degranulation rate (MCdR) through tissue sample collection, fixation, dehydration, embedding, sectioning, and staining for observation under an optical microscope.\n\n1 C). ### Estimation of mast cell degranulation rate (MCdR)\n\nFollowing euthanasia via an overdose of CO 2 anesthesia, tissue samples were immediately collected and fixed in 4% paraformaldehyde. The tissues were then dehydrated, embedded in paraffin, and sectioned into 5 μm-thick slices. Sections were stained with toluidine blue, allowing clear distinction of mast cells under an optical microscope (NTB900-FL, Ningbo Yongxin Optical, China). Un-degranulated mast cells appeared as circular, oval, or spindle-shaped isolated dots, whereas degranulated mast cells exhibited dispersed purple granules around the cell body (Fig. S1). To calculate the MCdR, six sections from each animal were randomly selected (three containing muscle tissue and three containing skin tissue). From each section, one or two representative fields of view (FOVs) were chosen under the microscope, resulting in a total of six FOVs per animal (three from skin, three from muscle). All selected FOVs contained at least one mast cell to ensure biological relevance and minimize sampling error due to mast cell sparsity in certain regions. This approach enabled coverage of both superficial and deeper tissue layers, mitigating the impact of regional variability in mast cell distribution. In the selected FOVs, the total number of degranulated and un-degranulated mast cells were counted for each animal, and the MCdR was calculated as the proportion of degranulated cells to total cell numbers. To ensure methodological consistency and statistical reliability, six FOVs were analyzed per animal, in accordance with standard practices reported in related studies [51, 52] . In our dataset, the total number of mast cells per rat typically ranged from 11 to 43, which aligns with previously reported ranges (10 to 33, [53] ) and further supports the validity of our sampling strategy.",
+      "entities": [
+        {
+          "text": "mast cell",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y654",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CO2",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16526",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "4% paraformaldehyde",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "toluidine blue",
+          "type": "CHEMICAL",
+          "id": "CHEBI:87647",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "CO2",
+          "predicate": "causes",
+          "object": "euthanasia",
+          "evidence": "Following euthanasia via an overdose of CO 2 anesthesia"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec4-p11",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and Methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 11,
+      "parent_section_id": "sec4",
+      "text": "This Materials and Methods section from the study discusses the statistical analysis of pain thresholds and mast cell data using MATLAB, confirming the validity of the sampling strategy based on observed mast cell counts in rats.\n\nIn our dataset, the total number of mast cells per rat typically ranged from 11 to 43, which aligns with previously reported ranges (10 to 33, [53] ) and further supports the validity of our sampling strategy. ### Statistical analysis\n\nAll pain threshold results and MCdR data were analyzed using the Statistics and Machine Learning Toolbox in MATLAB (R2023a, MathWorks, USA). Data are expressed as mean ± standard deviation. Group comparisons were conducted using one-way analysis of variance (ANOVA), followed by Tukey’s post-hoc tests for pairwise comparisons. A P-value < 0.05 was considered statistically significant.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec5-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusions",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This conclusion section from Yi Yu's 2025 study discusses the optimal acupuncture twisting parameters, highlighting the significant influence of rotation angle and frequency on analgesic effects mediated by mast cells in AA rat models.\n\nThis study demonstrates that acupuncture parameters, specifically rotation angle and frequency, significantly influence analgesic outcomes. The optimal combination of a 180° rotation angle and a 1.0 Hz frequency was identified as the most effective for achieving acupuncture-induced analgesia in AA rat models. This parameter-dependent therapeutic effect is mediated by mast cell degranulation and the subsequent release of bioactive substances, particularly histamine, and is likely associated with local mechanical interactions between the acupuncture needle and surrounding tissue. Local histamine injections replicated the analgesic effects induced by acupuncture, whereas H1 receptor antagonists and lidocaine attenuated these effects. These findings further underscore that the key mechanism underlying acupuncture-induced analgesia is mediated through histamine release and local neural conduction.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "histamine",
+          "type": "CHEMICAL",
+          "id": "D006632",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "rotation angle",
+          "predicate": "influences",
+          "object": "analgesic outcomes",
+          "evidence": "rotation angle and frequency significantly influence analgesic outcomes."
+        },
+        {
+          "subject": "frequency",
+          "predicate": "influences",
+          "object": "analgesic outcomes",
+          "evidence": "rotation angle and frequency significantly influence analgesic outcomes."
+        },
+        {
+          "subject": "acupuncture parameters",
+          "predicate": "mediated_by",
+          "object": "mast cell degranulation",
+          "evidence": "This parameter-dependent therapeutic effect is mediated by mast cell degranulation."
+        },
+        {
+          "subject": "mast cell degranulation",
+          "predicate": "causes",
+          "object": "release of bioactive substances",
+          "evidence": "mast cell degranulation and the subsequent release of bioactive substances."
+        },
+        {
+          "subject": "bioactive substances",
+          "predicate": "includes",
+          "object": "histamine",
+          "evidence": "release of bioactive substances, particularly histamine."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec6-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Data availability",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This data availability section from the article by Yi Yu discusses the accessibility of supplemental original data related to the study on acupuncture's analgesic effects in AA rat models.\n\nA brief report of the original data was included in supplementary material. More information are available upon reasonable request to the first and corresponding authors.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec7-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Author Contributions",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec7",
+      "text": "This author contributions section from the article details the specific roles of each author in the research process, including conceptualization, methodology, writing, and funding acquisition, highlighting collaboration among the team.\n\nConceptualization, Y.Y., W.Y. and Z-Q.H.; methodology, Y-X.W., Y-H.L., X.Q. and Y-C.L.; software, X.Q. and Y-C.L.; validation, Y.Y. and X.Q.; formal analysis, Y.Y. and Y-X.W.; writing—original draft preparation, Y.Y. and Y-X.W.; writing—review and editing, Y.Y. and W.Y.; visualization, Y.Y. and Y-X.W.; supervision, W.Y.; funding acquisition, Y.Y., W.Y. and Z-Q.H. All authors have read and agreed to the published version of the manuscript.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec8-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Institutional Review Board Statement:",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec8",
+      "text": "This Institutional Review Board Statement section from the article outlines compliance with animal management regulations in China and ethical approval for the study by Shanghai University of Traditional Chinese Medicine.\n\nThe experiment was in accordance with the Animal Management Rules of the Ministry of Science and Technology of the People's Republic of China for experimental care and use of animals, and the research protocol was approved by the Animals Ethics Committee of Shanghai University of Traditional Chinese Medicine (Protocol No. PZSHUTCM2401150001).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec9-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Conflict of interests",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec9",
+      "text": "This conflict of interests section from the article by Yi Yu in BJ (2025) states that the authors declare no conflict of interests related to the study on acupuncture twisting parameters and analgesic effects in AA rat models.\n\nThe authors declare no conflict of interests.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "CELL_LINE",
+          "id": "CVCL_UT97",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "acupuncture",
+          "type": "CHEMICAL",
+          "id": "D026881",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "analgesic effects",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Yi Yu",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "BJ",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "2025",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100876-sec10-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec10",
+      "text": "This funding section from the article details the financial support received from various grants, including those from the National Natural Science Foundation of China and the Shanghai Municipal Science and Technology Commission for the research on acupuncture effects.\n\nThis research was funded by National Natural Science Foundation of China, grant number 82305416 (Yu), 12172092 (Yao), 82174488 (Yao). Additional support was provided by the Shanghai Municipal Science and Technology Commission, grant number 23YF1418300 (Yu) and the University Research Fund of Shanghai University of Medicine & Health Sciences, grant number SSF-23-04-004 (Yu). New Quality Specialty Clinical Medicine Construction Funding of Peak Plateau Discipline Construction of Shanghai Pudong New Area 2025-PWXZ-17 (Huang).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 1: The robot-assisted acupuncture system accurately simulates twisting acupuncture techniques with controlled rotation angles and frequencies as specified by the designed parameters. The actual motion of the needle was verified to fit these parameters, indicating effective robotic manipulation comparable to manual acupuncture. This demonstrates the system's potential for consistent application of acupuncture techniques in research on analgesic effects mediated by mast cells in AA rat models.\n\nCaption: Verification of the robot-assisted acupuncture system. (A) The needle is connected to a stepper motor, which is installed on a 6-DOF (six degrees of freedom) robot arm. By adjusting the position of the robot arm, the needle can be safely inserted into the ST36 acupoint (left hind limb) of the animal. The stepper motor performs rotational movements to simulate the twisting acupuncture technique, with the angle and frequency controlled by a custom Python program. The angular motion was captured via image recognition based on the identified location marks attached to the motor. Subfigures (B1-B9) demonstrate the angular motion of the needle. The actual movement of the robot-assisted needle manipulation generally fits our designed parameters (rotation angle and frequency). (C) Representative needle movement during manual acupuncture (MA), which was measured using similar image recognition techniques.",
+      "label": "Figure 1",
+      "caption": "Verification of the robot-assisted acupuncture system. (A) The needle is connected to a stepper motor, which is installed on a 6-DOF (six degrees of freedom) robot arm. By adjusting the position of the robot arm, the needle can be safely inserted into the ST36 acupoint (left hind limb) of the animal. The stepper motor performs rotational movements to simulate the twisting acupuncture technique, with the angle and frequency controlled by a custom Python program. The angular motion was captured via image recognition based on the identified location marks attached to the motor. Subfigures (B1-B9) demonstrate the angular motion of the needle. The actual movement of the robot-assisted needle manipulation generally fits our designed parameters (rotation angle and frequency). (C) Representative needle movement during manual acupuncture (MA), which was measured using similar image recognition techniques.",
+      "entities": [
+        {
+          "text": "AA rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "ST36",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p0",
+        "article-10-1016-j-bj-2025-100876-sec2-p1",
+        "article-10-1016-j-bj-2025-100876-sec3-p1",
+        "article-10-1016-j-bj-2025-100876-sec4-p5",
+        "article-10-1016-j-bj-2025-100876-sec4-p9"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 2: Robot-assisted acupuncture (RA) and manual acupuncture (MA) both resulted in statistically significant increases in pain thresholds post-treatment (****P < 0.0001). However, no significant difference was observed in pain threshold recovery ratio (PTRR) and mast cell degranulation rate (MCdR) between the RA and MA groups (P > 0.05). The figure demonstrates that both acupuncture methods are effective in enhancing pain thresholds, but they do not differ in their underlying mast cell-mediated analgesic effects.\n\nCaption: Comparison of robot-assisted acupuncture (RA subgroup) and manual acupuncture (MA group). (A) Pain thresholds of animals in the RA and MA groups at four time points. Asterisks (*) indicate a statistically significant difference between the baseline pain threshold and post-model establishment values ( vs. ), ****P < 0.0001. Hash symbols (#) denote a statistically significant difference between pain thresholds before ( ) and after ( ) treatment, ####P < 0.0001. (B) and (C) present the statistical results for the pain threshold recovery ratio (PTRR) and mast cell degranulation rate (MCdR), respectively. No significant difference (NS) was observed between the two groups (P > 0.05).",
+      "label": "Figure 2",
+      "caption": "Comparison of robot-assisted acupuncture (RA subgroup) and manual acupuncture (MA group). (A) Pain thresholds of animals in the RA and MA groups at four time points. Asterisks (*) indicate a statistically significant difference between the baseline pain threshold and post-model establishment values ( vs. ), ****P < 0.0001. Hash symbols (#) denote a statistically significant difference between pain thresholds before ( ) and after ( ) treatment, ####P < 0.0001. (B) and (C) present the statistical results for the pain threshold recovery ratio (PTRR) and mast cell degranulation rate (MCdR), respectively. No significant difference (NS) was observed between the two groups (P > 0.05).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p1",
+        "article-10-1016-j-bj-2025-100876-sec2-p2",
+        "article-10-1016-j-bj-2025-100876-sec3-p1"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 3: Acupuncture rotation at 60 degrees increases pain thresholds significantly compared to 0 degrees (P < 0.05) and 30 degrees (P < 0.001). Additionally, a rotation frequency of 2 Hz significantly increases pain thresholds compared to 1 Hz (P < 0.01) and 4 Hz (P < 0.05). These findings demonstrate that both the angle and frequency of acupuncture influence its analgesic effects mediated by mast cells in the AA rat models.\n\nCaption: Influence of acupuncture parameters on analgesic effects. (A) Effect of acupuncture rotation angle on pain thresholds. (B) Effect of acupuncture rotation frequency on pain thresholds. In subplots A and B, differences between and , as well as between and , were analyzed. NS: not statistically significant (P > 0.05); * or #: P < 0.05; ** or ##: P < 0.01; *** or ###: P < 0.001; **** or ####: P < 0.0001.",
+      "label": "Figure 3",
+      "caption": "Influence of acupuncture parameters on analgesic effects. (A) Effect of acupuncture rotation angle on pain thresholds. (B) Effect of acupuncture rotation frequency on pain thresholds. In subplots A and B, differences between and , as well as between and , were analyzed. NS: not statistically significant (P > 0.05); * or #: P < 0.05; ** or ##: P < 0.01; *** or ###: P < 0.001; **** or ####: P < 0.0001.",
+      "entities": [
+        {
+          "text": "AA rat",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mast cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_WH42",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p2",
+        "article-10-1016-j-bj-2025-100876-sec2-p3",
+        "article-10-1016-j-bj-2025-100876-sec3-p0"
+      ]
+    },
+    {
+      "id": "fig4",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 4: Acupuncture rotation at specific angles and frequencies significantly increases the pain threshold recovery rate (PTRR) and mast cell degranulation rate (MCdR) compared to the Model group, with P-values less than 0.05. Higher frequencies of acupuncture rotation correlate positively with increased PTRR and MCdR values. The findings indicate that optimized acupuncture parameters enhance analgesic effects through mast cell mediation in AA rat models.\n\nCaption: Influence of acupuncture parameters on PTRR and MCdR. (A1-B1) Effect of rotation angle and frequency on PTRR, respectively. (A2-B2) Effect of rotation angle and frequency on MCdR, respectively. The PTRR and MCdR values of other groups were compared pairwise with those of the Model group. NS: not statistically significant (P > 0.05); *: P < 0.05; **: P < 0.01; ***: P < 0.001; ****: P < 0.0001. (A3-B3) Correlation analysis between PTRR and MCdR. Each dot represents one animal, and colors denote different groups. Cross symbols indicate the mean ± standard deviation for each group.",
+      "label": "Figure 4",
+      "caption": "Influence of acupuncture parameters on PTRR and MCdR. (A1-B1) Effect of rotation angle and frequency on PTRR, respectively. (A2-B2) Effect of rotation angle and frequency on MCdR, respectively. The PTRR and MCdR values of other groups were compared pairwise with those of the Model group. NS: not statistically significant (P > 0.05); *: P < 0.05; **: P < 0.01; ***: P < 0.001; ****: P < 0.0001. (A3-B3) Correlation analysis between PTRR and MCdR. Each dot represents one animal, and colors denote different groups. Cross symbols indicate the mean ± standard deviation for each group.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "ORGANISM",
+          "id": "152839",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p4",
+        "article-10-1016-j-bj-2025-100876-sec3-p0",
+        "article-10-1016-j-bj-2025-100876-sec3-p1",
+        "article-10-1016-j-bj-2025-100876-sec3-p3"
+      ]
+    },
+    {
+      "id": "fig5",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 5: Sodium cromoglycate increases pain thresholds in AA rat models significantly, with a P value of less than 0.0001 when comparing post-treatment values to baseline. Additionally, a significant difference (P < 0.0001) in pain thresholds before and after treatment indicates its potency in inhibiting mast cell-mediated pain. This finding supports the argument that mast cell activity plays a crucial role in mediating pain, and that its inhibition can enhance analgesic effects in this model.\n\nCaption: Influence of sodium cromoglycate (mast cell degranulation inhibitor). (A) Pain thresholds of animals in the three groups at four time points. Asterisks (*) indicate statistical differences between the baseline pain threshold and post-model establishment values ( vs. ); NS: not statistically significant; ****: P < 0.0001. Hash symbols (#) denote statistical differences between pain thresholds before ( ) and after ( ) treatment; ####: P < 0.0001. (B) and (C) present the statistical results for the PTRR and MCdR, respectively.",
+      "label": "Figure 5",
+      "caption": "Influence of sodium cromoglycate (mast cell degranulation inhibitor). (A) Pain thresholds of animals in the three groups at four time points. Asterisks (*) indicate statistical differences between the baseline pain threshold and post-model establishment values ( vs. ); NS: not statistically significant; ****: P < 0.0001. Hash symbols (#) denote statistical differences between pain thresholds before ( ) and after ( ) treatment; ####: P < 0.0001. (B) and (C) present the statistical results for the PTRR and MCdR, respectively.",
+      "entities": [
+        {
+          "text": "Sodium cromoglycate",
+          "type": "DRUG",
+          "id": "CHEBI:128458",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "AA rat",
+          "type": "CELL_LINE",
+          "id": "CVCL_B6RZ",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "mast cell",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y654",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p7",
+        "article-10-1016-j-bj-2025-100876-sec3-p2"
+      ]
+    },
+    {
+      "id": "fig6",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 6: Robot-assisted acupuncture increases pain thresholds in AA rat models compared to the Model group, with a statistically significant difference (P < 0.05). The Cle + Acu group exhibits a further increase in pain threshold compared to the Saline + Acu group, demonstrating superior analgesic effects. This indicates that specific acupuncture interventions can effectively modulate pain perception via mast cell involvement in the context of this study.\n\nCaption: Comparison of pain thresholds and MCdR among various treatment groups. (A) Pain thresholds of animals in the Model group, robot-assisted acupuncture (specific subgroup of the RA group, Acu), Cle + Acu group, Saline + Acu group, HIS group, and Saline group at four time points. Asterisks (*) indicate statistical differences between the baseline pain threshold and the values after model establishment ( vs. ); NS: not statistically significant (P > 0.05); *: P < 0.05; ****: P < 0.0001. Hash symbols (#) denote statistical differences between pain thresholds before ( ) and after ( ) treatment; #: P < 0.05; ####: P < 0.0001. (B) and (C) present the statistical results for PTRR and MCdR, respectively.",
+      "label": "Figure 6",
+      "caption": "Comparison of pain thresholds and MCdR among various treatment groups. (A) Pain thresholds of animals in the Model group, robot-assisted acupuncture (specific subgroup of the RA group, Acu), Cle + Acu group, Saline + Acu group, HIS group, and Saline group at four time points. Asterisks (*) indicate statistical differences between the baseline pain threshold and the values after model establishment ( vs. ); NS: not statistically significant (P > 0.05); *: P < 0.05; ****: P < 0.0001. Hash symbols (#) denote statistical differences between pain thresholds before ( ) and after ( ) treatment; #: P < 0.05; ####: P < 0.0001. (B) and (C) present the statistical results for PTRR and MCdR, respectively.",
+      "entities": [
+        {
+          "text": "AA",
+          "type": "ORGANISM",
+          "id": "152839",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
+          "text": "Cle",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Acu",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Saline",
+          "type": "DRUG",
+          "id": "D000077330",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "HIS",
+          "type": "DRUG",
+          "id": "D002036",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "MCdR",
+          "type": "PROTEIN",
+          "id": "11601194",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p8",
+        "article-10-1016-j-bj-2025-100876-sec3-p6"
+      ]
+    },
+    {
+      "id": "fig7",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 7: Acupuncture treatment significantly increases pain thresholds compared to the baseline in the Model group, with p-values indicating strong statistical significance for differences after treatment (****P < 0.0001). The robot-arm assisted acupuncture subgroup and Lido + Acu group also demonstrate enhanced pain thresholds, but no significant differences are observed among the various treatment groups when comparing post-treatment pain threshold recovery rates (PTRR) (P > 0.05). These findings support the argument that acupuncture may alleviate pain through mechanisms involving mast cells, although the comparative efficacy among treatment modalities remains inconclusive.\n\nCaption: Comparison of pain thresholds among various treatment groups. (A) Pain thresholds of animals in the Model group, robot-arm assisted acupuncture (specific subgroup of the RA group, Acu), Lido + Acu group, Saline + Acu group, Lido group, and Saline group at four time points. Asterisks (*) indicate statistically significant difference between the baseline pain threshold and the post-model establishment values ( vs. ); ****P < 0.0001. Hash symbols (#) denote statistically significant differences between pain thresholds before ( ) and after ( ) treatment; # P < 0.05; ## P < 0.01; #### P < 0.0001. (B) presents the statistical results for the PTRR. No significant difference was observed between the groups (P > 0.05).",
+      "label": "Figure 7",
+      "caption": "Comparison of pain thresholds among various treatment groups. (A) Pain thresholds of animals in the Model group, robot-arm assisted acupuncture (specific subgroup of the RA group, Acu), Lido + Acu group, Saline + Acu group, Lido group, and Saline group at four time points. Asterisks (*) indicate statistically significant difference between the baseline pain threshold and the post-model establishment values ( vs. ); ****P < 0.0001. Hash symbols (#) denote statistically significant differences between pain thresholds before ( ) and after ( ) treatment; # P < 0.05; ## P < 0.01; #### P < 0.0001. (B) presents the statistical results for the PTRR. No significant difference was observed between the groups (P > 0.05).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100876",
+        "pii": "S2319-4170(25)00050-2",
+        "doi": "10.1016/j.bj.2025.100876",
+        "title": "Influence of acupuncture twisting parameters on analgesic effects mediated by mast cells in AA rat models",
+        "authors": [
+          "Yi Yu",
+          "Yi-Xuan Wang",
+          "Xuan Qiao",
+          "Ying-Chen Li",
+          "Yu-Hang Liu",
+          "Zouqin Huang",
+          "Wei Yao"
+        ],
+        "publication_date": "2025-06-01",
+        "abstract": "Image 1",
+        "keywords": [
+          "acupuncture parameter",
+          "analgesia",
+          "mast cell",
+          "AA rat model"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100876-sec2-p9",
+        "article-10-1016-j-bj-2025-100876-sec3-p8"
+      ]
+    }
+  ]
+}

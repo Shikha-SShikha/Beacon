@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv01", "cv02", "cv03", "cv04";
+  --font-base: 15px;
+}
+
+body {
+  margin: 0;
+  font-size: var(--font-base);
+  line-height: 1.6;
+  color: #1e293b;
+}
+
+#root {
+  min-height: 100svh;
+}

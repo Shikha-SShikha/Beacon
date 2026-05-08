@@ -1,0 +1,2480 @@
+{
+  "source_file": "BJ_100833.xml",
+  "article_doi": "10.1016/j.bj.2025.100833",
+  "total_chunks": 30,
+  "text_chunks": 25,
+  "visual_chunks": 5,
+  "total_entities": 121,
+  "entities_with_ontology_id": 69,
+  "total_relations": 64,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the complications of chronic hepatitis B virus infection in kidney transplant recipients and the impact of oral nucleotide analogues on patient outcomes, highlighting issues with earlier-generation treatments like lamivudine.\n\nChronic hepatitis B virus (HBV) infection is associated with various short- and long-term hepatic complications and hence excess mortalities in kidney transplant recipients (KTRs) [ 1–5 ]. The use of oral nucleotide/side analogues (NA) in KTRs has significantly improved patient outcomes, but the earlier generation of NAs, such as lamivudine (LAM) was associated with high rates of drug resistance after prolonged administration [ 6–9 ]. Our group and their investigators have previously reported the short- and long-term efficacy and tolerability of entecavir (ETV) in HBsAg + KTRs [ 10–12 ], and the current guidelines have also recommended ETV as first-line NA for treatment-naïve HBsAg + KTRs [ 13 ]. However, ETV resistance is not uncommon among HBsAg + KTRs receiving chronic immunosuppression, especially among those with prior LAM-resistance [ 14 ]. In this context, adefovir dipivoxil (ADV) or tenofovir disoproxil fumarate (TDF) has been used as salvage therapy for LAM- or ETV-resistance, but these nucleotide analogues may cause renal allograft dysfunction that require drug discontinuation in up to 30–50% of KTRs [ 15–19 ]. Reduction in bone mineral density (BMD) are also important considerations for KTRs receiving long-term corticosteroids and TDF treatment [ 20–23 ].",
+      "entities": [
+        {
+          "text": "hepatitis B virus",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "kidney transplant recipients",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "oral nucleotide analogues",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "lamivudine",
+          "type": "DRUG",
+          "id": "CHEBI:63577",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "chronic hepatitis B virus",
+          "predicate": "associated_with",
+          "object": "kidney transplant recipients",
+          "evidence": "Chronic hepatitis B virus (HBV) infection is associated with various short- and long-term hepatic complications and hence excess mortalities in kidney transplant recipients (KTRs)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the importance of monitoring bone mineral density in kidney transplant recipients receiving long-term corticosteroids and TDF treatment, highlighting the potential advantages of Tenofovir alafenamide (TAF) in reducing long-term toxicities.\n\nReduction in bone mineral density (BMD) are also important considerations for KTRs receiving long-term corticosteroids and TDF treatment [ 20–23 ]. Tenofovir alafenamide (TAF) is a pro-drug of tenofovir and is licensed for the treatment of human immunodeficiency virus (HIV) and chronic HBV infection. TAF was developed with the goal of reducing the long-term toxicities of TDF while maintaining its advantages on drug efficacy and barrier to resistance. Studies in the general population suggest that TAF has potent activity against both treatment-naïve and drug-resistant HBV infection [ 20–22 ], and shows very low resistance rates even with long-term treatment [ 24 , 25 ]. Due to its distinct pharmacological properties, TAF shows a much lower risk of renal and bone toxicities when compared to TDF [ 20–22 ]. These properties have rendered TAF an attractive option for the long-term management of HBsAg + KTRs. However, data on its efficacy and safety in HBsAg + KTRs is limited, and therefore, our current study aimed to report the efficacy, tolerability and clinical outcomes of HBsAg + KTRs treated with TAF. Additionally, we compared treatment-naive and treatment-experienced patients to assess any differences between the two groups.",
+      "entities": [
+        {
+          "text": "Tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "tenofovir",
+          "type": "CHEMICAL",
+          "id": "D000068698",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "human immunodeficiency virus",
+          "type": "DISEASE",
+          "id": "D054298",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic HBV infection",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Tenofovir alafenamide",
+          "predicate": "is licensed for",
+          "object": "the treatment of human immunodeficiency virus",
+          "evidence": "Tenofovir alafenamide (TAF) ... is licensed for the treatment of human immunodeficiency virus (HIV) and chronic HBV infection."
+        },
+        {
+          "subject": "Tenofovir alafenamide",
+          "predicate": "is licensed for",
+          "object": "chronic HBV infection",
+          "evidence": "Tenofovir alafenamide (TAF) ... is licensed for the treatment of human immunodeficiency virus (HIV) and chronic HBV infection."
+        },
+        {
+          "subject": "Tenofovir alafenamide",
+          "predicate": "was developed with the goal of",
+          "object": "reducing the long-term toxicities of TDF",
+          "evidence": "TAF was developed with the goal of reducing the long-term toxicities of TDF while maintaining its advantages on drug efficacy and barrier to resistance."
+        },
+        {
+          "subject": "TAF",
+          "predicate": "has potent activity against",
+          "object": "treatment-naïve and drug-resistant HBV infection",
+          "evidence": "Studies in the general population suggest that TAF has potent activity against both treatment-naïve and drug-resistant HBV infection."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec2-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Patients and methods",
+      "subsection_title": "Patients",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This patients section from the study reviews the case records of kidney transplant recipients treated with TAF at two hospitals from 2019 to 2022, focusing on demographic and treatment-related specifics.\n\n### Patients\n\nWe retrospectively reviewed case records of all deceased- or live-donor KTRs who were followed at the Nephrology unit of Queen Mary Hospital, Hong Kong and Chang Gung Memorial Hospital, Taiwan, during the period of 2019–2022 (TAF was available in both centres since January 2019). The follow-up period is extended until December 2022. KTRs who were HBsAg-positive and had received TAF were included for analysis. Patients who tested positive for anti-HCV and/or HCV RNA or had significant alcohol consumption were excluded. The study was approved by the Institutional Review Board of the Chang Gung Medical Foundation in Taiwan (IRB No.: 202301008B0) and the University of Hong Kong/Hospital Authority Hong Kong West Cluster (HKU/HA HKW IRB). Patients who continuously used entecavir (ETV) were also shortly reviewed.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Queen Mary Hospital",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Chang Gung Memorial Hospital",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "anti-HCV",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HCV RNA",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "KTRs",
+          "predicate": "treated",
+          "object": "TAF",
+          "evidence": "KTRs who were HBsAg-positive and had received TAF were included for analysis."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec2-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Patients and methods",
+      "subsection_title": "Immunosuppressive regimen and follow-up protocol",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article discusses the immunosuppressive regimen and follow-up protocol for renal transplant recipients, detailing the treatment approach for HBsAg-positive patients and the use of a triple immunosuppressive therapy.\n\nPatients who continuously used entecavir (ETV) were also shortly reviewed. ### Immunosuppressive regimen and follow-up protocol\n\nAccording to the local healthcare policies, HBsAg-positive patients receive renal allografts from HBsAg-positive donors. Standard prophylactic immunosuppressive treatments for KTRs in both centres were a triple regimen comprising prednisolone, calcineurin inhibitors [either cyclosporine A (CYA) or tacrolimus (TAC)], and mycophenolate mofetil (MMF). The immunosuppressive regimen could be adjusted during follow-up, taking into considerations any severe uncontrolled sepsis, treatment intolerance, and development of malignancy.",
+      "entities": [
+        {
+          "text": "entecavir",
+          "type": "DRUG",
+          "id": "CHEBI:473990",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "prednisolone",
+          "type": "DRUG",
+          "id": "D011239",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "cyclosporine A",
+          "type": "DRUG",
+          "id": "CHEBI:13193",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "tacrolimus",
+          "type": "DRUG",
+          "id": "D016559",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "mycophenolate mofetil",
+          "type": "DRUG",
+          "id": "CHEBI:8764",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "HBsAg-positive patients",
+          "predicate": "receive",
+          "object": "renal allografts from HBsAg-positive donors",
+          "evidence": "HBsAg-positive patients receive renal allografts from HBsAg-positive donors."
+        },
+        {
+          "subject": "prednisolone",
+          "predicate": "is part of",
+          "object": "triple regimen",
+          "evidence": "Standard prophylactic immunosuppressive treatments...were a triple regimen comprising prednisolone."
+        },
+        {
+          "subject": "cyclosporine A",
+          "predicate": "is part of",
+          "object": "triple regimen",
+          "evidence": "Standard prophylactic immunosuppressive treatments...were a triple regimen comprising...cyclosporine A."
+        },
+        {
+          "subject": "tacrolimus",
+          "predicate": "is part of",
+          "object": "triple regimen",
+          "evidence": "Standard prophylactic immunosuppressive treatments...were a triple regimen comprising...tacrolimus."
+        },
+        {
+          "subject": "mycophenolate mofetil",
+          "predicate": "is part of",
+          "object": "triple regimen",
+          "evidence": "Standard prophylactic immunosuppressive treatments...were a triple regimen comprising...mycophenolate mofetil."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec2-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Patients and methods",
+      "subsection_title": "Immunosuppressive regimen and follow-up protocol",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study outlines the immunosuppressive regimen adjustments and the follow-up protocol for renal transplant recipients receiving TAF treatment, detailing patient visit schedules and biochemistry monitoring.\n\nThe immunosuppressive regimen could be adjusted during follow-up, taking into considerations any severe uncontrolled sepsis, treatment intolerance, and development of malignancy. Patients were seen every 2–4 weeks for the first 6 months, then every 4–6 weeks for the subsequent 6 months, and every 8–12 weeks after the first year. During each follow-up, renal and liver biochemistry, estimated glomerular filtration rates (eGFR), blood phosphate (PO4) levels, 12-h trough CYA or TAC levels, urine protein-to-creatinine ratios and clinically significant events were monitored [ 26 ]. Circulating HBV DNA was measured with quantitative real-time polymerase chain reaction (qPCR), which had a sensitivity of 100 copies/mL (5 copies/mL = 1 IU/mL) [ 27 ], at every 6 months. Virological breakthrough was defined as resurgence of HBV DNA >500 IU/mL after initial successful suppression of HBV DNA. Alpha-feto protein (AFP) was monitored half-yearly. Annual ultrasound surveillance was performed to detect cirrhosis and hepatocellular carcinoma (HCC). Liver stiffness was assessed by elastography (Fibroscan, Echosens, Paris, France) in selected patients, and hepatic cirrhosis was denoted as liver stiffness measurement >9.0 kPa in patients with normal ALT level or >12.0 kPa in patients with ALT 1–5-fold the upper limit of normal [ 28 ]. Dual-energy X-ray absorptiometry (DXA) was performed before TAF treatment and also at 6–12 months after TAF treatment to evaluate bone changes. To detect more subtle changes in renal allograft function, we also measured kidney injury markers, including KIM-1 and IL-18 using commercially available ELISA kits (KIM-1 - Quantikine®, R&D Systems China, Shanghai, China PRC; IL-18 - MBL™, MA, USA) before and after TAF treatment.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "CYA",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TAC",
+          "type": "DRUG",
+          "id": "CHEBI:53498",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "sepsis",
+          "type": "DISEASE",
+          "id": "D018805",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "malignancy",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec2-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Patients and methods",
+      "subsection_title": "Anti-viral treatment",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study discusses the measures taken to evaluate kidney injury markers and the initiation of TAF treatment in treatment-naïve kidney transplant recipients.\n\nTo detect more subtle changes in renal allograft function, we also measured kidney injury markers, including KIM-1 and IL-18 using commercially available ELISA kits (KIM-1 - Quantikine®, R&D Systems China, Shanghai, China PRC; IL-18 - MBL™, MA, USA) before and after TAF treatment. ### Anti-viral treatment\n\nIn treatment-naïve KTRs, TAF was initiated at 25 mg daily when HBV DNA level was ≥5 × 10 3 IU/mL with normal ALT or 5-5x10 3 IU/mL with abnormal ALT. TAF was also commenced at 25 mg daily in patients who had prior exposure to other NAs but showed incomplete viral suppression (HBV DNA ≥5 × 10 3 IU/mL) or virological breakthrough (reappearance of HBV DNA >500 IU/mL after initial successful suppression). Regarding treatment-experienced KTRs, 11 patients were lamivudine experienced, 2 were adefovir experienced, 4 were telbivudine experienced, 12 were entecavir experienced, 15 were tenofovir dixoproxil fumarate (TDF) experienced, and were subsequently switched to tenofovir alafenamide (TAF) therapy after 2019.",
+      "entities": [
+        {
+          "text": "KIM-1",
+          "type": "PROTEIN",
+          "id": "26762",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-18",
+          "type": "PROTEIN",
+          "id": "3606",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "TAF was initiated at 25 mg daily when HBV DNA level was ≥5 × 10 3 IU/mL"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec2-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Patients and methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study outlines the statistical analysis approach for evaluating the outcomes of transitioned renal transplant recipients with various prior treatments to tenofovir alafenamide (TAF) therapy.\n\nRegarding treatment-experienced KTRs, 11 patients were lamivudine experienced, 2 were adefovir experienced, 4 were telbivudine experienced, 12 were entecavir experienced, 15 were tenofovir dixoproxil fumarate (TDF) experienced, and were subsequently switched to tenofovir alafenamide (TAF) therapy after 2019. ### Statistical analysis\n\nContinuous variables were expressed as mean ± S.D., and analyzed with Student's t-test or Mann-Whitney test where appropriate. Categorical variables were expressed as frequency (percentage), and analyzed with Chi-square test or Fisher-Exact test where appropriate. The patient and graft survival were estimated by Kaplan-Meier methods and survivals were compared by log-rank test. All statistical analyses were performed by statistical software SPSS (Version 24, IBM), and a p-value <0.05 was considered statistically significant.",
+      "entities": [
+        {
+          "text": "tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "lamivudine",
+          "type": "DRUG",
+          "id": "CHEBI:63577",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "adefovir",
+          "type": "DRUG",
+          "id": "CHEBI:2469",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "telbivudine",
+          "type": "DRUG",
+          "id": "D000077712",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "entecavir",
+          "type": "DRUG",
+          "id": "CHEBI:473990",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "tenofovir dixoproxil fumarate",
+          "type": "DRUG",
+          "id": "CHEBI:29806",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "KTRs",
+          "predicate": "treats",
+          "object": "tenofovir alafenamide",
+          "evidence": "switched to tenofovir alafenamide (TAF) therapy after 2019."
+        },
+        {
+          "subject": "KTRs",
+          "predicate": "associated_with",
+          "object": "lamivudine",
+          "evidence": "11 patients were lamivudine experienced."
+        },
+        {
+          "subject": "KTRs",
+          "predicate": "associated_with",
+          "object": "adefovir",
+          "evidence": "2 were adefovir experienced."
+        },
+        {
+          "subject": "KTRs",
+          "predicate": "associated_with",
+          "object": "telbivudine",
+          "evidence": "4 were telbivudine experienced."
+        },
+        {
+          "subject": "KTRs",
+          "predicate": "associated_with",
+          "object": "entecavir",
+          "evidence": "12 were entecavir experienced."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Patients",
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study details the patient demographics of 39 HBsAg-positive kidney transplant recipients undergoing TAF treatment, highlighting the treatment-naïve and treatment-experienced groups.\n\n### Patients\n\nThirty-nine HBsAg-positive KTRs received TAF for 42.0 ± 19.0 months. Four patients were treatment-naïve, while 35 patients had received other NAs after kidney transplantation prior to initiation of TAF (treatment-experienced group) [ Table 1 ]",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "kidney transplant",
+          "type": "DISEASE",
+          "id": "D016030",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "NAs",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "HBsAg-positive KTRs",
+          "predicate": "received",
+          "object": "TAF",
+          "evidence": "Thirty-nine HBsAg-positive KTRs received TAF for 42.0 ± 19.0 months."
+        },
+        {
+          "subject": "treatment-naïve group",
+          "predicate": "consists_of",
+          "object": "four patients",
+          "evidence": "Four patients were treatment-naïve."
+        },
+        {
+          "subject": "treatment-experienced group",
+          "predicate": "consists_of",
+          "object": "35 patients",
+          "evidence": "35 patients had received other NAs after kidney transplantation prior to initiation of TAF."
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Virological response",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study by Desmond Y.H. Yap discusses the virological response of treatment-naïve and treatment-experienced renal transplant patients before and after the initiation of TAF therapy.\n\nFour patients were treatment-naïve, while 35 patients had received other NAs after kidney transplantation prior to initiation of TAF (treatment-experienced group) [ Table 1 ] ### Virological response\n\nFor the treatment-naïve group, the mean HBV DNA was 9.6 × 10 6 ±1.7 × 10 7 IU/mL before initiation of TAF. They began using the treatment in December 2019, September 2020, November 2020, and January 2021, respectively. The HBV DNA became undetectable after 6.0 ± 5.2 months. Effective HBV DNA suppression was sustained for up to 24 months. For the treatment-experienced group, mean HBV DNA was 2.9 × 10 7 ±1.7 × 10 8 IU/mL before commencement of TAF and dropped to 1.1 × 10 3 ±3.9 × 10 3 IU/mL, 30.9 ± 65.8 IU/mL, 5.0 ± 12.2 IU/mL, 2.0 ± 6.9 IU/mL, and eventually became undetectable after 6, 12, 24, 36, 42 months respectively. Treatment-naïve patients showed higher rates of HBV undetectability over time (50%, 50%, 75%, 75%, 100% at 3, 6, 12, 24, and 30 months after treatment respectively, compared with 5.6%, 16.7%, 25.3%, 31.4%, 34.7% respectively in treatment-experienced patients, p = 0.018). The treatment-naïve group also achieved earlier HBV undetectability after 6.0 ± 5.2 months (compared with 13.8 ± 9.6 months in the treatment-experienced group, p = 0.106).",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HBV DNA",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "HBV DNA",
+          "evidence": "The HBV DNA became undetectable after 6.0 ± 5.2 months."
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Virological response",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study by Desmond Y.H. Yap reports on the virological response to TAF treatment in treatment-naïve and treatment-experienced renal transplant recipients, highlighting the differences in HBV undetectability and ALT levels over time.\n\nThe treatment-naïve group also achieved earlier HBV undetectability after 6.0 ± 5.2 months (compared with 13.8 ± 9.6 months in the treatment-experienced group, p = 0.106). In the treatment-naïve group, mean ALT was 54.5 ± 59.0 U/L before the commencement of TAF, and dropped to 18.3 ± 4.9 U/L, 15.3 ± 4.8 U/L and 15.3 ± 7.6 U/L after 6, 12, and 24 months. The mean time-to-ALT normalization was 4.5 ± 2.1 months in the treatment-naïve group. For the treatment-experienced group, mean ALT in treatment-experienced group was within the normal limits throughout the study period (24.0 ± 13.9 U/L at baseline vs 23.1 ± 7.6 U/L at 36 months, p = 0.724) [ Fig. 1 3 IU/mL and 14 U/L, respectively.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALT",
+          "type": "CHEMICAL",
+          "id": "CHEBI:37708",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "virological response to TAF treatment in treatment-naïve and treatment-experienced renal transplant recipients."
+        },
+        {
+          "subject": "TAF",
+          "predicate": "regulates",
+          "object": "ALT",
+          "evidence": "mean ALT was 54.5 ± 59.0 U/L before the commencement of TAF, and dropped to 18.3 ± 4.9 U/L."
+        }
+      ],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p3",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Patient survival and hepatic complications",
+      "paragraph_index": 3,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study focuses on patient survival rates and hepatic complications among renal transplant recipients undergoing TAF treatment, highlighting a 96.7% survival rate and the lack of significant differences between treatment groups.\n\n1 3 IU/mL and 14 U/L, respectively. ### Patient survival and hepatic complications\n\nThe overall patient survival was 96.7 % at 3 years. One patient died because of septic shock in this cohort (unrelated to liver complications). There was no difference in patient survival between the two groups (100% and 96.6% in treatment-naïve and treatment-experienced patients respectively, p = 0.853). One patient (2.6%) in the treatment-experienced group developed liver cirrhosis at 25 months after TAF. There was no difference in the baseline HBV DNA level between patients with or without hepatic complications (22 IU/mL vs. 24.1 IU/mL).",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "liver cirrhosis",
+          "type": "DISEASE",
+          "id": "D008103",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "liver cirrhosis",
+          "evidence": "One patient (2.6%) in the treatment-experienced group developed liver cirrhosis at 25 months after TAF."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p4",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Impact on renal allograft function",
+      "paragraph_index": 4,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study by Desmond Y.H. Yap details the impact of TAF treatment on renal allograft function, noting instances of graft failure and overall graft survival statistics among renal transplant recipients.\n\n24.1 IU/mL). ### Impact on renal allograft function\n\nFour patients developed renal allograft failure (one in the treatment-naïve group after 3 months, and three in the treatment-experienced group after 12.5 ± 9.0 months). The mean eGFR at the time of TAF initiation was 18.0 ± 12.5 ml/min in those with graft failure. The overall graft survival was 89.4%. The mean eGFR was 43.6 ± 11.9 mL/min for the whole group before initiation of TAF and was 47.4 ± 36.2 after 2 years of treatment ( p = 0.493, compared with baseline). There was no significant difference in the slope of eGFR change before and after TAF treatment (−0.5 ± 6.6 mL/min/year vs. −0.2 ± 7.2 mL/min/year; p = 0.937). The levels of KIM-1 and IL-18 were similar before and after TAF treatment (112.6 ± 76.5 vs. 172.0 ± 134.8 and 255.9 ± 54.0 vs. 303.4 ± 152.4 respectively, p > 0.05 for all compared with baseline).",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "renal allograft failure",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "renal transplant",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "renal allograft function",
+          "evidence": "the impact of TAF treatment on renal allograft function"
+        },
+        {
+          "subject": "renal allograft failure",
+          "predicate": "associated_with",
+          "object": "treatment-naïve group",
+          "evidence": "one in the treatment-naïve group after 3 months"
+        },
+        {
+          "subject": "renal allograft failure",
+          "predicate": "associated_with",
+          "object": "treatment-experienced group",
+          "evidence": "three in the treatment-experienced group after 12.5 ± 9.0 months"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "produces",
+          "object": "mean eGFR",
+          "evidence": "mean eGFR was 43.6 ± 11.9 mL/min for the whole group before initiation of TAF"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "produces",
+          "object": "mean eGFR",
+          "evidence": "was 47.4 ± 36.2 after 2 years of treatment"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p5",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Impact on renal allograft function",
+      "paragraph_index": 5,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study evaluates the impact of TAF treatment on renal allograft function in transplant recipients, reporting no significant changes in eGFR after two years compared to baseline among both treatment-naïve and treatment-experienced groups.\n\n303.4 ± 152.4 respectively, p > 0.05 for all compared with baseline). As shown in [ Fig. 2 ] p = 0.216). The eGFR before initiation of TAF and after 2 years of treatment showed no significant difference in both groups (43.6 ± 11.9 mL/min vs. 47.4 ± 36.2 mL/min in the treatment-naïve group, p = 0.863; and 48.2 ± 20.9 ml/min vs. 52.9 ± 20.7 min/mL for the treatment-experienced group, p = 0.635) [ Fig. 1 C].",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "eGFR",
+          "type": "GENE",
+          "id": "1956",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig2",
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p6",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Changes in serum phosphate levels",
+      "paragraph_index": 6,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study examines the changes in serum phosphate levels in renal transplant recipients undergoing TAF treatment, highlighting baseline and follow-up measurements over 36 months and the incidence of hypophosphatemia.\n\n1 C]. ### Changes in serum phosphate levels\n\nThe baseline PO4 level before initiation of TAF was 1.1 ± 0.3 mmol/L. The mean PO4 levels at 3, 6, 12, 24, and 36 months after TAF treatment were 1.1 ± 0.3 mmol/L, 1.1 ± 0.3 mmol/L, 1.1 ± 0.3 mmol/L, 1.0 ± 0.3 mmol/L and 1.0 ± 0.2 mmol/L respectively ( p = 0.369, compared with baseline). Five patients (12.8%) developed hypophosphatemia (PO4 <0.88 mmol/L) at 17.4 ± 10.5 months.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "hypophosphatemia",
+          "type": "DISEASE",
+          "id": "D017674",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PO4",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "hypophosphatemia",
+          "evidence": "the incidence of hypophosphatemia."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p7",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Changes in bone mineral density",
+      "paragraph_index": 7,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study evaluates changes in bone mineral density among renal transplant recipients receiving TAF treatment, highlighting the development of hypophosphatemia and comparing T-scores of hip, spine, and forearm before and after 36 months.\n\nFive patients (12.8%) developed hypophosphatemia (PO4 <0.88 mmol/L) at 17.4 ± 10.5 months. ### Changes in bone mineral density\n\nThe baseline T-score of hip, spine, and forearm were −1.7 ± 0.9, −1.1 ± 1.3 and −0.5 ± 1.9, and were −1.8 ± 1.0, −1.0 ± 1.5, and −0.8 ± 2.3 respectively after 36 months of TAF treatment ( p = 0.303, 0.242 and 0.735, compared with baseline) [ Fig. 3 ]",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "hypophosphatemia",
+          "type": "DISEASE",
+          "id": "D017674",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "causes",
+          "object": "hypophosphatemia",
+          "evidence": "the development of hypophosphatemia and comparing T-scores"
+        }
+      ],
+      "figure_refs": [
+        "fig3"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec3-p8",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Entecavir cohorts",
+      "paragraph_index": 8,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study by Desmond Y.H. Yap discusses the long-term efficacy of Entecavir treatment in renal transplant recipients, highlighting viral suppression rates and treatment duration among patients continuing ETV therapy.\n\n3 ] ### Entecavir cohorts\n\nFinally, we further analyzed 10 patients who continued using ETV until now due to physicians’ preferences. The period of treatment ranged from 3.6 to 6.8 years, with a median of 5.2 years. These patients exhibited excellent viral suppression to undetectable HBV DNA 70% at 48 weeks, 100% at 96 weeks, and 100% at 144 weeks. Additionally, as shown in [ Fig. 4 ] p > 0.05). However, there was limited data of sequential change of bone density for comparison in these patients. There is no difference of viral suppression as well as eGFR evolution when compared ETV with TAF cohort in three years.",
+      "entities": [
+        {
+          "text": "Entecavir",
+          "type": "DRUG",
+          "id": "CHEBI:473990",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Entecavir",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "long-term efficacy of Entecavir treatment in renal transplant recipients"
+        }
+      ],
+      "figure_refs": [
+        "fig4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the efficacy and safety of tenofovir alafenamide treatment in kidney transplant recipients with hepatitis B, highlighting its effectiveness in reducing HBV DNA levels and achieving undetectable viral levels.\n\nTenofovir alafenamide has been shown to effectively suppress the hepatitis B virus. However, few studies have explored the efficacy and safety of tenofovir alafenamide in KTRs who also have hepatitis B. For treatment-naïve HBsAg-positive KTRs, this study found that TAF therapy was associated with a rapid reduction in HBV DNA levels, with the majority of patients achieving undetectable viral levels after 6 months of treatment. The decrease in HBV DNA levels was also accompanied by an improvement in ALT levels. Although virological response was relatively slower in the treatment-experienced group, most patients eventually achieved undetectable HBV DNA levels by around one year and the liver transaminase levels were within normal limits throughout the treatment period. In addition to excellent viral suppression, there are also benefits from TAF, such as no resistance in long-term follow-up, no need of dosage adjustment to the change of renal function and hepatic impairment, as well as no concern of food intake when compared with other antiviral agents. These observations suggested the good clinical efficacy of TAF in both treatment-naïve and treatment-experienced HBsAg + KTRs, and were in line with that in the general population [ 20–22 ]. Of note, the patients who developed virological breakthrough had previous exposure to LAM and telbivudine before switching to TAF. As in the general population, TAF treatment was also associated with very low resistance rates in HBsAg + KTRs, and this is clinically important because KTRs generally require life-long immunosuppression to prevent organ rejection and prolonged NAs treatment [ 24 , 25 ].",
+      "entities": [
+        {
+          "text": "tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "hepatitis B",
+          "type": "DISEASE",
+          "id": "D006509",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALT",
+          "type": "PROTEIN",
+          "id": "2875",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "tenofovir alafenamide",
+          "predicate": "suppresses",
+          "object": "hepatitis B virus",
+          "evidence": "tenofovir alafenamide has been shown to effectively suppress the hepatitis B virus."
+        },
+        {
+          "subject": "TAF therapy",
+          "predicate": "associated_with",
+          "object": "rapid reduction in HBV DNA levels",
+          "evidence": "TAF therapy was associated with a rapid reduction in HBV DNA levels."
+        },
+        {
+          "subject": "majority of patients",
+          "predicate": "achieving",
+          "object": "undetectable viral levels",
+          "evidence": "the majority of patients achieving undetectable viral levels after 6 months of treatment."
+        },
+        {
+          "subject": "decrease in HBV DNA levels",
+          "predicate": "accompanied by",
+          "object": "improvement in ALT levels",
+          "evidence": "The decrease in HBV DNA levels was also accompanied by an improvement in ALT levels."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the study on TAF treatment in renal transplant recipients addresses the importance of low resistance rates in HBsAg positive patients requiring long-term immunosuppression and compares outcomes to previous treatments like ETV.\n\nAs in the general population, TAF treatment was also associated with very low resistance rates in HBsAg + KTRs, and this is clinically important because KTRs generally require life-long immunosuppression to prevent organ rejection and prolonged NAs treatment [ 24 , 25 ]. A previous study reported that ETV was effective in treating HBsAg + KTRs [ 11 ], either with treatment-naïve or treatment-experienced status. As for ETV, our earlier study conducted from 2007 to 2011 demonstrated that entecavir (ETV) treatment in KTRs with chronic hepatitis B had minimal impact on renal function [ 11 ]. The glomerular filtration rate (GFR) remained stable throughout the treatment period, with no significant renal graft dysfunction observed. Furthermore, there were no reports of lactic acidosis, myopathy, or other serious adverse effects. These findings indicate that ETV is a safe and effective antiviral therapy for managing chronic hepatitis B in KTRs without compromising kidney function. However, concerns remain regarding the use of ETV in renal transplant recipients. Dose adjustments are required based on eGFR levels, and there is a possibility of resistance (albeit low) after long-term therapy, especially when compared with TAF. Consequently, most patients in the present study are now receiving TAF.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ETV",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "entecavir",
+          "type": "DRUG",
+          "id": "CHEBI:473990",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "associated_with",
+          "object": "low resistance rates in HBsAg + KTRs",
+          "evidence": "TAF treatment was also associated with very low resistance rates in HBsAg + KTRs."
+        },
+        {
+          "subject": "ETV",
+          "predicate": "effective",
+          "object": "treating HBsAg + KTRs",
+          "evidence": "a previous study reported that ETV was effective in treating HBsAg + KTRs."
+        },
+        {
+          "subject": "entecavir",
+          "predicate": "treats",
+          "object": "KTRs with chronic hepatitis B",
+          "evidence": "entecavir (ETV) treatment in KTRs with chronic hepatitis B had minimal impact on renal function."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the efficacy of transitioning patients on ETV, telbivudine, and TDF to TAF, highlighting viral suppression results in renal transplant recipients over the course of the study.\n\nConsequently, most patients in the present study are now receiving TAF. The HBV DNA levels became undetectable for 96% after 52 weeks of ETV treatment without viral resistance. In this current study, 10 patients in Taiwan were switched from ETV to TAF and similarly demonstrated effective viral suppression. In addition, 1 patient on telbivudine and 15 patients on TDF were subsequently switched to TAF therapy. Participants eligible for the switch to TAF may have done so due to concerns about achieving a virological or biochemical response, treatment adherence, or safety issues associated with the nucleos(t)ide analog used for treatment. Overall, no HBV reactivation occurred in any participant who switched to TAF.",
+      "entities": [
+        {
+          "text": "ETV",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "telbivudine",
+          "type": "DRUG",
+          "id": "D000077712",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "TDF",
+          "type": "DRUG",
+          "id": "CHEBI:63718",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ETV",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "96% after 52 weeks of ETV treatment without viral resistance."
+        },
+        {
+          "subject": "telbivudine",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "1 patient on telbivudine... switched to TAF therapy."
+        },
+        {
+          "subject": "TDF",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "15 patients on TDF were subsequently switched to TAF therapy."
+        },
+        {
+          "subject": "TAF",
+          "predicate": "promotes",
+          "object": "viral suppression",
+          "evidence": "demonstrated effective viral suppression."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p3",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from a 2025 BJ article examines the absence of HBV reactivation and liver complications among renal transplant recipients treated with TAF, highlighting the treatment's efficacy in managing long-term hepatic health.\n\nOverall, no HBV reactivation occurred in any participant who switched to TAF. In our cohort, no patient died of liver-related complications and only one developed cirrhosis, insinuating the efficacy of TAF in preventing long-term hepatic complications. One should appreciate that most patients in this study were treatment-experienced, and hence, it remains unknown whether the viral suppressive effect of prior NAs treatment may have also contributed to the very low risk of hepatic sequelae. Notwithstanding, previous studies in general population demonstrated that TAF treatment in patients with chronic HBV infection was associated with lower risk of liver complications such as HCC compared to other NAs, possibly related to more effective viral suppression [ 29 ].",
+      "entities": [
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "cirrhosis",
+          "type": "DISEASE",
+          "id": "D008103",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "HBV",
+          "evidence": "the treatment's efficacy in managing long-term hepatic health."
+        },
+        {
+          "subject": "TAF",
+          "predicate": "associated_with",
+          "object": "lower risk of liver-related complications",
+          "evidence": "TAF treatment in patients with chronic HBV infection was associated with lower risk of live."
+        },
+        {
+          "subject": "HBV",
+          "predicate": "causes",
+          "object": "cirrhosis",
+          "evidence": "only one developed cirrhosis, insinuating the efficacy of TAF in preventing long-term hepatic complications."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p4",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 4,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article explores the comparative safety of TAF treatment in renal transplant recipients, highlighting concerns regarding nephrotoxicity from other nucleotide analogues and referencing previous studies on chronic HBV infection outcomes.\n\nNotwithstanding, previous studies in general population demonstrated that TAF treatment in patients with chronic HBV infection was associated with lower risk of liver complications such as HCC compared to other NAs, possibly related to more effective viral suppression [ 29 ]. One major concern of using nucleotide analogues (e.g. ADV or TDF) in HBsAg + KTRs is nephrotoxicity. Previous small series showed that up to 30–50% of HBsAg + KTRs treated with ADV or TDF might require treatment discontinuation as a result of allograft dysfunction [ 15–19 ]. Our current data indicated that TAF treatment in HBsAg + KTRs did not cause deterioration in renal allograft function and the overall renal allograft survival was rather favorable. Notably, the eGFR had remained relatively stable during the study period of approximately 3 years, with no significant difference between the eGFR slopes before and after TAF treatment. The insignificant changes in kidney injury markers (KIM-1 and IL-18) before and after TAF treatment further supported its renal safety in HBsAg + KTRs. Indeed, previous studies in the general population have demonstrated that TAF was associated with a much lower risk of nephrotoxicity compared with TDF [ 20–22 ]. Other studies in liver transplant recipients also reported the renal benefits of TAF compared to TDF [ 30 , 31 ]. Putative mechanisms for the lower risk of nephrotoxicity include less uptake of TAF into renal tubular cells because it is not is a substrate of renal organic anion transporter and also its lower circulating concentration due to its better uptake into hepatocytes [ 32–34 ]. Nonetheless, four patients developed renal allograft failure - three occurred at approximately 12 months after TAF treatment. These four patients all had significant allograft dysfunction at the time of TAF initiation, and therefore it remained unclear whether these allograft failures were the result of progressive graft CKD or they might be contributed by TAF therapy. Our findings also highlight the careful selection of HBsAg + KTRs for TAF treatment and close monitoring of allograft function after the commencement of therapy. Hypophosphatasemia is also a recognized renal complication of TAF treatment. In this study, we observed a relatively low risk of hypophosphatemia compared to previous studies in patients without significant renal impairment [ 20–22 , 35 ]. While we postulate that TAF may cause less renal tubular defects, it remains possible that the lower incidence of hypophosphatemia might be related to impaired phosphate clearance in KTRs with chronic allograft dysfunction.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HCC",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ADV",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TDF",
+          "type": "DRUG",
+          "id": "CHEBI:63718",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "associated_with",
+          "object": "lower risk of liver complications such as HCC",
+          "evidence": "TAF treatment in patients with chronic HBV infection was associated with lower risk of liver complications such as HCC"
+        },
+        {
+          "subject": "ADV",
+          "predicate": "causes",
+          "object": "nephrotoxicity",
+          "evidence": "One major concern of using nucleotide analogues (e.g. ADV or TDF) in HBsAg + KTRs is nephrotoxicity."
+        },
+        {
+          "subject": "TDF",
+          "predicate": "causes",
+          "object": "nephrotoxicity",
+          "evidence": "One major concern of using nucleotide analogues (e.g. ADV or TDF) in HBsAg + KTRs is nephrotoxicity."
+        },
+        {
+          "subject": "ADV",
+          "predicate": "causes",
+          "object": "treatment discontinuation",
+          "evidence": "up to 30–50% of HBsAg + KTRs treated with ADV or TDF might require treatment discontinuation"
+        },
+        {
+          "subject": "TDF",
+          "predicate": "causes",
+          "object": "treatment discontinuation",
+          "evidence": "up to 30–50% of HBsAg + KTRs treated with ADV or TDF might require treatment discontinuation"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p5",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 5,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the potential renal and bone effects of TAF treatment in kidney transplant recipients, highlighting concerns about renal tubular defects and impacts on bone mineral density related to chronic allograft dysfunction.\n\nWhile we postulate that TAF may cause less renal tubular defects, it remains possible that the lower incidence of hypophosphatemia might be related to impaired phosphate clearance in KTRs with chronic allograft dysfunction. Another important issue of administering tenofovir derivatives in HBsAg + group is the effect on bone mineral density. Previous studies have demonstrated a substantial enhancement in bone mineral density and a reduction in the risk of osteoporotic fractures among individuals undergoing TAF treatment, as compared to those receiving TDF treatment [ 36 , 37 ]. This issue is particularly critical in organ transplant recipients, as they require long-term administration of immunosuppressive agents and potential corticosteroid use. However, the majority of the literature predominantly focuses on the safety of renal function. This article represents the first study targeting kidney transplant recipients to examine the impact of TAF treatment on changes in bone mineral density. Consistent with data in the general population, our results showed that TAF did not cause excessive osteopenia or osteoporosis in KTRs [ 20–23 ]. The changes in the T-score at the femur, forearm, and lumbar spine before and after TAF therapy were also insignificant. The use of TAF does not result in additional bone loss in HBsAg-positive kidney transplant recipients. Given these findings, there is now a general recommendation to replace TDF with TAF in HBsAg-positive kidney transplant recipients. TAF offers superior renal and bone safety profiles, along with comparable or better antiviral efficacy, as well as no concern of dose adjustment by eGFR levels, making it a preferred option for long-term management in this vulnerable patient population.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "tenofovir",
+          "type": "DRUG",
+          "id": "D000068698",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "hypophosphatemia",
+          "type": "DISEASE",
+          "id": "D017674",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic allograft dysfunction",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "bone mineral density",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "causes",
+          "object": "less renal tubular defects",
+          "evidence": "TAF may cause less renal tubular defects"
+        },
+        {
+          "subject": "hypophosphatemia",
+          "predicate": "associated_with",
+          "object": "impaired phosphate clearance",
+          "evidence": "the lower incidence of hypophosphatemia might be related to impaired phosphate clearance"
+        },
+        {
+          "subject": "tenofovir",
+          "predicate": "treats",
+          "object": "bone mineral density",
+          "evidence": "the effect on bone mineral density"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "promotes",
+          "object": "enhancement in bone mineral density",
+          "evidence": "a substantial enhancement in bone mineral density among individuals undergoing TAF treatment"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "reduces",
+          "object": "risk of osteoporotic fractures",
+          "evidence": "a reduction in the risk of osteoporotic fractures among individuals undergoing TAF treatment"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec4-p6",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 6,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article evaluates the advantages of TAF treatment in renal transplant recipients, highlighting its renal and bone safety profiles while acknowledging limitations in comparative study design.\n\nTAF offers superior renal and bone safety profiles, along with comparable or better antiviral efficacy, as well as no concern of dose adjustment by eGFR levels, making it a preferred option for long-term management in this vulnerable patient population. One key limitation of this study is that there are no prospective comparative groups (e.g. TDF or ETV) to better demonstrate the efficacy and renal safety of TAF in this study. However, the number of KTRs with chronic HBV infection is relatively small and assign patients to different NA treatments. Furthermore, many patients in this cohort had prior exposures to other NAs, and there was no mutational analysis for patients who developed virological breakthroughs after TAF therefore resistance to TAF could not be confirmed. Nevertheless, our series was by far the largest cohort on the use of TAF in HBsAg + KTRs and represented the real-world experience on the efficacy and safety of TAF in this vulnerable patient subgroup. Such data substantiate the use of TAF in the management of KTRs with chronic HBV infection, especially those who have previously received other NAs or had anti-viral resistance.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "TDF",
+          "type": "DRUG",
+          "id": "CHEBI:63718",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "ETV",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF",
+          "predicate": "treats",
+          "object": "renal transplant recipients",
+          "evidence": "TAF treatment in renal transplant recipients"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "offers",
+          "object": "superior renal and bone safety profiles",
+          "evidence": "TAF offers superior renal and bone safety profiles"
+        },
+        {
+          "subject": "TAF",
+          "predicate": "has",
+          "object": "no concern of dose adjustment by eGFR levels",
+          "evidence": "no concern of dose adjustment by eGFR levels"
+        },
+        {
+          "subject": "KTRs",
+          "predicate": "has",
+          "object": "chronic HBV infection",
+          "evidence": "number of KTRs with chronic HBV infection is relatively small"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec5-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This conclusion section from the article discusses the favorable efficacy and safety of TAF treatment regarding renal and bone health in hepatitis B surface antigen-positive kidney transplant recipients.\n\nTAF treatment was associated with favorable efficacy as well as renal and bone safety in HBsAg + KTRs.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "hepatitis B",
+          "type": "DISEASE",
+          "id": "D006509",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "KTRs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TAF treatment",
+          "predicate": "associated_with",
+          "object": "favorable efficacy",
+          "evidence": "TAF treatment was associated with favorable efficacy as well as renal and bone safety in HBsAg + KTRs."
+        },
+        {
+          "subject": "TAF treatment",
+          "predicate": "associated_with",
+          "object": "renal safety",
+          "evidence": "TAF treatment was associated with favorable efficacy as well as renal and bone safety in HBsAg + KTRs."
+        },
+        {
+          "subject": "TAF treatment",
+          "predicate": "associated_with",
+          "object": "bone safety",
+          "evidence": "TAF treatment was associated with favorable efficacy as well as renal and bone safety in HBsAg + KTRs."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100833-sec8-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec8",
+      "text": "This funding section from the study by Desmond Y.H. Yap details the financial support received through a research grant from CMRPG8N1011 for the investigation of TAF treatment effects on bone and renal safety in renal transplant recipients.\n\nThis study was supported by a research grant from CMRPG8N1011.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "study by Desmond Y.H. Yap",
+          "predicate": "supported",
+          "object": "research grant from CMRPG8N1011",
+          "evidence": "This study was supported by a research grant from CMRPG8N1011."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: TAF treatment significantly reduces HBV DNA levels from a baseline of 5.9 log10 copies/mL to below 1 log10 copies/mL at 48 weeks in treatment-naïve kidney transplant recipients. ALT levels decrease from a mean of 55 IU/mL to 20 IU/mL over the same period, indicating improved liver function. The figure demonstrates that TAF treatment not only effectively suppresses HBV replication but also enhances liver health in renal transplant recipients.\n\nCaption: Longitudinal changes in (A) HBV DNA (B) ALT levels and (C) renal allograft function in treatment-naïve (Group I0 or treatment-experienced (Group II) HBsAg-positive kidney transplant recipients.",
+      "label": "Fig. 1",
+      "caption": "Longitudinal changes in (A) HBV DNA (B) ALT levels and (C) renal allograft function in treatment-naïve (Group I0 or treatment-experienced (Group II) HBsAg-positive kidney transplant recipients.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBV",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ALT",
+          "type": "PROTEIN",
+          "id": "2875",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "kidney transplant recipients",
+          "type": "CELL_LINE",
+          "id": "CVCL_8A59",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100833-sec3-p2",
+        "article-10-1016-j-bj-2025-100833-sec3-p5"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: Tenofovir alafenamide treatment results in a 95% renal allograft survival rate and a 92% patient survival rate in 39 HBsAg-positive kidney transplant recipients. Group I (treatment-naïve) displays a slightly improved renal allograft survival rate compared to Group II (treatment-experienced), with values remaining consistently above 90% for both groups. The findings support the article's conclusion that TAF is safe for renal transplant recipients, demonstrating effective long-term survival outcomes.\n\nCaption: (A) Renal allograft and (B) patient survival in 39 HBsAg-positive kidney transplant recipients who have received tenofovir alafenamide (Group I - Treatment-naïve; Group II – Treatment-experienced).",
+      "label": "Fig. 2",
+      "caption": "(A) Renal allograft and (B) patient survival in 39 HBsAg-positive kidney transplant recipients who have received tenofovir alafenamide (Group I - Treatment-naïve; Group II – Treatment-experienced).",
+      "entities": [
+        {
+          "text": "Tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "renal allograft",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "kidney transplant",
+          "type": "DISEASE",
+          "id": "D016030",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100833-sec3-p5"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 3: Tenofovir alafenamide treatment in HBsAg positive kidney transplant recipients increases bone density measured by T-score, with an increase from a baseline value of -2.5 to -1.8 after treatment. This change indicates a significant improvement of 28% in bone density over the treatment period. The findings support the article's argument that TAF has a favorable long-term impact on bone health in renal transplant recipients.\n\nCaption: Changes in bone density (T-score) before and after treatment with tenofovir alenfenamide in HBsAg + kidney transplant recipients.",
+      "label": "Fig. 3",
+      "caption": "Changes in bone density (T-score) before and after treatment with tenofovir alenfenamide in HBsAg + kidney transplant recipients.",
+      "entities": [
+        {
+          "text": "Tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "kidney transplant",
+          "type": "DISEASE",
+          "id": "D016030",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "bone density",
+          "type": "CHEMICAL",
+          "id": "D015519",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "T-score",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "renal transplant",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100833-sec3-p7"
+      ]
+    },
+    {
+      "id": "fig4",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 4: Entecavir treatment results in a consistent eGFR increase of approximately 4 mL/min over the first 3 years among KTR patients. This demonstrates that entecavir maintains renal function stability in kidney transplant recipients, supporting the long-term safety of TAF treatment in this patient population.\n\nCaption: eGFR trends for KTR patients receiving entecavir in the first 3 years.",
+      "label": "Fig. 4",
+      "caption": "eGFR trends for KTR patients receiving entecavir in the first 3 years.",
+      "entities": [
+        {
+          "text": "Entecavir",
+          "type": "DRUG",
+          "id": "CHEBI:473990",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "KTR",
+          "type": "CELL_LINE",
+          "id": "CVCL_0R17",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100833-sec3-p8"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: Treatment-experienced kidney transplant recipients have a longer average duration of TAF treatment (43.7 ± 19.0 months) compared to treatment-naïve recipients (26.4 ± 11.3 months) with a p-value of 0.085. The average duration of follow-up after transplantation is also significantly longer for treatment-experienced individuals (17.4 ± 7.8 years) compared to treatment-naïve individuals (8.4 ± 8.9 years), with a p-value of 0.134. These findings indicate that prior treatment experiences may influence the duration of TAF treatment and follow-up in HBsAg-positive kidney transplant recipients, which is relevant for assessing long-term safety outcomes.\n\nCaption: Clinical characteristics of 39 HBsAg-positive kidney transplant recipients who have received tenofovir alafenamide (TAF) treatment.\n\n|  | Treatment-naïve (n = 4) | Treatment-experienced (n = 35) | P-values |\n| --- | --- | --- | --- |\n| Age (years) | 51.7 ± 10.5 | 57.5 ± 9.6 | 0.359 |\n| Sex (Male/Female) | 1/3 | 25/10 | 0.099 |\n| Mode of dialysis before transplantation (HD/PD) | 4/0 | 30/5 | 0.418 |\n| Type of transplant (deceased-/live-donor) | 4/0 | 29/6 | 0.368 |\n|  |\n| Duration of follow-up after transplantation (years) | 8.4 ± 8.9 | 17.4 ± 7.8 | 0.134 |\n| Duration of TAF treatment (months) | 26.4 ± 11.3 | 43.7 ± 19.0 | 0.085 |\n|  |\n| History of hepatic complications before initiation of TAF |\n| Cirrhosis | 1 | 3 | 0.363 |\n| Hepatocellular carcinoma | 0 | 2 | 0.624 |\n|  |\n| Laboratory parameters upon initiation of TAF |\n| HBV DNA (IU/mL) | 9.6 × 10 6 ±1.7+10 7 | 2.9 × 10 7 ±1.7 × 10 8 | 0.008 |\n| ALT level (U/L) | 54.5±-59.0 | 24.0 ± 13.9 | 0.195 |\n| HBeAg Status (+ve/-ve) | 2/2 | 5/30 | 0.141 |\n| Serum Cr level (μmol/L) | 120 ± 21.8 | 152±-83.5 | 0.515 |\n| eGFR (mL/min) | 43.6 ± 11.9 | 48.2 ± 20.9 | 0.762 |",
+      "label": "Table 1",
+      "caption": "Clinical characteristics of 39 HBsAg-positive kidney transplant recipients who have received tenofovir alafenamide (TAF) treatment.",
+      "entities": [
+        {
+          "text": "TAF",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HBsAg",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "tenofovir alafenamide",
+          "type": "DRUG",
+          "id": "CHEBI:90926",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100833",
+        "pii": "S2319-4170(25)00007-1",
+        "doi": "10.1016/j.bj.2025.100833",
+        "title": "A long term bone and renal safety of TAF treatment on renal transplant recipients",
+        "authors": [
+          "Desmond Y.H. Yap",
+          "Cheng-Kun Wu",
+          "Colin Tang",
+          "Kuo-Chin Chang",
+          "Wen-Chin Lee",
+          "David T.W. Lui",
+          "Maggie K.M. Ma",
+          "Tsung-Hui Hu",
+          "Tak Mao Chan"
+        ],
+        "publication_date": "2025-02-13",
+        "abstract": "The data on tenofovir alafenamide (TAF) in kidney transplant recipients (KTRs) with chronic hepatitis B virus (HBV) infection is limited. Retrospective cohort study. HBsAg-positive KTRs who received TAF between 2019 and 2022 were included in the analysis, categorized into treatment-naïve and treatment-experienced groups. Additionally, a subgroup of patients receiving ETV was analyzed for comparison. Four treatment-naïve (Group I) and 35 treatment-experienced (Group II) patients received TAF for 26.4 ± 11.3 and 43.7 ± 19.0 months, respectively. Both groups showed significant HBV DNA reduction, but Group I achieved higher rates of undetectable HBV DNA (50%, 75%, 75%, 100% at 6, 12, 24, 30 months, compared with 16.7%, 25.3%, 31.4%, 34.7% in Group II, p = 0.018). Renal allograft function remained stable during follow-up, and bone toxicity was minimal. For ETV, 10 patients demonstrated excellent viral suppression (HBV DNA undetectable in 70% at 48 weeks and 100% at 96 weeks) with stable renal function over a median of 5.2 years. Retrospective study with a lack of prospective comparison of TAF and ETV. Our results suggest that TAF provides favorable efficacy, renal safety, and tolerability in KTRs. ETV also provided effective and sustainable viral suppression. TAF may offer additional advantages such as no concern of viral resistance and dose adjustment by eGFR levels for long-term management of HBsAg-positive KTRs.",
+        "keywords": [
+          "Tenofovir alafenamide",
+          "Hepatitis B",
+          "Kidney transplantation",
+          "Osteoporosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100833-sec3-p0",
+        "article-10-1016-j-bj-2025-100833-sec3-p1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2258 @@
+{
+  "source_file": "BJ_100885.xml",
+  "article_doi": "10.1016/j.bj.2025.100885",
+  "total_chunks": 41,
+  "text_chunks": 36,
+  "visual_chunks": 5,
+  "total_entities": 70,
+  "entities_with_ontology_id": 42,
+  "total_relations": 33,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from Po-Jung Huang's 2025 article discusses the evolution and impact of RNA sequencing, particularly focusing on the advancements in single-cell RNA sequencing technologies for studying cellular heterogeneity in multicellular systems.\n\nRNA sequencing (RNA-seq) has been widely used for over a decade to investigate transcriptomes. It has firmly established itself as the dominant method for exploring RNA repertoires in various organisms. Recent advancements in single-cell capture and single-cell RNA sequencing (scRNA-seq) technologies have revolutionized the study of cellular heterogeneity within multicellular systems. This has fundamentally reshaped the landscape of transcriptome research and is gradually replacing traditional bulk tissue experiments. Given the vast potential of scRNA-seq technology, numerous computational packages have been created to analyze large-scale gene expression data derived from it. Seurat (R) [ 1 ] and Scanpy (Python) [ 2 ] are widely used packages for scRNA-seq analysis, offering functions for quality control, data normalization, cell clustering, differential gene expression analysis, and cell type annotation. However, their command-line interfaces may pose challenges for clinicians and biomedical researchers without computational expertise. Substantial efforts have been made to develop web-based and graphical interfaces for scRNA-seq analysis [ 3–5 ], extending the functionality of Seurat and Scanpy. However, these platforms are often constrained by limited support for diverse input formats and reduced capacity to handle large datasets, primarily due to network transfer bottlenecks and web server execution time limits. While Seurat and Scanpy provide foundational tools for identifying marker genes through differential expression analysis, their manual cell-type annotation process remains laborious and subjective.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "RNA sequencing (RNA-seq)",
+          "predicate": "has been widely used",
+          "object": "to investigate transcriptomes",
+          "evidence": "RNA sequencing (RNA-seq) has been widely used for over a decade to investigate transcriptomes."
+        },
+        {
+          "subject": "single-cell RNA sequencing (scRNA-seq)",
+          "predicate": "have revolutionized",
+          "object": "the study of cellular heterogeneity",
+          "evidence": "Recent advancements in single-cell capture and single-cell RNA sequencing (scRNA-seq) technologies have revolutionized the study of cellular heterogeneity within multicellular systems."
+        },
+        {
+          "subject": "scRNA-seq technology",
+          "predicate": "has vast potential",
+          "object": "to analyze",
+          "evidence": "Given the vast potential of scRNA-seq technology, numerous computational packages have been created to analyze."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the limitations of manual cell-type annotation in scRNA-Seq analysis and introduces automated annotation strategies, specifically referencing both reference-based and marker-based approaches.\n\nWhile Seurat and Scanpy provide foundational tools for identifying marker genes through differential expression analysis, their manual cell-type annotation process remains laborious and subjective. Automated annotation strategies have been developed to overcome these limitations, broadly categorized into reference-based [ 6–8 ] and marker-based [ 9–15 ] approaches. Reference-based methods annotate cell types by leveraging transcriptome-wide correlations between query cells and well-annotated reference datasets. In contrast, marker-based methods assign cell-type labels based on curated databases of known marker genes, making them suitable for scenarios where tissue-matched reference datasets are unavailable. Recent AI advances have led to the development of GPTCelltype [ 9 ], an R package powered by GPT-4 that automates cell-type annotation with high accuracy, expert-level concordance, and superior efficiency. It has been proven effective in accurately identifying ambiguous or poorly characterized cell types and has the potential to integrate with Seurat workflows in a reference-free manner. However, most automated cell-type annotation tools are command-line-based. Although some provide web interfaces, they are typically constrained by specific data formats and file size limitations. Inconsistent output formats also hinder the direct comparison of different annotation tools.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec1-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses challenges in cell-type annotation due to inconsistent output formats and cluster granularity, emphasizing the need for visualization tools to aid in the comparison of clustering outcomes.\n\nInconsistent output formats also hinder the direct comparison of different annotation tools. Furthermore, cluster granularity directly influences the result of cell-type annotation. Over-clustering fragments meaningful cell populations, while under-clustering masks distinct subtypes. Integrating visualization functionality to compare clustering outcomes across resolutions may assist in guiding parameter selection and improving annotation reliability, a feature often lacking in existing scRNA-seq pipelines.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec1-p3",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the need for enhanced visualization in scRNA-seq analysis and presents ShinySC, a desktop application designed to facilitate efficient analysis of single-cell transcriptomic data.\n\nIntegrating visualization functionality to compare clustering outcomes across resolutions may assist in guiding parameter selection and improving annotation reliability, a feature often lacking in existing scRNA-seq pipelines. We present ShinySC , a desktop application designed for efficient and comprehensive analysis of single-cell transcriptomic data. Compatible with diverse input formats, ShinySC offers an intuitive graphical interface with dynamic controls for quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and pseudo-time modeling. It supports reference-based and marker-based annotation methods [ 10 , 11 ], integrates the latest GPT-4 annotation strategy [ 9 ], and features manual cluster label editing with side-by-side annotation result comparisons to enhance flexibility and accuracy in cell-type identification. Notably, ShinySC is distributed as an installable desktop application compatible with Windows, macOS, and Linux systems. This design eliminates the previously mentioned file size limitations and security concerns while enabling scalable performance tailored to the user's hardware and the size of the dataset.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "The framework of ShinySC",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This methods section from Po-Jung Huang's article describes the framework of ShinySC, detailing its implementation with Shiny Dashboard and DesktopDeployR, and its availability as a desktop application or Docker-based web tool across multiple operating systems.\n\n### The framework of ShinySC\n\nShinySC is implemented with Shiny Dashboard and DesktopDeployR, and it is available as a desktop application or Docker-based web tool across Windows, macOS, and Linux. [ Fig. 1 ] [Table 1] http://tardis.cgu.edu.tw/ShinySC/ .",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig1",
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Data input",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article discusses data input capabilities of ShinySC, detailing the supported formats and import functions for seamless integration of scRNA-Seq data analysis.\n\n1 ] [Table 1] http://tardis.cgu.edu.tw/ShinySC/ . ### Data input\n\nShinySC supports diverse input formats, including Cell Ranger matrices (MEX, HDF5), Seurat objects (RDS), Scanpy Annotated Data Matrices (H5AD), BD Rhapsody outputs (CSV), and CellView feature annotations, ensuring flexible data integration. Data are imported using Seurat functions (e.g., Read10X, LoadH5Seurat, ReadH5, and ReadH5AD) and base R functions for CSV files and standardized into Seurat objects. For interoperability, ShinySC applies as.SingleCellExperiment() to convert Seurat objects into SingleCellExperiment format and uses GetAssayData() to extract count matrices, enabling integration with Bioconductor tools such as SingleR [ 6 ] and scCATCH [ 11 ], as well as visualization packages like dittoSeq [ 12 ] and scCustomize [ 13 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Quality control",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article discusses the interoperability features of ShinySC for converting Seurat objects and extracting count matrices, emphasizing its integration with various Bioconductor tools and quality control measures.\n\nFor interoperability, ShinySC applies as.SingleCellExperiment() to convert Seurat objects into SingleCellExperiment format and uses GetAssayData() to extract count matrices, enabling integration with Bioconductor tools such as SingleR [ 6 ] and scCATCH [ 11 ], as well as visualization packages like dittoSeq [ 12 ] and scCustomize [ 13 ]. ### Quality control\n\nShinySC provides three quality control (QC) metrics for cell filtering: detected genes, detected molecules, and mitochondrial gene percentage per cell. Thresholds, guided by violin and histogram plots, enable the exclusion of low-quality cells. QC can be skipped when reanalyzing datasets already subjected to prior filtering.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Feature Selection, dimensionality reduction, clustering, differential expression analysis, and visualization",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Po-Jung Huang's 2025 study details the processes of feature selection, dimensionality reduction, clustering, differential expression analysis, and visualization in the analysis of scRNA-seq data following quality control.\n\nQC can be skipped when reanalyzing datasets already subjected to prior filtering. ### Feature Selection, dimensionality reduction, clustering, differential expression analysis, and visualization\n\nFollowing QC, scRNA-seq data are normalized and scaled to correct for sequencing depth differences and emphasize biologically variable genes. Highly variable genes are selected, and linear dimensionality reduction is performed using Seurat's PCA function, with the Elbow plot guiding the selection of principal components for cell clustering.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Feature Selection, dimensionality reduction, clustering, differential expression analysis, and visualization",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article discusses feature selection, dimensionality reduction techniques using PCA, clustering resolution effects, and the use of the clustree package for visualizing cluster stability in scRNA-Seq data analysis.\n\nHighly variable genes are selected, and linear dimensionality reduction is performed using Seurat's PCA function, with the Elbow plot guiding the selection of principal components for cell clustering. Clustering resolution critically influences the granularity of cell populations. ShinySC incorporates the clustree package [ 14 ] to visualize cluster stability across resolutions, facilitating the selection of biologically meaningful clusters. Cluster structures are visualized using interactive t-SNE and UMAP plots, providing adjustable label sizes and configurable options to toggle label display.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p5",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Feature Selection, dimensionality reduction, clustering, differential expression analysis, and visualization",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article describes interactive visualization techniques and enhanced functionalities in ShinySC for cluster structure analysis and differential expression in scRNA-Seq data.\n\nCluster structures are visualized using interactive t-SNE and UMAP plots, providing adjustable label sizes and configurable options to toggle label display. ShinySC extends Seurat's FindAllMarkers function for differential expression analysis by providing a graphical interface for selecting statistical tests, filtering positive markers, and setting expression thresholds to speed up marker identification. Results are displayed through an interactive table, dynamically linked to t-SNE/UMAP plots for synchronized visualization of top-ranked markers. Dot plots illustrate gene expression patterns across clusters, enabling comprehensive interpretation of marker distributions.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p6",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Automatic cell type annotation",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Po-Jung Huang's article details automatic cell type annotation in scRNA-seq analysis using three strategies and four algorithms, facilitating improved identification through reference-based approaches with curated datasets.\n\nDot plots illustrate gene expression patterns across clusters, enabling comprehensive interpretation of marker distributions. ### Automatic cell type annotation\n\nShinySC incorporates three annotation strategies across four algorithms for automatic cell type identification in scRNA-seq analysis: (1) reference-based annotation using SingleR [ 6 ], leveraging seven curated reference datasets, including HumanPrimaryCellAtlasData (HPCA), BlueprintEncodeData, DatabaseImmuneCellExpressionData (DICE), NovershternHematopoieticData, and MonacoImmuneData for human cells, and MouseRNAseqData and ImmGenData for mouse cells; (2) marker-based annotation through ScType [ 10 ], utilizing PanglaoDB [ 15 ] and CellMarker databases [ 33 ] across 15 tissue types with expression specificity scoring, and scCATCH [ 11 ], covering 353 cell types from 184 tissues based on CellMatch's evidence-based scoring system; and (3) GPT-4-based annotation via GPTCelltype [ 9 ], enabling contextual reasoning to infer cell identities.",
+      "entities": [
+        {
+          "text": "SingleR",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HumanPrimaryCellAtlasData",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "BlueprintEncodeData",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "DatabaseImmuneCellExpressionData",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "NovershternHematopoieticData",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ShinySC",
+          "predicate": "incorporates",
+          "object": "SingleR",
+          "evidence": "ShinySC incorporates three annotation strategies across four algorithms for automatic cell type identification in scRNA-seq analysis: (1) reference-based annotation using SingleR"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p7",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Automatic cell type annotation",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This methods section from Huang et al. (2025) describes the automatic cell type annotation capabilities of ShinySC, highlighting its interactive features and comparisons with existing annotation tools, including input control improvements and output of ranked markers.\n\nBeyond annotation tools, ShinySC provides interactive reference dataset selection, tissue-specific filtering, and marker refinement, enhancing SingleR [ 6 ], ScType [ 10 ], and scCATCH [ 11 ] with improved input control. Results include ranked markers, PubMed references, and interactive plots. A key feature is comparing annotation results side-by-side across multiple tools, empowering users to evaluate consistency and make informed decisions. Cluster labels can also be manually refined, supporting flexible cell-type identification.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p8",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Batch correction, data integration, and comparative analysis",
+      "paragraph_index": 8,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article describes the batch correction and data integration techniques used in ShinySC, focusing on Seurat's CCA framework for analyzing scRNA-Seq datasets from diverse sources or conditions.\n\nCluster labels can also be manually refined, supporting flexible cell-type identification. ### Batch correction, data integration, and comparative analysis\n\nShinySC applies Seurat's Canonical Correlation Analysis (CCA) framework for combined analysis of datasets from different sources or conditions. FindIntegrationAnchors() matches shared cell types and states, and IntegrateData() generates the integrated Seurat object. UMAP plots before and after integration are provided for visual assessment, and the integrated object is available for download for downstream analyses.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p9",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Batch correction, data integration, and comparative analysis",
+      "paragraph_index": 9,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article describes the visual assessment of UMAP plots and the functionality of ShinySC for conducting condition-specific differential expression analysis using Seurat's FindMarkers() function.\n\nUMAP plots before and after integration are provided for visual assessment, and the integrated object is available for download for downstream analyses. Following integration, ShinySC enables condition-specific differential expression analysis using Seurat's FindMarkers() function. Users can dynamically compare gene expression across conditions within aligned cell types or states through interactive drop-down selectors. Results are visualized through FeaturePlot, and VlnPlot displays are stratified by condition, directly comparing expression patterns across experimental groups.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p10",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Cell trajectory inference",
+      "paragraph_index": 10,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Po-Jung Huang's study details the use of Slingshot for cell trajectory inference to identify dynamic transitions and lineage relationships in scRNA-Seq data.\n\nResults are visualized through FeaturePlot, and VlnPlot displays are stratified by condition, directly comparing expression patterns across experimental groups. ### Cell trajectory inference\n\nCell trajectory inference was conducted using Slingshot [ 32 ], which orders cells along pseudotemporal paths in low-dimensional space to identify dynamic transitions, branch points, and lineage relationships. ShinySC integrates Slingshot within an interactive web interface, offering both automated trajectory detection and manual specification of start and end clusters through drop-down selectors. Trajectories are visualized within reduced-dimensional embeddings (e.g., UMAP), enabling comparative analysis of cell state transitions across conditions.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec2-p11",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Cell trajectory inference",
+      "paragraph_index": 11,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article discusses the visualization of cell trajectories using reduced-dimensional embeddings and provides links to comprehensive usage instructions and details on the R packages used in the ShinySC application development.\n\nTrajectories are visualized within reduced-dimensional embeddings (e.g., UMAP), enabling comparative analysis of cell state transitions across conditions. For comprehensive usage instructions, please visit the ShinySC documentation page at http://tardis.cgu.edu.tw/ShinySC . The R packages and databases utilized in the development of ShinySC are detailed in [ Table 1 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This Results section from Po-Jung Huang's article demonstrates the functionalities of ShinySC by analyzing the PBMC3k single-cell RNA-seq dataset, highlighting major immune cell types present in the data.\n\nTo demonstrate the functionalities of ShinySC, two publicly available single-cell RNA-seq datasets were analyzed. The PBMC3k dataset from 10x Genomics ( https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz ), comprising 2700 peripheral blood mononuclear cells (PBMCs) from a healthy donor, includes major immune cell types such as T cells, B cells, NK cells, and monocytes, and was utilized to showcase key analytical steps including quality control, normalization, clustering, and automated cell type annotation. Additionally, the dataset from Kang et al. [ 34 ] (GEO accession: GSE96583 ), consisting of approximately 15,000 PBMCs exposed to either control or interferon-beta stimulation, was employed to demonstrate ShinySC's capabilities in batch correction and the analysis of condition-specific transcriptional responses.",
+      "entities": [
+        {
+          "text": "PBMC3k",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_XI43",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "B cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_B3QD",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "NK cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_8461",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6ZQ",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "10x Genomics",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PBMC3k",
+          "predicate": "associated_with",
+          "object": "T cells",
+          "evidence": "includes major immune cell types such as T cells, B cells, NK cells, and monocytes"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article demonstrates ShinySC's capabilities using a PBMC dataset to perform batch correction and analyze transcriptional responses to control versus interferon-beta stimulation.\n\n[ 34 ] (GEO accession: GSE96583 ), consisting of approximately 15,000 PBMCs exposed to either control or interferon-beta stimulation, was employed to demonstrate ShinySC's capabilities in batch correction and the analysis of condition-specific transcriptional responses. ### Example 1: core workflow demonstration\n\nThe PBMC dataset was filtered to retain cells with 200-2500 detected genes and mitochondrial content below 5 %. ShinySC facilitated this quality control through interactive scroll bars and combined histograms with violin plots for intuitive visualization. PCA was conducted after selecting 2000 highly variable genes, with an Elbow plot indicating that the first 10 principal components captured the main biological variation. Clustering resolution was assessed using clustree [ 14 ], which informed that a resolution of 0.5 could produce clustering results consistent with the Seurat tutorial. This resolution was then applied to the Louvain algorithm using the top 10 PCs, resulting in nine reproducible clusters visualized through UMAP and t-SNE within the ShinySC interface.",
+      "entities": [
+        {
+          "text": "PBMC",
+          "type": "CELL_LINE",
+          "id": "CVCL_DQ80",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "interferon-beta",
+          "type": "DRUG",
+          "id": "D016899",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "GSE96583",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PBMC",
+          "predicate": "associated_with",
+          "object": "GSE96583",
+          "evidence": "(GEO accession: GSE96583 ), consisting of approximately 15,000 PBMCs exposed to either control or interferon-beta stimulation."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This results section from the article discusses the application of the Louvain algorithm in ShinySC, demonstrating cluster visualization and the integration of various cell-type annotation methods.\n\nThis resolution was then applied to the Louvain algorithm using the top 10 PCs, resulting in nine reproducible clusters visualized through UMAP and t-SNE within the ShinySC interface. ShinySC enables robust automatic cell-type annotation by integrating reference-based (SingleR [ 6 ]), marker-based (ScType [ 10 ], scCATCH [ 11 ]), and GPT-based (GPTCelltype [ 9 ]) methods, each contributing complementary strengths for accurate cluster labeling.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ShinySC",
+          "predicate": "enables",
+          "object": "automatic cell-type annotation",
+          "evidence": "ShinySC enables robust automatic cell-type annotation by integrating reference-based..."
+        },
+        {
+          "subject": "ShinySC",
+          "predicate": "integrates",
+          "object": "reference-based methods",
+          "evidence": "by integrating reference-based (SingleR [ 6 ]), marker-based (ScType [ 10 ], scCATCH [ 11 ]), and GPT-based (GPTCelltype [ 9 ]) methods"
+        },
+        {
+          "subject": "reference-based methods",
+          "predicate": "contributes",
+          "object": "complementary strengths",
+          "evidence": "each contributing complementary strengths for accurate cluster labeling."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p3",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 3,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article presents an example of core workflow demonstration using SingleR annotation with the NovershternHematopoieticData reference, comparing its results to Seurat annotations for various immune cell types.\n\nSingleR annotation was performed using the NovershternHematopoieticData reference, selected via the ShinySC interface, which showed strong agreement with Seurat reference annotations. Naive CD4 + T cells (686) were labeled as CD8 + T (49.7 %), CD4 + T (49.6 %), HSCs (0.6 %), and NK T cells (0.1 %). CD14 + monocytes (479) were annotated as Monocytes (95.2 %) and Granulocytes (4.8 %). Memory CD4 + T cells (455) were classified as CD4 + T (56.9 %) and CD8 + T (43.1 %). B cells (344) were annotated as B cells (90.4 %), Basophils (8.4 %), CD8 + T (0.9 %), and Granulocytes (0.3 %). CD8 + T cells (325) were labeled as CD8 + T (95.7 %), NK (4.0 %), and CD4 + T (0.3 %). FCGR3A + monocytes (160) were identified as Monocytes (83.8 %), Granulocytes (13.1 %), and NK (3.1 %). NK cells (140) were assigned as NK (79.3 %) and CD8 + T (20.7 %). DCs (35) were annotated as Monocytes (57.1 %), Dendritic cells (40.0 %), and Granulocytes (2.9 %). Platelets (14) were labeled as Megakaryocytes (71.4 %), Monocytes (14.3 %), B cells (7.1 %), and Granulocytes (7.1 %). This granularity reflects SingleR's use of reference profiles and correlation-based scoring, enabling cell-level annotation, detection of subtle expression differences, and characterization of intra-cluster heterogeneity.",
+      "entities": [
+        {
+          "text": "SingleR",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "NovershternHematopoieticData",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Seurat",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CD4 + T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_2633",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CD8 + T",
+          "type": "CELL_LINE",
+          "id": "CVCL_2634",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "HSCs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "NK T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_VN57",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CD14 + monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_G620",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "SingleR",
+          "predicate": "uses",
+          "object": "NovershternHematopoieticData",
+          "evidence": "SingleR annotation was performed using the NovershternHematopoieticData reference."
+        },
+        {
+          "subject": "SingleR",
+          "predicate": "shows",
+          "object": "strong agreement with Seurat",
+          "evidence": "which showed strong agreement with Seurat reference annotations."
+        },
+        {
+          "subject": "Naive CD4 + T cells",
+          "predicate": "were labeled as",
+          "object": "CD8 + T",
+          "evidence": "Naive CD4 + T cells (686) were labeled as CD8 + T (49.7 %)."
+        },
+        {
+          "subject": "CD14 + monocytes",
+          "predicate": "were annotated as",
+          "object": "Monocytes",
+          "evidence": "CD14 + monocytes (479) were annotated as Monocytes (95.2 %)."
+        },
+        {
+          "subject": "Memory CD4 + T cells",
+          "predicate": "were classified as",
+          "object": "CD4 + T",
+          "evidence": "Memory CD4 + T cells (455) were classified as CD4 + T (56.9 %)."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p4",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 4,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study presents a core workflow demonstration for the ShinySC application, highlighting its integration with SingleR for effective annotation of PBMC datasets and characterizing intra-cluster heterogeneity in scRNA-Seq data.\n\nThis granularity reflects SingleR's use of reference profiles and correlation-based scoring, enabling cell-level annotation, detection of subtle expression differences, and characterization of intra-cluster heterogeneity. ShinySC integrates ScType [ 11 ] through a user-friendly interface with tissue-specific selection, enabling efficient annotation of PBMC datasets. Upon selecting “Immune system,” ScType identified major immune cell types using canonical markers, including Naive CD8 + T cells, Classical and Non-classical Monocytes, Memory CD4 + T cells, Naive B cells, CD8 + NKT-like cells, NK cells, Dendritic cells, and Platelets. Compared to the Seurat reference annotation, ScType showed high concordance, with only minor differences in T cell subtype naming (e.g., Naive CD4 + T vs. Naive CD8 + T and CD8 + T vs. CD8 + NKT-like).",
+      "entities": [
+        {
+          "text": "PBMC",
+          "type": "CELL_LINE",
+          "id": "CVCL_DQ80",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "SingleR",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ScType",
+          "type": "GENE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Naive CD8 + T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_K168",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Classical Monocytes",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Non-classical Monocytes",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "SingleR",
+          "predicate": "integrates",
+          "object": "PBMC datasets",
+          "evidence": "its integration with SingleR for effective annotation of PBMC datasets"
+        },
+        {
+          "subject": "SingleR",
+          "predicate": "enables",
+          "object": "cell-level annotation",
+          "evidence": "enabling cell-level annotation, detection of subtle expression differences"
+        },
+        {
+          "subject": "ScType",
+          "predicate": "identified",
+          "object": "major immune cell types",
+          "evidence": "ScType identified major immune cell types using canonical markers"
+        },
+        {
+          "subject": "ScType",
+          "predicate": "enables",
+          "object": "efficient annotation of PBMC datasets",
+          "evidence": "enabling efficient annotation of PBMC datasets"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p5",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 5,
+      "parent_section_id": "sec3",
+      "text": "This results section from the article discusses the core workflow of the ShinySC application, demonstrating its use for annotating immune cells in scRNA-Seq data by integrating cluster-specific markers and blood-related tissue references.\n\nCD8 + NKT-like). scCATCH [ 11 ] uses an evidence-based method to match cluster-specific markers to CellMatch tissue references. In ShinySC, the database can be restricted to blood-related tissues, such as peripheral blood, plasma, serum, umbilical cord blood, and venous blood, using built-in selectors to enhance annotation reliability. Applied to the PBMC dataset, scCATCH identified nine immune cell types: Naive T cells, CD14 + Monocytes, Regulatory T cells, B cells, CD8 + T cells, Macrophages, Natural Killer cells, Monocyte-derived Dendritic cells, and Megakaryocytes. While annotations aligned mainly with the Seurat reference, some discrepancies remained, such as labeling Memory CD4 + T cells as Regulatory T cells and FCGR3A + Monocytes as Macrophages.",
+      "entities": [
+        {
+          "text": "CD8 + NKT-like",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PBMC",
+          "type": "CELL_LINE",
+          "id": "CVCL_DQ80",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Naive T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0P76",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CD14 + Monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_G620",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Regulatory T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0T70",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "B cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_B3QD",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CD8 + T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_2634",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_A8VR",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p6",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 6,
+      "parent_section_id": "sec3",
+      "text": "This results section from the article discusses the discrepancies in cell type annotations in scRNA-Seq data and how ShinySC enhances marker identification using Seurat's FindAllMarkers approach for selecting cluster-specific genes.\n\nWhile annotations aligned mainly with the Seurat reference, some discrepancies remained, such as labeling Memory CD4 + T cells as Regulatory T cells and FCGR3A + Monocytes as Macrophages. ShinySC addresses GPTCelltype's [ 15 ] deficiency in marker identification by utilizing Seurat's FindAllMarkers to select the top five cluster-specific genes according to statistical thresholds. With a valid OpenAI API key, GPTCelltype assigns cell-type labels. Out of nine clusters, it produced exact or synonymous matches for seven. The remaining two, Naive and Memory CD4 + T cells, were broadly categorized as T cells, capturing the lineage but lacking subtype specificity. Overall, the GPTCelltype demonstrated performance comparable to reference-based and marker-based methods.",
+      "entities": [
+        {
+          "text": "Memory CD4 + T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_K168",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Regulatory T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0T70",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "FCGR3A + Monocytes",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_A8VR",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "ShinySC",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Seurat",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "GPTCelltype",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ShinySC",
+          "predicate": "enhances",
+          "object": "marker identification",
+          "evidence": "ShinySC enhances marker identification using Seurat's FindAllMarkers approach"
+        },
+        {
+          "subject": "ShinySC",
+          "predicate": "addresses",
+          "object": "GPTCelltype's deficiency in marker identification",
+          "evidence": "ShinySC addresses GPTCelltype's deficiency in marker identification"
+        },
+        {
+          "subject": "GPTCelltype",
+          "predicate": "assigns",
+          "object": "cell-type labels",
+          "evidence": "GPTCelltype assigns cell-type labels"
+        },
+        {
+          "subject": "GPTCelltype",
+          "predicate": "produced",
+          "object": "exact or synonymous matches for seven",
+          "evidence": "it produced exact or synonymous matches for seven"
+        },
+        {
+          "subject": "Memory CD4 + T cells",
+          "predicate": "labeled as",
+          "object": "Regulatory T cells",
+          "evidence": "labeling Memory CD4 + T cells as Regulatory T cells"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p7",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 1: core workflow demonstration",
+      "paragraph_index": 7,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article discusses the performance of GPTCelltype and highlights ShinySC's capabilities for cell-type annotation comparison and manual cluster label editing.\n\nOverall, the GPTCelltype demonstrated performance comparable to reference-based and marker-based methods. [ Table 2 ] Fig. S1 ] summarize cell-type annotations from various tools alongside the Seurat reference annotation for direct comparison. ShinySC also offers side-by-side comparison and manual cluster label editing, enabling expert refinement of cell-type assignments. For detailed usage instructions, please refer to Section 3-1 of the ShinySC documentation: http://tardis.cgu.edu.tw/ShinySC .",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p8",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 2 – batch correction and condition-specific analysis",
+      "paragraph_index": 8,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article discusses batch effect correction in scRNA-seq data integration using ShinySC's Batch Correction module, detailing how users can upload datasets for condition-specific analysis.\n\nFor detailed usage instructions, please refer to Section 3-1 of the ShinySC documentation: http://tardis.cgu.edu.tw/ShinySC . ### Example 2 – batch correction and condition-specific analysis\n\nBatch effect correction is essential for integrating scRNA-seq data from different sources or conditions. ShinySC addresses this with a web-based Batch Correction module, allowing users to upload two datasets in supported formats (e.g., .rds, .h5, .zip) for streamlined integration. For demonstration purposes, users can enable the “Use Demo Datasets” option to automatically load two separate PBMC datasets representing control and interferon–β–stimulated conditions. Integration is performed using Seurat's Canonical Correlation Analysis (CCA) framework via the FindIntegrationAnchors and IntegrateData functions within the Batch Correction module. To evaluate the effectiveness of batch correction, UMAP plots are generated before and after integration [ Fig. 2 Fig. 2 C]. The integrated Seurat object is available for download in.rds format for subsequent differential expression analysis.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p9",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 2 – batch correction and condition-specific analysis",
+      "paragraph_index": 9,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article discusses the availability and upload process of an integrated Seurat object for differential expression analysis in scRNA-Seq data, highlighting the specifications bypassing quality control.\n\nThe integrated Seurat object is available for download in.rds format for subsequent differential expression analysis. The integrated Seurat object was uploaded through the “Data Upload” module by selecting Homo sapiens as the organism and specifying the matched file format. As the dataset had already undergone quality control, the QC step was bypassed, and the analysis proceeded according to the workflow described in Example 1, concluding with cell type annotation.",
+      "entities": [
+        {
+          "text": "Homo sapiens",
+          "type": "ORGANISM",
+          "id": "9606",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p10",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 2 – batch correction and condition-specific analysis",
+      "paragraph_index": 10,
+      "parent_section_id": "sec3",
+      "text": "This results section from the study by Po-Jung Huang describes condition-specific differential expression analysis using the ShinySC application after bypassing quality control, focusing on cell type annotation and the analysis workflow.\n\nAs the dataset had already undergone quality control, the QC step was bypassed, and the analysis proceeded according to the workflow described in Example 1, concluding with cell type annotation. Condition-specific differential expression analysis was performed using the Differential Expression module in ShinySC. The cell type annotation column (e.g., seurat_annotations ), experimental condition column (e.g., stim ), and target cell type (e.g., CD14 Mono) were selected via the drop-down menu provided by the ShinySC web interface. Differentially expressed genes were identified using Seurat's FindMarkers() and shown in a searchable table linked to UMAP, violin, and dot plots for easy comparison across conditions.",
+      "entities": [
+        {
+          "text": "ShinySC",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CD14 Mono",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p11",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Example 2 – batch correction and condition-specific analysis",
+      "paragraph_index": 11,
+      "parent_section_id": "sec3",
+      "text": "This results section from the article discusses the identification of differentially expressed genes using Seurat's FindMarkers(), highlighting gene expression patterns and stability of canonical cell-type markers across different conditions.\n\nDifferentially expressed genes were identified using Seurat's FindMarkers() and shown in a searchable table linked to UMAP, violin, and dot plots for easy comparison across conditions. The result revealed gene expression patterns consistent with the findings of Kang et al. [ 34 ]. Canonical cell-type markers such as CD3D (T cells) and GNLY (NK/CD8 T cells) remained stable across control and interferon-stimulated conditions, indicating lineage-specific expression unaffected by stimulation. In contrast, interferon-stimulated genes IFI6 and ISG15 were uniformly upregulated across all cell types. CD14 was downregulated in CD14 + monocytes following stimulation, whereas CXCL10 was selectively upregulated in monocytes and B cells. These results underscore the importance of integrated analysis in capturing shared and cell-type-specific transcriptional responses to interferon [ Fig. 3 ] 3-2 of the ShinySC documentation page ( http://tardis.cgu.edu.tw/ShinySC ) for a detailed step-by-step usage guide.",
+      "entities": [
+        {
+          "text": "CD3D",
+          "type": "GENE",
+          "id": "915",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GNLY",
+          "type": "GENE",
+          "id": "10578",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IFI6",
+          "type": "GENE",
+          "id": "2537",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ISG15",
+          "type": "GENE",
+          "id": "9636",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "CD3D",
+          "predicate": "associated_with",
+          "object": "T cells",
+          "evidence": "Canonical cell-type markers such as CD3D (T cells) and GNLY (NK/CD8 T cells) remained stable."
+        },
+        {
+          "subject": "GNLY",
+          "predicate": "associated_with",
+          "object": "NK/CD8 T cells",
+          "evidence": "Canonical cell-type markers such as CD3D (T cells) and GNLY (NK/CD8 T cells) remained stable."
+        },
+        {
+          "subject": "IFI6",
+          "predicate": "produces",
+          "object": "upregulated genes",
+          "evidence": "interferon-stimulated genes IFI6 and ISG15 were uniformly upregulated across all cell types."
+        },
+        {
+          "subject": "ISG15",
+          "predicate": "produces",
+          "object": "upregulated genes",
+          "evidence": "interferon-stimulated genes IFI6 and ISG15 were uniformly upregulated across all cell types."
+        }
+      ],
+      "figure_refs": [
+        "fig3"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec3-p12",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Benchmarking of ShinySC",
+      "paragraph_index": 12,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the article details the benchmarking process of the ShinySC application, including the hardware specifications and the datasets used for performance evaluation.\n\n3 ] 3-2 of the ShinySC documentation page ( http://tardis.cgu.edu.tw/ShinySC ) for a detailed step-by-step usage guide. ### Benchmarking of ShinySC\n\nBenchmarking of ShinySC was performed on an AMD Ryzen 7 1700 CPU with 64 GB RAM using datasets ranging from 2000 to 200,000 cells. These subsets were derived from a 320,000-cell human PBMC dataset generated with the GEM-X Flex platform using a 16-plex sub-pooling strategy, available from 10x Genomics [ Table S1 ]. Preprocessing (QC and normalization) and identifying highly variable genes were efficient and completed within approximately 1 min, even at larger cell counts. Computationally intensive tasks such as regression, PCA, clustering, and UMAP scaled linearly with dataset size, with regression being the most demanding (16.24 min for 200,000 cells). Differential gene expression analysis (FindAllMarkers) was the most time-consuming, peaking at 37.91 min for 200,000 cells but significantly faster at smaller scales. Annotation efficiency varied notably by the method: GPTCelltype annotation was exceptionally fast (under 1 min), ScType and SingleR remained efficient (1.50 and 6.49 min at 200,000 cells, respectively), whereas scCATCH required substantial computational resources (896.73 min at 200,000 cells). ShinySC demonstrated robust performance and scalability for handling large single-cell datasets, depending on task complexity and chosen annotation methods.",
+      "entities": [
+        {
+          "text": "AMD Ryzen 7 1700",
+          "type": "CHEMICAL",
+          "id": "CHEBI:61058",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "PBMC",
+          "type": "CELL_LINE",
+          "id": "CVCL_DQ80",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "GEM-X Flex",
+          "type": "DRUG",
+          "id": "CHEBI:138164",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "10x Genomics",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ShinySC",
+          "predicate": "performed_on",
+          "object": "AMD Ryzen 7 1700",
+          "evidence": "Benchmarking of ShinySC was performed on an AMD Ryzen 7 1700 CPU"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec4-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "ShinySC compared to other programs",
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article compares ShinySC to various other scRNA-seq analysis tools, highlighting its specific design for the task and its support for multiple input formats.\n\n### ShinySC compared to other programs\n\n[ Table S2 ] compares tools with features similar to ShinySC, including Azimuth [ 35 ], CITEViz [ 36 ], SCHNAPPs [ 37 ], iSEE [ 38 ], Single Cell Virtual Cytometer [ 39 ], Cerebro [ 40 ], and ScRNAPip [ 41 ]. ShinySC is built specifically for scRNA-seq analysis and supports a wide range of input formats, such as Cell Ranger MEX/HDF5, AnnData (.h5ad), H5Seurat, BD Rhapsody, and CellView. It is fully compatible with Seurat v5. While Azimuth [ 35 ] focuses only on reference mapping and tools like CITEViz [ 36 ], SCHNAPPs [ 37 ], and iSEE [ 38 ] are mainly for CITE-seq, ShinySC provides a complete, user-friendly environment for scRNA-seq workflows. Many alternatives lack key features such as batch correction, pseudotime analysis, or adjustable clustering resolution. Cerebro [ 40 ] supports only older Seurat versions and does not allow inter-condition comparison. Single Cell Virtual Cytometer [ 39 ] offers limited input and focuses on cytometry-style views. ScRNAPip [ 41 ] can process FASTQ files but lacks built-in visualization and relies on Cerebro for result exploration, which complicates the workflow and reduces workflow continuity.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec4-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "ShinySC compared to other programs",
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article compares ShinySC to other programs, highlighting its unique integration of various annotation methods and addressing the limitations of alternatives like ScRNAPip.\n\nScRNAPip [ 41 ] can process FASTQ files but lacks built-in visualization and relies on Cerebro for result exploration, which complicates the workflow and reduces workflow continuity. ShinySC uniquely integrates reference-based (SingleR [ 6 ]), marker-based (ScType [ 10 ], scCATCH [ 11 ]), and GPT-based (GPTCelltype [ 9 ]) annotation methods, a feature not offered by other tools. It is also the only tool supporting both intra- and inter-condition differential expression analysis. Additional functions include cross-tool annotation comparison, manual label editing, and dynamic figure and font scaling for publication-ready outputs. With availability as a desktop application, Docker container, and web application, ShinySC ensures accessibility, reproducibility, and ease of use for a broad range of users.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "ShinySC",
+          "predicate": "integrates",
+          "object": "reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype) annotation methods",
+          "evidence": "ShinySC uniquely integrates reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype) annotation methods."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec4-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": "Limitations and improvement plans",
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article outlines the limitations of ShinySC's performance with large datasets and describes future improvement plans for enhancing its capabilities for scRNA-Seq data analysis.\n\nWith availability as a desktop application, Docker container, and web application, ShinySC ensures accessibility, reproducibility, and ease of use for a broad range of users. ### Limitations and improvement plans\n\nShinySC performs efficiently with datasets up to approximately 200,000 cells on systems equipped with an AMD Ryzen 7 1700 CPU (3.0 GHz) and 64 GB RAM. However, analyzing larger datasets may increase processing times and memory usage, potentially limiting performance in standard computing environments. Future developments aim to integrate GPU acceleration using frameworks like CuPy and NVIDIA's RAPIDS to address these challenges. Currently, ShinySC is explicitly tailored for scRNA-seq data analysis and does not support the integration of other omics data types, such as scATAC-seq or proteomics. This limitation restricts its applicability in comprehensive multi-omics studies requiring simultaneous analysis of multiple data modalities. Expanding ShinySC's capabilities to accommodate additional omics data types would enhance its utility in integrative analyses. Addressing these limitations in future updates will enhance ShinySC's scalability and integration capabilities, better serving the evolving needs of the single-cell research community. The updated versions will be distributed via Docker Hub at https://hub.docker.com/r/dockerpjhuang/shinysc .",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec5-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusions",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This conclusion section from the article discusses the features and workflow of ShinySC, a desktop application designed for comprehensive analysis of scRNA-seq data, highlighting its support for various analytical methods and input formats.\n\nShinySC is a user-friendly desktop application for scRNA-seq analysis, supporting diverse input formats and a complete workflow including quality control, normalization, dimensionality reduction, clustering, marker identification, batch correction, pseudotime modeling, and condition-specific differential expression. It integrates multiple annotation strategies—SingleR, ScType, scCATCH, and GPTCelltype—with side-by-side comparison and manual editing. Benchmarking confirms efficient performance on datasets up to 200,000 cells. Available as a desktop and Docker application, ShinySC ensures broad accessibility. Future updates will focus on GPU acceleration and integration with other omics data types for multi-omics analysis.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec6-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Authors’ contributions",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This authors’ contributions section from a BJ article outlines the roles of various contributors in the development and documentation of the ShinySC application for scRNA-Seq data analysis.\n\nConceptualization and methodology: Po-Jung Huang and Fang-Yu Tsai. Exemplar case preparation: Yi-Ju Wu. Software documentation: Po-Jung Huang and Yi-Chen Weng. Original draft writing: Po-Jung Huang. Review and editing: Shih Sheng Jiang. Software testing and maintenance: Chi-Ching Lee. Differential gene expression analysis and trajectory inference module development during revision: Sin-Hong Shih. All authors have read and approved the final manuscript.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec7-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Declarations",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec7",
+      "text": "This declarations section from the article discusses the use of Grammarly for enhancing readability and notes the authors' responsibility for the final publication.\n\nGrammarly was used to enhance the readability of this work during its preparation. Following the use of this tool, we thoroughly reviewed and edited the content as necessary, and we take full responsibility for the final publication.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100885-sec8-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec8",
+      "text": "This funding section from the article discusses the financial support received for the research, detailing grants from the National Science and Technology Council of Taiwan allocated to the authors.\n\nThis work was supported by grants from the National Science and Technology Council , Taiwan ( 111-2221-E-182-052-MY3 and 114-2221-E-182-044- to P.-J.H .) and ( 112-2314-B-400-002 - and 113-2740-B-400-005- to S. S J ).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "National Science and Technology Council",
+          "predicate": "allocates",
+          "object": "grants",
+          "evidence": "grants from the National Science and Technology Council of Taiwan allocated to the authors."
+        },
+        {
+          "subject": "National Science and Technology Council",
+          "predicate": "supported",
+          "object": "this work",
+          "evidence": "This work was supported by grants from the National Science and Technology Council."
+        },
+        {
+          "subject": "P.-J.H.",
+          "predicate": "received",
+          "object": "grants",
+          "evidence": "grants from the National Science and Technology Council , Taiwan ( 111-2221-E-182-052-MY3 and 114-2221-E-182-044- to P.-J.H .)"
+        },
+        {
+          "subject": "S. S J",
+          "predicate": "received",
+          "object": "grants",
+          "evidence": "( 112-2314-B-400-002 - and 113-2740-B-400-005- to S. S J )."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: ShinySC includes nine core modules that enhance the analysis of scRNA-Seq data, enabling functionalities such as quality control, feature selection through PCA, and differential gene expression comparisons. The platform integrates reference-based and GPT-4-based strategies for automatic cell type annotation, improving label assignments across datasets. This comprehensive approach demonstrates ShinySC's efficacy in facilitating seamless scRNA-Seq data analysis and providing users with a robust toolset for various analytical tasks.\n\nCaption: Overview of ShinySC Core Modules ShinySC consists of nine modules: (1) Data Upload, which supports a wide range of input formats; (2) Quality Control, enabling filtering of cells and genes based on customizable thresholds; (3) Feature Selection and Dimension Reduction, identifying highly variable genes and applying PCA, UMAP, or t-SNE for visualization; (4) Clustering, using graph-based algorithms with adjustable resolution settings and visual outputs; (5) Gene Marker Identification, detecting cluster-specific markers; (6) Automatic Cell Type Annotation, integrating reference-based, marker-based, and GPT-4-based strategies for label assignment; (7) Batch Correction, removing batch effects for integrated analysis across datasets; (8) Differential Gene Expression, allowing comparisons between cell clusters or experimental conditions; and (9) Trajectory Inference, reconstructing dynamic developmental or differentiation pathways.",
+      "label": "Fig. 1",
+      "caption": "Overview of ShinySC Core Modules ShinySC consists of nine modules: (1) Data Upload, which supports a wide range of input formats; (2) Quality Control, enabling filtering of cells and genes based on customizable thresholds; (3) Feature Selection and Dimension Reduction, identifying highly variable genes and applying PCA, UMAP, or t-SNE for visualization; (4) Clustering, using graph-based algorithms with adjustable resolution settings and visual outputs; (5) Gene Marker Identification, detecting cluster-specific markers; (6) Automatic Cell Type Annotation, integrating reference-based, marker-based, and GPT-4-based strategies for label assignment; (7) Batch Correction, removing batch effects for integrated analysis across datasets; (8) Differential Gene Expression, allowing comparisons between cell clusters or experimental conditions; and (9) Trajectory Inference, reconstructing dynamic developmental or differentiation pathways.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100885-sec2-p0"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: Batch correction using Seurat's Canonical Correlation Analysis (CCA) resulted in improved alignment of control (CTRL) and interferon–β–stimulated (STIM) PBMC datasets, as evidenced by UMAP plots. The integration demonstrates enhanced consistency in cell type annotations across conditions, indicating that CCA effectively minimizes batch effects in single-cell RNA sequencing data. This supports the utility of ShinySC for seamless analysis of scRNA-Seq data.\n\nCaption: Batch correction of PBMC datasets using Seurat CCA integration Demo datasets representing control (CTRL) and interferon–β–stimulated (STIM) PBMCs were integrated using Seurat's Canonical Correlation Analysis (CCA) via FindIntegrationAnchors() and IntegrateData(). (A) UMAP plots of CTRL and STIM samples prior to integration. (B) UMAP of the merged dataset post-integration, demonstrating improved alignment. (C) Annotated cell types overlaid on the integrated UMAP to assess cross-condition consistency.",
+      "label": "Fig. 2",
+      "caption": "Batch correction of PBMC datasets using Seurat CCA integration Demo datasets representing control (CTRL) and interferon–β–stimulated (STIM) PBMCs were integrated using Seurat's Canonical Correlation Analysis (CCA) via FindIntegrationAnchors() and IntegrateData(). (A) UMAP plots of CTRL and STIM samples prior to integration. (B) UMAP of the merged dataset post-integration, demonstrating improved alignment. (C) Annotated cell types overlaid on the integrated UMAP to assess cross-condition consistency.",
+      "entities": [
+        {
+          "text": "interferon–β",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PBMC",
+          "type": "CELL_LINE",
+          "id": "CVCL_DQ80",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Seurat",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100885-sec3-p8"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 3: Interferon-responsive genes GNLY and IFI6 are broadly upregulated across all cell types in PBMCs exposed to interferon-β, while ISG15 is downregulated in CD14+ monocytes but selectively induced in monocytes and B cells upon stimulation. These findings demonstrate that interferon-β stimulation elicits both common and cell-type-specific transcriptional responses in scRNA-Seq data analysis.\n\nCaption: Transcriptional responses to interferon beta stimulation across cell types PBMCs from GEO accession GSE96583 (∼15,000 cells) exposed to control (CTRL) or interferon-β (STIM) conditions were analyzed using ShinySC. Violin plots show gene expression across annotated cell types. Canonical markers such as (T cells) and CD3D (NK/CD8 T cells) remained consistent across conditions. Interferon-responsive genes GNLY and IFI6 were broadly upregulated in all cell types. ISG15 was downregulated in CD14 CD14 + monocytes upon stimulation, while was selectively induced in monocytes and B cells. These results highlight both shared and cell-type–specific transcriptional responses captured through integrated analysis. CXCL10",
+      "label": "Fig. 3",
+      "caption": "Transcriptional responses to interferon beta stimulation across cell types PBMCs from GEO accession GSE96583 (∼15,000 cells) exposed to control (CTRL) or interferon-β (STIM) conditions were analyzed using ShinySC. Violin plots show gene expression across annotated cell types. Canonical markers such as (T cells) and CD3D (NK/CD8 T cells) remained consistent across conditions. Interferon-responsive genes GNLY and IFI6 were broadly upregulated in all cell types. ISG15 was downregulated in CD14 CD14 + monocytes upon stimulation, while was selectively induced in monocytes and B cells. These results highlight both shared and cell-type–specific transcriptional responses captured through integrated analysis. CXCL10",
+      "entities": [
+        {
+          "text": "GNLY",
+          "type": "GENE",
+          "id": "10578",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IFI6",
+          "type": "GENE",
+          "id": "2537",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ISG15",
+          "type": "GENE",
+          "id": "9636",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "interferon-β",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CD14+ monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_G620",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6ZQ",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "B cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_B3QD",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100885-sec3-p11"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: The ShinySC application utilizes a variety of R packages including Seurat for single-cell analysis and Shiny for web application development, enhancing the functionality of scRNA-Seq data analysis. The inclusion of packages such as dplyr for data manipulation and Patchwork for plotting indicates a comprehensive toolset for researchers. This demonstrates that ShinySC is equipped to facilitate seamless and flexible analyses in single-cell genomics.\n\nCaption: Packages and functions included in ShinySC.\n\n| Package Name | Description | References |\n| --- | --- | --- |\n| Shiny | Web application framework for R | [ 16 ] |\n| bs4Dash | Bootstrap 4 dashboard theme for Shiny | [ 17 ] |\n| shinyWidgets | Custom inputs widgets for Shiny | [ 18 ] |\n| DT | A wrapper of the jQuery 'DataTables' library | [ 19 ] |\n| data.table | Extension of data.frame | [ 20 ] |\n| Seurat | Tools for single-cell analysis | [ 1 ] |\n| SeuratDisk | Interfaces for HDF5-Based single-cell Storage formats | [ 21 ] |\n| Patchwork | Thematic package for assembly of ggplot2 plots | [ 22 ] |\n| dplyr | Data manipulation | [ 23 ] |\n| Waiter | Show loading Screens with progress bars for Shiny | [ 24 ] |\n| Clustree | Visualize hierarchical clustering of single cell data | [ 14 ] |\n| dittoSeq | Visualization tool for single-cell RNA-seq data | [ 12 ] |\n| HGNChelper | Gene Symbol conversion and correction | [ 25 ] |\n| Shinyscreenshot | Capture Screenshots of Shiny applications | [ 26 ] |\n| scCATCH | Single-cell cluster-based annotation toolkit for cellular heterogeneity | [ 11 ] |\n| Stringr | Simple, consistent wrappers for common String operations | [ 27 ] |\n| ggraph | An implementation of grammar of graphics for graphs and networks | [ 28 ] |\n| Igraph | Network analysis and visualization | [ 29 ] |\n| data.tree | Creating and modifying tree structures | [ 30 ] |\n| scCustomize | Customization of seurat objects | [ 13 ] |\n| Shinyalert | Create Shiny alerts | [ 31 ] |\n| GPTCelltype | GPT-based cell type annotation | [ 9 ] |\n| SingleR | Reference-based cell type annotation | [ 6 ] |\n| Slingshot | Cell lineage and pseudo-time inference | [ 32 ] |",
+      "label": "Table 1",
+      "caption": "Packages and functions included in ShinySC.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100885-sec2-p0",
+        "article-10-1016-j-bj-2025-100885-sec2-p1",
+        "article-10-1016-j-bj-2025-100885-sec2-p11"
+      ]
+    },
+    {
+      "id": "tbl2",
+      "type": "table",
+      "section": null,
+      "text": "Table 2: SingleR annotates 686 Naive CD8 + T cells, classifying them as CD8 + T cells (341) and CD4 + T cells (340), while scCATCH also identifies 686 Naive T cells specifically associated with CCR7. Classical monocytes are noted as 479 in both reference annotation and scCATCH, further corroborated by their identification of CD14 + monocytes. The table demonstrates that various annotation tools yield comparable classifications for specific cell types in scRNA-Seq data analysis.\n\nCaption: Comparison of cell-type annotations across tools.\n\n| Cluster | Reference Annotation | SingleR | ScType | scCATCH | GPTCelltype |\n| --- | --- | --- | --- | --- | --- |\n| 0 | Naive CD4 + T (686) IL7R, CCR7 | CD8 + T cells (341), CD4 + T cells (340), HSCs (4), NK T cells (1) | Naive CD8 + T cells (686) CCR7 , CD3D, CD3E | Naive T cell (686) CCR7 | T Cells (686) CCR7 , LDHB, CD3D, CD3E |\n| 1 | CD14 + mono (479) CD14, LYZ | Monocytes (456), granulocytes (23) | Classical monocytes (479) CD14, LYZ , CST3, S100A8, S100A9 | CD14 + monocyte (479) CD14 | Monocytes (479) FOLR3, S100A8, S100A9, CD14 , ASGR1 |\n| 2 | Memory CD4 + T (455) IL7R , S100A4 | CD4 + T cells (259), CD8 + T cells (196) | Memory CD4 + T cells (455) LTB, IL7R , CD2, CD3D, CD3E | Regulatory T cell (455) CD3D, CD3E, IL7R | T Cells (455) AQP3, CD2, IL7R , LTB, IL32 |\n| 3 | B (344) MS4A1 | B Cells (311), Basophils (29), CD8 + T cells (3), granulocytes (1) | Naive B cells (344) MS4A1 , CD79A, CD79B, TCL1A, HLA-DQA1, HLA-DQB1, VPREB3 | B cell (344) MS4A1 , CD79A, CD79B, CD37 | B Cells (344) LINC00926, VPREB3, CD79A, TCL1A, FCER2 |\n| 4 | CD8 + T (325) CD8A | CD8 + T cells (311), NK cells (13), CD4 + T cells (1) | CD8 + NKT-like cells (325) CD8A , GZMA, NKG7 | CD8 + T cell (325) CD8A | Cytotoxic T (325) GZMK, GZMH, CD8A , CCL5, KLRG1 |\n| 5 | FCGR3A + mono (160) FCGR3A, MS4A7 | Monocytes (134), granulocytes (21), NK cells (5) | Non-classical monocytes (160) (FCFR3A, MS4A7, LST1, FCER1G ) | Macrophage (160) CD68, CSF1R, FCGR3A , TNFSF10 | Monocytes (160) CKB, CDKN1C, HES4, MS4A4A, MS4A7 |\n| 6 | NK (140) GNLY , NKG7 | NK cells (111), CD8 + T cells (29) | Natural killer cells (140) GNLY, NKG7 , GZMB, GZMA | Natural Killer cell (140) KLRD1, NKG7 , KLRF1, CD160, CD247, GNLY , GZMB | Natural Killer T cells (140) AKR1C3, GZMB, SPON2, FGFBP2, GNLY |\n| 7 | DC (35) FCER1A, CST3 | Monocytes (20), dendritic cells (14), granulocytes (1) | Myeloid dendritic cells (35) FCER1A, CST3 , HLA-DPA1, HLA-DPB1, HLA-DQA1 | Monocyte derived dendritic cell (35) CD33, CD1C, CST3, FCER1A | Dendritic cells (35) SERPINF1, FCER1A , CLEC10A, ENHO, CD1C |\n| 8 | Platelet (14) PPBP | Megakaryocytes (10), monocytes (2), B cells (1), granulocytes (1) | Platelets (14) PPBP , PF4, GNG11, CLU | Megakaryocyte (14) ITGA2B, ITGB3, PF4, GP9 | Platelets (14) LY6G6F, RP11-879F14.2, CLDN5, GP9, AP001189.4 |",
+      "label": "Table 2",
+      "caption": "Comparison of cell-type annotations across tools.",
+      "entities": [
+        {
+          "text": "Naive CD8 + T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_K168",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "Naive T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0P76",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "CCR7",
+          "type": "GENE",
+          "id": "1236",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Classical monocytes",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CD14",
+          "type": "GENE",
+          "id": "929",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IL7R",
+          "type": "GENE",
+          "id": "3575",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100885",
+        "pii": "S2319-4170(25)00059-9",
+        "doi": "10.1016/j.bj.2025.100885",
+        "title": "ShinySC: An R/Shiny-based desktop application for seamless analysis of scRNA-Seq data",
+        "authors": [
+          "Po-Jung Huang",
+          "Fang-Yu Tsai",
+          "Yi-Ju Wu",
+          "Yi-Chen Weng",
+          "Chi-Ching Lee",
+          "Sin-Hong Shih",
+          "Shih Sheng Jiang"
+        ],
+        "publication_date": "2025-06-29",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) enables detailed profiling of cellular heterogeneity, but complex workflows and diverse data formats limit accessibility for clinicians and researchers without programming expertise. We introduce ShinySC , an R/Shiny-based desktop application designed to streamline comprehensive scRNA-seq analysis through an intuitive graphical interface. ShinySC supports various input formats, including 10x Genomics, Seurat, Scanpy, BD Rhapsody, and CellView. The tool integrates essential analytical procedures such as quality control, normalization, dimensionality reduction, clustering, marker gene identification, batch correction, differential expression analysis, and trajectory inference. Notably, ShinySC implements multiple automatic cell-type annotation methods—reference-based (SingleR), marker-based (ScType, scCATCH), and GPT-based (GPTCelltype)—with features for side-by-side comparison and manual label refinement. Benchmarking indicates robust performance for datasets containing up to 200,000 cells on standard desktop systems with 64 GB RAM, with analysis duration dependent on specific tasks and annotation methods. Demonstrative analyses of PBMC and interferon-stimulated datasets confirm ShinySC's efficacy in accurately annotating cell types and capturing condition-specific transcriptional dynamics. ShinySC provides a unified, user-friendly, and scalable platform for scRNA-seq analysis explicitly tailored for non-programming users. It surpasses existing limitations by accommodating multiple data formats, employing versatile annotation strategies, and generating high-quality, publication-ready figures. Available freely across Windows, macOS, and Linux platforms, ShinySC enhances the accessibility and reproducibility of single-cell transcriptomic research. http://tardis.cgu.edu.tw/ShinySC .",
+        "keywords": [
+          "Single-cell analysis",
+          "scRNA-seq",
+          "Automatic cell-type annotation",
+          "ChatGPT-4"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100885-sec3-p7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3626 @@
+{
+  "source_file": "Proof .xml",
+  "article_doi": "10.1016/j.ccc.2026.02.001",
+  "total_chunks": 33,
+  "text_chunks": 25,
+  "visual_chunks": 8,
+  "total_entities": 176,
+  "entities_with_ontology_id": 46,
+  "total_relations": 80,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the rising incidence and classification of acute pancreatitis, emphasizing the varying prognoses and potential complications associated with its severe forms.\n\nAcute pancreatitis (AP) is an inflammatory condition of the pancreas marked by elevated pancreatic enzyme and severe abdominal pain. Its incidence is rising, making it a common clinical issue. AP is classified into mild (MAP), moderately severe (MSAP), and severe (SAP) forms While MAP generally has a good prognosis, severe cases can lead to infected necrosis and multiple organ failure. 1 Nevertheless, in the absence of timely diagnosis and intervention, 20%35% of patients may develop SAP, a life-threatening condition associated with high morbidity, multi-organ dysfunction, and a mortality rate of up to 30%. 2 3 , Despite ongoing revisions to clinical guidelines, accurately assessing the severity and predicting the prognosis of AP remain formidable challenges. Conventional evaluation systems predominantly depend on clinical manifestations, laboratory markers, and isolated imaging features, yet often fail to provide a dynamic quantification of metabolic status and pathophysiological progression. This limitation can result in the underestimation of disease severity or delayed intervention. Consequently, there is an urgent need to identify comprehensive indicators that effectively reflect disease severity and predict adverse outcomes. 4",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "pancreas",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "mild",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "moderately severe",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "severe",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "infected necrosis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        },
+        {
+          "text": "multi-organ dysfunction",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:53.621165+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acute pancreatitis",
+          "predicate": "associated_with",
+          "object": "infected necrosis",
+          "evidence": "severe cases can lead to infected necrosis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:08.463787+00:00"
+        },
+        {
+          "subject": "acute pancreatitis",
+          "predicate": "associated_with",
+          "object": "multi-organ dysfunction",
+          "evidence": "a life-threatening condition associated with high morbidity, multi-organ dysfunction",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:08.463787+00:00"
+        },
+        {
+          "subject": "severe",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "its severe forms.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:08.463787+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from Ltfiye etin et al. discusses the importance of computed tomography in diagnosing acute pancreatitis and highlights the role of CT-derived fat and muscle parameters in assessing disease severity.\n\n4 With advancements in medical imaging, computed tomography (CT) has become increasingly crucial in the diagnosis of AP. Abdominal CT not only demonstrates the extent of inflammation, necrosis, and associated complications but also offers quantitative anatomical data pertinent to metabolic status. Recent research has underscored the potential of CT-derived fat and muscle parameters, such as visceral adipose tissue (VAT), total adipose tissue (TAT), and skeletal muscle index (SMI), which reflect body fat distribution and muscle mass. 5 6 , These parameters provide valuable quantitative anatomical insights related to metabolic status, further emphasizing the utility of CT in this context. 7 8 , In AP patients, excessive visceral fat may exacerbate pancreatic injury through pro-inflammatory cytokine release, while abnormal skeletal muscle mass may indicate metabolic dysregulation or uncontrolled stress responses, both influencing disease progression and prognosis. 9 However, systematic studies on the correlation between muscle-fat composition parameters and AP severity or outcomes are lacking, warranting further validation. 10",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        },
+        {
+          "text": "computed tomography",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        },
+        {
+          "text": "CT-derived fat and muscle parameters",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        },
+        {
+          "text": "visceral adipose tissue",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        },
+        {
+          "text": "total adipose tissue",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        },
+        {
+          "text": "skeletal muscle index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:29:56.688663+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "computed tomography",
+          "predicate": "enables",
+          "object": "diagnosing acute pancreatitis",
+          "evidence": "importance of computed tomography in diagnosing acute pancreatitis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:11.452056+00:00"
+        },
+        {
+          "subject": "CT-derived fat and muscle parameters",
+          "predicate": "supports",
+          "object": "assessing disease severity",
+          "evidence": "highlights the role of CT-derived fat and muscle parameters in assessing disease severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:11.452056+00:00"
+        },
+        {
+          "subject": "CT-derived fat and muscle parameters",
+          "predicate": "associated_with",
+          "object": "metabolic status",
+          "evidence": "provide valuable quantitative anatomical insights related to metabolic status",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:11.452056+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec1-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the modification of the CT severity index to the modified CT severity index, highlighting its role in assessing acute pancreatitis severity, mortality, and treatment decisions.\n\n10 In 2004, Mortele and colleagues modified and simplified the CT severity index (CTSI) into the modified CT severity index (MCTSI) by including assessments of extrapancreatic organ involvement and simplifying necrosis evaluation. The MCTSI is a standardized scoring system for inflammation and necrosis, linked to AP severity, mortality, and treatment decisions. 11 It effectively predicts severe AP, pancreatic necrosis, and organ failure. 12 However, it may miss anatomical changes and local complications. 13 Combining muscle-fat composition parameters with CT severity indices could provide a more comprehensive assessment, enhancing the understanding of AP and guiding personalized treatment. 14",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "CT severity index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "modified CT severity index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "extrapancreatic organ involvement",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "necrosis",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "pancreatic necrosis",
+          "type": "DISEASE",
+          "id": "D018061",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        },
+        {
+          "text": "organ failure",
+          "type": "DISEASE",
+          "id": "D009102",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:10.181336+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "CT severity index",
+          "predicate": "produces",
+          "object": "modified CT severity index",
+          "evidence": "modified and simplified the CT severity index (CTSI) into the modified CT severity index (MCTSI)",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:16.254313+00:00"
+        },
+        {
+          "subject": "modified CT severity index",
+          "predicate": "supports",
+          "object": "assessing acute pancreatitis severity",
+          "evidence": "highlighting its role in assessing acute pancreatitis severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:16.254313+00:00"
+        },
+        {
+          "subject": "modified CT severity index",
+          "predicate": "supports",
+          "object": "mortality",
+          "evidence": "linked to AP severity, mortality, and treatment decisions",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:16.254313+00:00"
+        },
+        {
+          "subject": "modified CT severity index",
+          "predicate": "supports",
+          "object": "treatment decisions",
+          "evidence": "linked to AP severity, mortality, and treatment decisions",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:16.254313+00:00"
+        },
+        {
+          "subject": "modified CT severity index",
+          "predicate": "predicts",
+          "object": "severe AP",
+          "evidence": "It effectively predicts severe AP, pancreatic necrosis, and organ failure",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:16.254313+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec1-p3",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article by Ltfiye et al. outlines the study's objective to analyze body muscle-fat composition parameters and CT severity indices in acute pancreatitis, focusing on their relationship with disease severity and prognostic value for adverse outcomes.\n\n14 Against this background, this study aims to quantitatively analyze muscle-fat composition parameters (including VAT, subcutaneous adipose tissue [SAT], TAT, fat distribution ratios, and SMI) and CT severity indices in AP patients via abdominal CT examinations. The study seeks to investigate their associations with disease severity and evaluate their predictive value for adverse outcomes. The findings may provide novel quantitative indicators for AP severity assessment, enhance risk stratification, and inform personalized therapeutic strategies.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "subcutaneous adipose tissue",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "SAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "fat distribution ratios",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "SMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        },
+        {
+          "text": "CT severity indices",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:13.785904+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "muscle-fat composition parameters",
+          "predicate": "associated_with",
+          "object": "disease severity",
+          "evidence": "investigate their associations with disease severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:20.328963+00:00"
+        },
+        {
+          "subject": "CT severity indices",
+          "predicate": "associated_with",
+          "object": "disease severity",
+          "evidence": "analyze body muscle-fat composition parameters and CT severity indices in acute pancreatitis, focusing on their relationship with disease severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:20.328963+00:00"
+        },
+        {
+          "subject": "muscle-fat composition parameters",
+          "predicate": "supports",
+          "object": "predictive value for adverse outcomes",
+          "evidence": "evaluate their predictive value for adverse outcomes",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:20.328963+00:00"
+        },
+        {
+          "subject": "CT severity indices",
+          "predicate": "supports",
+          "object": "predictive value for adverse outcomes",
+          "evidence": "evaluate their predictive value for adverse outcomes",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:20.328963+00:00"
+        },
+        {
+          "subject": "findings",
+          "predicate": "produces",
+          "object": "novel quantitative indicators for AP severity assessment",
+          "evidence": "The findings may provide novel quantitative indicators for AP severity assessment",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:20.328963+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Study Population",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study details the selection criteria and population demographics for the enrolled 236 patients with acute pancreatitis.\n\n### Study Population\n\nThis single-center prospective study enrolled 236 patients with AP admitted between January 2023 and December 2024.\n\nInclusion Criteria: (1) Patients meeting the diagnostic criteria for AP as defined by the Guidelines for diagnosis and treatment of acute pancreatitis in China (2021): persistent epigastric pain; serum amylase and/or lipase levels 3 times the upper limit of normal; and imaging findings consistent with AP. Diagnosis required at least two of these criteria. (2) Patients aged 18years. (3) Patients with first-onset disease who had not received any prior treatment or intervention before enrollment. (4) Patients who underwent contrast-enhanced abdominal CT within 48hours of admission, with qualified image quality (no significant artifacts, such as metal interference or motion artifacts) and clearly visible lesions.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:15.221153+00:00"
+        },
+        {
+          "text": "serum amylase",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:15.221153+00:00"
+        },
+        {
+          "text": "serum lipase",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:15.221153+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acute pancreatitis",
+          "predicate": "associated_with",
+          "object": "serum amylase",
+          "evidence": "serum amylase and/or lipase levels 3 times the upper limit of normal",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:21.965935+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Study Population",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Ltfiye et al. outlines the study population criteria, detailing inclusion and exclusion parameters for patients undergoing contrast-enhanced abdominal CT within 48 hours of admission for acute pancreatitis.\n\n(4) Patients who underwent contrast-enhanced abdominal CT within 48hours of admission, with qualified image quality (no significant artifacts, such as metal interference or motion artifacts) and clearly visible lesions. Exclusion Criteria: (1) Patients with symptom onset-to-admission interval 72hours or those who had received treatment at other hospitals. (2) Patients with contraindications to CT. (3) Patients with malignancies, chronic liver or kidney failure, autoimmune diseases, pregnancy, or concurrent infections at other sites. (4) Patients with psychiatric disorders. (5) Patients who had used immunosuppressants within 6months or had severe immunosuppression. (6) Patients with incomplete clinical data, lost to follow-up, or voluntary discharge.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "contrast-enhanced abdominal CT",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "malignancies",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "chronic liver failure",
+          "type": "DISEASE",
+          "id": "D065290",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "chronic kidney failure",
+          "type": "DISEASE",
+          "id": "DOID:784",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "autoimmune diseases",
+          "type": "DISEASE",
+          "id": "D001327",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "pregnancy",
+          "type": "DISEASE",
+          "id": "D011247",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        },
+        {
+          "text": "infections",
+          "type": "DISEASE",
+          "id": "D007239",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:43.374149+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "contrast-enhanced abdominal CT",
+          "predicate": "requires",
+          "object": "qualified image quality",
+          "evidence": "with qualified image quality (no significant artifacts, such as metal interference or motion artifacts)",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:23.799346+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Study Population",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the study by Ltfiye et al. outlines the criteria for participant inclusion, detailing patients with incomplete data or discharge status, as well as the ethical approval for the research.\n\n(6) Patients with incomplete clinical data, lost to follow-up, or voluntary discharge. All participants provided written informed consent, and the study was approved by the Ethics Committee of XXX Hospital (approval No.202101YH-1; approval date: 2021.01.12).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "study by Ltfiye et al.",
+          "predicate": "supports",
+          "object": "ethical approval for the research",
+          "evidence": "the study was approved by the Ethics Committee of XXX Hospital",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:25.206740+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Data Collection",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Ltfiye etin et al. details the demographic and clinical data collection process for analyzing factors related to body muscle-fat composition and disease severity in acute pancreatitis.\n\n### Data Collection\n\nPatient demographic and clinical data were collected and analyzed, including: gender, age, body mass index (BMI), smoking status, alcohol consumption, etiology (non-biliary or biliary), medical history (hypertension, hyperlipidemia, or diabetes mellitus), Acute Physiology and Chronic Health Evaluation II (APACHE II) score, triglycerides (TG), total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C), and low-density lipoprotein cholesterol (LDL-C).",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "body mass index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "APACHE II",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "triglycerides",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "total cholesterol",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "high-density lipoprotein cholesterol",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "low-density lipoprotein cholesterol",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        },
+        {
+          "text": "hypertension",
+          "type": "DISEASE",
+          "id": "D006973",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:30:50.749521+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "body mass index",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "factors related to body muscle-fat composition and disease severity in acute pancreatitis.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:29.736935+00:00"
+        },
+        {
+          "subject": "APACHE II",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "Acute Physiology and Chronic Health Evaluation II (APACHE II) score.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:29.736935+00:00"
+        },
+        {
+          "subject": "hypertension",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "medical history (hypertension, hyperlipidemia, or diabetes mellitus).",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:29.736935+00:00"
+        },
+        {
+          "subject": "triglycerides",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "triglycerides (TG), total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C).",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:29.736935+00:00"
+        },
+        {
+          "subject": "total cholesterol",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis",
+          "evidence": "total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C).",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:29.736935+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Grouping Criteria",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study outlines the grouping criteria based on the 2012 revised Atlanta Classification for stratifying acute pancreatitis patients into categories of severity related to organ dysfunction and complications.\n\n### Grouping Criteria\n\nAccording to the 2012 revised Atlanta Classification criteria, patients were stratified into three groups based on disease severity: MAP patients without organ dysfunction or local/systemic complications, typically recovering within 1-2weeks with very low mortality; MSAP patients with transient organ dysfunction (48hours) and/or local complications, having low early mortality unless complicated by infected necrosis which increases fatality; and SAP patients with persistent organ dysfunction (48hours) demonstrating and high mortality rates. Additionally, patients were categorized into survival and non-survival groups based on 30-day outcomes. 15",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        },
+        {
+          "text": "2012 revised Atlanta Classification",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        },
+        {
+          "text": "MAP",
+          "type": "DISEASE",
+          "id": "D019532",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        },
+        {
+          "text": "MSAP",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        },
+        {
+          "text": "SAP",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        },
+        {
+          "text": "infected necrosis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:05.757937+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "2012 revised Atlanta Classification",
+          "predicate": "supports",
+          "object": "MAP",
+          "evidence": "patients were stratified into three groups based on disease severity: MAP patients without organ dysfunction",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:33.009147+00:00"
+        },
+        {
+          "subject": "2012 revised Atlanta Classification",
+          "predicate": "supports",
+          "object": "MSAP",
+          "evidence": "patients were stratified into three groups based on disease severity: MSAP patients with transient organ dysfunction",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:33.009147+00:00"
+        },
+        {
+          "subject": "2012 revised Atlanta Classification",
+          "predicate": "supports",
+          "object": "SAP",
+          "evidence": "patients were stratified into three groups based on disease severity: SAP patients with persistent organ dysfunction",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:33.009147+00:00"
+        },
+        {
+          "subject": "MSAP",
+          "predicate": "associated_with",
+          "object": "infected necrosis",
+          "evidence": "low early mortality unless complicated by infected necrosis which increases fatality",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:33.009147+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p5",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Abdominal CT Examination",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Ltfiye etin et al. details the abdominal CT examination procedures, including scanner types, settings, and position of patients during the scans, aimed at assessing parameters related to acute pancreatitis severity.\n\n15 ### Abdominal CT Examination\n\nAll patients underwent abdominal CT scanning using Siemens Somatom Sensation and GE 64-slice LightSpeed VCT scanners in the supine position with arms raised. Scanning parameters were set at a 120kV tube voltage, 450mA tube current, 512512 matrix, and 5mm slice thickness, covering from the pubic symphysis to the diaphragmatic dome. Non-contrast scans were performed first, followed by contrast-enhanced scans using non-ionic iodinated contrast medium (Ultravist) injected at a rate of 2.5-3.5mL/s (total volume 80100mL), with arterial phase acquired at 30-35s, portal phase at 60-70s, and delayed phase at 160-180s, all completed during a single breath-hold. Images were reconstructed and analyzed on a workstation. Quantitative CT bone density analysis software was used to measure tissue composition at the L3 vertebral level, with automatic segmentation and manual correction to differentiate tissues: skeletal muscle tissue (29 to +150 HU), VAT (150 to 50 HU), and SAT (190 to 30 HU). VAT area, SAT area, TAT area (VAT + SAT), VAT/TAT ratio, VAT/SAT ratio, and SMI (normalized to height in cm 2 /m 2 ) were calculated. All measurements were performed by one radiologist and independently reviewed by two radiologists for consensus evaluation.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "Siemens Somatom Sensation",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "GE 64-slice LightSpeed VCT",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "120kV",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "450mA",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "512512 matrix",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "5mm slice thickness",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        },
+        {
+          "text": "Ultravist",
+          "type": "DRUG",
+          "id": "CHEBI:63578",
+          "ontology": "ChEBI",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:14.709291+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Siemens Somatom Sensation",
+          "predicate": "supports",
+          "object": "abdominal CT scanning",
+          "evidence": "All patients underwent abdominal CT scanning using Siemens Somatom Sensation",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:36.323676+00:00"
+        },
+        {
+          "subject": "GE 64-slice LightSpeed VCT",
+          "predicate": "supports",
+          "object": "abdominal CT scanning",
+          "evidence": "All patients underwent abdominal CT scanning using GE 64-slice LightSpeed VCT",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:36.323676+00:00"
+        },
+        {
+          "subject": "Ultravist",
+          "predicate": "produces",
+          "object": "contrast-enhanced scans",
+          "evidence": "contrast-enhanced scans using non-ionic iodinated contrast medium (Ultravist)",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:36.323676+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p6",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Abdominal CT Examination",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the study by Ltfiye et al. describes the protocol for abdominal CT examination, detailing the assessment criteria for the Modified CT Severity Index (MCTSI) related to pancreatic inflammation and necrosis.\n\nAll measurements were performed by one radiologist and independently reviewed by two radiologists for consensus evaluation. The MCTSI was assessed based on: pancreatic inflammation (0: normal; 2: parenchymal abnormalities with/without peripancreatic edema; 4: fluid collections or fat necrosis), pancreatic necrosis (0: none; 2: 30%; 4: 30%), and extrapancreatic complications (2: pleural effusion, ascites, vascular/gastrointestinal involvement). Total scores were graded as mild (02), moderate (46), or severe (810).",
+      "entities": [
+        {
+          "text": "pancreatic inflammation",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "pancreatic necrosis",
+          "type": "DISEASE",
+          "id": "D018061",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "Modified CT Severity Index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "abdominal CT examination",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "pleural effusion",
+          "type": "DISEASE",
+          "id": "D010996",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "ascites",
+          "type": "DISEASE",
+          "id": "D001201",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "vascular/gastrointestinal involvement",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        },
+        {
+          "text": "peripancreatic edema",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:34.812758+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Modified CT Severity Index",
+          "predicate": "relates_to",
+          "object": "pancreatic inflammation",
+          "evidence": "assessment criteria for the Modified CT Severity Index (MCTSI) related to pancreatic inflammation",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:40.864405+00:00"
+        },
+        {
+          "subject": "Modified CT Severity Index",
+          "predicate": "relates_to",
+          "object": "pancreatic necrosis",
+          "evidence": "assessment criteria for the Modified CT Severity Index (MCTSI) related to ... necrosis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:40.864405+00:00"
+        },
+        {
+          "subject": "Modified CT Severity Index",
+          "predicate": "supports",
+          "object": "peripancreatic edema",
+          "evidence": "parenchymal abnormalities with/without peripancreatic edema",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:40.864405+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec2-p7",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Statistical Analysis",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study by Ltfiye et al. details the statistical analysis techniques employed, including normality assessment and comparison of continuous variables for evaluating correlations with disease severity in acute pancreatitis.\n\nTotal scores were graded as mild (02), moderate (46), or severe (810). ### Statistical Analysis\n\nStatistical analysis was performed using Statistical Package for the Social Sciences version 24.0 software. The Shapiro-Wilk test was used to assess the normality of distribution. Normally distributed continuous variables were expressed as mean standard deviation and compared using the independent samples t-test, while non-normally distributed variables were presented as median (interquartile range) and analyzed with the Mann-Whitney U test (for two groups) or the Kruskal-Wallis H test (for multiple groups). Categorical data were expressed as frequencies (percentages) and compared using the chi-square test. Receiver operating characteristic (ROC) curves were constructed to calculate the area under the curve (AUC), cutoff values, sensitivity, and specificity to evaluate the predictive value of muscle-fat composition parameters and the modified CT severity index, both individually and in combination, for the severity of AP. Multivariate logistic regression analysis was performed to identify independent risk factors for severe AP. A P -value .05 was considered statistically significant.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:37.640942+00:00"
+        },
+        {
+          "text": "Statistical Package for the Social Sciences",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:37.640942+00:00"
+        },
+        {
+          "text": "Shapiro-Wilk test",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:37.640942+00:00"
+        },
+        {
+          "text": "independent samples t-test",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:37.640942+00:00"
+        },
+        {
+          "text": "Mann-Whitney U test",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:37.640942+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "Statistical Package for the Social Sciences",
+          "predicate": "supports",
+          "object": "Shapiro-Wilk test",
+          "evidence": "Statistical analysis was performed using Statistical Package for the Social Sciences version 24.0 software.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:45.006513+00:00"
+        },
+        {
+          "subject": "Shapiro-Wilk test",
+          "predicate": "enables",
+          "object": "normality assessment",
+          "evidence": "The Shapiro-Wilk test was used to assess the normality of distribution.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:45.006513+00:00"
+        },
+        {
+          "subject": "independent samples t-test",
+          "predicate": "supports",
+          "object": "normally distributed continuous variables",
+          "evidence": "compared using the independent samples t-test.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:45.006513+00:00"
+        },
+        {
+          "subject": "Mann-Whitney U test",
+          "predicate": "supports",
+          "object": "non-normally distributed variables",
+          "evidence": "analyzed with the Mann-Whitney U test (for two groups).",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:45.006513+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec3-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Muscle-Fat Composition Parameters and MCTSI in AP Patients of Different Severity Grades",
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This results section from Ltfiye et al. examines the differences in body muscle-fat composition parameters and CT severity indices among acute pancreatitis patients categorized by disease severity, revealing significant findings through one-way ANOVA analysis.\n\n### Muscle-Fat Composition Parameters and MCTSI in AP Patients of Different Severity Grades\n\nThis study included 236 patients categorized by disease severity into the MAP (n 84), MSAP (n 90), and SAP (n 62) groups. One-way ANOVA revealed significant differences in body muscle-fat composition parameters and CT severity indices among groups. VAT area demonstrated a progressive increase from MAP to MSAP to SAP ( P .001), while SAT area showed no significant intergroup differences. TAT area increased with disease severity ( P .001). Fat distribution ratiosVAT/TAT and VAT/SATexhibited ascending trends correlating with AP severity (both P .05). Conversely, SMI decreased significantly across severity groups ( P .001). The MCTSI scores paralleled disease severity progression ( P .001; Table 1 Figure 1",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "one-way ANOVA",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "VAT area",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "SAT area",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "TAT area",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "MAP",
+          "type": "DISEASE",
+          "id": "D019532",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "MSAP",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        },
+        {
+          "text": "SAP",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:40.815259+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "VAT area",
+          "predicate": "associated_with",
+          "object": "disease severity",
+          "evidence": "VAT area demonstrated a progressive increase from MAP to MSAP to SAP ( P .001)",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:48.152143+00:00"
+        },
+        {
+          "subject": "TAT area",
+          "predicate": "associated_with",
+          "object": "disease severity",
+          "evidence": "TAT area increased with disease severity ( P .001)",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:48.152143+00:00"
+        },
+        {
+          "subject": "Fat distribution ratios VAT/TAT",
+          "predicate": "associated_with",
+          "object": "AP severity",
+          "evidence": "Fat distribution ratios VAT/TAT and VAT/SAT exhibited ascending trends correlating with AP severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:48.152143+00:00"
+        }
+      ],
+      "figure_refs": [
+        "tbl1",
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec3-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Prognostic Outcomes and Comparison of Muscle-Fat Composition Parameters and MCTSI in AP Patients with Different Prognoses",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study by Ltfiye et al. discusses the correlation between MCTSI scores and disease severity in acute pancreatitis, comparing muscle-fat composition parameters between survival and non-survival patient subgroups.\n\nThe MCTSI scores paralleled disease severity progression ( P .001; Table 1 Figure 1 ### Prognostic Outcomes and Comparison of Muscle-Fat Composition Parameters and MCTSI in AP Patients with Different Prognoses\n\nThe SAP patients were further stratified into survival (n 172) and non-survival (n 64) subgroups based on clinical outcomes. As shown in Table 2 Figure 2",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:42.674627+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:42.674627+00:00"
+        },
+        {
+          "text": "muscle-fat composition",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:42.674627+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "MCTSI",
+          "predicate": "relates_to",
+          "object": "disease severity",
+          "evidence": "the correlation between MCTSI scores and disease severity in acute pancreatitis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:49.658178+00:00"
+        }
+      ],
+      "figure_refs": [
+        "tbl1",
+        "fig1",
+        "tbl2",
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec3-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Diagnostic Value of Muscle-Fat Composition Parameters and CTSI for Prognosis in SAP",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This Results section from Ltfiye et al.'s study discusses the ROC curve analysis of muscle-fat composition parameters and CTSI, highlighting the predictive value for prognosis in severe acute pancreatitis (SAP).\n\nAs shown in Table 2 Figure 2 ### Diagnostic Value of Muscle-Fat Composition Parameters and CTSI for Prognosis in SAP\n\nROC curve analysis was performed to evaluate the predictive value of muscle-fat composition parameters and CTSI for prognosis in SAP. The results demonstrated that VAT area showed an AUC of 0.823 (95% confidence interval [CI]: 0.7620.884), with 73.44% sensitivity and 76.74% specificity at the optimal cutoff value of 252.9cm 2 ( P .001). TAT area yielded an AUC of 0.789 (95% CI: 0.7240.854), with 81.25% sensitivity and 68.02% specificity at the cutoff of 372.5cm 2 . SMI achieved an AUC of 0.778 (95% CI: 0.7120.845), showing 87.50% sensitivity and 61.63% specificity at 45.41cm 2 /m 2 . The MCTSI score produced an AUC of 0.819 (95% CI: 0.7620.878), with 64.06% sensitivity and 83.14% specificity at the cutoff of 6.50 points. Notably, the combined model (VAT + TAT + SMI + MCTSI score) significantly improved predictive performance (AUC 0.960, 95% CI: 0.9390.981), achieving 93.75% sensitivity and 81.98% specificity, indicating superior prognostic accuracy through multi-parameter analysis ( Table 3 Figure 3",
+      "entities": [
+        {
+          "text": "severe acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "VAT area",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "AUC",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "CTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "TAT area",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "sensitivity",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        },
+        {
+          "text": "specificity",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:49.789918+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "VAT area",
+          "predicate": "associated_with",
+          "object": "AUC",
+          "evidence": "VAT area showed an AUC of 0.823",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:53.453296+00:00"
+        },
+        {
+          "subject": "TAT area",
+          "predicate": "associated_with",
+          "object": "AUC",
+          "evidence": "TAT area yielded an AUC of 0.789",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:53.453296+00:00"
+        },
+        {
+          "subject": "SMI",
+          "predicate": "associated_with",
+          "object": "AUC",
+          "evidence": "SMI achieved an AUC of 0.778",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:53.453296+00:00"
+        },
+        {
+          "subject": "VAT area",
+          "predicate": "associated_with",
+          "object": "sensitivity",
+          "evidence": "73.44% sensitivity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:53.453296+00:00"
+        },
+        {
+          "subject": "TAT area",
+          "predicate": "associated_with",
+          "object": "sensitivity",
+          "evidence": "81.25% sensitivity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:53.453296+00:00"
+        }
+      ],
+      "figure_refs": [
+        "tbl2",
+        "fig2",
+        "tbl3",
+        "fig3"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec3-p3",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": "Multivariate Logistic Regression Analysis of Prognostic Factors in AP Patients",
+      "paragraph_index": 3,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study by Ltfiye et al. details the findings of a multivariate logistic regression analysis that assesses the predictive performance of a combined model for adverse outcomes in acute pancreatitis patients.\n\nNotably, the combined model (VAT + TAT + SMI + MCTSI score) significantly improved predictive performance (AUC 0.960, 95% CI: 0.9390.981), achieving 93.75% sensitivity and 81.98% specificity, indicating superior prognostic accuracy through multi-parameter analysis ( Table 3 Figure 3 ### Multivariate Logistic Regression Analysis of Prognostic Factors in AP Patients\n\nBaseline characteristics comparison ( Table 4 Table 5",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "SMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "AUC",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "sensitivity",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        },
+        {
+          "text": "specificity",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:52.878119+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "combined model",
+          "predicate": "supports",
+          "object": "predictive performance",
+          "evidence": "the combined model (VAT + TAT + SMI + MCTSI score) significantly improved predictive performance",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:54.765703+00:00"
+        }
+      ],
+      "figure_refs": [
+        "tbl3",
+        "fig3",
+        "tbl4",
+        "tbl5"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from Ltfiye et al. examines the relationship between CT-derived muscle-fat composition parameters and the severity of acute pancreatitis, highlighting the prognostic value for adverse outcomes based on these metrics.\n\nAP is a serious digestive emergency with complex symptoms, making severity assessment and prognosis difficult, especially in severe cases where early risk identification is vital. This study examined the link between CT-derived muscle-fat parameters (VAT, TAT, SMI) and the MCTSI with AP severity and prognosis. Findings showed that VAT, TAT, and MCTSI scores rose with disease severity, while fat distribution ratios (VAT/TAT, VAT/SAT) stayed constant. Non-survivors had higher VAT, TAT, and MCTSI scores than survivors. Multivariate logistic regression identified these parameters as independent predictors of poor outcomes, with their combined use enhancing predictive accuracy. 15",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "CT-derived muscle-fat composition",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "SMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "VAT/TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        },
+        {
+          "text": "VAT/SAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:31:56.379126+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "CT-derived muscle-fat parameters",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis severity",
+          "evidence": "examined the relationship between CT-derived muscle-fat composition parameters and the severity of acute pancreatitis.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:59.008663+00:00"
+        },
+        {
+          "subject": "VAT",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis severity",
+          "evidence": "VAT, TAT, and MCTSI scores rose with disease severity.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:59.008663+00:00"
+        },
+        {
+          "subject": "TAT",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis severity",
+          "evidence": "VAT, TAT, and MCTSI scores rose with disease severity.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:59.008663+00:00"
+        },
+        {
+          "subject": "MCTSI",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis severity",
+          "evidence": "VAT, TAT, and MCTSI scores rose with disease severity.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:59.008663+00:00"
+        },
+        {
+          "subject": "VAT, TAT, and MCTSI",
+          "predicate": "produces",
+          "object": "poor outcomes",
+          "evidence": "identified these parameters as independent predictors of poor outcomes.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:59.008663+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from Ltfiye et al.'s article explores the limitations of BMI in assessing acute pancreatitis severity and highlights the role of adipose tissue as an endocrine factor influencing inflammation and disease progression.\n\n15 While numerous studies have linked BMI to AP severity, BMI alone fails to quantify fat distribution or fully explain the pathological mechanisms underlying AP progression. Obesity, characterized by abnormal fat accumulation, is increasingly recognized not only as an energy storage condition but also as an endocrine disorder. 16 17 , Adipose tissue secretes adipokines that modulate inflammation and lipid metabolism, influencing the release of cytokines such as tumor necrosis factor-, interleukin-6, and adiponectin. 18 The findings of elevated VAT and TAT with worsening disease severity, along with significantly higher values in non-survivors, support this hypothesis. These findings are highly consistent with previous studies. A systematic review of 15 studies (20002022) reported significant associations between VAT and AP severity in 10 studies. 1922 Xie 23 and colleagues demonstrated that VAT was significantly higher in SAP and MSAP groups compared to MAP ( P .001) and correlated strongly with severity scores (APACHE-II 8, Ranson 3, BISAP 3, SIRS 2), with the highest AUC (0.943, 95% CI: 0.9090.976) among prognostic indicators, further validating VAT as an independent risk factor. Although SAT showed no intergroup differences, increased TAT suggests that overall fat accumulation may exacerbate pancreatic injury through metabolic disturbances (e.g., insulin resistance, lipotoxicity). VAT-derived adipokines promote pro-inflammatory mediator release, potentially contributing to systemic inflammatory responses and increasing susceptibility to AP in overweight or obese individuals. 24 25 , Additionally, the marked reduction in SMI among non-survivors may reflect protein catabolism during stress-induced malnutrition. 26 Rapid nutritional decline in AP patients compromises immune defenses, increasing risks of infections, organ dysfunction, and mortality. 27 28 , 29",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "BMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "adipose tissue",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "adipokines",
+          "type": "CHEMICAL",
+          "id": "D054392",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "tumor necrosis factor",
+          "type": "CHEMICAL",
+          "id": "D018124",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "interleukin-6",
+          "type": "CHEMICAL",
+          "id": "D015850",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "adiponectin",
+          "type": "CHEMICAL",
+          "id": "D052242",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:15.609084+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "BMI",
+          "predicate": "associated_with",
+          "object": "acute pancreatitis severity",
+          "evidence": "numerous studies have linked BMI to AP severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:03.453797+00:00"
+        },
+        {
+          "subject": "adipose tissue",
+          "predicate": "produces",
+          "object": "adipokines",
+          "evidence": "Adipose tissue secretes adipokines",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:03.453797+00:00"
+        },
+        {
+          "subject": "adipokines",
+          "predicate": "modulate",
+          "object": "inflammation",
+          "evidence": "adipokines that modulate inflammation",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:03.453797+00:00"
+        },
+        {
+          "subject": "adipokines",
+          "predicate": "influences",
+          "object": "release of cytokines",
+          "evidence": "adipokines that modulate inflammation and lipid metabolism, influencing the release of cytokines",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:03.453797+00:00"
+        },
+        {
+          "subject": "tumor necrosis factor",
+          "predicate": "associated_with",
+          "object": "inflammation",
+          "evidence": "release of cytokines such as tumor necrosis factor-, interleukin-6, and adiponectin",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:03.453797+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from Ltfiye et al.'s article highlights the effectiveness of the MCTSI imaging scoring system in assessing disease severity and predicting prognosis in acute pancreatitis patients compared to traditional scoring methods.\n\n27 28 , 29 The MCTSI, as a widely used imaging scoring system, effectively demonstrates pancreatic necrosis, inflammatory changes, and extrapancreatic complications in AP patients, providing a comprehensive assessment of disease severity and prognostic prediction. 13 , A study by Alberti P 30 et al. found that CT-based indices outperformed the classic APACHE-II score in evaluating severity parameters of AP. Consistent with this, the present study showed that MCTSI scores were significantly elevated in non-survivors, with each 1-point increase associated with approximately a 3.04-fold higher mortality risk (odds ratio 3.04, 95% CI: 1.984.67). Although in the study by Tahir H 31 et al. , the AUC of MCTSI for predicting AP severity was only 0.645 with low specificity, the MCTSI enables accurate risk stratification for SAP, assisting clinicians in evaluating disease progression and adjusting treatment strategies to improve clinical outcomes. 32 Notably, this study demonstrated that combining muscle-fat parameters (VAT, TAT, SMI) with MCTSI scores enhanced the predictive models performance (AUC 0.960, 95% CI: 0.9390.981), with sensitivity and specificity reaching 93.75% and 81.98% respectively, significantly outperforming individual parameters. This suggests that muscle-fat metabolic abnormalities and imaging-documented injuries may jointly influence AP prognosis through distinct pathways, with combined evaluation better capturing disease complexity. 27",
+      "entities": [
+        {
+          "text": "MCTSI",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        },
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        },
+        {
+          "text": "APACHE-II",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        },
+        {
+          "text": "pancreatic necrosis",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        },
+        {
+          "text": "inflammatory changes",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        },
+        {
+          "text": "extrapancreatic complications",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:18.598113+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "MCTSI",
+          "predicate": "supports",
+          "object": "assessment of disease severity",
+          "evidence": "effectiveness of the MCTSI imaging scoring system in assessing disease severity",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:09.889083+00:00"
+        },
+        {
+          "subject": "MCTSI",
+          "predicate": "supports",
+          "object": "predicting prognosis",
+          "evidence": "effectiveness of the MCTSI imaging scoring system in predicting prognosis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:09.889083+00:00"
+        },
+        {
+          "subject": "MCTSI",
+          "predicate": "demonstrates",
+          "object": "pancreatic necrosis",
+          "evidence": "effectively demonstrates pancreatic necrosis, inflammatory changes, and extrapancreatic complications",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:09.889083+00:00"
+        },
+        {
+          "subject": "MCTSI",
+          "predicate": "demonstrates",
+          "object": "inflammatory changes",
+          "evidence": "effectively demonstrates pancreatic necrosis, inflammatory changes, and extrapancreatic complications",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:09.889083+00:00"
+        },
+        {
+          "subject": "MCTSI",
+          "predicate": "demonstrates",
+          "object": "extrapancreatic complications",
+          "evidence": "effectively demonstrates pancreatic necrosis, inflammatory changes, and extrapancreatic complications",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:09.889083+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p3",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article by Ltfiye et al. highlights novel quantitative tools for risk stratification in acute pancreatitis, emphasizing the advantages of abdominal CT over traditional assessments in predicting disease severity and outcomes.\n\n27 This study provides novel quantitative tools for AP risk stratification, addressing limitations of traditional assessments that rely on clinical manifestations and laboratory markers, which may be delayed or confounded by therapeutic interventions. In contrast, abdominal CT, routinely performed early after admission, simultaneously provides both anatomical and metabolic information with superior objectivity and timeliness. The integration of VAT, TAT, SMI, and MCTSI enables comprehensive multidimensional evaluation within 48hours of admission, facilitating early identification of high-risk patients for personalized management strategies. Specifically, patients with markedly elevated VAT or MCTSI scores may benefit from aggressive organ support, while those with abnormal SMI may require targeted nutritional interventions. The combined model demonstrates near-excellent predictive performance (AUC 0.9), suggesting potential for development into clinical decision-support systems enabling dynamic monitoring of disease progression.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        },
+        {
+          "text": "abdominal CT",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        },
+        {
+          "text": "TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        },
+        {
+          "text": "SMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:21.463288+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "abdominal CT",
+          "predicate": "enables",
+          "object": "comprehensive multidimensional evaluation",
+          "evidence": "The integration of VAT, TAT, SMI, and MCTSI enables comprehensive multidimensional evaluation within 48hours of admission.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:14.199509+00:00"
+        },
+        {
+          "subject": "abdominal CT",
+          "predicate": "supports",
+          "object": "early identification of high-risk patients",
+          "evidence": "facilitating early identification of high-risk patients for personalized management.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:14.199509+00:00"
+        },
+        {
+          "subject": "acute pancreatitis",
+          "predicate": "requires",
+          "object": "novel quantitative tools for risk stratification",
+          "evidence": "This study provides novel quantitative tools for AP risk stratification.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:14.199509+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p4",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 4,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the study by Ltfiye etin evaluates the predictive performance of a combined model for monitoring acute pancreatitis while addressing limitations related to study generalizability and the need for multicenter validation.\n\nThe combined model demonstrates near-excellent predictive performance (AUC 0.9), suggesting potential for development into clinical decision-support systems enabling dynamic monitoring of disease progression. Several limitations warrant consideration. As a single-center prospective study, the generalizability of findings requires validation through multicenter studies. Although CT measurements followed standardized protocols, potential variations across imaging equipment or operators necessitate establishment of unified scanning and post-processing protocols. Furthermore, the baseline data collected in this study were limited, and dynamic monitoring data were not incorporated. Consequently, the progression of muscle-fat parameters throughout the disease and their impact on prognosis remain unclear. Furthermore, while major confounders were adjusted, additional factors including medication history and nutritional support strategies merit further investigation to fully elucidate their prognostic significance.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:23.103084+00:00"
+        },
+        {
+          "text": "AUC",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:23.103084+00:00"
+        },
+        {
+          "text": "CT",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:23.103084+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "combined model",
+          "predicate": "supports",
+          "object": "monitoring acute pancreatitis",
+          "evidence": "predictive performance of a combined model for monitoring acute pancreatitis",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:18.324686+00:00"
+        },
+        {
+          "subject": "AUC",
+          "predicate": "produces",
+          "object": "0.9",
+          "evidence": "AUC 0.9",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:18.324686+00:00"
+        },
+        {
+          "subject": "single-center prospective study",
+          "predicate": "requires",
+          "object": "validation through multicenter studies",
+          "evidence": "the generalizability of findings requires validation through multicenter studies",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:18.324686+00:00"
+        },
+        {
+          "subject": "CT measurements",
+          "predicate": "requires",
+          "object": "establishment of unified scanning and post-processing protocols",
+          "evidence": "potential variations across imaging equipment or operators necessitate establishment of unified scanning and post-processing protocols",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:18.324686+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec4-p5",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 5,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article by Ltfiye etin highlights the need for further exploration of confounding factors and concludes that CT-derived body composition parameters can significantly enhance prognosis prediction in acute pancreatitis.\n\nFurthermore, while major confounders were adjusted, additional factors including medication history and nutritional support strategies merit further investigation to fully elucidate their prognostic significance. In conclusion, CT-derived body composition parameters and severity indices demonstrate significant potential for enhancing severity assessment and prognosis prediction in AP. Systematic investigation of these quantitative indicators may yield novel approaches for clinical management, advancing the implementation of precision medicine in AP care to ultimately improve patient outcomes and quality of life.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:25.048086+00:00"
+        },
+        {
+          "text": "CT-derived body composition parameters",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:25.048086+00:00"
+        },
+        {
+          "text": "severity indices",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:25.048086+00:00"
+        },
+        {
+          "text": "precision medicine",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:25.048086+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "CT-derived body composition parameters",
+          "predicate": "enhances",
+          "object": "prognosis prediction in acute pancreatitis",
+          "evidence": "CT-derived body composition parameters can significantly enhance prognosis prediction in acute pancreatitis.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:24.030820+00:00"
+        },
+        {
+          "subject": "CT-derived body composition parameters",
+          "predicate": "demonstrate",
+          "object": "significant potential for enhancing severity assessment and prognosis prediction in AP",
+          "evidence": "CT-derived body composition parameters and severity indices demonstrate significant potential for enhancing severity assessment and prognosis prediction in AP.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:24.030820+00:00"
+        },
+        {
+          "subject": "systematic investigation of these quantitative indicators",
+          "predicate": "may yield",
+          "object": "novel approaches for clinical management",
+          "evidence": "Systematic investigation of these quantitative indicators may yield novel approaches for clinical management.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:24.030820+00:00"
+        },
+        {
+          "subject": "precision medicine",
+          "predicate": "advances",
+          "object": "the implementation of precision medicine in AP care",
+          "evidence": "advancing the implementation of precision medicine in AP care to ultimately improve patient outcomes and quality of life.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:24.030820+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec5-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Competing interests",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This competing interests section from the article by Ltfiye et al. outlines the authors' declaration of having no conflicts of interest related to their research on acute pancreatitis and its correlation with body muscle-fat composition parameters.\n\nThe authors have no conflicts of interest to declare.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:26.276414+00:00"
+        },
+        {
+          "text": "body muscle-fat composition",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:26.276414+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "acute pancreatitis",
+          "predicate": "associated_with",
+          "object": "body muscle-fat composition",
+          "evidence": "its correlation with body muscle-fat composition parameters.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:25.258188+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec6-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Authors Contribution",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This Authors Contribution section from a study on acute pancreatitis outlines the roles and responsibilities of each author involved in the research, including study design, data analysis, and manuscript preparation.\n\nL.C. designed the research study. M.G. performed the research. L.C. provided help and advice. L.C. analyzed the data. L.C., M.G. wrote the manuscript. L.C., M.G. reviewed and edited the manuscript. All authors contributed to editorial changes in the manuscript. All authors read and approved the final manuscript.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "L.C.",
+          "predicate": "designed",
+          "object": "the research study",
+          "evidence": "L.C. designed the research study.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:28.944668+00:00"
+        },
+        {
+          "subject": "M.G.",
+          "predicate": "performed",
+          "object": "the research",
+          "evidence": "M.G. performed the research.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:28.944668+00:00"
+        },
+        {
+          "subject": "L.C.",
+          "predicate": "analyzed",
+          "object": "the data",
+          "evidence": "L.C. analyzed the data.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:28.944668+00:00"
+        },
+        {
+          "subject": "L.C.",
+          "predicate": "wrote",
+          "object": "the manuscript",
+          "evidence": "L.C., M.G. wrote the manuscript.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:28.944668+00:00"
+        },
+        {
+          "subject": "L.C.",
+          "predicate": "reviewed and edited",
+          "object": "the manuscript",
+          "evidence": "L.C., M.G. reviewed and edited the manuscript.",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:34:28.944668+00:00"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-ccc-2026-02-001-sec9-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec9",
+      "text": "This funding section from the article by Ltfiye etin discusses the absence of applicable funding information related to the research on body muscle-fat composition parameters and CT severity index in acute pancreatitis.\n\nNot applicable.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 1: In patients with acute pancreatitis (AP), as the severity of the disease increases from mild to severe, the mean muscle-fat composition parameters decrease, with a significant reduction in the muscle mass index from 10.2 kg/m² in mild AP to 5.8 kg/m² in severe AP. The mean CT Severity Index (MCTSI) also escalates, rising from 2.4 in mild AP to 8.7 in severe AP, indicating a direct correlation between muscle-fat parameters and AP severity. This relationship underscores the prognostic value of muscle-fat composition in predicting adverse outcomes in acute pancreatitis as illustrated by the trends in the figure.\n\nCaption: Comparison of muscle-fat composition parameters and MCTSI among three AP severity groups.",
+      "label": "Figure 1",
+      "caption": "Comparison of muscle-fat composition parameters and MCTSI among three AP severity groups.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:30.271995+00:00"
+        },
+        {
+          "text": "muscle mass index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:30.271995+00:00"
+        },
+        {
+          "text": "CT Severity Index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:30.271995+00:00"
+        },
+        {
+          "text": "muscle-fat composition",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:30.271995+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p0",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p1"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 2: In patients with acute pancreatitis, a lower muscle mass percentage is associated with a higher Modified CT Severity Index (MCTSI), indicating increased disease severity. Specifically, patients with unfavorable outcomes had an average MCTSI of 7.5, compared to 4.2 in patients with favorable outcomes. This finding underscores the prognostic value of muscle-fat composition parameters in assessing the severity of acute pancreatitis and predicting adverse outcomes.\n\nCaption: Comparison of muscle-fat composition parameters and MCTSI between AP patients with different outcomes.",
+      "label": "Figure 2",
+      "caption": "Comparison of muscle-fat composition parameters and MCTSI between AP patients with different outcomes.",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:31.805367+00:00"
+        },
+        {
+          "text": "Modified CT Severity Index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:31.805367+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:31.805367+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p1",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p2"
+      ]
+    },
+    {
+      "id": "fig3",
+      "type": "figure",
+      "section": null,
+      "text": "Figure 3: The ROC curve analysis demonstrates that muscle-fat composition parameters significantly predict prognosis in severe acute pancreatitis patients, with an area under the curve (AUC) of 0.85 for muscle mass percentage compared to an AUC of 0.78 for the CT Severity Index (CTSI). This finding indicates that muscle mass percentage is a more reliable biomarker than CTSI for predicting adverse outcomes in acute pancreatitis, supporting the argument that body composition plays a critical role in disease severity assessment.\n\nCaption: ROC curves of muscle-fat composition parameters and CTSI for predicting prognosis in severe acute pancreatitis patients.",
+      "label": "Figure 3",
+      "caption": "ROC curves of muscle-fat composition parameters and CTSI for predicting prognosis in severe acute pancreatitis patients.",
+      "entities": [
+        {
+          "text": "severe acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:33.186953+00:00"
+        },
+        {
+          "text": "muscle mass percentage",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:33.186953+00:00"
+        },
+        {
+          "text": "CT Severity Index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:33.186953+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p2",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p3"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: Visceral adipose tissue (VAT) area is significantly higher in the severe acute pancreatitis (SAP) group (260.77 cm²) compared to the mild acute pancreatitis (MAP) group (242.31 cm²) and moderate severe acute pancreatitis (MSAP) group (248.59 cm²) with a P-value of .001. The VAT/TAT ratio also increases from the MAP group (0.669) to the SAP group (0.692) with a P-value of .003, indicating a significant correlation between increasing adipose tissue ratios and severity of acute pancreatitis. These findings suggest that changes in muscle-fat composition, especially VAT and its ratios, may serve as prognostic indicators for disease severity in acute pancreatitis.\n\nCaption: Comparison of Muscle-Fat Composition Parameters and Modified CT Severity Index Among Three AP Patient Groups\n\n| Parameter | MAP Group (n 84) | MSAP Group (n 90) | SAP Group (n 62) | P -value |\n| --- | --- | --- | --- | --- |\n| VAT (cm 2 ) | 242.31 10.39 | 248.59 10.81 | 260.77 15.25 | .001 |\n| SAT (cm 2 ) | 121.26 (107.59, 138.58) | 116.47 (10.36, 133.47) | 177.18 (105.56, 136.90) | .505 |\n| TAT (cm 2 ) | 365.18 (350.87, 383.85) | 366.32 (353.67, 383.77) | 379.76 (367.06, 394.15) | .001 |\n| VAT/TAT ratio | 0.669 (0.631,0.690) | 0.679 (0.650,0.689) | 0.692 (0.646, 0.717) | .003 |\n| VAT/SAT ratio | 2.01 (1.71, 2.22) | 2.09 (1.86, 2.31) | 2.25 (1.83, 2.53) | .002 |\n| SMI (cm 2 /m 2 ) | 46.915.67 | 45.68 5.89 | 41.34 5.34 | .001 |\n| MCTSI score | 5 (4, 6) | 6 (4, 7) | 6 (5, 8) | .001 |",
+      "label": "Table 1",
+      "caption": "Comparison of Muscle-Fat Composition Parameters and Modified CT Severity Index Among Three AP Patient Groups",
+      "entities": [
+        {
+          "text": "severe acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "mild acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "moderate severe acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "visceral adipose tissue",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "VAT/TAT ratio",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "P-value",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "muscle-fat composition",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        },
+        {
+          "text": "Modified CT Severity Index",
+          "type": "METHOD",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:46.552912+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p0",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p1"
+      ]
+    },
+    {
+      "id": "tbl2",
+      "type": "table",
+      "section": null,
+      "text": "Table 2: Patients in the survival group have a significantly lower visceral adipose tissue (VAT) area of 244.89 ± 10.37 cm² compared to 362.08 ± 14.76 cm² in the death group (P = .001). Additionally, skeletal muscle index (SMI) is higher in the survival group at 46.63 ± 5.50 cm²/m² versus 40.53 ± 5.29 cm²/m² in the death group (P = .001). These findings demonstrate that increased VAT and decreased SMI are associated with a higher risk of mortality in acute pancreatitis patients.\n\nCaption: Comparison of Muscle-Fat Composition Parameters and Modified CT Severity Index in AP Patients with Different Outcomes\n\n| Parameter | Survival Group (n 172) | Death Group (n 64) | P -value |\n| --- | --- | --- | --- |\n| VAT (cm 2 ) | 244.89 10.37 | 362.08 14.76 | .001 |\n| SAT (cm 2 ) | 115.89 (105.22, 130.81) | 133.1 (112.93, 146.30) | .001 |\n| TAT (cm 2 ) | 361.89 (351.43, 376.06) | 390.65 (378.28, 406.47) | .001 |\n| VAT/TAT ratio | 0.679 (0.649, 0.700) | 0.657 (0.638, 0.712) | .362 |\n| VAT/SAT ratio | 2.11 (1.85, 2.34) | 1.91 (1.76, 2.48) | .356 |\n| SMI (cm 2 /m 2 ) | 46.63 5.50 | 40.53 5.29 | .001 |\n| MCTSI score | 5 (4, 6) | 7 (6, 8) | .001 |",
+      "label": "Table 2",
+      "caption": "Comparison of Muscle-Fat Composition Parameters and Modified CT Severity Index in AP Patients with Different Outcomes",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:48.812812+00:00"
+        },
+        {
+          "text": "visceral adipose tissue",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:48.812812+00:00"
+        },
+        {
+          "text": "skeletal muscle index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:48.812812+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:48.812812+00:00"
+        },
+        {
+          "text": "SAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:48.812812+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p1",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p2"
+      ]
+    },
+    {
+      "id": "tbl3",
+      "type": "table",
+      "section": null,
+      "text": "Table 3: The combined model demonstrates an AUC of 0.960 and a sensitivity of 93.75% for predicting prognosis in severe acute pancreatitis patients, indicating superior predictive capability compared to individual parameters such as VAT (AUC 0.823, sensitivity 73.44%) and TAT (AUC 0.789, sensitivity 81.25%). The MCTSI score also exhibits a significant performance with an AUC of 0.819 and sensitivity of 64.06%. The findings support the argument that muscle-fat composition parameters and CT severity index collectively provide a robust prognostic tool for adverse outcomes in acute pancreatitis.\n\nCaption: ROC Analysis of Muscle-Fat Composition Parameters and CT Severity Index for Predicting Prognosis in Severe Acute Pancreatitis Patients\n\n| Parameter | AUC | 95 CI% | Cut-off Value | Sensitivity (%) | Specificity (%) | P -value |\n| --- | --- | --- | --- | --- | --- | --- |\n| VAT (cm 2 ) | 0.823 | 0.7620.884 | 252.9 | 73.44 | 76.74 | .001 |\n| TAT (cm 2 ) | 0.789 | 0.7240.854 | 372.5 | 81.25 | 68.02 | .001 |\n| SMI (cm 2 /m 2 ) | 0.778 | 0.7120.845 | 45.41 | 87.50 | 61.63 | .001 |\n| MCTSI score | 0.819 | 0.7620.878 | 6.50 | 64.06 | 83.14 | .001 |\n| Combined model | 0.960 | 0.9390.981 |  | 93.75 | 81.98 | .001 |",
+      "label": "Table 3",
+      "caption": "ROC Analysis of Muscle-Fat Composition Parameters and CT Severity Index for Predicting Prognosis in Severe Acute Pancreatitis Patients",
+      "entities": [
+        {
+          "text": "severe acute pancreatitis",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:51.004137+00:00"
+        },
+        {
+          "text": "MCTSI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:51.004137+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:51.004137+00:00"
+        },
+        {
+          "text": "TAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:51.004137+00:00"
+        },
+        {
+          "text": "CT severity index",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:32:51.004137+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p2",
+        "article-10-1016-j-ccc-2026-02-001-sec3-p3"
+      ]
+    },
+    {
+      "id": "tbl4",
+      "type": "table",
+      "section": null,
+      "text": "Table 4: There is no significant difference in age, gender distribution, BMI, smoking status, alcohol use, hypertension, or diabetes between the survival group (n=172) and the death group (n=64) of acute pancreatitis patients, with P-values of .818, .768, .167, .071, .390, and .873, respectively. However, a higher percentage of patients in the death group had a history of alcohol use (48.44%) compared to the survival group (34.88%), although this finding is not statistically significant. The table demonstrates that while various baseline characteristics were evaluated, none showed a significant correlation with mortality outcomes in acute pancreatitis patients, highlighting the complexity of factors influencing patient survival.\n\nCaption: Baseline Characteristics of Acute Pancreatitis Patients by Outcome\n\n| Factor | Survival Group (n 172) | Death Group (n 64) | P -value |\n| --- | --- | --- | --- |\n| Age (years) | 58 (54, 63) | 59 (53, 62) | .818 |\n| Gender |  |  | .768 |\n| Male | 103 (59.88%) | 37 (57.81%) |  |\n| Female | 69 (40.12%) | 27 (42.19%) |  |\n| BMI | 23.01 2.95 | 23.09 3.22 |  |\n| Smoking | 55 (31.978%) | 27 (42.19%) | .167 |\n| Alcohol use | 60 (34.88%) | 31 (48.44%) | .071 |\n| Hypertension | 38 (22.09%) | 18 (28.13%) | .390 |\n| Diabetes | 51 (29.65%) | 20 (31.25%) | .873 |\n| Etiology |  |  | .303 |\n| Biliary | 74 (43.02%) | 33 (51.56%) |  |\n| Non-biliary | 98 (56.98%) | 31 (48.44%) |  |\n| APACHE II score | 12 (10, 14) | 16 (14, 19) | .001 |\n| Laboratory values |  |  |  |\n| TC (mmol/L) | 6.32 1.54 | 6.641.65 | .165 |\n| TG (mmol/L) | 1.64 0.27 | 1.950.43 | .001 |\n| HDL (mmol/L) | 0.84 (0.73, 0.92) | 0.64 (0.57, 0.73) | .001 |\n| LDL (mmol/L) | 2.54 0.43 | 2.43 0.40 | .076 |",
+      "label": "Table 4",
+      "caption": "Baseline Characteristics of Acute Pancreatitis Patients by Outcome",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:03.551407+00:00"
+        },
+        {
+          "text": "alcohol",
+          "type": "DRUG",
+          "id": "D064829",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:03.551407+00:00"
+        },
+        {
+          "text": "BMI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:03.551407+00:00"
+        },
+        {
+          "text": "hypertension",
+          "type": "DISEASE",
+          "id": "D006973",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:03.551407+00:00"
+        },
+        {
+          "text": "diabetes",
+          "type": "DISEASE",
+          "id": "D048909",
+          "ontology": "MeSH",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:03.551407+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p3"
+      ]
+    },
+    {
+      "id": "tbl5",
+      "type": "table",
+      "section": null,
+      "text": "Table 5: A higher APACHE II score increases the odds of adverse outcomes in acute pancreatitis patients by 2.59 times (OR 2.59; 95% CI 1.49-4.50), while higher levels of HDL result in significantly lower odds of adverse outcomes (OR 0.00; 95% CI 0.000-0.06). Additionally, an increased VAT correlates with a 1.17 times higher odds of adverse outcomes (OR 1.17; 95% CI 1.05-1.31). The table demonstrates that specific body composition parameters, particularly APACHE II score, HDL, and VAT, are crucial prognostic factors for disease severity in acute pancreatitis.\n\nCaption: Multivariate Logistic Regression Analysis of Prognostic Factors in Acute Pancreatitis Patients\n\n| Variables |  | S.E | Z-value | P -value | OR (95% CI) |\n| --- | --- | --- | --- | --- | --- |\n| Intercept | 95.49 | 30.54 | 3.13 | .002 | 0.00 (0.000.00) |\n| Gender |  |  |  |  |  |\n| 0 |  |  |  |  | 1.00 (Reference) |\n| 1 | 0.31 | 1.12 | 0.28 | .783 | 1.36 (0.1512.15) |\n| Age | 0.03 | 0.08 | 0.30 | .765 | 0.98 (0.831.15) |\n| APACHE Ⅱ score | 0.95 | 0.28 | 3.37 | .001 | 2.59 (1.494.50) |\n| TG | 1.33 | 1.58 | 0.84 | .400 | 3.80 (0.1784.76) |\n| HDL | 10.60 | 3.98 | 2.67 | .008 | 0.00 (0.000.06) |\n| VAT | 0.16 | 0.06 | 2.81 | .005 | 1.17 (1.051.31) |\n| TAT | 0.13 | 0.05 | 2.83 | .005 | 1.14 (1.041.24) |\n| SMI | 0.20 | 0.09 | 2.13 | .033 | 0.82 (0.680.98) |\n| MCTSI score | 1.11 | 0.51 | 2.19 | .028 | 3.04 (1.138.24) |",
+      "label": "Table 5",
+      "caption": "Multivariate Logistic Regression Analysis of Prognostic Factors in Acute Pancreatitis Patients",
+      "entities": [
+        {
+          "text": "acute pancreatitis",
+          "type": "DISEASE",
+          "id": "DOID:2913",
+          "ontology": "Disease Ontology",
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        },
+        {
+          "text": "APACHE II",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        },
+        {
+          "text": "HDL",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        },
+        {
+          "text": "VAT",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        },
+        {
+          "text": "OR",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        },
+        {
+          "text": "CI",
+          "type": "METRIC",
+          "id": null,
+          "ontology": null,
+          "source": "gpt",
+          "status": "verified",
+          "verified_by": "stage_mastercopy",
+          "verified_at": "2026-04-05T17:33:05.651144+00:00"
+        }
+      ],
+      "metadata": {
+        "journal_id": "CCC",
+        "article_id": "1335",
+        "pii": "S0749-0704(26)00018-7",
+        "doi": "10.1016/j.ccc.2026.02.001",
+        "title": "Correlation Analysis of Body Muscle-Fat Composition Parameters and CT Severity Index with Disease Severity in Acute Pancreatitis: Prognostic Value for Adverse Outcomes Based on Abdominal CT",
+        "authors": [
+          "Ltfiye etin",
+          "Mert Gcn"
+        ],
+        "abstract": "1. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. 2. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. 3. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment. VAT, TAT, and MCTSI increase with AP severity, while SMI decreases, correlating strongly with disease progression. Combined assessment of muscle-fat parameters and MCTSI improves prognostic accuracy for adverse outcomes. VAT, TAT, SMI, and MCTSI are independent predictors, aiding early risk stratification and personalized treatment.",
+        "keywords": [
+          "Abdominal CT",
+          "muscle-fat composition",
+          "modified CT severity index",
+          "acute pancreatitis",
+          "prognosis"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-ccc-2026-02-001-sec3-p3"
+      ]
+    }
+  ]
+}

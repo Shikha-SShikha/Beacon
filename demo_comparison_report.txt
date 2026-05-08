@@ -1,0 +1,129 @@
+==========================================================================================
+  BEACON ENRICHMENT PIPELINE — BEFORE vs AFTER DEMO REPORT
+  Generated: 2026-03-29
+==========================================================================================
+
+┌─ Scenario 1: Buried Finding → Surfaced
+│  Failure mode: B1 (buried findings), B4 (granularity mismatch)
+│  Query: "METTL3 upregulation increases m6A levels in infected leukocytes"
+│
+│  BASELINE (html_scrape, vector-only)
+│    Rank-1: BJ_100828.xml  [results]  dist=0.5353
+│    Text:   Observing that m6A levels rise in the more proliferative TBL20 B cells and decline in the ...
+│
+│  ENRICHED (hybrid + reranking + figures)
+│    Rank-1: BJ_100828.xml  [figure]  dist=0.5349
+│    Text:   [GENE: METTL3 | NCBI Gene:308572074] [CHEMICAL: m6A | ChEBI:CHEBI:21891] [ORGANISM: Theile...
+│    Linked figures in top 5: 2
+│    Intent: general  sec_mult=1.0  rec_mult=1.0247
+│
+│  DELTA
+│    Distance: +0.0004 (0.1% closer)
+│    Result: ▲ Enriched wins
+│
+│  WHY: With section-level chunking, this finding was buried in a 31,000-char results section — only 5% was embedded. Paragraph-level chunking exposes it directly. The claim-extracting figure summary now surf
+└─────────────────────────────────────────────────────────────────────────────────────────
+
+┌─ Scenario 2: Figure Was Invisible → Now Retrievable
+│  Failure mode: E1 (visual content blindness), E2 (figure-claim decoupling)
+│  Query: "PAI-1 promotes cellular senescence through p53 pathway"
+│
+│  BASELINE (html_scrape, vector-only)
+│    Rank-1: BJ_100950.xml  [other]  dist=0.5905
+│    Text:   Notably, PAI-1 exhibits a dual role in lung cells, functioning as both a pro-senescence an...
+│
+│  ENRICHED (hybrid + reranking + figures)
+│    Rank-1: BJ_100950.xml  [figure]  dist=0.4712
+│    Text:   [PROTEIN: PAI-1 | NCBI Gene:5054] [PROTEIN: p53 | NCBI Gene:7157] [CHEMICAL: IGF-1] [PROTE...
+│    Linked figures in top 5: 1
+│    Intent: general  sec_mult=1.0  rec_mult=1.0
+│
+│  DELTA
+│    Distance: +0.1193 (20.2% closer)
+│    Result: ▲ Enriched wins
+│
+│  WHY: This finding lives in Figure 1's summary, not in the main text. Baseline returns text that mentions PAI-1 and senescence in passing. Enriched pipeline returns the claim-extracting figure summary that 
+└─────────────────────────────────────────────────────────────────────────────────────────
+
+┌─ Scenario 3: Wrong Section Ranked First → Right Section Promoted
+│  Failure mode: C3 (discourse blindness), B2 (abstract over-weighting)
+│  Query: "What experimental methods were used to detect ALK gene rearrangements"
+│
+│  BASELINE (html_scrape, vector-only)
+│    Rank-1: BJ_100840.xml  [other]  dist=0.6176
+│    Text:   ### Scientific background on the subject
+
+Anaplastic lymphoma kinase (ALK) translocations ...
+│
+│  ENRICHED (hybrid + reranking + figures)
+│    Rank-1: BJ_100840.xml  [methods]  dist=0.5264
+│    Text:   [GENE: ALK | NCBI Gene:238] [DISEASE: lung cancer | Disease Ontology:DOID:1324] [ORGANISM:...
+│    Linked figures in top 5: 1
+│    Intent: methodological  sec_mult=0.85  rec_mult=1.0215
+│
+│  DELTA
+│    Distance: +0.0912 (14.8% closer)
+│    Result: ▲ Enriched wins
+│
+│  WHY: Baseline returns an 'other' section chunk that mentions ALK detection in passing. The enriched pipeline detects methodological intent and boosts the methods section — the actual protocol describing FI
+└─────────────────────────────────────────────────────────────────────────────────────────
+
+┌─ Scenario 4: Exact Biomedical Term Boosted by Hybrid BM25
+│  Failure mode: A1 (terminology mismatch), A3 (OOV fragmentation)
+│  Query: "YY1 ANXA3 nitration diabetic cardiomyopathy"
+│
+│  BASELINE (html_scrape, vector-only)
+│    Rank-1: REDOX-104085.xml  [results]  dist=0.5521
+│    Text:   ONOO − -mediated signaling pathways, potentially involving protein nitration, play a criti...
+│
+│  ENRICHED (hybrid + reranking + figures)
+│    Rank-1: REDOX-104085.xml  [results]  dist=0.4974
+│    Text:   [PROTEIN: YY1 | NCBI Gene:7528] [PROTEIN: ANXA3 | NCBI Gene:306] [DISEASE: diabetic cardio...
+│    Linked figures in top 5: 3
+│    Intent: general  sec_mult=1.0  rec_mult=1.0025
+│
+│  DELTA
+│    Distance: +0.0547 (9.9% closer)
+│    Result: ▲ Enriched wins
+│
+│  WHY: Dense embeddings fragment rare biomedical terms (YY1, ANXA3) into meaningless subword tokens. BM25 matches them exactly as strings. Hybrid RRF fusion combines both signals — BM25 anchors the right art
+└─────────────────────────────────────────────────────────────────────────────────────────
+
+┌─ Scenario 5: Terminology Gap Bridged by HyDE
+│  Failure mode: A2 (synonym gap), C5a (implicit knowledge gap)
+│  Query: "parasite immune evasion mechanisms in cattle"
+│  HyDE: enabled (LLM-expanded query)
+│
+│  BASELINE (html_scrape, vector-only)
+│    Rank-1: BJ_100828.xml  [results]  dist=0.9585
+│    Text:   ### T. annulata infection alters bovine mRNA methylation in host leukocytes
+
+Theileria par...
+│
+│  ENRICHED (hybrid + reranking + figures+ HyDE)
+│    Rank-1: BJ_100828.xml  [results]  dist=0.9047
+│    Text:   [ORGANISM: Theileria annulata] [ORGANISM: bovine] [GENE: mRNA | NCBI Gene:118229251] [CELL...
+│    Intent: general  sec_mult=1.0  rec_mult=1.0247
+│
+│  DELTA
+│    Distance: +0.0538 (5.6% closer)
+│    Result: ▲ Enriched wins
+│
+│  WHY: The user says 'parasite immune evasion' but the article says 'T. annulata subversion of bovine leukocyte signalling'. HyDE generates a hypothetical paragraph using scientific vocabulary (Theileria, ho
+└─────────────────────────────────────────────────────────────────────────────────────────
+
+==========================================================================================
+  SUMMARY: Enriched pipeline wins 5/5 scenarios on rank-1 distance
+
+  Features demonstrated:
+  ┌──────────────────────────┬─────────────────────────────────────────────┐
+  │ Phase                    │ Demonstrated in scenarios                   │
+  ├──────────────────────────┼─────────────────────────────────────────────┤
+  │ 1. Paragraph chunking    │ All (903 vs ~105 chunks)                   │
+  │ 2. Section reranking     │ Scenario 3 (methods/results boost)         │
+  │ 3. Hybrid BM25+vector    │ Scenario 4 (ALK exact term recovery)       │
+  │ 4. HyDE query expansion  │ Scenario 5 (terminology gap bridging)      │
+  │ 5. Figure cross-linking  │ Scenarios 1, 2 (linked figures surfaced)   │
+  │ 6. Claim-extracting figs │ Scenarios 1, 2 (figure as rank-1 result)   │
+  └──────────────────────────┴─────────────────────────────────────────────┘
+==========================================================================================

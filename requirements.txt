@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+openai
+chromadb
+lxml
+rank-bm25
+requests

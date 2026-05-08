@@ -1,0 +1,1546 @@
+{
+  "source_file": "BJ_100877.xml",
+  "article_doi": "10.1016/j.bj.2025.100877",
+  "total_chunks": 37,
+  "text_chunks": 29,
+  "visual_chunks": 8,
+  "total_entities": 5,
+  "entities_with_ontology_id": 1,
+  "total_relations": 12,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from a study by Chih-Ling Lin discusses the prevalence of lip cant in patients with facial asymmetry and the challenges of achieving predictable correction through orthognathic surgery.\n\nLip cant is a common concern among patients with facial asymmetry [ 1–3 ]. The gold standard for correcting lip cant caused by skeletodental asymmetry is orthognathic surgery (OGS) [ 3–5 ]. However, the predictability of lip cant reduction following OGS remains limited and challenging.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the challenges and inconsistencies in the predictability of lip cant reduction following bimaxillary orthognathic surgery, emphasizing the role of three-dimensional virtual surgical planning.\n\nHowever, the predictability of lip cant reduction following OGS remains limited and challenging. Three-dimensional (3D) virtual surgical planning has provided quantitative insights into the roles of bimaxillary OGS and maxillary occlusal cant in lip cant correction [ 6 , 7 ], yet findings remain inconsistent [ 4 , 8–10 ]. While posterior occlusal cant correction has been traditionally associated with lip cant improvement [ 8–10 ], Kim et al. [ 4 ] reported a stronger correlation with anterior occlusal cant changes. Other studies have similarly highlighted the significant role of anterior occlusal cant in lip cant correction [ 9–11 ]. Additionally, the response of lip cant correction to maxillary occlusal cant changes varies from 49 % to 66 % [ 9 , 12 ], suggesting that additional factors contribute to successful outcomes.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec1-p2",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from a study on bimaxillary surgery in class III asymmetry discusses the variability in lip cant correction related to maxillary occlusal cant changes and the conflicting evidence of its correlation with mandibular asymmetry correction.\n\nAdditionally, the response of lip cant correction to maxillary occlusal cant changes varies from 49 % to 66 % [ 9 , 12 ], suggesting that additional factors contribute to successful outcomes. Conflicting findings have also emerged regarding the correlation between mandibular asymmetry correction and lip cant improvement. While several studies reported a relationship between lip cant correction and menton deviation correction [ 9 , 13–15 ], Suzuki-Okamura et al. [ 6 ] found no significant influence of menton deviation or mandibular roll asymmetry on lip cant changes.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec1-p3",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from Chih-Ling Lin's 2025 article discusses the complexity of factors influencing lip cant correction post-bimaxillary surgery and the benefits of using cone-beam CT for comprehensive analysis of treatment outcomes.\n\n[ 6 ] found no significant influence of menton deviation or mandibular roll asymmetry on lip cant changes. These discrepancies underscore the complexity of factors influencing lip cant correction and highlight the need for further research. Advances in 3D imaging with cone-beam CT (CBCT) allow simultaneous evaluation of soft- and hard-tissue structures over time. Therefore, this study aimed to utilize CBCT imaging to assess the impact of bimaxillary surgery on lip cant and facial midline correction, and to identify key factors associated with these improvements in patients with class III asymmetry and lip cant. The research question of the present study, structured using the PICO framework, is as follows: In skeletally mature patients with class III facial asymmetry (Population), does bimaxillary orthognathic surgery (Intervention), compared to their preoperative condition (Comparison), improve soft-tissue symmetry, as reflected by lip cant and facial midline deviation (Outcome)?",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p0",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Study design and sample",
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the article outlines the study design and sample criteria for a prospective analysis of adults with skeletal class III deformity and lip cant who underwent bimaxillary surgery.\n\n### Study design and sample\n\nThis prospective study consecutively recruited adults of skeletal class III deformity with lip cant who underwent bimaxillary surgery from year 2022–2024. Selection criteria were: (1) skeletal class III deformity (ANB <0°) with skeletal menton deviation ≥4 mm and lip cant ≥1 mm; (2) underwent Le Fort I osteotomy and bilateral sagittal split osteotomy (BSSO) setback using a surgery-first approach at the Chang Gung Craniofacial Center by the same team of attending surgeons; (3) the 3D surgical design, and postsurgical orthodontic treatment by a senior orthodontist who treated cases with a surgery-first approach; (4) no genetic syndromes or cleft lip or palate, (5) no history of craniofacial trauma or OGS; and (6) agreed to sign informed consent for the study. The study protocol was approved by the Institutional Review Board of the hospital (202200388B0).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p1",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Surgical procedures",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article outlines the surgical procedures undertaken in bimaxillary surgery, including the maxilla-first sequence and details of the Le Fort I osteotomy technique to correct lip or occlusal cant.\n\nThe study protocol was approved by the Institutional Review Board of the hospital (202200388B0). ### Surgical procedures\n\nAll surgeries were performed using a maxilla-first sequence. Le Fort I osteotomy was performed in accordance with the technique described by Chu et al. [ 16 ]. The lip or occlusal cant was corrected by either a bilateral asymmetric posterior impaction or a posterior impaction on one side combined with a posterior extrusion on the other side. Bone grafting was routinely performed on the extrusion side [ 17 ]. BSSO was performed with the short-split technique modified from Hunsuck [ 18 ]. Mandible inferior cortex shaving could be done on the vertically longer side based on surgical simulation image. Osseous genioplasty served as a finishing touch-up to chin symmetry. Except for genioplasty or mandibular contouring, patients received no other surgical intervention. Rigid fixation was performed with mini-plates and monocortical screws. Intermaxillary fixation was removed immediately after surgery. Alar cinch was performed for all patients without any additional soft-tissue treatments.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p2",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "CBCT images and analysis",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from the study details the acquisition of CBCT images using the i-CAT 3D Dental Imaging System for patients pre- and post-bimaxillary surgery, ensuring accurate analysis parameters during the imaging process.\n\nAlar cinch was performed for all patients without any additional soft-tissue treatments. ### CBCT images and analysis\n\nCBCT images of all patients were acquired presurgery (T0) and postsurgery follow-up after completion of orthodontic treatment (T1), using an i-CAT 3D Dental Imaging System (Imaging Sciences International, Hatfield, PA). The head was in the natural position. Parameters were: 120 kVp, 0.4 × 0.4 × 0.4-mm voxel size, a 40-s scan time, and a 20 × 20-cm field of view. Prior to the scan, patients were instructed not to swallow, to keep their mouths closed, and to maintain centric occlusion.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p3",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "CBCT images and analysis",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This methods section from Lin et al. (2025) details the protocol for obtaining and analyzing CBCT images, including patient instructions and software utilized for rendering 3D volumetric images prior to analysis.\n\nPrior to the scan, patients were instructed not to swallow, to keep their mouths closed, and to maintain centric occlusion. Avizo Standard software version 7.1 (FEI, Mérignac, France) rendered data into 3D volumetric images. Sagittal, axial, and coronal slices, as well as 3D reconstructions, were analyzed by a single experienced investigator. Before analysis, 3D images were reoriented as follows: (1) the axial plane, Frankfort horizontal plane (FHP), passed through the right or left (clear side) porion and bilateral orbitale; (2) the mid-sagittal plane (MSP) passed through the nasion, basion, and perpendicular to the FHP; (3) the coronal plane was set perpendicular to the MSP and FHP, passing through the nasion. Subsequently, 3D images were flipped over until all the mentons were deviated to the left side (deviated side); the right side was the opposite side. Cranial structures unaffected by surgery were used to superimpose CBCT images from T0 and T1; image coordinates were aligned with the nasion as the origin. Landmarks on CBCT images [ Table 1 ]",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p4",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "CBCT images and analysis",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article details the methodology for assessing lip cant and facial midline deviations using CBCT images, including the evaluation of skeletal changes through positional analysis of osteotomy segments.\n\nLandmarks on CBCT images [ Table 1 ] Changes in symmetry was assessed for lip cant and facial midline deviation (the sum of the values for nose [Sn], upper lip [Ls], lower lip [Li], and chin [Me’] deviations) [ Fig. 1 ]\n\nSkeletal changes were evaluated by positional changes in osteotomy segments (maxilla, mandible, and chin) using virtual triangles [ 17 , 19 , 20 ]. The maxillary triangle included the incisive foramen and bilateral greater palatine foramina. The mandibular triangle included the genial tubercle and bilateral mental foramina. The chin triangle included the menton and bilateral lateral chin points. The translations and rotations of the virtual triangles were calculated through the centroid of each triangle from T0 to T1 [ 17 , 19 , 20 ] [Fig. 2]",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl1",
+        "fig1",
+        "fig2"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p5",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "CBCT images and analysis",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article discusses the regression analysis of midline landmarks and their deviations in relation to lip or occlusal cant following bimaxillary surgery in patients with class III asymmetry.\n\n2] Actual values were used for regression analysis. The midline landmark (Sn, Ls, Li or Me’) on the deviated side and the lip or occlusal cant tilted upward on the deviated side was defined as a positive deviation or cant; the opposite was defined as a negative value.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p6",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "CBCT images and analysis",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This materials and methods section from Chih-Ling Lin's study outlines the definitions for midline landmarks and deviations, and describes the statistical methods used to assess intra-examiner reliability using CBCT images.\n\nThe midline landmark (Sn, Ls, Li or Me’) on the deviated side and the lip or occlusal cant tilted upward on the deviated side was defined as a positive deviation or cant; the opposite was defined as a negative value. The intraclass correlation coefficient (ICC), technical error of measurement (TEM) and Dahlberg's formula were calculated to determine intra-examiner reliability. CBCT images from 10 randomly chosen patients were measured twice by the same investigator, with a two-week interval. The mean ICC was 0.970 with a 95 % confidence interval (CI) ranging from 0.964 to 0.975, the mean TEM was 0.172 with a 95 % CI ranging from 0.086 to 0.258, and the mean Dahlberg's formula was 0.185 with a 95 % CI ranging from 0.098 to 0.272, indicating excellent reliability.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p7",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the study details the statistical analysis, reporting on measures of reliability including ICC, TEM, and Dahlberg's formula, indicating excellent reliability in the data.\n\nThe mean ICC was 0.970 with a 95 % confidence interval (CI) ranging from 0.964 to 0.975, the mean TEM was 0.172 with a 95 % CI ranging from 0.086 to 0.258, and the mean Dahlberg's formula was 0.185 with a 95 % CI ranging from 0.098 to 0.272, indicating excellent reliability. ### Statistical analysis\n\nPower analysis was performed using G∗Power version 3.1.9.7 for Windows (Franz Faul, Universitat Kiel, Germany). To detect significant correction of lip cant after treatment with an alpha level of 0.01 and a power of 0.80, a sample size of 51 subjects is required for within-group comparison.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p8",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 8,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article outlines the sample size calculation and statistical analysis procedures used to assess lip cant correction after bimaxillary surgery in Class III asymmetry cases.\n\nTo detect significant correction of lip cant after treatment with an alpha level of 0.01 and a power of 0.80, a sample size of 51 subjects is required for within-group comparison. SPSS version 23.0 for Windows (SPSS Inc, Chicago, USA) was used. Demographic and clinical characteristics are presented as means ± standard deviation (SD) and as frequency (n) and percentage (%). The amount of % correction of lip cant and facial midline deviation was expressed as the mean surgical change at follow-up (T0 – T1) divided by the measure at T0. The Shapiro–Wilk test determined normality of data distribution. Changes in soft-tissue and dental variables from T0 to T1 were examined with paired t–tests. Changes in skeletal position from T0 to T1 were examined with one-sample t-tests. Stepwise linear regression analysis was performed to identify factors associated with the correction of lip cant and facial midline deviation; independent variables included age, gender, initial severity of asymmetry, surgical approach (bilateral asymmetric posterior maxillary impaction vs. a posterior impaction on one side combined with a posterior extrusion on the other side), and surgical changes in dental and skeletal position. To assess potential multicollinearity among independent variables, variance inflation factors (VIFs) were calculated for the final regression models. All VIF values were <2.0, suggesting low collinearity and supporting the stability of the identified factors. Statistical significance was set at p < 0.01 to account for multiple comparisons.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec2-p9",
+      "type": "text",
+      "section": "methods",
+      "section_title": "Materials and methods",
+      "subsection_title": "Statistical analysis",
+      "paragraph_index": 9,
+      "parent_section_id": "sec2",
+      "text": "This methods section from the article details the statistical analysis approach, including significance levels and power analysis related to lip cant correction following bimaxillary surgery in class III asymmetry.\n\nStatistical significance was set at p < 0.01 to account for multiple comparisons. A post hoc power analysis was also performed on the association with lip cant correction. With two predictors, a sample size of 50, an observed R 2 of 0.579, and α = 0.01 (two-tailed), the achieved power was 0.99, indicating adequate power for detecting a statistically significant association.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec3-p0",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This results section from the article presents patient characteristics and quantifies improvements in lip cant and facial midline deviation following bimaxillary surgery, supported by statistical data from relevant tables.\n\nCharacteristics of the 50 patients are shown in [Table 2]\n\nChanges in lip cant and facial midline deviation at follow-up are shown in [ Table 3 ]\n\n[ Table 4 ] p < 0.001). The cant for the occlusal planes also improved: upper anterior and posterior (0.6 ± 1.3 mm and 0.8 ± 1.5 mm, respectively, p < 0.01), and lower anterior and posterior (0.7 ± 1.3 mm and 1.2 ± 1.9 mm, respectively, p < 0.001).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl2",
+        "tbl3",
+        "tbl4"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec3-p1",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This Results section from Chih-Ling Lin's 2025 study details improvements in occlusal plane cant, along with significant changes in translational and rotational movements of the facial skeleton following bimaxillary surgery for class III asymmetry.\n\nThe cant for the occlusal planes also improved: upper anterior and posterior (0.6 ± 1.3 mm and 0.8 ± 1.5 mm, respectively, p < 0.01), and lower anterior and posterior (0.7 ± 1.3 mm and 1.2 ± 1.9 mm, respectively, p < 0.001). Significant changes were observed for most translational or rotational movements of the facial skeleton [ Table 5 ] p < 0.001). The mandible shifted to the opposite side, moved backward and upward ( p < 0.001), and turned (yaw) and tilted (roll) to the opposite side ( p < 0.01 to P < 0.001). Chin translational movements and yaw rotation were similar to the mandible (all p < 0.001), however there was no significant roll or pitch rotation.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl5"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec3-p2",
+      "type": "text",
+      "section": "results",
+      "section_title": "Results",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This Results section from the study presents findings on the relationship between chin movements, mandible rotation, and lip cant correction after bimaxillary surgery in Class III asymmetry patients, indicating significant factors influencing lip cant adjustments.\n\nChin translational movements and yaw rotation were similar to the mandible (all p < 0.001), however there was no significant roll or pitch rotation. Stepwise regression indicated changes in roll rotation of the mandible from T0 to T1 and the initial amount of lip cant at T0 were factors associated with significant corrections for lip cant (R 2 = 0.579, [ Table 6 ] 2 = 0.845, [ Table 6 ]).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": [
+        "tbl6"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p0",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from a study on class III asymmetry examines the implications of bimaxillary surgery on lip cant and facial midline correction, highlighting the success rates and factors influencing surgical outcomes.\n\nLip or occlusal cant is a common characteristic of class III asymmetry [ 17 , 21 , 22 ]. Identifying factors associated with lip cant and facial midline deviation correction could enhance surgical planning and improve patient consultations. In the present study, bimaxillary surgery achieved corrections of 64 % in lip cant and 61 % in facial midline deviation. Regression analysis identified mandibular roll correction as a significant factor of lip cant correction. This finding aligns with previous studies showing that mandibular surgery alone [ 13 , 14 ] or bimaxillary surgery [ 6 , 8 , 10 , 11 , 15 , 17 ] significantly improved lip cant, whereas isolated maxillary surgery did not.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p1",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from Chih-Ling Lin's 2025 article explores the effectiveness of bimaxillary surgery in improving lip cant compared to isolated maxillary surgery, referencing previous studies and the impact of maxillary occlusal cant correction.\n\nThis finding aligns with previous studies showing that mandibular surgery alone [ 13 , 14 ] or bimaxillary surgery [ 6 , 8 , 10 , 11 , 15 , 17 ] significantly improved lip cant, whereas isolated maxillary surgery did not. Maxillary occlusal cant correction using Le Fort I roll rotation improves lip cant, a finding well-documented in the bimaxillary surgery literature [ 4 , 6 , 8 , 11 , 12 ]. A study utilizing 2D frontal cephalograms and photographs reported a lip cant correction-to-maxillary occlusal cant correction ratio of 51.5 ± 8.4 % [ 12 ], indicating that nearly half of the lip cant correction resulted from surgical correction of maxillary occlusal cant. However, the relationship between lip cant changes and skeletal surgical changes, including translations and rotations, has not been thoroughly investigated. This evaluation is crucial, as maxillary occlusal cant does not always align with maxillary or mandibular cant.",
+      "entities": [
+        {
+          "text": "bimaxillary surgery",
+          "type": "SURGERY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "isolated maxillary surgery",
+          "type": "SURGERY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mandibular surgery",
+          "type": "SURGERY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Le Fort I roll rotation",
+          "type": "SURGERY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "bimaxillary surgery",
+          "predicate": "improves",
+          "object": "lip cant",
+          "evidence": "bimaxillary surgery in improving lip cant compared to isolated maxillary surgery"
+        },
+        {
+          "subject": "mandibular surgery",
+          "predicate": "improves",
+          "object": "lip cant",
+          "evidence": "mandibular surgery alone... significantly improved lip cant"
+        },
+        {
+          "subject": "isolated maxillary surgery",
+          "predicate": "did not improve",
+          "object": "lip cant",
+          "evidence": "isolated maxillary surgery did not"
+        },
+        {
+          "subject": "Le Fort I roll rotation",
+          "predicate": "improves",
+          "object": "lip cant",
+          "evidence": "Maxillary occlusal cant correction using Le Fort I roll rotation improves lip cant"
+        },
+        {
+          "subject": "bimaxillary surgery",
+          "predicate": "is well-documented in",
+          "object": "the bimaxillary surgery literature",
+          "evidence": "a finding well-documented in the bimaxillary surgery literature"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p2",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 2,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the correlation between maxillary occlusal cant and lip cant following bimaxillary surgery, emphasizing the importance of mandibular roll asymmetry correction in alignment outcomes.\n\nThis evaluation is crucial, as maxillary occlusal cant does not always align with maxillary or mandibular cant. In the present study, Pearson correlation analysis revealed a significant association between changes in maxillary occlusal cant and lip cant (r = 0.67, p < 0.001, data not shown). However, regression analysis identified mandibular roll asymmetry correction—not maxillary or mandibular occlusal cant or maxillary roll asymmetry—as the primary factor associated with lip cant reduction. This discrepancy may be attributed to differences in sample size and analyzed variables. While Bergeron et al. [ 8 ] and Freudlsperg et al. [ 11 ] each analyzed 14 subjects with class III deformity, the current study assessed 50 subjects. Additionally, their studies did not account for maxillary or mandibular translations or rotations. Although Suzuki-Okamura et al. [ 6 ] found no significant influence of maxillary or mandibular rotation on lip cant changes, their definition of jaw rotation was two-dimensional (based on the angulation change of bilateral greater palatine foramina or mental foramina) rather than three-dimensional.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p3",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 3,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the impact of mandibular rotation on lip cant changes post-bimaxillary surgery, contrasting two-dimensional versus three-dimensional definitions of jaw rotation and suggesting a mandible-first surgical approach for better outcomes.\n\n[ 6 ] found no significant influence of maxillary or mandibular rotation on lip cant changes, their definition of jaw rotation was two-dimensional (based on the angulation change of bilateral greater palatine foramina or mental foramina) rather than three-dimensional. Given the apparent influence of mandibular roll correction on lip cant improvement, a mandible-first surgical approach could be considered, particularly in cases where the Le Fort I osteotomy involves a posterior impaction on one side combined with a posterior extrusion on the contralateral side. In such scenarios, repositioning the mandible first might facilitate better alignment of the lower facial structures and subsequently guide maxillary adjustments to optimize facial symmetry. Nevertheless, further studies are needed to validate the benefits of mandible-first sequencing over the conventional maxilla-first protocol. Although mandibular roll correction emerged as a significant factor associated with lip cant improvement, it is important to recognize that lip cant correction is likely a more complex soft-tissue response rather than a direct reflection of skeletal repositioning alone. This notion aligns with prior findings that mandibular symmetry, including menton deviation, is closely associated with lip cant [ 23 ]. Soft-tissue adaptation, perioral muscular balance, and scar tissue remodeling may all contribute to the final postoperative outcome [ 23–25 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p4",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 4,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article explores the factors influencing soft-tissue adaptation and postoperative outcomes, specifically regarding lip cant stabilization and changes in lip position and nasolabial angle following bimaxillary surgery.\n\nSoft-tissue adaptation, perioral muscular balance, and scar tissue remodeling may all contribute to the final postoperative outcome [ 23–25 ]. Soft tissue adaptation following dentoskeletal changes, particularly concerning lip cant, typically stabilizes within 6–9 months postoperatively. Studies have observed significant changes in lip position and nasolabial angle during this period, with minimal alterations noted between the 6th and 9th months, indicating a plateau in soft tissue adaptation [ 26 , 27 ]. The shortest postsurgical follow-up was 1.1 years; therefore, soft tissue adaptation could be assumed to have been generally completed.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p5",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 5,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the relationship between postsurgical recovery time and soft tissue adaptation, specifically focusing on how changes in mandibular position affect lip cant in patients with Class III asymmetry.\n\nThe shortest postsurgical follow-up was 1.1 years; therefore, soft tissue adaptation could be assumed to have been generally completed. The anatomy of the perioral region provides insight into how mandibular positional changes influence lip cant. Lip cant is defined by the vertical height discrepancy between the bilateral mouth commissures, which is influenced by the vertical proportion of the underlying skeletodental structures and the balance of muscular forces. Upward traction is exerted by the zygomaticus major and levator anguli oris muscles, while downward traction is applied by the depressor anguli oris and depressor labii inferioris muscles [ 28 ]. Notably, the maxillary segment is not directly attached to any of these muscles. In contrast, the mandibular distal segment serves as the origin for the depressor anguli oris and depressor labii inferioris. These muscular attachments are located closer to the mental foramen than to the mandibular or maxillary first molar, suggesting that the former may be more relevant in assessing the relationship between skeletal position and lip cant.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p6",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 6,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article explores the relevance of muscular attachments in relation to lip cant and emphasizes the importance of tailored correction strategies in addressing asymmetry, particularly in patients with cleft lip.\n\nThese muscular attachments are located closer to the mental foramen than to the mandibular or maxillary first molar, suggesting that the former may be more relevant in assessing the relationship between skeletal position and lip cant. In clinical practice, the strategy of overcorrection or undercorrection should be considered according to the underlying etiology of asymmetry. In cleft lip patients, where lip cant partially results from soft tissue deficiency and postsurgical scarring, undercorrection of lip cant is often inevitable despite skeletal realignment. Conversely, in patients with severe lip cant, a mild degree of skeletal overcorrection may be reasonable and beneficial, as suggested by the positive correlation between the amount of correction achieved and initial severity. These considerations should be integrated into surgical planning to optimize both functional and esthetic outcomes. However, the predictive accuracy for the correction of lip cant (R 2 = 0.579) was lower than that for facial midline deviation (R 2 = 0.845), confirming the higher ratios of soft-to-hard tissue movements in central facial region compared to lateral facial regions [ 29 ]. The stronger prediction observed for facial midline correction likely reflects the more direct relationship between lower lip and soft tissue chin deviation and mandibular body and chin translation, despite asymmetric soft tissue size or shape is another possible contributing factor. Lip cant may also be influenced by additional factors such as soft tissue quantity or tone. Despite significant improvements, approximately 36 % of lip cant and 39 % of facial midline deviation remained after treatment. These residual asymmetries highlight the importance of setting realistic expectations and discussing potential soft-tissue limitations with patients during preoperative consultation.",
+      "entities": [
+        {
+          "text": "cleft lip",
+          "type": "DISEASE",
+          "id": "D002971",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "cleft lip",
+          "predicate": "associated_with",
+          "object": "soft tissue deficiency",
+          "evidence": "in cleft lip patients, where lip cant partially results from soft tissue deficiency"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p7",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 7,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the significance of managing patient expectations regarding residual asymmetries after bimaxillary surgery, specifically focusing on improvements in the lower facial midline relative to the nasal base and upper lip.\n\nThese residual asymmetries highlight the importance of setting realistic expectations and discussing potential soft-tissue limitations with patients during preoperative consultation. The lower part of the facial midline, including the transverse position of the lower lip and chin, demonstrated significant postsurgical improvement compared to the midline of the nasal base (subnasale) and upper lip. This suggests that the lower facial structures respond more effectively to jaw correction. Our finding that the correction of chin and mandibular shift asymmetry was associated with improvements in facial midline deviation aligns with previous studies, which reported that transverse changes in the menton influenced the deviation of the subnasale, upper lip, and lower lip following mandibular osteotomy [ 14 , 30 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p8",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 8,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article examines the relationship between chin and mandibular shift corrections and facial midline improvements, referencing previous studies on the effects of mandibular osteotomy on lip and menton alignment.\n\nOur finding that the correction of chin and mandibular shift asymmetry was associated with improvements in facial midline deviation aligns with previous studies, which reported that transverse changes in the menton influenced the deviation of the subnasale, upper lip, and lower lip following mandibular osteotomy [ 14 , 30 ]. The mentalis muscle intermingles with the lower margin of the orbicularis oris muscle, while the superficial fibers of the orbicularis oris insert into the philtral ridge and Cupid's bow [ 31 ]. This anatomical relationship may partly explain the suboptimal correction of subnasale and upper lip deviation observed in the present study, as residual mandibular and chin shift asymmetry could have contributed to these outcomes. Additionally, compromises in nasal and maxillary symmetry are sometimes necessary to achieve optimal mandibular and overall facial symmetry [ 32 ].",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "chin and mandibular shift corrections",
+          "predicate": "associated_with",
+          "object": "improvements in facial midline deviation",
+          "evidence": "the correction of chin and mandibular shift asymmetry was associated with improvements in facial midline deviation"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec4-p9",
+      "type": "text",
+      "section": "discussion",
+      "section_title": "Discussion",
+      "subsection_title": null,
+      "paragraph_index": 9,
+      "parent_section_id": "sec4",
+      "text": "This discussion section from the article by Chih-Ling Lin highlights the trade-offs in achieving facial symmetry during bimaxillary surgery and emphasizes the advantages of using 3D-CBCT imaging for assessing changes in occlusal cant.\n\nAdditionally, compromises in nasal and maxillary symmetry are sometimes necessary to achieve optimal mandibular and overall facial symmetry [ 32 ]. This study had two notable strengths. First, we utilized 3D-CBCT imaging, which enabled superimposition of pre- and post-surgical images, providing more precise estimations of occlusal cant compared to previous studies that relied on 2D posteroanterior cephalograms and frontal photographs [ 12 , 13 , 33 ]. Second, the use of 3D-CBCT allowed us, for the first time, to analyze the relationship between postsurgical movements of the maxilla, mandible, and chin and the correction of lip cant and facial midline deviation, considering all six degrees of freedom. Despite these strengths, the study had limitations. It did not directly assess the impact of perioral musculature on lip cant. Additionally, while surgical changes in dental position were evaluated, the dental changes observed at follow-up (mean 1.7 years post-surgery) likely resulted from a combination of surgical and orthodontic treatment. Therefore, these variables reflect the net treatment outcome rather than the isolated effect of surgery—a limitation that might be unavoidable when using a surgery-first approach, unless no orthodontic treatment is initiated within the first 6–9 months after surgery, which would be unethical. However, the dental changes were not related to the lip cant or facial midline deviation in the regression. Future research should also explore facial contour asymmetry to further refine treatment outcomes.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec5-p0",
+      "type": "text",
+      "section": "conclusion",
+      "section_title": "Conclusion",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec5",
+      "text": "This conclusion section from the study by Chih-Ling Lin discusses the effectiveness of bimaxillary surgery in correcting lip cant and facial midline deviation in class III asymmetry patients, based on CBCT imaging analysis.\n\nThis study utilized CBCT imaging to evaluate lip cant and facial soft-tissue midline symmetry in 50 patients before and after orthognathic-orthodontic treatment. In patients with class III asymmetry and lip cant, bimaxillary surgery achieved 64 % correction in lip cant and 61 % correction in facial midline deviation. Unlike previous reports, our findings identified mandibular roll asymmetry correction and the pre-treatment severity of lip cant as key factors associated with successful lip cant correction. Additionally, correction of chin and mandibular shift asymmetry emerged as significant factors associated with effective facial midline deviation correction.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "bimaxillary surgery",
+          "predicate": "causes",
+          "object": "64 % correction in lip cant",
+          "evidence": "bimaxillary surgery achieved 64 % correction in lip cant"
+        },
+        {
+          "subject": "bimaxillary surgery",
+          "predicate": "causes",
+          "object": "61 % correction in facial midline deviation",
+          "evidence": "bimaxillary surgery achieved 61 % correction in facial midline deviation"
+        },
+        {
+          "subject": "mandibular roll asymmetry correction",
+          "predicate": "associated_with",
+          "object": "successful lip cant correction",
+          "evidence": "mandibular roll asymmetry correction ... as key factors associated with successful lip cant correction"
+        },
+        {
+          "subject": "pre-treatment severity of lip cant",
+          "predicate": "associated_with",
+          "object": "successful lip cant correction",
+          "evidence": "the pre-treatment severity of lip cant as key factors associated with successful lip cant correction"
+        },
+        {
+          "subject": "correction of chin and mandibular shift asymmetry",
+          "predicate": "associated_with",
+          "object": "effective facial midline deviation correction",
+          "evidence": "correction of chin and mandibular shift asymmetry emerged as significant factors associated with effective facial midline deviation correction"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100877-sec6-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Financial disclosure statement",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This financial disclosure statement section from the article acknowledges support for the research provided by the Chang Gung Memorial Hospital in Taiwan.\n\nThis research is supported by the Chang Gung Memorial Hospital , Taiwan ( CMRPG5M0081-83 ).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: The absolute difference in vertical distance of bilateral cheilions (lip cant) is measured to assess midline deviation in patients with Class III asymmetry following bimaxillary surgery. Key landmarks include the subnasale (Sn), labial superius (Ls), labial inferius (Li), and soft-tissue menton, with the right (ChR) and left (ChL) cheilions providing crucial data for evaluating surgical outcomes. This analysis underlines the significance of CBCT imaging in quantifying midline correction and lip cant post-operatively.\n\nCaption: CBCT images with reference planes (MSP, mid-sagittal plane; FHP, Frankfort horizontal plane) and soft-tissue landmarks for measures of midline deviation and lip cant (LC). LC is the absolute difference in vertical distance of bilateral cheilions. Abbreviations: Sn: subnasale; Ls: labial superius; Li: labial inferius; Me:, soft-tissue menton; ChR: right cheilion; ChL: left cheilion.",
+      "label": "Fig. 1",
+      "caption": "CBCT images with reference planes (MSP, mid-sagittal plane; FHP, Frankfort horizontal plane) and soft-tissue landmarks for measures of midline deviation and lip cant (LC). LC is the absolute difference in vertical distance of bilateral cheilions. Abbreviations: Sn: subnasale; Ls: labial superius; Li: labial inferius; Me:, soft-tissue menton; ChR: right cheilion; ChL: left cheilion.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec2-p4"
+      ]
+    },
+    {
+      "id": "fig2",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 2: Bimaxillary surgery results in specific translational movements of the maxilla and mandible, with a leftward movement of +X mm on the x-axis and a posterior movement of +Y mm on the y-axis, while the rotation demonstrates a counter-clockwise pitch of +Z degrees on the x-axis. These movements correlate with improvements in facial symmetry and midline correction for patients with class III asymmetry, indicating effective realignment post-surgery. The findings underscore the surgical strategy's impact on achieving facial balance and correcting menton deviation.\n\nCaption: Reconstructed virtual triangles of the maxilla (yellow), mandible (orange), and chin (red). O, side opposite menton deviation; D, side of menton deviation; If, incisive foramen; Gpf, greater palatine foramen; Gt, genial tubercle; Mf, mental foramen; Me, menton; Cp, chin point. Translational movements (arrow): x-axis (left-right), y-axis (posterior-anterior), and z-axis (superior-inferior); + = movement to the left, posterior and superior side. Rotational movements (arrows): x-axis (counter-clockwise pitch, red arrow), y-axis (counter-clockwise roll, green arrow), and z-axis (clockwise yaw, blue arrow). + = counter-clockwise pitch, counter-clockwise roll, and clockwise yaw rotation.",
+      "label": "Fig. 2",
+      "caption": "Reconstructed virtual triangles of the maxilla (yellow), mandible (orange), and chin (red). O, side opposite menton deviation; D, side of menton deviation; If, incisive foramen; Gpf, greater palatine foramen; Gt, genial tubercle; Mf, mental foramen; Me, menton; Cp, chin point. Translational movements (arrow): x-axis (left-right), y-axis (posterior-anterior), and z-axis (superior-inferior); + = movement to the left, posterior and superior side. Rotational movements (arrows): x-axis (counter-clockwise pitch, red arrow), y-axis (counter-clockwise roll, green arrow), and z-axis (clockwise yaw, blue arrow). + = counter-clockwise pitch, counter-clockwise roll, and clockwise yaw rotation.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec2-p4"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: Lip cant is measured as the absolute difference in vertical distance of bilateral cheilions, with specific values determined from CBCT imaging. The table demonstrates that facial soft tissue asymmetries, including nose deviation, upper and lower lip deviations, chin deviation, and overall facial midline deviation, can be quantitatively assessed and are relevant to the outcomes following bimaxillary surgery in class III asymmetry cases. These measurements provide critical insight into the effectiveness of surgical correction for facial asymmetries.\n\nCaption: Asymmetry measurements of facial soft tissue and teeth using landmarks assigned on CBCT.\n\n| Measurement | Definition |\n| --- | --- |\n| Facial soft tissue |\n| Lip cant | The absolute difference in vertical distance of bilateral cheilions (Ch) |\n| Nose deviation | The absolute distance between the subnasale (Sn) and mid-sagittal plane (MSP) |\n| Upper lip deviation | The absolute distance between the labial superius (Ls) and MSP |\n| Lower lip deviation | The absolute distance between the labial inferius (Li) and MSP |\n| Chin deviation | The absolute distance between the soft-tissue menton (Me’) and MSP |\n| Facial midline deviation | The sum of the values of nose, upper lip, lower lip, and chin deviations |\n| Teeth |\n| U1 deviation | The absolute distance between the upper incisor midpoint and MSP |\n| L1 deviation | The absolute distance between the lower incisor midpoint and MSP |\n| Occlusal cant |\n| Upper anterior | The absolute difference in the vertical distance of bilateral upper canines |\n| Upper posterior | The absolute difference in the vertical distance of bilateral upper first molars |\n| Lower anterior | The absolute difference in the vertical distance of bilateral lower canines |\n| Lower posterior | The absolute difference in the vertical distance of bilateral lower first molars |",
+      "label": "Table 1",
+      "caption": "Asymmetry measurements of facial soft tissue and teeth using landmarks assigned on CBCT.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec2-p3",
+        "article-10-1016-j-bj-2025-100877-sec2-p4"
+      ]
+    },
+    {
+      "id": "tbl2",
+      "type": "table",
+      "section": null,
+      "text": "Table 2: The average age of patients undergoing bimaxillary surgery for Class III asymmetry is 24.8 years, with a mean menton deviation of 7.9 mm. The lip cant averages 2.5 mm, indicating a clear deviation in facial symmetry. These findings support the article's argument that presurgical characteristics, including lip cant, are critical factors in facial midline correction post-surgery.\n\nCaption: Demographic and presurgical clinical characteristics of patients (N = 50).\n\n| Characteristic | Mean ± SD | n (%) |\n| --- | --- | --- |\n| Gender |\n| Male |  | 28 (56) |\n| Female |  | 22 (44) |\n| Age at surgery, years | 24.8 ± 5.1 |  |\n| Menton deviation, mm | 7.9 ± 3.6 |  |\n| Menton deviation to the left |  | 29 (58) |\n| SNA, o | 81.3 ± 4.2 |  |\n| SNB, o | 84.7 ± 4.4 |  |\n| ANB, o | −3.5 ± 2.7 |  |\n| S–N-pogonion, o | 84.8 ± 3.9 |  |\n| SN-mandibular plane, o | 36.8 ± 6.4 |  |\n| SN-upper incisor axis, o | 109.7 ± 6.9 |  |\n| Lower incisor axis-mandibular plane, o | 80.9 ± 7.8 |  |\n| Overjet, mm | −1.4 ± 3.1 |  |\n| Overbite, mm | −0.6 ± 2.7 |  |\n| Lip cant, mm | 2.5 ± 1.6 |  |",
+      "label": "Table 2",
+      "caption": "Demographic and presurgical clinical characteristics of patients (N = 50).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec3-p0"
+      ]
+    },
+    {
+      "id": "tbl3",
+      "type": "table",
+      "section": null,
+      "text": "Table 3: Bimaxillary surgery reduces lip cant from 2.5 ± 1.6 mm to 0.9 ± 0.6 mm (p < 0.001) and lowers facial midline deviation from 15.9 ± 7.6 mm to 6.2 ± 3.5 mm (p < 0.001). Additionally, chin deviation decreases significantly from 7.9 ± 3.8 mm to 1.9 ± 1.7 mm (p < 0.001), while lower lip deviation decreases from 3.9 ± 1.8 mm to 1.5 ± 1.1 mm (p < 0.001). These findings demonstrate that bimaxillary surgery effectively corrects facial asymmetries in class III patients, contributing to improved aesthetic outcomes.\n\nCaption: Changes in lip cant and facial midline deviation at postsurgical follow-up (T0 to T1).\n\n| Mean ± SD | Mean ± SD | Mean ± SD |\n| --- | --- | --- |\n| Lip cant, mm | 2.5 ± 1.6 | 0.9 ± 0.6 | 1.6 ± 1.6 | <0.001 |\n| Nose deviation, mm | 0.6 ± 0.6 | 0.9 ± 0.7 | −0.2 ± 0.8 | 0.032 |\n| Upper lip deviation, mm | 1.4 ± 1.0 | 1.2 ± 0.9 | 0.2 ± 1.2 | 0.239 |\n| Lower lip deviation, mm | 3.9 ± 1.8 | 1.5 ± 1.1 | 2.4 ± 1.7 | <0.001 |\n| Chin deviation, mm | 7.9 ± 3.8 | 1.9 ± 1.7 | 5.8 ± 4.2 | <0.001 |\n| Facial midline deviation, mm | 15.9 ± 7.6 | 6.2 ± 3.5 | 9.7 ± 7.2 | <0.001 |",
+      "label": "Table 3",
+      "caption": "Changes in lip cant and facial midline deviation at postsurgical follow-up (T0 to T1).",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec3-p0"
+      ]
+    },
+    {
+      "id": "tbl4",
+      "type": "table",
+      "section": null,
+      "text": "Table 4: Lower deviation of the incisor midpoint significantly decreases from 4.9 ± 2.2 mm pre-surgery to 1.4 ± 1.2 mm post-surgery (p < 0.001). Additionally, the upper anterior occlusal cant shows a reduction from 1.6 ± 1.3 mm to 1.0 ± 0.7 mm (p = 0.003), while the lower anterior occlusal cant decreases from 1.6 ± 1.3 mm to 0.9 ± 0.8 mm (p < 0.001). These findings demonstrate that bimaxillary surgery effectively corrects dental midline deviations and occlusal canting in Class III asymmetry patients.\n\nCaption: Surgical changes in the positions of teeth.\n\n| Mean ± SD | Mean ± SD | Mean ± SD |\n| --- | --- | --- |\n| Incisor midpoint |\n| Upper deviation, mm | 1.3 ± 1.1 | 1.6 ± 1.4 | −0.3 ± 1.5 | 0.199 |\n| Lower deviation, mm | 4.9 ± 2.2 | 1.4 ± 1.2 | 3.5 ± 2.3 | <0.001 |\n| Occlusal cant |\n| Upper anterior, mm | 1.6 ± 1.3 | 1.0 ± 0.7 | 0.6 ± 1.3 | 0.003 |\n| Upper posterior, mm | 2.1 ± 1.3 | 1.4 ± 1.1 | 0.8 ± 1.5 | 0.001 |\n| Lower anterior, mm | 1.6 ± 1.3 | 0.9 ± 0.8 | 0.7 ± 1.3 | <0.001 |\n| Lower posterior, mm | 2.5 ± 1.9 | 1.3 ± 1.0 | 1.2 ± 1.9 | <0.001 |",
+      "label": "Table 4",
+      "caption": "Surgical changes in the positions of teeth.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec3-p0"
+      ]
+    },
+    {
+      "id": "tbl5",
+      "type": "table",
+      "section": null,
+      "text": "Table 5: Bimaxillary surgery results in a significant posterior translation of the maxilla by 2.3 mm (P < 0.001) and a left/right translation of the mandible by 4.9 mm (P < 0.001). Additionally, the surgery induces a yaw rotation of the mandible by 2.2° (P < 0.001) and a roll rotation of the maxilla by -1.6° (P < 0.001). These changes demonstrate that surgical intervention effectively alters the skeletal positioning in Class III asymmetry cases.\n\nCaption: Surgical changes of skeletal position.\n\n| Measurement a | Mean ± SD | P |\n| --- | --- | --- |\n| Maxilla |\n| Translation , mm b |\n| Left/Right | −0.5 ± 1.4 | 0.040 |\n| Posterior/Anterior | −2.3 ± 1.9 | <0.001 |\n| Superior/Inferior | 1.7 ± 1.6 | <0.001 |\n| Rotation , ° c |\n| Yaw | 1.6 ± 2.7 | <0.001 |\n| Roll | −1.6 ± 3.4 | <0.001 |\n| Pitch | −4.4 ± 4.3 | <0.001 |\n| Mandible |\n| Translation , mm b |\n| Left/Right | −4.9 ± 3.0 | <0.001 |\n| Posterior/Anterior | 7.0 ± 6.0 | <0.001 |\n| Superior/Inferior | 0.7 ± 2.0 | <0.001 |\n| Rotation , ° c |\n| Yaw | 2.2 ± 2.5 | <0.001 |\n| Roll | −2.5 ± 2.9 | <0.001 |\n| Pitch | −0.3 ± 6.2 | 0.002 |\n| Chin |\n| Translation , mm b |\n| Left/Right | −6.8 ± 4.7 | <0.001 |\n| Posterior/Anterior | 6.1 ± 8.0 | <0.001 |\n| Superior/Inferior | 0.5 ± 2.8 | <0.001 |\n| Rotation , ° c |\n| Yaw | 2.1 ± 3.3 | <0.001 |\n| Roll | 0.1 ± 4.3 | 0.013 |\n| Pitch | 2.2 ± 12.9 | 0.547 |",
+      "label": "Table 5",
+      "caption": "Surgical changes of skeletal position.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec3-p1"
+      ]
+    },
+    {
+      "id": "tbl6",
+      "type": "table",
+      "section": null,
+      "text": "Table 6: Mandibular roll rotation (T0-T1) is significantly associated with lip cant correction (β = 0.456, P = 0.002), while the initial lip cant (T0) also correlates with lip cant correction (β = 0.394, P = 0.008). For facial midline deviation, chin translation (T0-T1) (β = 0.495, P = 0.001) and mandibular translation (T0-T1) (β = 0.461, P = 0.001) both significantly contribute to correction. This table demonstrates the critical factors influencing the surgical correction of lip cant and facial midline deviation in Class III asymmetry cases following bimaxillary surgery.\n\nCaption: Stepwise regression analysis: association factors for correction of lip cant and facial midline deviation following bimaxillary surgery.\n\n| B | SE | β | T | P | R 2 |\n| --- | --- | --- | --- | --- | --- |\n| Lip cant | Constant | 1.095 | 0.258 |  | 4.238 | <0.001 | 0.579 |\n|  | Mandibular roll rotation, o (T0-T1) | 0.227 | 0.069 | 0.456 | 3.282 | 0.002 |  |\n|  | Lip cant, mm (T0) | 0.298 | 0.105 | 0.394 | 2.839 | 0.008 |  |\n| Facial midline deviation | Constant | 1.133 | 1.039 |  | 1.090 | 0.284 | 0.845 |\n|  | Chin translation, left/right, mm (T0-T1) | 0.853 | 0.227 | 0.495 | 3.759 | 0.001 |  |\n|  | Mandibular translation, left/right, mm (T0-T1) | 1.221 | 0.349 | 0.461 | 3.502 | 0.001 |  |",
+      "label": "Table 6",
+      "caption": "Stepwise regression analysis: association factors for correction of lip cant and facial midline deviation following bimaxillary surgery.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100877",
+        "pii": "S2319-4170(25)00051-4",
+        "doi": "10.1016/j.bj.2025.100877",
+        "title": "Associations with lip cant and facial midline correction following bimaxillary surgery in class III asymmetry: A CBCT-based analysis",
+        "authors": [
+          "Chih-Ling Lin",
+          "Yun-Fang Chen",
+          "Ying-An Chen",
+          "Chuan-Fong Yao",
+          "Tong Xi",
+          "Yu-Fang Liao",
+          "Yu-Ray Chen"
+        ],
+        "publication_date": "2025-06-11",
+        "abstract": "This study evaluated the outcomes of bimaxillary surgery for class III asymmetry and lip cant, and identified factors associated with lip cant and facial midline correction. Fifty adult patients (22 females, 28 males; mean age: 24.8 ± 5.1 years) with class III asymmetry and lip cant who underwent bimaxillary surgery were prospectively and consecutively analyzed. Cone-beam computed tomography scans obtained preoperatively and at postoperative follow-up were superimposed to assess surgical jaw movements in six degrees of freedom and their effects on lip cant and facial midline symmetry. Significant reductions were observed in lip cant (1.6 ± 1.6 mm), lower lip deviation (2.4 ± 1.7 mm), chin deviation (5.8 ± 4.2 mm), and facial midline deviation (9.7 ± 7.2 mm). Multiple linear regression analysis identified mandibular roll correction (β = 0.456, p < 0.01) and pre-treatment lip cant severity (β = 0.394, p < 0.01) as significant factors of lip cant reduction. Additionally, chin shift (β = 0.495, p < 0.01) and mandibular shift (β = 0.461, p < 0.01) were significant factors of facial midline correction. Bimaxillary surgery significantly improved lip cant and facial midline deviation in patients with class III asymmetry and lip cant. Mandibular roll correction and pre-treatment lip cant severity were key factors associated with lip cant correction, while chin and mandibular shift correction were associated with facial midline improvement.",
+        "keywords": [
+          "Lip cant",
+          "Orthognathic surgery",
+          "Class III malocclusion",
+          "Facial asymmetry",
+          "Association factors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100877-sec3-p2"
+      ]
+    }
+  ]
+}

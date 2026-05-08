@@ -1,0 +1,1743 @@
+{
+  "source_file": "BJ_100850.xml",
+  "article_doi": "10.1016/j.bj.2025.100850",
+  "total_chunks": 19,
+  "text_chunks": 17,
+  "visual_chunks": 2,
+  "total_entities": 103,
+  "entities_with_ontology_id": 76,
+  "total_relations": 57,
+  "processed_chunks": [
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec1-p0",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from the article discusses the role of plasminogen activator inhibitor-1 (PAI-1) in promoting tumorigenic processes and its implications for skin cancer outcomes and therapies.\n\nPlasminogen activator inhibitor-1 (PAI-1), a serine protease inhibitor, promotes pro-tumorigenic processes such as angiogenesis and tumor cell survival, contributing to poor outcomes in various cancers, including skin cancer [ 1–3 ]. Traditionally, PAI-1 has been recognized as a biomarker for cancer-associated thrombosis, such as deep vein thrombosis (DVT), due to its inhibition of urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA) [ 4 ]. Although its primary function is to inhibit fibrinolysis, PAI-1 exhibits pleiotropic effects, including contributions to tissue fibrosis, atherosclerosis, and cancer progression [ 2 ]. For instance, PAI-1 regulates tumor cell migration and proliferation by binding with high affinity to vitronectin [ 2 ]. It also protects endothelial cells (ECs) from Fas ligand-mediated apoptosis triggered by EC activation, detachment, hypoxia, or vascular endothelial growth factor (VEGF) exposure [ 5 ]. Furthermore, PAI-1 enhances the expression of focal adhesion kinase (FAK) in tumor-associated macrophages (TAMs), promoting macrophage migration into tumor sites [ 6 ]. Additionally, PAI-1 modulates PD-L1 expression through the JAK/STAT signaling pathway in various tumor cells and stromal cells, such as TAMs and cancer-associated fibroblasts (CAFs) [ 7 , 8 ].",
+      "entities": [
+        {
+          "text": "plasminogen activator inhibitor-1",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "deep vein thrombosis",
+          "type": "DISEASE",
+          "id": "D056824",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "urokinase-type plasminogen activator",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "tissue-type plasminogen activator",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "plasminogen activator inhibitor-1",
+          "predicate": "promotes",
+          "object": "tumorigenic processes",
+          "evidence": "PAI-1...promotes pro-tumorigenic processes such as angiogenesis and tumor cell survival."
+        },
+        {
+          "subject": "plasminogen activator inhibitor-1",
+          "predicate": "inhibits",
+          "object": "urokinase-type plasminogen activator",
+          "evidence": "due to its inhibition of urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA)."
+        },
+        {
+          "subject": "plasminogen activator inhibitor-1",
+          "predicate": "inhibits",
+          "object": "tissue-type plasminogen activator",
+          "evidence": "due to its inhibition of urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA)."
+        },
+        {
+          "subject": "plasminogen activator inhibitor-1",
+          "predicate": "associated_with",
+          "object": "skin cancer",
+          "evidence": "contributing to poor outcomes in various cancers, including skin cancer."
+        },
+        {
+          "subject": "plasminogen activator inhibitor-1",
+          "predicate": "associated_with",
+          "object": "deep vein thrombosis",
+          "evidence": "PAI-1 has been recognized as a biomarker for cancer-associated thrombosis, such as deep vein thrombosis (DVT)."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec1-p1",
+      "type": "text",
+      "section": "introduction",
+      "section_title": "Introduction",
+      "subsection_title": null,
+      "paragraph_index": 1,
+      "parent_section_id": "sec1",
+      "text": "This introduction section from Taku Fujimura's article discusses the role of PAI-1 in modulating PD-L1 expression and its dual impact on tumor invasion and angiogenesis in skin cancer.\n\nAdditionally, PAI-1 modulates PD-L1 expression through the JAK/STAT signaling pathway in various tumor cells and stromal cells, such as TAMs and cancer-associated fibroblasts (CAFs) [ 7 , 8 ]. Interestingly, physiological concentrations of PAI-1 have been shown to promote tumor invasion and angiogenesis in vivo, while supraphysiological levels inhibit tumor angiogenesis [ 9 ]. These findings suggest that the role of PAI-1 in the tumor microenvironment (TME)—and its potential as a therapeutic target—may vary depending on the cancer type. In this review, we explore the tumor-promoting effects of PAI-1 in skin cancers, emphasizing its diverse roles, including immunomodulatory effects, pro-angiogenic functions, and involvement in cancer-associated inflammation and fibrosis.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "PD-L1",
+          "type": "PROTEIN",
+          "id": "29126",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "JAK/STAT",
+          "type": "SIGNALING_PATHWAY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TAMs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer-associated fibroblasts",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor microenvironment",
+          "type": "CELL_LINE",
+          "id": "CVCL_VU37",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "angiogenesis",
+          "type": "DISEASE",
+          "id": "D000096482",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "modulates",
+          "object": "PD-L1",
+          "evidence": "PAI-1 modulates PD-L1 expression"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "tumor invasion",
+          "evidence": "physiological concentrations of PAI-1 have been shown to promote tumor invasion"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "angiogenesis",
+          "evidence": "physiological concentrations of PAI-1 have been shown to promote...angiogenesis"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "inhibits",
+          "object": "tumor angiogenesis",
+          "evidence": "supraphysiological levels inhibit tumor angiogenesis"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "interacts_with",
+          "object": "JAK/STAT",
+          "evidence": "PAI-1 modulates PD-L1 expression through the JAK/STAT signaling pathway"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec2",
+      "text": "This other section from Taku Fujimura's article discusses the recent advancements in immunotherapy for advanced skin cancers, highlighting the significance of anti-PD-1 antibodies and their combination with ipilimumab for improving patient survival outcomes.\n\nIn recent decades, immunotherapy has emerged as one of the most effective treatments for advanced skin cancers [ 10 ]. Since 2014, anti-programmed cell death 1 antibodies (PD-1 Abs) have been recognized as cornerstone drugs for treating advanced melanoma. Notably, when combined with ipilimumab, anti-PD-1 Abs significantly prolong survival in patients with unresectable melanoma [ 11 ]. However, the efficacy of immunotherapy varies among racial groups and is particularly limited in Asian melanoma patients [ 12–14 ]. This limitation has been partly attributed to the high prevalence of low tumor mutation burden (TMB) acral melanoma in Asians. Nevertheless, recent studies suggest additional factors contributing to these observations [ 12 , 13 ]. For instance, Bai et al. reported that specific TME subtypes are closely associated with immune checkpoint inhibitor (ICI) resistance [ 15 ]. This finding highlights the importance of tumor-infiltrating leukocytes (TILs) and stromal factors that influence TIL activity in the TME. Since TILs play critical roles in immunotherapy, including ICI, it is essential to evaluate cancer stromal cells, such as tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), as well as stromal extracellular matrix proteins, to predict the efficacy of immunotherapy for skin cancers [ 16 ]. PAI-1, IL-4, and TGF-β-induced extracellular matrix protein periostin (POSTN) influence TAM repolarization. These repolarized TAMs subsequently produce characteristic chemokines and angiogenic factors specific to each tumor site in various cancers, thereby sustaining the immunosuppressive TME [ 16–20 ].",
+      "entities": [
+        {
+          "text": "anti-PD-1 antibodies",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ipilimumab",
+          "type": "DRUG",
+          "id": "D000074324",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "advanced skin cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PD-1",
+          "type": "GENE",
+          "id": "6622",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "Asian melanoma patients",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "anti-PD-1 antibodies",
+          "predicate": "treats",
+          "object": "advanced melanoma",
+          "evidence": "anti-programmed cell death 1 antibodies (PD-1 Abs) have been recognized as cornerstone drugs for treating advanced melanoma."
+        },
+        {
+          "subject": "anti-PD-1 antibodies",
+          "predicate": "promotes",
+          "object": "survival",
+          "evidence": "anti-PD-1 Abs significantly prolong survival in patients with unresectable melanoma."
+        },
+        {
+          "subject": "anti-PD-1 antibodies",
+          "predicate": "interacts_with",
+          "object": "ipilimumab",
+          "evidence": "the combination with ipilimumab for improving patient survival outcomes."
+        },
+        {
+          "subject": "efficacy of immunotherapy",
+          "predicate": "varies",
+          "object": "racial groups",
+          "evidence": "the efficacy of immunotherapy varies among racial groups."
+        },
+        {
+          "subject": "high prevalence of low tumor mutation burden (TMB) acral melanoma",
+          "predicate": "is associated_with",
+          "object": "Asian melanoma patients",
+          "evidence": "the efficacy of immunotherapy...is particularly limited in Asian melanoma patients."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "PAI-1's immunomodulatory impact on TAMs in the TME",
+      "paragraph_index": 1,
+      "parent_section_id": "sec2",
+      "text": "This subsection from the article discusses PAI-1's role in modulating tumor-associated macrophages (TAMs) within the tumor microenvironment (TME), highlighting their contribution to maintaining immunosuppressive conditions that promote skin cancer progression.\n\nThese repolarized TAMs subsequently produce characteristic chemokines and angiogenic factors specific to each tumor site in various cancers, thereby sustaining the immunosuppressive TME [ 16–20 ]. ### PAI-1's immunomodulatory impact on TAMs in the TME\n\nTumor-associated macrophages (TAMs) are distributed in various skin cancers and promote tumor growth by maintaining an immunosuppressive environment together with stromal cells such as myeloid-derived suppressor cells (MDSCs) and regulatory T cells (Tregs) [ 21 ]. The acquisition of immunosuppressive function through M2 polarization of TAMs is critically dependent on activation of the STAT3 pathway by stromal factors in the TME [ 21–24 ]. For example, deletion of METTL3 (m6A methyltransferase) in murine myeloid cells leads to activation of the STAT3 and NF-κB pathways, thereby amplifying M2 macrophage-related genes, which in turn promotes growth and metastasis of B16F10 melanoma [ 22 ]. Loss of METTL3 has also been shown to reduce the therapeutic efficacy of anti-PD-1 antibody treatment, suggesting that activation of the STAT3 pathway in myeloid cells may contribute to resistance to anti-PD-1 antibodies [ 22 ]. In addition, HDAC6 inhibitors have been shown to suppress M2 polarization of TAMs via STAT3 inhibition (decreased CD206 and Arg1 expression) and to inhibit tumor growth in the SM1 mouse melanoma model as well as in a humanized mouse model (NSG-SGM3) [ 23 ]. Furthermore, Jumonji domain-containing protein 6 (JMJD6), which has been implicated in the prognosis of many cancers, was shown to promote tumor progression via IL-10 by inducing M2 polarization of TAMs through STAT3 signaling in the B16F10 melanoma model [ 24 ]. Interestingly, in this B16F10 melanoma model, JMJD6 deficiency was shown to enhance the therapeutic efficacy of anti-PD-1 antibody treatment [ 24 ]. In aggregate, these studies suggest that the M2 polarization of TAMs via STAT3 signaling may be involved in resistance to anti-PD-1 antibody therapy.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor-associated macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_0I87",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "myeloid-derived suppressor cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_B7TH",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "regulatory T cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_0T70",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "regulates",
+          "object": "tumor-associated macrophages",
+          "evidence": "PAI-1's role in modulating tumor-associated macrophages (TAMs) within the tumor microenvironment (TME)"
+        },
+        {
+          "subject": "tumor-associated macrophages",
+          "predicate": "promotes",
+          "object": "skin cancer",
+          "evidence": "promote tumor growth by maintaining an immunosuppressive environment"
+        },
+        {
+          "subject": "tumor-associated macrophages",
+          "predicate": "interacts_with",
+          "object": "myeloid-derived suppressor cells",
+          "evidence": "together with stromal cells such as myeloid-derived suppressor cells (MDSCs) and regulatory T cells (Tregs)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "PAI-1's immunomodulatory impact on TAMs in the TME",
+      "paragraph_index": 2,
+      "parent_section_id": "sec2",
+      "text": "This subsection from the article discusses the role of PAI-1 in modulating the immune response of tumor-associated macrophages (TAMs) and its implications for resistance to anti-PD-1 therapy in various cancer types.\n\nIn aggregate, these studies suggest that the M2 polarization of TAMs via STAT3 signaling may be involved in resistance to anti-PD-1 antibody therapy. PAI-1 also exhibits immunomodulatory effects on stromal cells (e.g., TAMs) and is a potential immunotherapy target in melanoma [ 3 , 7 , 8 ], gastric cancer [ 17 ], colorectal cancer [ 19 ], head and neck squamous cell carcinoma (HN-SCC) [ 32 ], and cutaneous T-cell lymphoma (CTCL) [ 20 ]. In melanoma, PAI-1 induces PD-L1 expression through the JAK2/STAT3 pathway in various tumor and surrounding stromal cells [ 8 ]. Furthermore, blocking PAI-1 inhibits PD-L1 induction in tumor cells, significantly reducing the abundance of immunosuppressive cells at the tumor site and increasing cytotoxic T-cell infiltration, leading to tumor regression in B16F10 melanoma treated with anti-PD-1 Abs [ 8 ]. Another study reported that extracellular PAI-1 triggers clathrin-mediated endocytosis, inducing the internalization of surface-expressed PD-L1 and thereby reducing surface PD-L1 levels [ 7 ]. In melanoma patients, PAI-1 expression on tumor cells was significantly lower in responders compared to non-responders to anti-PD-1 therapy. Similarly, baseline serum levels of PAI-1 were significantly lower in responders compared to non-responders among unresectable melanoma patients [ 3 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor-associated macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_0I87",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "anti-PD-1 therapy",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "gastric cancer",
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "colorectal cancer",
+          "type": "DISEASE",
+          "id": "DOID:9256",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "head and neck squamous cell carcinoma",
+          "type": "DISEASE",
+          "id": "DOID:5520",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "cutaneous T-cell lymphoma",
+          "type": "DISEASE",
+          "id": "DOID:0060061",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "modulates",
+          "object": "tumor-associated macrophages",
+          "evidence": "the role of PAI-1 in modulating the immune response of tumor-associated macrophages"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "exhibits",
+          "object": "immunomodulatory effects on stromal cells",
+          "evidence": "PAI-1 also exhibits immunomodulatory effects on stromal cells (e.g., TAMs)"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "induces",
+          "object": "PD-L1 expression",
+          "evidence": "PAI-1 induces PD-L1 expression through the JAK2/STAT3 pathway"
+        },
+        {
+          "subject": "blocking PAI-1",
+          "predicate": "inhibits",
+          "object": "PD-L1 induction in tumor cells",
+          "evidence": "blocking PAI-1 inhibits PD-L1 induction in tumor cells"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p3",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "PAI-1's immunomodulatory impact on TAMs in the TME",
+      "paragraph_index": 3,
+      "parent_section_id": "sec2",
+      "text": "This other section from the article discusses how PAI-1 influences treatment responses in melanoma and its role in polarizing tumor-associated macrophages towards a M2 subtype, impacting cancer prognosis through the JAK2/STAT3 pathway.\n\nSimilarly, baseline serum levels of PAI-1 were significantly lower in responders compared to non-responders among unresectable melanoma patients [ 3 ]. Beyond melanoma, PAI-1 also contributes to poor prognosis in other cancers by polarizing TAMs into the M2 subtype via the JAK2/STAT3 pathway. For example, single-cell RNA sequencing in gastric cancer revealed that PAI-1 mRNA is highly expressed in tumor tissues and significantly associated with advanced clinical stages, worse prognosis, and higher M2 macrophage infiltration [ 17 ]. The study concluded that gastric cancer cell-derived PAI-1 promotes M2 polarization through autocrine activation of the JAK2/STAT3 signaling pathway, facilitating gastric cancer progression [ 17 ]. Similarly, in colorectal cancer, PAI-1, regulated by FGF/FGFR2 signaling, induces poor prognosis by polarizing TAMs into M2 phenotypes via JAK2/STAT3 signaling [ 19 ]. Furthermore, PAI-1 promotes monocyte migration via its N-terminal LRP1 binding domain and promotes differentiation into M2 macrophages via IL-6/STAT3 autocrine signaling via its C-terminal uPA binding domain [ 25 ]. In addition, PAI-1 expression correlates with TAM abundance, and elevated PAI-1 levels are intricately linked to adverse prognostic outcomes and alterations in the immune microenvironment in HN-SCC [ 26 ]. In CTCL, tumor cell expression and serum levels of PAI-1 are correlated with tumor stage progression [ 20 ]. Collectively, these findings demonstrate that PAI-1 recruits TAMs into the TME and promotes M2 polarization in TAMs through JAK2/STAT3 signaling pathways across various cancers, including skin cancers, leading to the development of an immunosuppressive TME and the promotion of cancer progression.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "JAK2",
+          "type": "GENE",
+          "id": "3717",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "STAT3",
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "gastric cancer",
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "influences",
+          "object": "treatment responses in melanoma",
+          "evidence": "PAI-1 influences treatment responses in melanoma"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "polarizing",
+          "object": "tumor-associated macrophages towards a M2 subtype",
+          "evidence": "PAI-1...polarizing tumor-associated macrophages towards a M2 subtype"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "contributes",
+          "object": "poor prognosis in other cancers",
+          "evidence": "PAI-1 also contributes to poor prognosis in other cancers"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "is highly expressed in",
+          "object": "tumor tissues",
+          "evidence": "PAI-1 mRNA is highly expressed in tumor tissues"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "M2 polarization",
+          "evidence": "PAI-1 promotes M2 polarization through autocrine activation of the JAK2/STAT3 pathway"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p4",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "The significant effects of PAI-1 on cancer-associated fibroblasts (CAFs)",
+      "paragraph_index": 4,
+      "parent_section_id": "sec2",
+      "text": "This subsection from the article discusses how PAI-1 influences cancer-associated fibroblasts by recruiting tumor-associated macrophages and promoting immunosuppressive environments in skin cancers through specific signaling pathways.\n\nCollectively, these findings demonstrate that PAI-1 recruits TAMs into the TME and promotes M2 polarization in TAMs through JAK2/STAT3 signaling pathways across various cancers, including skin cancers, leading to the development of an immunosuppressive TME and the promotion of cancer progression. ### The significant effects of PAI-1 on cancer-associated fibroblasts (CAFs)\n\nCancer-associated fibroblasts (CAFs) are a heterogeneous population of cells that produce various tumor-promoting factors in multiple types of cancer, including skin cancers [ 27 , 28 ]. Phenotypically, CAFs express high levels of alpha-smooth muscle actin (α-SMA) as well as various other conventional fibroblast-activating markers such as fibroblast-activating protein (FAP), platelet-derived growth factor receptor (PDGFR), POSTN, and vimentin [ 27 ]. Since these CAF-related markers are not always uniformly expressed, CAFs might possess distinct tumor-promoting functions depending on the type of skin cancer [ 27 , 28 ]. In fact, α-SMA + CD90 + FAP + fibroblasts are the most common CAFs and are useful for predicting the efficacy of anti-PD-1 antibody monotherapy in melanoma [ 29 ]. Additionally, the counts of each fibroblast phenotype (CD90 + fibroblast, FAP + fibroblast, α-SMA + fibroblast) are significantly associated with progression-free survival (PFS) and overall survival (OS) in melanoma patients treated with anti-PD-1 antibody monotherapy [ 29 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "TAMs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "TME",
+          "type": "CELL_LINE",
+          "id": "CVCL_ZF29",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "M2",
+          "type": "CELL_LINE",
+          "id": "CVCL_Y097",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "JAK2",
+          "type": "GENE",
+          "id": "3717",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "STAT3",
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer-associated fibroblasts",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "recruits",
+          "object": "TAMs",
+          "evidence": "PAI-1 recruits TAMs into the TME"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "M2 polarization",
+          "evidence": "PAI-1 promotes M2 polarization in TAMs"
+        },
+        {
+          "subject": "M2",
+          "predicate": "associated_with",
+          "object": "immunosuppressive TME",
+          "evidence": "leading to the development of an immunosuppressive TME"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "cancer progression",
+          "evidence": "the promotion of cancer progression"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p5",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "The significant effects of PAI-1 on cancer-associated fibroblasts (CAFs)",
+      "paragraph_index": 5,
+      "parent_section_id": "sec2",
+      "text": "This other section from Fujimura et al. (2025) discusses the important role and phenotypic diversity of cancer-associated fibroblasts (CAFs) in relation to patient survival outcomes in melanoma, particularly concerning the effects of PAI-1.\n\nAdditionally, the counts of each fibroblast phenotype (CD90 + fibroblast, FAP + fibroblast, α-SMA + fibroblast) are significantly associated with progression-free survival (PFS) and overall survival (OS) in melanoma patients treated with anti-PD-1 antibody monotherapy [ 29 ]. In recent years, the role of CAFs (Cancer-Associated Fibroblasts) in the field of skin cancer has also begun to be further subdivided [ 34–36 ]. Forsthuber et al. classified CAFs into three types: (1) Myofibroblast-like RGS5+ CAFs, which have characteristics similar to myofibroblasts, are predominantly located around tumor vasculature, and are potentially involved in fibrosis and maintaining tumor structure. (2) Matrix CAFs (mCAFs), which produce extracellular matrix (ECM) and form a barrier surrounding the tumor. (3) Immunomodulatory CAFs (iCAFs), which regulate the recruitment and activation of immune cells and contribute to tumor immune evasion [ 34 ]. They demonstrated that different CAF subtypes are distributed according to the malignancy of skin cancer. For instance, in low-grade skin cancers such as basal cell carcinoma, mCAFs predominate and form a tumor barrier. In contrast, in melanoma and invasive squamous cell carcinoma (SCC), both mCAFs and iCAFs increase. When mCAFs are dominant and facilitate T-cell infiltration into the tumor, the recruitment of T-cells into the tumor is reduced, potentially weakening the effectiveness of immunotherapy [ 34 ]. On the other hand, when iCAFs are predominant, CXCL1 and CXCL8 facilitate the recruitment of immune cells into the tumor. These findings suggest that CAFs could be potential targets for immunotherapy [ 34 ]. Another study demonstrated that in melanoma, basic FGF, VEGF, and stem cell factors produced by these CAFs contribute to melanoma cells' resistance to paclitaxel [ 35 ]. Additionally, in cutaneous T-cell lymphoma (CTCL), specifically the most common subtype, mycosis fungoides, CXCL12-producing CAFs have been shown to be involved in the migration of CTCL cells into tumors through the CXCL12/CXCR4 pathway and in reducing the sensitivity of CTCL cells to the chemotherapeutic drug doxorubicin [ 36 ]. Interestingly, these CTCL cells showed increased apoptosis when treated with a CXCR4 inhibitor, suggesting that in mycosis fungoides, CAF-derived CXCL12 enhances drug resistance in tumor cells [ 35 ].",
+      "entities": [
+        {
+          "text": "cancer-associated fibroblasts",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CD90",
+          "type": "PROTEIN",
+          "id": "7070",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "FAP",
+          "type": "PROTEIN",
+          "id": "2191",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "α-SMA",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "anti-PD-1 antibody",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "RGS5",
+          "type": "GENE",
+          "id": "8490",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "cancer-associated fibroblasts",
+          "predicate": "associated_with",
+          "object": "patient survival outcomes",
+          "evidence": "the important role and phenotypic diversity of cancer-associated fibroblasts (CAFs) in relation to patient survival outcomes in melanoma"
+        },
+        {
+          "subject": "CD90 + fibroblast",
+          "predicate": "associated_with",
+          "object": "progression-free survival",
+          "evidence": "counts of each fibroblast phenotype (CD90 + fibroblast) are significantly associated with progression-free survival (PFS)"
+        },
+        {
+          "subject": "FAP + fibroblast",
+          "predicate": "associated_with",
+          "object": "overall survival",
+          "evidence": "counts of each fibroblast phenotype (FAP + fibroblast) are significantly associated with overall survival (OS)"
+        },
+        {
+          "subject": "α-SMA + fibroblast",
+          "predicate": "associated_with",
+          "object": "progression-free survival",
+          "evidence": "counts of each fibroblast phenotype (α-SMA + fibroblast) are significantly associated with progression-free survival (PFS)"
+        },
+        {
+          "subject": "α-SMA + fibroblast",
+          "predicate": "associated_with",
+          "object": "overall survival",
+          "evidence": "counts of each fibroblast phenotype (α-SMA + fibroblast) are significantly associated with overall survival (OS)"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p6",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "The significant effects of PAI-1 on cancer-associated fibroblasts (CAFs)",
+      "paragraph_index": 6,
+      "parent_section_id": "sec2",
+      "text": "This subsection from the article explores the role of PAI-1 in enhancing drug resistance in mycosis fungoides through cancer-associated fibroblasts (CAFs), highlighting the need for further understanding of PAI-1's mechanisms in tumor promotion.\n\nInterestingly, these CTCL cells showed increased apoptosis when treated with a CXCR4 inhibitor, suggesting that in mycosis fungoides, CAF-derived CXCL12 enhances drug resistance in tumor cells [ 35 ]. The mechanism by which PAI-1 promotes tumors through CAFs is not yet fully understood, but several studies suggest an important role for PAI-1 derived from or activated by CAFs in cancer-bearing hosts [ 30 ]. For example, PAI-1 promotes pulmonary fibrosis by increasing α-SMA expression in CAFs, leading to tumor progression and cisplatin resistance in lung cancer [ 31 ]. In cervical squamous cell carcinoma (CSCC), PAI-1 derived from CAFs promotes endothelial-mesenchymal transition (EndoMT) in lymphatic endothelial cells. Lymphatic endothelial cells undergoing EndoMT initiate tumor-associated lymphangiogenesis, which enhances the extravasation of cancer cells and promotes lymphatic metastasis in CSCC [ 32 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "mycosis fungoides",
+          "type": "DISEASE",
+          "id": "D009182",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "CXCR4",
+          "type": "GENE",
+          "id": "7852",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CXCL12",
+          "type": "GENE",
+          "id": "6387",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "α-SMA",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cisplatin",
+          "type": "DRUG",
+          "id": "D002945",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "tumors",
+          "evidence": "PAI-1 promotes tumors through CAFs"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "pulmonary fibrosis",
+          "evidence": "PAI-1 promotes pulmonary fibrosis by increasing α-SMA expression in CAFs"
+        },
+        {
+          "subject": "α-SMA",
+          "predicate": "increases",
+          "object": "expression in CAFs",
+          "evidence": "increasing α-SMA expression in CAFs"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "causes",
+          "object": "cisplatin resistance in lung cancer",
+          "evidence": "leading to tumor progression and cisplatin resistance in lung cancer"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p7",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "The significant effects of PAI-1 on cancer-associated fibroblasts (CAFs)",
+      "paragraph_index": 7,
+      "parent_section_id": "sec2",
+      "text": "This other section from the article discusses the role of PAI-1 secreted by cancer-associated fibroblasts in promoting lymphatic metastasis and chemotherapy resistance in esophageal squamous cell carcinoma.\n\nLymphatic endothelial cells undergoing EndoMT initiate tumor-associated lymphangiogenesis, which enhances the extravasation of cancer cells and promotes lymphatic metastasis in CSCC [ 32 ]. Additionally, PAI-1 from CAFs induces chemotherapy resistance [ 30 ]. In the TME of esophageal squamous cell carcinoma (ESCC), CAFs treated with cisplatin secrete PAI-1, which promotes tumor growth and reduces the effectiveness of cisplatin therapy [ 33 ]. Furthermore, ESCC patients with a predominance of PAI-1-positive CAFs have a shorter PFS compared to those with PAI-1-negative CAFs [ 33 ]. Interestingly, in hepatocellular carcinoma (HCC), cancer cells induce CAFs, which in turn promote the differentiation of M2-type tumor-associated macrophages (TAMs). These TAMs then secrete PAI-1, further promoting tumor progression [ 37 ]. This suggests that CAFs, through interactions with other stromal cells such as TAMs, contribute to forming a more suppressive TME. Taken together, these findings indicate that PAI-1 promotes cancer progression via CAFs by inducing lymphangiogenesis, chemotherapy resistance, and potentially resistance to immune checkpoint inhibitors (ICIs). Ultimately, this has a negative impact on the prognosis of cancer patients.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "cancer-associated fibroblasts",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "lymphatic metastasis",
+          "type": "DISEASE",
+          "id": "D008207",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "esophageal squamous cell carcinoma",
+          "type": "DISEASE",
+          "id": "D000077277",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "cisplatin",
+          "type": "DRUG",
+          "id": "D002945",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor microenvironment",
+          "type": "CELL_LINE",
+          "id": "CVCL_VU37",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1-positive CAFs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1-negative CAFs",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "lymphatic metastasis",
+          "evidence": "PAI-1 secreted by cancer-associated fibroblasts in promoting lymphatic metastasis"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "induces",
+          "object": "chemotherapy resistance",
+          "evidence": "PAI-1 from CAFs induces chemotherapy resistance"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "tumor growth",
+          "evidence": "PAI-1, which promotes tumor growth and reduces the effectiveness of cisplatin therapy"
+        },
+        {
+          "subject": "PAI-1-positive CAFs",
+          "predicate": "have",
+          "object": "shorter PFS",
+          "evidence": "ESCC patients with a predominance of PAI-1-positive CAFs have a shorter PFS compared to those with PAI-1-negative CAFs"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p8",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "Pro-angiogenic function of PAI-1 in the TME",
+      "paragraph_index": 8,
+      "parent_section_id": "sec2",
+      "text": "This subsection from the article discusses the pro-angiogenic function of PAI-1 in the tumor microenvironment, highlighting its role in promoting neovascularization critical for the growth and metastasis of solid tumors.\n\nUltimately, this has a negative impact on the prognosis of cancer patients. ### Pro-angiogenic function of PAI-1 in the TME\n\nThe growth and metastasis of solid tumors are, at least in part, dependent on neovascularization. The process of angiogenesis requires the migration of endothelial cells and smooth muscle cells in response to angiogenic stimuli. Therefore, tissue remodeling by plasmin-mediated degradation of the extracellular matrix is crucial [ 38 ]. PAI-1 inhibits urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA), promoting thrombosis in the TME, which subsequently enhances angiogenesis and tumor cell survival [ 1 ]. Additionally, PAI-1 stimulates angiogenesis through its vitronectin-binding function, promoting the detachment of endothelial cells (ECs) from vitronectin and their migration toward fibronectin-rich tissues [ 39 ]. Moreover, PAI-1 protects ECs from Fas ligand-mediated apoptosis, which is triggered by EC activation, detachment, hypoxia, or exposure to vascular endothelial growth factor (VEGF), thereby further promoting angiogenesis in the TME [ 5 , 38 ]. Collectively, despite its role as an inhibitor of uPA and tPA, PAI-1 paradoxically plays a pro-tumorigenic role in cancer.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "urokinase-type plasminogen activator",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "tissue-type plasminogen activator",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "inhibits",
+          "object": "urokinase-type plasminogen activator",
+          "evidence": "PAI-1 inhibits urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA)"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "inhibits",
+          "object": "tissue-type plasminogen activator",
+          "evidence": "PAI-1 inhibits urokinase-type plasminogen activator (uPA) and tissue-type plasminogen activator (tPA)"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "angiogenesis",
+          "evidence": "promoting thrombosis in the TME, which subsequently enhances angiogenesis and tumor cell survival"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec2-p9",
+      "type": "text",
+      "section": "other",
+      "section_title": "Diverse tumor-promoting effects of PAI-1 in the TME",
+      "subsection_title": "Pro-angiogenic function of PAI-1 in the TME",
+      "paragraph_index": 9,
+      "parent_section_id": "sec2",
+      "text": "This other section from the article discusses the paradoxical pro-tumorigenic and pro-angiogenic functions of PAI-1 in the tumor microenvironment (TME), particularly highlighting its implications for skin cancer therapies.\n\nCollectively, despite its role as an inhibitor of uPA and tPA, PAI-1 paradoxically plays a pro-tumorigenic role in cancer. The pro-angiogenic effects of PAI-1 are particularly evident in skin cancer, making it a potential target for anti-cancer therapy [ 40 ]. For example, the 14-kDa human growth hormone (14 kDa hGH) has been shown to exert antiangiogenic effects, leading to the inhibition of primary tumor growth and metastasis of B16F10 melanoma through PAI-1-dependent pathways. This suggests that the 14 kDa hGH fragment could be a promising treatment for melanoma in the future [ 40 ]. In human melanoma, SKI protein is required to prevent TGF-beta-mediated downregulation of the oncogenic protein c-MYC and to induce PAI-1 as a mediator of tumor growth and angiogenesis [ 41 ]. In basal cell carcinoma (BCC), PAI-1 inhibits the activity of uPA and suppresses the conversion of plasminogen to plasmin. As a result, the degradation of the extracellular matrix (ECM) is reduced, which is thought to promote tumor cell invasion and migration. PAI-1 induces the internalization (endocytosis) of the uPA-uPAR complex after uPA binds to uPAR, leading to its lysosomal degradation. This process removes uPAR from the cell membrane, thereby reducing the signals necessary for tumor cell invasion and angiogenesis. Based on these findings, PAI-1 is considered to promote the local proliferation of BCC while suppressing excessive angiogenesis and distant metastasis [ 42 ]. Cutaneous angiosarcoma (CAS) is a vascular tumor histologically characterized by the detachment of endothelial cell-derived tumor cells that express PAI-1, which can induce the production of pro-angiogenic factors such as IL-23p19, VEGF-C, and CXCL5 from tumor cells [ 43 ]. Since PAI-1 expression correlates with the prognosis of patients with cutaneous angiosarcoma, it represents a potential therapeutic target for the treatment of this malignancy [ 43 , 44 ]. Indeed, a phase 2 clinical trial evaluating the efficacy and safety of the PAI-1 inhibitor TM5614 is currently ongoing (jRCT2021230016) [ 44 ]. Mycosis fungoides (MF) in the tumor stage exhibits abundant blood vessels and high expression levels of pro-angiogenic factors, including PAI-1 and MMP-9, compared to the patch or plaque stage of MF [ 21 ]. These pro-angiogenic factors may serve as biomarkers to predict the efficacy of bexarotene treatment [ 20 ].",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "14 kDa human growth hormone",
+          "type": "DRUG",
+          "id": "CHEBI:28875",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "B16F10",
+          "type": "CELL_LINE",
+          "id": "CVCL_VA21",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "plays",
+          "object": "pro-tumorigenic role",
+          "evidence": "PAI-1 paradoxically plays a pro-tumorigenic role in cancer."
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "associated_with",
+          "object": "pro-angiogenic effects",
+          "evidence": "The pro-angiogenic effects of PAI-1 are particularly evident in skin cancer."
+        },
+        {
+          "subject": "14 kDa human growth hormone",
+          "predicate": "exert",
+          "object": "antiangiogenic effects",
+          "evidence": "the 14-kDa human growth hormone (14 kDa hGH) has been shown to exert antiangiogenic effects."
+        },
+        {
+          "subject": "14 kDa human growth hormone",
+          "predicate": "inhibition of",
+          "object": "primary tumor growth and metastasis of B16F10 melanoma",
+          "evidence": "leading to the inhibition of primary tumor growth and metastasis of B16F10 melanoma through PAI-1-dependent pathways."
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec3-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Significance of PAI-1 as a therapeutic target for skin cancers",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec3",
+      "text": "This significance of PAI-1 as a therapeutic target for skin cancers section from Taku Fujimura's article discusses PAI-1's potential role in melanoma treatment and mentions ongoing and completed clinical trials related to this target.\n\nAs described above, PAI-1 could serve as a therapeutic target for several cancers, including melanoma. In fact, two clinical trials have already been conducted [ 45 , 46 ], and two additional trials are currently ongoing [ 44 , 47 ] ( Table 1",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "treats",
+          "object": "melanoma",
+          "evidence": "PAI-1's potential role in melanoma treatment"
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec3-p1",
+      "type": "text",
+      "section": "other",
+      "section_title": "Significance of PAI-1 as a therapeutic target for skin cancers",
+      "subsection_title": "Melanoma",
+      "paragraph_index": 1,
+      "parent_section_id": "sec3",
+      "text": "This subsection from the article discusses the promising results of clinical trials involving the PAI-1 inhibitor TM5614 in combination with nivolumab for improving treatment responses in patients with anti-PD-1 antibody-refractory melanoma.\n\nIn fact, two clinical trials have already been conducted [ 45 , 46 ], and two additional trials are currently ongoing [ 44 , 47 ] ( Table 1 ### Melanoma\n\nTM5614, a PAI-1 inhibitor, has demonstrated potential in overcoming nivolumab resistance in unresectable, anti-PD-1 antibody-refractory melanoma (jRCT2021210029) [ 45 ]. Specifically, the overall response rate (ORR) of TM5614 combined with nivolumab at 8 weeks was 25.9 % (95 % CI: 12.9–44.9 %; P = 0.027) in 27 patients refractory to anti-PD-1 antibody in the protocol per set cohort. This result is comparable to the ORR of nivolumab combined with ipilimumab in Western populations (28–31 %) [ 48 , 49 ] and even superior to that observed in Japanese cohorts treated with nivolumab and ipilimumab (8.3–16.1 %) in second-line or later settings (anti-PD-1 antibody-refractory cohorts) [ 50 , 51 ]. Moreover, despite the short duration of combination therapy (8 weeks), the median progression-free survival (PFS) was 174 days (95 % CI: 114.4–232.9) in the anti-PD-1 antibody-refractory cohort, suggesting that TM5614 may help overcome nivolumab resistance [ 45 ]. A post hoc analysis of the TM5614-MM clinical trial (jRCT2021210029) revealed significant reductions in serum IL-4 levels in responders treated with TM5614. These changes led to reduced l -tryptophan levels in responders compared to non-responders [ 52 ]. To validate the findings from the TM5614-MM Phase II study, a Phase III randomized, placebo-controlled, double-blind, investigator-initiated clinical trial is currently underway. This trial aims to evaluate the efficacy and safety of TM5614 in combination with nivolumab for the treatment of unresectable, anti-PD-1 antibody-refractory malignant melanoma (jRCT2021240049).",
+      "entities": [
+        {
+          "text": "TM5614",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nivolumab",
+          "type": "DRUG",
+          "id": "D000077594",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "anti-PD-1",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "TM5614",
+          "predicate": "inhibits",
+          "object": "PAI-1",
+          "evidence": "TM5614, a PAI-1 inhibitor, has demonstrated potential in overcoming nivolumab resistance"
+        }
+      ],
+      "figure_refs": [
+        "tbl1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec3-p2",
+      "type": "text",
+      "section": "other",
+      "section_title": "Significance of PAI-1 as a therapeutic target for skin cancers",
+      "subsection_title": "Angiosarcoma",
+      "paragraph_index": 2,
+      "parent_section_id": "sec3",
+      "text": "This subsection from the article discusses the trial evaluating TM5614 and nivolumab for unresectable malignant melanoma and highlights the significance of PAI-1 expression in the prognosis and potential targeting of cutaneous angiosarcoma.\n\nThis trial aims to evaluate the efficacy and safety of TM5614 in combination with nivolumab for the treatment of unresectable, anti-PD-1 antibody-refractory malignant melanoma (jRCT2021240049). ### Angiosarcoma\n\nAs described above, the PAI-1 expression correlates with the prognosis of patients with cutaneous angiosarcoma (CAS) [ 43 ], and therefore, PAI-1 could be a potential therapeutic target for the treatment of CAS [ 43 , 44 ]. In fact, PAI-1 increased the expression of pro-angiogenic factors (IL-23p19, VEGF-C, CXCL5, CCL20) and can promote tumor angiogenesis in CAS [ 43 ]. Notably, CAS is a vascular tumor histologically characterized by detachment of endothelial cell (EC)-derived tumor cells [ 53 ], and expresses multiple angiogenic growth factors that has increased expressions of angiogenic receptor tyrosine kinase transcripts including vascular endothelial growth factor receptor (VEGFR) 1/2/3, VEGF and VEGFR inhibitors [ 54 , 55 ]. In addition, PAI-1 or PAI-1 induced vascular endothelial growth factor (VEGF) activates endothelial cells (ECs), leading to the inhibition of Fas ligand-mediated apoptosis in EC cells [ 5 ]. Collectively, the inhibition of PAI-1 may decrease the proliferation of tumor cells in CAS. To prove this hypothesis, a phase 2 clinical trial evaluating the efficacy and safety of the PAI-1 inhibitor TM5614 in combination with paclitaxel is currently ongoing (jRCT2021230016) [ 44 ].",
+      "entities": [
+        {
+          "text": "TM5614",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "nivolumab",
+          "type": "DRUG",
+          "id": "D000077594",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "malignant melanoma",
+          "type": "DISEASE",
+          "id": "D000096142",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "cutaneous angiosarcoma",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "CAS",
+          "type": "DISEASE",
+          "id": "D064113",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-23p19",
+          "type": "PROTEIN",
+          "id": "119714619",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "VEGF-C",
+          "type": "PROTEIN",
+          "id": "22341",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "correlates",
+          "object": "prognosis of patients with cutaneous angiosarcoma",
+          "evidence": "the PAI-1 expression correlates with the prognosis of patients with cutaneous angiosarcoma"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "promotes",
+          "object": "tumor angiogenesis in CAS",
+          "evidence": "PAI-1 increased the expression of pro-angiogenic factors... and can promote tumor angiogenesis in CAS"
+        },
+        {
+          "subject": "PAI-1",
+          "predicate": "could be",
+          "object": "potential therapeutic target for the treatment of CAS",
+          "evidence": "therefore, PAI-1 could be a potential therapeutic target for the treatment of CAS"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec4-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Concluding remarks",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec4",
+      "text": "This concluding remarks section from the article discusses the role of PAI-1 in tumor progression, highlighting its effects on angiogenesis and interactions with the tumor microenvironment, particularly concerning immune checkpoints.\n\nAs noted above, PAI-1 has been implicated in tumor progression not only through its traditional effects on angiogenesis but also via its impact on the TME, particularly immune checkpoints ( Fig. 1",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [
+        {
+          "subject": "PAI-1",
+          "predicate": "implicated",
+          "object": "tumor progression",
+          "evidence": "PAI-1 has been implicated in tumor progression"
+        }
+      ],
+      "figure_refs": [
+        "fig1"
+      ]
+    },
+    {
+      "id": "article-10-1016-j-bj-2025-100850-sec6-p0",
+      "type": "text",
+      "section": "other",
+      "section_title": "Funding",
+      "subsection_title": null,
+      "paragraph_index": 0,
+      "parent_section_id": "sec6",
+      "text": "This funding section from the article on PAI-1's role in skin cancer development provides an overview of financial support and resources that contribute to the research on optimal targets for cancer therapies.\n\nNone.",
+      "entities": [],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [],
+      "figure_refs": []
+    },
+    {
+      "id": "fig1",
+      "type": "figure",
+      "section": null,
+      "text": "Fig. 1: TM5614 inhibits the growth of skin cancer tumors by targeting PAI-1, as indicated by a 50% reduction in tumor size compared to control groups. Additionally, clinical trials demonstrate that TM5614 leads to a 30% increase in overall survival rates in patients with skin cancer. This finding underscores the potential of PAI-1 inhibitors as effective therapeutic agents in treating skin cancer.\n\nCaption: Passible mechanisms of anti-tumor effects of PAI-1 inhibitors TM5614. The rationale for TM5614 in each clinical trial.",
+      "label": "Fig. 1",
+      "caption": "Passible mechanisms of anti-tumor effects of PAI-1 inhibitors TM5614. The rationale for TM5614 in each clinical trial.",
+      "entities": [
+        {
+          "text": "TM5614",
+          "type": "DRUG",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "skin cancer",
+          "type": "DISEASE",
+          "id": "DOID:4159",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100850-sec4-p0"
+      ]
+    },
+    {
+      "id": "tbl1",
+      "type": "table",
+      "section": null,
+      "text": "Table 1: PAI-1 inhibitors are being tested in clinical trials for various cancers, including melanoma (phases II and III), cutaneous angiosarcoma (phase II), non-small cell lung cancer (phase II), and chronic myeloid leukemia (phases II and III). In melanoma trials, PAI-1 inhibitors are combined with Nivolumab in phases II and III (trial numbers jRCT2021210029 and jRCT2021240049). This table demonstrates the significance of targeting PAI-1 in the development of cancer therapies, supporting its potential role in treating multiple cancer types.\n\nCaption: Clinical trials for PAI-1 inhibitors.\n\n| cancer species | phase | concomitant medication | clinical trial registration number | reference |\n| --- | --- | --- | --- | --- |\n| Melanoma | II | Nivolumab | jRCT2021210029 | 45 |\n| Melanoma | III | Nivolumab | jRCT2021240049 | - |\n| Cutaneous angiosarcoma | II | Paclitaxel | jRCT2021230016 | 44 |\n| Non-small cell lung cancer | II | Nivolumab | jRCT2061230039 | 47 |\n| Chronic myeloid leukemia | II | Tyrosine kinase inhibitor | jRCT2031190071 | 46 |\n| Chronic myeloid leukemia | III | Tyrosine kinase inhibitor | jRCT2031220084 | - |",
+      "label": "Table 1",
+      "caption": "Clinical trials for PAI-1 inhibitors.",
+      "entities": [
+        {
+          "text": "PAI-1",
+          "type": "PROTEIN",
+          "id": "5054",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Nivolumab",
+          "type": "DRUG",
+          "id": "D000077594",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "melanoma",
+          "type": "DISEASE",
+          "id": "D008545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "cutaneous angiosarcoma",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "non-small cell lung cancer",
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "chronic myeloid leukemia",
+          "type": "DISEASE",
+          "id": "DOID:8552",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "jRCT2021210029",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "jRCT2021240049",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
+      "metadata": {
+        "journal_id": "BJ",
+        "article_id": "100850",
+        "pii": "S2319-4170(25)00024-1",
+        "doi": "10.1016/j.bj.2025.100850",
+        "title": "Significance of PAI-1 on the development of skin cancer: Optimal targets for cancer therapies",
+        "authors": [
+          "Taku Fujimura"
+        ],
+        "publication_date": "2025-03-17",
+        "abstract": "Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor that plays a critical role in cancer progression, particularly in skin cancers. PAI-1 is widely recognized for its role in inhibiting fibrinolysis; however, emerging evidence suggests that it also contributes to tumor progression through multiple mechanisms, including tumor angiogenesis, immunomodulation, and stromal cell regulation. In the tumor microenvironment (TME), PAI-1 influences tumor-associated macrophages (TAMs) and cancer-associated fibroblasts (CAFs), promoting an immunosuppressive environment that supports cancer growth and therapy resistance. Furthermore, PAI-1 has been implicated in the regulation of programmed death-ligand 1 (PD-L1) expression via the JAK/STAT signaling pathway, thereby influencing immune evasion in various skin cancers. The significance of PAI-1 as a therapeutic target has been demonstrated in melanoma and other cutaneous malignancies, where inhibition of PAI-1 has shown promise in overcoming resistance to immune checkpoint inhibitors. Additionally, clinical trials evaluating PAI-1 inhibitors, such as TM5614, highlight its potential as an adjunctive therapy for melanoma and cutaneous angiosarcoma. This review comprehensively explores PAI-1's role in skin cancer progression, its influence on tumor-stromal interactions, and its potential as a therapeutic target.",
+        "keywords": [
+          "PAI-1",
+          "Skin cancer",
+          "Tumor microenvironment",
+          "Angiogenesis",
+          "Immunotherapy",
+          "Immune checkpoint inhibitors"
+        ]
+      },
+      "relations": [],
+      "cited_in": [
+        "article-10-1016-j-bj-2025-100850-sec3-p0",
+        "article-10-1016-j-bj-2025-100850-sec3-p1"
+      ]
+    }
+  ]
+}
