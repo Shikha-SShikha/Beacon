@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-from .routers import institutions, search, citation, ask, baseline
+from .routers import institutions, search, citation, ask, baseline, analytics, collections, attribution
 from .models import JournalsResponse, JournalInfo
 from governance.license_service import load_config
 
@@ -15,7 +15,14 @@ app = FastAPI(title="Beacon API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://localhost:5174"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "http://localhost:5175",
+        "http://localhost:5176",
+        "http://localhost:5177",
+        "http://localhost:3000",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -25,6 +32,9 @@ app.include_router(search.router)
 app.include_router(citation.router)
 app.include_router(ask.router)
 app.include_router(baseline.router)
+app.include_router(analytics.router)
+app.include_router(collections.router)
+app.include_router(attribution.router)
 
 
 @app.get("/journals", response_model=JournalsResponse, tags=["journals"])

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-import { fetchInstitution, fetchJournals, postAsk, postBaselineAsk } from "../api/client";
+import { useNavigate } from "react-router-dom";
+import { fetchInstitution, fetchJournals, postAsk, postBaselineAsk, postWebAiAsk } from "../api/client";
 import type { InstitutionSummary, JournalInfo, AskExchange, AskResponse } from "../types";
 import Sidebar from "../components/layout/Sidebar";
 import BeaconLogo from "../components/ui/BeaconLogo";
@@ -10,13 +11,34 @@ import Spinner from "../components/ui/Spinner";
 import EmptyState from "../components/ui/EmptyState";
 import ErrorBanner from "../components/ui/ErrorBanner";
 
-const EXAMPLES = [
-  "What is the statistical significance of m6A elevation in T. annulata infected macrophages?",
-  "Which m6A writer and eraser genes are differentially regulated in Theileria infection?",
-  "How were RNA samples prepared and m6A levels measured?",
-  "PAI-1 role in leukemia cell proliferation",
-  "YY1 expression changes in cardiac tissue",
+const DEMO_TOPICS = [
+  {
+    topic: "Ferroptosis & Cancer",
+    color: "text-slate-700 bg-white border-slate-200",
+    dot: "bg-slate-400",
+    queries: [
+      { level: "Broad",    label: "How does ferroptosis regulate cancer cell death?" },
+      { level: "Focused",  label: "What role does GPX4 play in ferroptosis resistance across gastric and colorectal cancers?" },
+      { level: "Pinpoint", label: "How does ALOX15-mediated lipoxygenase activity sensitize tumor cells to ferroptosis induction?" },
+    ],
+  },
+  {
+    topic: "m6A RNA Modification",
+    color: "text-slate-700 bg-white border-slate-200",
+    dot: "bg-slate-400",
+    queries: [
+      { level: "Broad",    label: "What is the role of m6A modification in disease progression?" },
+      { level: "Focused",  label: "How does METTL3-mediated m6A activate the NLRP3 inflammasome in macrophages?" },
+      { level: "Pinpoint", label: "What protein residue enables m6A recognition in Plasmodium reader proteins?" },
+    ],
+  },
 ];
+
+const LEVEL_STYLE: Record<string, string> = {
+  Broad:    "bg-slate-100 text-slate-500",
+  Focused:  "bg-slate-100 text-slate-600",
+  Pinpoint: "bg-slate-800 text-white",
+};
 
 interface Props {
   institutionId: string;
@@ -24,6 +46,7 @@ interface Props {
 }
 
 export default function SearchPage({ institutionId, onSwitch }: Props) {
+  const navigate = useNavigate();
   const [institution, setInstitution] = useState<InstitutionSummary | null>(null);
   const [journals, setJournals] = useState<Record<string, JournalInfo>>({});
   const [history, setHistory] = useState<AskExchange[]>([]);
@@ -37,11 +60,13 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
   const [activeExchange, setActiveExchange] = useState<number>(0);
   const [highlightCitation, setHighlightCitation] = useState<number | null>(null);
 
-  // Baseline drawer state
+  // Comparison drawer state
   const [baselineOpen, setBaselineOpen] = useState(false);
-  const [baselineLoading, setBaselineLoading] = useState(false);
-  const [baselineResponse, setBaselineResponse] = useState<AskResponse | null>(null);
-  const [baselineQuery, setBaselineQuery] = useState<string>("");
+  const [ragLoading, setRagLoading] = useState(false);
+  const [webAiLoading, setWebAiLoading] = useState(false);
+  const [ragResponse, setRagResponse] = useState<AskResponse | null>(null);
+  const [webAiResponse, setWebAiResponse] = useState<AskResponse | null>(null);
+  const [comparisonQuery, setComparisonQuery] = useState<string>("");
 
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsTopRef = useRef<HTMLDivElement>(null);
@@ -84,18 +109,21 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
 
   const handleBaselineOpen = useCallback(async (q: string) => {
     setBaselineOpen(true);
-    if (q === baselineQuery && baselineResponse !== null) return;
-    setBaselineLoading(true);
-    setBaselineQuery(q);
-    try {
-      const res = await postBaselineAsk(q, institutionId, 8);
-      setBaselineResponse(res);
-    } catch {
-      setBaselineResponse(null);
-    } finally {
-      setBaselineLoading(false);
-    }
-  }, [baselineQuery, baselineResponse, institutionId]);
+    if (q === comparisonQuery && ragResponse !== null) return;
+    setComparisonQuery(q);
+    setRagLoading(true);
+    setWebAiLoading(true);
+    setRagResponse(null);
+    setWebAiResponse(null);
+    postBaselineAsk(q, institutionId, 8)
+      .then(setRagResponse)
+      .catch(() => setRagResponse(null))
+      .finally(() => setRagLoading(false));
+    postWebAiAsk(q, institutionId)
+      .then(setWebAiResponse)
+      .catch(() => setWebAiResponse(null))
+      .finally(() => setWebAiLoading(false));
+  }, [comparisonQuery, ragResponse, institutionId]);
 
   const collectionLabel = institution?.licensed_journals
     .map((j) => j.code)
@@ -113,6 +141,8 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
           topK={topK}
           onTopKChange={setTopK}
           onSwitch={onSwitch}
+          onCollections={() => navigate("/collections")}
+          onAttribution={() => navigate("/attribution")}
         />
       )}
 
@@ -157,21 +187,33 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
             </button>
           </div>
 
-          {/* Examples */}
-          <div className="mt-4">
-            <p className="text-[11px] text-slate-400 uppercase tracking-wider font-medium mb-2">Try an example</p>
-            <div className="flex flex-wrap gap-2">
-              {EXAMPLES.map((ex) => (
-                <button
-                  key={ex}
-                  onClick={() => handleExample(ex)}
-                  disabled={loading}
-                  className="text-[13px] px-3.5 py-1.5 rounded-full border border-slate-200 text-slate-500 hover:border-blue-300 hover:text-blue-600 hover:bg-blue-50 disabled:opacity-40 transition-colors"
-                >
-                  {ex}
-                </button>
-              ))}
-            </div>
+          {/* Demo query arcs */}
+          <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
+            {DEMO_TOPICS.map((topic) => (
+              <div key={topic.topic} className={`rounded-xl border p-3.5 ${topic.color}`}>
+                <div className="flex items-center gap-1.5 mb-2.5">
+                  <span className={`w-2 h-2 rounded-full shrink-0 ${topic.dot}`} />
+                  <p className="text-[11px] font-bold uppercase tracking-wider">{topic.topic}</p>
+                </div>
+                <div className="space-y-1.5">
+                  {topic.queries.map((q) => (
+                    <button
+                      key={q.label}
+                      onClick={() => handleExample(q.label)}
+                      disabled={loading}
+                      className="w-full text-left flex items-start gap-2 px-3 py-2 rounded-lg bg-white/70 hover:bg-white border border-white/50 hover:border-slate-200 disabled:opacity-40 transition-all group"
+                    >
+                      <span className={`shrink-0 text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded mt-0.5 ${LEVEL_STYLE[q.level]}`}>
+                        {q.level}
+                      </span>
+                      <span className="text-[12px] text-slate-700 group-hover:text-slate-900 leading-snug">
+                        {q.label}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -198,6 +240,14 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
                   <div className="mb-6">
                     <p className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase mb-1.5">Question</p>
                     <p className="text-lg font-semibold text-slate-800">{exchange.query}</p>
+                  </div>
+
+                  {/* Enrichment summary badge */}
+                  <div className="mb-4">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-slate-50 text-slate-500 text-[12px]">
+                      <span>Enriched search:</span>
+                      <span className="text-slate-400">Entities linked · Relations extracted · Section-aware retrieval</span>
+                    </div>
                   </div>
 
                   {/* Answer */}
@@ -268,12 +318,15 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
         </div>
       </main>
 
-      {/* Baseline comparison drawer */}
+      {/* Comparison drawer */}
       <BaselineDrawer
-        response={baselineResponse}
-        loading={baselineLoading}
+        ragResponse={ragResponse}
+        webAiResponse={webAiResponse}
+        ragLoading={ragLoading}
+        webAiLoading={webAiLoading}
         open={baselineOpen}
         onClose={() => setBaselineOpen(false)}
+        beaconResponse={history[activeExchange]?.response ?? null}
       />
     </div>
   );

@@ -124,6 +124,15 @@ export interface SourceSection {
   section: string;
   chunk_type: string;
   text: string;
+  section_title?: string;
+  subsection_title?: string;
+}
+
+export interface HighlightEntity {
+  text: string;
+  type: string;   // GENE | PROTEIN | DISEASE | CHEMICAL | DRUG | RNA | CELL_LINE | CONCEPT | ENTITY | METHOD | ORGANISM | ...
+  id: string | null;
+  ontology: string | null;
 }
 
 export interface CitedSource {
@@ -136,6 +145,9 @@ export interface CitedSource {
   sections: SourceSection[];
   license_decision: string;  // "ALLOWED" | "SNIPPET_ONLY" | "OPEN_ACCESS"
   publisher: string;
+  entity_count?: number;
+  relation_count?: number;
+  entities?: HighlightEntity[];
 }
 
 export interface AskResponse {
@@ -165,6 +177,60 @@ export interface BaselineResponse {
   query: string;
   hits: BaselineHit[];
 }
+
+// ─── Attribution types ───────────────────────────────────────────────────
+
+export interface AttributionSourceEvent {
+  citation_id: number;
+  title: string;
+  journal_code: string;
+  publisher_label: string;
+  doi: string;
+  sections_used: string[];
+  license_decision: string;
+  entity_count: number;
+}
+
+export interface BlockedAttempt {
+  journal_code: string;
+  publisher_label: string;
+  article_count: number;
+}
+
+export interface FeedEvent {
+  event_id: string;
+  event_type: "served" | "blocked";
+  timestamp: string;
+  query: string;
+  institution_id: string;
+  agent_label: string;
+  // served
+  sources: AttributionSourceEvent[];
+  // blocked
+  attempted: BlockedAttempt[];
+  articles_attempted: number;
+  articles_served: number;
+  block_reason: string;
+}
+
+export interface PublisherSummary {
+  label: string;
+  queries_served: number;
+  article_citations: number;
+  queries_blocked: number;
+  institution_count: number;
+  top_sections: { section: string; count: number }[];
+}
+
+export interface AttributionSummary {
+  total_events: number;
+  total_served: number;
+  total_blocked: number;
+  publishers: PublisherSummary[];
+}
+
+// Keep for backwards compat if referenced elsewhere
+export type AttributionEvent = FeedEvent;
 
 export interface CitationContextData {
   related_corpus: CorpusArticle[];

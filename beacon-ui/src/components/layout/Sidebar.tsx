@@ -1,9 +1,12 @@
 import type { InstitutionSummary } from "../../types";
 import BeaconLogo from "../ui/BeaconLogo";
 
-const RIGHTS_LABEL: Record<string, { label: string; className: string }> = {
-  RAG_READ_RAG_SOURCE: { label: "Full text", className: "bg-green-50 text-green-700 border-green-200" },
-  RAG:                 { label: "Snippet",   className: "bg-amber-50 text-amber-700 border-amber-200" },
+const FULL_ACCESS = new Set(["RAG_READ_RAG_SOURCE", "OPEN_ACCESS"]);
+
+const PUBLISHER_LABELS: Record<string, string> = {
+  "Elsevier":            "Publisher A",
+  "Pleiades Publishing": "Publisher B",
+  "Portland Press":      "Publisher C",
 };
 
 interface Props {
@@ -11,12 +14,14 @@ interface Props {
   topK: number;
   onTopKChange: (v: number) => void;
   onSwitch: () => void;
+  onCollections?: () => void;
+  onAttribution?: () => void;
 }
 
-export default function Sidebar({ institution, topK, onTopKChange, onSwitch }: Props) {
+export default function Sidebar({ institution, topK, onTopKChange, onSwitch, onCollections, onAttribution }: Props) {
   return (
-    <aside className="w-64 shrink-0 border-r border-slate-200/60 bg-white flex flex-col min-h-screen">
-      <div className="flex-1 px-6 py-7 space-y-6 overflow-y-auto">
+    <aside className="w-64 shrink-0 border-r border-slate-200/60 bg-white flex flex-col h-screen sticky top-0">
+      <div className="flex-1 px-6 py-7 space-y-6 overflow-hidden">
 
         {/* Institution */}
         <div>
@@ -30,33 +35,40 @@ export default function Sidebar({ institution, topK, onTopKChange, onSwitch }: P
         {/* Collection */}
         {institution.licensed_journals.length > 0 ? (
           <div>
-            <p className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase mb-3">
-              Your collection
-            </p>
-            <div className="space-y-3">
+            <div className="flex items-center justify-between mb-3">
+              <p className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase">
+                Your collection
+              </p>
+              <span className="text-[11px] text-slate-400">
+                {institution.licensed_journals.length} journals
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-2">
               {institution.licensed_journals.map((j) => {
-                const rights = RIGHTS_LABEL[j.rights];
+                const isFullAccess = FULL_ACCESS.has(j.rights);
                 return (
-                  <div key={j.code} className="flex items-start justify-between gap-2">
-                    <div className="flex items-start gap-2.5 min-w-0">
-                      <span
-                        className="mt-1 w-2 h-2 rounded-full shrink-0"
-                        style={{ backgroundColor: j.color }}
-                      />
-                      <div className="min-w-0">
-                        <p className="text-[13px] font-semibold text-slate-700 truncate">{j.code}</p>
-                        <p className="text-[11px] text-slate-400 truncate">{j.name}</p>
-                      </div>
-                    </div>
-                    {rights && (
-                      <span className={`shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-full border ${rights.className}`}>
-                        {rights.label}
-                      </span>
+                  <div
+                    key={j.code}
+                    title={`${j.name} · ${PUBLISHER_LABELS[j.publisher] ?? j.publisher}`}
+                    className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border cursor-default transition-colors ${
+                      isFullAccess
+                        ? "bg-white border-slate-200 hover:border-slate-300"
+                        : "bg-amber-50 border-amber-200"
+                    }`}
+                  >
+                    <span
+                      className="w-2 h-2 rounded-full shrink-0"
+                      style={{ backgroundColor: j.color }}
+                    />
+                    <span className="text-[12px] font-semibold text-slate-600">{j.code}</span>
+                    {!isFullAccess && (
+                      <span className="text-[9px] font-bold text-amber-600 uppercase tracking-wide">S</span>
                     )}
                   </div>
                 );
               })}
             </div>
+            <p className="text-[11px] text-slate-400 mt-2.5">Hover any journal for full name</p>
           </div>
         ) : (
           <p className="text-[13px] text-slate-400">Open access content only</p>
@@ -81,9 +93,25 @@ export default function Sidebar({ institution, topK, onTopKChange, onSwitch }: P
 
       {/* Footer */}
       <div className="px-6 py-5 border-t border-slate-200/60 space-y-3">
+        {onCollections && (
+          <button
+            onClick={onCollections}
+            className="block w-full text-left text-[13px] text-slate-500 hover:text-slate-700 font-medium transition-colors py-2 hover:bg-slate-50 px-2 rounded"
+          >
+            Browse Collections
+          </button>
+        )}
+        {onAttribution && (
+          <button
+            onClick={onAttribution}
+            className="block w-full text-left text-[13px] text-slate-500 hover:text-slate-700 font-medium transition-colors py-2 hover:bg-slate-50 px-2 rounded"
+          >
+            Publisher Attribution
+          </button>
+        )}
         <button
           onClick={onSwitch}
-          className="text-[13px] text-blue-600 hover:text-blue-700 font-medium transition-colors"
+          className="block w-full text-left text-[13px] text-blue-600 hover:text-blue-700 font-medium transition-colors py-2 hover:bg-blue-50 px-2 rounded"
         >
           Switch institution
         </button>

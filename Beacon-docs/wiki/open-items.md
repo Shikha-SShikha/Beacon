@@ -38,6 +38,10 @@ These are the genuinely open tasks. Everything else is done.
 
 ## Completed (moved here to avoid confusion)
 
+- ~~Publisher attribution UI~~ ✅ `/attribution` page — served + blocked event feed, publisher tabs, section distribution, HowItWorks panel
+- ~~Agentic access control demo~~ ✅ `ai_bot` institution (zero access, `no_oa: true`), "Simulate blocked request" button
+- ~~Publisher anonymization~~ ✅ Elsevier→A, Pleiades→B, Portland Press→C everywhere
+- ~~Section titles for "other" chunks~~ ✅ Preloaded from chunk JSON files, cross-referenced via chunk ID at query time
 - ~~HTML-scraped baseline~~ ✅ `html_scrape` collection in experiment.py + `/baseline` API endpoint
 - ~~Staged enrichment POC~~ ✅ stage_copyedit.py, stage_mastercopy.py, review_app.py
 - ~~Figure cross-linking~~ ✅ Phase 5 (pipeline.py + search_service.py)

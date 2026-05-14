@@ -3,7 +3,7 @@
 **File:** `api/main.py`
 **Framework:** FastAPI
 **Start:** `uvicorn api.main:app --reload`
-**CORS:** localhost:5173, 5174, 3000 (React dev server)
+**CORS:** localhost:5173, 5174, 5175, 5176, 5177, 3000 (React dev server)
 
 ---
 
@@ -60,6 +60,35 @@ Returns list of institutions from `governance/license_config.json`.
 
 ### `GET /journals`
 Returns journal metadata from `governance/license_config.json`.
+
+---
+
+### `GET /attribution/summary`
+Aggregate stats for the publisher attribution dashboard.
+
+Returns total events, total served, total blocked, and per-publisher breakdown:
+- `queries_served`, `article_citations`, `queries_blocked`, `institution_count`
+- `top_sections` — which paper sections (Methods, Results, Discussion etc.) are most frequently surfaced
+
+**No request body.** Computed from in-memory `_EVENTS` log in `api/routers/attribution.py`.
+
+---
+
+### `GET /attribution/feed?publisher=<label>`
+Chronological event feed (newest first). Optionally filtered to a single publisher's content.
+
+Each event is either:
+- `"served"` — query answered; includes sources cited (title, journal, sections used, license decision, entity count)
+- `"blocked"` — query attempted, all content NO_ACCESS; includes attempted journals table, article counts, block reason
+
+Query text is always present on both event types — the bot's intent is the commercially valuable data even when blocked.
+
+**Publisher labels** in the filter are anonymized: `Publisher A`, `Publisher B`, `Publisher C`.
+
+---
+
+### `POST /baseline/webai`
+Baseline retrieval via `html_scrape` collection + GPT-4o-mini synthesis. Same as `/baseline/ask` but used as a third comparison mode in the UI (web AI baseline).
 
 ---
 

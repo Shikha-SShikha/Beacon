@@ -6,6 +6,11 @@ from ..models import (
 from ..services.search_service import embed_query, raw_search, hybrid_search, fetch_linked_figures
 from ..services.reranker import rerank
 from ..services.hyde import expand_query_hyde
+from ..services.attribution_service import (
+    log_search_attribution,
+    get_journal_code_from_source,
+    get_domain_for_journal,
+)
 from governance.license_service import check_license, load_config
 
 router = APIRouter(prefix="/search", tags=["search"]) 
@@ -72,6 +77,21 @@ def search(req: SearchRequest):
                 for fig in linked_figures_map.get(hit["id"], [])
             ]
 
+            # Extract attribution metadata
+            source = meta.get("source", "")
+            journal_code = get_journal_code_from_source(source)
+            domain = get_domain_for_journal(journal_code)
+            access_level = decision["decision"]
+
+            # Log attribution for metered usage tracking
+            log_search_attribution(
+                institution_id=req.institution_id,
+                article_id=source,
+                query=req.query,
+                access_level=access_level,
+                rank=len(results) + 1,
+            )
+
             results.append(SearchResult(
                 rank=len(results) + 1,
                 distance=hit["distance"],
@@ -89,6 +109,10 @@ def search(req: SearchRequest):
                 linked_figures=linked,
                 rerank_debug=RerankDebug(**rerank_dbg) if rerank_dbg else None,
                 hybrid_debug=hybrid_dbg,
+                article_id=source,
+                journal_code=journal_code,
+                domain=domain,
+                access_level=access_level,
             ))
 
     stats = SearchStats(

@@ -133,3 +133,35 @@ def baseline_ask(req: AskRequest):
         answer=completion.choices[0].message.content.strip(),
         sources=sources,
     )
+
+
+@router.post("/webai", response_model=AskResponse)
+def webai_ask(req: AskRequest):
+    """General web AI — no document context, pure LLM knowledge only.
+    Simulates what ChatGPT / Gemini / Perplexity returns without
+    access to the publisher's specific licensed articles.
+    """
+    client = get_openai()
+    completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are a scientific research assistant. Answer the question using your "
+                    "general training knowledge. Do not invent citations. If you reference "
+                    "published work, say so in general terms (e.g. 'studies show') but do not "
+                    "fabricate paper titles or authors. Be accurate but acknowledge when "
+                    "specific recent or niche findings may lie beyond your training data."
+                ),
+            },
+            {"role": "user", "content": req.query},
+        ],
+        temperature=0.3,
+        max_tokens=800,
+    )
+    return AskResponse(
+        query=req.query,
+        answer=completion.choices[0].message.content.strip(),
+        sources=[],
+    )

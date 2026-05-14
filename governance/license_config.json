@@ -39,6 +39,13 @@
       "collections": {
         "OA": "OPEN_ACCESS"
       }
+    },
+    "ai_bot": {
+      "name": "Commercial AI Agent",
+      "avatar": "🤖",
+      "description": "Unlicensed commercial AI crawler — no content rights",
+      "collections": {},
+      "no_oa": true
     }
   },
   "open_access_sources": ["BJ_100885.xml", "BJ_100950.xml"],

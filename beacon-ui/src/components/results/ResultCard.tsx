@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { SearchResult, JournalInfo, LinkedFigure } from "../../types";
+import type { SearchResult, JournalInfo } from "../../types";
 import AccessBadge from "./AccessBadge";
 import JournalPill from "./JournalPill";
 import EntityTags from "./EntityTags";
@@ -18,8 +18,6 @@ const BG_COLORS = {
   OPEN_ACCESS:  "bg-white",
 };
 
-const SNIPPET_LEN = 320;
-
 interface Props {
   result: SearchResult;
   journals: Record<string, JournalInfo>;
@@ -32,7 +30,6 @@ export default function ResultCard({ result, journals }: Props) {
   const { decision } = license;
 
   const journal = journals[license.journal_code] ?? { name: license.journal_code, publisher: "", color: "#64748b" };
-  const snippet = text.slice(0, SNIPPET_LEN).trimEnd();
   const doiUrl = metadata.doi ? `https://doi.org/${metadata.doi}` : null;
 
   const linkedFigures = result.linked_figures ?? [];

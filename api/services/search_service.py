@@ -147,3 +147,29 @@ def fetch_linked_figures(hits: list[dict]) -> dict[str, list[dict]]:
             result[hit_id] = linked
 
     return result
+
+
+def fetch_figures_for_source(source: str, max_figures: int = 3) -> list[dict]:
+    """Fetch figure and table chunks for a source article directly from ChromaDB.
+
+    Used when figure_refs cross-links are absent — guarantees every cited
+    article surfaces at least its top figures/tables in the sources panel.
+    """
+    chroma = get_chroma()
+    collection = chroma.get_collection("entity_enriched")
+    try:
+        res = collection.get(
+            where={"$and": [{"source": source}, {"type": {"$in": ["figure", "table"]}}]},
+            include=["documents", "metadatas"],
+        )
+    except Exception:
+        return []
+
+    results = []
+    for i, doc_id in enumerate(res["ids"]):
+        results.append({
+            "id": doc_id,
+            "type": res["metadatas"][i].get("type", "figure"),
+            "text": res["documents"][i],
+        })
+    return results[:max_figures]

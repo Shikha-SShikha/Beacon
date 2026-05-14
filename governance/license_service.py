@@ -55,8 +55,10 @@ def check_license(institution_id: str, chunk_metadata: dict) -> LicenseDecision:
     source = chunk_metadata.get("source", "")
     journal_code = get_journal_code(chunk_metadata)
 
-    # Open access content is always readable regardless of institution
-    if is_open_access(source, config):
+    # Open access content is readable unless the institution explicitly opts out
+    # (e.g. commercial bots — OA on the web does not grant RAG vectorization rights)
+    institution_cfg = config["institutions"].get(institution_id, {})
+    if is_open_access(source, config) and not institution_cfg.get("no_oa"):
         return LicenseDecision(
             decision="OPEN_ACCESS",
             rights="OPEN_ACCESS",

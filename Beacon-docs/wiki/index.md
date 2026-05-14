@@ -46,6 +46,7 @@ chunks/              — Enriched JSON chunks per article (15 articles, ~903 tot
 - [pipeline.md](pipeline.md) — 7-step enrichment pipeline, all phases
 - [collections.md](collections.md) — ChromaDB collections: what exists, what each contains
 - [api.md](api.md) — API routes and what each does
+- [attribution.md](attribution.md) — publisher attribution UI: ideation, design decisions, full implementation
 - [experiments.md](experiments.md) — what was tested and what it proved
 - [staged-enrichment.md](staged-enrichment.md) — HITL staged enrichment workflow
 - [open-items.md](open-items.md) — genuinely open work (read this to know what's next)
@@ -65,6 +66,8 @@ chunks/              — Enriched JSON chunks per article (15 articles, ~903 tot
 | Staged enrichment POC | ✅ Complete (both stages + review app) |
 | HTML-scrape baseline collection | ✅ Implemented in experiment.py + /baseline API |
 | Demo comparison tool (5 scenarios) | ✅ tools/demo_comparison.py |
+| Publisher attribution UI (/attribution) | ✅ Complete — served + blocked events, publisher tabs, simulate bot |
+| Agentic access control demo (ai_bot) | ✅ Complete — fully blocked institution, no OA bypass |
 | Open: Top-K recall UI view | ⬜ Not started |
 | Open: Figure-specific example queries in UI | ⬜ Not started |
 | Open: Entity-level query demos | ⬜ Not started (needs NER wired into search) |

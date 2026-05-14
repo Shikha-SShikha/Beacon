@@ -46,6 +46,10 @@ class SearchResult(BaseModel):
     linked_figures: list[LinkedFigure] = []
     rerank_debug: Optional[RerankDebug] = None
     hybrid_debug: Optional[HybridDebug] = None
+    article_id: str = ""        # e.g., "BJ_100850"
+    journal_code: str = ""      # e.g., "BJ"
+    domain: str = ""            # e.g., "Biomedical"
+    access_level: str = ""      # "FULL_TEXT" | "SNIPPET_ONLY" | "OPEN_ACCESS"
 
 
 class SearchStats(BaseModel):
@@ -87,9 +91,11 @@ class AskRequest(BaseModel):
 
 
 class SourceSection(BaseModel):
-    section: str          # "results", "methods", "discussion", "figure", "table"
-    chunk_type: str       # "text", "figure", "table"
-    text: str             # relevant snippet
+    section: str           # "results", "methods", "discussion", "figure", "table", "other"
+    chunk_type: str        # "text", "figure", "table"
+    text: str              # relevant snippet
+    section_title: str = ""      # actual heading from paper, e.g. "Mechanisms of resistance…"
+    subsection_title: str = ""   # subsection heading, e.g. "SLC7A11 and GPX4 antioxidant system"
 
 
 class CitedSource(BaseModel):
@@ -102,6 +108,9 @@ class CitedSource(BaseModel):
     sections: list[SourceSection]
     license_decision: str = "ALLOWED"   # "ALLOWED" | "SNIPPET_ONLY" | "OPEN_ACCESS"
     publisher: str = ""                 # e.g. "Portland Press"
+    entity_count: int = 0               # Total enriched entities in source
+    relation_count: int = 0             # Total semantic relations in source
+    entities: list[dict] = []           # Deduplicated entities for answer highlighting
 
 
 class AskResponse(BaseModel):
@@ -138,3 +147,43 @@ class InstitutionsResponse(BaseModel):
 
 class JournalsResponse(BaseModel):
     journals: dict[str, JournalInfo]
+
+
+# ─── Collections models ────────────────────────────────────────────
+
+class ArticleInfo(BaseModel):
+    article_id: str
+    journal_code: str
+    domain: str
+    doi: str = ""
+    chunks: int
+    entities: int
+
+
+class JournalInCollection(BaseModel):
+    journal_code: str
+    journal_name: str
+    color: str
+    article_count: int
+    total_chunks: int
+    total_entities: int
+    articles: list[ArticleInfo]
+
+
+class DomainInCollection(BaseModel):
+    domain: str
+    journal_count: int
+    article_count: int
+    total_chunks: int
+    total_entities: int
+    journals: list[JournalInCollection]
+
+
+class CollectionsSummary(BaseModel):
+    institution_id: str
+    total_domains: int
+    total_journals: int
+    total_articles: int
+    total_chunks: int
+    total_entities: int
+    collections: list[DomainInCollection]
