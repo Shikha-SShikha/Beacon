@@ -1,11 +1,12 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import { fetchInstitution, fetchJournals, postAsk } from "../api/client";
-import type { InstitutionSummary, JournalInfo, AskExchange } from "../types";
+import { fetchInstitution, fetchJournals, postAsk, postBaselineAsk } from "../api/client";
+import type { InstitutionSummary, JournalInfo, AskExchange, AskResponse } from "../types";
 import Sidebar from "../components/layout/Sidebar";
 import BeaconLogo from "../components/ui/BeaconLogo";
 import AnswerView from "../components/results/AnswerView";
 import SourcesPanel from "../components/results/SourcesPanel";
+import BaselineDrawer from "../components/results/BaselineDrawer";
 import Spinner from "../components/ui/Spinner";
 import EmptyState from "../components/ui/EmptyState";
 import ErrorBanner from "../components/ui/ErrorBanner";
@@ -60,6 +61,12 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
   const [highlightCitation, setHighlightCitation] = useState<number | null>(null);
 
 
+  // Comparison drawer state (Standard RAG only)
+  const [baselineOpen, setBaselineOpen] = useState(false);
+  const [ragLoading, setRagLoading] = useState(false);
+  const [ragResponse, setRagResponse] = useState<AskResponse | null>(null);
+  const [comparisonQuery, setComparisonQuery] = useState<string>("");
+
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsTopRef = useRef<HTMLDivElement>(null);
 
@@ -99,6 +106,18 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
     setTimeout(() => setHighlightCitation(null), 2000);
   }
 
+
+  const handleBaselineOpen = useCallback(async (q: string) => {
+    setBaselineOpen(true);
+    if (q === comparisonQuery && ragResponse !== null) return;
+    setComparisonQuery(q);
+    setRagLoading(true);
+    setRagResponse(null);
+    postBaselineAsk(q, institutionId, 8)
+      .then(setRagResponse)
+      .catch(() => setRagResponse(null))
+      .finally(() => setRagLoading(false));
+  }, [comparisonQuery, ragResponse, institutionId]);
 
   const collectionLabel = institution?.licensed_journals
     .map((j) => j.code)
@@ -263,6 +282,19 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
                     </div>
                   </div>
 
+                  {/* Standard RAG comparison trigger */}
+                  <div className="mt-4">
+                    <button
+                      onClick={() => handleBaselineOpen(exchange.query)}
+                      className="inline-flex items-center gap-2 text-[13px] text-slate-400 hover:text-blue-600 transition-colors"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                      Compare with standard RAG
+                    </button>
+                  </div>
+
                   {i < history.length - 1 && <hr className="mt-10 border-slate-200/60" />}
                 </div>
               ))}
@@ -280,6 +312,14 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
         </div>
       </main>
 
+      {/* Comparison drawer — Standard RAG only */}
+      <BaselineDrawer
+        ragResponse={ragResponse}
+        ragLoading={ragLoading}
+        open={baselineOpen}
+        onClose={() => setBaselineOpen(false)}
+        beaconResponse={history[activeExchange]?.response ?? null}
+      />
     </div>
   );
 }

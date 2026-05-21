@@ -23,6 +23,24 @@ router = APIRouter(prefix="/ask", tags=["ask"])
 
 CHUNKS_DIR = Path(__file__).parent.parent.parent / "chunks"
 
+# Lower rank = more specific/trustworthy type. Used to resolve duplicate entity text.
+_TYPE_RANK: dict[str, int] = {
+    "GENE": 1, "PROTEIN": 2, "RNA": 3, "ENZYME": 4,
+    "DISEASE": 5, "CHEMICAL": 6, "DRUG": 7, "COMPOUND": 8,
+    "CELL_LINE": 9, "VIRUS": 10, "ORGANISM": 11,
+    "ANATOMY": 12, "BIOLOGICAL_PROCESS": 13, "SIGNALING_PATHWAY": 14,
+    "ELEMENT": 15,
+    "METHOD": 20, "TECHNOLOGY": 21, "SOFTWARE": 22, "TOOL": 23,
+    "CONCEPT": 30, "ENTITY": 31, "OTHER": 32,
+}
+
+def _ent_score(ent: dict) -> tuple:
+    """Lower = better. Prefer ontology-linked first, then more specific type."""
+    has_id = 0 if ent.get("id") else 1
+    rank = _TYPE_RANK.get(ent.get("type", "OTHER"), 25)
+    return (has_id, rank)
+
+
 def _load_article_stats() -> dict[str, dict]:
     """Pre-load per-article stats and deduplicated entity lists from chunk files."""
     stats = {}
@@ -30,20 +48,23 @@ def _load_article_stats() -> dict[str, dict]:
         try:
             data = json.loads(path.read_text())
             source = data.get("source_file", path.stem.replace("_chunks", "") + ".xml")
-            # Collect and deduplicate all entities across all chunks
-            seen: set[str] = set()
-            entities: list[dict] = []
+            # Deduplicate by text, keeping the most specific/ontology-linked type
+            entity_map: dict[str, dict] = {}
             for chunk in data.get("processed_chunks", []):
                 for ent in chunk.get("entities", []):
-                    key = ent.get("text", "").lower()
-                    if key and len(key) > 2 and key not in seen:
-                        seen.add(key)
-                        entities.append({
-                            "text": ent.get("text", ""),
-                            "type": ent.get("type", "ENTITY"),
-                            "id": ent.get("id"),
-                            "ontology": ent.get("ontology"),
-                        })
+                    text = ent.get("text", "")
+                    key = text.lower()
+                    if not key or len(key) <= 2:
+                        continue
+                    candidate = {
+                        "text": text,
+                        "type": ent.get("type", "ENTITY"),
+                        "id": ent.get("id"),
+                        "ontology": ent.get("ontology"),
+                    }
+                    if key not in entity_map or _ent_score(candidate) < _ent_score(entity_map[key]):
+                        entity_map[key] = candidate
+            entities = list(entity_map.values())
             # Build chunk_id → {section_title, subsection_title} lookup
             chunk_titles = {}
             for chunk in data.get("processed_chunks", []):

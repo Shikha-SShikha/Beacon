@@ -4,7 +4,7 @@
   "total_chunks": 54,
   "text_chunks": 50,
   "visual_chunks": 4,
-  "total_entities": 216,
+  "total_entities": 211,
   "entities_with_ontology_id": 1,
   "total_relations": 178,
   "processed_chunks": [
@@ -20,37 +20,37 @@
       "entities": [
         {
           "text": "esophageal squamous cell carcinoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000077277",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "gastric cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "colorectal cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:9256",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "hepatocellular carcinoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "pancreatic cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:1793",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -176,49 +176,56 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "apoptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "necrosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "autophagy",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "reactive oxygen species",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D017382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "text": "lipids",
+          "type": "COMPOUND",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "malignant tumors",
-          "type": "CONCEPT",
+          "type": "DISEASE",
+          "id": "DOID:10155",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "apoptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "necrosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "autophagy",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -292,28 +299,28 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "iron metabolism",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -377,49 +384,42 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis-inducing agents",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "glutathione",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D005978",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "GSH",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "phospholipid hydroperoxides",
-          "type": "CONCEPT",
+          "type": "COMPOUND",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "phospholipid alcohols",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GSH",
-          "type": "ENTITY",
+          "type": "COMPOUND",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -493,49 +493,35 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "iron metabolism pathway",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "transferrin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "5575625",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "transferrin receptor",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "autophagy",
-          "type": "METHOD",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferritin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "547824",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "nuclear receptor coactivator 4",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -608,43 +594,29 @@
       "text": "This subsection from the article discusses the pivotal role of lipid peroxidation in ferroptosis, detailing how the peroxidation of membrane phospholipids produces key byproducts like malondialdehyde and 4-hydroxynonenal.\n\n22 ### Lipid peroxidation\n\nGiven that increased lipid peroxidation is the defining feature of ferroptosis, it is firmly believed that lipid peroxide metabolism is crucial for the process. Ferroptosis is most likely facilitated by the peroxidation of membrane phospholipids to produce PLOOH, which is subsequently decomposed to produce malondialdehyde or 4-hydroxynonenal molecules. Lipid peroxidation end products led to the permeabilization and instability of cell membranes, ultimately causing cell death. The enzyme acyl-CoA synthetase long-chain family member 4 (ACSL4) promotes the binding of polyunsaturated fatty acids (PUFAs) to coenzyme A (CoA) during nonenzymatic lipid peroxidation, leading to the synthesis of acyl-CoA. A range of lysophosphatidylcholine acyltransferases (LPCATs) can re-esterify acyl-CoA in phospholipids to produce phospholipids. The sensitivity to ferroptosis can be consequently assessed by adjusting the expression of LPCATs and ACSL4. 23 24 , Lipoxygenases (LOXs) and cytochrome P450 oxidoreductase (PORs) are active enzymes that can induce the production of PLOOH during enzymatic lipid peroxidation. Lipid-oxidase enzymes (LOXs), which lack heme iron, directly facilitated the deoxygenation of esterified and freed PUFAs to generate PLOOH. 25 Previous work has demonstrated that the up-regulation of LOX-5, LOX-12, and LOX-15 is associated with increased vulnerability of cells to ferroptosis. Furthermore, studies have shown that LOX inhibitors are potent antioxidants that protected cells against lipid peroxidation. 26 In 2020, Zou et al demonstrated that POR was essential for ferroptosis cell death in cancer cells through genome-wide CRISPR-Cas9-mediated suppressor screening. 27 P450 has been shown in prior studies to induce the peroxidation of PUFAs by absorbing electrons from POR. 28 Furthermore, genetic depletion has been employed in several lineages and cell states to demonstrate the pro-ferroptotic role of POR. 29 30",
       "entities": [
         {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "malondialdehyde",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D008315",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "4-hydroxynonenal",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:142593",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "PLOOH",
-          "type": "ENTITY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "acyl-CoA synthetase long-chain family member 4",
-          "type": "ENTITY",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -718,35 +690,28 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "iron metabolism",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "lipid peroxidation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Fenton reactions",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -819,57 +784,57 @@
       "text": "This subsection from the article discusses the mechanisms of ferroptosis, focusing on how oncogenic pathways impact GPX4, iron metabolism, and lipid peroxidation in various cancers, particularly highlighting alterations in renal and breast cancer.\n\n32 In cancers, oncogenic pathways rewire this triad to modulate ferroptosis sensitivity. For instance, in VHL-mutant clear-cell renal cell carcinoma, HIF-2α up-regulates the lipid droplet protein HILPDA, liberating PUFAs for peroxidation while simultaneously suppressing SCD1 to reduce protective MUFA-PLs. Conversely, hyperactivation of PI3K-AKT-mTOR signaling in breast or prostate cancer induces SREBP1-dependent SCD1 transcription, enriching membranes with MUFA-PLs to resist peroxidation, mTORC1 also enhances GPX4 translation through Sec-tRNA modification, thereby creating a dual resistance mechanism. Paradoxically, tumors with KEAP1 or LKB1 mutations become addicted to SCD1, rendering them sensitive to GPX4 inhibition. 10 , 33",
       "entities": [
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "GPX4",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "iron metabolism",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "VHL-mutant clear-cell renal cell carcinoma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "VHL",
+          "type": "GENE",
+          "id": "7428",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "HIF-2α",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "13819",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "HILPDA",
+          "type": "PROTEIN",
+          "id": "29923",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "PUFAs",
+          "type": "CHEMICAL",
+          "id": "CHEBI:26208",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "SCD1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6319",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "PI3K-AKT-mTOR",
-          "type": "METHOD",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1262,56 +1227,42 @@
       "entities": [
         {
           "text": "non-small cell lung cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "Caucasian",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "multi-region sequencing",
-          "type": "METHOD",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mutational burden",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "somatic copy number changes",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "genome doubling",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "clonal mutations",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "smoking-associated mutational load",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1379,58 +1330,58 @@
       "entities": [
         {
           "text": "extracellular matrix",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor microenvironment",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor stroma",
-          "type": "CONCEPT",
+          "type": "COMPOUND",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "pericytes",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_QX23",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "endothelial cells",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_J154",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "cancer-associated fibroblasts",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "lymphocytes",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_E4DM",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
-          "text": "myeloid-derived suppressor cells",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "neutrophils",
+          "type": "CELL_LINE",
+          "id": "CVCL_WI92",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "dendritic cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_RX86",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "monocytes",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6ZQ",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -1532,30 +1483,44 @@
       "entities": [
         {
           "text": "cancer-associated fibroblasts",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "tumor microenvironment",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "α-SMA",
-          "type": "TECHNOLOGY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "platelet-derived growth factor",
-          "type": "ENTITY",
+          "type": "CHEMICAL",
+          "id": "D010982",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "PDGF receptor-β",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -1628,51 +1593,30 @@
         },
         {
           "text": "tumor-associated macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_0I87",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "MDSCs",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_C7SL",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "regulatory T cells",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_0T70",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
-          "text": "natural killer cells",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "DCs",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CAF",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor stroma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "cancer cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_YD88",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -1807,50 +1751,7 @@
       "paragraph_index": 12,
       "parent_section_id": "sec3",
       "text": "This subsection from the \"Mechanisms of tumor drug resistance\" section discusses the role of neutrophils in the immunosuppressive tumor microenvironment and their influence on cancer prognosis and functional plasticity in solid tumors.\n\n63 64 A considerable proportion of the immune cells within the TME are neutrophils, and their increased infiltration is associated with a less favorable prognosis in the majority of solid tumors. 65 , They exhibit functional plasticity and are impacted by their surroundings in their diverse roles in the genesis of solid tumors. 66 Some neutrophils are capable of eliminating cancer cells through the generation of ROS and the release of neutrophil elastase, 66 67 , the majority of tumor-associated neutrophils (TANs) are polarized by TME mediators and promote tumor development. 68 By encouraging the growth of cancer cells, angiogenesis, and tumor dispersion through the generation of protumor chemicals, TANs improve the development of tumors. 69 There is a unique tumor mechanism in TANs. When the TME is active, polarized neutrophils form an immunosuppressive TME by producing CCL5, a chemokine ligand, and Nectin 2, which has been identified. Neutrophils have variable functional variation based on signals specific to different tissues, age, and maturity. 70 They can have a variety of effects on tumor growth as well as anti- and protumor activity due to their capacity to change their functional phenotypes in response to diverse situations. 71",
-      "entities": [
-        {
-          "text": "neutrophils",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor microenvironment",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ROS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "neutrophil elastase",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "solid tumors",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor-associated neutrophils",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -1910,7 +1811,29 @@
       "paragraph_index": 13,
       "parent_section_id": "sec3",
       "text": "This subsection from the article discusses how abnormalities in apoptotic functionalities contribute to tumor drug resistance in digestive cancers, highlighting the implications of impaired programmed cell death in cancer cell proliferation.\n\n71 ### Abnormalities in the apoptotic functionalities\n\nApoptosis, another name for programmed cell death, is a mechanism that has evolved to be preserved and is necessary for tissue homeostasis and organism growth. However, in pathological conditions such as cancer, cells become incapable of dying through apoptosis, which leads to unchecked cell division. A significant number of proteins that are necessary to stop the apoptotic cascade from starting are typically overexpressed in cancer cells. There are several ways for cells to avoid being killed by a program, one of which is by making anti-apoptotic compounds. Recent research has suggested that apoptosis resistance is a complex phenomenon involving several supporting factors that either cooperate with or operate independently of Bcl-2 signaling. 72 73",
-      "entities": [],
+      "entities": [
+        {
+          "text": "apoptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor",
+          "type": "DISEASE",
+          "id": "D018254",
+          "ontology": "MeSH",
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -1955,14 +1878,28 @@
       "entities": [
         {
           "text": "P53",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "7157",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "mutant p53",
-          "type": "ENTITY",
+          "text": "p53",
+          "type": "GENE",
+          "id": "7157",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "multidrug resistance",
+          "type": "DISEASE",
+          "id": "D000089762",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "apoptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2036,30 +1973,37 @@
       "entities": [
         {
           "text": "Bcl-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "596",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Bcl-2",
+          "type": "PROTEIN",
+          "id": "596",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "CONCEPT",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "apoptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "chemotherapeutic drugs",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:48278",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2128,7 +2072,64 @@
       "paragraph_index": 16,
       "parent_section_id": "sec3",
       "text": "This subsection from the article discusses how metabolic alterations, including the utilization of glucose, lipids, and amino acids, contribute to the process of metastasis in digestive cancers.\n\n76 77 ### Metabolic alterations\n\nMetastasis is mainly caused by metabolic alterations. Although glucose is most likely the primary metabolic substrate of rapidly developing tumors, lipids, amino acids (such as glutamine), and glycolytic metabolites (such as pyruvate and lactate) may also speed up the metastatic process. A growing body of evidence suggests that lipid metabolism often improves at various stages of cancer progression. These modifications provide tumor cells with energy, but they also change membrane composition, signaling, and epigenetics, which encourages metastasis. 78 Moreover, the metabolic connections between the surrounding cells and the tumor are encouraged by the TME. For instance, the ability of the immune cell compartment to operate can be affected by tumor cell absorption of lipids secreted by stromal cells. 78 78",
-      "entities": [],
+      "entities": [
+        {
+          "text": "glucose",
+          "type": "CHEMICAL",
+          "id": "D005947",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipids",
+          "type": "CHEMICAL",
+          "id": "D008055",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "amino acids",
+          "type": "CHEMICAL",
+          "id": "D000596",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "glutamine",
+          "type": "AMINO_ACID",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pyruvate",
+          "type": "CHEMICAL",
+          "id": "D011766",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lactate",
+          "type": "CHEMICAL",
+          "id": "D007770",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "metastasis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "digestive cancers",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -2196,29 +2197,36 @@
       "text": "This subsection from the \"Mechanisms of tumor drug resistance\" section discusses the role of cholesterol in cancer development, highlighting its activation of oncogenic pathways and potential impact on cancer progression and immune response.\n\n78 78 Clinical and experimental studies have indicated that cholesterol plays an essential role in cancer development by activating oncogenic pathways such as mTORC1 signaling and Hedgehog, 79 , as well as encouraging epithelial to mesenchymal transition invasion and transition. 80 Cholesterol, as demonstrated in breast cancer models, may also facilitate spread by reducing immune cell activity or increasing the ability of metastatic cells to survive ferroptosis, 81 a type of iron-dependent programmed cell death characterized by the accumulation of lipid peroxides from membranes. 82",
       "entities": [
         {
+          "text": "cholesterol",
+          "type": "CHEMICAL",
+          "id": "D002784",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
           "text": "mTORC1",
-          "type": "CONCEPT",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Hedgehog",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "breast cancer",
-          "type": "ENTITY",
+          "type": "DISEASE",
+          "id": "D000072656",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2280,56 +2288,28 @@
       "entities": [
         {
           "text": "FA synthase",
-          "type": "ENTITY",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "phospholipids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sphingolipids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "fatty acids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sterols",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "triglycerides",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "acetyl-CoA",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "FASN",
+          "type": "GENE",
+          "id": "2194",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "palmitic acid",
-          "type": "CONCEPT",
+          "type": "COMPOUND",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "digestive cancers",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2451,58 +2431,58 @@
       "entities": [
         {
           "text": "Tregs",
-          "type": "CONCEPT",
+          "type": "CELL_LINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "CD36",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "948",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "PPAR-b",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "19015",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "FASN",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2194",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "PD-1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6622",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "SREBP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "TAMs",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "40155",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "MDSCs",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_C7SL",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "prostaglandin E2",
+          "type": "CHEMICAL",
+          "id": "CHEBI:15551",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2571,50 +2551,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec4",
       "text": "This section from the article discusses the mechanisms of ferroptosis resistance in digestive cancers, highlighting its critical role in tumor survival against chemotherapy and treatment challenges.\n\nFerroptosis plays a vital role in tumorigenesis, progression and chemotherapy resistance, particularly in digestive malignancies, where its resistance mechanism becomes a significant obstacle to treatment failure and tumor recurrence. A key finding of this study is that ferroptosis resistance constitutes an essential mechanism by which cancer cells survive exposure to cytotoxic therapeutic agents, effectively undermining treatment efficacy and contributing to both intrinsic and acquired drug resistance in cancers. The mechanisms of ferroptosis resistance and cancer drug resistance related to ferroptosis in the digestive system are summarized in Table 1",
-      "entities": [
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "digestive cancers",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chemotherapy",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tumor survival",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cytotoxic therapeutic agents",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "drug resistance",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -2672,24 +2609,24 @@
       "text": "This subsection from a research article discusses mechanisms of ferroptosis resistance specifically in esophageal squamous cell carcinoma, highlighting the challenges in early detection and the need for viable therapeutic targets.\n\nThe mechanisms of ferroptosis resistance and cancer drug resistance related to ferroptosis in the digestive system are summarized in Table 1 ### Esophageal squamous cell carcinoma\n\nOne common type of cancer in the digestive system is esophageal squamous cell carcinoma (ESCC). The death rate for ESCC patients is still high due to the absence of distinctive early signs and viable therapy targets. 92 As a result, developing novel therapeutic targets and new treatments has become an urgent issue. According to a recent study, ferroptosis resistance is conferred by ZD-enhanced ESCC glycolysis and lactate generation, which blocks p-AMPK and up-regulates SREBP1 and SCD1 in esophageal squamous cell carcinoma. 93 Cisplatin-resistant cells release CisR-exo, which is enriched with miR-130a-3p. Consequently, the delivery of miR-130a-3p via CisR-exo confers cisplatin resistance both 94 in vitro and in xenograft models, highlighting the role of the exosome-miRNA-m 6 A axis in chemoresistance. ANP32E overexpression in ESCC promotes cancer progression and paclitaxel resistance by inhibiting ferroptosis through down-regulation of the p53/SLC7A11 axis. Combinatorial treatment with paclitaxel and the ferroptosis inducer erastin potently inhibits tumor growth 95 in vivo , underscoring the therapeutic potential of targeting this axis. 96",
       "entities": [
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "esophageal squamous cell carcinoma",
+          "type": "DISEASE",
+          "id": "D000077277",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "esophageal squamous cell carcinoma",
-          "type": "ENTITY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ZD",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:186760",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2739,58 +2676,58 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "gastric cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "Wnt/beta-catenin signaling",
-          "type": "CONCEPT",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "CircHIPK3",
-          "type": "ENTITY",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "miR-508-3p",
-          "type": "ENTITY",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Bcl-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "596",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "beclin1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "8678",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "SLC7A11",
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2862,30 +2799,30 @@
       "entities": [
         {
           "text": "Hepatocellular carcinoma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
-          "text": "HCC",
-          "type": "ENTITY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "NeuroD1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "4760",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2933,35 +2870,35 @@
       "entities": [
         {
           "text": "SLC12A5",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "57468",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "hepatocellular carcinoma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "GABARAPL1",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23710",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "lysyl oxidase-like 3",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3034,31 +2971,31 @@
       "text": "This subsection from the article discusses the mechanisms underlying ferroptosis resistance specifically in pancreatic ductal adenocarcinoma, highlighting its susceptibility and the challenges posed by resistance in treatment outcomes.\n\n111 ### Pancreatic ductal adenocarcinoma\n\nAs one of the most severe cancers of the digestive tract, pancreatic ductal adenocarcinoma (PDAC) has a poor prognosis and a high recurrence rate. Pancreatic ductal adenocarcinoma is particularly susceptible to ferroptosis. However, ferroptosis resistance has been observed in pancreatic ductal adenocarcinoma in numerous studies. According to Su et al, ferroptosis resistance in pancreatic cancer was conferred by the E3 ubiquitin ligase RBCK1, which facilitates MFN2 degradation. This suggest that targeting the RBCK1-MFN2 axis could be an affordable therapeutic approach for PDAC patients. PDAC tissues have high levels of CYP2J2/EET expression. According to a different study, ferroptosis was inhibited by epoxyeicosatrienoic acids (EETs) through the up-regulation of GPX4 in a PPARγ-dependent manner. This mechanism was thought to contribute to the resistance of PDAC to ferroptosis. 112 Furthermore, a study found that pancreatic cancer cells might mediate ferroptosis resistance in pancreatic cancer and activate pancreatic stellate cells, encouraging their production of HGF and increasing their antioxidant capacity. In light of the fibrotic microenvironment associated with pancreatic cancer, it may provide an achievable therapeutic alternative. 113 According to Pan et al, FAM60A inhibited ferroptosis through the GPX4 and PPAR signaling pathways, thereby increasing the likelihood of cancer development. 114 From another perspective, Zhu et al discovered that CAFs secrete cysteine, which is taken up by pancreatic cancer cells and metabolized into glutathione, thereby enhancing cancer resistance to ferroptosis and cisplatin chemotherapy, playing a crucial role in PDAC metabolism. 115 Mechanistically, they demonstrated that pancreatic cancer cell-derived TGF-β activates SMAD3 signaling in CAFs. This activation induces the expression of the transcription factor ATF4, which directly binds to the promoters of key transsulfuration pathway enzymes, cystathionine β-synthase (CBS) and cystathionase (CTH), up-regulating their expression. Consequently, increased CBS/CTH-dependent cysteine synthesis in CAFs drives cysteine secretion, primarily mediated by transporters like SLC7A11. Targeting this TGF-β/SMAD3/ATF4 axis or directly inhibiting CBS effectively suppressed cysteine secretion, reversed ferroptosis resistance, and sensitized PDAC to chemotherapy 116 in vitro and in vivo , offering novel therapeutic strategies for treating pancreatic cancer.",
       "entities": [
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "pancreatic ductal adenocarcinoma",
-          "type": "ENTITY",
+          "type": "DISEASE",
+          "id": "DOID:3498",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "E3 ubiquitin ligase RBCK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "RBCK1",
+          "type": "GENE",
+          "id": "10616",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "MFN2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "9927",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3124,58 +3061,58 @@
       "entities": [
         {
           "text": "TGF-β",
-          "type": "CONCEPT",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SMAD3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "4088",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ATF4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "468",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "cysteine",
-          "type": "CONCEPT",
+          "type": "AMINO_ACID",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "gemcitabine",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "pancreatic ductal adenocarcinoma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:3498",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
-          "text": "PDAC",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "pancreatic cancer",
+          "type": "DISEASE",
+          "id": "DOID:1793",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -3244,7 +3181,22 @@
       "paragraph_index": 7,
       "parent_section_id": "sec4",
       "text": "This subsection from the article discusses the significance of colorectal cancer as a major global health issue, exploring its prevalence, mortality rates, and factors contributing to its development.\n\n117 ### Colorectal cancer\n\nGlobally, colorectal cancer (CRC) is the fourth most prevalent cause of cancer-related mortality and the third most frequently diagnosed cancer with almost 2 million new cases diagnosed annually. 3 , A complicated interaction between hereditary and environmental variables, such as age, obesity, eating habits, and a sedentary lifestyle, leads to the development of colorectal cancer. 118 About 40% of patients with localized disease develop recurrence after previous therapy, and 20% of cases are diagnosed as metastatic colorectal cancer due to its subtle starting. 119 In exploring ferroptosis resistance mechanisms in CRC, recent studies have revealed several pivotal pathways and molecular interactions that contribute to CRC progression and chemoresistance. One study highlighted the CBX3/NRF2/GPX2 axis, showing that CBX3 upregulates NRF2 by inhibiting CUL3 transcription, which in turn enhances GPX2 expression, thereby suppressing ferroptosis and promoting multidrug resistance in CRC cells. 120 Another study identified the p52-ZER6/DAZAP1/SLC7A11 axis, where p52-ZER6 enhances DAZAP1 transcription, leading to increased SLC7A11 mRNA stability and expression, thereby reducing lipid ROS accumulation and enhancing ferroptosis resistance. 121 Additionally, research on PRMT5 revealed its role in promoting ferroptosis resistance through the ALKBH5/SLC7A11 axis via histone modifications, with PRMT5 K240lac being crucial for this interaction. 122 The microbial metabolite trans-3-indoleacrylic acid (IDA) from P.anaerobius inhibited ferroptosis, promoting colorectal cancer. 123 Jin et al discovered that B7H3 may regulate ferroptosis resistance in CRC by controlling SREBP2-mediated cholesterol metabolism, thereby promoting ferroptosis resistance. 124 Stearoyl-coenzyme SCD1 suppression reduced the resistance of Nodal-overexpressing cells to RSL3-induced ferroptosis, which in consequence improved colorectal cancer metastasis and survival. 125 Moreover, TIGAR induced ferroptosis resistance in CRC cells through the ROS/AMPK/SCD1 signaling pathway. 126 Lipocalin 2 prevented ferroptosis by lowering intracellular iron levels and increasing the production of glutathione peroxidase 4 and xCT. 127 128",
-      "entities": [],
+      "entities": [
+        {
+          "text": "colorectal cancer",
+          "type": "DISEASE",
+          "id": "DOID:9256",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "CRC",
+          "type": "DISEASE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -3313,23 +3265,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "cancer drug resistance",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "CONCEPT",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "drug resistance",
+          "type": "DISEASE",
+          "id": "D004351",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -3378,24 +3337,17 @@
       "text": "This subsection from the article discusses the mechanisms of ferroptosis in reversing drug resistance specifically in esophageal squamous cell carcinoma, highlighting the challenges posed by late-stage diagnosis and poor patient prognosis.\n\nThe mechanisms of reversing cancer drug resistance related to ferroptosis in the digestive system are outlined in Table 2 ### Esophageal squamous cell carcinoma\n\nThe majority of ESCC patients are diagnosed at an advanced stage and are not eligible for resection since they are primarily asymptomatic, which leads to a poor prognosis and increased mortality. For ESCC patients who are unable to tolerate radiotherapy or surgical resection, chemotherapy has been found to be a reasonably curative treatment option. For the treatment of ESCC, 5-fluorouracil (5-FU), cisplatin, and adriamycin or 5-FU, cisplatin, and paclitaxel are used as integrated chemotherapy. However, due to primary or acquired drug resistance, several patients receiving chemotherapy were unable to achieve a better prognosis. 147 Thus, it is crucial to identify robust biosignatures for ESCC to overcome chemoresistance and improve therapeutic outcomes. Experiments have shown that ALDH5A1 can act as an oncogene in ESCC chemoresistance. Ferroptosis signaling pathways can be activated by silencing ALDH5A1, which may decrease cisplatin resistance in ESCC. 148 Wang et al found that treatment with verteporfin (VP) resulted in notable ferroptosis events, which inhibited the survival of ESCC cells and reversed their resistance to paclitaxel by inducing ferroptosis. 149 Sorafenib resistance in EC cells can be eliminated by reducing Apoc1, which promotes sorafenib-induced ferroptosis via GPX4. 150 151",
       "entities": [
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "esophageal squamous cell carcinoma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000077277",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "5-fluorouracil",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:46345",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3444,22 +3396,29 @@
       "text": "This subsection from the article discusses gastric cancer, highlighting its prevalence, challenges in diagnosis and treatment, and the major obstacles in therapy related to chemo resistance.\n\n150 151 ### Gastric cancer\n\nGastric cancer is the fifth most prevalent malignancy and the fourth major cause of mortality from malignant neoplasms globally. Early diagnosis and treatment, including medication and surgery, improve the prognosis for GC patients. However, most stomach cancer patients are diagnosed at an advanced stage. 97 The main obstacle in GC therapy is intrinsic or acquired chemoresistance 152 ; therefore, exploring new chemoresistance treatments is crucial. Geng et al reported that YY1 overexpression prevents immune cell infiltration in GC cancers. Furthermore, GC cell ferroptosis was inhibited by YY1 overexpression, and apatinib resistance was mediated through the p53 pathway. 153 Direct modification of key ferroptosis regulators is another mechanism of resistance. PFKFB3 desensitizes GC cells to cisplatin by directly dephosphorylating SLC7A11/xCT at serine 26 via its phosphatase domain. This activates SLC7A11, enhancing cystine uptake and GSH synthesis, which blunts cisplatin-induced ferroptosis. 132 In contrast, novel studies found that by enhancing ferroptosis through Nrf2/Keap1/xCT suppression, elevated ATF3-sensitized cisplatin-resistant GC cells to cisplatin, and FAM120A deficiency can reduce cisplatin resistance by promoting ferroptosis. 154 155 , Thus, ferroptosis has emerged as a promising approach to reverse cancer drug resistance in gastric cancer. ARF6 silencing increased ferroptosis induced by erastin and markedly decreased resistance to capecitabine. 156 By targeting the SIRT6/Keap1/Nrf2/GPX4 signaling pathway, SIRT6 knockdown overcame sorafenib resistance and promoted ferroptosis. 157 A recent study has shown that targeting SOX13 can inhibit the assembly of respiratory chain supercomplexes and overcome ferroptosis resistance in gastric cancer. The research indicated that SOX13 enhances protein remodeling of electron transport chain complexes by directly transactivating SCAF1, leading to increased supercomplex assembly, enhanced mitochondrial respiration, and increased chemoresistance. 158 Another study has demonstrated that POLQ positively regulates stem cell-like characteristics and ferroptosis resistance in gastric cancer cells. POLQ inhibition was found to down-regulate DHODH expression, which is a critical factor in ferroptosis resistance. 159 All of these studies provide potential therapeutic targets for overcoming ferroptosis resistance in gastric cancer. 160",
       "entities": [
         {
-          "text": "Gastric cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "gastric cancer",
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "YY1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "7528",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GC",
-          "type": "CONCEPT",
+          "type": "DISEASE",
+          "id": "D020862",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3520,36 +3479,36 @@
       "text": "This subsection from the article discusses hepatocellular carcinoma's inherent drug resistance, the prevalence of multidrug resistance among patients, and the challenges posed by sorafenib as a targeted therapy.\n\n160 ### Hepatocellular carcinoma\n\nSince HCC is an inherently drug-resistant cancer, most HCC patients are not susceptible to chemotherapeutic medications. They are more likely to become MDR while receiving chemotherapy, which lowers survival and improves prognosis. The most popular option for targeted therapy for hepatocellular carcinoma is sorafenib. However, sorafenib resistance during HCC chemotherapy is a common and serious problem that has a significant impact on medical treatment. Research has revealed that the expression of Tmem39b, CISD2, miR-23a-3p, dual-specific phosphatase 4 (DUSP4), and exosomal circUPF2 can increase resistance to sorafenib. 161 108 , 131 , 143 , 144 , Furthermore, NCOA5, CircTTC13, ABHD12, galectin-1-mediated, HBV, ABCC5, and YAP/TAZ prevent ferroptosis, which increases resistance to sorafenib in hepatocellular carcinoma. 146 133–135 , 141 , 145 , 162 , It has been demonstrated that long non-coding RNAs and RNA-binding proteins play crucial roles in regulating ferroptosis. For instance, the lncRNA MALAT1 is up-regulated in sorafenib-resistant HCC cells through m5C methylation by NSUN2 and ALYREF. MALAT1 inhibits sorafenib-induced ferroptosis by promoting the expression of SLC7A11 via ELAVL1, leading to increased intracellular GSH levels and reduced lipid reactive oxygen species. 163 On the other hand, HNF4A-AS1, a lipid metabolism-related lncRNA, contributes to sorafenib resistance by decreasing PUFA content and promoting resistance to ferroptosis when its expression is down-regulated. 164 Additionally, the RNA-binding protein MVP has been identified as an oncogenic RBP that suppresses ferroptosis by binding to LCN2 mRNA and maintaining its stability. This interaction is facilitated by PGAM5-mediated dephosphorylation of MVP. 165 These findings collectively suggest that targeting these lncRNAs and RBPs could be a promising strategy to enhance the efficacy of sorafenib and overcome resistance in HCC. Fortunately, studies have shown that glycyrrhizic acid reduces sorafenib resistance by triggering ferroptosis through mTOR signaling, while Withaferin A may reduce metastatic potential and sorafenib resistance by modulating Keap1/Nrf2-associated EMT and ferroptosis. Silencing HCG18 inhibited GPX4 by binding to miR-450b-5p, increased GPX4-inhibited ferroptosis, and prevented sorafenib resistance in HCC. 166 Besides, HCG18 can inhibit ferroptosis by regulating the expression of RRM2, thereby promoting HCC proliferation; thus, it holds promise as a potential target for ferroptosis-dependent therapy. 167 Meanwhile, m654-sEV effectively distributed miR-654-5p to HCC cells, targeting HSPB1 and increasing ferroptosis to reduce sorafenib resistance, 168 167 , miR-654-5p reduces HSPB1 protein levels and thereby increases sorafenib-induced ferroptosis. 169–171 Besides, Song et al found that HAND2-AS1 increases the expression of ferroptosis-related genes and prevents lenvatinib resistance by enhancing TLR4/NOX2/DUOX2 by competing with endogenous miR-219a-1-3p in HCC cells. 15 172",
       "entities": [
         {
-          "text": "Hepatocellular carcinoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "hepatocellular carcinoma",
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "sorafenib",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077157",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Tmem39b",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "55116",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CISD2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "493856",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "miR-23a-3p",
-          "type": "ENTITY",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3610,59 +3569,59 @@
       "text": "This subsection from the article discusses the role of cancer-associated fibroblasts in inducing gemcitabine resistance in pancreatic ductal adenocarcinoma through the inhibition of ferroptosis, highlighting the involvement of exosome-derived ACSL4-targeting mechanisms.\n\n15 172 ### Pancreatic ductal adenocarcinoma\n\nGemcitabine is used to treat advanced metastatic patients; however, its results are not satisfactory, and this is primarily attributed to the development of resistance to treatment. Gemcitabine resistance in pancreatic cancer cells was induced by the inhibition of ferroptosis by cancer-associated fibroblasts that secrets exosome-derived ACSL4-targeting miRNAs and lncRNA MACC1-AS1. 136 , Moreover, Abudureyimu Tuerhong et al discovered that CPT1B could cause gemcitabine resistance in pancreatic cancer via the KEAP1/NRF2 axis, 139 and targeting SIK1 could trigger lethal ferroptosis and render PDAC cells vulnerable to gemcitabine. 138 However, researchers have identified novel targets to overcome resistance to gemcitabine. Gemcitabine-resistant patients exhibit a higher level of overexpression of the glutamine transporter SLC38A5 than the gemcitabine-sensitive patients. Gemcitabine-resistant PDAC cell migration and proliferation were reduced by the loss of SLC38A5, which induces ferroptosis in gemcitabine-resistant pancreatic cancer cells. 173 By producing ferroptosis, ACADM knockdown amplified the cytotoxic effects initiated by FA, while ARF6 knockdown amplified the ferroptosis induced by RSL3, which significantly mitigated gemcitabine resistance. 174 175 , Additionally, Wang et al demonstrated how ferroptosis enables the intervention of multitarget platinum (IV) prodrugs in cisplatin resistance in pancreatic cancer. 176 A study found that cTRIP12 inhibition induced ferroptosis in PDAC cells by reducing FTH and PD-L1 expression and synergistically increased the efficacy of immunotherapy. 177 These discoveries are significant for the development of treatments aimed at overcoming chemoresistance in pancreatic cancer. 178",
       "entities": [
         {
-          "text": "gemcitabine",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "pancreatic ductal adenocarcinoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:3498",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
-          "text": "cancer-associated fibroblasts",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "gemcitabine",
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "exosome-derived ACSL4-targeting miRNAs",
-          "type": "METHOD",
+          "text": "ACSL4",
+          "type": "GENE",
+          "id": "2182",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "miRNAs",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lncRNA MACC1-AS1",
-          "type": "ENTITY",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "CPT1B",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "1375",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "Abudureyimu Tuerhong",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "cancer-associated fibroblasts",
+          "type": "CELL_LINE",
+          "id": "CVCL_A6UW",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -3722,58 +3681,58 @@
       "entities": [
         {
           "text": "SNHG4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "724102",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "oxaliplatin",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077150",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "colorectal cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:9256",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "PTEN",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "5728",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "E-cadherin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "37386",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "β-catenin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "31151",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "TCF4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6934",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3845,30 +3804,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "ENTITY",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "drug resistance",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D004351",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "programmed cell death",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "iron-dependent phospholipid peroxidation",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16247",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3933,59 +3892,52 @@
       "text": "This conclusion section from Wenjie Chen's 2025 article summarizes the mechanisms of ferroptosis resistance and discusses strategies to reverse cancer resistance in digestive cancers using ferroptosis-targeting therapies alongside other treatment modalities.\n\nIn addition, we provide a detailed summary of the mechanism of ferroptosis resistance and how cancer resistance can be reversed by targeting ferroptosis in cancers of the digestive system. Furthermore, we believe that the application of ferroptosis features in conjunction with additional therapies, including immunotherapy, targeted therapy, radiation, and chemotherapy, leads to a comprehensive treatment that improves therapeutic outcomes. According to a recent report, anti-PD-L immune checkpoint inhibition can promote ferroptosis responses in cancer cells by suppressing the expression of SLC7A11 in cancer cells owing to the release of IFN-γby CD8 186 + T cells. 187",
       "entities": [
         {
-          "text": "Wenjie Chen",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "CONCEPT",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "immunotherapy",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D007167",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "targeted therapy",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D058990",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "radiation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D011827",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "chemotherapy",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000971",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "anti-PD-L",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:747297",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4057,30 +4009,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chemotherapy",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "radiation therapy",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "ENTITY",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "chemotherapy",
+          "type": "DRUG",
+          "id": "D000971",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "radiation therapy",
+          "type": "DRUG",
+          "id": "CHEBI:66987",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4238,15 +4190,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec8",
       "text": "This funding section from the article discusses the financial support received from the National Natural Science Foundation of China for research on reversing drug resistance in digestive cancers.\n\nThe work is supported by the National Natural Science Foundation of China (No. 82305011 ).",
-      "entities": [
-        {
-          "text": "National Natural Science Foundation of China",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "GENDIS",
         "article_id": "101873",
@@ -4289,23 +4233,58 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "BAY 11–7085",
-          "type": "ENTITY",
+          "type": "DRUG",
+          "id": "CHEBI:176500",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "GSH",
-          "type": "ENTITY",
+          "text": "reactive oxygen species",
+          "type": "CHEMICAL",
+          "id": "D017382",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxidation",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cysteine",
+          "type": "CHEMICAL",
+          "id": "D003545",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "xCT",
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ferritin",
+          "type": "PROTEIN",
+          "id": "547824",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -4346,28 +4325,21 @@
       "entities": [
         {
           "text": "Bcl-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "596",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "PDGF receptor-β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cancer-associated fibroblasts",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "digestive cancers",
-          "type": "ENTITY",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4410,56 +4382,42 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Fusobacterium nucleatum",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "ORGANISM",
+          "id": "851",
+          "ontology": "NCBI Taxonomy",
           "source": "gpt"
         },
         {
           "text": "gastric cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:10534",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "colorectal cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:9256",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Wnt/β-catenin",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chemotherapy",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "digestive cancers",
-          "type": "ENTITY",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4503,49 +4461,56 @@
       "entities": [
         {
           "text": "ALDH5A1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "7915",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "esophageal squamous cell carcinoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000077277",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "cisplatin",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D002945",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "sorafenib",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077157",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Apoc1",
-          "type": "ENTITY",
+          "type": "GENE",
+          "id": "341",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GPX4",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "digestive cancers",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"

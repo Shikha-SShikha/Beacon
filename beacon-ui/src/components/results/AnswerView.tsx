@@ -6,11 +6,40 @@ interface Props {
   onCitationClick: (citationId: number) => void;
 }
 
-// Types too noisy to highlight — skip entirely
+// Types too noisy, misclassified, or wrong domain — skip entirely
 const SKIP_TYPES = new Set([
-  "ENTITY", "OTHER", "AUTHOR", "JOURNAL", "ARTICLE", "REFERENCE",
-  "YEAR", "TIME", "COUNTRY", "LOCATION", "ORGANIZATION", "ENTITY_TYPE",
+  // Generic / structural
+  "ENTITY", "OTHER", "REFERENCE", "ENTITY_TYPE",
+  // Metadata
+  "AUTHOR", "JOURNAL", "ARTICLE", "YEAR", "TIME",
+  // Geography / org
+  "COUNTRY", "LOCATION", "ORGANIZATION", "PROFESSIONAL_BODY", "INDUSTRY",
+  // Soft concepts
+  "CONCEPT", "PROCESS", "METRIC", "PARAMETER", "FRAMEWORK",
+  "GUIDELINE", "LIFESTYLE", "PARADOX", "CONTROL_TYPE", "STUDY",
+  // High-noise typed buckets (data shows these are heavily misclassified)
+  "METHOD",       // 380 entries: Python, NaCl, '2018', 'review' — unreliable
+  "TECHNOLOGY",   // 340 entries: lab reagents (PBS, FBS) mixed with EV/energy domain
+  "TOOL",         // project-mgmt tools (XP, SAFe, SCRUM)
+  "THEORY",       // Taoism, Barker — wrong domain
+  "DEVICE",       // only 'Qubit' — not worth it
+  "SOFTWARE",     // only SPSS — not worth it
 ]);
+
+// Minimum text length per type to block short/ambiguous matches
+const MIN_LENGTH: Record<string, number> = {
+  GENE:            3,   // filter single letters ('V', 'm', 'A')
+  PROTEIN:         3,   // filter single chars
+  CELL_LINE:       3,   // filter 'V', 'AA', 'RH'
+  ORGANISM:        6,   // skip 'rat', 'mice', 'human', 'WHO' — require full species names
+  ANATOMY:         4,
+  ELEMENT:         4,
+  VIRUS:           3,
+  BIOLOGICAL_PROCESS: 5,
+  SIGNALING_PATHWAY:  5,
+  ENZYME:          3,
+};
+const DEFAULT_MIN_LENGTH = 3;
 
 // Blue group: biological / molecular
 const BIO_TYPES = new Set([
@@ -26,9 +55,7 @@ const ENTITY_LABELS: Record<string, string> = {
   ANATOMY: "anatomy", BIOLOGICAL_PROCESS: "process", ENZYME: "enzyme",
   SIGNALING_PATHWAY: "pathway", VIRUS: "virus", ELEMENT: "element",
   METHOD: "method", TECHNOLOGY: "tech", SOFTWARE: "software",
-  TECHNIQUE: "technique", TOOL: "tool", FRAMEWORK: "framework",
-  CONCEPT: "concept", PROCESS: "process", GUIDELINE: "guideline",
-  METRIC: "metric", PARAMETER: "param", STUDY: "study", TRIAL: "trial",
+  TECHNIQUE: "technique", TOOL: "tool", TRIAL: "trial",
 };
 
 // Show inline label for specific informative types
@@ -36,6 +63,15 @@ const SHOW_LABEL = new Set([
   "GENE", "PROTEIN", "DISEASE", "DRUG", "CHEMICAL", "RNA",
   "ENZYME", "BIOLOGICAL_PROCESS", "SIGNALING_PATHWAY", "VIRUS", "CELL_LINE",
 ]);
+
+// Build a word-boundary-aware pattern for a single entity string
+function buildEntityPattern(entity: string): string {
+  const escaped = entity.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // \b only covers ASCII word chars — use lookahead/lookbehind for non-ASCII boundaries
+  const startBound = /^[a-zA-Z0-9]/.test(entity) ? "\\b" : "(?<![a-zA-Z0-9])";
+  const endBound   = /[a-zA-Z0-9]$/.test(entity)  ? "\\b" : "(?![a-zA-Z0-9])";
+  return `${startBound}${escaped}${endBound}`;
+}
 
 function EntityChip({ entity, text }: { entity: HighlightEntity; text: string }) {
   const isBio = BIO_TYPES.has(entity.type);
@@ -75,8 +111,8 @@ function buildParts(answer: string, entityMap: Map<string, HighlightEntity>): Te
   }
 
   const sorted = [...entityMap.keys()].sort((a, b) => b.length - a.length);
-  const escaped = sorted.map(e => e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const combined = new RegExp(`(\\[\\d+\\]|${escaped.join("|")})`, "gi");
+  const patterns = sorted.map(buildEntityPattern);
+  const combined = new RegExp(`(\\[\\d+\\]|${patterns.join("|")})`, "gi");
 
   const parts: TextPart[] = [];
   let last = 0;
@@ -111,6 +147,8 @@ export default function AnswerView({ response, onCitationClick }: Props) {
     for (const source of response.sources) {
       for (const ent of source.entities ?? []) {
         if (SKIP_TYPES.has(ent.type)) continue;
+        const minLen = MIN_LENGTH[ent.type] ?? DEFAULT_MIN_LENGTH;
+        if (ent.text.length < minLen) continue;
         const key = ent.text.toLowerCase();
         if (!map.has(key) || (ent.id && !map.get(key)!.id)) {
           map.set(key, ent);

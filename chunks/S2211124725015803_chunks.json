@@ -4,7 +4,7 @@
   "total_chunks": 73,
   "text_chunks": 66,
   "visual_chunks": 7,
-  "total_entities": 518,
+  "total_entities": 423,
   "entities_with_ontology_id": 14,
   "total_relations": 240,
   "processed_chunks": [
@@ -19,29 +19,15 @@
       "text": "This introduction section from a CELREP article discusses the role of inflammasomes in the innate immune response, detailing their composition and function in response to pathogens and tissue damage.\n\nInflammasomes represent a unique category of multiprotein complexes known for their pivotal role in the innate immune response to pathogenic invasions and tissue damage. 1 , 2 , 3 , A classic inflammasome comprises pattern recognition receptors, the effector protein caspase-1, and the scaffold apoptosis-associated speck-like protein containing a CARD (ASC). 4 5 , Upon activation, these pattern recognition receptors form polymers and subsequently recruit ASC and pro-caspase-1 to assemble into the inflammasome, ultimately activating caspase-1. 6 7 , Once activated, caspase-1 serves a dual function. Firstly, it cleaves proinflammatory cytokines IL-1β and IL-18 precursors, promoting their maturation and subsequent release. Secondly, activated caspase-1 cleaves GSDMD, releasing its N-terminal active segment. 8 This active segment punctures holes in the cell membrane, triggering cell death known as “pyroptosis.” 9 10 , NLRP3 inflammasome is the best-studied inflammasome, and its excessive activation relates to autoimmune diseases and inflammatory diseases. 11",
       "entities": [
         {
-          "text": "inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "caspase-1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "692604",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "apoptosis-associated speck-like protein containing a CARD (ASC)",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pattern recognition receptors",
-          "type": "CONCEPT",
+          "text": "apoptosis-associated speck-like protein containing a CARD",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -113,58 +99,58 @@
       "entities": [
         {
           "text": "N6-methyladenosine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "eukaryotic mRNA",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IGF2BP1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "E2F1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "10642",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "MIF",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "4282",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Betaine",
+          "type": "DRUG",
+          "id": "D001622",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "YTHDF2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "51441",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Nlrp3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ALKBH5",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "54890",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -240,37 +226,37 @@
       "entities": [
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -328,30 +314,16 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "m6A methylation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -362,22 +334,36 @@
           "source": "gpt"
         },
         {
-          "text": "bone marrow-derived macrophages",
+          "text": "BMDMs",
           "type": "CELL_LINE",
-          "id": "CVCL_B3RA",
-          "ontology": "Cellosaurus",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "m6A immunofluorescence",
+          "text": "m6A",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "inflammasome",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "liquid chromatography-tandem mass spectrometry",
           "type": "METHOD",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "liquid chromatography-tandem mass spectrometry (LC-MS/MS)",
-          "type": "TECHNOLOGY",
+          "text": "mRNA",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -455,23 +441,23 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -483,30 +469,30 @@
         },
         {
           "text": "LPS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "caspase-1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "692604",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSDMD",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79792",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -584,58 +570,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "N-GSDMD",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "LDH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_F1ZX",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "caspase-1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "692604",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSDMD",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79792",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ASC",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "29108",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -711,58 +697,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "pro-IL-1β",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "GSDMD",
-          "type": "ENTITY",
+          "text": "pro-IL-18",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pro–caspase-1",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ASC",
+          "type": "PROTEIN",
+          "id": "29108",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -840,50 +826,36 @@
       "text": "This results section from Jie Fu's 2025 study discusses how METTL3 indirectly enhances Il1β and Nlrp3 transcription through its m 6 A catalytic activity, highlighting its role in inflammatory activation.\n\nThese data suggest that METTL3 does not directly occupy these promoters but instead enhances Il1β and Nlrp3 transcription indirectly through its m 6 A catalytic activity, acting on co-transcriptional or chromatin-associated RNAs. Together, these findings indicate that METTL3 specifically promotes Il1β and Nlrp3 transcription during inflammatory activation through its m 6 A methyltransferase activity, while this effect is independent of mRNA stability changes.",
       "entities": [
         {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "methyltransferase",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "inflammatory activation",
-          "type": "CONCEPT",
+          "text": "m 6 A methyltransferase",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -949,16 +921,16 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -970,7 +942,7 @@
         },
         {
           "text": "chrRNA-seq",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1044,58 +1016,37 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chrRNA-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "KAS-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_F1ZX",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -1173,49 +1124,49 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1295,49 +1246,56 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "JAK-STAT",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
+          "type": "GENE",
+          "id": "1051",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "p-STAT3",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1416,57 +1374,57 @@
       "text": "This Results section from the study by Jie Fu et al. (2025) describes how METTL3-mediated m 6 A modification on Jak1 transcripts regulates the JAK1-STAT3-C/EBPβ signaling axis, influencing NLRP3 inflammasome activation in macrophages.\n\nHowever, deletion of JAK1 significantly reduced the expression of C/EBPβ, NLRP3, and pro-IL-1β ( Figure 5 P). Taken together, these results demonstrate that METTL3 regulates m 6 A modification of nascent RNAs during NLRP3 inflammasome activation. By installing m 6 A on Jak1 transcripts, METTL3 activates the JAK1-STAT3-C/EBPβ- Nlrp3/Il1β signaling axis, thereby promoting inflammasome activation.",
       "entities": [
         {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "JAK1-STAT3-C/EBPβ",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "JAK1",
+          "type": "PROTEIN",
+          "id": "3716",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "STAT3",
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "C/EBPβ",
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "pro-IL-1β",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Nlrp3/Il1β",
-          "type": "CONCEPT",
+          "text": "NLRP3 inflammasome",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1546,56 +1504,49 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "JAK1-STAT3-C/EBPβ-Nlrp3/Il1β signaling axis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CELREP",
-          "type": "ENTITY",
+          "text": "JAK1-STAT3-C/EBPβ-Nlrp3/Il1β",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1668,59 +1619,45 @@
       "text": "This Results section from Jie Fu's study discusses how METTL3-mediated m 6 A modifications enhance the translation of Jak1, Nlrp3, and Il1β mRNA through the action of the m 6 A reader YTHDF1 in macrophages.\n\nThese findings indicate that m 6 A modification in specific regions of Jak1 , Nlrp3 , and Il1β transcripts facilitates their translation. YTHDF1 is an m 6 A reader that promotes translation by recruiting ribosomes to m 6 A-modified transcripts. 31 , To confirm its involvement, we generated YTHDF1-deficient cells and performed polysome fractionation using sucrose gradient centrifugation ( 32 Figure 6 E). The overall translation profile was unchanged in METTL3-deficient cells but was markedly reduced in YTHDF1-deficient cells, especially in the heavy polysome fraction (>80S) ( Figure 6 F). Quantitative reverse-transcription PCR (RT-qPCR) analysis showed that both METTL3 and YTHDF1 deficiency significantly decreased the association of Jak1 , Nlrp3 , and Il1β mRNAs with heavy polysomes ( Figure 6 G). To visualize these interactions, we performed RNA-FISH combined with ribosome (18S rRNA) staining. In cells lacking METTL3 or YTHDF1, spatial colocalization of Jak1 , Nlrp3 , and Il1β mRNAs with ribosomes was markedly reduced ( Figure 6 H), consistent with polysome profiling. These results suggest that METTL3 promotes ribosome loading through an m 6 A-YTHDF1-dependent mechanism. At the molecular level, YTHDF1 mainly enhances translation rather than affecting mRNA abundance. Consistent with this, YTHDF1 deletion did not change Jak1 mRNA levels ( Figure 6 I) but significantly reduced Jak1 mRNA enrichment in polysomes ( Figure 6 G). Consequently, p-STAT3 activation and C/EBPβ expression were decreased, leading to reduced transcriptional induction of Nlrp3 and Il1β ( Figures 6 I and 6J). Together, these data support a unified model: during NLRP3 inflammasome activation, METTL3 installs m 6 A marks co-transcriptionally on nascent Jak1 , Nlrp3 , and Il1β RNAs. YTHDF1 recognizes these marks and promotes ribosome recruitment. Enhanced translation of Jak1 transcript activates the JAK1-STAT3-C/EBPβ signaling pathway, which drives Nlrp3 and Il1β transcription. In parallel, direct m 6 A-YTHDF1-mediated translation of Nlrp3 and Il1β further amplifies protein production. Thus, METTL3 and YTHDF1 cooperate to form a feedforward circuit that links m 6 A-dependent translation with NLRP3 inflammasome activation.",
       "entities": [
         {
+          "text": "METTL3",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "YTHDF1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "54915",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "YTHDF1-deficient cells",
+          "text": "macrophages",
           "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "METTL3-deficient cells",
-          "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sucrose gradient centrifugation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "id": "CVCL_F1ZX",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -1798,23 +1735,44 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "YTHDF1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "myeloid cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_E7SU",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-1β",
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-18",
+          "type": "PROTEIN",
+          "id": "3606",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "sepsis",
+          "type": "DISEASE",
+          "id": "D018805",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
@@ -1825,29 +1783,8 @@
           "source": "gpt"
         },
         {
-          "text": "Lyz2-Cre- Mettl3 f/f",
-          "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sepsis model",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "IL-18",
-          "type": "ENTITY",
+          "text": "Mettl3 f/f",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1921,58 +1858,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Stattic",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:86989",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "LPS-induced sepsis",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "LPS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "MSU-induced arthritis",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-18",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3606",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GSDMD",
+          "type": "PROTEIN",
+          "id": "79792",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2048,58 +1985,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "IL-1β",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "type 2 diabetes",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "diet-induced obesity",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "myeloid cells",
-          "type": "CELL_LINE",
-          "id": "CVCL_E7SU",
-          "ontology": "Cellosaurus",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "CONCEPT",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NLRP3 inflammasome",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "obesity",
+          "type": "DISEASE",
+          "id": "D009765",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "type 2 diabetes",
+          "type": "DISEASE",
+          "id": "DOID:9352",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-1β",
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "STAT3",
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "T2D",
+          "type": "DISEASE",
+          "id": "DOID:11198",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -2171,58 +2108,51 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF1",
+          "type": "PROTEIN",
+          "id": "54915",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2298,56 +2228,56 @@
       "entities": [
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "chrRNA-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "METTL3",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "KAS-seq",
-          "type": "METHOD",
+          "text": "inflammas",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2425,58 +2355,44 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CUT&tag-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CELREP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2552,58 +2468,58 @@
       "entities": [
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "YTHDF1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "54915",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Actinomycin D",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:27666",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2673,44 +2589,30 @@
       "entities": [
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "YTHDF1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chrRNA-MeRIP-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2779,45 +2681,31 @@
       "text": "This discussion section from Jie Fu's 2025 article addresses the potential \"offset effect\" in MeRIP assays that may mask specific changes in m6A modifications across ncRNA subgroups, potentially leading to misleading interpretations of global m6A signals.\n\n39 , 40 , In addition, an assay-level “offset effect” may operate: MeRIP measures aggregate m 41 6 A, and METTL3 can alter both the copy number of distinct ncRNA subgroups and the per-molecule m 6 A occupancy, so countervailing changes across subgroups may cancel at the total level, obscuring subgroup- or site-specific alterations and producing an apparently unchanged global ncRNA m 6 A signal. Previous studies linking m 6 A to NLRP3 inflammasome regulation have focused mainly on post-transcriptional mechanisms, such as mRNA stabilization by METTL14-IGF2BP2. 20 , 23 , The novelty of this study lies in integrating co-transcriptional m 24 6 A modification and chromatin accessibility into the inflammatory signaling framework. We visualize a complete causal chain connecting “METTL3→ chromatin→ nascent RNA→ m 6 A→ YTHDF1→ enhanced Jak1 translation → STAT3–C/EBPβ activation→ Nlrp3/Il1β transcription→ amplified Nlrp3/Il1β translation,” and demonstrate how METTL3 orchestrates both global transcriptional remodeling and inflammasome-specific gene activation.",
       "entities": [
         {
-          "text": "MeRIP",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ncRNA",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "METTL3",
-          "type": "ENTITY",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "METTL3",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2881,58 +2769,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "YTHDF1",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Jak1",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "C/EBPβ",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Jak1",
+          "type": "PROTEIN",
+          "id": "3716",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "STAT3",
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "C/EBPβ",
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "eIF2α",
+          "type": "PROTEIN",
+          "id": "1965",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CDK9",
+          "type": "PROTEIN",
+          "id": "1025",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3008,58 +2896,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "LPS-induced sepsis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "LPS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "MSU-induced arthritis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "HFD model",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "MSU",
+          "type": "CHEMICAL",
+          "id": "CHEBI:143125",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-18",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3606",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "caspase-1",
+          "type": "PROTEIN",
+          "id": "692604",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3135,58 +3023,58 @@
       "entities": [
         {
           "text": "Mettl3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL14",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "57721",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "Nlrp3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "sepsis",
+          "type": "DISEASE",
+          "id": "D018805",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -3256,58 +3144,51 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m 6 A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "YTHDF1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "54915",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "chrRNA-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "KAS-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "inflammation-related diseases",
+          "type": "DISEASE",
+          "id": "DOID:0112003",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -3380,15 +3261,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec4",
       "text": "This resource availability section from the article identifies Yizhen Wang as the lead contact for requests regarding further information, resources, and reagents related to the study.\n\n### Lead contact\n\nRequests for further information, resources, and reagents should be directed to and will be fulfilled by the lead contact, Yizhen Wang ( yzwang321@zju.edu.cn ).",
-      "entities": [
-        {
-          "text": "Yizhen Wang",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -3434,43 +3307,7 @@
       "paragraph_index": 1,
       "parent_section_id": "sec4",
       "text": "This resource availability section from the article by Jie Fu discusses the availability of plasmids, mutants, and stable reagents from the lead contact upon request without restriction.\n\n### Materials availability\n\nPlasmids, mutants, and all stable reagents generated in this study are available from the lead contact upon request without restriction.",
-      "entities": [
-        {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "plasmids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "mutants",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "stable reagents",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lead contact",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -3528,36 +3365,7 @@
       "paragraph_index": 2,
       "parent_section_id": "sec4",
       "text": "This resource availability section from Jie Fu's 2025 CELREP article outlines the accessibility of raw data through NCBI and mentions that original code is not provided, while additional data can be requested.\n\n### Data and code availability\n\n• Data: all raw data are available through NCBI (accession number PRJNA1150098 , PRJNA1369820 , and PRJNA1149668 ). • Code: this paper does not report original code. • Other items: all raw data related to microscopy and western blot are available upon request.",
-      "entities": [
-        {
-          "text": "NCBI",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PRJNA1150098",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PRJNA1369820",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PRJNA1149668",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -3603,57 +3411,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec5",
       "text": "This acknowledgments section from the article highlights financial support received from various scientific foundations and programs that contributed to the research.\n\nWe gratefully acknowledge the financial support provided by the National Natural Science Foundation of China ( 32530097 and 32372890 ), the Natural Science Foundation of Zhejiang Province ( LMS26C170001 ), the Postdoctoral Fellowship Program of CPSF ( GZC20252322 ), the 76th Batch of the General Program of the China Postdoctoral Science Foundation ( 2024M762856 ), the China Agriculture Research System of MOF and MARA (CARS-35), the National Key R&D Program ( 2023YFD1301101 ), and the Fundamental Research Funds for the Central Universities ( 2024ZJJH04 ) for this study.",
-      "entities": [
-        {
-          "text": "National Natural Science Foundation of China",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Natural Science Foundation of Zhejiang Province",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Postdoctoral Fellowship Program of CPSF",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "China Postdoctoral Science Foundation",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "China Agriculture Research System of MOF and MARA",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "National Key R&D Program",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Fundamental Research Funds for the Central Universities",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -3723,64 +3481,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec6",
       "text": "This author contributions section from the study discusses the roles of various authors in proposing research directions, securing funding, writing the paper, designing experiments, participating in experiments, and providing critical comments.\n\nY.W., M.J., J.F., and X.Z. proposed the research direction and technical means; Y.W., M.J., J.F., and X.Z. provided the research funding; J.F. wrote the paper; J.F. and Z.X. designed and executed the experiment; L.Z., T.G., H.Z., C.Z., and F.W. participated in some experiments; and Y.W., M.J., and Z.L. made some critical comments.",
-      "entities": [
-        {
-          "text": "Y.W.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "M.J.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "J.F.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "X.Z.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Z.X.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "L.Z.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "T.G.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "H.Z.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -3891,59 +3592,59 @@
       "text": "This STAR★Methods section from CELREP provides a key resources table listing antibodies and reagents, including details on their sources and identifiers, necessary for replicating the experiments related to METTL3-mediated m6A modifications in macrophages.\n\n### Key resources table\n\nREAGENT or RESOURCE SOURCE IDENTIFIER Antibodies IL-1β CST Cat# 12242S ASC CST Cat# 67824S NLRP3 CST Cat# 15101S β-ACTIN HUABIO Cat# ET1702-52 GAPDH HUABIO Cat# M1310-2 GSDMD Affinity Cat# AF4012 C/EBPβ Proteintech Cat# 23431-1-AP METTL3 CST Cat# 86132S IgG CST Cat# 2729 STAT3 HUABIO Cat# HM0617 p-STAT3 HUABIO Cat# HM0617 JAK1 Proteintech Cat# 66466-1-lg JAK2 HUABIO Cat# ET1607-35 JAK3 HUABIO Cat# ET1705-1 ZFP217 Abcam Cat# ab124927 METTL14 CST Cat# 48699 WTAP Proteintech Cat# 60188-L-lg YTHDF1 Proteintech Cat#66745-L-lg YTHDF2 Proteintech Cat#24744-L-AP YTHDF3 Proteintech Cat# 25537-1-AP FTO Abcam Cat# ab126605 ALKBH5 Proteintech Cat#16837-L-AP SC-35 Abcam Cat# ab11826 H3 HUABIO Cat#M1306-5 m 6 A Synaptic Systems Cat# 202 003 FITC-CD11b Biolegend Cat#557396 APC/Fire 750 -CD11c Biolegend Cat# 117351 PE-F4/80 Biolegend Cat# 565410 APC-CD45 Biolegend Cat#561018 PerCP/Cyanine5.5-CD206 Biolegend Cat#141715 Fc Block BD PharMingen Cat# 553141 Chemicals, peptides, and recombinant proteins Nuclease P1 NEB Cat# M0660S Alkaline phosphatase NEB Cat# M0525S D-glucose Aladdin Cat# 23403-54-5 Insulin Aladdin Cat# rp174360 Methylene blue SIGMA Cat# M9140 Actinomycin D MCE Cat# HY-17559 α-amanitin APExBIO Cat# A4548 Lipofectamine TM 3000 Thermofisher Cat# L3000015 RNase Inhibitor Thermofisher Cat# N8080119 Protease Inhibitor APExBIO Cat# K4002 Cycloheximide MCE Cat# HY-12320 Puromycin Solarbio Cat# P8230 LPS SIGMA Cat# L2630-100MG ATP SIGMA Cat# A7699 FBS SIGMA Cat# F8318-500ML Opti-MEM TM Thermofisher Cat# 31985070 L-glutamine SIGMA Cat# G8540 MSU SIGMA Cat# U0881 NP-40 Thermofisher Cat# 28324 NaCl Sinopharm Cat# 10019308 Tris-HCl(pH = 7.0) Beyotime Cat# ST768 Sucrose SIGMA Cat# V900116 EDTA Invitrogen Cat# 15575-038 Triton X-100 SIGMA Cat# 9036-19-5 Glycerol Beyotime Cat# ST1353 DTT Beyotime Cat# ST043 Urea Macklin Cat# U820355 HEPES (pH = 7.5) Beyotime Cat# C0217 Nuclease-Free Water SIGMA Cat# W4502 Insulin Aladdin Cat# rp174360 High Fat Diet (60% cal/fat) XieTong Cat# D12492 Thinwall Polypropylene Tubes Beckman Coulter Cat# 331372 N6-Methyladenosine (Standard) MCE Cat# HY-N0086R Stattic MCE Cat# HY-13818 Critical Commercial Assays IL-1β ELISA Kit RayBio Cat# ELM-Il1β-1 IL-18 ELISA Kit HUABIO Cat# EM0034 TNFα ELISA Kit HUABIO Cat# EM0010 Dual Luciferase Reporter Gene Assay Kit Yeasen Cat# 11402ES60 Cut-Tag kit Vazyme Cat# TD901 DNA Clean Beads Vazyme Cat# N411 Cut-Run-qPCR kit Vazyme Cat# HD101 and HD103 cDNA synthesis Kit Yeasen Cat# 1139ES60 qPCR SYBR Green Master Mix Yeasen Cat# 11201ES08 Click™ EU-488 RNA synthesis kit Beyotime Cat# R0301S miRNeasy Mini Kit QIAGEN Cat# 217004 GenElute TM mRNA Miniprep Kit SIGMA Cat# MRN70-1KT Fluorescent in Situ Hybridization Kit Genepharma Cat# F40171 Glucometer Yuwell NA Digital caliper Mitutoyo NA Deposited data Datebase: PRJNA1150098 This paper https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1150098 Database: PRJNA1149668 This paper https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1149668 Database: PRJNA1369820 This paper https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1369820 Experimental Models: Cell Lines J774A.1 CTCC 400–0361 HEK293T ATCC CRL-11268 L929 Professor Qingqing Wang NA Experimental Models: mice Mouse: C57BL/6 Beijing Vital River Technology Co., Ltd NA Mouse: Lyz2-cre Professor Qingqing Wang Xiong 50 Mouse: Mettl3 f/f Professor Xiangwei Gao Xie 51 Oligonucleotide Table S1 for shRNA Tsingke This paper Table S2 for RT-qPCR primers Tsingke This paper Table S3 for WT or Mut 3′UTR Tsingke This paper Table S4 for WT or Mut Nlrp3 CDS Tsingke This paper Table S5 for Cut-Run-qPCR primers Tsingke This paper Recombinant DNA pRSI9-U6-(sh)-UBI-TagrFP-2A-Puro This paper Zong 52 pCDH-CMV-MCS-EF1-Puro This paper N/A pGL3-Basic Beijing Tsingke Biotech Co., Ltd. N/A pmirGLO Beijing Tsingke Biotech Co., Ltd. N/A pCMV-Myc-N This paper N/A pcDNA3.1-flag This paper Zong 53 pcDNA3.1-flag-METTL3 (WT) This paper Zong 53 pcDNA3.1-flag-METTL3 (D395A) This paper N/A Software and Algorithms GraphPad Prism 8 GraphPad Software https://www.graphpad-prism.cn/ RStudio RStudio https://www.rstudio.com Flowjo10 FlowJo, LLC https://www.flowjo.com/ Integrative Genomics Viewer (IGV) Broad Institute of MIT and Harvard https://igv.org/doc/desktop/",
       "entities": [
         {
+          "text": "METTL3",
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ASC",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "29108",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "β-ACTIN",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "31521",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GAPDH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2597",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSDMD",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79792",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3987,6 +3688,27 @@
       "text": "This STAR★Methods section from the article outlines the software and algorithms used in the study, including tools for statistical analysis and genomic visualization relevant to the methods employed in evaluating METTL3-mediated processes.\n\nN/A pCMV-Myc-N This paper N/A pcDNA3.1-flag This paper Zong 53 pcDNA3.1-flag-METTL3 (WT) This paper Zong 53 pcDNA3.1-flag-METTL3 (D395A) This paper N/A Software and Algorithms GraphPad Prism 8 GraphPad Software https://www.graphpad-prism.cn/ RStudio RStudio https://www.rstudio.com Flowjo10 FlowJo, LLC https://www.flowjo.com/ Integrative Genomics Viewer (IGV) Broad Institute of MIT and Harvard https://igv.org/doc/desktop/ ### Mice\n\nAll mice were maintained in a specific pathogen–free facility at the Laboratory Animal Center of Zhejiang University and cared for in accordance with the NIH Guide for the Care and Use of Laboratory Animals. All procedures were approved by the Institutional Animal Care and Use Committee of Zhejiang University (protocol no. 35985). C57BL/6 mice were purchased from the Beijing Vital River Laboratory Animal Technology Co., Ltd. Lyz2-Cre mice and Mettl3 flox/flox ( Mettl3 f/f ) mice were kindly provided by Professor Qingqing Wang (Zhejiang University, Hangzhou, China) and Professor Xiangwei Gao (Zhejiang University, Hangzhou, China), 50 respectively. 51 Mettl3 f/f mice were crossed with Lyz2-cre mice to obtain Lyz2-cre- Mettl3 f/f mice. Mice were sex-matched and used at 6–12 weeks of age.",
       "entities": [
         {
+          "text": "METTL3",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "pcDNA3.1-flag-METTL3 (WT)",
+          "type": "VECTOR",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pcDNA3.1-flag-METTL3 (D395A)",
+          "type": "VECTOR",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
           "text": "GraphPad Prism 8",
           "type": "SOFTWARE",
           "id": null,
@@ -4015,29 +3737,8 @@
           "source": "gpt"
         },
         {
-          "text": "pcDNA3.1-flag",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pcDNA3.1-flag-METTL3 (WT)",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pcDNA3.1-flag-METTL3 (D395A)",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Zong 53",
-          "type": "ENTITY",
+          "text": "Zhejiang University",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4083,29 +3784,22 @@
       "text": "This STAR★Methods section from Jie Fu's 2025 study outlines the maintenance and dietary conditions of sex-matched mice used in a high-fat diet (HFD) mouse model for 12–14 weeks in the investigation of the NLRP3 inflammasome.\n\nMice were sex-matched and used at 6–12 weeks of age. ### High-fat diet (HFD) mouse model\n\nMice 6–8 weeks old were maintained on an ND or HFD, (60% cal/fat) for 12–14 weeks.",
       "entities": [
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "high-fat diet (HFD)",
-          "type": "METHOD",
+          "text": "HFD",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mice",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ND",
-          "type": "METHOD",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4165,58 +3859,44 @@
       "entities": [
         {
           "text": "LPS",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-18",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3606",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "mice",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ELISA",
-          "type": "METHOD",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Stattic",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PBS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:86989",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4292,56 +3972,42 @@
       "entities": [
         {
           "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Stattic",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "LPS",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:86989",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "MSU",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:143125",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "PBS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "LPS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "digital caliper",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "arthritis",
+          "type": "DISEASE",
+          "id": "D001168",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "CELREP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Jie Fu",
-          "type": "ENTITY",
+          "text": "mice",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4407,58 +4073,58 @@
       "entities": [
         {
           "text": "STAT3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "macrophages",
+          "type": "CELL_LINE",
+          "id": "CVCL_F1ZX",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "Stattic",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:86989",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "LPS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "nigericin",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D009550",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "MSU",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "aluminum salts",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:143125",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4527,50 +4193,43 @@
       "text": "This STAR★Methods section from Fu et al. (2025) details the isolation of bone marrow-derived and peritoneal macrophages, including procedures for cell collection, red blood cell lysis, and differentiation in culture.\n\nAll cell lines were routinely tested for mycoplasma contamination and all tests were negative. ### Bone marrow-derived macrophage and peritoneal macrophage isolation\n\nBone marrow cells were flushed from femurs/tibias of 6–8-week-old mice, red blood cells (RBCs) were lysed, and cells were differentiated for 7 days in RPMI containing 10% FBS, L-glutamine, 50 μM β-mercaptoethanol, and 40% L929-conditioned medium (prepared by culturing L929 cells 7 days, centrifuging, and 0.45 μm filtering the supernatant). Adherent cells were used as BMDMs. Mice received intraperitoneal thioglycolate (Sigma, T0632); 3 days later, the peritoneal cavity was lavaged with PBS. Exudate cells were collected, RBC-lysed, plated, and adherent cells were used as PMs. 54 55",
       "entities": [
         {
-          "text": "Fu et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "bone marrow-derived macrophages",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_B3RA",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "peritoneal macrophages",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_T033",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "RPMI",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:65840",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "FBS",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "L-glutamine",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:18050",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "β-mercaptoethanol",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4580,6 +4239,13 @@
           "type": "CELL_LINE",
           "id": "CVCL_AR58",
           "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "thioglycollate",
+          "type": "CHEMICAL",
+          "id": "CHEBI:30066",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4640,50 +4306,7 @@
       "paragraph_index": 7,
       "parent_section_id": "sec8",
       "text": "This STAR★Methods section from Jie Fu's 2025 article outlines the chloroform-methanol protein precipitation method used for isolating proteins from culture supernatants, detailing the steps for centrifugation and resuspension in loading buffer.\n\n54 55 ### Chloroform-methanol protein precipitation\n\nProteins in culture supernatants were precipitated by the methanol/chloroform method : mix supernatant with 1 vol methanol and 0.25 vol chloroform, centrifuge (12,000 rpm, 5min) and discard the upper phase. Add 1 vol methanol, mix, centrifuge (5 min), discard supernatant, and air-dry the pellet at 55°C. Resuspend in 60 μL of 2 × loading buffer, boil (100°C, 10 min), and analyze by Western blot. 55",
-      "entities": [
-        {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chloroform-methanol protein precipitation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Western blot",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "methanol",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chloroform",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "loading buffer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -4749,59 +4372,59 @@
       "text": "This STAR★Methods section from the study outlines the procedures for Western blotting and real-time quantitative PCR, detailing the cell lysis, protein quantification, SDS-PAGE separation, and antibody incubation methods used in the experiments.\n\n55 ### Western blot and real-time qPCR\n\nCells were lysed in RIPA buffer with protease inhibitors and PMSF. Protein was quantified by BCA (Beyotime P0011), equal amounts were separated by SDS–PAGE, transferred to PVDF, and blocked in 5% non-fat milk for 1h. Membranes were incubated with primary antibodies followed by horseradish peroxidase (HRP)-conjugated secondary antibodies, and signals were detected using ECL (Beyotime P0018S). Total RNA was extracted with TRIzol, reverse-transcribed to cDNA, and amplified using SYBR Green (Roche) on a StepOnePlus real-time PCR system. Gene-specific primers ( Table S1 ; synthesized by Tsingke) were used. The relative mRNA expression of the target gene was analyzed by the 2 −ΔΔCT method using the β-actin as a normalization control. Table S2 Specific primers used for real-time PCR.",
       "entities": [
         {
-          "text": "Western blotting",
-          "type": "METHOD",
+          "text": "RIPA",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "real-time quantitative PCR",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RIPA buffer",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "PMSF",
+          "type": "CHEMICAL",
+          "id": "CHEBI:8102",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "BCA",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SDS–PAGE",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:189302",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "PVDF",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "HRP",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ECL",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
+          "id": "CHEBI:17249",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "TRIzol",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SYBR Green",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:51461",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4877,30 +4500,16 @@
       "entities": [
         {
           "text": "Murine IL-1β",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "TNF-α",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ELISA",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "real-time PCR",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "7124",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -4957,57 +4566,57 @@
       "text": "This STAR★Methods section from Jie Fu's 2025 article details the protocols for immunofluorescence staining, tissue histomorphology, and immunohistochemical staining used to analyze cell samples in the context of NLRP3 inflammasome activation.\n\n### Immunofluorescence staining, tissue histomorphology and immunohistochemical staining\n\nImmunofluorescence: Cells on glass-bottom dishes were fixed (4% paraformaldehyde, 10 min), washed (PBS ×3), permeabilized (0.1% Triton X-100, 8 min), and blocked (3% BSA, 20 min). Samples were incubated with primary antibody (4°C, overnight), washed, then Alexa Fluor 488 anti-mouse or 594 anti-rabbit secondary (30–45 min, dark). Nuclei were stained with DAPI (1:4000, 5–10 min), mounted with antifade medium, and imaged on a Zeiss LSM710 confocal microscope under identical settings. Histology & IHC (tissues). Mouse tissues were fixed (4% paraformaldehyde, 24h), paraffin-embedded, and sectioned (5 μm). For H&E, sections were stained and imaged (Leica DM3000). For IHC, sections were deparaffinized, rehydrated through graded alcohols, incubated with primary antibody followed by HRP-conjugated secondary, developed, counterstained, and imaged.",
       "entities": [
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Immunofluorescence staining",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Immunohistochemical staining",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "tissue histomorphology",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "DAPI",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:51231",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Alexa Fluor 488",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:52661",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Alexa Fluor 594",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:51248",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "Triton X-100",
+          "type": "CHEMICAL",
+          "id": "CHEBI:9750",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "BSA",
+          "type": "CHEMICAL",
+          "id": "CHEBI:139595",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "paraformaldehyde",
+          "type": "CHEMICAL",
+          "id": "CHEBI:61538",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Zeiss LSM710",
-          "type": "TECHNOLOGY",
+          "type": "CELL_LINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5066,59 +4675,38 @@
       "text": "This STAR★Methods section from the article details the procedure for isolating the stromal vascular fraction (SVF) from mouse epididymal fat and includes specific reagents and steps used in the isolation process.\n\nFor IHC, sections were deparaffinized, rehydrated through graded alcohols, incubated with primary antibody followed by HRP-conjugated secondary, developed, counterstained, and imaged. ### Isolation of stromal vascular fraction (SVF)\n\nSVF was isolated from mouse epididymal fat as described previously. Minced tissue was digested in collagenase I (2 mg/mL; 17100017, Gibco) with 3 mM CaCl 56 2 and 2% FBS for 30 min with shaking, filtered through a 40 μm mesh, and centrifuged (1,200 rpm, 5 min). Pellets were treated with pre-cooled red blood cell lysate buffer (5 min), washed, and recentrifuged (1,200 rpm, 5 min).",
       "entities": [
         {
-          "text": "stromal vascular fraction",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "mouse epididymal fat",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "collagenase I",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Gibco",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:67189",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "CaCl",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:3312",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "FBS",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "red blood cell lysate buffer",
-          "type": "TECHNOLOGY",
+          "text": "mouse",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "HRP-conjugated secondary",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "stromal vascular fraction",
+          "type": "CELL_LINE",
+          "id": "CVCL_ZD83",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -5181,43 +4769,22 @@
       "text": "This STAR★Methods section from the study details the protocols for conducting glucose tolerance tests (GTT) and insulin tolerance tests (ITT) in mice, including fasting procedures and blood glucose measurement timings.\n\nPellets were treated with pre-cooled red blood cell lysate buffer (5 min), washed, and recentrifuged (1,200 rpm, 5 min). ### Glucose tolerance test (GTT) and insulin tolerance test (ITT)\n\nFor GTTs, mice were fasted overnight and injected with D-glucose (2g/kg; 400 mg/mL). Blood glucose was measured from the tail vein at 0, 15, 30, 60, 90, and 120 min using a glucometer. For ITTs, after a 5-h fast, mice were injected with recombinant human insulin (0.75 U/kg). Blood glucose levels were measured using a glucometer. 57 57",
       "entities": [
         {
-          "text": "glucose tolerance tests",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "insulin tolerance tests",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "D-glucose",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:17634",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "recombinant human insulin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:5931",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "glucometer",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "red blood cell lysate buffer",
-          "type": "METHOD",
+          "text": "mice",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5280,57 +4847,7 @@
       "paragraph_index": 13,
       "parent_section_id": "sec8",
       "text": "This STAR★Methods section from the article details the analysis of serum glucose levels and lipid profiles (TG and TC) using a Hitachi 7600-020 automatic clinical chemistry analyzer.\n\n57 57 ### Serum glucose level and lipid profile analysis\n\nThe serum glucose level and lipid profiles, including TG and TC, were measured with a Hitachi 7600-020 automatic clinical chemistry analyzer (Hitachi).",
-      "entities": [
-        {
-          "text": "Hitachi 7600-020",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "serum glucose levels",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid profiles",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "TG",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "TC",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "automatic clinical chemistry analyzer",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Hitachi",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -5378,59 +4895,59 @@
       "text": "This STAR★Methods section from the article details the flow cytometry procedure used for analyzing single-cell suspensions from spleens, including sample preparation, RBC lysis, and antibody staining protocols for macrophage identification.\n\n### Flow cytometry\n\nSingle-cell suspensions were prepared by mechanically dissociating spleens and filtering through a 40 μm strainer. Cells were washed with PBS, subjected to RBCs lysis, then resuspended in staining buffer (2% FBS and 1 mM EDTA) and blocked with anti-CD16/32 (15 min, on ice). Surface staining was performed with the indicated antibodies (30 min, on ice, dark). Gating: M1 macrophages, CD45 + CD11b + F4/80 + CD11c + CD206 - ; M2 macrophages, CD45 + CD11b + F4/80 + CD11c − CD206 + . Single-stained controls were used for compensation. Data were acquired on a BD LSRFortessa and analyzed with FlowJo.",
       "entities": [
         {
-          "text": "flow cytometry",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "CD16",
+          "type": "PROTEIN",
+          "id": "2215",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "spleens",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RBC lysis",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "anti-CD16/32",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "CD32",
+          "type": "PROTEIN",
+          "id": "2212",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CD45",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "5788",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CD11b",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3684",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "F4/80",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "13733",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CD11c",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3687",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CD206",
+          "type": "PROTEIN",
+          "id": "4360",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "PBS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:63080",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -5494,28 +5011,21 @@
       "entities": [
         {
           "text": "actinomycin D",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:27666",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RT-qPCR",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "BD LSRFortessa",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "FlowJo",
-          "type": "TECHNOLOGY",
+          "type": "CELL_LINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5586,59 +5096,38 @@
       "text": "This STAR★Methods section from Jie Fu's 2025 CELREP article details the real-time luciferase assay used to assess the impact of m6A modifications on Jak1 and Il1β expression via 3′UTR constructs.\n\nAfter reverse transcription, mRNA levels at each time point were quantified by RT-qPCR. ### Real-time luciferase assay\n\nTo evaluate the effect of 3′UTR m 6 A site on Jak1 and Il1β expression, WT-3′UTR or MUT-3′UTR was inserted downstream of pmirGLO Dual-Luciferase vector. The complete sequence is presented in Table S2 . After 48h post-transfection, the activities of firefly luciferase and Renilla luciferase in each 24-well plate’ well were determined by a Dual-Luciferase Reporter Gene Assay Kit according to the product protocol.",
       "entities": [
         {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CELREP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "3′UTR",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "pmirGLO Dual-Luciferase",
-          "type": "TECHNOLOGY",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Dual-Luciferase Reporter Gene Assay Kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:73170",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -5713,56 +5202,56 @@
       "text": "This STAR★Methods section from Jie Fu's 2025 article details the procedures for polysome profiling analysis, specifically focusing on luciferase activity measurement in cells stimulated with LPS+ATP.\n\nAfter 48h post-transfection, the activities of firefly luciferase and Renilla luciferase in each 24-well plate’ well were determined by a Dual-Luciferase Reporter Gene Assay Kit according to the product protocol. ### Polysome profiling analysis\n\nAs described by Poria et al. with minor modifications. 58 The sh- 56 Scramble , sh- Ythdf1 , and sh- Mettl3 cells were stimulated with LPS+ATP, then treated with cycloheximide (CHX, 100 mg/mL, 10 min, 37°C). Cells were washed 3× with PBS+CHX (100 mg/mL) and pelleted (2,000 g, 5 min). Pellets were lysed in ice-cold buffer (20 mM HEPES, 100 mM KCl, 5 mM MgCl 2 and 1% Triton X-100, along with 100 mg/mL CHX, freshly supplemented with a 1:100 protease inhibitor, and 40 U/ml SUPERase RNase Inhibitor) snap-frozen in liquid nitrogen, thawed on ice, and clarified (4°C, 20 min). Supernatants were DNase-treated (Turbo DNase, 15 min); 500 μL lysate was loaded onto freshly prepared 10–50% sucrose gradients (SW41 Ti tubes) and centrifuged (39,000 rpm, 2.5h, 4°C). Fractions were collected with A260 monitoring. RNA from selected fractions was extracted with TRIzol (3× volume) and analyzed by RT-qPCR.",
       "entities": [
         {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "LPS",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "Dual-Luciferase Reporter Gene Assay Kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "cycloheximide",
+          "type": "DRUG",
+          "id": "D003513",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "Poria et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "HEPES",
+          "type": "CHEMICAL",
+          "id": "D006531",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "sh-56 Scramble",
-          "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
+          "text": "KCl",
+          "type": "CHEMICAL",
+          "id": "CHEBI:32588",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "sh-Ythdf1",
+          "text": "sh- Ythdf1",
           "type": "CELL_LINE",
           "id": "CVCL_0023",
           "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
-          "text": "sh-Mettl3",
+          "text": "sh- Mettl3",
+          "type": "CELL_LINE",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "sh- 56 Scramble",
           "type": "CELL_LINE",
           "id": null,
           "ontology": null,
@@ -5816,59 +5305,52 @@
       "text": "This STAR★Methods section from the article details the process of RNA extraction, total RNA-seq library preparation using NEBNext Ultra II, sequencing on Illumina NovaSeq, and subsequent data quality control measures.\n\nRNA from selected fractions was extracted with TRIzol (3× volume) and analyzed by RT-qPCR. ### Total RNA-seq library generation, sequencing and analysis\n\nTotal RNA was poly(A)-selected with oligo-dT beads and libraries prepared using NEBNext Ultra II (NEB). Libraries were sequenced on an Illumina NovaSeq (PE150). Adapters/low-quality bases were trimmed and reads <36 bp discarded. Clean reads were aligned to mouse mm10 with HISAT2 (v2.0.5); gene counts were generated by featureCounts (v1.5.0-p3) and expression summarized as Fragments Per Kilobase Million (FPKM). Differential expression was performed on raw counts using DESeq2 (v1.20.0) with Benjamini–Hochberg FDR correction.",
       "entities": [
         {
-          "text": "RNA extraction",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "total RNA-seq library preparation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "NEBNext Ultra II",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:143004",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Illumina NovaSeq",
-          "type": "TECHNOLOGY",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "TRIzol",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RT-qPCR",
-          "type": "METHOD",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "HISAT2",
-          "type": "TECHNOLOGY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "featureCounts",
-          "type": "TECHNOLOGY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mouse",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mm10",
+          "type": "GENE",
+          "id": "109279851",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -5943,20 +5425,6 @@
       "text": "This STAR★Methods section from Jie Fu's 2025 article details the nascent RNA labeling assay, describing the differential expression analysis and the experimental setup for examining RNA synthesis in sh-Scramble and sh-Mettl3 cells treated with LPS or LPS+ATP.\n\nDifferential expression was performed on raw counts using DESeq2 (v1.20.0) with Benjamini–Hochberg FDR correction. ### Nascent RNA labeling assay\n\nsh- Scramble and sh- Mettl3 cells were cultured in pre-coated glass over slides. EU markers were added while sh- Scramble and sh- Mettl3 cells were treated with LPS or LPS+ATP. Two hours later, a nascent RNA synthesis assay was conducted using Click EU-488 RNA synthesis Imaging Kits following the manufacturer’s protocols. Images were acquired through a Leica DM3000 Microsystem (Leica, Germany).",
       "entities": [
         {
-          "text": "Jie Fu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RNA labeling assay",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "sh-Scramble",
           "type": "CELL_LINE",
           "id": null,
@@ -5972,28 +5440,42 @@
         },
         {
           "text": "LPS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "LPS+ATP",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "ATP",
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "DESeq2",
-          "type": "METHOD",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Click EU-488 RNA synthesis Imaging Kits",
-          "type": "TECHNOLOGY",
+          "text": "EU-488",
+          "type": "COMPOUND",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Leica DM3000",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Benjamini–Hochberg",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6065,9 +5547,9 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -6078,45 +5560,17 @@
           "source": "gpt"
         },
         {
-          "text": "Leica DM3000 Microsystem",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NP-40",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Tris-HCl",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NaCl",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "α-amanitin",
-          "type": "METHOD",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SUPERase In",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:215086",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -6167,59 +5621,31 @@
       "text": "This STAR★Methods section from Fu et al. (2025) details the protocol for isolating chromatin RNA (chrRNA) and performing chrRNA sequencing, including specific reagents and techniques used for chromatin resuspension and lysis.\n\nThe chromatin was resuspended in a 50μL chromatin resuspension solution (25μM α-amanitin, 10U SUPERase In and protease inhibitor). ### chrRNA isolation and chrRNA-seq\n\nAdd 700μL of QIAzol lysis reagent to the isolated chromatin, and use a 1mL syringe (22G needle) to slowly blow and mix, so that the insoluble chromatin is wholly broken and dissolved. chrRNA was then isolated using the miRNeasy mini kit. After chrRNA was extracted, rRNAs were removed to retain conding RNAs and ncRNAs. The enriched conding RNAs and ncRNAs were fragmented into short fragments using fragmentation buffers and reverse transcribed into cDNA with random primers. Second-strand cDNA was synthesized by DNA polymerase I, RNase H, dNTP (dUTP instead of dTTP) and buffer. Next, the cDNA fragments were purified with a QiaQuick PCR extraction kit (Qiagen, Venlo, The Netherlands), end repaired, poly(A) added, and ligated to Illumina sequencing adapters. Then UNG (Uracil-N-Glycosylase) was used to digest the second-strand cDNA. The digested products were size selected by agarose gel electrophoresis, PCR amplified, and sequenced using Illumina HiSeqTM 4000 (or other platforms) by Gene Denovo Biotechnology Co. (Guangzhou, China).",
       "entities": [
         {
-          "text": "Fu et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chrRNA",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chrRNA sequencing",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "α-amanitin",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SUPERase In",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "protease inhibitor",
-          "type": "TECHNOLOGY",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "QIAzol",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "miRNeasy mini kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:82659",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -6271,23 +5697,23 @@
       "entities": [
         {
           "text": "chrRNA",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "m 6 A-immunoprecipitation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "m 6 A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "EpiMark N6-Methyladenosine Enrichment Kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
@@ -6305,15 +5731,15 @@
           "source": "gpt"
         },
         {
-          "text": "Illumina sequencing platform",
-          "type": "TECHNOLOGY",
+          "text": "Illumina",
+          "type": "COMPANY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Gene Denovo Biotechnology Co., Ltd",
-          "type": "ENTITY",
+          "type": "COMPANY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6384,57 +5810,57 @@
       "text": "This STAR★Methods section from the article outlines the library preparation and sequencing process on the Illumina platform and details the quantification of m 6 A in mRNA using specific purification and enzymatic digestion techniques.\n\nLibrary preparation and sequencing were performed on the Illumina sequencing platform by Gene Denovo Biotechnology Co., Ltd (Guangzhou, China). ### Quantification of m 6 A in mRNA and m 6 A dot blot\n\nmRNA was purified from total RNA using the GenElute mRNA Miniprep kit (Sigma-Aldrich, MRN70-1KT). mRNA (300 ng) was enzymatically digested (nuclease P1, 2 U, 42°C, 2h; then alkaline phosphatase, 0.5 U, 37°C, 2h) and m 6 A was quantified by HPLC–QqQ–MS/MS as our previously described. The equal amounts mRNA was spotted on nylon membranes, UV-crosslinked (254 nm, 0.12 J/cm 61 2 ), blocked in PBST +5% milk (1h), incubated with anti-m6A (4°C, overnight), washed (PBST, 3 × 10 min), incubated with HRP-secondary (1h), and developed by ECL; methylene blue staining served as the loading control.",
       "entities": [
         {
-          "text": "Illumina",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "m 6 A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:176211",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "Gene Denovo Biotechnology Co., Ltd",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Guangzhou, China",
-          "type": "ENTITY",
+          "text": "mRNA",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GenElute mRNA Miniprep kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Sigma-Aldrich",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:156503",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "nuclease P1",
-          "type": "METHOD",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "alkaline phosphatase",
-          "type": "METHOD",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "HPLC–QqQ–MS/MS",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Illumina",
+          "type": "ORGANISM",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "Sigma-Aldrich",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6512,56 +5938,56 @@
       "entities": [
         {
           "text": "Mettl3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
+          "type": "GENE",
+          "id": "1051",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "sh- Mettl3",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "sh-Mettl3",
-          "type": "ENTITY",
+          "text": "sh- Mettl14",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "sh-Mettl14",
-          "type": "ENTITY",
+          "text": "sh- Ythdf1",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "sh-Ythdf1",
-          "type": "ENTITY",
+          "text": "sh- Nlrp3",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "sh-Nlrp3",
-          "type": "ENTITY",
+          "text": "sh- C/ebpβ",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "sh-C/ebpβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sh-Jak1",
-          "type": "ENTITY",
+          "text": "sh- Jak1",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6645,22 +6071,22 @@
       "text": "This STAR★Methods section from Fu et al. (2025) details the lentivirus production process and the construction of a mutant plasmid for the mouse Nlrp3 gene, incorporating a Myc tag for subsequent experiments.\n\nLentivirus was produced by co-transfecting 293T cells with the expression or control vector plus psPAX2 and pMD2.G using Lipofectamine 3000, and used to transduce target cells. ### Construction of NLRP3 CDS mutant plasmid\n\nThe full-length cDNA sequence of mouse Nlrp3 gene was synthesized with a Myc tag at the N terminus and cloned into pCMV-Myc-N expression plasmid to generate the wild-type construct (NLRP3-WT). Nucleotide 890 of the Nlrp3 CDS sequence was mutated (5′-GAACU-3′ to 5′- GAGCU-3′) to generate the mutant-type construct (NLRP3-Mut-Glu-627). Nucleotide 939 of the Nlrp3 CDS sequence was mutated (5′-AGACU-3′ to 5′- GAGTU-3′) to generate the mutant-type construct (NLRP3-Mut-Asp-639). Nucleotides 890 and 939 of the Nlrp3 CDS sequence were mutated (5′-GAACU-3′ to 5′- GAGCU-3’; 5′-AGACU-3′ to 5′- GAGTU-3′) to generate the mutant-type construct (NLRP3-Mut-Glu-627+Mut-Asp-639). The complete sequence is presented in Table S4 .",
       "entities": [
         {
-          "text": "Fu et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "Nlrp3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "Myc tag",
-          "type": "CONCEPT",
+          "text": "Myc",
+          "type": "PROTEIN",
+          "id": "4609",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Lentivirus",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6674,28 +6100,21 @@
         },
         {
           "text": "Lipofectamine 3000",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pCMV-Myc-N",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:179167",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "NLRP3-WT",
-          "type": "ENTITY",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "NLRP3-Mut-Glu-627",
-          "type": "ENTITY",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6760,43 +6179,36 @@
       "text": "This STAR★Methods section from the article details the procedures for CUT&Tag library generation, including the use of specific reagents and protocols for sequencing and analysis of bead-bound cells.\n\nThe complete sequence is presented in Table S4 . ### CUT&Tag library generation, sequencing and analysis\n\nCUT&Tag was performed with the Hyperactive In-Situ ChIP Library Prep Kit (Vazyme, TD901) with minor adaptations. Cells were transferred to low-bind 1.5 mL tubes, mixed with 10 μL pre-washed ConA beads (Vazyme N411), and incubated 10 min, RT. Bead-bound cells were incubated in 50 μL Antibody Buffer containing 1 μg anti-METTL3 2h, RT, then washed 2× with 800 μL Digi-wash buffer. A 1 μg secondary antibody in 50 μL Digi-wash was added (45 min), followed by 2 × 800 μL Digi-wash. Next, 100 μL Digi-300 buffer plus 0.58 μL pG-Tn5 was added (1h), samples were washed 2× with Digi-wash, then tagmented in 300 μL Tagmentation Buffer (37°C, 1h). Reactions were stopped by adding 10 μL 0.5 M EDTA +3 μL 10% SDS +2.5 μL Proteinase K (20 mg/mL) and incubating 37°C, 1h. DNA was purified by phenol:chloroform extraction, ethanol-precipitated, air-dried, and resuspended in 25 μL TE. Libraries were PCR-amplified (Vazyme TD204) and sequenced on Illumina HiSeq X Ten/2500 per manufacturer instructions. Raw reads were trimmed with Trimmomatic-0.39 and then mapped to mouse genome (mm10) using bowtie2 (version 2.4.1) with “—dovetail” parameter in default mode: search for the multiple alignments, report the best one. Duplicated reads were removed with samtools “rmdup”. Peaks were called using HOMER in factor style with “-F 2 -L 2 -tagThreshold 10” parameters. Peaks identified in two biological replicates were pooled using bedtools (v.2.26.0) and were used in further analysis. The ENCODE blacklist was downloaded and used to mark CUT&RUN peaks. ROSE identified peaks with high intensity with default parameters. 62",
       "entities": [
         {
-          "text": "CUT&Tag",
-          "type": "METHOD",
+          "text": "METTL3",
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Vazyme",
+          "type": "COMPANY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Hyperactive In-Situ ChIP Library Prep Kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:232491",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "Vazyme",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "ConA",
+          "type": "CHEMICAL",
+          "id": "D003207",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "ConA beads",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "anti-METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Digi-wash buffer",
-          "type": "ENTITY",
+          "text": "Digi-wash",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6849,59 +6261,31 @@
       "text": "This STAR★Methods section from Fu et al. (2025) details the CUT&Run-qPCR procedure utilized to analyze DNA after protein binding and digestion, including specific materials and methods for purification and quantification.\n\n62 ### CUT&Run-qPCR\n\nThe cells were processed using the Hyperactive pG-MNase CUT&RUN Assay Kit (Vazyme, HD101-01). Cells were bound to ConA-coated magnetic beads, permeabilized with digitonin, incubated with anti-p-STAT3 or anti-C/EBPβ, and subjected to pAG-MNase digestion/release. DNA was purified (FastPure gDNA Mini Columns) and quantified by PCR/qPCR using primers listed in Table S5 .",
       "entities": [
         {
-          "text": "Fu et al.",
-          "type": "ENTITY",
+          "text": "p-STAT3",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "CUT&Run-qPCR",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "C/EBPβ",
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Hyperactive pG-MNase CUT&RUN Assay Kit",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:90623",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "Vazyme",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ConA-coated magnetic beads",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "digitonin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "anti-p-STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "anti-C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "FastPure gDNA Mini Columns",
+          "type": "DRUG",
+          "id": "CHEBI:82659",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -6976,59 +6360,59 @@
       "text": "This STAR★Methods section from the article outlines the KAS-seq library preparation process, detailing the purification of DNA and the steps for generating libraries using specific labeling and purification techniques.\n\nDNA was purified (FastPure gDNA Mini Columns) and quantified by PCR/qPCR using primers listed in Table S5 . ### KAS-seq library preparation\n\nKAS-seq libraries were generated according to a previous protocol. Cells were pulse-labeled in pre-warmed medium with 5 mM N3-kethoxal (10 min, 37°C, 5% CO 63 2 ), collected, and genomic DNA (gDNA) was purified by PureLink genomic DNA mini kit (Thermo, K182002). gDNA (1 μg) was click-conjugated with DBCO-PEG4-biotin (DMSO solution, Sigma, 760749) in 25 mM potassium borate buffer (37°C, 1.5h), treated with RNase A (Thermo, 12091039) (37°C, 5 min), and cleaned up. Biotinylated gDNA was then recovered by DNA Clean & Concentrator-5kit (Zymo, D4013). DNA was tagmented; 5% was kept as input and the remaining 95% was enriched on streptavidin beads (15 min), washed, PCR-amplified, and purified (MinElute PCR purification kit, Qiagen 28804). Libraries were sequenced on an Illumina NovaSeq 6000 (PE150), targeting ∼30 million reads per library.",
       "entities": [
         {
-          "text": "KAS-seq",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "FastPure gDNA Mini Columns",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PCR/qPCR",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "N3-kethoxal",
+          "type": "CHEMICAL",
+          "id": "CHEBI:59052",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "PureLink genomic DNA mini kit",
-          "type": "TECHNOLOGY",
+          "type": "DRUG",
+          "id": "CHEBI:137177",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "RNase A",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "DBCO-PEG4-biotin",
-          "type": "TECHNOLOGY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "RNase A",
-          "type": "ENTITY",
+          "text": "FastPure gDNA Mini Columns",
+          "type": "DRUG",
+          "id": "CHEBI:82659",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "PCR",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Thermo",
-          "type": "ENTITY",
+          "text": "qPCR",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Sigma",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "potassium borate",
+          "type": "CHEMICAL",
+          "id": "CHEBI:38911",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -7098,56 +6482,56 @@
       "entities": [
         {
           "text": "KAS-seq",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Illumina NovaSeq 6000",
-          "type": "TECHNOLOGY",
+          "type": "DEVICE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "trim-galore",
-          "type": "METHOD",
+          "type": "SOFTWARE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "bowtie2",
-          "type": "METHOD",
+          "type": "SOFTWARE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "samtools",
-          "type": "METHOD",
+          "type": "SOFTWARE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mm10",
-          "type": "ENTITY",
+          "type": "GENOME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "samtools sort",
-          "type": "METHOD",
+          "text": "v2.3.3.1",
+          "type": "VERSION",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "samtools rmdup",
-          "type": "METHOD",
+          "text": "v1.9",
+          "type": "VERSION",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -7219,56 +6603,35 @@
       "entities": [
         {
           "text": "Jak1",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "18S",
-          "type": "CONCEPT",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GenePharma Technology Co., Ltd.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PBS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "4% paraformaldehyde",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "0.1% Triton X-100",
-          "type": "METHOD",
+          "type": "COMPANY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -7343,29 +6706,7 @@
       "paragraph_index": 31,
       "parent_section_id": "sec8",
       "text": "This STAR★Methods section from Fu et al. (2025) outlines the quantitative analysis and statistical methods employed in the study, including the use of GraphPad Prism software for data evaluation.\n\nImages were acquired on a confocal microscope under identical acquisition settings and quantitatively analyzed. ### Quantification and statistical analysis\n\nThe statistical analyses were done as described in the figure legend with the GraphPad Prism software.",
-      "entities": [
-        {
-          "text": "Fu et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GraphPad Prism",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "confocal microscope",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CELREP",
         "article_id": "116808",
@@ -7424,21 +6765,42 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A methylation",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "IL-1β",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "16176",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Nlrp3",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NLRP3",
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "pro-IL-1β",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "pro-caspase-1",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -7451,29 +6813,8 @@
           "source": "gpt"
         },
         {
-          "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NLRP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pro-IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pro-caspase-1",
-          "type": "ENTITY",
+          "text": "BMDMs",
+          "type": "CELL_LINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -7521,58 +6862,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "CONCEPT",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NLRP3",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "LPS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "m6A",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "ATP",
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "sh- Mettl3",
-          "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
+          "text": "Asc",
+          "type": "GENE",
+          "id": "29108",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "sh- Scramble",
-          "type": "CELL_LINE",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RT-qPCR",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "Caspase1",
+          "type": "GENE",
+          "id": "692604",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -7617,58 +6958,51 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "LPS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "NLRP3 inflammasome",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chrRNA-seq",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "NLRP3",
+          "type": "PROTEIN",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "macrophages",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_F1ZX",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -7713,23 +7047,30 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "C/EBPβ",
+          "type": "PROTEIN",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -7740,31 +7081,17 @@
           "source": "gpt"
         },
         {
-          "text": "C/EBPβ",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "LPS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "CUT&CUN",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -7809,58 +7136,58 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "JAK1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STAT3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "6774",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "C/EBPβ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "1051",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "LPS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ATP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D064286",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -7907,37 +7234,30 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Jak1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3716",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Nlrp3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Il1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "3553",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -7952,6 +7272,13 @@
           "type": "CELL_LINE",
           "id": "CVCL_N663",
           "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "NLRP3 inflammasome",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -7997,21 +7324,28 @@
       "entities": [
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NLRP3",
-          "type": "CONCEPT",
+          "type": "GENE",
+          "id": "114548",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "IL-1β",
+          "type": "CYTOKINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "LPS",
-          "type": "TECHNOLOGY",
+          "text": "IL-18",
+          "type": "CYTOKINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -8031,24 +7365,17 @@
           "source": "gpt"
         },
         {
-          "text": "IL-1β",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "IL-18",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "LPS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "diet-induced obesity",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:9970",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],

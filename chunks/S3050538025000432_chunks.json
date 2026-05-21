@@ -4,7 +4,7 @@
   "total_chunks": 71,
   "text_chunks": 64,
   "visual_chunks": 7,
-  "total_entities": 417,
+  "total_entities": 403,
   "entities_with_ontology_id": 8,
   "total_relations": 257,
   "processed_chunks": [
@@ -19,43 +19,22 @@
       "text": "This introduction section from Zhangshuai Dai's article discusses the global health challenge of cancer, emphasizing its high incidence rates and unique epidemiological features in China as highlighted in the IARC Biennial Report 2020–2021.\n\nThe International Agency for Research on Cancer (IARC) Biennial Report 2020–2021, published by the World Health Organization (WHO), highlights cancer as a pressing global health challenge, marked by persistently high incidence rates and an increasing prevalence worldwide. In China, cancer has become one of the most prevalent diseases, characterized by unique epidemiological features and distinct patient demographics [1] . As a heterogeneous disease driven by dysregulated cell death pathways, cancer imposes a substantial and growing burden on global health systems [2] . Understanding the mechanisms of tumorigenesis and advancing therapeutic strategies that target and induce tumor cell death remain an urgent priority. Researchers are exploring the genetic mutations that drive cancer progression, such as alterations in the TP53 gene, as well as the influence of the tumor microenvironment in promoting therapeutic resistance. Current therapeutic strategies are advancing by targeting key molecules involved in tumor growth and by developing approaches to overcome resistance, including the use of agents that induce programmed cell death (PCD) and combination therapies that simultaneously target both the tumor cells and their supportive microenvironment.",
       "entities": [
         {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "International Agency for Research on Cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "IARC Biennial Report 2020–2021",
-          "type": "ENTITY",
+          "text": "IARC",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "World Health Organization",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "China",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cancer",
-          "type": "CONCEPT",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -107,8 +86,22 @@
       "text": "This introduction section from the article discusses advancements in cancer therapy strategies that target tumor growth molecules, overcome resistance, and involve programmed cell death approaches, highlighting the evolving understanding of cell death mechanisms over the past decade.\n\nCurrent therapeutic strategies are advancing by targeting key molecules involved in tumor growth and by developing approaches to overcome resistance, including the use of agents that induce programmed cell death (PCD) and combination therapies that simultaneously target both the tumor cells and their supportive microenvironment. Over the past decade, the Nomenclature Committee on Cell Death (NCCD) has provided a standardized framework for defining and classifying cell death, integrating morphological, biochemical, and functional parameters, including intrinsic apoptosis, extrinsic apoptosis, ferroptosis, mitochondrial permeability transition (MPT)-driven necrosis, necroptosis, pyroptosis, parthanatos, entotic cell death, NETotic cell death, lysosome-dependent cell death, autophagy-dependent cell death, immunogenic cell death, cellular senescence, and mitotic catastrophe. Historically viewed as a passive and inevitable consequence of cellular life, cell death is now understood to involve genetically regulated programs that selectively eliminate superfluous, damaged, or potentially dangerous cells. This paradigm shift, supported by extensive experimental evidence, has significantly deepened our understanding of the molecular underpinnings of cell death and its role in health and disease [3–7] .",
       "entities": [
         {
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "programmed cell death",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
           "text": "Nomenclature Committee on Cell Death",
-          "type": "ENTITY",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -160,57 +153,57 @@
       "text": "This introduction section from the article discusses the paradigm shift in understanding programmed cell death (PCD) and its various modalities, highlighting the significance of ferroptosis in health and disease.\n\nThis paradigm shift, supported by extensive experimental evidence, has significantly deepened our understanding of the molecular underpinnings of cell death and its role in health and disease [3–7] . PCD is a genetically regulated process encompassing several well-characterized modalities, including apoptosis, necroptosis, pyroptosis, ferroptosis, PANoptosis, and autophagy-dependent cell death. More recently, novel PCD mechanisms such as cuproptosis [8] and triaptosis [9] have been identified, expanding our understanding of cell death regulation. These PCD pathways play a crucial role in controlling tumorigenesis, tumor progression and tumor treatment. Increasing evidence indicates that resistance to PCD is a hallmark of cancer development, and a deeper understanding of these mechanisms is informing various targeted therapeutic strategies against tumors. Pharmacological targeting of specific PCD pathways using small-molecule compounds has emerged as a promising cancer approach, with significant advances achieved across multiple cancer types [10] . Different lethal pathways influence tumor behavior and therapeutic sensitivity. During the early stages of tumorigenesis, genetic or epigenetic alterations may confer therapeutic resistance to cancer cells by disrupting PCD signaling pathways, making evasion of cell death a defining feature of malignant tumors. Interestingly, therapeutic modulation of one or more PCD pathways, either independently or synergistically, holds promise for overcoming resistance and restoring therapeutic sensitivity [11] .",
       "entities": [
         {
-          "text": "programmed cell death",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "apoptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "necroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "pyroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "PANoptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "autophagy-dependent cell death",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cuproptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "triaptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -287,44 +280,44 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "neurodegenerative disorders",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:1289",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "ischemia-reperfusion injury",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:0081292",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "renal diseases",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:0050855",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "blood disorders",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:2218",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -399,56 +392,35 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "oxytosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Dixon et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Murphy et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "System Xc⁻",
-          "type": "TECHNOLOGY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "glutamate",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D043425",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "cystine–glutamate antiporter",
-          "type": "TECHNOLOGY",
+          "text": "SLC7A11",
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "System Xc⁻",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -524,24 +496,31 @@
       "text": "This overview section from the article discusses the characteristics and modeling of ferroptosis, highlighting the role of vitamin K as a potent inhibitor and the intricate mechanisms involving oxidative stress and lipid metabolism.\n\ndiscovered that vitamin K acts as a potent FSP1-dependent ferroptosis inhibitor, identified through a functional screen of vitamin compounds in GPX4-deficient mouse embryonic fibroblasts [29] . ### Characteristics and model of ferroptosis\n\nFerroptosis is a distinct form of regulated cell death orchestrated by a complex interplay among oxidative stress, lipid metabolism, and iron homeostasis. Its biochemical hallmark is the iron-dependent accumulation of lipid peroxides, primarily originating from the peroxidation of polyunsaturated fatty acids (PUFAs) within membrane phospholipids [22] . PUFAs, characterized by bis-allylic hydrogen atoms, have bis-allylic C-H bonds that are destabilized by adjacent double bonds, making these sites especially vulnerable to hydrogen abstraction. Once a hydrogen atom is removed, the carbon-centered radicals react rapidly with molecular oxygen, and can also react with iron-derived ROS, especially hydroxyl radicals generated via the Fenton reaction, amplifying oxidative damage. This cascade leads to widespread lipid peroxidation and membrane damage, culminating in cell death [24] . To mitigate iron-mediated oxidative stress, cells tightly regulate iron storage, uptake, and export through proteins such as ferritin, transferrin, ferroportin, transferrin receptor 1 (TFR1), and hepcidin. Another critical defense mechanism is the cystine/glutamate antiporter System Xc⁻, which imports cystine to support the synthesis of GSH, a major intracellular antioxidant. GSH serves as a cofactor for GPX4, an essential enzyme that reduces lipid hydroperoxides to non-toxic lipid alcohols. A defining feature of ferroptosis is the depletion of GSH and inactivation of GPX4, which leads to uncontrolled lipid peroxidation and overwhelming ROS accumulation [4] . While PUFA oxidation is an unavoidable physiological process, ferroptosis arises when the antioxidant defense machinery-particularly the GSH-GPX4 axis-is compromised. This feature sets ferroptosis apart from other forms of PCD, such as apoptosis. Ferroptosis is characterized by a failure to suppress lethal oxidative damage, whereas apoptosis typically proceeds through an actively executed signaling cascade [23,24] . Importantly, recent studies have demonstrated that endocytosis plays a crucial role in cysteine-deprivation-induced ferroptosis. Specifically, the depletion of cysteine leads to the activation of endocytic pathways, which facilitate the uptake of iron into lysosomes. This increase in lysosomal iron levels is a key factor in driving the ferroptotic process. The accumulation of iron within lysosomes enhances the production of ROS through Fenton chemistry, leading to lipid peroxidation and subsequent cell death. These findings underscore the importance of lysosomal iron in the pathogenesis of ferroptosis and highlight the complex interplay between iron metabolism and oxidative stress in this form of regulated cell death [30] .",
       "entities": [
         {
-          "text": "vitamin K",
-          "type": "ENTITY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "vitamin K",
+          "type": "DRUG",
+          "id": "D014812",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "FSP1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6275",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -552,29 +531,22 @@
           "source": "gpt"
         },
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "oxidative stress",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid metabolism",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "polyunsaturated fatty acids",
-          "type": "CONCEPT",
+          "text": "iron homeostasis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -645,42 +617,42 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "lysosomal iron",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:60504",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "iron metabolism",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "oxidative stress",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid peroxides",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D008054",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "cell membrane",
-          "type": "CONCEPT",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -757,30 +729,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "lipid peroxide detoxification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "lipid peroxide",
+          "type": "CHEMICAL",
+          "id": "D008054",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "apoptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "cancer therapy",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -843,30 +815,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "erastin",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RAS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "16653",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -941,58 +913,58 @@
       "entities": [
         {
           "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Erastin",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "System Xc⁻",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SLC3A2",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cystine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D003553",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "glutamate",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D043425",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "GSH",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -1067,56 +1039,56 @@
       "entities": [
         {
           "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "System Xc⁻",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "GSH",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "selenoprotein",
-          "type": "CONCEPT",
+          "text": "selenocysteine",
+          "type": "AMINO_ACID",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Sec",
-          "type": "ENTITY",
+          "type": "AMINO_ACID",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1193,23 +1165,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "FSP1/CoQH2 axis",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "text": "FSP1",
+          "type": "PROTEIN",
+          "id": "6275",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CoQH 2",
+          "type": "CHEMICAL",
+          "id": "CHEBI:17976",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -1271,31 +1250,38 @@
       "text": "This other section from the article discusses the radical-trapping antioxidant system's role in resistance to ferroptosis in tumor cells, emphasizing the complexity and variability of resistance pathways based on genetic and metabolic contexts.\n\nHowever, the precise intracellular locales where the GCH1/BH 4 system operates remain to be mapped. The identification of these multiple resistance pathways highlights the complexity of ferroptosis resistance in tumors. Tumors may differentially leverage these pathways depending on their genetic and metabolic contexts. For instance, tumors with high levels of lipid peroxidation may rely more on GPX4 for survival, making them more susceptible to GPX4 inhibitors. In contrast, tumors with lower GPX4 expression or activity may compensate through the FSP1/CoQH 2 axis or other GPX4-bypass pathways. Understanding these differential dependencies is crucial for designing effective combination therapies. For example, combining GPX4 inhibitors with agents that target the FSP1/CoQH 2 axis could provide a synergistic effect by simultaneously blocking multiple resistance pathways. Similarly, targeting both GPX4 and DHODH could enhance ferroptosis induction in tumors that utilize these pathways. Additionally, the GCH1/BH 4 pathway could be targeted in combination with other ferroptosis inducers to further enhance therapeutic efficacy. Future research should focus on elucidating the specific contexts in which each resistance pathway is activated and developing strategies to simultaneously target multiple pathways to overcome resistance and enhance therapeutic outcomes.",
       "entities": [
         {
-          "text": "GCH1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "BH4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "GCH1",
+          "type": "GENE",
+          "id": "2643",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "BH 4",
+          "type": "CHEMICAL",
+          "id": "CHEBI:218348",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "FS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:71032",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -1363,36 +1349,29 @@
       "text": "This other section from the article discusses MUFA-PL assembly and highlights the importance of exploring resistance pathways in tumor cells to enhance therapeutic outcomes in ferroptosis-targeting cancer therapies.\n\nFuture research should focus on elucidating the specific contexts in which each resistance pathway is activated and developing strategies to simultaneously target multiple pathways to overcome resistance and enhance therapeutic outcomes. ### MUFA-PL assembly\n\nUnlike PUFAs, monounsaturated fatty acids (MUFAs) lack bis-allylic carbons, making them inherently resistant to peroxidation. Supplementation with MUFAs can competitively displace PUFAs from membrane phospholipids, thereby reducing the risk of ferroptosis [84] . The key enzymes driving this protective remodeling are stearoyl-CoA desaturase 1 (SCD1) and long-chain fatty acyl-CoA synthetase 3 (ACSL3). SCD1 desaturates newly synthesized palmitate (C16:0) and stearate (C18:0) at the cis-Δ9 position, generating palmitoleate (C16:1) and oleate (C18:1), respectively ( Fig. 3 A) [85,86] . Elevated SCD1 and ACSL3 activity expands the cellular MUFA pool and confers ferroptosis resistance, whereas SCD1 and ACSL3 blockade sensitizes cells [86,87] . MUFAs additionally promote lipid-droplet formation and peroxisome biogenesis, both of which may sequester or catabolize oxidation-prone ether lipids [88] . Adding oleic acid (a type of MUFA) to the medium can inhibit ferroptosis. Nevertheless, oleic acid loses its protective effect when ACSL3 is deleted [89] , underscoring the requirement for ACSL3-mediated conversion of MUFAs into acyl-CoAs prior to membrane insertion ( Fig. 3 A) [85] . Recently, MBOAT1 and MBOAT2 were shown to selectively incorporate MUFAs into lysophosphatidylethanolamine, increasing PE-MUFA levels at the expense of PE-PUFA. This lipid metabolic process independently regulates ferroptosis via GPX4 or FSP1 [87] .",
       "entities": [
         {
-          "text": "MUFA-PL",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "MUFAs",
+          "type": "CHEMICAL",
+          "id": "CHEBI:25413",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "PUFAs",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:26208",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "MUFAs",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "stear",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1444,57 +1423,36 @@
       "text": "This research section from Zhangshuai Dai's 2025 article discusses the membrane repair system as a resistance mechanism in tumor cells against ferroptosis by analyzing the processes that protect against membrane damage during this form of cell death.\n\nThis lipid metabolic process independently regulates ferroptosis via GPX4 or FSP1 [87] . ### Membrane repair system\n\nPlasma membrane resealing functions as a late-stage defense against ferroptotic execution [90] . The terminal phase of ferroptosis is characterized by plasma membrane rupture and collapse of the outer mitochondrial membrane [91–93] . Repair mechanisms play a critical role in limiting cell death. Among them, the evolutionarily conserved Endosomal Sorting Complex Required for Transport-III (ESCRT-III) is particularly notable for its ability to protect against multiple forms of regulated cell death, including ferroptosis [94–96] . Lipid peroxidation creates pores in cell membranes, leading to leakage of extracellular Ca²⁺ into the cytoplasm and increasing intracellular Ca²⁺ levels [97] , which in turn recruits ESCRT-III components, such as charged multivesicular body proteins CHMP5 and CHMP6, to the plasma membrane for localized repair. Genetic silencing of CHMP5, CHMP6, or CHMP4B has been shown to increase sensitivity to ferroptosis [97,98] . Beyond ferroptosis, ESCRT-III also restricts pore-induced membrane damage during necroptosis and pyroptosis, establishing it as a broad suppressor of non-apoptotic cell death [99,100] . In pancreatic carcinoma models, classical ferroptosis inducers such as erastin and RSL3 promote the accumulation of CHMP5 and CHMP6 at the cell surface, whereas knockout of either protein significantly heightens ferroptotic vulnerability [96] . FSP1 further enhances resistance by facilitating CHMP5 and CHMP6 recruitment to the plasma membrane ( Fig. 3 B) [101] . However, when lipid peroxidation surpasses a critical threshold, the repair capacity of CHMP4B-, CHMP5-, and CHMP6-mediated pathways is ultimately overwhelmed, leading to cell death [97,98] .",
       "entities": [
         {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "membrane repair system",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "FSP1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6275",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "plasma membrane",
-          "type": "CONCEPT",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Endosomal Sorting Complex Required for Transport-III",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ESCRT-III",
-          "type": "TECHNOLOGY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1564,59 +1522,59 @@
       "text": "This subsection from the article discusses how disruptions in iron metabolism can influence lipid peroxidation and thus contribute to cellular mechanisms that resist ferroptosis in tumor cells.\n\nHowever, when lipid peroxidation surpasses a critical threshold, the repair capacity of CHMP4B-, CHMP5-, and CHMP6-mediated pathways is ultimately overwhelmed, leading to cell death [97,98] . ### Role of iron metabolism\n\nIron is an essential trace element in the body, and its abnormal distribution or content can disrupt normal physiological processes. In circulation, iron exists as Fe³ ⁺ bound to transferrin (TF). The TF–Fe³ ⁺ complex binds to TFR1 and undergoes endocytosis [102] . Inside the cell, Fe³ ⁺ is reduced to Fe²⁺ by six-transmembrane epithelial antigen of the prostate 3 (STEAP3), after which Fe²⁺ is either released into the labile iron pool (LIP) or stored in ferritin. This process is mediated by divalent metal transporter 1 (DMT1) or zinc-iron regulatory proteins ZIP8 and ZIP14. Excess Fe²⁺ is exported and oxidized back to Fe³ ⁺ by ferroportin ( Fig. 3 C) [103] . This tightly controlled iron cycle influences cellular sensitivity to ferroptosis: knockdown of TFRC reduces erastin-induced ferroptotic cell death, whereas overexpression of heme oxygenase-1 (HMOX-1) enhances it by increasing intracellular iron availability. Heat shock protein beta-1 (HSPB1) suppresses ferroptosis by downregulating TFR1 and lowering intracellular iron levels ( Fig. 3 C) [104] . Ferritin, composed of ferritin light chain (FTL) and ferritin heavy chain 1 (FTH1), is transcriptionally upregulated when iron response element binding protein 2 (IREB2) is inhibited. This elevation in ferritin sequesters iron and thereby inhibits erastin-induced ferroptosis [105] .",
       "entities": [
         {
-          "text": "CHMP4B",
-          "type": "ENTITY",
+          "text": "iron metabolism",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxidation",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "CHMP4B",
+          "type": "PROTEIN",
+          "id": "128866",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CHMP5",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "51510",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CHMP6",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79643",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Fe³⁺",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:29034",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "Fe²⁺",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "transferrin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "TFR1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "STEAP3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:29033",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -1685,56 +1643,56 @@
       "entities": [
         {
           "text": "NRF2",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "4780",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "E3 ubiquitin ligase complexes",
-          "type": "TECHNOLOGY",
+          "text": "E3 ubiquitin ligase",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "KEAP1–CUL3–RBX1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "KEAP1",
+          "type": "PROTEIN",
+          "id": "9817",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CUL3",
+          "type": "PROTEIN",
+          "id": "8452",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "RBX1",
+          "type": "PROTEIN",
+          "id": "9978",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "SCF/β-TrCP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "synoviolin/Hrd1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferritin",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1811,30 +1769,37 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "iron",
-          "type": "ENTITY",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxidation",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "text": "membrane integrity",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "PUFA",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:76567",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -1896,52 +1861,52 @@
       "text": "This subsection from the article discusses how classical ferroptosis inducers like erastin and RSL3 disrupt antioxidant defenses, emphasizing the importance of redox-regulating proteins, particularly GPX4, in preventing membrane damage during ferroptosis induction.\n\nMany classical ferroptosis inducers, including erastin and RSL3, function by disrupting these antioxidant defense mechanisms, highlighting the central role of redox-regulating proteins in ferroptosis suppression [115,116] . Among them, GPX4 is a key enzyme that reduces toxic lipid hydroperoxides (Lipid-ROS) to their corresponding alcohols, thus preventing membrane damage [117,118] . Specifically, GPX4 reduces phospholipid hydroperoxides (e.g., AA/AdA–PE–OOH) to phospholipid alcohols (PLOH), functioning as a phospholipid hydroperoxidase. Its activity is dependent on GSH and selenium availability [115] . Small molecules such as RSL3, ML162, and ML210 directly inhibit GPX4. In contrast, compounds like erastin and FIN56 impair GPX4 activity indirectly by depleting intracellular GSH. RSL3 binds covalently to GPX4, while erastin targets the cystine/glutamate antiporter (System Xc⁻), reducing cysteine uptake and depleting GSH pools [114] .",
       "entities": [
         {
-          "text": "erastin",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "erastin",
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Lipid-ROS",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "AA/AdA–PE–OOH",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "phospholipid alcohols",
-          "type": "CONCEPT",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "phospholipid hydroperoxides",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16247",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "phospholipid alcohols",
+          "type": "CHEMICAL",
+          "id": "CHEBI:22743",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2010,58 +1975,58 @@
       "entities": [
         {
           "text": "RSL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ferroptosis suppressor protein 1",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "System Xc⁻",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "FSP1/AIFM2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "CoQH 2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:17976",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "vitamin K hydroquinone",
+          "type": "CHEMICAL",
+          "id": "CHEBI:8784",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -2136,56 +2101,56 @@
       "entities": [
         {
           "text": "erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "sorafenib",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077157",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "Fenton reaction",
-          "type": "METHOD",
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxidation",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mitochondria",
-          "type": "ENTITY",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "endoplasmic reticulum",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lysosomes",
-          "type": "ENTITY",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2262,56 +2227,56 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "plasma membrane",
-          "type": "ENTITY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid peroxide",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D008054",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "glutathione",
+          "type": "CHEMICAL",
+          "id": "D005978",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "glutathione peroxidase 4",
+          "type": "PROTEIN",
+          "id": "819427",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "NADPH",
+          "type": "CHEMICAL",
+          "id": "D000074409",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "FSP1",
+          "type": "PROTEIN",
+          "id": "6275",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "apoptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "necroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pyroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "glutathione–glutathione peroxidase 4",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NADPH–FSP1",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2388,35 +2353,14 @@
       "entities": [
         {
           "text": "Ninjurin-1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "717218",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "plasma membrane rupture",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "calcium influx",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2493,56 +2437,56 @@
       "entities": [
         {
           "text": "NINJ1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "4814",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Piezo1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "9780",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mitochondria",
-          "type": "ENTITY",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lysosomes",
-          "type": "ENTITY",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "plasma membrane",
-          "type": "ENTITY",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "TRP channels",
-          "type": "TECHNOLOGY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2616,7 +2560,43 @@
       "paragraph_index": 0,
       "parent_section_id": "sec0080",
       "text": "This other section from the article discusses the critical difference between ferroptosis sensitivity and execution, highlighting factors that influence a cell's susceptibility to lipid peroxide accumulation and ferroptosis vulnerability.\n\nIt is essential to distinguish between ferroptosis sensitivity and the regulation of ferroptosis execution. Ferroptosis sensitivity refers to the inherent susceptibility of a cell to accumulate lethal levels of lipid peroxides within membrane phospholipids. This susceptibility is governed by factors such as intracellular iron availability, ROS and the pool of oxidizable PUFAs, and the capacity of both pro-oxidant and antioxidant systems. A useful conceptual metaphor is to view sensitivity as the combination of “fuel” (PUFAs) and “ignition sources” (iron), while the execution of ferroptosis represents the failure of “fire extinguishers” (antioxidant defenses) to suppress lipid peroxidation, ultimately leading to membrane rupture. Modulating ferroptosis sensitivity involves a wide array of enzymes, biomolecules, and metabolites that influence lipid peroxidation dynamics [90] .These components are distributed throughout the cell, including the plasma membrane, cytosol, and various organelles. The contribution of specific metabolites, enzymes, and organelles to both the execution of ferroptosis and the modulation of sensitivity varies considerably across cell types and depending on the ferroptosis stimulus [137] . Therefore, the context-dependent roles of these factors highlight the complexity in predicting cellular responses to ferroptosis induction [90] .",
-      "entities": [],
+      "entities": [
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxides",
+          "type": "CHEMICAL",
+          "id": "D008054",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ROS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:26523",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "PUFAs",
+          "type": "CHEMICAL",
+          "id": "CHEBI:26208",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "CLNVES",
         "article_id": "100049",
@@ -2687,59 +2667,59 @@
       "text": "This mechanisms section from Zhangshuai Dai's article discusses the synthesis of polyunsaturated fatty acid phospholipids (PUFA-PLs) and their susceptibility to peroxidation, emphasizing factors influencing cellular responses to ferroptosis induction.\n\nTherefore, the context-dependent roles of these factors highlight the complexity in predicting cellular responses to ferroptosis induction [90] . ### PUFA-PLs synthesis\n\nPUFAs exhibit inherent vulnerability to peroxidation due to weakened C–H bonds in their bis-allylic methylene groups [138,139] . Contemporary investigations have concentrated on ω-6 species, γ-linolenic (18:3), linoleic (18:2), dihomo-γ-linolenic (20:3), arachidonic (AA, 20:4) and adrenic (AdA, 22:4) acids, along with ω-3 counterparts such as α-linolenic (18:3), eicosapentaenoic (20:5) and docosahexaenoic (22:6) acids [140,141] . Among these, AA (20:4) and AdA (22:4) represent the dominant lipid peroxidation substrates in ferroptosis. Critically, unesterified PUFAs lack intrinsic cytotoxic. Their incorporation into membrane phospholipids requires sequential enzymatic processing: ACSL4-mediated conversion to CoA derivatives followed by LPCAT3-catalyzed esterification to phosphatidylethanolamines (PEs). Illustratively, ACSL4 activates free AA to AA-CoA, which LPCAT3 subsequently esterifies to form PE-AA, an essential step for ferroptosis execution [142–144] . Malonyl-CoA, generated via ACC-dependent carboxylation of acetyl-CoA, facilitates de novo synthesis of specific PUFAs and is likewise necessary for ferroptosis [145] . Peroxisomal biogenesis of plasmalogens constitutes an additional route for generating peroxidizable PUFAs and thereby promotes ferroptosis [146,147] . Conversely, phospholipase A2 group VI (iPLA2β) removes oxidized PUFA moieties from phospholipids, attenuating p53-mediated ferroptosis [148] . Significantly, deuterium substitution at bis-allylic sites in PUFAs ( D -PUFAs) retards radical chain propagation and confers resistance to erastin- or RSL3-induced ferroptosis, highlighting structure-dependent reactivity determinants [138] ( Fig. 5 A).",
       "entities": [
         {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "polyunsaturated fatty acid phospholipids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:26208",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "PUFA-PLs",
-          "type": "CONCEPT",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "ω-6 species",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "ω-6",
+          "type": "CHEMICAL",
+          "id": "CHEBI:28661",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "γ-linolenic",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:133790",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "linoleic",
-          "type": "CONCEPT",
+          "type": "CHEMICAL",
+          "id": "D019787",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "dihomo-γ-linolenic",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "arachidonic",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D016718",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -2808,49 +2788,35 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "polyunsaturated fatty acid-containing phospholipids",
-          "type": "CONCEPT",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "PUFA-PLs",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferrous iron",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "Fe 2+",
+          "type": "CHEMICAL",
+          "id": "CHEBI:31594",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "lipoxygenases",
-          "type": "METHOD",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cytochrome P450 oxidoreductase",
-          "type": "METHOD",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2921,58 +2887,58 @@
       "entities": [
         {
           "text": "lipoxygenases",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cytochrome P450 oxidoreductase",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ALOX12",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "239",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ALOX15",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "246",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "phosphatidylethanolamine-binding protein 1",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "stearoyl-AA-PE",
-          "type": "ENTITY",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "erastin",
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3038,7 +3004,36 @@
       "paragraph_index": 4,
       "parent_section_id": "sec0080",
       "text": "This subsection from the article discusses the role of iron in lipid peroxidation and ferroptosis, emphasizing the need for further research into oxygenases and factors that affect peroxidation dynamics in various biological contexts.\n\nFuture studies are warranted to identify additional oxygenases and contextual factors that influence peroxidation dynamics in different biological settings. ### Iron metabolism and toxicity\n\nAs highlighted earlier, lipid peroxidation relies on both iron-activated enzymes and iron-driven Fenton chemistry, underscoring the obligatory role of iron in ferroptosis. This notion is further supported by recent findings that endocytosis is essential for cysteine-deprivation-induced ferroptosis, indicating that lysosomal iron may also play a critical role in this process [30] . Consequently, any manipulation of iron trafficking modulates ferroptosis risk. Circulating Fe 3+ is bound to transferrin [162] and internalized via the membrane receptor TFR1 [163] , within the endosome it is reduced to Fe²⁺ by STEAP3 [164] , then released into the cytosol through SLC11A2 to constitute the labile iron pool that fuels hydroxyl radical formation and ensuing ferroptosis [165] . Excess iron is ordinarily locked inside ferritin, a heteropolymer of FTH1 and FTL [166] . However, nuclear receptor coactivator 4 (NCOA4)-mediated ferritin phagocytosis releases a large amount of free iron [91,167] , whereas SLC40A1 exports surplus Fe 2+ across the membrane [168] . Consistent with this circuitry, genetic ablation of TF, TFR1, SLC11A2 or NCOA4, together with enforced expression of FTH1, FTL and SLC40A1, all diminish the labile iron pool and thereby blunt ferroptosis [35,169,170] . Thus, interventions that fine-tune cytosolic iron import, storage and export critically calibrate cellular ferroptosis susceptibility.",
-      "entities": [],
+      "entities": [
+        {
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxidation",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cysteine",
+          "type": "AMINO_ACID",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "CLNVES",
         "article_id": "100049",
@@ -3109,15 +3104,43 @@
       "text": "This other section from the article discusses how interventions in iron metabolism and mitochondrial functions can influence cellular sensitivity to ferroptosis, highlighting the role of iron in regulating redox-active processes and reactive oxygen species generation.\n\nThus, interventions that fine-tune cytosolic iron import, storage and export critically calibrate cellular ferroptosis susceptibility. Beyond the cytoplasmic compartment, mitochondria serve as the principal hub for iron utilization and the dominant source of ROS, critically regulating redox-active processes and ferroptosis [162,171] . Iron entry into the mitochondrial matrix requires sequential transport through both outer and inner membranes, mediated by SLC11A2 on the outer membrane and by solute carrier family 25 member 37 (SLC25A37) or solute carrier family 25 member 28 (SLC25A28) on the inner membrane [172–175] . Recent investigations have emphasized the gatekeeper function of CDGSH iron-sulfur domain 1 (CISD1) in mitochondrial iron homeostasis [176,177] . CISD1 depletion markedly augments erastin-induced mitochondrial ferrous iron, amplifying local lipid peroxidation and ferroptosis [178] . Mechanistically, CISD1 interacts with voltage-dependent anion channels (VDACs) and modulates their conductance in a redox-sensitive manner [179] . Pharmacological targeting of VDAC abrogates mitoCISD1-mediated mitochondrial iron loading and erastin-triggered ferroptosis [180,181] . Within the matrix, ferritin mitochondrial (FTMT) sequesters excess iron, thereby lowering both total and chelatable iron and attenuating ferroptosis [59,182,183] . ATP binding cassette subfamily B member 7 (ABCB7) is responsible for exporting iron from mitochondria to the cytosol [184–186] . However, although ABCB7 depletion causes mitochondrial iron accumulation, this condition does not enhance mitochondrial ROS production or induce ferroptosis [184,187] . Conversely, ABCB8 actively exports mitochondrial iron [188,189] , and its overexpression reduces matrix iron, conferring protection against ferroptosis-associated ischemia–reperfusion injury and doxorubicin-induced cardiomyopathy [190,191] ( Fig. 5 C). Recent studies have further elucidated the critical role of 3-hydroxybutyrate dehydrogenase type 2 (BDH2) in mediating iron transfer from lysosomes to mitochondria, which significantly influences ferroptosis susceptibility in melanoma cells [192] . BDH2 localizes at mitochondria-lysosome contact sites (MLCs) and catalyzes the production of 2,5-dihydroxybenzoic acid (2,5-DHBA), a key metabolite that promotes iron translocation from lysosomes to mitochondria. This iron redistribution is essential for sustaining mitochondrial bioenergetics and maintaining lysosomal acidification, thereby supporting MLC stability. The expression and activity of BDH2 vary between melanocytic (MEL) and mesenchymal (MES) states of melanoma cells, contributing to their differential sensitivity to ferroptosis. Specifically, BDH2 deficiency in MES cells disrupts lysosomal pH homeostasis and impairs MLC dynamics, resulting in lysosomal iron accumulation and enhanced ferroptosis vulnerability. Importantly, restoration of BDH2 expression or exogenous administration of 2,5-DHBA normalizes lysosomal acidity and MLC integrity, thereby conferring protection against ferroptosis and promoting metastatic capacity in MES cells. Taken together, these data underscore that multiple, compartment-specific regulators of mitochondrial iron flux collectively dictate cellular susceptibility to ferroptosis.",
       "entities": [
         {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "reactive oxygen species",
+          "type": "CHEMICAL",
+          "id": "D017382",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
           "text": "SLC11A2",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "4891",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "solute carrier family 25 member 3",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "solute carrier family 25 member 3",
-          "type": "ENTITY",
+          "text": "mitochondria",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3182,42 +3205,21 @@
       "entities": [
         {
           "text": "p53",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "7157",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mitochondrial iron flux",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "K117R",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "K161R",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "K162R",
-          "type": "ENTITY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3288,44 +3290,44 @@
       "entities": [
         {
           "text": "p53-R270H",
-          "type": "ENTITY",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "wild-type p53",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "p53",
+          "type": "PROTEIN",
+          "id": "7157",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "statins",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:87631",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "p21",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "1026",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Cdkn1a",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "1026",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -3388,49 +3390,56 @@
       "entities": [
         {
           "text": "p53",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "7157",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "BAP1",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "8314",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mesotheliomas",
-          "type": "ENTITY",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "uveal melanomas",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:3479",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "cholangiocarcinomas",
-          "type": "ENTITY",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "clear cell renal cell carcinomas",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:4467",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
+          "text": "nuclear deubiquitinase",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3512,38 +3521,45 @@
       "text": "This subsection from the article explores how tumor suppressors and oncogenes influence the sensitivity of cancer cells to ferroptosis through mechanisms related to cysteine metabolism and mevalonate signaling, highlighting potential vulnerabilities in GPX4 inhibition.\n\n6 A). The convergence of distinct oncogenic pathways on cysteine metabolism and mevalonate signaling underscores a potential common vulnerability to GPX4 inhibition across cancer types. These observations motivate systematic inquiries into whether analogous cystine-uptake deficits and reduced mevalonate intermediates manifest in other cancer contexts, and whether additional tumor suppressors enforce this metabolic state [16,17,205] .",
       "entities": [
         {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cysteine",
+          "type": "AMINO_ACID",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "mevalonate",
+          "type": "CHEMICAL",
+          "id": "D054078",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cysteine metabolism",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "mevalonate signaling",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "tumor suppressors",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:0080366",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "oncogenes",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D009857",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -3618,37 +3634,58 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "hypoxia-inducible factors",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cystine",
+          "type": "CHEMICAL",
+          "id": "D003553",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "mevalonate",
+          "type": "CHEMICAL",
+          "id": "D054078",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "tumor suppressors",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "renal cell carcinomas",
-          "type": "CELL_LINE",
-          "id": "CVCL_X539",
-          "ontology": "Cellosaurus",
+          "type": "DISEASE",
+          "id": "DOID:4450",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "clear cell RCC",
-          "type": "CELL_LINE",
-          "id": "CVCL_AX15",
-          "ontology": "Cellosaurus",
+          "type": "DISEASE",
+          "id": "DOID:172",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -3711,21 +3748,21 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "mesenchymal-like states",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:11512",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "zinc-finger E-box binding homeobox 1",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3790,30 +3827,23 @@
       "entities": [
         {
           "text": "Erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "System Xc⁻",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "piperazine erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Yang et al.",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3876,51 +3906,51 @@
       "entities": [
         {
           "text": "System Xc⁻",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "IKE",
-          "type": "ENTITY",
+          "type": "DRUG",
+          "id": "D025543",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3983,42 +4013,42 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ML210",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:176502",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "nitrile oxide",
+          "type": "CHEMICAL",
+          "id": "CHEBI:47838",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "BCR-ABL",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "25",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "tyrosine kinase inhibitors",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000092004",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "TKIs",
-          "type": "TECHNOLOGY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4095,44 +4125,37 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Fin56",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:176419",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "tyrosine kinase inhibitors",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000092004",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "leukemia",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D007938",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "bladder cancer cells",
-          "type": "CELL_LINE",
-          "id": "CVCL_S786",
-          "ontology": "Cellosaurus",
+          "text": "bladder cancer",
+          "type": "DISEASE",
+          "id": "DOID:11054",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -4207,58 +4230,37 @@
       "entities": [
         {
           "text": "L-Buthionine-(S,R)-sulfoximine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:17412",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GCL",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2729",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "non-malignant tissues",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "chronic stress",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cancer models",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -4326,31 +4328,38 @@
       "text": "This current and potential therapeutic agents targeting ferroptosis section from Zhangshuai Dai's article discusses the implications of GSH depletion in patients with compromised antioxidant defenses and introduces various promising drugs and natural products targeting ferroptosis.\n\nIt is important to consider, however, that GSH depletion could be detrimental in patients with compromised antioxidant defenses, such as those with chronic inflammatory diseases, liver dysfunction, or genetic deficiencies in redox regulation, potentially leading to enhanced susceptibility to ferroptosis in healthy tissues ( Table 1 ). In addition to synthetic compounds, natural products such as ursolic acid (UA) have shown promising ferroptosis-inducing effects. UA is a pentacyclic triterpene widely found in traditional medicinal plants, fruits, and vegetables, with broad pharmacological activities spanning cancer, diabetes, liver disease, and cardiovascular disorders [226] . Notably, combined treatment with UA and sorafenib has demonstrated synergistic antitumor effects in vitro and in vivo, primarily by inducing ferroptosis through increased lipid ROS accumulation. Mechanistically, this effect is associated with downregulation of SLC7A11, a key subunit of System Xc⁻, implicating impaired cystine uptake as a driver of ferroptotic cell death [227,228] . Although natural products such as UA are generally considered safe, their capacity to robustly induce ferroptosis necessitates a cautious approach when used in patients with comorbidities. Specifically, in individuals with chronic inflammation, autoimmune disorders, or pre-existing organ damage, the induction of ferroptosis could lead to uncontrolled lipid peroxidation. This unregulated process might exacerbate existing pathological conditions, potentially worsening the overall clinical outcome. Therefore, it is imperative to conduct thorough evaluations and consider the potential risks associated with the use of such natural products in these vulnerable patient populations ( Table 1 ).",
       "entities": [
         {
-          "text": "GSH",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "GSH",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ursolic acid",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000097245",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "UA",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "chronic inflammatory diseases",
+          "type": "DISEASE",
+          "id": "DOID:2536",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "liver dysfunction",
+          "type": "DISEASE",
+          "id": "DOID:0080208",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -4406,38 +4415,31 @@
       "text": "This subsection from the article discusses the clinical application prospects of targeting ferroptosis, highlighting the challenges of therapeutic resistance in glioblastoma patients treated with temozolomide.\n\nTherefore, it is imperative to conduct thorough evaluations and consider the potential risks associated with the use of such natural products in these vulnerable patient populations ( Table 1 ). ### Clinical application prospects\n\nTemozolomide (TMZ) efficacy in glioblastoma (GBM) patients is clinically constrained by therapeutic resistance, with no established interventions to restore TMZ sensitivity. Albumin-Bound Paclitaxel (ABP), a novel microtubule-targeting agent, potentiates TMZ response in GBM cells. In vitro analyses revealed synergistic growth inhibition following TMZ/ABP co-administration. In vivo, this combination robustly suppressed tumor progression and significantly extended survival in orthotopic xenograft models without observable toxicity. Proteomic and functional validation studies demonstrated that ABP+TMZ induces persistent DNA damage by impairing XPC and ERCC1 expression and nuclear translocation. Furthermore, the regimen enhanced ferroptosis via HOXM1-dependent GPX4 downregulation. Preclinical assessment using GBM patient-derived organoids (PDOs) confirmed superior efficacy of dual therapy over TMZ monotherapy. These findings position ABP as a promising TMZ-sensitizing agent, supporting its clinical translation for GBM treatment [229] . Nonetheless, it is crucial to meticulously assess the potential adverse effects of concomitantly using microtubule-targeting and DNA-damaging agents. This is particularly important for individuals suffering from chronic inflammatory diseases or autoimmune conditions. In these patients, the immune system is already in a state of dysregulation, often characterized by heightened inflammatory responses and tissue damage. The use of microtubule-targeting agents can disrupt cellular processes involved in immune cell function and trafficking, while DNA-damaging agents can induce additional cellular stress and inflammation. When used in combination, these agents may synergistically exacerbate immune dysregulation, leading to more severe inflammatory responses and further tissue damage. This could result in a worsening of existing symptoms and potentially new complications related to immune-mediated tissue injury. Therefore, a careful evaluation of the risks and benefits of such combinations is essential, especially in patients with pre-existing immune or inflammatory conditions ( Table 1 ).",
       "entities": [
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "glioblastoma",
+          "type": "DISEASE",
+          "id": "D005909",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "temozolomide",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "glioblastoma",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077204",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Albumin-Bound Paclitaxel",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000068196",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "GBM",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:4780",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -4506,37 +4508,30 @@
       "entities": [
         {
           "text": "berberine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D001599",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Coptis chinensis",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "ORGANISM",
+          "id": "261450",
+          "ontology": "NCBI Taxonomy",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "non-small cell lung cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "NSCLC",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:3908",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -4611,56 +4606,42 @@
       "entities": [
         {
           "text": "berberine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D001599",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "JNK activators",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:88340",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "JNK-IN-8",
-          "type": "ENTITY",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SP600125",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:90695",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RB1CC1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RB1CC1/FIP200",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid ROS",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "9821",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -4730,59 +4711,38 @@
       "text": "This current and potential therapeutic agents targeting ferroptosis section from Zhangshuai Dai's article discusses the clinical application prospects of strategically utilizing JNK's pro-ferroptosis effects while considering inflammatory consequences, with a focus on the FDA-approved medication sulfasalazine.\n\nThis highlights the importance of developing targeted therapeutic strategies that can selectively exploit JNK's pro-ferroptosis effects while mitigating its inflammatory consequences, particularly in patients with compromised immune or inflammatory homeostasis. Sulfasalazine (SAS) is a Food and drug administration (FDA)-approved medication for rheumatoid arthritis and inflammatory bowel disease [236] , is administered orally. Gut microbiota metabolize SAS into its active components, sulfapyridine and 5-aminosalicylic acid. A 2001 study demonstrated that SAS itself (0.3 mM), distinct from its colonic metabolites, inhibits cystine uptake. This identified SAS as a potent System Xc⁻ inhibitor capable of significantly suppressing lymphoma growth in rat xenograft models following intraperitoneal administration (200 or 250 mg/kg), with minimal host toxicity [237] . Although SAS can induce ferroptosis, its efficacy in this regard is substantially lower than erastin. The reversal of SAS-induced cell death by β-mercaptoethanol, which reduces extracellular cystine to cysteine, bypassing System Xc⁻, confirms SAS acts via this transporter to trigger ferroptosis [238] . Furthermore, SAS exhibits growth-inhibitory effects on diverse cancer cell types, including prostate, liver, small cell lung, head and neck, and triple-negative breast cancers [239–242] . Similar to erastin, SAS sensitizes cancer cells to standard therapies. For instance, intraperitoneal SAS (30–40 mg/kg) synergizes with gamma knife radiosurgery, enhancing survival in nude rats bearing glioblastoma (GBM) xenografts expressing SLC7A11 [243] . Similarly, SAS boosts carboplatin efficacy against triple-negative breast tumors, approximately one-third of which express SLC7A11 [242] . SAS also potentiates cisplatin cytotoxicity in colorectal and head and neck cancers [244] . However, clinical trials evaluating SAS for glioma and lymphoma treatment proved unsuccessful, likely attributable to its low potency and metabolic instability [245] . The diazo bond of SAS is rapidly cleaved during metabolism. While synthesized analogs featuring alkyne groups exhibit improved stability, their potency as System Xc⁻ inhibitors requires further enhancement [246] . While SAS has demonstrated efficacy and safety in the management of autoimmune diseases, its emerging application as a ferroptosis inducer in oncology introduces new considerations. In cancer patients, especially those with coexisting inflammatory conditions, the therapeutic landscape is more complex. The induction of ferroptosis, a form of regulated cell death, is a promising strategy for targeting cancer cells. However, the inflammatory milieu in these patients can influence the balance between pro-tumorigenic and anti-tumorigenic effects. SAS, as a repurposed agent, might modulate this balance in unintended ways. For instance, its immunomodulatory properties, which are beneficial in autoimmune contexts, could lead to immunosuppression in cancer patients, potentially compromising their immune surveillance against tumor cells. Additionally, the inflammatory environment could amplify SAS’s effects, either enhancing its therapeutic potential or exacerbating pre-existing vulnerabilities. Therefore, a nuanced approach is needed to tailor SAS’s use in cancer therapy, ensuring that its ferroptosis-inducing properties are harnessed effectively while minimizing risks associated with immune dysregulation and tissue damage ( Table 1 ).",
       "entities": [
         {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "JNK",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "5599",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "sulfasalazine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "FDA",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D012460",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "rheumatoid arthritis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:7148",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "inflammatory bowel disease",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "gut microbiota",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D015212",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -4851,58 +4811,58 @@
       "entities": [
         {
           "text": "SAS",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:191026",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Sorafenib",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077157",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Vascular endothelial growth factor receptor 1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "VEGFR",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Platelet-derived growth factor receptor",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "PDGFR",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Raf kinases",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "renal cell carcinoma",
+          "type": "DISEASE",
+          "id": "DOID:4450",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "type": "DISEASE",
+          "id": "DOID:684",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         }
       ],
@@ -4977,58 +4937,37 @@
       "entities": [
         {
           "text": "sorafenib",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077157",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "altretamine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "FDA",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "triethylenemelamine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D006585",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "multi-kinase inhibitor",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "palliative therapy",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ovarian cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D061325",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "triethylenemelamine",
+          "type": "CHEMICAL",
+          "id": "D014265",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -5085,58 +5024,58 @@
       "entities": [
         {
           "text": "altretamine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D006585",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "cisplatin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D002945",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "renal impairment",
+          "type": "ANATOMY",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "hepatic impairment",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "bladder cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:11054",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "ovarian cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "gastric cancer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "DNA adduct",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D061325",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -5211,14 +5150,21 @@
       "entities": [
         {
           "text": "docetaxel",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077143",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "paclitaxel",
-          "type": "ENTITY",
+          "type": "DRUG",
+          "id": "D017239",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "M-phase",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5295,8 +5241,8 @@
           "source": "gpt"
         },
         {
-          "text": "ferroptosis inducers",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5310,16 +5256,30 @@
         },
         {
           "text": "prostate cancer",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:10283",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
-          "text": "erastin",
-          "type": "DRUG",
-          "id": "CHEBI:94287",
-          "ontology": "ChEBI",
+          "text": "hematologic toxicity",
+          "type": "DISEASE",
+          "id": "DOID:2531",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "peripheral neuropathy",
+          "type": "DISEASE",
+          "id": "DOID:870",
+          "ontology": "Disease Ontology",
+          "source": "gpt"
+        },
+        {
+          "text": "bone marrow suppression",
+          "type": "DISEASE",
+          "id": "DOID:4960",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
@@ -5400,43 +5360,36 @@
       "text": "This clinical application prospects section from \"Targeting ferroptosis in cancer therapy\" discusses the selective toxicity of artesunate toward cancer cells and highlights the caution needed in patients with G6PD deficiency, alongside the introduction of gemcitabine as a therapeutic agent.\n\nWhile artesunate shows promising selective toxicity toward cancer cells, its potent pro-oxidant mechanism necessitates careful monitoring in patients with glucose-6-phosphate dehydrogenase (G6PD) deficiency or chronic hemolytic conditions, where oxidative stress could precipitate hemolytic anemia ( Table 1 ). Gemcitabine (GCB) is a pyrimidine nucleoside analog that is phosphorylated by deoxycytidine kinase (DCK) after being internalized via nucleoside transporters. This phosphorylation leads to the formation of gemcitabine triphosphate (dFdCTP), which is incorporated into replicating DNA, thereby inhibiting DNA synthesis and inducing cell death [2] . Upon entry into the human body, GCB is metabolized into several active forms, all of which have potent inhibitory effects on DNA replication. Despite its efficacy in treating various cancers, the clinical utility of gemcitabine is frequently limited by the development of drug resistance [272–275] .The activity of gemcitabine is regulated by multiple enzymes, and resistance is influenced by complex metabolic and signaling pathways. In PDAC, gemcitabine remains a cornerstone of chemotherapy. Intriguingly, transcriptomic analyses of PDAC tumor samples have revealed a strong association between gemcitabine and ferroptosis inducers. For instance, elevated GPX4 levels have been observed in gemcitabine-resistant PDAC cells. Mechanistically, activation of activating transcription factor 4 (ATF4) upregulates HSPA5, which binds to GPX4, stabilizing it and preventing lipid peroxidation, thereby contributing to ferroptosis resistance [276–278] .Additionally, the sensitivity of PDAC cells to ferroptosis correlates positively with immune-related factors, including high CD8 + T cell infiltration and type II interferon responses. Furthermore, carbonyl reductase 1 (CBR1) plays a protective role against oxidative stress in PDAC cells. Its suppression leads to elevated ROS levels and reduced cell proliferation. Inhibition of CBR1 sensitizes cancer cells to gemcitabine. Notably, flavonoid-albumin conjugates have been shown to bind directly to CBR1, reducing its enzymatic activity, increasing intracellular free iron, inducing ferroptosis, and ultimately enhancing gemcitabine sensitivity [279] . The theory that iron-induced oxidative stress inherently promotes oxidative damage may theoretically exacerbate the toxicity of gemcitabine. However, particular caution is warranted in patients with impaired bone marrow function or preexisting pulmonary disease, as additional ROS-mediated oxidative injury may amplify gemcitabine-induced bone marrow suppression and pulmonary injury .",
       "entities": [
         {
-          "text": "artesunate",
-          "type": "TECHNOLOGY",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "artesunate",
+          "type": "DRUG",
+          "id": "D000077332",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "G6PD",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "2539",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "gemcitabine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "glucose-6-phosphate dehydrogenase",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "deoxycytidine kinase",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "nucleoside transporters",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -5513,58 +5466,58 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "gemcitabine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "TMZ",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:72564",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ABP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:232095",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "GPX4",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "berberine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D001599",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "artesunate",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077332",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "JNK",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "sorafenib",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "5599",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -5639,58 +5592,51 @@
       "entities": [
         {
           "text": "SAS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:191026",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "altretamine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D006585",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "cisplatin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D002945",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "docetaxel",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000077143",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "gemcitabine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "cancer therapy",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "therapeutic agents",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -5765,58 +5711,44 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "cancer treatment",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "iron homeostasis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid metabolism",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "redox signaling",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "drug discovery",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "drug development",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "ferroptosis modulators",
+          "type": "DRUG",
+          "id": "CHEBI:173084",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -5891,30 +5823,30 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferroptosis-targeted therapies",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ferroptosis inducers",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173085",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ferroptosis-inducing agents",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:176508",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -5982,29 +5914,36 @@
       "text": "This conclusion section from the article discusses advances in small molecule design and innovative detection methods for ferroptosis, highlighting strategies to enhance cancer therapy and overcome current limitations in detection techniques.\n\nAdvances in the design of small molecules that function under physiological conditions, along with innovative approaches such as proteolysis-targeting chimeras (PROTACs) and lysosome-targeting chimeras, may help overcome these limitations [280–282] . Second, Current ferroptosis detection methods rely heavily on in vitro assays such as lipid peroxidation staining, malondialdehyde quantification, and GPX4 expression analysis, which are not easily applicable to living organisms. The detection and monitoring of ferroptosis, particularly in vivo, remain major obstacles. Reliable in vivo biomarkers or imaging techniques that can dynamically track ferroptosis events in tumors are still lacking. The development of non-invasive, sensitive, and specific detection tools would be instrumental for both mechanistic studies and clinical translation.",
       "entities": [
         {
-          "text": "PROTACs",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "malondialdehyde",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D008315",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "proteolysis-targeting chimeras",
+          "type": "DRUG",
+          "id": "CHEBI:747473",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "lysosome-targeting chimeras",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6066,7 +6005,36 @@
       "paragraph_index": 3,
       "parent_section_id": "sec0130",
       "text": "This conclusion section from the article discusses the challenges of detecting ferroptosis and its immunological implications in cancer therapy, highlighting potential obstacles due to the release of immunosuppressive factors and effects on anti-tumor immune cells.\n\nThe development of non-invasive, sensitive, and specific detection tools would be instrumental for both mechanistic studies and clinical translation. Third, the immunological consequences of ferroptosis present significant obstacles. Ferroptotic cancer cells can release immunosuppressive factors, and ferroptosis inducers may inadvertently eliminate anti-tumor immune cells, undermining immune surveillance. Therefore, developing cell type-specific targeting strategies and exploring combination regimens are essential to enhance efficacy while minimizing immune-related toxicity. In particular, shifting the focus away from complete inhibition of master regulators like GPX4 toward less toxic targets within ferroptosis regulatory networks may improve safety profiles.",
-      "entities": [],
+      "entities": [
+        {
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "immunosuppressive factors",
+          "type": "CHEMICAL",
+          "id": "CHEBI:35705",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "anti-tumor immune cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_C8ZA",
+          "ontology": "Cellosaurus",
+          "source": "gpt"
+        }
+      ],
       "metadata": {
         "journal_id": "CLNVES",
         "article_id": "100049",
@@ -6132,23 +6100,23 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "cancer genomic data",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -6223,21 +6191,21 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "lipid peroxidation",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "plasma membrane",
-          "type": "CONCEPT",
+          "type": "ANATOMY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -6295,45 +6263,38 @@
       "text": "This conclusion section from Zhangshuai Dai's article discusses the need for further exploration of lipid transport proteins and the molecular mechanisms by which intracellular iron contributes to the initiation of ferroptosis in cancer therapy.\n\nFurthermore, the role of lipid transport proteins, beyond STARD7, remains largely unexplored and warrants further investigation. Sixth, the initiation mechanisms of ferroptosis and the activation role of intracellular iron remain active areas of inquiry. While ferroptosis typically begins with intracellular Fe²⁺ accumulation, the precise molecular mechanisms by which iron drives ferroptosis are not fully elucidated. Some studies suggest that ferroptosis is initiated via ROS generation and inhibition of lipid antioxidant systems, while others propose that pharmacological or genetic suppression of antioxidant regulators may be sufficient to trigger ferroptosis. Whether these processes are entirely dependent on iron overload, and how iron orchestrates ferroptotic signaling, remain key questions for future research.",
       "entities": [
         {
-          "text": "Zhangshuai Dai",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "lipid transport proteins",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "STARD7",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56910",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Fe²⁺",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:29033",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ROS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:26523",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -6396,23 +6357,23 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "cancer therapy",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "precision medicine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "cancer",
+          "type": "DISEASE",
+          "id": "D000570",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -6460,64 +6421,7 @@
       "paragraph_index": 0,
       "parent_section_id": "sec0135",
       "text": "This funding section from the article provides details on the financial support received from various research foundations and projects relevant to the study on targeting ferroptosis in cancer therapy.\n\nThis work was supported in part by the National Natural Science Foundation of China (No. 82370167 ), Guangdong Basic and Applied Basic Research Foundation (No. 2023A1515012118 ), Guangzhou Major Medical Disciplines Project (2025–2027) and Guangzhou Municipal Science and Technology Project (No. 2025A04J4283 ).",
-      "entities": [
-        {
-          "text": "National Natural Science Foundation of China",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Guangdong Basic and Applied Basic Research Foundation",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Guangzhou Major Medical Disciplines Project",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Guangzhou Municipal Science and Technology Project",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "82370167",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "2023A1515012118",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "2025–2027",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "2025A04J4283",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        }
-      ],
+      "entities": [],
       "metadata": {
         "journal_id": "CLNVES",
         "article_id": "100049",
@@ -6649,52 +6553,52 @@
       "caption": "Timeline of key discoveries and pathways in ferroptosis regulation. Early studies on oxytosis (1989) highlighted a vulnerability related to GSH/ ROS, foreshadowing the concept of ferroptosis. In 2003, erastin-induced cell death was reported to be iron-dependent, leading to the formal definition of ferroptosis in 2012. Subsequent research identified system Xc⁻ inhibition and GPX4 inactivation (2014) as critical drivers of lipid peroxidation and ferroptosis. The role of ACSL4-mediated polyunsaturated fatty acid–phospholipid (PUFA–PL) synthesis (2016) emerged as a pivotal susceptibility pathway. More recent studies have uncovered GPX4-independent lipid antioxidant mechanisms, including the FSP1–coenzyme Q10 (FSP1–CoQ 10 ) axis (2019), the GCH1–BH 4 pathway (2020), and DHODH-mediated mitochondrial CoQ 10 recycling (2021). Notably, vitamin K was identified as a potent ferroptosis inhibitor (2022). Collectively, these discoveries have significantly advanced our understanding of lipid-based cell death and its regulation.",
       "entities": [
         {
-          "text": "Vitamin K",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ROS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "Vitamin K",
+          "type": "DRUG",
+          "id": "D014812",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "GSH",
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "ROS",
+          "type": "CHEMICAL",
+          "id": "CHEBI:26523",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "system Xc⁻",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:35337",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "GP",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "3371",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -6736,58 +6640,58 @@
       "entities": [
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "RSL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:173109",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "FSP1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "6275",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "System Xc⁻",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SLC3A2",
-          "type": "ENTITY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cystine",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "D003553",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "lipid peroxyl radicals",
+          "type": "CHEMICAL",
+          "id": "CHEBI:18059",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -6829,58 +6733,58 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "monounsaturated fatty acids",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "MUFAs",
+          "type": "CHEMICAL",
+          "id": "CHEBI:25413",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "polyunsaturated fatty acid-phospholipids",
-          "type": "CONCEPT",
+          "text": "PUFA-PLs",
+          "type": "CHEMICAL",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ESCRT-III",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "35933",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ROS",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:26523",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "transferrin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "5575625",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ferritin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "547824",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
-          "text": "lipid peroxidation",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "iron",
+          "type": "CHEMICAL",
+          "id": "D007501",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -6922,56 +6826,56 @@
       "entities": [
         {
           "text": "NRF2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "4780",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "glutathione",
+          "type": "CHEMICAL",
+          "id": "D005978",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "ferroptosis",
+          "type": "DISEASE",
+          "id": "D000079403",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "GCLC",
+          "type": "GENE",
+          "id": "2729",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GCLM",
+          "type": "GENE",
+          "id": "2730",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GPX4",
+          "type": "GENE",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "KEAP1-CUL3-RBX1",
-          "type": "TECHNOLOGY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SCF/β-TrCP",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Synoviolin/Hrd1",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GCLC",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GCLM",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GPX4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -7014,59 +6918,59 @@
       "caption": "Metabolic and biochemical pathways influencing ferroptosis sensitivity: PUFA-PL synthesis, regulation of lipid peroxidation, and iron metabolism and toxicity. (A) Polyunsaturated fatty acid (PUFA)-phospholipids (PLs) serve as key substrates for ferroptosis. Acetyl-CoA carboxylase (ACC) initiates PUFA synthesis, followed by activation by ACSL4 and incorporation into PLs by lysophosphatidylcholine acyltransferase 3 (LPCAT3). Peroxisomes support this process via plasmalogen biosynthesis. Phospholipase A2 group VI (iPLA2β) removes oxidized PUFA tails, while D -PUFAs inhibit peroxidation. (B) Regulation of Lipid Peroxidation: Lipid peroxidation, a hallmark of ferroptosis, is driven by lipoxygenases (ALOXs) and cytochrome P450 oxidoreductase (POR), producing phospholipid hydroperoxides (PL-PUFA-OOH). If not reduced by GPX4, these peroxides accumulate and disrupt membrane integrity. Iron-catalyzed Fenton reactions further amplify peroxidation. (C) Iron metabolism shapes ferroptosis sensitivity. TFR1 imports ferric iron (Fe³⁺), which is reduced by six-transmembrane epithelial antigen of prostate 3 (STEAP3) and stored in ferritin (FTL, FTH1). Ferritinophagy via nuclear receptor coactivator 4 (NCOA4) and mitochondrial transport by SLC25A37/28 modulate the labile iron pool (LIP). Excess Fe²⁺ is exported via SLC40A1.",
       "entities": [
         {
-          "text": "Polyunsaturated fatty acid",
-          "type": "CONCEPT",
+          "text": "ferroptosis",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "ferroptosis",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "polyunsaturated fatty acid",
+          "type": "CHEMICAL",
+          "id": "CHEBI:26208",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "acetyl-CoA carboxylase",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "833497",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ACSL4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2182",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "lipoxygenases",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "phospholipid hydroperoxides",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16247",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "TFR1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "7037",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -7108,58 +7012,58 @@
       "entities": [
         {
           "text": "p53",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "7157",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "BAP1",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "8314",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "SLC7A11",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "HIF1α",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "HIF2α",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "GPX4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ACSL4",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "GSH",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:16856",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "HIF1α",
+          "type": "PROTEIN",
+          "id": "3091",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "HIF2α",
+          "type": "PROTEIN",
+          "id": "13819",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "GPX4",
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ACSL4",
+          "type": "PROTEIN",
+          "id": "2182",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -7201,56 +7105,56 @@
       "entities": [
         {
           "text": "Ursolic acid",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000097245",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Erastin",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:94287",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "SLC7A11",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "23657",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "Sulfasalazine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D012460",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Altretamine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D006585",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Gemcitabine",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "D000093542",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "GPX4",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "2879",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "pan-cancer",
-          "type": "CONCEPT",
+          "type": "DISEASE",
           "id": null,
           "ontology": null,
           "source": "gpt"

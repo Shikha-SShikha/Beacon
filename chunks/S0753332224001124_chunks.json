@@ -4,7 +4,7 @@
   "total_chunks": 33,
   "text_chunks": 28,
   "visual_chunks": 5,
-  "total_entities": 186,
+  "total_entities": 150,
   "entities_with_ontology_id": 13,
   "total_relations": 103,
   "processed_chunks": [
@@ -20,58 +20,30 @@
       "entities": [
         {
           "text": "COVID-19",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Severe Acute Respiratory Syndrome Coronavirus Type 2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "June 2023",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "771 million",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "7 million",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "vaccine research",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "novel coronavirus",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "vaccines",
+          "type": "DRUG",
+          "id": "D014612",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -139,23 +111,23 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "N6-methyladenosine",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -228,52 +200,31 @@
       "text": "This section from the article discusses the concept of epigenetic transcriptomics, focusing on RNA post-transcriptional modifications and their role in regulating RNA metabolism, gene expression, and their association with human diseases.\n\nEpigenetic transcriptomics (also known as \"RNA epigenetics\") refers to RNA post-transcriptional modifications. These modifications are involved in regulating various aspects of RNA metabolism, thus affecting gene expression and multiple biological processes. The association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers [1,2] , nerve damage [3] , metabolic diseases, etc.",
       "entities": [
         {
-          "text": "epigenetic transcriptomics",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RNA post-transcriptional modifications",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "gene expression",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "human diseases",
-          "type": "ENTITY",
+          "text": "RNA",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cancers",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:5612",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "nerve damage",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:11452",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "metabolic diseases",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D008659",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -346,59 +297,38 @@
       "text": "This section from the article discusses the significance of RNA modifications in human diseases, focusing on the m6A modification, characterized by methylation at the sixth nitrogen atom of adenine, and its implications in various health conditions.\n\nThe association between RNA modifications and a variety of human diseases has been scientifically verified, including but not limited to various types of cancers [1,2] , nerve damage [3] , metabolic diseases, etc. The m6A modification is a result of methylation occurring at the sixth nitrogen atom ( N ) of adenine. This specific alteration was first documented in 1974 and is widely observed in mRNA of eukaryotes, composing more than 80% of all methylation modifications found in RNA [4] . In 2012, Dominissini and Meyer developed a novel technique to map the whole m6A to a large number of mammalian transcriptomes, and they found that regions exhibiting elevated levels of m6A are located in close proximity to the termination codon and within the 3′ untranslated regions (3′ UTRs) [5,6] . At the same time, other researchers identified that m6A is mainly present in DRACH motif and GGACU motif [7] . In the 1970s, influenza A virus and adenovirus were found to have m6A modification sites [8,9] . During the past years, the involvement of m6A in viral life cycle and its impact on antiviral responses have been verified. The regulation of m6A modification on the life cycle of various viruses can be different, or even opposite. The knockdown of methyltransferase-like protein (METTL3) and methyltransferase-like protein 14 (METTL14) increases the production of Endogenous retroviruses [10] and Zika virus [11] , but it inhibits the replication of human respiratory syncytial virus [12] . Similarly, m6A modification can upregulate the expression of human immunodeficiency virus 1 in HEK293T cells, while negatively affecting its expression in CD4 + T lymphocytes [13,14] .",
       "entities": [
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "adenine",
-          "type": "ENTITY",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "cancers",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:5612",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "nerve damage",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "DOID:11452",
+          "ontology": "Disease Ontology",
           "source": "gpt"
         },
         {
           "text": "metabolic diseases",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D008659",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "Dominissini",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Meyer",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "eukaryotes",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "adenine",
+          "type": "CHEMICAL",
+          "id": "D000225",
+          "ontology": "MeSH",
           "source": "gpt"
         }
       ],
@@ -471,29 +401,22 @@
       "text": "This article section from BIOPHA discusses the impact of m6A RNA modification on the expression of viruses, including its confirmed presence in the SARS-CoV-2 genome and its regulation by various m6A enzymes within host cells.\n\nSimilarly, m6A modification can upregulate the expression of human immunodeficiency virus 1 in HEK293T cells, while negatively affecting its expression in CD4 + T lymphocytes [13,14] . Recently, the presence of m6A modification has been confirmed in the SARS-CoV-2 genome. m6A modification is regulated by various m6A enzymes within host cells [15] . Specifically, the m6A modification has been found to be associated with the clinical conditions of COVID-19 patients [16] . This connection has prompted researchers to focus closely on its potential role as a promising and innovative therapeutic target for COVID-19.",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "m6A enzymes",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "human immunodeficiency virus 1",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -514,7 +437,14 @@
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A enzymes",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -589,29 +519,8 @@
       "text": "This section from the article discusses the regulatory roles of writers, erasers, and readers in the dynamic balance of m6A RNA modification.\n\nThe dynamic balance of m6A modification in RNA is regulated by the methylation modification of \"writers\", the demethylation of \"erasers\", and the recognition of \"readers\".",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "writers",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "erasers",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "readers",
-          "type": "ENTITY",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -674,29 +583,29 @@
       "text": "This section from the article discusses the m6A RNA methyltransferases, specifically highlighting the roles and interactions of METTL3 and METTL14 as pivotal components of methyltransferase complexes.\n\n### RNA methyltransferases (Writers)\n\nThe writers of m6A refer to multiple methyltransferases that work as complexes. METTL3 and METTL14 are the first stable heteronuclear dimers found in methyltransferase complexes [17] . METTL3 acts as S-adenosine binding protein, which has the capacity of methyltransferase, and METTL14 can promote the binding of RNA and complex. They collaborate to play a crucial role in RNA m6A modification. Subsequently, Wilms Tumor 1 associated protein (WTAP) binds METTL3 to METTL14, and induces METTL3-METTL14 complex localization, thereby promoting complex activity [18] . RNA binding motif protein 15/15B (RBM15/15B) acts as part of the complexes that promote the binding to specific RNA sites [19] . Besides, VIRMA (KIAA1429), ZC3H13, CBLL1 (HAKAI), and METTL16 [20–23] have also been observed to interact with components of methyltransferase complex.",
       "entities": [
         {
-          "text": "m6A RNA methyltransferases",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL14",
-          "type": "ENTITY",
+          "type": "PROTEIN",
+          "id": "57721",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Wilms Tumor 1 associated protein",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Wilms Tumor 1 associated protein",
-          "type": "ENTITY",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -771,59 +680,59 @@
       "text": "This section from the article discusses the role of RNA demethylases, specifically highlighting their function in the dynamic and reversible removal of m6A modifications from RNA and mentions key eraser proteins such as FTO and AlkB homolog.\n\nBesides, VIRMA (KIAA1429), ZC3H13, CBLL1 (HAKAI), and METTL16 [20–23] have also been observed to interact with components of methyltransferase complex. ### RNA demethylases (Erasers)\n\nErasers of m6A can remove methyl groups from RNA, resulting in a modification of the m6A surface that undergoes dynamic and reversible changes. Eraser mainly includes obesity-associated protein (FTO) and AlkB homolog 5 (ALKHB5) [24,25] . FTO has been recognized as the first m6A eraser that is connected with obesity and can regulate cellular energy homeostasis [24] . The identification of ALKBH5 confirms the existence of another demethylase responsible for m6A modification [25] . FTO and ALKBH5 exhibit distinct expression patterns across various tissues and cell types.",
       "entities": [
         {
-          "text": "RNA demethylases",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "FTO",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79068",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "AlkB homolog",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "VIRMA",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "25962",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "KIAA1429",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "25962",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ZC3H13",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "23091",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "CBLL1",
+          "type": "GENE",
+          "id": "79872",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "HAKAI",
+          "type": "GENE",
+          "id": "79872",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL16",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "79066",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -897,35 +806,21 @@
       "entities": [
         {
           "text": "FTO",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "79068",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "ALKBH5",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "54890",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "YTH domain",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "hnRNP family",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -976,57 +871,36 @@
       "text": "This methods section from Jiayi Liu's article outlines various techniques, including MeRIP and LC-MS/MS, for detecting RNA m6A modification, highlighting advancements that facilitate understanding of m6A levels in human and mouse tissues.\n\nCurrently, there are many applicable methods to detect RNA m6A modification. In 2012, a novel high-throughput technology named as m6A-methylated RNA immunoprecipitation (MeRIP) was developed to measure m6A levels in both humans and mice 5,6 . Additionally, liquid chromatography tandem mass spectrometry (LC-MS/MS) and colorimetric m6A RNA methylation assay offer alternative ways to obtain the overall m6A methylation level on RNA. In order to study the specific RNA region with m6A methylation modification, MeRIP-sequencing is utilized based on the principle of m6A specific antibody recognition and binding to m6A sites on mRNA, RNA immunoprecipitation method to enrich m6A-modified fragments, and integrates with RNA sequencing technology [5] . Although MeRIP-sequencing allows the identification of m6A hypermethylation regions, it cannot achieve single-base resolution. Subsequently, m6A individual-nucleotide-resolution cross-linking and immunoprecipitation sequencing (miCLIP-seq) detects single-base methylation levels by cross-linking the RNA-m6A antibody binding sites. Direct RNA sequencing (DRS) based on nanopore technology is a technology that directly measure natural RNA without reverse transcription. It can obtain base modification information while reading the RNA base sequence [31] . Moreover, due to the significance of m6A modification in SARS-CoV-2 infection, accessible software packages have been developed and can be used to predict m6A modification sites in viral genome based on sequence features, such as SRAMP and RFAthM6A [32,33] . Recently, Liu and colleagues created a machine-learning model to accurately predict m6A modification sites in SARS-CoV-2 genome via using DRS raw data [34] .",
       "entities": [
         {
+          "text": "m6A",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
           "text": "MeRIP",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "LC-MS/MS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "m6A-methylated RNA immunoprecipitation",
           "type": "METHOD",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "liquid chromatography tandem mass spectrometry",
-          "type": "TECHNOLOGY",
+          "text": "human",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "colorimetric m6A RNA methylation assay",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "MeRIP-sequencing",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "human tissues",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "mouse tissues",
-          "type": "ENTITY",
+          "text": "mouse",
+          "type": "ORGANISM",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1090,56 +964,42 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Coronaviridae",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "RNA",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
+          "text": "Coronaviridae",
+          "type": "ORGANISM",
+          "id": "11118",
+          "ontology": "NCBI Taxonomy",
+          "source": "gpt"
+        },
+        {
           "text": "structural proteins",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "nonstructural proteins",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "accessory proteins",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "cytoplasm",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "genomic RNA",
-          "type": "CONCEPT",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1215,14 +1075,14 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1232,13 +1092,6 @@
           "type": "CELL_LINE",
           "id": "CVCL_XD71",
           "ontology": "Cellosaurus",
-          "source": "gpt"
-        },
-        {
-          "text": "LC-MS/MS",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -1306,21 +1159,14 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ORF1ab",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1330,6 +1176,13 @@
           "type": "CELL_LINE",
           "id": "CVCL_XD71",
           "ontology": "Cellosaurus",
+          "source": "gpt"
+        },
+        {
+          "text": "ORF1ab",
+          "type": "GENE",
+          "id": "43740578",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -1403,44 +1256,51 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A modification",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "m6A regulators",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "m6A enzymes",
-          "type": "ENTITY",
+          "type": "ENZYME",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "genomic RNA",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "Alp",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CELL_LINE",
+          "id": "CVCL_IU85",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         }
       ],
@@ -1514,41 +1374,41 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "FTO",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "79068",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "rhein",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:8825",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "DZNep",
-          "type": "TECHNOLOGY",
+          "type": "DRUG",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Vero cells",
+          "text": "Vero",
           "type": "CELL_LINE",
           "id": "CVCL_0059",
           "ontology": "Cellosaurus",
@@ -1624,29 +1484,29 @@
       "text": "This subsection from the article discusses the role of m6A RNA modification in the influence of SARS-CoV-2 replication and pathogenicity, highlighting collaborative interactions within the m6A modification system in COVID-19 pathogenesis.\n\nThese intriguing findings illustrate that various elements of the m6A modification system collaborate intricately to perform diverse functions in the pathogenesis of COVID-19. A series of research data on RNA m6A modification of SARS-CoV-2 genome are summarized in Table 1 . As shown in Fig. 1 , these studies support that m6A enzymes are significantly involved in regulating SARS-CoV-2 replication and infection capacity through a variety of mechanisms. Recently, an updated database named as RMDisease V2.0 and containing numerous genetic variants that affect m6A modification of SARS-CoV-2 genomic RNA has been developed [45] . By utilizing this database, researchers have easy access to further explore the correlation between COVID-19 and m6A modification-associated variants.",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "RMDisease V2.0",
-          "type": "TECHNOLOGY",
+          "type": "DATABASE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1710,56 +1570,49 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "RNA m6A modification",
-          "type": "CONCEPT",
+          "text": "RNA m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "angiotensin-converting enzyme 2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ACE2",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "transmembrane protein 106B",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "TMEM106B",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "text": "human airway epithelial cells",
+          "type": "CELL_LINE",
+          "id": "CVCL_E1HC",
+          "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
           "text": "type I interferons",
-          "type": "CONCEPT",
+          "type": "CYTOKINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "type III interferons",
-          "type": "CONCEPT",
+          "type": "CYTOKINE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1822,36 +1675,29 @@
       "text": "This regulation of virus-host interactions section from Liu et al. (2024) discusses the role of m6A RNA modification in immune response modulation and its implications for protective antibodies against SARS-CoV-2, informing vaccine development.\n\nFollowing infection, the majority of COVID-19 patients rapidly generate neutralizing antibodies that confer protective effects against SARS-CoV-2, offering valuable insights for vaccine development [50] . It is well acknowledged that m6A modification and its downstream signaling pathways are heavily involved in modulation of immune responses, such as the activation and infiltration of immune cells and the production of interferon-γ [51] . The epitranscriptomic m6A profile of human lung cells undergoes significant changes following infection with SARS-CoV-2, and these changes may have a profound impact on the host cell's RNA [52] . The abundance of methylation sites in host cell RNA also undergoes alterations upon SARS-CoV-2 infection, potentially leading to increased RNA instability [53] . This instability in host RNA could have implications for the host's innate immunity response to the virus.",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "interferon-γ",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Liu et al.",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -1861,20 +1707,6 @@
           "type": "CELL_LINE",
           "id": "CVCL_G005",
           "ontology": "Cellosaurus",
-          "source": "gpt"
-        },
-        {
-          "text": "neutralizing antibodies",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "vaccine development",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -1941,38 +1773,31 @@
       "text": "This regulation of virus-host interactions section from the article discusses the role of m6A modification in affecting host RNA stability and its implications for innate immunity responses to SARS-CoV-2 infection.\n\nThis instability in host RNA could have implications for the host's innate immunity response to the virus. The m6A modification plays a crucial role in regulating interactions between SARS-CoV-2 and host cells. Specifically, it targets the interferon-mediated immune response and various other pathways [54] . The detailed understanding of these regulatory mechanisms is essential for unraveling the complexities of the host-virus interaction and may provide valuable insights for developing targeted therapeutic interventions against SARS-CoV-2. In METTL3-depleted Caco-2 cells, gene expression levels of ACE2 , TMPRSS2 (encoding Transmembrane Serine Protease) and CTSL (encoding Cathepsin L), which are required for facilitating SARS-CoV-2 entry into host cells, were significantly downregulated [37] . This could contribute to the decreased viral load caused by METTL3 depletion after SARS-CoV-2 infection. The study by Meng et al. demonstrated that the m6A level in peripheral blood mononuclear cells (PBMCs) of COVID-19 patients is significantly higher than in healthy controls. The subsequent m6A epitranscriptomic microarray revealed that aberrant methylation triggered by SARS-CoV-2 infection regulates multiple target genes associated with immune response and cell death pathways in PBMCs [55] . Similarly, in BEAS-2B cells after SARS-CoV-2 infection, m6A modification was reported to regulate various pathways, including type I interferon signaling, cilium organization and assembly, etc [56] . Notably, Li et al. discovered that increased m6A modification in SARS-CoV-2 RNA hinders its binding to retinoic acid-inducible gene I (RIG-I), a crucial pattern recognition receptor. This inhibition leads to enhanced phosphorylation of IRF3 and IκBα, consequently impeding the host's immune responses against virus infection. This includes the suppression of type I interferon signaling and the production of proinflammatory cytokines and chemokines [37] . In SARS-CoV-2-infected Huh7 cells, METTL14 and ALKBH5 were translocated into the cytoplasm from the nucleus, increasing m6A levels in the coding sequence region and decreasing m6A levels in the 3′ UTR region. This led to alterations in interferon-stimulated genes, membrane trafficking, and apoptosis signaling in host cells [38] . In human lung A549 epithelial cells, SARS-CoV-2 infection induced distinct m6A modifications in various mRNA and noncoding RNA species, associated with pathways related to protein processing in the endoplasmic reticulum, cell apoptosis, and proliferation [52] . These differentially methylated mRNAs were regulated by upstream regulators involved in the cellular response to type I interferon, inflammatory response, and cytokine signaling. Furthermore, m6A modification has also been observed in transcripts involved in mRNA translation into protein, peptide and amine metabolism following SARS-CoV-2 infection in both Vero cells and Calu-3 cells [57] .",
       "entities": [
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "innate immunity",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "interferon-mediated immune response",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "interferon",
+          "type": "PROTEIN",
+          "id": "100136436",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
@@ -2040,43 +1865,43 @@
       "text": "This regulation of virus-host interactions section from the article discusses the role of m6A modification in mRNA translation and type I interferon signaling during SARS-CoV-2 infection in various cell lines.\n\nFurthermore, m6A modification has also been observed in transcripts involved in mRNA translation into protein, peptide and amine metabolism following SARS-CoV-2 infection in both Vero cells and Calu-3 cells [57] . Type I interferon signaling regulated by m6A modification has also been observed in other viral infections. According to a recent study, m6A modification facilitated by METTL3 is required for enhancing mRNA stability and increasing protein translation of host cells, which consequently ensures the efficacy of antiviral immunity. Furthermore, METTL3 deficiency leads to severely impaired induction of type I interferon signaling, a crucial signal pathway for antiviral immune responses and combating viral infections, in influenza virus-infected macrophages and mice [58] . In patients with condyloma acuminata, WTAP is found to be a key regulator for upregulating the expression of IFN-ε (an important component of type I interferon signaling) by promoting its m6A modification, and consequently enhance antiviral response to HPV infection [59] . Based on the knowledge that type I interferon plays a critical protective role against SARS-CoV-2 infection [60] , these findings strongly support the notion that the type I interferon signaling pathway is a crucial link through which m6A modification affects SARS-CoV-2 infection.",
       "entities": [
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
-          "text": "Vero cells",
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
+          "source": "gpt"
+        },
+        {
+          "text": "METTL3",
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "Vero",
           "type": "CELL_LINE",
           "id": "CVCL_0059",
           "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
-          "text": "Calu-3 cells",
+          "text": "Calu-3",
           "type": "CELL_LINE",
           "id": "CVCL_0609",
           "ontology": "Cellosaurus",
           "source": "gpt"
         },
         {
-          "text": "type I interferon signaling",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "METTL3",
-          "type": "ENTITY",
+          "text": "type I interferon",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2139,29 +1964,29 @@
       "text": "This regulation of virus-host interactions section from the article discusses the critical role of type I interferon signaling and m6A modification in mediating host responses to SARS-CoV-2 infection.\n\nBased on the knowledge that type I interferon plays a critical protective role against SARS-CoV-2 infection [60] , these findings strongly support the notion that the type I interferon signaling pathway is a crucial link through which m6A modification affects SARS-CoV-2 infection. How the m6A modification regulates host cell responses to SARS-CoV-2 infection is depicted in Fig. 2 . Detailed research data on RNA m6A modification of host cell genome following SARS-CoV-2 infection are listed in Table 2 . Overall, findings in recent studies suggest that m6A modification regulates virus-host interaction through variable mechanisms, mainly through immune signaling pathways. It is difficult to conclude whether alterations in host immune responses caused by m6A modification are beneficial to COVID-19 patients or not. In most cases, the production of cytokines and chemokines controls viral replication and enhance the host defense. However, the formation of cytokine storm, referring to an uncontrolled over-production of proinflammatory mediators, will lead to a poor prognosis of COVID-19.",
       "entities": [
         {
-          "text": "type I interferon",
-          "type": "CONCEPT",
+          "text": "SARS-CoV-2",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "type I interferon",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RNA m6A modification",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2224,36 +2049,29 @@
       "text": "This section from a scientific article discusses pharmacological interventions targeting the m6A modification, highlighting the effects of the METTL3 inhibitor STM2457 on reducing virus-infected cells in the context of COVID-19 treatment.\n\n### Pharmacological interventions in the m6A modification\n\nThe m6A modification has emerged as a potential therapeutic target for COVID-19. In vitro, Burgess et al. reported that METTL3 inhibitor STM2457 reduced the percentage of virus-infected cells, and the effect was enhanced with increasing doses and was not caused by the toxicity of STM2457 itself [40] . In previous studies, the primary focus of research on STM2457 has been directed towards inhibiting cancer growth. There have been reports indicating promising applications of STM2457 in various cancers such as acute myeloid leukemia, small cell lung cancer, hepatocellular carcinoma, osteosarcoma, among others [61–64] . Additionally, researchers conducted in vivo experiments using mice and found that STM2457 can effectively target leukemia cells without compromising the functionality of normal hematopoietic stem cells and other normal cells, demonstrating a high level of safety [61] . DZNep, an S-adenosylmethionine dependent methyltransferase inhibitor, has shown promise in reducing SARS-CoV-2 replication and protein synthesis in a dose-dependent manner [41] . In previous studies, DZNep has been explored for its potential in combating tumors by inhibiting the histone methyltransferase (EZH2). However, DZNeP, characterized by hydrophilicity and rapid renal metabolism, has limited clinical utility [65] . Additionally, a series of FTO inhibitors have been synthetized and display anticancer effects in vitro, but most of them are still at the stage of preclinical study. Repressing the catalytic function of FTO by rhein leads to a significant reduction in the infectivity of different coronaviruses, including SARS-CoV-2, without causing any rise in cytotoxicity within Vero cells [44] . However, FTO inhibitors such as rhein, meclofenamate sodium, and MO-I-500 face limitations in their clinical prospects due to their mild functionality, low sensitivity and specificity [66] . Current research on small molecules such as methyltransferase inhibitors and FTO inhibitors is largely confined to in vitro experiments and animal studies. Further investigation is needed to assess the potential toxicity of these small molecules in human applications. Ensuring specificity to viral RNA without adversely affecting essential cellular processes is a critical challenge. As of now, there are no approved pharmaceuticals or compounds specifically designed to inhibit or activate m6A enzymes for administration in the human body. Clinical application of m6A-targeting interventions is still in its early stages. The transition from preclinical studies to human trials requires thorough validation of safety, efficacy, and specificity. With the growing knowledge of m6A's involvement in COVID-19, there is a hopeful prospect for the development of therapeutic agents specifically targeting m6A.",
       "entities": [
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "STM2457",
-          "type": "TECHNOLOGY",
-          "id": null,
-          "ontology": null,
+          "type": "DRUG",
+          "id": "CHEBI:172325",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
-          "text": "Burgess et al.",
-          "type": "ENTITY",
+          "text": "COVID-19",
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
+          "source": "gpt"
+        },
+        {
+          "text": "virus",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2316,29 +2134,22 @@
       "text": "This subsection from Jiayi Liu's article discusses the active research on the correlation between m6A RNA modification and the severity and prognosis of COVID-19, highlighting its potential as a therapeutic target.\n\nWith the growing knowledge of m6A's involvement in COVID-19, there is a hopeful prospect for the development of therapeutic agents specifically targeting m6A. ### Correlation between the m6A modification and COVID-19 severity/prognosis\n\nCurrently, the correlation between m6A modification and COVID-19 severity and prognosis is an area of active research. Analysis on blood samples of hospitalized COVID-19 patients showed a higher level of m6A modification than non-COVID-19 ones [67] . Li et al. conducted an analysis of lung samples from deceased COVID-19 patients and healthy lung biopsy samples to explore gene expression patterns associated with the disease. The study noted increased expression levels of inflammatory genes and interferon-stimulated genes in COVID-19 patients, and there was a significant decrease in the expression of METTL3 and METTL14 genes [37] . Lu et al. utilized RNA-sequencing data from blood samples, comparing healthy controls with COVID-19 patients. Noteworthy differences in gene expression levels were identified among 11 m6A regulators, including WTAP, RBM15 /15B, YTHDC1, etc. But no difference was observed in METTL3 and METTL14 genes. Subsequently, the researchers developed a nomogram model using seven m6A regulators to predict the risk of COVID-19, which could facilitate the identification of individuals with high risk and enables early intervention [68] . Additionally, expression levels of IFN-stimulated genes and IL-8 in the alveolar epithelium of severe COVID-19 patients were significantly higher and METTL3 expression was significantly lower than healthy controls and moderate COVID-19 patients. Compared with healthy controls, there were 1953 mRNAs showing significant hypermethylation and 1191 mRNAs showing significant hypomethylation in COVID-19 patients, and more methylation was upregulated in severe COVID-19 [55] . The variations in observations regarding m6A modification and COVID-19 could stem from several factors, including dynamic changes of m6A modification, differences in sample sources, and insufficient sample size etc. There may be variations and challenges in the current observations, but it is clear that m6A modification plays a role in the development of COVID-19. Further research, especially in larger and more diverse populations, is essential to clarify the specific mechanisms and correlations between m6A modification and COVID-19 severity, as well as its potential as a therapeutic target or diagnostic tool.",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Jiayi Liu",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "Li et al.",
-          "type": "ENTITY",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2407,36 +2218,29 @@
       "text": "This other section from the article discusses the need for further research on m6A modification's correlation with COVID-19 severity and its potential as a therapeutic target or diagnostic tool.\n\nFurther research, especially in larger and more diverse populations, is essential to clarify the specific mechanisms and correlations between m6A modification and COVID-19 severity, as well as its potential as a therapeutic target or diagnostic tool. Besides, based on differentially expressed genes data between COVID-19 and non-COVID-19 patients, Qiu and colleagues developed an outcome prediction model using nine selected genes associated with m6A modification; the calculated m6A signature score was significantly correlated with important clinical indicators, such as SOFA score, APACHE-II score and ventilator-free days [69] . The findings reported by Qing et al., highlighting a significantly higher level of m6A modification in COVID-19 patients compared to non-COVID-19 patients using transcriptional data from the Gene Expression Omnibus (GEO) database, present an intriguing aspect of m6A modification in the context of the disease [67] . The m6A subtypes are used to distinguish COVID-19 and non-COVID-19 cases, which offers a novel approach for evaluating the severity and prognosis of COVID-19. These models introduce innovative methods to predict the severity and outcomes of SARS-CoV-2 infection by measuring m6A modification-related factors. In a summary, the role of m6A modification as a potential therapeutic target and predictive factor for COVID-19 is shown in Fig. 3 .",
       "entities": [
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "MODIFICATION",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "SOFA score",
-          "type": "METHOD",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "APACHE-II score",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Qiu",
-          "type": "ENTITY",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2511,29 +2315,22 @@
       "text": "This conclusions section from the article discusses the crucial role of m6A RNA modification in COVID-19 pathogenesis, viral replication, and the host immune response, along with its correlation to disease severity and prognosis.\n\nIn summary, m6A modification demonstrates a multifaceted involvement in COVID-19 pathogenesis. Extensive research underscores its pivotal role in regulating viral replication and the host immune response to the infection. Moreover, the correlation between m6A levels and the severity and prognosis of COVID-19 is becoming increasingly apparent. Identifying comprehensive m6A modification signatures in SARS-CoV-2 could significantly aid in novel vaccine development. Targeting the reduction of virus replication and infection capability through specific small molecule inhibitors offers a promising avenue in antiviral therapy. While investigations into therapeutic drugs targeting m6A are still in their nascent stages, the ongoing dedication to designing and refining m6A-based approaches as potential alternative vaccines and therapies for COVID-19 holds substantial clinical significance.",
       "entities": [
         {
-          "text": "m6A RNA modification",
-          "type": "CONCEPT",
+          "text": "m6A",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "small molecule",
-          "type": "TECHNOLOGY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2645,43 +2442,15 @@
       "text": "This funding section from the article details the financial support received from the National Natural Science Foundation of China and the Natural Science Foundation of Hunan Province for the research on N6-methyladenosine RNA modification related to SARS-CoV-2.\n\nThis work was supported by grants from the National Natural Science Foundation of China (grant number 82100099 ); and Natural Science Foundation of Hunan Province (grant number 2022JJ40792 ).",
       "entities": [
         {
-          "text": "National Natural Science Foundation of China",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "Natural Science Foundation of Hunan Province",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "N6-methyladenosine RNA modification",
-          "type": "CONCEPT",
+          "text": "N6-methyladenosine",
+          "type": "RNA",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "grant number 82100099",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "grant number 2022JJ40792",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2738,8 +2507,15 @@
       "text": "This CRediT authorship contribution statement section from the article outlines the specific roles and contributions of each author involved in the research on N6-methyladenosine RNA modification in SARS-CoV-2 interactions.\n\nZhao Bingrong: Writing – review & editing, Supervision, Conceptualization. Guo Xiongmin: Methodology, Investigation. Jiang Juan: Writing – review & editing, Supervision, Project administration, Investigation, Funding acquisition, Conceptualization. Liu Jiayi: Writing – original draft, Software, Methodology, Investigation, Conceptualization. Chen Lingli: Writing – original draft, Methodology, Conceptualization.",
       "entities": [
         {
+          "text": "N6-methyladenosine",
+          "type": "RNA",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2782,28 +2558,28 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "ORF1ab",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "43740578",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "hnRNAP1",
-          "type": "ENTITY",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -2846,58 +2622,58 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "ACE2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "59272",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "TMPRSS2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "7113",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "CTSL",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "GENE",
+          "id": "1514",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "RIG-I",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "PROTEIN",
+          "id": "56339",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         },
         {
           "text": "NF-κB",
-          "type": "ENTITY",
+          "type": "SIGNALING_PATHWAY",
           "id": null,
           "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "IRF3",
+          "type": "PROTEIN",
+          "id": "3661",
+          "ontology": "NCBI Gene",
           "source": "gpt"
         }
       ],
@@ -2938,49 +2714,21 @@
       "entities": [
         {
           "text": "COVID-19",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "DISEASE",
+          "id": "D000086382",
+          "ontology": "MeSH",
           "source": "gpt"
         },
         {
-          "text": "m6A modification",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "text": "m6A",
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "lung tissues",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "blood samples",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "pharmacological interventions",
-          "type": "METHOD",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "predictive models",
-          "type": "METHOD",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3022,6 +2770,41 @@
       "caption": "Summary of the studies on RNA m6A modification of SARS-CoV-2 genome.",
       "entities": [
         {
+          "text": "METTL3",
+          "type": "GENE",
+          "id": "56339",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "METTL14",
+          "type": "GENE",
+          "id": "57721",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "ALKBH5",
+          "type": "GENE",
+          "id": "54890",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "YTHDF2",
+          "type": "GENE",
+          "id": "51441",
+          "ontology": "NCBI Gene",
+          "source": "gpt"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "type": "VIRUS",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
           "text": "Caco-2",
           "type": "CELL_LINE",
           "id": "CVCL_0025",
@@ -3036,45 +2819,10 @@
           "source": "gpt"
         },
         {
-          "text": "METTL3",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "METTL14",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "ALKBH5",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "YTHDF2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "SARS-CoV-2",
-          "type": "ENTITY",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         }
       ],
@@ -3115,7 +2863,7 @@
       "entities": [
         {
           "text": "SARS-CoV-2",
-          "type": "ENTITY",
+          "type": "VIRUS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3129,28 +2877,21 @@
         },
         {
           "text": "m6A",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
+          "type": "CHEMICAL",
+          "id": "CHEBI:21891",
+          "ontology": "ChEBI",
           "source": "gpt"
         },
         {
           "text": "interferon-stimulated genes",
-          "type": "CONCEPT",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "membrane trafficking",
-          "type": "CONCEPT",
+          "type": "GENE",
           "id": null,
           "ontology": null,
           "source": "gpt"
         },
         {
           "text": "apoptotic signaling pathways",
-          "type": "CONCEPT",
+          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3163,8 +2904,15 @@
           "source": "gpt"
         },
         {
-          "text": "MeRIP-seq",
-          "type": "METHOD",
+          "text": "inflammatory cytokines",
+          "type": "PROTEIN",
+          "id": null,
+          "ontology": null,
+          "source": "gpt"
+        },
+        {
+          "text": "chemokines",
+          "type": "PROTEIN",
           "id": null,
           "ontology": null,
           "source": "gpt"

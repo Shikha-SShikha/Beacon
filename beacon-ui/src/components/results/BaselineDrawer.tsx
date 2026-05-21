@@ -1,11 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import type { AskResponse } from "../../types";
 
 interface Props {
   ragResponse: AskResponse | null;
-  webAiResponse: AskResponse | null;
   ragLoading: boolean;
-  webAiLoading: boolean;
   open: boolean;
   onClose: () => void;
   beaconResponse?: AskResponse | null;
@@ -322,10 +320,9 @@ function WebAiColumn({ response, loading, beaconBlocked }: {
 }
 
 export default function BaselineDrawer({
-  ragResponse, webAiResponse, ragLoading, webAiLoading, open, onClose, beaconResponse,
+  ragResponse, ragLoading, open, onClose, beaconResponse,
 }: Props) {
   const drawerRef = useRef<HTMLDivElement>(null);
-  const [activeTab, setActiveTab] = useState<"rag" | "webai">("rag");
 
   const beaconBlocked = !!ragResponse && ragResponse.sources.length === 0 &&
     ragResponse.answer.startsWith("No accessible results");
@@ -377,41 +374,13 @@ export default function BaselineDrawer({
               </button>
             </div>
 
-            {/* Mobile tabs */}
-            <div className="flex md:hidden border-b border-slate-100">
-              <button
-                onClick={() => setActiveTab("rag")}
-                className={`flex-1 py-2 text-[13px] font-semibold border-b-2 transition-colors ${activeTab === "rag" ? "border-blue-500 text-blue-600" : "border-transparent text-slate-400"}`}
-              >
-                🤖 Standard AI RAG
-              </button>
-              <button
-                onClick={() => setActiveTab("webai")}
-                className={`flex-1 py-2 text-[13px] font-semibold border-b-2 transition-colors ${activeTab === "webai" ? "border-blue-500 text-blue-600" : "border-transparent text-slate-400"}`}
-              >
-                🌐 Web / General AI
-              </button>
-            </div>
           </div>
 
           {/* Retrieval quality comparison */}
           <ComparisonBanner beaconResponse={beaconResponse} ragResponse={ragResponse} />
 
-          {/* Columns — side by side on desktop, tabbed on mobile */}
           <div className="flex-1 flex overflow-hidden">
-            {/* Desktop: both columns */}
-            <div className="hidden md:flex flex-1 overflow-hidden">
-              <RagColumn response={ragResponse} loading={ragLoading} />
-              <WebAiColumn response={webAiResponse} loading={webAiLoading} beaconBlocked={beaconBlocked} />
-            </div>
-
-            {/* Mobile: active tab only */}
-            <div className="flex md:hidden flex-1 overflow-hidden">
-              {activeTab === "rag"
-                ? <RagColumn response={ragResponse} loading={ragLoading} />
-                : <WebAiColumn response={webAiResponse} loading={webAiLoading} beaconBlocked={beaconBlocked} />
-              }
-            </div>
+            <RagColumn response={ragResponse} loading={ragLoading} />
           </div>
         </div>
       </div>

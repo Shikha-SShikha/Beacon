@@ -45,14 +45,27 @@ NCBI_DELAY        = 0.35   # stay within 3 req/sec free-tier limit
 _NCBI_API_KEY = os.environ.get("NCBI_API_KEY")
 
 # GPT domain hints per journal ID
+_BIO_HINT    = "biomedical. Extract: GENE, PROTEIN, DISEASE, CHEMICAL, DRUG, COMPOUND, CELL_LINE, ORGANISM, ENZYME, BIOLOGICAL_PROCESS, SIGNALING_PATHWAY, ANATOMY, VIRUS, RNA"
+_CLINICAL_HINT = "clinical/medical. Extract: DISEASE, DRUG, CHEMICAL, GENE, PROTEIN, ANATOMY, BIOLOGICAL_PROCESS, CELL_LINE, ORGANISM. Do NOT use GENE or CELL_LINE for imaging parameters or scores."
+
 _GPT_DOMAIN_HINTS: dict[str, str] = {
-    "BJ":    "biomedical. Extract: GENE, PROTEIN, DISEASE, CHEMICAL, DRUG, CELL_LINE, ORGANISM",
-    "REDOX": "biomedical. Extract: GENE, PROTEIN, DISEASE, CHEMICAL, DRUG, CELL_LINE, ORGANISM",
+    # Biochemical / molecular biology
+    "BJ":      _BIO_HINT,
+    "REDOX":   _BIO_HINT,
+    "CELREP":  _BIO_HINT,   # Cell Reports
+    "GENDIS":  _BIO_HINT,   # Genes & Diseases
+    # Pharmacology / pharmaceutical
+    "BIOPHA":  _BIO_HINT,   # Biomedicine & Pharmacotherapy
+    "AJPS":    _BIO_HINT,   # Asian Journal of Pharmaceutical Sciences
+    # Clinical / oncology
+    "CCC":     _CLINICAL_HINT,
+    "CTARC":   _CLINICAL_HINT,   # Cancer Treatment and Research Communications
+    "CLNVES":  _CLINICAL_HINT,   # Clinical Investigation
+    # Other domains
     "PLAS":  "project management / social science. Extract: THEORY, METHOD, CONCEPT, FRAMEWORK, TOOL",
     "ESR":   "energy systems / engineering. Extract: TECHNOLOGY, METHOD, LOCATION, CONCEPT, METRIC",
-    "CCC":   "clinical/medical. Extract: DISEASE, DRUG, CHEMICAL, METHOD, METRIC, ANATOMY. Do NOT use GENE or CELL_LINE for imaging parameters or scores.",
 }
-_GPT_DEFAULT_HINT = "scientific. Extract: CONCEPT, METHOD, TECHNOLOGY, ENTITY"
+_GPT_DEFAULT_HINT = "scientific. Extract: GENE, PROTEIN, DISEASE, CHEMICAL, CONCEPT, METHOD, ENTITY"
 
 # Entity types that support ID resolution
 _RESOLVABLE = {"GENE", "PROTEIN", "DISEASE", "CHEMICAL", "DRUG", "SPECIES", "ORGANISM", "CELL_LINE"}
