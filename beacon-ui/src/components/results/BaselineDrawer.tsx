@@ -79,61 +79,71 @@ function ComparisonBanner({
   const rSources = ragResponse?.sources.length ?? 0;
 
   return (
-    <div className="border-b border-slate-100 bg-white">
+    <div className="border-b border-slate-100 bg-white shrink-0">
       <div className="flex divide-x divide-slate-100">
         <StatCell
-          label="✦ Beacon (your system)"
-          value={`${bSources} sources`}
-          sub={`${bEntities} entities in retrieved chunks`}
+          label="✦ Beacon"
+          value={`${bSources} sources · ${bEntities} entities`}
+          sub={bSections.length > 0 ? `sections: ${bSections.join(", ")}` : undefined}
           highlight
         />
-        <div className="flex-1 px-4 py-3 text-center bg-slate-50/40 border-r border-slate-100">
-          <p className="text-[10px] font-bold uppercase tracking-wider mb-1 text-slate-400">Sections retrieved</p>
-          {bSections.length > 0 ? (
-            <div className="flex flex-wrap gap-1 justify-center">
-              {bSections.map(s => (
-                <span key={s} className={`text-[9px] font-bold uppercase px-1.5 py-0.5 rounded ${SECTION_COLORS[s?.toLowerCase()] ?? SECTION_COLORS.other}`}>
-                  {s}
-                </span>
-              ))}
-            </div>
-          ) : (
-            <p className="text-[12px] text-slate-400">—</p>
-          )}
-        </div>
         <StatCell
           label="Standard RAG"
           value={`${rSources} sources`}
-          sub="no entity extraction"
+          sub="no entity extraction · vector only"
           dim
         />
-      </div>
-      <div className="flex divide-x divide-slate-100 border-t border-slate-100">
-        <div className="flex-1 px-4 py-2 text-center bg-blue-50/60">
-          <p className="text-[10px] text-blue-600">
-            BM25 + vector hybrid · entity-linked · section-weighted · figure-aware
-          </p>
-        </div>
-        <div className="flex-[2] px-4 py-2 text-center bg-slate-50/40">
-          <p className="text-[10px] text-slate-400">
-            Vector-only · HTML text · no entity recognition · no section weighting
-          </p>
-        </div>
       </div>
     </div>
   );
 }
 
-function ColumnHeader({
-  icon, label, sublabel, accent,
-}: { icon: string; label: string; sublabel: string; accent: string }) {
+function SourceList({ sources, accent }: { sources: AskResponse["sources"]; accent: string }) {
+  if (sources.length === 0) return null;
   return (
-    <div className={`px-5 py-4 border-b ${accent} shrink-0`}>
-      <div className="flex items-center gap-2 mb-0.5">
-        <span className="text-lg">{icon}</span>
-        <p className="text-[14px] font-bold text-slate-800">{label}</p>
+    <div>
+      <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">
+        Sources ({sources.length})
+      </p>
+      <div className="space-y-2">
+        {sources.map((src) => {
+          const sections = [...new Set(src.sections.map(s => s.section || "other"))];
+          return (
+            <div key={src.citation_id} className={`p-3 rounded-lg border ${accent}`}>
+              <p className="text-[12px] font-semibold text-slate-700 line-clamp-1">{src.title || src.source}</p>
+              <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                <span className="text-[10px] text-slate-400">{src.journal_code || "—"}</span>
+                {sections.map(s => <SectionPill key={s} section={s} />)}
+              </div>
+              {src.sections[0] && (
+                <p className="text-[11px] text-slate-500 mt-1.5 line-clamp-2">
+                  {src.sections[0].text.slice(0, 160)}
+                </p>
+              )}
+            </div>
+          );
+        })}
       </div>
-      <p className="text-[11px] text-slate-400">{sublabel}</p>
+    </div>
+  );
+}
+
+function BeaconColumn({ response }: { response: AskResponse | null }) {
+  return (
+    <div className="flex-1 flex flex-col min-w-0 border-r border-slate-200">
+      <div className="px-5 py-3 border-b border-blue-100 bg-blue-50/40 shrink-0">
+        <p className="text-[13px] font-bold text-blue-800">✦ Beacon — Enriched RAG</p>
+        <p className="text-[10px] text-blue-500 mt-0.5">BM25 + vector · entity-linked · section-weighted · figure-aware</p>
+      </div>
+      <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
+        {!response && <p className="text-[13px] text-slate-400 py-8 text-center">No response</p>}
+        {response && (
+          <>
+            <p className="text-[13px] text-slate-700 leading-relaxed">{response.answer}</p>
+            <SourceList sources={response.sources} accent="bg-blue-50/40 border-blue-100" />
+          </>
+        )}
+      </div>
     </div>
   );
 }
@@ -143,81 +153,28 @@ function RagColumn({ response, loading }: { response: AskResponse | null; loadin
     response.answer.startsWith("No accessible results");
 
   return (
-    <div className="flex-1 flex flex-col min-w-0 border-r border-slate-100">
-      <ColumnHeader
-        icon="🤖"
-        label="Standard AI RAG"
-        sublabel="Plain HTML text · vector search · no enrichment"
-        accent="border-slate-100"
-      />
+    <div className="flex-1 flex flex-col min-w-0">
+      <div className="px-5 py-3 border-b border-slate-100 bg-slate-50/40 shrink-0">
+        <p className="text-[13px] font-bold text-slate-600">Standard AI RAG</p>
+        <p className="text-[10px] text-slate-400 mt-0.5">Vector-only · plain text · no entity linking · no section weighting</p>
+      </div>
       <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
         {loading && <SkeletonLines />}
-        {!loading && !response && <p className="text-[13px] text-slate-400 py-8 text-center">Run a search to compare</p>}
-
+        {!loading && !response && (
+          <p className="text-[13px] text-slate-400 py-8 text-center">Run a search to compare</p>
+        )}
         {!loading && response && isBlocked && (
-          <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-4 space-y-2">
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 text-amber-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
-              </svg>
-              <p className="text-[13px] font-semibold text-amber-800">Access blocked</p>
-            </div>
+          <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-4 space-y-1">
+            <p className="text-[13px] font-semibold text-amber-800">Access blocked</p>
             <p className="text-[12px] text-amber-700 leading-relaxed">
-              No licensed content was served for this agent. The html-scraped collection
-              passed the same license check — every retrieval path is governed, not just the enriched pipeline.
+              No licensed content accessible for this institution — the same license check applies to all retrieval paths.
             </p>
           </div>
         )}
-
         {!loading && response && !isBlocked && (
           <>
-            <div className="rounded-lg bg-amber-50 border border-amber-200 p-3 space-y-1">
-              <p className="text-[11px] font-semibold text-amber-700">What this retrieval cannot see</p>
-              <ul className="text-[11px] text-amber-600 space-y-0.5 list-disc list-inside">
-                <li>Figures and tables reduced to placeholders — visual evidence lost</li>
-                <li>No section weighting — abstract text dominates over Results/Methods</li>
-                <li>No entity linking — GPX4, METTL3 treated as plain strings, not ontology nodes</li>
-                <li>No semantic relations — co-occurrence ≠ causal understanding</li>
-                <li>Vector-only search — exact biological terms may rank below paraphrases</li>
-              </ul>
-            </div>
-
             <p className="text-[13px] text-slate-600 leading-relaxed">{response.answer}</p>
-
-            {response.sources.length > 0 && (
-              <div>
-                <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">
-                  Sources ({response.sources.length})
-                </p>
-                <div className="space-y-2">
-                  {response.sources.map((src) => {
-                    const sections = src.sections.map(s => s.section || "other");
-                    const hasImageOrTable = src.sections.some(
-                      s => s.text.startsWith("[IMAGE]") || s.text.startsWith("[TABLE]")
-                    );
-                    return (
-                      <div key={src.citation_id} className="p-3 rounded-lg bg-slate-50 border border-slate-100">
-                        <p className="text-[12px] font-semibold text-slate-700 line-clamp-1">{src.title || src.source}</p>
-                        <div className="flex items-center gap-1.5 mt-1 flex-wrap">
-                          <span className="text-[10px] text-slate-400">{src.journal_code || "—"}</span>
-                          {[...new Set(sections)].map(s => <SectionPill key={s} section={s} />)}
-                          {hasImageOrTable && (
-                            <span className="text-[9px] px-1.5 py-0.5 rounded bg-red-50 text-red-500 font-semibold border border-red-100">
-                              ⚠ figures/tables as text
-                            </span>
-                          )}
-                        </div>
-                        {src.sections[0] && (
-                          <p className="text-[11px] text-slate-500 mt-1.5 line-clamp-2">
-                            {src.sections[0].text.slice(0, 160)}
-                          </p>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
+            <SourceList sources={response.sources} accent="bg-slate-50 border-slate-100" />
           </>
         )}
       </div>
@@ -229,9 +186,6 @@ export default function BaselineDrawer({
   ragResponse, ragLoading, open, onClose, beaconResponse,
 }: Props) {
   const drawerRef = useRef<HTMLDivElement>(null);
-
-  const beaconBlocked = !!ragResponse && ragResponse.sources.length === 0 &&
-    ragResponse.answer.startsWith("No accessible results");
 
   useEffect(() => {
     if (!open) return;
@@ -257,21 +211,15 @@ export default function BaselineDrawer({
         ref={drawerRef}
         className={`fixed bottom-0 left-0 right-0 z-50 transform transition-transform duration-300 ease-out ${open ? "translate-y-0" : "translate-y-full"}`}
       >
-        <div className="bg-white rounded-t-2xl shadow-2xl border-t border-slate-200 h-[72vh] flex flex-col">
+        <div className="bg-white rounded-t-2xl shadow-2xl border-t border-slate-200 h-[75vh] flex flex-col">
 
           {/* Drawer handle + top bar */}
-          <div className="px-6 pt-3 pb-0 shrink-0">
+          <div className="px-6 pt-3 pb-3 shrink-0 border-b border-slate-100">
             <div className="w-10 h-1 rounded-full bg-slate-200 mx-auto mb-3" />
-            <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center justify-between">
               <div>
-                <p className="text-[15px] font-bold text-slate-800">
-                  {beaconBlocked ? "What this agent can still access" : "How other searches handle this query"}
-                </p>
-                <p className="text-[12px] text-slate-400 mt-0.5">
-                  {beaconBlocked
-                    ? "Licensed content blocked · general training knowledge cannot be restricted"
-                    : "Same LLM — only the retrieval and knowledge access differs"}
-                </p>
+                <p className="text-[15px] font-bold text-slate-800">Answer comparison</p>
+                <p className="text-[12px] text-slate-400 mt-0.5">Same query · same LLM · same licensed corpus — only retrieval differs</p>
               </div>
               <button onClick={onClose} className="text-slate-400 hover:text-slate-600 p-1">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -279,13 +227,14 @@ export default function BaselineDrawer({
                 </svg>
               </button>
             </div>
-
           </div>
 
-          {/* Retrieval quality comparison */}
+          {/* Stats banner */}
           <ComparisonBanner beaconResponse={beaconResponse} ragResponse={ragResponse} />
 
+          {/* Side-by-side answer columns */}
           <div className="flex-1 flex overflow-hidden">
+            <BeaconColumn response={beaconResponse ?? null} />
             <RagColumn response={ragResponse} loading={ragLoading} />
           </div>
         </div>
