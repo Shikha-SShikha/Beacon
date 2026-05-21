@@ -1,0 +1,13 @@
+.git
+.env
+.tmp
+__pycache__
+*.pyc
+*.pyo
+beacon-ui/node_modules
+beacon-ui/dist
+node_modules
+token.json
+credentials.json
+*.jsonl
+chroma_db/__pycache__
