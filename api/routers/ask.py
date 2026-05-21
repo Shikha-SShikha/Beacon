@@ -118,13 +118,12 @@ def _build_context_block(
         license_decision = lic.get("decision", "ALLOWED")
         publisher = journal_config.get(journal, {}).get("publisher", "")
 
-        # Use full-article stats from pre-loaded chunk files
         article_stats = _ARTICLE_STATS.get(source, {})
-        entity_count = article_stats.get("total_entities", 0)
-        relation_count = article_stats.get("total_relations", 0)
         source_entities = article_stats.get("entities", [])
         chunk_title_map = article_stats.get("chunk_titles", {})
 
+        # Count entities from the retrieved chunks only (query-specific, not article total)
+        entity_count = 0
         sections = []
         chunk_texts = []
         for hit in hits:
@@ -132,6 +131,13 @@ def _build_context_block(
             section = meta.get("section", "other") or "other"
             chunk_type = meta.get("type", "text")
             text_snippet = hit["text"]
+
+            ents_raw = meta.get("entities", "[]")
+            try:
+                ents = json.loads(ents_raw) if isinstance(ents_raw, str) else (ents_raw or [])
+                entity_count += len(ents)
+            except Exception:
+                pass
 
             # Resolve actual section/subsection heading from chunk JSON files
             raw_chunk_id = hit["id"].split("::", 1)[-1] if "::" in hit["id"] else ""
@@ -172,7 +178,7 @@ def _build_context_block(
             license_decision=license_decision,
             publisher=publisher,
             entity_count=entity_count,
-            relation_count=relation_count,
+            relation_count=0,
             entities=source_entities,
         ))
 

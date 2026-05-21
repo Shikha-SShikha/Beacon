@@ -1,20 +1,22 @@
 """
-/baseline endpoint - shows what current AI vector search returns.
+/baseline endpoint - plain vector search comparison.
 
-Plain vector search against html_scrape collection. No hybrid BM25,
-no section reranking, no figure linking.
+Uses the same entity_enriched corpus as /ask but with no enrichment:
+pure cosine-similarity retrieval only — no BM25, no reranking, no entity linking.
+Entity tag prefixes are stripped so the LLM sees plain text, not tagged text.
 
 /baseline      → raw ranked chunks (for inspection)
 /baseline/ask  → same retrieval + GPT synthesis (AskResponse shape)
                  Same LLM, same prompt as /ask — only the retrieval differs.
 """
 
+import json as _json
 from fastapi import APIRouter, HTTPException
 from ..models import SearchRequest, AskRequest, AskResponse, CitedSource, SourceSection
 from ..services.search_service import embed_query
 from ..services.clients import get_chroma, get_openai
 from .ask import SYSTEM_PROMPT
-from governance.license_service import check_license, load_config
+from governance.license_service import check_license, load_config, get_journal_code
 
 router = APIRouter(prefix="/baseline", tags=["baseline"])
 
@@ -48,16 +50,19 @@ def baseline_search(req: SearchRequest):
 
 @router.post("/ask", response_model=AskResponse)
 def baseline_ask(req: AskRequest):
-    """Plain vector search + GPT synthesis. Same LLM/prompt as /ask, different retrieval."""
+    """Plain vector-only search + GPT synthesis using entity_enriched corpus.
+    Same licensed articles as /ask, but no BM25, no reranking, no entity linking.
+    Entity tag prefixes are stripped so the LLM sees plain text only.
+    """
     config = load_config()
     if req.institution_id not in config["institutions"]:
         raise HTTPException(status_code=404, detail="Institution not found")
 
     chroma = get_chroma()
     try:
-        col = chroma.get_collection("html_scrape")
+        col = chroma.get_collection("entity_enriched")
     except Exception:
-        raise HTTPException(status_code=500, detail="html_scrape collection not found")
+        raise HTTPException(status_code=500, detail="entity_enriched collection not found")
 
     q_embed = embed_query(req.query)
     fetch_n = min(req.top_k * 3, 30)
@@ -66,7 +71,7 @@ def baseline_ask(req: AskRequest):
     if not res["ids"][0]:
         return AskResponse(query=req.query, answer="No accessible results found for this query.", sources=[])
 
-    # License filter — same logic as /ask
+    # Same license filter as /ask
     allowed: list[dict] = []
     for i in range(len(res["ids"][0])):
         meta = res["metadatas"][0][i]
@@ -85,7 +90,7 @@ def baseline_ask(req: AskRequest):
         src = hit["metadata"].get("source", "unknown")
         groups.setdefault(src, []).append(hit)
 
-    # Build context block + CitedSource list
+    # Build context block + CitedSource list (plain text — strip entity tag prefixes)
     context_parts = []
     sources = []
     for cid, (source, hits) in enumerate(groups.items(), start=1):
@@ -93,13 +98,18 @@ def baseline_ask(req: AskRequest):
         title = first_meta.get("title", "Untitled")
         year = first_meta.get("publication_date", "")[:4] if first_meta.get("publication_date") else ""
         doi = first_meta.get("doi", "")
-        journal = source.split("_")[0] if "_" in source else ""
+        journal = get_journal_code(first_meta)
 
         sections = []
         chunk_texts = []
         for hit in hits:
             section = hit["metadata"].get("section", "other")
+            # Strip entity tag prefix — baseline sees plain text, not tagged text
             text = hit["text"]
+            if "\n\n" in text:
+                prefix, body = text.split("\n\n", 1)
+                if prefix.startswith("["):
+                    text = body
             sections.append(SourceSection(section=section, chunk_type="text", text=text))
             chunk_texts.append(f"  [{section}] {text}")
 

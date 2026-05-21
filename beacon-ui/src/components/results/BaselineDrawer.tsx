@@ -68,7 +68,6 @@ function ComparisonBanner({
 
   const bSources = beaconResponse?.sources.length ?? 0;
   const bEntities = beaconResponse?.sources.reduce((s, src) => s + (src.entity_count ?? 0), 0) ?? 0;
-  const bRelations = beaconResponse?.sources.reduce((s, src) => s + (src.relation_count ?? 0), 0) ?? 0;
   const bSections = [
     ...new Set(
       beaconResponse?.sources
@@ -85,7 +84,7 @@ function ComparisonBanner({
         <StatCell
           label="✦ Beacon (your system)"
           value={`${bSources} sources`}
-          sub={`${bEntities} entities · ${bRelations} relations`}
+          sub={`${bEntities} entities in retrieved chunks`}
           highlight
         />
         <div className="flex-1 px-4 py-3 text-center bg-slate-50/40 border-r border-slate-100">
@@ -105,7 +104,7 @@ function ComparisonBanner({
         <StatCell
           label="Standard RAG"
           value={`${rSources} sources`}
-          sub="0 entities · 0 relations"
+          sub="no entity extraction"
           dim
         />
       </div>
