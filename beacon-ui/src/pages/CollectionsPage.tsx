@@ -66,7 +66,7 @@ export default function CollectionsPage({
         setLoading(true);
         setError(null);
         const response = await fetch(
-          `http://localhost:8000/collections/${institutionId}`
+          `/collections/${institutionId}`
         );
         if (!response.ok) {
           throw new Error("Failed to load collections");
