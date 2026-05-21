@@ -12,7 +12,6 @@ node_modules/
 dist/
 
 # Data (large / regenerable)
-chroma_db/
 .tmp/
 XML Files.zip
 media/
