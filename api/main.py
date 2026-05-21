@@ -60,4 +60,7 @@ if _ui_dist.exists():
 
     @app.get("/{full_path:path}", include_in_schema=False)
     def serve_spa(full_path: str):
+        candidate = _ui_dist / full_path
+        if candidate.exists() and candidate.is_file():
+            return FileResponse(str(candidate))
         return FileResponse(str(_ui_dist / "index.html"))

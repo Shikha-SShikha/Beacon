@@ -17,6 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api/ api/
 COPY governance/ governance/
 COPY chroma_db/ chroma_db/
+COPY chunks/ chunks/
 
 # Copy built UI from Stage 1
 COPY --from=ui-builder /ui/dist beacon-ui/dist/
