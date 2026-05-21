@@ -157,6 +157,7 @@ export interface AskResponse {
 }
 
 export interface AskExchange {
+  id: number;
   query: string;
   response: AskResponse;
 }

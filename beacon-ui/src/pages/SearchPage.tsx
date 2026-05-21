@@ -76,7 +76,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
     setSourcesOpen(false);
     try {
       const response = await postAsk(trimmed, institutionId, topK);
-      setHistory((prev) => [{ query: trimmed, response }, ...prev]);
+      setHistory((prev) => [{ id: Date.now(), query: trimmed, response }, ...prev]);
       setActiveExchange(0);
       setQuery("");
       setTimeout(() => resultsTopRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
@@ -210,7 +210,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
 
             <div className="space-y-12">
               {history.map((exchange, i) => (
-                <div key={i}>
+                <div key={exchange.id}>
                   {/* Query */}
                   <div className="mb-6">
                     <p className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase mb-1.5">Question</p>

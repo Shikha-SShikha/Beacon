@@ -6,19 +6,36 @@ interface Props {
   onCitationClick: (citationId: number) => void;
 }
 
-// Two display groups — biological/molecular vs methodological/conceptual
-const BIO_TYPES = new Set(["GENE", "PROTEIN", "RNA", "DISEASE", "CHEMICAL", "DRUG", "COMPOUND", "CELL_LINE", "ORGANISM"]);
+// Types too noisy to highlight — skip entirely
+const SKIP_TYPES = new Set([
+  "ENTITY", "OTHER", "AUTHOR", "JOURNAL", "ARTICLE", "REFERENCE",
+  "YEAR", "TIME", "COUNTRY", "LOCATION", "ORGANIZATION", "ENTITY_TYPE",
+]);
+
+// Blue group: biological / molecular
+const BIO_TYPES = new Set([
+  "GENE", "PROTEIN", "RNA", "DISEASE", "CHEMICAL", "DRUG", "COMPOUND",
+  "CELL_LINE", "ORGANISM", "ANATOMY", "BIOLOGICAL_PROCESS", "ENZYME",
+  "SIGNALING_PATHWAY", "VIRUS", "ELEMENT",
+]);
 
 const ENTITY_LABELS: Record<string, string> = {
   GENE: "gene", PROTEIN: "protein", DISEASE: "disease",
   CHEMICAL: "chem", DRUG: "drug", COMPOUND: "compound",
   RNA: "rna", CELL_LINE: "cell line", ORGANISM: "organism",
+  ANATOMY: "anatomy", BIOLOGICAL_PROCESS: "process", ENZYME: "enzyme",
+  SIGNALING_PATHWAY: "pathway", VIRUS: "virus", ELEMENT: "element",
   METHOD: "method", TECHNOLOGY: "tech", SOFTWARE: "software",
-  CONCEPT: "concept", ENTITY: "entity",
+  TECHNIQUE: "technique", TOOL: "tool", FRAMEWORK: "framework",
+  CONCEPT: "concept", PROCESS: "process", GUIDELINE: "guideline",
+  METRIC: "metric", PARAMETER: "param", STUDY: "study", TRIAL: "trial",
 };
 
-// Only show inline type label for the most informative types
-const SHOW_LABEL = new Set(["GENE", "PROTEIN", "DISEASE", "DRUG", "CHEMICAL", "RNA"]);
+// Show inline label for specific informative types
+const SHOW_LABEL = new Set([
+  "GENE", "PROTEIN", "DISEASE", "DRUG", "CHEMICAL", "RNA",
+  "ENZYME", "BIOLOGICAL_PROCESS", "SIGNALING_PATHWAY", "VIRUS", "CELL_LINE",
+]);
 
 function EntityChip({ entity, text }: { entity: HighlightEntity; text: string }) {
   const isBio = BIO_TYPES.has(entity.type);
@@ -93,6 +110,7 @@ export default function AnswerView({ response, onCitationClick }: Props) {
     const map = new Map<string, HighlightEntity>();
     for (const source of response.sources) {
       for (const ent of source.entities ?? []) {
+        if (SKIP_TYPES.has(ent.type)) continue;
         const key = ent.text.toLowerCase();
         if (!map.has(key) || (ent.id && !map.get(key)!.id)) {
           map.set(key, ent);
