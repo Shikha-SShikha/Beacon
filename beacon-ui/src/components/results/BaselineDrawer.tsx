@@ -108,12 +108,6 @@ function ComparisonBanner({
           sub="0 entities · 0 relations"
           dim
         />
-        <StatCell
-          label="Web / General AI"
-          value="No licensed access"
-          sub="Training data only"
-          dim
-        />
       </div>
       <div className="flex divide-x divide-slate-100 border-t border-slate-100">
         <div className="flex-1 px-4 py-2 text-center bg-blue-50/60">
@@ -124,11 +118,6 @@ function ComparisonBanner({
         <div className="flex-[2] px-4 py-2 text-center bg-slate-50/40">
           <p className="text-[10px] text-slate-400">
             Vector-only · HTML text · no entity recognition · no section weighting
-          </p>
-        </div>
-        <div className="flex-1 px-4 py-2 text-center bg-slate-50/40">
-          <p className="text-[10px] text-slate-400">
-            General training knowledge · no citations
           </p>
         </div>
       </div>
@@ -229,88 +218,6 @@ function RagColumn({ response, loading }: { response: AskResponse | null; loadin
                   })}
                 </div>
               </div>
-            )}
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function WebAiColumn({ response, loading, beaconBlocked }: {
-  response: AskResponse | null;
-  loading: boolean;
-  beaconBlocked: boolean;
-}) {
-  return (
-    <div className="flex-1 flex flex-col min-w-0">
-      <ColumnHeader
-        icon="🌐"
-        label="General Web / AI Search"
-        sublabel="No access to licensed articles · training knowledge only"
-        accent="border-slate-100"
-      />
-      <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
-        {loading && <SkeletonLines />}
-        {!loading && !response && <p className="text-[13px] text-slate-400 py-8 text-center">Run a search to compare</p>}
-        {!loading && response && (
-          <>
-            {beaconBlocked && (
-              <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 space-y-1.5">
-                <p className="text-[12px] font-semibold text-slate-700">This is the internet floor — and it cannot be blocked</p>
-                <p className="text-[12px] text-slate-500 leading-relaxed">
-                  The answer below comes from the model's general training data. It existed before
-                  this query was made and has nothing to do with your licensed content. No licensing
-                  layer — Beacon or otherwise — can remove knowledge already in a model's weights.
-                </p>
-                <p className="text-[12px] text-slate-500 leading-relaxed">
-                  What Beacon <span className="font-semibold text-slate-700">did</span> protect: the structured,
-                  enriched, source-attributed layer — the specific findings, section-level evidence,
-                  and entity-linked data from your journals. None of that appears below.
-                </p>
-              </div>
-            )}
-
-            <p className="text-[13px] text-slate-600 leading-relaxed">{response.answer}</p>
-
-            {beaconBlocked ? (
-              <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 space-y-2">
-                <p className="text-[11px] font-semibold text-slate-600">Notice what's missing from this answer</p>
-                <ul className="text-[11px] text-slate-500 space-y-1 list-disc list-inside leading-relaxed">
-                  <li>No citations to specific articles — it can't name the papers it doesn't have</li>
-                  <li>No section-level evidence — Methods, Results, Discussion are invisible</li>
-                  <li>No entity resolution — gene/protein names are strings, not ontology nodes</li>
-                  <li>No year or trial data — specific values may be approximate or fabricated</li>
-                  <li>No attribution to your journals — publisher gets no visibility or credit</li>
-                </ul>
-                <p className="text-[11px] text-slate-400 pt-1 border-t border-slate-100">
-                  A licensed institution querying Beacon receives article-level citations, enriched entity links,
-                  and source-verified data. This agent received none of that.
-                </p>
-              </div>
-            ) : (
-              <>
-                <div className="rounded-lg bg-red-50 border border-red-200 p-3 space-y-1">
-                  <p className="text-[11px] font-semibold text-red-700">What this search cannot see</p>
-                  <ul className="text-[11px] text-red-600 space-y-0.5 list-disc list-inside">
-                    <li>No access to licensed journal articles — specific findings invisible</li>
-                    <li>No section-level retrieval — answer draws on training data, not primary research</li>
-                    <li>No entity linking to ontologies — METTL3 is just a string, not a protein node</li>
-                    <li>No attribution — publisher content used without visibility or credit</li>
-                    <li>Hallucination risk — specific values, gene names, trial data may be fabricated</li>
-                  </ul>
-                </div>
-
-                <div className="rounded-lg bg-slate-50 border border-slate-200 p-3">
-                  <p className="text-[11px] font-semibold text-slate-600 mb-1">Why enrichment changes this</p>
-                  <p className="text-[11px] text-slate-500 leading-relaxed">
-                    Enriched articles surface through any AI search that indexes the publisher's content —
-                    Perplexity, ChatGPT browse, Google Scholar. Entities linked to NCBI, MeSH, ChEBI make
-                    the content machine-readable, not just human-readable. Semantic relations make
-                    specific findings retrievable, not just the article title.
-                  </p>
-                </div>
-              </>
             )}
           </>
         )}
