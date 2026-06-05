@@ -4,6 +4,7 @@ import SelectionPage from "./pages/SelectionPage";
 import SearchPage from "./pages/SearchPage";
 import CollectionsPage from "./pages/CollectionsPage";
 import AttributionPage from "./pages/AttributionPage";
+import EvalsPage from "./pages/EvalsPage";
 
 export default function App() {
   const [institutionId, setInstitutionId] = useState<string | null>(null);
@@ -43,6 +44,7 @@ export default function App() {
               : <Navigate to="/" replace />
           }
         />
+        <Route path="/evals" element={<EvalsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
