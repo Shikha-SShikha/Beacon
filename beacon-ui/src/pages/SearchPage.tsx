@@ -148,7 +148,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
         {/* Header */}
         <div className="px-10 pt-8 pb-5 border-b border-slate-200/60 bg-white">
           <div className="flex items-center gap-2.5 mb-1">
-            <BeaconLogo size="sm" />
+            <button onClick={() => window.location.reload()} className="cursor-pointer"><BeaconLogo size="sm" /></button>
             <span className="text-slate-200">/</span>
             <span className="text-[13px] font-medium text-slate-400">Ask</span>
           </div>
