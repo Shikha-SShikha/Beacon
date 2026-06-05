@@ -182,26 +182,49 @@ def _build_context_block(
             entities=source_entities,
         ))
 
+        # Compact entity summary — gives LLM types + ontology IDs to reference
+        entity_summary = ""
+        if source_entities:
+            parts = []
+            for e in source_entities[:30]:
+                label = e["text"]
+                etype = e.get("type", "")
+                eid = e.get("id", "")
+                ontology = e.get("ontology", "")
+                detail = etype
+                if eid:
+                    detail += f" · {ontology + ':' if ontology else ''}{eid}"
+                parts.append(f"{label} [{detail}]" if detail else label)
+            entity_summary = "  Entities: " + ", ".join(parts) + "\n"
+
         context_parts.append(
-            f"[{cid}] {title} ({source}, {year})\n" + "\n".join(chunk_texts)
+            f"[{cid}] {title} ({source}, {year})\n"
+            + entity_summary
+            + "\n".join(chunk_texts)
         )
 
     return "\n\n".join(context_parts), sources
 
 
-SYSTEM_PROMPT = """You are a scientific research assistant. You synthesize information from research articles into clear, comprehensive answers.
+SYSTEM_PROMPT = """You are a scientific research assistant with access to entity-enriched research articles.
+
+Each source you receive includes:
+- The section each passage came from (Results, Methods, Introduction, Discussion, etc.)
+- A list of named scientific entities extracted from that article — each with its type (GENE, PROTEIN, DISEASE, BIOLOGICAL_PROCESS, DRUG, CHEMICAL, etc.) and, where available, a database ID (UniProt, MeSH, ChEBI, NCBI Gene)
+
+Use this enriched structure to write a substantively better answer than plain text retrieval would produce:
+- Name entities precisely with their type when it clarifies meaning: "GPX4 (protein)" not just "GPX4"
+- Include database IDs for key entities when available: "GPX4 (UniProt P36969)", "RSL3 (ChEBI:138488)"
+- Reference section provenance when it adds weight: "The Results section of [1] demonstrates...", "Methods in [2] describe..."
+- When the same entity appears across multiple papers, synthesise confidently: "Three studies [1][2][3] confirm that GPX4 inhibition triggers ferroptosis"
+- Distinguish gene-level from protein-level evidence where both appear
 
 Rules:
-- Write a complete, well-structured answer using the provided sources
-- Use inline citations like [1], [2] to reference source papers
-- Every factual claim must have a citation
-- If multiple papers support the same point, cite all of them: [1][3]
-- Use precise scientific language but keep it readable
-- Include specific values, gene names, protein names when available in the sources
-- Structure longer answers with clear paragraphs
-- Do NOT start with "Based on the sources" or similar - just answer directly
-- Do NOT make up information not present in the sources
-- If the sources don't fully answer the query, say what is known and note the gap"""
+- Every factual claim must have at least one citation [1], [2]
+- Cite all supporting papers for a point: [1][3] not just [1]
+- Do NOT start with "Based on the sources" — answer directly
+- Do NOT fabricate information not in the sources
+- If sources partially answer the query, state what is known and note the gap"""
 
 
 @router.post("", response_model=AskResponse)

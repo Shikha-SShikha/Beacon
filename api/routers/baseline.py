@@ -15,7 +15,12 @@ from fastapi import APIRouter, HTTPException
 from ..models import SearchRequest, AskRequest, AskResponse, CitedSource, SourceSection
 from ..services.search_service import embed_query
 from ..services.clients import get_chroma, get_openai
-from .ask import SYSTEM_PROMPT
+_BASELINE_SYSTEM_PROMPT = """You are a scientific research assistant. Answer the question using the provided sources.
+- Use inline citations [1], [2] for every factual claim
+- If multiple papers support a point, cite all of them
+- Use precise scientific language
+- Do NOT start with "Based on the sources" — answer directly
+- Do NOT fabricate information not in the sources"""
 from governance.license_service import check_license, load_config, get_journal_code
 
 router = APIRouter(prefix="/baseline", tags=["baseline"])
@@ -131,7 +136,7 @@ def baseline_ask(req: AskRequest):
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": _BASELINE_SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt},
         ],
         temperature=0.3,

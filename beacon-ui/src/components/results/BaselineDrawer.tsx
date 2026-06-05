@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import type { AskResponse } from "../../types";
+import AnswerView from "./AnswerView";
 
 interface Props {
   ragResponse: AskResponse | null;
@@ -139,7 +140,7 @@ function BeaconColumn({ response }: { response: AskResponse | null }) {
         {!response && <p className="text-[13px] text-slate-400 py-8 text-center">No response</p>}
         {response && (
           <>
-            <p className="text-[13px] text-slate-700 leading-relaxed">{response.answer}</p>
+            <AnswerView response={response} onCitationClick={() => {}} />
             <SourceList sources={response.sources} accent="bg-blue-50/40 border-blue-100" />
           </>
         )}

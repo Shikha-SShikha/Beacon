@@ -66,6 +66,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
   const [ragLoading, setRagLoading] = useState(false);
   const [ragResponse, setRagResponse] = useState<AskResponse | null>(null);
   const [comparisonQuery, setComparisonQuery] = useState<string>("");
+  const [comparisonExchange, setComparisonExchange] = useState<number>(0);
 
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsTopRef = useRef<HTMLDivElement>(null);
@@ -107,8 +108,9 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
   }
 
 
-  const handleBaselineOpen = useCallback(async (q: string) => {
+  const handleBaselineOpen = useCallback(async (q: string, exchangeIdx: number) => {
     setBaselineOpen(true);
+    setComparisonExchange(exchangeIdx);
     if (q === comparisonQuery && ragResponse !== null) return;
     setComparisonQuery(q);
     setRagLoading(true);
@@ -285,7 +287,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
                   {/* Standard RAG comparison trigger */}
                   <div className="mt-4">
                     <button
-                      onClick={() => handleBaselineOpen(exchange.query)}
+                      onClick={() => handleBaselineOpen(exchange.query, i)}
                       className="inline-flex items-center gap-2 text-[13px] text-slate-400 hover:text-blue-600 transition-colors"
                     >
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -318,7 +320,7 @@ export default function SearchPage({ institutionId, onSwitch }: Props) {
         ragLoading={ragLoading}
         open={baselineOpen}
         onClose={() => setBaselineOpen(false)}
-        beaconResponse={history[activeExchange]?.response ?? null}
+        beaconResponse={history[comparisonExchange]?.response ?? null}
       />
     </div>
   );
