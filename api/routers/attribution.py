@@ -5,11 +5,6 @@ Two event types flow into a single chronological feed:
   "served"  — query answered, sources cited, license verified
   "blocked" — query attempted, all content NO_ACCESS, agent revealed intent
 
-Publisher mapping (alphabetical by real name):
-  Elsevier            → Publisher A
-  Pleiades Publishing → Publisher B
-  Portland Press      → Publisher C
-
 Agent label overrides (for unlicensed/bot identities):
   guest → "Commercial AI agent"
 """
@@ -20,12 +15,6 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 
 router = APIRouter(prefix="/attribution", tags=["attribution"])
-
-PUBLISHER_LABELS: dict[str, str] = {
-    "Elsevier":            "Publisher A",
-    "Pleiades Publishing": "Publisher B",
-    "Portland Press":      "Publisher C",
-}
 
 AGENT_LABELS: dict[str, str] = {
     "ai_bot":    "Commercial AI agent",
@@ -104,7 +93,7 @@ def _extract_section_labels(sections: list) -> list[str]:
                else sec.get("subsection_title", "")) or ""
         st  = (sec.section_title if hasattr(sec, "section_title")
                else sec.get("section_title", "")) or ""
-        label = section.capitalize() if section.lower() in IMRAD else (sub or st)
+        label = section.capitalize() if section.lower() in IMRAD else (st or section.capitalize())
         if label and label not in seen:
             seen.add(label)
             labels.append(label)
@@ -127,7 +116,7 @@ def log_event(
             "citation_id":     src.get("citation_id", 0),
             "title":           src.get("title", ""),
             "journal_code":    src.get("journal_code", ""),
-            "publisher_label": PUBLISHER_LABELS.get(publisher_real, publisher_real or "Unknown"),
+            "publisher_label": publisher_real or "Unknown",
             "doi":             src.get("doi", ""),
             "sections_used":   _extract_section_labels(src.get("sections", [])),
             "license_decision":src.get("license_decision", ""),
@@ -172,7 +161,7 @@ def log_blocked_event(
         publisher_real = journal_config.get(jcode, {}).get("publisher", "")
         attempted.append({
             "journal_code":    jcode,
-            "publisher_label": PUBLISHER_LABELS.get(publisher_real, publisher_real or "Unknown"),
+            "publisher_label": publisher_real or "Unknown",
             "article_count":   count,
         })
 

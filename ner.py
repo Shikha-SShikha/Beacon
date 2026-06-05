@@ -98,6 +98,9 @@ Extract up to 8 important named entities. Return JSON array only, no extra text:
 Rules:
 - Only clearly named entities (not generic words like "study" or "method")
 - Use CELL_LINE for cell lines (e.g. HeLa, HEK293, TBL20), not ORGANISM
+- Use BIOLOGICAL_PROCESS for cellular mechanisms, cell death modalities (ferroptosis, apoptosis, autophagy, necroptosis), metabolic and oxidative processes (lipid peroxidation, glycolysis, beta-oxidation), and signaling events — NOT DISEASE or CHEMICAL
+- Use DISEASE only for pathological conditions/disorders (cancer, diabetes, infection). A biological process is NOT a disease even if it contributes to one.
+- Use CHEMICAL for molecules/compounds, NOT for oxidative processes or pathway names
 - Use the entity types listed above
 - Return [] if no clear entities"""
 

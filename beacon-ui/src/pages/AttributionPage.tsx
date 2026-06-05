@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { fetchAttributionSummary, fetchAttributionFeed, simulateBlockedRequest } from "../api/client";
-import type { AttributionSummary, FeedEvent, PublisherSummary } from "../types";
+import type { AttributionSummary, FeedEvent } from "../types";
 import BeaconLogo from "../components/ui/BeaconLogo";
 
 interface Props {
@@ -274,7 +274,7 @@ function HowItWorksPanel() {
   "query": "How does GPX4 resistance develop?",
   "agent": "Commercial AI agent",
   "attempted": [
-    { "journal": "REDOX", "publisher": "Publisher A", "articles": 2 }
+    { "journal": "REDOX", "publisher": "Elsevier", "articles": 2 }
   ],
   "articles_served": 0,
   "block_reason": "No active license for this agent"
@@ -302,7 +302,6 @@ export default function AttributionPage({ onSwitch }: Props) {
   const navigate = useNavigate();
   const [summary, setSummary] = useState<AttributionSummary | null>(null);
   const [feed, setFeed] = useState<FeedEvent[]>([]);
-  const [activePublisher, setActivePublisher] = useState<string | null>(null);
   const [showHowItWorks, setShowHowItWorks] = useState(false);
   const [loading, setLoading] = useState(true);
   const [simulating, setSimulating] = useState(false);
@@ -311,19 +310,16 @@ export default function AttributionPage({ onSwitch }: Props) {
     try {
       const [s, f] = await Promise.all([
         fetchAttributionSummary(),
-        fetchAttributionFeed(activePublisher ?? undefined),
+        fetchAttributionFeed(),
       ]);
       setSummary(s);
       setFeed(f);
-      if (!activePublisher && s.publishers.length > 0) {
-        setActivePublisher(s.publishers[0].label);
-      }
     } catch {
       // empty state handles it
     } finally {
       setLoading(false);
     }
-  }, [activePublisher]);
+  }, []);
 
   useEffect(() => {
     refresh();
@@ -331,16 +327,22 @@ export default function AttributionPage({ onSwitch }: Props) {
     return () => clearInterval(interval);
   }, [refresh]);
 
-  const activeSummary: PublisherSummary | null =
-    summary?.publishers.find(p => p.label === activePublisher) ?? null;
+  const totalCitations = summary?.publishers.reduce((sum, p) => sum + p.article_citations, 0) ?? 0;
+  const totalInstitutions = summary?.publishers.reduce((sum, p) => sum + p.institution_count, 0) ?? 0;
 
-  const filteredFeed = activePublisher
-    ? feed.filter(ev =>
-        ev.event_type === "served"
-          ? ev.sources.some(s => s.publisher_label === activePublisher)
-          : ev.attempted.some(a => a.publisher_label === activePublisher)
-      )
-    : feed;
+  const topSections = (() => {
+    if (!summary) return [];
+    const sectionMap: Record<string, number> = {};
+    summary.publishers.forEach(p =>
+      p.top_sections.forEach(s => {
+        sectionMap[s.section] = (sectionMap[s.section] ?? 0) + s.count;
+      })
+    );
+    return Object.entries(sectionMap)
+      .map(([section, count]) => ({ section, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 5);
+  })();
 
   return (
     <div className="flex min-h-screen bg-slate-50">
@@ -371,39 +373,6 @@ export default function AttributionPage({ onSwitch }: Props) {
             </div>
           )}
 
-          <hr className="border-slate-200/60" />
-
-          <div>
-            <p className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase mb-3">Publishers</p>
-            <div className="space-y-1">
-              {(summary?.publishers ?? []).map(p => (
-                <button
-                  key={p.label}
-                  onClick={() => setActivePublisher(p.label)}
-                  className={`w-full text-left px-3 py-2.5 rounded-lg text-[13px] transition-colors ${
-                    activePublisher === p.label
-                      ? "bg-slate-100 text-slate-800 font-semibold"
-                      : "text-slate-500 hover:bg-slate-50"
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <span>{p.label}</span>
-                    <div className="flex items-center gap-1.5">
-                      {p.queries_blocked > 0 && (
-                        <span className="text-[10px] text-amber-600 font-semibold">{p.queries_blocked}✗</span>
-                      )}
-                      <span className="text-[11px] text-slate-400">{p.article_citations} cites</span>
-                    </div>
-                  </div>
-                </button>
-              ))}
-              {(summary?.publishers.length ?? 0) === 0 && (
-                <p className="text-[12px] text-slate-400 px-3 py-2">
-                  No events yet — run queries in Beacon Search first
-                </p>
-              )}
-            </div>
-          </div>
         </div>
 
         <div className="px-6 py-5 border-t border-slate-200/60 space-y-3">
@@ -454,38 +423,14 @@ export default function AttributionPage({ onSwitch }: Props) {
         <div className="px-10 py-8 space-y-8">
           {showHowItWorks && <HowItWorksPanel />}
 
-          {/* Publisher tabs */}
-          {(summary?.publishers.length ?? 0) > 0 && (
-            <div className="flex gap-2 border-b border-slate-200">
-              {summary!.publishers.map(p => (
-                <button
-                  key={p.label}
-                  onClick={() => setActivePublisher(p.label)}
-                  className={`px-4 py-2 text-[13px] font-medium border-b-2 transition-colors -mb-px ${
-                    activePublisher === p.label
-                      ? "border-slate-800 text-slate-800"
-                      : "border-transparent text-slate-400 hover:text-slate-600"
-                  }`}
-                >
-                  {p.label}
-                  {p.queries_blocked > 0 && (
-                    <span className="ml-1.5 text-[10px] text-amber-600 font-semibold">
-                      {p.queries_blocked} blocked
-                    </span>
-                  )}
-                </button>
-              ))}
-            </div>
-          )}
-
           {/* Stats */}
-          {activeSummary && (
+          {summary && (
             <div className="grid grid-cols-4 gap-4">
               {[
-                { label: "Queries served",    value: activeSummary.queries_served,    color: "text-slate-800" },
-                { label: "Article citations", value: activeSummary.article_citations, color: "text-slate-800" },
-                { label: "Access blocked",    value: activeSummary.queries_blocked,   color: activeSummary.queries_blocked > 0 ? "text-amber-600" : "text-slate-800" },
-                { label: "Institutions",      value: activeSummary.institution_count, color: "text-slate-800" },
+                { label: "Queries served",    value: summary.total_served,   color: "text-slate-800" },
+                { label: "Article citations", value: totalCitations,          color: "text-slate-800" },
+                { label: "Access blocked",    value: summary.total_blocked,   color: summary.total_blocked > 0 ? "text-amber-600" : "text-slate-800" },
+                { label: "Institutions",      value: totalInstitutions,       color: "text-slate-800" },
               ].map(stat => (
                 <div key={stat.label} className="rounded-xl border border-slate-200 bg-white px-5 py-4">
                   <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">
@@ -498,14 +443,14 @@ export default function AttributionPage({ onSwitch }: Props) {
           )}
 
           {/* Section distribution */}
-          {activeSummary && activeSummary.top_sections.length > 0 && (
+          {topSections.length > 0 && (
             <div className="rounded-xl border border-slate-200 bg-white px-6 py-5">
               <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-4">
-                Sections surfaced — {activeSummary.label}
+                Sections surfaced
               </p>
               <div className="space-y-2.5">
-                {activeSummary.top_sections.map(s => {
-                  const max = activeSummary.top_sections[0].count;
+                {topSections.map(s => {
+                  const max = topSections[0].count;
                   const pct = Math.round((s.count / max) * 100);
                   return (
                     <div key={s.section} className="flex items-center gap-3">
@@ -525,10 +470,10 @@ export default function AttributionPage({ onSwitch }: Props) {
           <div>
             <div className="flex items-center justify-between mb-4">
               <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-                Event feed {activePublisher ? `· ${activePublisher}` : ""}
+                Event feed
               </p>
               <div className="flex items-center gap-3">
-                {filteredFeed.length > 0 && (
+                {feed.length > 0 && (
                   <span className="text-[11px] text-slate-400">Refreshes every 5s</span>
                 )}
                 <button
@@ -557,7 +502,7 @@ export default function AttributionPage({ onSwitch }: Props) {
               </div>
             )}
 
-            {!loading && filteredFeed.length === 0 && (
+            {!loading && feed.length === 0 && (
               <div className="rounded-xl border border-slate-200 bg-white px-6 py-12 text-center">
                 <p className="text-[14px] font-semibold text-slate-600 mb-2">No events yet</p>
                 <p className="text-[13px] text-slate-400 max-w-sm mx-auto">
@@ -572,9 +517,9 @@ export default function AttributionPage({ onSwitch }: Props) {
               </div>
             )}
 
-            {!loading && filteredFeed.length > 0 && (
+            {!loading && feed.length > 0 && (
               <div className="space-y-4">
-                {filteredFeed.map(ev =>
+                {feed.map(ev =>
                   ev.event_type === "served"
                     ? <ServedCard key={ev.event_id} event={ev} />
                     : <BlockedCard key={ev.event_id} event={ev} />

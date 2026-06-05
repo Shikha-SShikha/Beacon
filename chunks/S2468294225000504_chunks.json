@@ -515,7 +515,7 @@
       "subsection_title": "Types of Cancer",
       "paragraph_index": 6,
       "parent_section_id": "sec0001",
-      "text": "This introduction section from the article discusses various types of cancer, highlighting examples such as breast cancer and prostate cancer, and their distinct characteristics relevant to treatment approaches.\n\nExamples include various forms of cancer, germ cell tumors, and blastomas. ### Types of Cancer\n\nCancer manifests in various forms, each with distinct characteristics and implications for treatment: • Breast Cancer : This is one of the most prevalent cancers globally, primarily affecting women, though it can also occur in men [ 4 ]. • Prostate Cancer : Originating in the prostate gland, this cancer is common among men and varies in aggressiveness [ 71 ]. • Basal Cell Carcinoma : The most common form of skin cancer, it arises from basal cells in the epidermis. Early detection typically leads to successful treatment [ 62 ]. • Melanoma : This cancer originates in melanocytes, the pigment-producing cells of the skin [ 69 ]. • Colon Cancer : Also known as colorectal cancer, it begins in the large intestine and often starts as a polyp that may develop into cancer over time [ 61 ]. • Lung Cancer : Characterized by uncontrolled growth of abnormal lung cells, lung cancer can metastasize and is categorized into small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) [ 84 ]. • Leukemia : This cancer involves the proliferation of abnormal white blood cells, impairing the body's ability to produce healthy blood cells [ 60 ]. • Lymphoma : Affecting the lymphatic system, lymphoma originates in lymphocytes and can spread to other organs. It is classified into Hodgkin lymphoma (HL) and non-Hodgkin lymphoma (NHL) [ 38 ].",
+      "text": "This introduction section from the article discusses various types of cancer, highlighting examples such as breast cancer and prostate cancer, and their distinct characteristics relevant to treatment approaches.\n\nExamples include various forms of cancer, germ cell tumors, and blastomas. ### Types of Cancer\n\nCancer manifests in various forms, each with distinct characteristics and implications for treatment: \u2022 Breast Cancer : This is one of the most prevalent cancers globally, primarily affecting women, though it can also occur in men [ 4 ]. \u2022 Prostate Cancer : Originating in the prostate gland, this cancer is common among men and varies in aggressiveness [ 71 ]. \u2022 Basal Cell Carcinoma : The most common form of skin cancer, it arises from basal cells in the epidermis. Early detection typically leads to successful treatment [ 62 ]. \u2022 Melanoma : This cancer originates in melanocytes, the pigment-producing cells of the skin [ 69 ]. \u2022 Colon Cancer : Also known as colorectal cancer, it begins in the large intestine and often starts as a polyp that may develop into cancer over time [ 61 ]. \u2022 Lung Cancer : Characterized by uncontrolled growth of abnormal lung cells, lung cancer can metastasize and is categorized into small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) [ 84 ]. \u2022 Leukemia : This cancer involves the proliferation of abnormal white blood cells, impairing the body's ability to produce healthy blood cells [ 60 ]. \u2022 Lymphoma : Affecting the lymphatic system, lymphoma originates in lymphocytes and can spread to other organs. It is classified into Hodgkin lymphoma (HL) and non-Hodgkin lymphoma (NHL) [ 38 ].",
       "entities": [
         {
           "text": "breast cancer",
@@ -1590,9 +1590,9 @@
         },
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2041,13 +2041,13 @@
       "subsection_title": "Hallmarks of Ferroptosis",
       "paragraph_index": 3,
       "parent_section_id": "sec0008",
-      "text": "This section from the article discusses the hallmarks of ferroptosis, focusing on the misregulated protein breakdown mechanisms involved, such as autophagy and the ubiquitin-proteasome system.\n\nIt has to do with mis regulated protein breakdown mechanisms like autophagy and the ubiquitin-proteasome system [ 85 ]. ### Hallmarks of Ferroptosis\n\n▓",
+      "text": "This section from the article discusses the hallmarks of ferroptosis, focusing on the misregulated protein breakdown mechanisms involved, such as autophagy and the ubiquitin-proteasome system.\n\nIt has to do with mis regulated protein breakdown mechanisms like autophagy and the ubiquitin-proteasome system [ 85 ]. ### Hallmarks of Ferroptosis\n\n\u2593",
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2240,9 +2240,9 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2254,9 +2254,9 @@
         },
         {
           "text": "reactive oxygen species",
-          "type": "CHEMICAL",
-          "id": "D017382",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -2311,9 +2311,9 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2754,9 +2754,9 @@
         },
         {
           "text": "lipid peroxidation",
-          "type": "CHEMICAL",
-          "id": "D015227",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2820,13 +2820,13 @@
       "subsection_title": "Immune features",
       "paragraph_index": 11,
       "parent_section_id": "sec0008",
-      "text": "This subsection from the article discusses the immune features associated with ferroptosis, highlighting its role in triggering distinct inflammatory responses through the release of damage-associated molecular patterns following tissue injury or cancer therapy.\n\nBy releasing and activating distinct damage-associated molecular pattern (DAMP) signals, various forms of cellular death can trigger distinct immunological and inflammatory reactions [ 46 ]. Ferroptosis, in general, is a kind of inflammatory cell death associated with the production, following tissue injury or tumor therapy, of lipid oxidation products (e.g., 4HNE, oxPLs, LTB4, LTC4, LTD4, and PGE2) or DAMPs (e.g., high mobility group box 1 (HMGB1) and DNA) [ 57 ]. For example, in aging and chronic disorders, the lipid peroxidation product 4HNE is a pro-inflammatory mediator that activates the nuclear factor-κB (NF-κB) pathway. Ferroptotic cells secrete HMGB1, a classic DAMP linked to several types of cell death. Then, by means of the advanced glycosylation end-product-specific receptor (AGER/RAGE), a pattern-recognition receptor, this DAMP triggers the NF-κB pathway in innate immunity, leading to the inflammation of peripheral macrophages [ 13 ]. It might be advantageous to treat inflammatory illnesses by concentrating on DAMP signaling linked to lipid metabolism.",
+      "text": "This subsection from the article discusses the immune features associated with ferroptosis, highlighting its role in triggering distinct inflammatory responses through the release of damage-associated molecular patterns following tissue injury or cancer therapy.\n\nBy releasing and activating distinct damage-associated molecular pattern (DAMP) signals, various forms of cellular death can trigger distinct immunological and inflammatory reactions [ 46 ]. Ferroptosis, in general, is a kind of inflammatory cell death associated with the production, following tissue injury or tumor therapy, of lipid oxidation products (e.g., 4HNE, oxPLs, LTB4, LTC4, LTD4, and PGE2) or DAMPs (e.g., high mobility group box 1 (HMGB1) and DNA) [ 57 ]. For example, in aging and chronic disorders, the lipid peroxidation product 4HNE is a pro-inflammatory mediator that activates the nuclear factor-\u03baB (NF-\u03baB) pathway. Ferroptotic cells secrete HMGB1, a classic DAMP linked to several types of cell death. Then, by means of the advanced glycosylation end-product-specific receptor (AGER/RAGE), a pattern-recognition receptor, this DAMP triggers the NF-\u03baB pathway in innate immunity, leading to the inflammation of peripheral macrophages [ 13 ]. It might be advantageous to treat inflammatory illnesses by concentrating on DAMP signaling linked to lipid metabolism.",
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -2925,8 +2925,8 @@
         {
           "subject": "4HNE",
           "predicate": "activates",
-          "object": "nuclear factor-κB (NF-κB) pathway",
-          "evidence": "4HNE is a pro-inflammatory mediator that activates the nuclear factor-κB (NF-κB) pathway"
+          "object": "nuclear factor-\u03baB (NF-\u03baB) pathway",
+          "evidence": "4HNE is a pro-inflammatory mediator that activates the nuclear factor-\u03baB (NF-\u03baB) pathway"
         }
       ]
     },
@@ -2938,7 +2938,7 @@
       "subsection_title": "Inducing Ferroptosis by suppressing GPX4 in cancer therapy",
       "paragraph_index": 0,
       "parent_section_id": "sec0014",
-      "text": "This subsection from the article discusses how suppressing GPX4 can induce ferroptosis as a novel strategy in cancer therapy, highlighting its role in regulating lipid peroxidation and iron-dependent oxidative stress.\n\n### Inducing Ferroptosis by suppressing GPX4 in cancer therapy\n\nFerroptosis, which is characterized by lipid peroxidation, is mostly regulated by GPX4. It inhibits ferroptosis and stops iron-dependent lipid reactive oxygen generation by catalyzing the conversion of R-OOH into R-OH. GPX4 is dependent on iron and reactive oxygen species (ROS) [ 97 ]. It is involved in the formation of the system xc−/GSH/GPX4 axis, which inhibits ferroptosis by fighting cellular phospholipid peroxidation [ 51 ]. One of the major obstacles preventing targeted anticancer therapy from producing better results in terms of stability and integrity is acquired drug resistance (Groenendijk et al., 2014).",
+      "text": "This subsection from the article discusses how suppressing GPX4 can induce ferroptosis as a novel strategy in cancer therapy, highlighting its role in regulating lipid peroxidation and iron-dependent oxidative stress.\n\n### Inducing Ferroptosis by suppressing GPX4 in cancer therapy\n\nFerroptosis, which is characterized by lipid peroxidation, is mostly regulated by GPX4. It inhibits ferroptosis and stops iron-dependent lipid reactive oxygen generation by catalyzing the conversion of R-OOH into R-OH. GPX4 is dependent on iron and reactive oxygen species (ROS) [ 97 ]. It is involved in the formation of the system xc\u2212/GSH/GPX4 axis, which inhibits ferroptosis by fighting cellular phospholipid peroxidation [ 51 ]. One of the major obstacles preventing targeted anticancer therapy from producing better results in terms of stability and integrity is acquired drug resistance (Groenendijk et al., 2014).",
       "entities": [
         {
           "text": "GPX4",
@@ -2970,9 +2970,9 @@
         },
         {
           "text": "reactive oxygen species",
-          "type": "CHEMICAL",
-          "id": "D017382",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -3020,7 +3020,7 @@
           "evidence": "stops iron-dependent lipid reactive oxygen generation"
         },
         {
-          "subject": "system xc−/GSH/GPX4 axis",
+          "subject": "system xc\u2212/GSH/GPX4 axis",
           "predicate": "inhibits",
           "object": "ferroptosis",
           "evidence": "inhibits ferroptosis by fighting cellular phospholipid peroxidation"
@@ -3035,7 +3035,7 @@
       "subsection_title": "Inducing Ferroptosis by suppressing GPX4 in cancer therapy",
       "paragraph_index": 1,
       "parent_section_id": "sec0014",
-      "text": "This subsection from the article discusses how acquired drug resistance in anticancer therapy is challenged by the selective ferroptosis dependence in certain cancers, particularly through the suppression of GPX4.\n\nOne of the major obstacles preventing targeted anticancer therapy from producing better results in terms of stability and integrity is acquired drug resistance (Groenendijk et al., 2014). Remarkably, it has been demonstrated that cancers of the prostate, pancreas, non-small cell lung, and melanoma cells all exhibit a selective ferroptosis dependence that is exacerbated by GPX4 loss of function [ 29 ]. Higher clinical stages and selective sensitivity to ferroptosis in cancer cells with a strong mesenchymal state indicate that these cells may be susceptible to GPX4 inhibition [ 87 ]. Ionizing radiation (IR) has been found to induce ferroptosis in esophageal adenocarcinoma, breast malignancy, renal carcinoma, and fibrosarcoma in a few investigations [ 48 ]. Furthermore, it has been discovered that, in xenograft models, ferroptosis inducers that target GPX4 increase the sensitivity of radiation therapy [ 48 ]. When comparing the doxorubicin-treated animals to the naked control mice, the tumor mass made up of gpx4-knocked HCT116 (a human colon cancer cell line) cells was somewhat less [ 83 ]. As a result of GPX4′s potency as a ferroptosis inhibitor, tumor therapies are now more drug-resistant, which poses a significant challenge in clinical settings when utilizing novel molecular targets and therapeutic modalities [ 95 ].",
+      "text": "This subsection from the article discusses how acquired drug resistance in anticancer therapy is challenged by the selective ferroptosis dependence in certain cancers, particularly through the suppression of GPX4.\n\nOne of the major obstacles preventing targeted anticancer therapy from producing better results in terms of stability and integrity is acquired drug resistance (Groenendijk et al., 2014). Remarkably, it has been demonstrated that cancers of the prostate, pancreas, non-small cell lung, and melanoma cells all exhibit a selective ferroptosis dependence that is exacerbated by GPX4 loss of function [ 29 ]. Higher clinical stages and selective sensitivity to ferroptosis in cancer cells with a strong mesenchymal state indicate that these cells may be susceptible to GPX4 inhibition [ 87 ]. Ionizing radiation (IR) has been found to induce ferroptosis in esophageal adenocarcinoma, breast malignancy, renal carcinoma, and fibrosarcoma in a few investigations [ 48 ]. Furthermore, it has been discovered that, in xenograft models, ferroptosis inducers that target GPX4 increase the sensitivity of radiation therapy [ 48 ]. When comparing the doxorubicin-treated animals to the naked control mice, the tumor mass made up of gpx4-knocked HCT116 (a human colon cancer cell line) cells was somewhat less [ 83 ]. As a result of GPX4\u2032s potency as a ferroptosis inhibitor, tumor therapies are now more drug-resistant, which poses a significant challenge in clinical settings when utilizing novel molecular targets and therapeutic modalities [ 95 ].",
       "entities": [
         {
           "text": "ferroptosis",
@@ -3145,7 +3145,7 @@
       "subsection_title": "Inducing Ferroptosis by suppressing GPX4 in cancer therapy",
       "paragraph_index": 2,
       "parent_section_id": "sec0014",
-      "text": "This subsection from the article discusses the role of GPX4 as a ferroptosis inhibitor in cancer therapy and examines research investigating its regulatory function during tumor growth.\n\nAs a result of GPX4′s potency as a ferroptosis inhibitor, tumor therapies are now more drug-resistant, which poses a significant challenge in clinical settings when utilizing novel molecular targets and therapeutic modalities [ 95 ]. To verify the involvement of GPX4 in carcinogenesis and test their theory that it may have a regulatory function during tumor growth, Schneider et al. conducted an experiment to inactivate GPX4 in murine embryonic fibroblasts (MEFs) [ 75 ]. In vitro inactivation of GPX4 resulted in immediate cell death. Remarkably, altered GPX4+/− generated tumor spheroids and survived in Matrigel. The mice were given subcutaneous implants of the tumor cells. Subsequently, a tumor with a robust vascular phenotype—a decrease in big diameter arteries and an increase in micro vessel density—was collected. It had the same volume and weight as tumors of the wild type. Pharmacologically suppressing 12/15-LOX reversed the phenotype and restored normal vascular morphology. Therefore, it was determined that by controlling 12/15-LOX activity, GPX4 is a crucial regulator of tumor development and vascular maturation.",
+      "text": "This subsection from the article discusses the role of GPX4 as a ferroptosis inhibitor in cancer therapy and examines research investigating its regulatory function during tumor growth.\n\nAs a result of GPX4\u2032s potency as a ferroptosis inhibitor, tumor therapies are now more drug-resistant, which poses a significant challenge in clinical settings when utilizing novel molecular targets and therapeutic modalities [ 95 ]. To verify the involvement of GPX4 in carcinogenesis and test their theory that it may have a regulatory function during tumor growth, Schneider et al. conducted an experiment to inactivate GPX4 in murine embryonic fibroblasts (MEFs) [ 75 ]. In vitro inactivation of GPX4 resulted in immediate cell death. Remarkably, altered GPX4+/\u2212 generated tumor spheroids and survived in Matrigel. The mice were given subcutaneous implants of the tumor cells. Subsequently, a tumor with a robust vascular phenotype\u2014a decrease in big diameter arteries and an increase in micro vessel density\u2014was collected. It had the same volume and weight as tumors of the wild type. Pharmacologically suppressing 12/15-LOX reversed the phenotype and restored normal vascular morphology. Therefore, it was determined that by controlling 12/15-LOX activity, GPX4 is a crucial regulator of tumor development and vascular maturation.",
       "entities": [
         {
           "text": "GPX4",
@@ -3226,10 +3226,10 @@
           "evidence": "in vitro inactivation of GPX4 resulted in immediate cell death"
         },
         {
-          "subject": "altered GPX4+/−",
+          "subject": "altered GPX4+/\u2212",
           "predicate": "produces",
           "object": "tumor spheroids",
-          "evidence": "altered GPX4+/− generated tumor spheroids"
+          "evidence": "altered GPX4+/\u2212 generated tumor spheroids"
         }
       ]
     },
@@ -3260,13 +3260,6 @@
         {
           "text": "12/15-LOX",
           "type": "PROTEIN",
-          "id": null,
-          "ontology": null,
-          "source": "gpt"
-        },
-        {
-          "text": "oxidative stress",
-          "type": "BIOLOGICAL_PROCESS",
           "id": null,
           "ontology": null,
           "source": "gpt"
@@ -3465,9 +3458,9 @@
         },
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -3578,7 +3571,7 @@
       "subsection_title": "P53-Mediated Ferroptosis",
       "paragraph_index": 6,
       "parent_section_id": "sec0014",
-      "text": "This subsection from the article discusses the role of the tumor suppressor gene P53 in mediating ferroptosis and its implications in cancer therapy, highlighting its significance in tumor progression despite being underexplored.\n\nThis leads to a decline in ferroptosis, lipid ROS accumulation, and cell antioxidant capacity [ 79 ]. ### P53-Mediated Ferroptosis\n\nTumor suppressor genes like P53 are crucial in this regard. P53′s involvement in ferroptosis remains unknown, even though age, apoptosis, and cell cycle suppression are all significant contributors in the onset and spread of tumors [ 56 ]. Ferroptosis is aided by P53 mutants with aberrant acetylation that have recently been discovered. Fer-1, an inhibitor of ferroptosis, caused a significant reduction in the rate of cell death, and P53 also caused ferroptosis [ 52 ]. Further research indicates that P53 can impede system Xc-uptake of cystine by downregulating SLC7A11 expression, which affects GPX4 function and reduces antioxidant capacity, ROS buildup, and ferroptosis [ 55 ].",
+      "text": "This subsection from the article discusses the role of the tumor suppressor gene P53 in mediating ferroptosis and its implications in cancer therapy, highlighting its significance in tumor progression despite being underexplored.\n\nThis leads to a decline in ferroptosis, lipid ROS accumulation, and cell antioxidant capacity [ 79 ]. ### P53-Mediated Ferroptosis\n\nTumor suppressor genes like P53 are crucial in this regard. P53\u2032s involvement in ferroptosis remains unknown, even though age, apoptosis, and cell cycle suppression are all significant contributors in the onset and spread of tumors [ 56 ]. Ferroptosis is aided by P53 mutants with aberrant acetylation that have recently been discovered. Fer-1, an inhibitor of ferroptosis, caused a significant reduction in the rate of cell death, and P53 also caused ferroptosis [ 52 ]. Further research indicates that P53 can impede system Xc-uptake of cystine by downregulating SLC7A11 expression, which affects GPX4 function and reduces antioxidant capacity, ROS buildup, and ferroptosis [ 55 ].",
       "entities": [
         {
           "text": "P53",
@@ -3665,7 +3658,7 @@
           "subject": "P53",
           "predicate": "supports",
           "object": "ferroptosis",
-          "evidence": "P53′s involvement in ferroptosis remains unknown"
+          "evidence": "P53\u2032s involvement in ferroptosis remains unknown"
         },
         {
           "subject": "Fer-1",
@@ -3683,7 +3676,7 @@
       "subsection_title": "P53-Mediated Ferroptosis",
       "paragraph_index": 7,
       "parent_section_id": "sec0014",
-      "text": "This subsection from the article discusses how P53 regulates ferroptosis through the downregulation of SLC7A11, affecting GPX4 function and the P53-SAT1-ALOX15 pathway, highlighting its role in cancer therapy.\n\nFurther research indicates that P53 can impede system Xc-uptake of cystine by downregulating SLC7A11 expression, which affects GPX4 function and reduces antioxidant capacity, ROS buildup, and ferroptosis [ 55 ]. Furthermore, ferroptosis regulation is mediated by the P53-SAT1-ALOX15 pathway. P53′s transcriptional target and rate-limiting enzyme for polyamine catabolism is SAT1. In response to reactive oxygen species, SAT1 activation promotes lipid peroxidation (ROS) and ferroptosis, which is connected to the production of arachidonate lipoxygenase 15. (ALOX-15) [ 94 ].",
+      "text": "This subsection from the article discusses how P53 regulates ferroptosis through the downregulation of SLC7A11, affecting GPX4 function and the P53-SAT1-ALOX15 pathway, highlighting its role in cancer therapy.\n\nFurther research indicates that P53 can impede system Xc-uptake of cystine by downregulating SLC7A11 expression, which affects GPX4 function and reduces antioxidant capacity, ROS buildup, and ferroptosis [ 55 ]. Furthermore, ferroptosis regulation is mediated by the P53-SAT1-ALOX15 pathway. P53\u2032s transcriptional target and rate-limiting enzyme for polyamine catabolism is SAT1. In response to reactive oxygen species, SAT1 activation promotes lipid peroxidation (ROS) and ferroptosis, which is connected to the production of arachidonate lipoxygenase 15. (ALOX-15) [ 94 ].",
       "entities": [
         {
           "text": "P53",
@@ -3729,9 +3722,9 @@
         },
         {
           "text": "reactive oxygen species",
-          "type": "CHEMICAL",
-          "id": "D017382",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -4224,7 +4217,7 @@
       "subsection_title": null,
       "paragraph_index": 0,
       "parent_section_id": "sec0022",
-      "text": "This other section from the article explores the regulation of ferroptosis, highlighting the balance of pro- and anti-ferroptotic mechanisms, including the roles of iron availability, lipid peroxidation, and key regulators like GPX4 and system Xc-.\n\nFerroptosis, a form of regulated cell death driven by iron-dependent lipid peroxidation, is tightly controlled by the balance between pro-ferroptotic (e.g., iron availability, lipid peroxidation) and anti-ferroptotic (e.g., glutathione peroxidase 4 (GPX4), system Xc-) mechanisms. GPX4, a key regulator, detoxifies lipid peroxides, while system Xc- imports cystine, a precursor for glutathione synthesis, thus preventing ferroptosis (Tang et al., 2021). Iron homeostasis, regulated by proteins like ferritin and transferrin, also plays a crucial role. Physiologically, ferroptosis contributes to development and tissue homeostasis, while pathologically, it's implicated in neurodegenerative diseases, ischemia-reperfusion injury, and cancer. Recent studies emphasize the crosstalk between ferroptosis and other signaling pathways, including NF-κB, p53, and the Keap1-Nrf2 pathway, which modulate its sensitivity. These interactions are critical for understanding disease progression and therapeutic targeting (Stockwell et al., 2020; [ 101 ]).",
+      "text": "This other section from the article explores the regulation of ferroptosis, highlighting the balance of pro- and anti-ferroptotic mechanisms, including the roles of iron availability, lipid peroxidation, and key regulators like GPX4 and system Xc-.\n\nFerroptosis, a form of regulated cell death driven by iron-dependent lipid peroxidation, is tightly controlled by the balance between pro-ferroptotic (e.g., iron availability, lipid peroxidation) and anti-ferroptotic (e.g., glutathione peroxidase 4 (GPX4), system Xc-) mechanisms. GPX4, a key regulator, detoxifies lipid peroxides, while system Xc- imports cystine, a precursor for glutathione synthesis, thus preventing ferroptosis (Tang et al., 2021). Iron homeostasis, regulated by proteins like ferritin and transferrin, also plays a crucial role. Physiologically, ferroptosis contributes to development and tissue homeostasis, while pathologically, it's implicated in neurodegenerative diseases, ischemia-reperfusion injury, and cancer. Recent studies emphasize the crosstalk between ferroptosis and other signaling pathways, including NF-\u03baB, p53, and the Keap1-Nrf2 pathway, which modulate its sensitivity. These interactions are critical for understanding disease progression and therapeutic targeting (Stockwell et al., 2020; [ 101 ]).",
       "entities": [
         {
           "text": "ferroptosis",
@@ -4700,9 +4693,9 @@
       "entities": [
         {
           "text": "ferroptosis",
-          "type": "DISEASE",
-          "id": "D000079403",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         },
         {
@@ -4799,7 +4792,7 @@
       "subsection_title": "Biochemical Indications",
       "paragraph_index": 2,
       "parent_section_id": "sec0024",
-      "text": "This subsection from the Morphological and biochemical indications of Ferroptosis section discusses the biochemical indicators of ferroptosis, specifically reduced glutathione levels and increased iron levels, which are critical in understanding oxidative stress and lipid peroxidation.\n\nReduced Glutathione Levels : Ferroptotic cells often exhibit decreased levels of glutathione (GSH), a crucial antioxidant that helps protect against oxidative stress [ 40 ]. Increased Iron Levels: Ferroptosis is associated with elevated intracellular iron levels, which catalyze the formation of reactive oxygen species (ROS) and contribute to lipid peroxidation (Endale et al., 2023). Impaired Antioxidant Systems: The ferroptotic process involves the dysfunction of antioxidant systems, particularly the glutathione peroxidase 4 (GPX4) enzyme, which normally reduces lipid hydroperoxides. Inhibition or depletion of GPX4 is a key trigger of ferroptosis [ 93 ]. Altered Metabolism: Changes in metabolic pathways related to iron metabolism and lipid synthesis can be indicative of ferroptosis. For example, inhibition of cysteine uptake and disruption of the cystine-glutamate antiporter (system Xc⁻) can contribute to ferroptosis [ 80 ].",
+      "text": "This subsection from the Morphological and biochemical indications of Ferroptosis section discusses the biochemical indicators of ferroptosis, specifically reduced glutathione levels and increased iron levels, which are critical in understanding oxidative stress and lipid peroxidation.\n\nReduced Glutathione Levels : Ferroptotic cells often exhibit decreased levels of glutathione (GSH), a crucial antioxidant that helps protect against oxidative stress [ 40 ]. Increased Iron Levels: Ferroptosis is associated with elevated intracellular iron levels, which catalyze the formation of reactive oxygen species (ROS) and contribute to lipid peroxidation (Endale et al., 2023). Impaired Antioxidant Systems: The ferroptotic process involves the dysfunction of antioxidant systems, particularly the glutathione peroxidase 4 (GPX4) enzyme, which normally reduces lipid hydroperoxides. Inhibition or depletion of GPX4 is a key trigger of ferroptosis [ 93 ]. Altered Metabolism: Changes in metabolic pathways related to iron metabolism and lipid synthesis can be indicative of ferroptosis. For example, inhibition of cysteine uptake and disruption of the cystine-glutamate antiporter (system Xc\u207b) can contribute to ferroptosis [ 80 ].",
       "entities": [
         {
           "text": "Ferroptosis",
@@ -4824,9 +4817,9 @@
         },
         {
           "text": "reactive oxygen species",
-          "type": "CHEMICAL",
-          "id": "D017382",
-          "ontology": "MeSH",
+          "type": "BIOLOGICAL_PROCESS",
+          "id": null,
+          "ontology": null,
           "source": "gpt"
         }
       ],
@@ -4895,7 +4888,7 @@
       "subsection_title": "Mediators of Ferroptosis",
       "paragraph_index": 3,
       "parent_section_id": "sec0024",
-      "text": "This subsection from the article discusses the mediators of ferroptosis, highlighting the roles of iron and the cystine-glutamate antiporter in the biochemical processes leading to this form of cell death.\n\nFor example, inhibition of cysteine uptake and disruption of the cystine-glutamate antiporter (system Xc⁻) can contribute to ferroptosis [ 80 ]. ### Mediators of Ferroptosis\n\n1. Iron: Ferroptosis depends on intracellular iron buildup. Lipid peroxidation is catalyzed by iron through the Fenton process, which produces reactive oxygen species (ROS) [ 73 ]. 2. System Xc: a glutamate/cysteine antiporter that provides cysteine for the production of GSH. Its suppression increases ferroptosis and reduces GSH production [ 49 ]. 3. P53: The tumor suppressor protein p53 can regulate ferroptosis by modulating the expression of genes involved in iron metabolism and lipid peroxidation [ 42 ]. 4. ROS: A key mechanism of ferroptosis is the production of reactive oxygen species (ROS), especially lipid peroxides. The iron-catalyzed processes that produce this ROS led to cellular damage [ 78 ].",
+      "text": "This subsection from the article discusses the mediators of ferroptosis, highlighting the roles of iron and the cystine-glutamate antiporter in the biochemical processes leading to this form of cell death.\n\nFor example, inhibition of cysteine uptake and disruption of the cystine-glutamate antiporter (system Xc\u207b) can contribute to ferroptosis [ 80 ]. ### Mediators of Ferroptosis\n\n1. Iron: Ferroptosis depends on intracellular iron buildup. Lipid peroxidation is catalyzed by iron through the Fenton process, which produces reactive oxygen species (ROS) [ 73 ]. 2. System Xc: a glutamate/cysteine antiporter that provides cysteine for the production of GSH. Its suppression increases ferroptosis and reduces GSH production [ 49 ]. 3. P53: The tumor suppressor protein p53 can regulate ferroptosis by modulating the expression of genes involved in iron metabolism and lipid peroxidation [ 42 ]. 4. ROS: A key mechanism of ferroptosis is the production of reactive oxygen species (ROS), especially lipid peroxides. The iron-catalyzed processes that produce this ROS led to cellular damage [ 78 ].",
       "entities": [
         {
           "text": "ferroptosis",
@@ -4919,7 +4912,7 @@
           "source": "gpt"
         },
         {
-          "text": "system Xc⁻",
+          "text": "system Xc\u207b",
           "type": "PROTEIN",
           "id": null,
           "ontology": null,
@@ -4978,13 +4971,13 @@
           "evidence": "Lipid peroxidation is catalyzed by iron... which produces reactive oxygen species (ROS)."
         },
         {
-          "subject": "system Xc⁻",
+          "subject": "system Xc\u207b",
           "predicate": "supports",
           "object": "GSH",
           "evidence": "a glutamate/cysteine antiporter that provides cysteine for the production of GSH."
         },
         {
-          "subject": "system Xc⁻",
+          "subject": "system Xc\u207b",
           "predicate": "enables",
           "object": "ferroptosis",
           "evidence": "Its suppression increases ferroptosis."
@@ -6042,7 +6035,7 @@
       "subsection_title": null,
       "paragraph_index": 0,
       "parent_section_id": "sec0039a",
-      "text": "This CRediT authorship contribution statement section from the article details the specific roles and contributions of the authors, including writing, supervision, methodology, and funding acquisition related to the research on ferroptosis in cancer therapy.\n\nOluwafemi Adeleke Ojo: Writing – review & editing, Writing – original draft, Supervision, Project administration, Methodology, Investigation, Funding acquisition, Conceptualization. Susan Grant: Writing – original draft, Validation, Resources, Project administration, Methodology, Investigation, Formal analysis. Pearl Ifunanya Nwafor-Ezeh: Writing – original draft, Visualization, Validation, Project administration, Methodology, Investigation, Formal analysis. Tobiloba Christiana Maduakolam-Aniobi: Writing – review & editing, Writing – original draft, Visualization, Validation, Project administration, Methodology, Investigation. Tolulope Isaiah Akinborode: Writing – original draft, Visualization, Validation, Project administration, Methodology, Investigation. Emmanuel Henry Ezenabor: Writing – original draft, Visualization, Validation, Software, Resources, Project administration, Methodology. Adebola Busola Ojo: Writing – review & editing, Writing – original draft, Visualization, Validation, Software, Project administration, Methodology.",
+      "text": "This CRediT authorship contribution statement section from the article details the specific roles and contributions of the authors, including writing, supervision, methodology, and funding acquisition related to the research on ferroptosis in cancer therapy.\n\nOluwafemi Adeleke Ojo: Writing \u2013 review & editing, Writing \u2013 original draft, Supervision, Project administration, Methodology, Investigation, Funding acquisition, Conceptualization. Susan Grant: Writing \u2013 original draft, Validation, Resources, Project administration, Methodology, Investigation, Formal analysis. Pearl Ifunanya Nwafor-Ezeh: Writing \u2013 original draft, Visualization, Validation, Project administration, Methodology, Investigation, Formal analysis. Tobiloba Christiana Maduakolam-Aniobi: Writing \u2013 review & editing, Writing \u2013 original draft, Visualization, Validation, Project administration, Methodology, Investigation. Tolulope Isaiah Akinborode: Writing \u2013 original draft, Visualization, Validation, Project administration, Methodology, Investigation. Emmanuel Henry Ezenabor: Writing \u2013 original draft, Visualization, Validation, Software, Resources, Project administration, Methodology. Adebola Busola Ojo: Writing \u2013 review & editing, Writing \u2013 original draft, Visualization, Validation, Software, Project administration, Methodology.",
       "entities": [
         {
           "text": "ferroptosis",
@@ -6116,25 +6109,25 @@
           "subject": "Oluwafemi Adeleke Ojo",
           "predicate": "supports",
           "object": "writing",
-          "evidence": "Oluwafemi Adeleke Ojo: Writing – review & editing, Writing – original draft..."
+          "evidence": "Oluwafemi Adeleke Ojo: Writing \u2013 review & editing, Writing \u2013 original draft..."
         },
         {
           "subject": "Susan Grant",
           "predicate": "supports",
           "object": "writing",
-          "evidence": "Susan Grant: Writing – original draft..."
+          "evidence": "Susan Grant: Writing \u2013 original draft..."
         },
         {
           "subject": "Pearl Ifunanya Nwafor-Ezeh",
           "predicate": "supports",
           "object": "writing",
-          "evidence": "Pearl Ifunanya Nwafor-Ezeh: Writing – original draft..."
+          "evidence": "Pearl Ifunanya Nwafor-Ezeh: Writing \u2013 original draft..."
         },
         {
           "subject": "Tobiloba Christiana Maduakolam-Aniobi",
           "predicate": "supports",
           "object": "writing",
-          "evidence": "Tobiloba Christiana Maduakolam-Aniobi: Writing – review & editing, Writing – original draft..."
+          "evidence": "Tobiloba Christiana Maduakolam-Aniobi: Writing \u2013 review & editing, Writing \u2013 original draft..."
         }
       ]
     },
